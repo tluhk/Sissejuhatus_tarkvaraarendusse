@@ -1,0 +1,4 @@
+# Arendusmeetodid
+
+- Kosemeetod
+- Agiilne
