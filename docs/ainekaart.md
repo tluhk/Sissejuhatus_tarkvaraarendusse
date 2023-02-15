@@ -4,7 +4,7 @@
 |---|---|
 |Õppeaine nimetus eesti k: | Sissejuhatus tarkvaraarendusse |
 | Õppeaine nimetus inglise k: | Introduction to Software Engineering |
-| Õppeaine maht EAP: | 5.0 |
+| Õppeaine maht EAP: | 4.0 |
 | Kontrollivorm: | eksam |
 
 ## Õppeaine eesmärgid
@@ -13,20 +13,14 @@ Luua eeldused teadmiste kujunemiseks tarkvaraarenduse protsessist ja arendusmeet
 
 ## Õppeaine sisu lühikirjeldus
 
+- Tarkvara
 - Infosüsteemi mõiste, liigid.
 - Info ja selle kvaliteet.
-- Infosüsteemi seos ettevõtte strateegia ning äriprotsessidega.
 - Infosüsteemi elutsükkel, arendusprotsess.
 - Rollid tarkvaraarenduses.
-- Modelleerimine.
-- Programmeerimiskeelte areng ja kasutusvaldkonnad.
-- Andmete roll ning nende töötlus;
-	- Erinevad andmeformaadid.
-	- Andmetöötluseks vajalikud andmestruktuurid ja algoritmid.
 - Professionaalse arenduse head tavad.
 - Koodi kvaliteedi tagamine, koodi silumine, testimine, vea põhjuste tuvastamine.
 - Lähtekoodi ja versioonide haldamine. 
-- Tegevuse automatiseerimine.
 - Arendusmeetodite võrdlus ja agiilsete meetodite lühiülevaade.
 
 ## Õppeaine õpiväljundid
@@ -36,9 +30,6 @@ Luua eeldused teadmiste kujunemiseks tarkvaraarenduse protsessist ja arendusmeet
 - kirjeldab erinevaid rolle tarkvaraarenduses
 - kasutab erinevates arenduse õppeainetes koodihalduskeskkonda
 - kasutab arenduse õppeainetes koodi kvaliteedi tagamiseks vähemalt ühte tööriista
-
-
-## Võimaikud teemad
 
 ### Mis on siiani probleemid olnud?
 
