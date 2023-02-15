@@ -60,16 +60,17 @@ Funktsioonide haru töövoog on vaid üks paljudest võimalikest Giti töövoogu
 
 ## Git-i paigaldamine arvutisse
 
+Giti kasutamiseks arvutis tuleb kõigepealt paigaldada oma arvutisse Giti tarkvara ja see seadistada. 
 
-## Git-i kasutamine
+1. Laadige alla ja installige Git: Giti tarkvara saate alla laadida ametlikult veebisaidilt (https://git-scm.com/downloads). Kui olete installiprogrammi alla laadinud, käivitage see ja järgige installimisprotsessi lõpuleviimiseks installiviisardi juhiseid.
 
-- Käsurida
-- Graafiline kasutajaliides
+2. Giti konfigureerimine: pärast Giti installimist peate selle konfigureerima oma giti kasutajanime ja e-posti aadressiga. Seda teavet kasutatakse teie tuvastamiseks, kui teete koodis muudatusi. Kasutajanime ja e-posti konfigureerimiseks tuleb käsurealt sisestada järgmised käsud:
 
-- Repositoorium
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+```
 
-- Koostöös giti kasutamine
-  - koduste tööde esitamine gitis
-  - rühmatööna
-  - kõigilt mingi commit, pull request vms
-  - 
+Soovi korral on võimalik giti kasutamiseks paigaldada arvutisse ka graafilise kasutajaliidesega tööriist, mis võimaldab paremat kasutajakogemust eriti algajatele kasutajatele, kes ei tunne ennast käsurea kasutamisel väga kindalt.
+
+Graafilisi kasutajaliidesega tööriistu on mitmeid, kuid üks variant on näiteks tasuta tööriist Github Desktop, mille saab alla laadida siit: https://desktop.github.com/
