@@ -2,7 +2,7 @@
 
 Tarkvaraarenduse elutsükkel (SDLC) on protsess, mida tarkvaratööstus kasutab kvaliteetse tarkvara kavandamiseks, arendamiseks ja testimiseks. SDLC eesmärk on toota kvaliteetset tarkvara, mis vastab või ületab klientide ootusi, jõuab lõpule ettenähtud aja ja kuluprognooside jooksul.
 
--  SDLC on tarkvaraarenduse elutsükli akronüüm.
+- SDLC on tarkvaraarenduse elutsükli akronüüm.
 - Seda nimetatakse ka tarkvaraarendusprotsessiks.
 - SDLC on raamistik, mis määratleb tarkvaraarenduse protsessi igas etapis tehtavad ülesanded.
 - [ISO/IEC 12207](https://www.iso.org/standard/43447.html) on tarkvara elutsükli protsesside rahvusvaheline standard. Selle eesmärk on olla standard, mis määratleb kõik tarkvara arendamiseks ja hooldamiseks vajalikud ülesanded.
