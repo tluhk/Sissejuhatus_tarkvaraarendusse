@@ -6,6 +6,6 @@
 - [Tarkvaraarenduse elutsükkel](../../concepts/SDLC/about.md)
 - [Git](../../concepts/git/about.md)
 - [Github](../../concepts/github/readme.md)
-- 
+- [.gitignore](../../concepts/gitignore/about.md)
 
 ## Kodune töö
