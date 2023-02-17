@@ -10,6 +10,8 @@ Tarkvaraarenduses on kasutusel palju erinevaid tööriistu, kuid mõned levinuma
 
 - **Versioonikontrollisüsteemid (VCS):** VCS-i tööriistu kasutatakse koodis aja jooksul tehtud muudatuste jälgimiseks, teiste arendajatega koostöö tegemiseks ja koodiväljaannete haldamiseks. Git on üks populaarsemaid VCS-i tööriistu, kuid muude valikute hulka kuuluvad näiteks Subversion, Mercurial ja Perforce.
 
+- **Prototüüpimise tööriistad:** Prototüüpimise tööriistad on tarkvaraarenduse oluline tööriistade klass, mis aitab arendajatel kiiresti luua ja testida interaktiivse kasutajaliidese (User Interface - UI) kujundusi, ilma et oleks vaja kodeerida. Prototüüpimise tööriistad võimaldavad arendajatel luua kasutajaliideste ja töövoogude realistlikke simulatsioone, mida saab kasutada sidusrühmadelt tagasiside kogumiseks, kasutatavuse testimiseks ja kujunduste itereerimiseks enne koodi kirjutamist.
+
 - **Projektihalduse ja probleemide jälgimise tööriistad:** neid tööriistu kasutatakse ülesannete haldamiseks, edenemise jälgimiseks ja meeskonnaliikmetega suhtlemiseks. Populaarsed valikud on:
   - Jira
   - Trello
