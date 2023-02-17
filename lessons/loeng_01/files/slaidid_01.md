@@ -45,3 +45,11 @@ martti.raavel@tlu.ee
 - 75% punktidest kohapeal tehtav ülesanne avatud materjalidega
 
 ---
+# Mis on tarkvara?
+
+---
+# Mis on tarkvara?
+
+Tarkvara on juhiste või programmide kogum, mis on loodud arvutisüsteemis konkreetsete ülesannete või funktsioonide täitmiseks. See on programmide, andmete ja juhiste kogum, mis ütleb arvutile, mida ja kuidas teha.
+
+---

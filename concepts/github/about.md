@@ -8,7 +8,7 @@ GitHub pakub tarkvaraarenduse toetamiseks palju funktsioone, sealhulgas:
 
 - **Koostöötööriistad:** GitHub pakub koostöötööriistu, nagu koodi ülevaatus, probleemide jälgimine ja projektihaldusfunktsioonid, mis aitavad arendajatel tõhusamalt koostööd teha.
 
-- **Juurdepääsu juhtimine:** GitHub võimaldab arendajatel juhtida juurdepääsu oma hoidlatele, haldades kaastöötajate ja kaasautorite õigusi.
+- **Juurdepääsu juhtimine:** GitHub võimaldab arendajatel juhtida juurdepääsu oma hoidlatele, hallades kaastöötajate ja kaasautorite õigusi.
 
 - **Integratsioonid:** GitHub integreerub paljude teiste tarkvaraarendustööriistadega, sealhulgas pideva integreerimise ja juurutamise teenustega, projektihaldustööriistadega ja koodiredaktoritega.
 

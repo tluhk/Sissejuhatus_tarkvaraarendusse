@@ -1,5 +1,9 @@
 # Git
 
+![In case of fire](files/in-case-of-fire-1-git-commit-2-git-push-3-leave-building2.png)
+
+[Pildi allikas](https://hikaruzone.wordpress.com/2015/10/06/in-case-of-fire-1-git-commit-2-git-push-3-leave-building/)
+
 ## Mis on git?
 
 Git on hajutatud versioonihaldussüsteem, mis on loodud tarkvara arendamise käigus lähtekoodi muutuste jälgimiseks. Selle töötas välja 2005. aastal Linuxi operatsioonisüsteemi looja Linus Torvalds ja sellest ajast on saanud üks enimkasutatavaid versioonihaldussüsteeme maailmas.
@@ -74,3 +78,7 @@ git config --global user.email "your-email@example.com"
 Soovi korral on võimalik giti kasutamiseks paigaldada arvutisse ka graafilise kasutajaliidesega tööriist, mis võimaldab paremat kasutajakogemust eriti algajatele kasutajatele, kes ei tunne ennast käsurea kasutamisel väga kindalt.
 
 Graafilisi kasutajaliidesega tööriistu on mitmeid, kuid üks variant on näiteks tasuta tööriist Github Desktop, mille saab alla laadida siit: https://desktop.github.com/
+
+## Cheatsheet
+
+- Käsurealt kasutatavate käskude [*cheatsheet*](https://education.github.com/git-cheat-sheet-education.pdf)
