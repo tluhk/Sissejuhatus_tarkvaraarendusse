@@ -35,17 +35,16 @@ martti.raavel@tlu.ee
 
 - Kohustuslikud
 - Tähtajaks!
-- Kuni 25% lõpptulemusest
+- Kuni 50% lõpptulemusest
 - Vigade leidmine materjalidest annab lisaboonust
+- Materjalide täiendamine alnnab lisaboonust
 
 ---
 # Hindamine
-- Eksam
-- 25% punktidest kodused tööd
-- 75% punktidest kohapeal tehtav ülesanne avatud materjalidega
 
----
-# Mis on tarkvara?
+- Eksam
+  - 50% punktidest kodused tööd
+  - 50% punktidest kohapeal tehtav avatud ja valikvastustega test
 
 ---
 # Mis on tarkvara?

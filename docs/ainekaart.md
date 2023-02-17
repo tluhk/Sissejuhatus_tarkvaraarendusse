@@ -31,3 +31,8 @@ Luua eeldused teadmiste kujunemiseks tarkvaraarenduse protsessist ja arendusmeet
 - kasutab erinevates arenduse õppeainetes koodihalduskeskkonda
 - kasutab arenduse õppeainetes koodi kvaliteedi tagamiseks vähemalt ühte tööriista
 
+## Hindamine
+
+- Eksam
+  - 50% punktidest kodused tööd
+  - 50% punktidest kohapeal tehtav avatud ja valikvastustega test
