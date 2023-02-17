@@ -11,6 +11,7 @@
 - [Git](../../concepts/git/about.md)
 - [Github](../../concepts/github/readme.md)
 - [.gitignore](../../concepts/gitignore/about.md)
+- [Github issue](../../concepts/githubIssue/readme.md)
 
 ## Mida veel materjalidesse lisada
 
