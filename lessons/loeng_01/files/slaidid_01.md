@@ -252,7 +252,6 @@ GitHub on veebipõhine platvorm, mida kasutatakse versioonikontrolliks ja koost�
 ---
 # Koduste tööde reposse oma kausta tegemine
 
-- Fork
 - Clone
 - Tee kaust Eesnimi_Perekonnanimi
 - Sinna alla loo fail README.md, sinna lisa oma nimi
@@ -265,7 +264,14 @@ GitHub on veebipõhine platvorm, mida kasutatakse versioonikontrolliks ja koost�
 - Pull request
 
 ---
+# .gitignore
+
+`.gitignore` on konfiguratsioonifail, mida Git kasutab, et määrata, millised failid ja kataloogid tuleks versioonihaldussüsteemist välja jätta.
+
+---
 # Markdown
+
+Markdown on märgendikeel, mis võimaldab kasutajatel kirjutada lihtteksti ja vormindada seda lihtsa süntaksiga, et luua dokumente, mida on lihtne lugeda ja kirjutada.
 
 ---
 # Kodune töö
