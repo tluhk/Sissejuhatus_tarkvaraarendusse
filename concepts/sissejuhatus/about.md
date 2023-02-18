@@ -33,7 +33,7 @@ Kodused tööd tuleb esitada ettenähtud tähtajaks.
 
 ## Hindamine
 
-- Õppeaine on arvestuslik.
+- Õppeaine on hindeline.
 - Arvestusele pääsemise eelduseks on koduste tööde tähtaegne esitamine.
 - Kodused tööd moodustavad kuni 25% arvestuse lõpptulemusest.
 - Arvestus koosneb kohapeal tehtavast vabade ja valikvastustega testist (moodustab kuni 75% lõpptulemusest).
