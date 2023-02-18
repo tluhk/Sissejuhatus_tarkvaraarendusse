@@ -4,6 +4,8 @@ Esimese loengu eesmärk on arutleda selle üle, mis on üldse tarkvara ja kuidas
 
 [Esimese loengu slaidid](files/slaidid_01.pdf)
 
+[Esimese loengu salvestus](https://zoom.us/rec/share/SViPF6fkZBgCELDgLUsljbO173iqfRdaD1p1FKgGumDkcq6Mj09OCNXZBiHmXAHD.uB6YaLTZKXTFtznx?startTime=1676720682000) - Parool: 8DJz.+@9
+
 ## Esimese loengu teemad:
 
 - [Sissejuhatus](../../concepts/sissejuhatus/about.md)
@@ -18,6 +20,17 @@ Esimese loengu eesmärk on arutleda selle üle, mis on üldse tarkvara ja kuidas
 
 ## Mida veel materjalidesse lisada
 
-Loengus ette tulnud küsimused, mida hetkel materjalides ei ole käsitletud.
+- XML
 
 ## Kodune töö
+
+Tähtajad vastavalt Programmeerimine I aine [tähtaegadele](https://github.com/tluhk/Programmeerimine_I/blob/master/lessons/loeng_02/about.md#kodune-t%C3%B6%C3%B6).
+
+- Endanimelises kaustas README.md lühikese ülevaade oma kodutööde kohta
+  - Kuidas ülesande lahendamisele lähenesid
+  - Kas oli probleeme
+  - Kuidas probleemid lahendasid
+- Programmeerimine I ülesanded
+- Oma Programmeerimine I kausta
+  - Kodune_1
+  - Kodune_2
