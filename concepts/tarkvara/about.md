@@ -1,10 +1,5 @@
 # Tarkvara
 
-- Mis on tarkvara?
-- Kuidas tekib?
-- Kuidas teha?
-- Keerukus sellega seoses?
-
 Selleks, et saaksime rääkida tarkvaraarendusest, peame kõigepealt mõistma, mis on tarkvara.
 
 ## Mis on tarkvara?
@@ -20,6 +15,7 @@ Tarkvara võib liigitada erinevate tüüpide alusel, nagu näiteks:
 - jne.
 
 Tarkvara luuakse tavaliselt tarkvaraarendajate poolt (kasutades selleks erinevaid programmeerimiskeeli) ja lõppkasutajad kasutavad seda erinevatel eesmärkidel. Näiteks:
+
 - andmete haldamine;
 - dokumentide loomine;
 - graafika kujundamine;

@@ -12,7 +12,7 @@ Versioonikontroll on oluline mitmel põhjusel.
 
 2. **Ajalugu ja jälgimine:** versioonikontrollisüsteemid jälgivad failides aja jooksul tehtud muudatusi, pakkudes muudatuste ajalugu, mille abil saab mõista, kuidas kood on aja jooksul arenenud. See on oluline silumiseks, tõrkeotsinguks ja auditeerimiseks.
 
-3. **Muudatuste tagasivõtmine ja tagasivõtmine:** versioonikontrollisüsteemid muudavad muudatuste tagasipööramise või ekslikult tehtud muudatuste tagasivõtmise lihtsaks. See võib olla väga oluline hetkel, kui koodibaasi siseneb kriitiline viga ja see tuleb kiiresti parandada.
+3. **Muudatuste tagasivõtmine:** versioonikontrollisüsteemid muudavad muudatuste tagasipööramise või ekslikult tehtud muudatuste tagasivõtmise lihtsaks. See võib olla väga oluline hetkel, kui koodibaasi siseneb kriitiline viga ja see tuleb kiiresti parandada.
 
 4. **Hargnemine ja ühendamine:** versioonikontrollisüsteemid võimaldavad arendajatel töötada samaaegselt mitme koodibaasi versiooniga. Seda tehakse harude loomisega, mis on koodi iseseisvad koopiad, millega saab eraldi töötada. Kui harus tehtud muudatused on põhikoodibaasi lisamiseks valmis, saab need omavahel uuesti ühendada.
 

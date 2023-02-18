@@ -82,3 +82,6 @@ Graafilisi kasutajaliidesega tööriistu on mitmeid, kuid üks variant on näite
 ## Cheatsheet
 
 - Käsurealt kasutatavate käskude [*cheatsheet*](https://education.github.com/git-cheat-sheet-education.pdf)
+
+Allikad:
+- https://www.syncfusion.com/succinctly-free-ebooks/github-succinctly/git-a-brief-overview
