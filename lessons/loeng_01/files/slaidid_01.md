@@ -9,8 +9,15 @@ martti.raavel@tlu.ee
 ---
 # Esimene loeng
 
-- Sissejuhatus
-- Tarkvara
+- [Sissejuhatus](../../concepts/sissejuhatus/about.md)
+- [Tarkvara](../../concepts/tarkvara/about.md)
+- [Tarkvaraarendus](../../concepts/tarkvaraarendus/about.md)
+- [Tarkvaraarenduse elutsükkel](../../concepts/SDLC/about.md)
+- [Git](../../concepts/git/about.md)
+- [Github](../../concepts/github/readme.md)
+- [.gitignore](../../concepts/gitignore/about.md)
+- [Mardown](../../concepts/markdown/about.md)
+- [Github issue](../../concepts/githubIssue/readme.md)
 
 
 ---
@@ -274,8 +281,17 @@ GitHub on veebipõhine platvorm, mida kasutatakse versioonikontrolliks ja koost�
 Markdown on märgendikeel, mis võimaldab kasutajatel kirjutada lihtteksti ja vormindada seda lihtsa süntaksiga, et luua dokumente, mida on lihtne lugeda ja kirjutada.
 
 ---
+# Githbu Issue
+
+GitHubi kontekstis on *issue* omadus, mis võimaldab kasutajatel jälgida konkreetse hoidla ülesandeid, vigu ja funktsioonitaotlusi
+
+---
 # Kodune töö
 
+- Endanimelises kaustas README.md lühikese ülevaade oma kodutööde kohta
+  - Kuidas ülesande lahendamisele lähenesid
+  - Kas oli probleeme
+  - Kuidas probleemid lahendasid
 - Programmeerimine I ülesanded
 - Oma Programmeerimine I kausta
   - Kodune_1
