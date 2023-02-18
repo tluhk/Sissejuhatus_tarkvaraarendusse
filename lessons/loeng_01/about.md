@@ -18,6 +18,9 @@ Esimese loengu eesmärk on arutleda selle üle, mis on üldse tarkvara ja kuidas
 - [Markdown](../../concepts/markdown/about.md)
 - [Github issue](../../concepts/githubIssue/readme.md)
 
+![Tarkvaraarenduse elutsükkel](files/image1.jpeg)
+![Git](files/image0.jpeg)
+
 ## Mida veel materjalidesse lisada
 
 - XML
