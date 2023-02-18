@@ -193,7 +193,7 @@ Git on hajutatud versioonihaldussüsteem, mis on loodud tarkvara arendamise käi
 ---
 # Git-i töövoog
 
-Giti töövoog on parimate tavade ja juhiste kogum Giti kasutamiseks koodimuudatuste haldamiseks. Giti töövooge on palju, kuid kõige levinumat neist nimetatakse *feature branch flow*,
+Giti töövoog on parimate tavade ja juhiste kogum Giti kasutamiseks koodimuudatuste haldamisel. Giti töövooge on palju, kuid kõige levinumat neist nimetatakse *feature branch flow*,
 
 ---
 # Feature branch flow
