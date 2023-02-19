@@ -27,6 +27,16 @@ Esimese loengu eesmärk on arutleda selle üle, mis on üldse tarkvara ja kuidas
 
 ## Kodune töö
 
+Kes loengus ei olnud, siis kõigepealt tuleb teha koduste tööde [repositooriumisse](https://github.com/tluhk/RIF22_kodutood):
+
+- Oma nimega branch kujul: Eesnimi_Perekonnanimi
+- Kaust Eesnimi_Perekonnanimi
+- Sinna alla loo fail README.md, mille sisse lisa oma nimi
+- Loo kaust Programmeerimine_I
+- Sinna alla loo fail README.md
+- Loo kaust SJTA
+- Sinna alla loo fail README.md
+
 Tähtajad vastavalt Programmeerimine I aine [tähtaegadele](https://github.com/tluhk/Programmeerimine_I/blob/master/lessons/loeng_02/about.md#kodune-t%C3%B6%C3%B6).
 
 - Endanimelises kaustas README.md lühikese ülevaade oma kodutööde kohta

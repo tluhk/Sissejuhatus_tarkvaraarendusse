@@ -293,6 +293,6 @@ GitHubi kontekstis on *issue* omadus, mis võimaldab kasutajatel jälgida konkre
   - Kas oli probleeme
   - Kuidas probleemid lahendasid
 - Programmeerimine I ülesanded
-- Oma Programmeerimine I kausta
+- Omamnimelisse kasutas olevasse Programmeerimine_I kausta
   - Kodune_1
   - Kodune_2
