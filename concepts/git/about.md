@@ -42,6 +42,24 @@ Need on vaid mõned peamised Gitiga seotud sõnavaraterminid. Terminite ja nende
 
 ## Giti töövoog
 
+```mermaid
+    gitGraph
+       commit id: "Create project"
+       commit id: "Project base"
+       branch nice_feature_branch
+       checkout nice_feature_branch
+       commit id: "Add frontend boilerplate"
+       checkout nice_feature_branch
+       commit id: "Test frontend with API"
+       checkout nice_feature_branch
+       commit id: "Add frontend tests"
+       checkout main
+       merge nice_feature_branch id: "Basic frontend" tag: "Version 1:0"
+       commit id: "Create documentation"
+       checkout main
+       commit id: "Update documentation"
+```
+
 Giti töövoog on parimate tavade ja juhiste kogum Giti kasutamiseks koodimuudatuste haldamiseks. Giti töövooge on palju, kuid kõige levinumat neist nimetatakse **funktsioonide haru töövoogudeks**, mida kirjeldatakse allpool:
 
 - **Looge uus haru (branch):** alustage koodibaasi uue haru loomisega uue funktsiooni või veaparanduse jaoks, millega töötate. See hoiab muudatused peamisest koodibaasist eraldatuna, kuni need on ühendamiseks valmis.
