@@ -23,7 +23,7 @@ Esimese loengu eesmärk on arutleda selle üle, mis on üldse tarkvara ja kuidas
 
 ## Mida veel materjalidesse lisada
 
-- XML
+- [XML](https://github.com/tluhk/Programmeerimine_I/blob/master/concepts/xml/about.md)
 
 ## Kodune töö
 
