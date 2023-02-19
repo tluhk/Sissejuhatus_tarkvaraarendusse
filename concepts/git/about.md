@@ -50,11 +50,11 @@ Need on vaid mõned peamised Gitiga seotud sõnavaraterminid. Terminite ja nende
        checkout nice_feature_branch
        commit id: "Add frontend boilerplate"
        checkout nice_feature_branch
-       commit id: "Test frontend with API"
+       commit id: "Connect frontend with API"
        checkout nice_feature_branch
        commit id: "Add frontend tests"
        checkout main
-       merge nice_feature_branch id: "Basic frontend" tag: "Version 1:0"
+       merge nice_feature_branch id: "Basic frontend" tag: "Version 1.0"
        commit id: "Create documentation"
        checkout main
        commit id: "Update documentation"
