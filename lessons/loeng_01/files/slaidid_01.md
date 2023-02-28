@@ -281,7 +281,7 @@ GitHub on veebip천hine platvorm, mida kasutatakse versioonikontrolliks ja koost�
 Markdown on m채rgendikeel, mis v천imaldab kasutajatel kirjutada lihtteksti ja vormindada seda lihtsa s체ntaksiga, et luua dokumente, mida on lihtne lugeda ja kirjutada.
 
 ---
-# Githbu Issue
+# Github Issue
 
 GitHubi kontekstis on *issue* omadus, mis v천imaldab kasutajatel j채lgida konkreetse hoidla 체lesandeid, vigu ja funktsioonitaotlusi
 
