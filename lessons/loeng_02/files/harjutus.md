@@ -35,4 +35,5 @@ graph TD
 
 ## Et ei juhtuks nii ...
 
-![Projekti juthimine](Tree.jpg)
+![Projekti juthimine](Tree.jpg)  
+[Pildi allikas](https://pmac-agpc.ca/sites/default/files/Tree.jpg)
