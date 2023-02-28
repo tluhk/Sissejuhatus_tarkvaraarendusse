@@ -37,3 +37,23 @@ graph TD
 
 ![Projekti juthimine](Tree.jpg)  
 [Pildi allikas](https://pmac-agpc.ca/sites/default/files/Tree.jpg)
+
+## Planeerimine
+
+- Milleks?
+- Mida?
+
+## Nõuded
+
+- Mida on kindlasti vaja?
+- Mis oleks tore, kui oleks olemas?
+- Soov ei võrdu vajadus!
+- Nõuete prioritiseerimine
+
+## Disain
+
+- Mis andmeid on vaja?
+- Kust neid saab?
+- Kas midagi on vaja endale salvestada?
+- Kui on vaja salvestada, siis kuhu ja kuidas?
+- [UX/UI prototüüp](../../../concepts/prototyypimine/about.md)
