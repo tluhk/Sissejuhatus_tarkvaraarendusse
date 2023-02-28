@@ -1,6 +1,6 @@
 # Sissejuhatus tarkvaraarendusse
 
-Tegemist on Haapsalu kolledži Rakendusinformaatika õppekava õppeaine Sissejuhatus tarkvaraarendusse repositooriumiga. Repositoorium täieneb jooksvalt kursuse käigus. Repositooriumis saavad olema õppematerjalid, ülesanded, viited välistele allikatele/materjalidele jne.
+Tegemist on Haapsalu kolledži Rakendusinformaatika õppekava kohustusliku õppeaine Sissejuhatus tarkvaraarendusse repositooriumiga. Repositoorium täieneb jooksvalt kursuse käigus. Repositooriumis saavad olema õppematerjalid, ülesanded, viited välistele allikatele/materjalidele jne.
 
 Repositooriumi struktuur saab olema vastavalt loengutele ja õppematerjalide läbitöötamine peaks toimuma vastavalt loengute järjekorrale.
 
