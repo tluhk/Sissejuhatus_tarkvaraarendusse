@@ -19,7 +19,7 @@ Lisaks räägime tarkvaraarenduse metoodikatest ja koodi kvaliteedist.
 - [Kodused tööd](../../docs/kodusedtood/kodune_01_tagasiside.md)
 - [.gitignore](../../.gitignore)
 - [Markdown](../../concepts/markdown/about.md)
-- Harjutus nõuete väljaselgitamiseks
+- [Harjutus nõuete väljaselgitamiseks](files/harjutus.md)
 - Tarkvaraarenduse metoodikad
 - [Koodi kvaliteet](../../concepts/koodikvaliteet/about.md)
 

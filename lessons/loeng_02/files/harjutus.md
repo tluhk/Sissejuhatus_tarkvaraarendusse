@@ -20,3 +20,19 @@
 - Kuidas andmeid säilitada?
 - Disain?
 - Veel midagi?
+
+## Eelmisest loengust mäletame:
+
+```mermaid
+graph TD
+  A(Planeerimine) --> B(Nõuete määratlemine)
+  B --> C(Disain)
+  C --> D(Arendamine)
+  D --> E(Testimine)
+  E --> F(Käivitamine ja hooldus)
+  F --> A
+```
+
+## Et ei juhtuks nii ...
+
+![Projekti juthimine](Tree.jpg)
