@@ -1,7 +1,7 @@
 # Teine kodune töö
 
 ## Individuaalne
-- [ESLint + Airbnb](../../concepts/eslint/about.md)-i rakendamine `Programmeerimine I` aine kodutöödes
+- [ESLint + Airbnb](../../concepts/eslint/about.md)-i rakendamine [Programmeerimine I](https://github.com/tluhk/Programmeerimine_I) (ja miks mitte ka Veebirakenduste) aine kodutöödes
 
 ## Rühmatööna:
 

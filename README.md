@@ -24,3 +24,6 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 - Kuues loeng
 - Arvestus
 
+## Kodused tööd
+- [Esimene](docs/kodusedtood/kodune_01.md)
+- [Teine](docs/kodusedtood/kodune_02.md)

@@ -16,7 +16,7 @@ martti.raavel@tlu.ee
 - [Git](../../concepts/git/about.md)
 - [Github](../../concepts/github/readme.md)
 - [.gitignore](../../concepts/gitignore/about.md)
-- [Mardown](../../concepts/markdown/about.md)
+- [Markdown](../../concepts/markdown/about.md)
 - [Github issue](../../concepts/githubIssue/readme.md)
 
 

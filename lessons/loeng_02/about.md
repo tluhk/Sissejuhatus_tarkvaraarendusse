@@ -6,7 +6,7 @@ Seejärel vaatame üle teemad, mis olid eelmisse loengusse planeeritud, kuid mid
 
 Järgmisena viime läbi harjutuse, mis sisaldab loodava rakenduse jaoks analüüsi, nõuete määratlemist ja disaini. Harjutuse tulemus on sisendiks Programmeerimine I aines loodava rakenduse jaoks.
 
-Lisaks räägime tarkvaraarenduse metoodikatest ja koodi kvaliteedist.
+Lisaks räägime tarkvaraarenduse meetoditest ja koodi kvaliteedist.
 
 [Teise loengu slaidid](files/slaidid_02.pdf)
 
@@ -20,7 +20,7 @@ Lisaks räägime tarkvaraarenduse metoodikatest ja koodi kvaliteedist.
 - [.gitignore](../../.gitignore)
 - [Markdown](../../concepts/markdown/about.md)
 - [Harjutus nõuete väljaselgitamiseks](files/harjutus.md)
-- Tarkvaraarenduse metoodikad
+- [Tarkvaraarenduse meetodid](../../concepts/meetodid/about.md)
 - [Koodi kvaliteet](../../concepts/koodikvaliteet/about.md)
 
 ## Mida veel materjalidesse lisada
