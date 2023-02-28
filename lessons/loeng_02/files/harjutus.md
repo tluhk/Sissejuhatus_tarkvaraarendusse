@@ -57,3 +57,14 @@ graph TD
 - Kas midagi on vaja endale salvestada?
 - Kui on vaja salvestada, siis kuhu ja kuidas?
 - [UX/UI prototüüp](../../../concepts/prototyypimine/about.md)
+
+## Tulemuse esitamine
+
+```bash
+├── Eesnimi_Perekonnanimi
+│   ├── SJTA
+│   │   ├── Classwork_1
+│   │   │   └── requirements.md
+│   │   └── README.md
+└── README.md
+```
