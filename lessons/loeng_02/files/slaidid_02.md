@@ -53,6 +53,12 @@ Markdown on märgendikeel, mis võimaldab kasutajatel kirjutada lihtteksti ja vo
 
 Harjutame Programmeerimine I aines loodava rakenduse jaoks nõuete paikapanemist, prioritiseerimist ja disaini.
 
+Kuidas me seda teeme?
+
+---
+# Moodustame grupid
+
+
 ---
 # Tarkvaraarenduse meetodid
 
