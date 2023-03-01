@@ -28,3 +28,7 @@ Siin on näide väljamõeldud e-kaubanduse veebisaidi prioriteetsete kasutajalug
 6. Registreeritud kasutajana soovin, et saaksin oma konto andmeid muuta, et saaksin oma andmed ajakohasena hoida.
 
 Selles näites seatakse kasutajate lood järjekorda, lähtudes nende tähtsusest veebisaidi põhifunktsioonide jaoks. Esimesed kolm lugu on keskendunud kaupade otsimise ja ostmise põhiprotsessile, hilisemad lood aga lisafunktsioonidele, mis parandavad kasutajakogemust. See prioritiseeritud nimekiri võib aidata arendusmeeskonnal keskenduda esmalt kõige olulisematele lugudele ja tagada, et veebisaidi põhifunktsioonid on õigesti rakendatud.
+
+## Kasutajaloo mall
+
+[Kasutajaloo mall](files/kasutajalood.pdf)
