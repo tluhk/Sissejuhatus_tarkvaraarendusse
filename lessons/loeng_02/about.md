@@ -21,6 +21,7 @@ Lisaks räägime tarkvaraarenduse meetoditest ja koodi kvaliteedist.
 - [Markdown](../../concepts/markdown/about.md)
 - [Harjutus nõuete väljaselgitamiseks](files/harjutus.md)
 - [Persoona](../../concepts/persoona/about.md)
+- [Stsenaarium](../../concepts/stsenaarium/about.md)
 - [Kasutajalood](../../concepts/kasutajalugu/about.md)
 - [Kasutaja teekond](../../concepts/kasutajateekond/about.md)
 - [Tarkvaraarenduse meetodid](../../concepts/arendusmeetodid/about.md)
