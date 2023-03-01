@@ -11,3 +11,23 @@ Seejärel vali `main` haru ja vajuta nuppu `Create a merge commit`.
 ![Merge 2](../../docs/kodusedtood/files/merge_2.png)
 
 Seejärel võid juba oma harus tehtud muudatused Github-i `push`-ida.
+
+Diagrammi peal näeb protsess välja selline:
+
+```mermaid
+gitGraph
+    commit id: "RIF kodutööd"
+    commit id: "Add README.md"
+    branch Eesnimi_Perekonnanimi
+    commit id: "Kaustade struktuur"
+    checkout main
+    commit id: "Esimese kodutöö testid"
+    checkout Eesnimi_Perekonnanimi
+    merge main
+    commit id: "Esimene kodutöö"
+    checkout main
+    commit id: "Teise kodutöö testid"
+    checkout Eesnimi_Perekonnanimi
+    merge main
+    commit id: "Teine kodutöö"
+```
