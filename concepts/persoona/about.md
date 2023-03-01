@@ -63,3 +63,6 @@ Autor: Julia Sjöberg
 ![Persoona 3](files/persona_3.png)
 Autor: Xtensio
 
+## Persoona koostamise mall
+
+[Persoona mall](files/Persoona.pdf)
