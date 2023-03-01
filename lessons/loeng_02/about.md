@@ -20,6 +20,7 @@ Lisaks räägime tarkvaraarenduse meetoditest ja koodi kvaliteedist.
 - [.gitignore](../../.gitignore)
 - [Markdown](../../concepts/markdown/about.md)
 - [Harjutus nõuete väljaselgitamiseks](files/harjutus.md)
+- [Persoona](../../concepts/persoona/about.md)
 - [Kasutajalood](../../concepts/kasutajalugu/about.md)
 - [Tarkvaraarenduse meetodid](../../concepts/arendusmeetodid/about.md)
 - [Koodi kvaliteet](../../concepts/koodikvaliteet/about.md)
