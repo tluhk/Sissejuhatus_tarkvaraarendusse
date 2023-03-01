@@ -40,6 +40,7 @@ graph TD
 
 ## Planeerimine
 
+- Kellele?
 - Milleks?
 - Mida?
 - Kas midagi on juba olemas?

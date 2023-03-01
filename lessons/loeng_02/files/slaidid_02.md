@@ -58,8 +58,17 @@ Harjutame Programmeerimine I aines loodava rakenduse jaoks nõuete paikapanemist
 Kuidas me seda teeme?
 
 ---
+# Nõuete väljaselgitamine
+
+- Persoona
+- Kasutajalood
+- Stsenaariumid
+- Kasutaja teekond
+
+---
 # Moodustame grupid
 
+[Harjutus](harjutus.md)
 
 ---
 # Tarkvaraarenduse meetodid
