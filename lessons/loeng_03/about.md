@@ -13,6 +13,11 @@ Seejärel räägime pisut täpsemalt erinevatest tarkvaraarendusmeetoditest.
 - [Meenutame eelmist loengut](../loeng_02/about.md)
 - [Kodused tööd](../../docs/kodusedtood/kodune_02_tagasiside.md)
 - [Tarkvaraarenduse meetodid](../../concepts/meetodid/about.md)
+- [Dokumentatsioon](../../concepts/dokumentatsioon/about.md)
+- Nõuete kogumine
+  - Kasutajalood
+  - Kasutaja teekond
+  - Persoona
 
 ## Mida veel materjalidesse lisada
 

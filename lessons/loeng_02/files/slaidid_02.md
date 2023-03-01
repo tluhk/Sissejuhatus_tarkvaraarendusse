@@ -15,7 +15,7 @@ martti.raavel@tlu.ee
 - [.gitignore](../../.gitignore)
 - [Markdown](../../concepts/markdown/about.md)
 - [Harjutus nõuete väljaselgitamiseks](files/harjutus.md)
-- [Tarkvaraarenduse meetodid](../../concepts/meetodid/about.md)
+- [Tarkvaraarenduse meetodid](../../../concepts/arendusmeetodid/about.md)
 - [Koodi kvaliteet](../../concepts/koodikvaliteet/about.md)
 
 
@@ -34,7 +34,9 @@ martti.raavel@tlu.ee
 ---
 # Kodustest töödest
 
-
+- Kaustade struktuur!
+- Edaspidi kasutame `Homework_03` jne (edaspidi ka koduse töö juures kirjas)
+- Enne kodutöö tegemist `merge main -> oma_branch` ([juhend](../../concepts/mergemain/about.md))
 
 ---
 # .gitignore
@@ -49,6 +51,7 @@ Markdown on märgendikeel, mis võimaldab kasutajatel kirjutada lihtteksti ja vo
 ---
 # Nõuete väljaselgitamine
 
+Harjutame Programmeerimine I aines loodava rakenduse jaoks nõuete paikapanemist, prioritiseerimist ja disaini.
 
 ---
 # Tarkvaraarenduse meetodid
