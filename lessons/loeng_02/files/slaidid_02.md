@@ -60,10 +60,10 @@ Kuidas me seda teeme?
 ---
 # Nõuete väljaselgitamine
 
-- Persoona
-- Kasutajalood
-- Stsenaariumid
-- Kasutaja teekond
+- [Persoona](../../../concepts/persoona/about.md)
+- [Kasutajalood](../../../concepts/kasutajalugu/about.md)
+- [Stsenaariumid](../../../concepts/stsenaarium/about.md)
+- [Kasutaja teekond](../../../concepts/kasutajateekond/about.md)
 
 ---
 # Moodustame grupid
@@ -77,6 +77,7 @@ Tarkvaraarendusmeetodid on struktureeritud lähenemisviisid tarkvara arendamisek
 
 ---
 # Koodi kvaliteet
+
 - **Loetavus** (*Readability*)
 - **Järjepidevus** (*Consistency*)
 - **Lihtsus** (*Simplicity*)
