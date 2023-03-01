@@ -7,7 +7,7 @@ Martti Raavel
 martti.raavel@tlu.ee
 
 ---
-# Teine loeng
+# Kolmas loeng
 
 - [Meenutame eelmist loengut](../loeng_02/about.md)
 - [Koduste tööde tagasiside](../../docs/kodusedtood/kodune_02_tagasiside.md)
