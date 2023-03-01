@@ -53,6 +53,8 @@ Markdown on märgendikeel, mis võimaldab kasutajatel kirjutada lihtteksti ja vo
 ---
 # Tarkvaraarenduse meetodid
 
+Tarkvaraarendusmeetodid on struktureeritud lähenemisviisid tarkvara arendamiseks, mis loovad raamistiku tarkvaratoodete kavandamiseks, kujundamiseks, ehitamiseks, testimiseks ja tarnimiseks. 
+
 ---
 # Koodi kvaliteet
 - **Loetavus** (*Readability*)
