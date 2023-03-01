@@ -42,6 +42,8 @@ graph TD
 
 - Milleks?
 - Mida?
+- Kas midagi on juba olemas?
+- Kas mingiks muuks asjaks mõeldud olemasolev asi sobiks?
 
 ## Nõuded
 

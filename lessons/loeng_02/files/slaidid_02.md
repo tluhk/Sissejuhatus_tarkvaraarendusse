@@ -55,6 +55,46 @@ Markdown on märgendikeel, mis võimaldab kasutajatel kirjutada lihtteksti ja vo
 
 ---
 # Koodi kvaliteet
+- **Loetavus** (*Readability*)
+- **Järjepidevus** (*Consistency*)
+- **Lihtsus** (*Simplicity*)
+- **Hooldatavus** (*Maintainability*)
+- **Töökindlus** (*Reliability*)
+
+---
+# Koodi loetavus (*Readability*)
+
+Kood peaks olema kergesti loetav ja arusaadav. See peaks olema hästi struktureeritud ja organiseeritud, järjekindlate nimetamisreeglite, vahede ja taandega.
+
+---
+# Koodi järjepidevus (*Consistency*)
+
+Kood peaks olema stiililt ja lähenemisviisilt ühtne. See hõlbustab teistel arendajatel koodi mõistmist ja muutmist.
+
+---
+# Koodi lihtsus (*Simplicity*)
+
+Kood peaks olema lihtne ja arusaadav. See vähendab vigade tõenäosust ning muudab koodi aja jooksul muutmise ja hooldamise lihtsamaks.
+
+---
+# Hooldatavus (*Maintainability*)
+
+Kood peaks olema aja jooksul hooldatav. See tähendab, et nõuete muutumisel peaks seda olema lihtne muuta, parandada ja värskendada.
+
+---
+# Töökindlus (*Reliability*)
+
+Kood peaks olema töökindel ja prognoositav. See peaks töötama ootuspäraselt ja käsitlema vigu selliselt, et need ei põhjusta programmi töös tõrkeid.
+
+---
+# Kuidas koodi kvaliteeti tagada?
+
+- Järjepidev koodi vormindamine
+- Kommentaarid ja dokumentatsioon
+- Ühiktestimine
+- Koodiülevaatused
+- Vigade käsitlemine
+- Koodi refaktoreerimine
 
 ---
 # Kodune töö
