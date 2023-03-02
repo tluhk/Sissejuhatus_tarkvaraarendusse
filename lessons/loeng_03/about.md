@@ -6,7 +6,7 @@ Seejärel räägime pisut täpsemalt erinevatest tarkvaraarendusmeetoditest.
 
 [Kolmanda loengu slaidid](files/slaidid_03.pdf)
 
-[Kolmanda loengu salvestus]()
+[Kolmanda loengu salvestus](https://zoom.us/rec/share/YGaqf-RhasIn2ClMBjqd-QviLwIOutE8Fa6x_QMrNVGGWDDkxn7QPA6coNkwm_jy.LVZUqreOhD_4WUnw) - Parool: X4f!Ceh%
 
 ## Kolmanda loengu teemad
 
@@ -15,7 +15,7 @@ Seejärel räägime pisut täpsemalt erinevatest tarkvaraarendusmeetoditest.
 - [Tarkvaraarenduse meetodid](../../concepts/meetodid/about.md)
 - [Dokumentatsioon](../../concepts/dokumentatsioon/about.md)
 - Nõuete kogumine
-  - Kasutajalood
+  - [Kasutajalood]
   - Kasutaja teekond
   - Persoona
 

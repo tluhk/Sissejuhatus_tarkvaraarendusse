@@ -30,12 +30,12 @@ Meeskonnad ja teemad valib programm suvaliselt.
 Töö tuleb esitada Markdown formaadis oma branchi all SJTA kaustas Homework_1 igal üliõpilasel.
 
 ```bash
-├── Eesnimi_Perekonnanimi
-│   ├── SJTA
-│   │   ├── Homework_1
-│   │   │   └── teema.md
-│   │   └── README.md
-└── README.md
+└── Eesnimi_Perekonnanimi
+    ├── SJTA
+    │   ├── Homework_1
+    │   │   └── teema.md
+    │   └── README.md
+    └── README.md
 ```
 ## Koduse töö meeskonnad ja teemad
 
