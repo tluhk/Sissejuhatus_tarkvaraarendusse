@@ -10,7 +10,7 @@ Lisaks räägime tarkvaraarenduse meetoditest ja koodi kvaliteedist.
 
 [Teise loengu slaidid](files/slaidid_02.pdf)
 
-[Teise loengu salvestus]()
+[Teise loengu salvestus](https://zoom.us/rec/share/YGaqf-RhasIn2ClMBjqd-QviLwIOutE8Fa6x_QMrNVGGWDDkxn7QPA6coNkwm_jy.LVZUqreOhD_4WUnw) - Parool: X4f!Ceh%
 
 ## Teise loengu teemad
 
@@ -28,6 +28,12 @@ Lisaks räägime tarkvaraarenduse meetoditest ja koodi kvaliteedist.
 - [Koodi kvaliteet](../../concepts/koodikvaliteet/about.md)
 
 ## Mida veel materjalidesse lisada
+
+## Loengus tehtav töö
+
+Esitada repositooriumisse hiljemalt 04.03.2023
+
+[Harjutus](files/harjutus.md)
 
 ## Kodune töö
 
