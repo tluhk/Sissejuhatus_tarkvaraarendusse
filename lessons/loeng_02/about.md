@@ -27,6 +27,8 @@ Lisaks räägime tarkvaraarenduse meetoditest ja koodi kvaliteedist.
 - [Tarkvaraarenduse meetodid](../../concepts/arendusmeetodid/about.md)
 - [Koodi kvaliteet](../../concepts/koodikvaliteet/about.md)
 
+![Teine loeng](files/teine_loeng.jpg)
+
 ## Mida veel materjalidesse lisada
 
 ## Loengus tehtav töö
