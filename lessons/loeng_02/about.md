@@ -17,7 +17,7 @@ Lisaks räägime tarkvaraarenduse meetoditest ja koodi kvaliteedist.
 - [Meenutame eelmist loengut](../loeng_01/about.md)
 - Konsultatsioon
 - [Kodused tööd](../../docs/kodusedtood/kodune_01_tagasiside.md)
-- [.gitignore](../../.gitignore)
+- [.gitignore](../../concepts/gitignore/about.md)
 - [Markdown](../../concepts/markdown/about.md)
 - [Harjutus nõuete väljaselgitamiseks](files/harjutus.md)
 - [Persoona](../../concepts/persoona/about.md)
