@@ -14,7 +14,7 @@
 - List
   - Kõik nimed
   - Otsing
-<hr>
+---
 
 - Kust saab andmed?
 - Kuidas andmeid säilitada?
@@ -64,10 +64,10 @@ graph TD
 ## Tulemuse esitamine
 
 ```bash
-├── Eesnimi_Perekonnanimi
-│   ├── SJTA
-│   │   ├── Classwork_1
-│   │   │   └── requirements.md
-│   │   └── README.md
-└── README.md
+└── Eesnimi_Perekonnanimi
+    ├── SJTA
+    │   ├── Classwork_1
+    │   │   └── requirements.md
+    │   └── README.md
+    └── README.md
 ```
