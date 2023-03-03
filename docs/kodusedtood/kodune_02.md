@@ -39,14 +39,16 @@ Töö tuleb esitada Markdown formaadis oma branchi all SJTA kaustas Homework_1 i
 ```
 ## Koduse töö meeskonnad ja teemad
 
-1. Agnes Buschman ja Kalle Kotter: Scrum
-2. Tiina Onemar ja Pavel Ivanov: DevOps
-3. Peeter Alliksaar ja Piret Buldas: Agile
-4. Andero Piberman ja Jaagup Vapper: Pull Request
-5. Ingrid Tamberg ja Rasmus Prees: Code review
-6. Karin Ibus ja Merlin Lige: Extreme Programming
-7. Atter Annus ja Kersti Kuuse: Kanban
-8. Demis Teral ja Iiris Prosa: Waterfall
-9. Karl Erik Kalmus ja Kristi Metshein: Commit
-10. Dave Talimaa ja Jarita Maaria Rintamäki: Näiteid hea ja halva Javascripti koodi kohta koos põhjendustega
-11. Martin Kangur ja Doris Silm: Kommentaarid vs mittekommentaarid koodis
+| Nimi 1 | Nimi 2 | Teema |
+| --- | --- | --- |
+| Agnes Buschman | Kalle Kotter | Scrum |
+| Tiina Onemar | Pavel Ivanov | DevOps |
+| Peeter Alliksaar | Piret Buldas | Agile |
+| Andero Piberman | Jaagup Vapper | Pull Request |
+| Ingrid Tamberg | Rasmus Prees | Code review |
+| Karin Ibus | Merlin Lige | Extreme Programming |
+| Atter Annus | Kersti Kuuse | Kanban |
+| Demis Teral | Iiris Prosa | Waterfall |
+| Karl Erik Kalmus | Kristi Metshein | Commit |
+| Dave Talimaa | Jarita Maaria Rintamäki | Näiteid hea ja halva Javascripti koodi kohta koos põhjendustega |
+| Martin Kangur | Doris Silm | Kommentaarid vs mittekommentaarid koodis |
