@@ -54,3 +54,6 @@ Tähtajad vastavalt Programmeerimine I aine [tähtaegadele](https://github.com/t
 - Oma Programmeerimine I kausta
   - Kodune_1
   - Kodune_2
+  
+  Issue: https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/issues/8
+  
