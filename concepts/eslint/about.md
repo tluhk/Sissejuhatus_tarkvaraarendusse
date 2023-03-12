@@ -23,9 +23,43 @@ npx eslint --init
 ```
 > Pööra tähelepanu - `npx`, mitte `npm`
 
-See käsk küsib juhiseid ESLinti konfigureerimiseks oma projekti jaoks küsimuste küsimisega. Saate valida stiilijuhise, mida soovite järgida, määrata failitüübid, mida soovite lintida, ja konfigureerida mõned reeglid.
+> See käsk küsib juhiseid ESLinti konfigureerimiseks oma projekti jaoks küsimuste küsimisega. Saate valida stiilijuhise, mida soovite järgida, määrata failitüübid, mida soovite lintida, ja konfigureerida mõned reeglid.
 
 > Programmeerimine I kursuse raames kasutame stiilijuhendina `Airbnb` stiilijuhiste komplekti.
+
+Vasta küsimustele järgmiselt:
+
+Küsimus: `? How would you like to use ESLint? ...`  
+Valik: `> To check syntax, find problems, and enforce code style`
+
+Küsimus:`? What type of modules does your project use? ...`  
+Valik: `> CommonJS (require/exports)`
+
+Küsimus: `? Which framework does your project use? ...`  
+Valik: `> None of these`
+
+Küsimus: `? Does your project use TypeScript? »`  
+Valik: `No`
+
+Küsimus: `? Where does your code run? ...`  
+Valik: `> Node`
+
+Küsimus: `? How would you like to define a style for your project? ...`  
+Valik: `> Use a popular style guide`
+
+Küsimus: `? Which style guide do you want to follow? ...`  
+Valik: `> Airbnb: https://github.com/airbnb/javascript`
+
+Küsimus: `? What format do you want your config file to be in? ...`  
+Valik: `> JavaScript`
+
+Küsimus sõltuvuste kohta: `? Would you like to install them now?`  
+Valik: `Yes`
+
+Küsimus: `? Which package manager do you want to use? ...`  
+Valik: `npm`
+
+Ja võibki hakata koodi kirjutama :smiley:
 
 ## Airbnb
 
