@@ -16,13 +16,11 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 
 ## Loengud
 
-- [Esimene loeng](./lessons/loeng_01/about.md)
-- [Teine loeng](lessons/loeng_02/about.md)
-- Kolmas loeng
-- Neljas loeng
-- Viies loeng
-- Kuues loeng
-- Arvestus
+- [Esimene loeng](./lessons/loeng_01/about.md) 18. veebruar 2023
+- [Teine loeng](lessons/loeng_02/about.md) 02. märts 2023
+- Kolmas loeng 22. aprill 2023
+- Neljas loeng 06. mai 2023
+- Arvestus 20. mai 2023
 
 ## Kodused tööd
 - [Esimene](docs/kodusedtood/kodune_01.md)
