@@ -14,10 +14,20 @@ Esialgne kaustade struktuur peaks välja nägema sarnane:
 ├── Eesnimi_Perekonnanimi
 │   ├── Programmeerimine_I
 │   │   ├── Kodune_1
+│   │   │   └── README.md
 │   │   ├── Kodune_2
+│   │   │   └── README.md
+│   │   ├── Homework_3
+│   │   │   └── README.md
+│   │   ├── Homework_4
+│   │   │   └── README.md
 │   │   └── README.md
-│   ├── SJTA
-│   │   └── README.md
+│   └── SJTA
+│       ├── Classwork_1
+│       │   └── README.md
+│       ├── Homework_1
+│       │   └── README.md
+│       └── README.md
 └── README.md
 ```
 
