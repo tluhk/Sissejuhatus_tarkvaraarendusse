@@ -10,6 +10,8 @@ ESLint on sageli integreeritud koodiredaktorite ja ehitustööriistadega, nagu V
 
 ## ESLint-i paigaldamine NodeJS projektile (VSCode)
 
+Kõigepealt lisa VSCode-le (kui ei ole veel lisatud) ESLint psitikprogramm. Leiad selle pistikprogrammide alt või siis siit: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+
 1. Paigalda ESLint arendussõltuvusena järgmiselt:
 
 ```bash
