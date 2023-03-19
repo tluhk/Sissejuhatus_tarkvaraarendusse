@@ -96,3 +96,21 @@ Windowsi VS-koodi vaikerealõpude LF-i määramiseks toimige järgmiselt.
 Nüüd, kui loote VSCode koodieditoris uue faili, kasutab see vaikimisi `LF` realõppe.
 
 > Kui teil on juba fail, mis kasutab `CRLF` realõppe, saate selle faili realõppe muuta klõpsates VSCode akna alumises paremas nurgas nuppu `CRLF/LF` ja valides `LF`.
+
+## Tühikute arvu seadistamine
+
+VSCode vaikimisi tühikute arv (kui vajutad `TAB` klahvi) on neli tühikut. Airbnb reeglistik näeb ette kahte tühikut. Selleks, et seadistada VSCode kasutama nelja tühiku asemel kahte, tuleb teha järgmist:
+
+1. Ava VSCode.
+2. Klõpsa vasakus alanurgas hammasratta ikoonil, et avada Seadete menüü.
+3. Vali nimekirjast "Seaded" (Settings).
+4. Seadete vahekaardi ülaosas asuvas otsinguribas kirjuta "indent", et kuvada taandega seotud seaded.
+5. "Editor: Tab Size" alt saad muuta tabulaatori pikkust ehk mitut tühikut tabulaator kasutab. Vaikimisi on see seatud väärtusele 4 - see tuleks seadistada 2-ks.
+6. Edaspidi kasutatakse taanete jaoks 4 tühiku asemel 2-te.
+
+Lisaks saad olemasolevat taanet (nt tabulaatoritest tühikuteks muuta) järgides neid samme:
+
+1. Ava fail, mida soovid redigeerida, VSCode'is.
+2. Klõpsa VSCode'i akna paremas alanurgas "Spaces" või "Tab Size" nupul. See avab väikese kontekstimenüü.
+3. Kui soovid muuta taandesuurust, klõpsa "Indent Using Spaces" (Taanda tühikute kasutamisega) ja vali loendist soovitud number.
+4. Ära unusta oma muudatusi salvestada.
