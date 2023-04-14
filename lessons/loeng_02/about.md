@@ -10,7 +10,7 @@ Lisaks räägime tarkvaraarenduse meetoditest ja koodi kvaliteedist.
 
 [Teise loengu slaidid](files/slaidid_02.pdf)
 
-[Teise loengu salvestus](https://zoom.us/rec/share/YGaqf-RhasIn2ClMBjqd-QviLwIOutE8Fa6x_QMrNVGGWDDkxn7QPA6coNkwm_jy.LVZUqreOhD_4WUnw) - Parool: X4f!Ceh%
+[Teise loengu salvestus](https://youtu.be/bQHvnP9tKuU)
 
 ## Teise loengu teemad
 

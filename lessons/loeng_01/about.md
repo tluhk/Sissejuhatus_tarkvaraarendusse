@@ -4,7 +4,7 @@ Esimese loengu eesmärk on arutleda selle üle, mis on üldse tarkvara ja kuidas
 
 [Esimese loengu slaidid](files/slaidid_01.pdf)
 
-[Esimese loengu salvestus](https://zoom.us/rec/share/SViPF6fkZBgCELDgLUsljbO173iqfRdaD1p1FKgGumDkcq6Mj09OCNXZBiHmXAHD.uB6YaLTZKXTFtznx?startTime=1676720682000) - Parool: 8DJz.+@9
+[Esimese loengu salvestus](https://youtu.be/1FAehOHmmrs)
 
 ## Esimese loengu teemad:
 
