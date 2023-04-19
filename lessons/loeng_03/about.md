@@ -11,7 +11,9 @@ Seejärel räägime pisut täpsemalt erinevatest tarkvaraarendusmeetoditest.
 ## Kolmanda loengu teemad
 
 - [Meenutame eelmist loengut](../loeng_02/about.md)
-- [Kodused tööd](../../docs/kodusedtood/kodune_02_tagasiside.md)
+- [Eelmise loengu töö](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/issues/10)
+- Kuidas on läinud Githubiga?
+- Kuidas on läinud ESLint tööriistaga?
 - [Tarkvaraarenduse meetodid](../../concepts/meetodid/about.md)
 - [Dokumentatsioon](../../concepts/dokumentatsioon/about.md)
 
