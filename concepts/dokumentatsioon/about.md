@@ -32,8 +32,13 @@ Mõned näpunäited tõhusa tarkvaraarenduse dokumentatsiooni koostamiseks on j�
 
 - Kasutage kogu dokumentatsioonis ühtset vormingut ja stiili
 - Keeruliste mõistete selgitamiseks kasutage diagramme ja pilte
-- Hoidke dokumentatsioon ajakohasena ja asjakohasena
+- Hoidke dokumentatsioon ajakohasena
 - Kasutage selget ja kokkuvõtlikku keelt
 - Kaaluge sihtrühma vajadusi ja vaatenurki
 
 Üldiselt nõuab tõhusa tarkvaraarenduse dokumentatsiooni loomine hoolikat planeerimist, kirjutamist, testimist ja hooldust. Järgides neid samme ja parimaid tavasid, saate luua dokumentatsiooni, mis aitab tagada teie tarkvaraprojekti edu.
+
+Allikad:
+- https://www.altexsoft.com/blog/business/technical-documentation-in-software-development-types-best-practices-and-tools/
+- https://www.techtarget.com/searchsoftwarequality/definition/documentation
+- https://technicalwriterhq.com/documentation/software-documentation/software-documentation-examples/
