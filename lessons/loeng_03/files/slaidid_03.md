@@ -213,9 +213,10 @@ Tarkvaraarendus on pidev protsess, mistõttu on oluline dokumentatsiooni projekt
 ---
 # Kodune töö
 
-- Lisage oma eelmistele kodutöödele nimed
+- Lisage oma eelmistele kodutöödele oma nimed
 - Koolile dokumentatsiooni loomise eeskirjad:
   - Tehniline dokumentatsioon
   - Kasutusjuhendid
   - Väljalaskemärkmed
   - API dokumentatsioon
+  - Issue
