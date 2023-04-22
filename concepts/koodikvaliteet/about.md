@@ -24,7 +24,7 @@ Järgnevalt mõned punktid, kuidas tagada koodi kvaliteeti:
 
 **Ühiktestimine** (*Unit Testing*): koodi automaattestide kirjutamine aitab tagada, et see toimib ootuspäraselt ja et koodibaasi muudatused ei too kaasa uusi vigu ega probleeme. Javascripti ühiktestide kirjutamiseks ja käitamiseks saab kasutada näiteks selliseid tööriistu nagu [Jest](https://jestjs.io/) või [Mocha](https://mochajs.org/).
 
-[**Koodiülevaatused**](../codeReview/about.md)) (*Code Reviews*): Koodide ülevaatused teiste arendajate poolt võib olla väärtuslik tööriist, mis tagab koodi kõrge kvaliteedi. Koodiülevaatused võimaldavad teistel arendajatel koodimuudatusi üle vaadata, täiustusi soovitada ning vigu või probleeme tabada.
+[**Koodiülevaatused**](../codeReview/about.md) (*Code Reviews*): Koodide ülevaatused teiste arendajate poolt võib olla väärtuslik tööriist, mis tagab koodi kõrge kvaliteedi. Koodiülevaatused võimaldavad teistel arendajatel koodimuudatusi üle vaadata, täiustusi soovitada ning vigu või probleeme tabada.
 
 **Vigade käsitlemine** (*Error Handling*): vigade korrektne käsitlemine koodis võib aidata tagada selle töökindluse ja prognoositavuse. Veenduge, et vigu käsitletakse kogu koodibaasis järjepidevalt ning et veateated on arendajatele informatiivsed ja abistavad.
 
