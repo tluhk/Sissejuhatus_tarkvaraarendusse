@@ -12,7 +12,7 @@ Tooteomanik on tellija esindaja, kes tunneb vajadust tarkvara järele ning otsus
 
 ## Äriarhitekt (_business architect_)
 
-Äriarhitekton inimene, kes näeb ning paneb kirja (joonestab) suure pildi, nt kaardistab tarkvaravajadused vastavas äriprotsessis.
+Äriarhitekt on inimene, kes näeb ning paneb kirja (joonestab) suure pildi, nt kaardistab tarkvaravajadused vastavas äriprotsessis.
 
 ## Ärianalüütik (_business analyst_)
 
