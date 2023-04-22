@@ -15,7 +15,7 @@ Seejärel räägime pisut täpsemalt erinevatest tarkvaraarendusmeetoditest.
 - Kuidas on läinud Githubiga?
 - Kuidas on läinud ESLint tööriistaga?
 - [Tarkvaraarenduse meetodid](../../concepts/meetodid/about.md)
-- Rollid tarkvaraarenduses
+- [Rollid tarkvaraarenduses](../../concepts/rollid/about.md)
 - [Dokumentatsioon](../../concepts/dokumentatsioon/about.md)
 
 ## Mida veel materjalidesse lisada
