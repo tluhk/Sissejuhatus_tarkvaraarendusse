@@ -6,7 +6,7 @@ Seejärel räägime pisut täpsemalt erinevatest tarkvaraarendusmeetoditest.
 
 [Kolmanda loengu slaidid](files/slaidid_03.pdf)
 
-[Kolmanda loengu salvestus]()
+[Kolmanda loengu salvestus](https://youtu.be/trjIsAMS6-Q)
 
 ## Kolmanda loengu teemad
 
