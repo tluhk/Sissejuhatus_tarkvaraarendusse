@@ -30,3 +30,7 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 - [Teine](docs/kodusedtood/kodune_02.md)
   - Individuaalse töö tähtajad vastavalt Programmeerimine I aine tähtaegadele
   - Rühmatöö tähtaeg: 4. aprill kell 09:00
+
+## Esitatud kodused tööd
+
+[Esitatud kodused tööd](./homeworks/README.md)
