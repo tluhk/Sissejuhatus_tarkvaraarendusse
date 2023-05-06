@@ -10,11 +10,26 @@ martti.raavel@tlu.ee
 # Neljas loeng
 
 - [Meenutame eelmist loengut](../loeng_03/about.md)
+- [Pull Request](../../../concepts/pullRequest/about.md)
 - [Forkimine](../../../concepts/fork/about.md)
 - [Dokumentatsioon](../../../concepts/dokumentatsioon/about.md)
 - [Mittefunktsionaalsed nõuded](../../../concepts/mittefunktsionaalsedNouded/about.md)
 
+---
+# Pull Request
 
+`Pull Request` on mehhanism mis võimaldab arendajatel teavitada teisi arendajaid oma muudatustest, mis on tehtud koodi baasis, ning paluda neil üle vaadata ja lisada need muudatused teise koodi harusse (sageli peamisse harusse).
+
+---
+# Fork
+
+`Fork`imine tähendab olemasoleva repositooriumi kopeerimist enda Githubi kontole.
+
+`Fork`itud repositoorium säilitab ühenduse originaalrepositooriumiga, mis võimaldab algse repositooriumi omanikul vaadata ja kopeerida muudatusi, mis on tehtud forkitud repositooriumis.
+
+`Fork`imine annab võimaluse teha muudatusi repositooriumis, millele sul ei ole kirjutamisõigusi (läbi `Pull Request`i).
+
+---
 # Dokumentatsioon
 
 Tarkvaraarenduse dokumentatsioon viitab kirjalike või visuaalsete materjalide loomise ja korrastamise protsessile, mis kirjeldavad tarkvaratoote või -süsteemi disaini, arendust ja kasutamist.
@@ -92,8 +107,9 @@ Funktsionaalsed vs mittefunktsionaalsed nõuded?
 # Mittefunktsionaalsed nõuded
 
 Kriteeriumid, mis määravad süsteemi kvaliteedi, toimivuse ja töökindluse, kuid ei ole seotud süsteemi konkreetsete funktsionaalsete omadustega
+
 ---
-# Mittfunktsionaalsed nõuded projektile
+# Mittefunktsionaalsed nõuded projektile
 
 - Jõudlus
 - Skaleeritavus
