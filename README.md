@@ -20,7 +20,7 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 - [Teine loeng](lessons/loeng_02/about.md) 02. märts 2023
   - [Loengus kirja pandud kasutajalood](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/issues/10#issuecomment-1470102382)
 - [Kolmas loeng](lessons/loeng_03/about.md) 22. aprill 2023
-- Neljas loeng 06. mai 2023
+- [Neljas loeng](lessons/loeng_04/about.md) 06. mai 2023
 - Arvestus 20. mai 2023
 
 ## Kodused tööd
