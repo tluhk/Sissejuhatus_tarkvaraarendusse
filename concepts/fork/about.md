@@ -33,4 +33,34 @@ Kui oled teinud `forki`, selle oma arvutisse klooninud, teinud selles mingeid mu
 
 
 Üldiselt võiks kogu protsessi kirjeldada järgmine diagramm:
-![Forkimise flow](files/forkFlow.png)
+
+```mermaid
+sequenceDiagram
+    participant U as Arendaja
+    participant O as Originaalrepositoorium
+    participant F as ArendajaFork
+    participant R as Ülevaataja
+    U->>+O: Fork repositoorium
+    O->>-U: Loob fork'i arendaja kontole
+    U->>+F: Klooni fork'i lokaalselt
+    F->>-U: Annab kloonitud repositooriumi
+    U->>+F: Loo uus haru
+    U->>+F: Tee muudatusi
+    U->>+F: Commit muudatused
+    U->>+F: Push muudatused
+    F->>-U: Värskendab repositooriumit
+    U->>+O: Loo Pull Request
+    O->>-U: PR loodud
+    U->>+R: Määra ülevaataja
+    R->>+O: Vaata PR üle
+    R->>+O: Jäta kommentaarid (kui vajalik)
+    R->>-U: Tagasiside arendajale
+    U->>+F: Tee vajalikud muudatused
+    U->>+F: Commit ja push muudatused
+    F->>-U: Värskendab repositooriumit
+    U->>+O: Uuenda PR
+    R->>+O: Vaata muudatusi üle
+    R->>+O: Kinnita PR
+    O->>+O: Merge PR
+    O->>-U: Teavitab arendajat edukast merge'st
+```
