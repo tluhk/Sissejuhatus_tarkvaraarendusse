@@ -30,6 +30,10 @@ martti.raavel@tlu.ee
 `Fork`imine annab võimaluse teha muudatusi repositooriumis, millele sul ei ole kirjutamisõigusi (läbi `Pull Request`i).
 
 ---
+# Fork vs Clone
+
+Mis vahe on repositooriumi `fork`imisel ja `clone`imisel?
+---
 # Dokumentatsioon
 
 Tarkvaraarenduse dokumentatsioon viitab kirjalike või visuaalsete materjalide loomise ja korrastamise protsessile, mis kirjeldavad tarkvaratoote või -süsteemi disaini, arendust ja kasutamist.
