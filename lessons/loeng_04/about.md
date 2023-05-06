@@ -13,7 +13,7 @@ Kõigepealt meenutame eelmist loengut ja vaatame üle, kuidas on läinud kodutö
 - Kuidas on läinud ESLint tööriistaga?
 - [Forkimine](../../concepts/fork/about.md)
 - [Dokumentatsioon](../../concepts/dokumentatsioon/about.md)
-- [Mittefunktsionaalsed nõuded]
+- [Mittefunktsionaalsed nõuded](../../concepts/mittefunktsionaalsedNouded/about.md)
 
 
 ## Mida veel materjalidesse lisada
