@@ -11,7 +11,7 @@ Kõigepealt meenutame eelmist loengut ja vaatame üle, kuidas on läinud kodutö
 
 - [Meenutame eelmist loengut](../loeng_03/about.md)
 - Kuidas on läinud ESLint tööriistaga?
-- - [Pull Request](../../concepts/pullRequest/about.md)
+- [Pull Request](../../concepts/pullRequest/about.md)
 - [Forkimine](../../concepts/fork/about.md)
 - [Dokumentatsioon](../../concepts/dokumentatsioon/about.md)
 - [Mittefunktsionaalsed nõuded](../../concepts/mittefunktsionaalsedNouded/about.md)
