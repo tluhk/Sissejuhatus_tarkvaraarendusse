@@ -3,9 +3,9 @@
 Kõigepealt meenutame eelmist loengut ja vaatame üle, kuidas on läinud kodutööde tegemine.
 
 
-[Neljanda loengu slaidid](files/slaidid_04.pdf)
+[Neljanda loengu slaidid](files/)
 
-[Neljanda loengu salvestus]()
+[Neljanda loengu salvestus](https://youtu.be/Up0bVNySXuU)
 
 ## Neljanda loengu teemad
 
