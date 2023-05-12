@@ -15,7 +15,6 @@ martti.raavel@tlu.ee
 - Kuidas on läinud ESLint tööriistaga?
 - Koduste tööde näitamine ja arutelu
 - [Rollid tarkvaraarenduses](../../concepts/rollid/about.md)
-- [Dokumentatsioon](../../concepts/dokumentatsioon/about.md)
 
 ---
 # Kodustest töödest
