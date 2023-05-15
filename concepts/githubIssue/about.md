@@ -20,7 +20,7 @@ GitHubi *issue*t saab kasutada erinevatel eesmärkidel, näiteks:
 
 *Issue*t saab otsida ja filtreerida erinevate kriteeriumide alusel, nagu väljaande number, pealkiri, autor, silt ja olek. Neid saab ka kommenteerida ja värskendada, et kajastada jälgitava töö oleku muutusi. *Issuede* otsingu kasutamine on soojalt soovitatav, et (nt suuremate projektide korral) vältida *issue*-duplikaate ehk sama või sarnase sisuga *issue*'sid. Teistel sarnastel tööriistadel on automaatne duplikaatide tuvastussüsteem tavaliselt olemas, Github Issues seda võimalust kahjuks ei paku. Küll aga on Githubis võimalus kasutajal endal *issue* duplikaatidest teada anda ja sarnased probleemid kokku grupeerida. Selleks tuleb kasutada kommenteerimisel või vastamisel "duplicate of #*issue* nr", "duplicate pull request" või "duplicate *issue*" märksõnu. 
 
-#### *Issuede* kirjutamise head tavad:
+## *Issuede* kirjutamise head tavad:
 
 - Hoia pealkirjad lühikesed ja konkreetsed
 - Sisus kirjelda tausta (*context*), esita probleem või idee, paku välja lahendus või järgmine samm
@@ -31,12 +31,12 @@ GitHubi *issue*t saab kasutada erinevatel eesmärkidel, näiteks:
 - Tee vahet *issuel* ja *discussionil* – lahtisemateks aruteludeks on parem variant GitHub Discussions
 - Lahendatud *issued* sulge, et segadust vältida
 
-#### Näide hästi struktureeritud *issuest*:
+## Näide hästi struktureeritud *issuest*:
 ![hea tava näide](https://wiredcraft.com/images/posts/how_we_write_our_github_issues_2.png) 
 
 Konkreetne pealkiri, tausta kirjeldus, inimeste kaasamine ja järgmine samm välja pakutud.
 
-#### Näide mitte nii hästi kirjutatud *issuest*:
+## Näide mitte nii hästi kirjutatud *issuest*:
 ![halb näide](https://wiredcraft.com/images/posts/how_we_write_our_github_issues_1.png)
 
 Liiga pikk pealkiri, liiga üldine sisu.
