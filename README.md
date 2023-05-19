@@ -35,3 +35,8 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 ## Esitatud kodused tööd
 
 [Esitatud kodused tööd](./homeworks/README.md)
+
+## Eksam
+
+- [Hindamine](lessons/eksam/about.md)
+  
