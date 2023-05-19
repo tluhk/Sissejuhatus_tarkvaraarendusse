@@ -18,14 +18,14 @@ Väljalaskemärkmed võivad erinevate projektide raames oma mahu ja ülesehituse
 
 ## Väljalaskemärkmete koostamise parimad praktikad 
 ### *ehk kuidas kirjutada loetavaid ja kaasahaaravaid väljalaskemärkmeid*
-- Leia hea tasakaal lühikese ja tabava  ning piisavalt informatiivse vahel. Ainult suured värskendused ja uued tarkvaratooted vajavad mahukaid detailseid väljalaskemärkmeid. Keegi ei soovi lugeda lehekülgede kaupa kuiva teksti, samas peavad märkmed edasi andma uuenduse sisu, mitte ainult teatama fakti, et uuendus on tehtud (*ProductPlan*).
-- Kasuta selget ja arusaadavat kirjaviisi – väljalaskemärkmeid kirjutades pea silmas oma publikut. Tavakasutaja ei soovi lugeda keerulist tehnilist keelt, mis on väga erialaspetsiifiline. Kuna tegemist ei ole ametlikult raamistatud dokumendiga ehk väljalaskemärkmetel ei ole kindlaid nõudeid, võib seda kohelda, kui võimalust oma publikuga suhelda ja usaldust luua. 
-- Edasta infot mitmekülgselt – lisa materjalide sekka ka manuaale, videoid ja linke muudele ressurssidele, nende jaoks, kellel on suurem uudishimu sinu projekti vastu. (*Bit.ai*) Lisaks võib kasutada visuaale info edastamiseks – graafikud, kuvatõmmised jms.
-- Vormindamine on tähtis – kasuta pealkirjasid ja paksemat kirja olulisemate asjade rõhutamiseks. See aitab loetavusele kaasa. (*airfocus*) 
+- **Leia hea tasakaal lühikese ja tabava  ning piisavalt informatiivse vahel.** Ainult suured värskendused ja uued tarkvaratooted vajavad mahukaid detailseid väljalaskemärkmeid. Keegi ei soovi lugeda lehekülgede kaupa kuiva teksti, samas peavad märkmed edasi andma uuenduse sisu, mitte ainult teatama fakti, et uuendus on tehtud (*ProductPlan*).
+- **Kasuta selget ja arusaadavat kirjaviisi** – väljalaskemärkmeid kirjutades pea silmas oma publikut. Tavakasutaja ei soovi lugeda keerulist tehnilist keelt, mis on väga erialaspetsiifiline. Kuna tegemist ei ole ametlikult raamistatud dokumendiga ehk väljalaskemärkmetel ei ole kindlaid nõudeid, võib seda kohelda, kui võimalust oma publikuga suhelda ja usaldust luua. 
+- **Edasta infot mitmekülgselt** – lisa materjalide sekka ka manuaale, videoid ja linke muudele ressurssidele, nende jaoks, kellel on suurem uudishimu sinu projekti vastu. (*Bit.ai*) Lisaks võib kasutada visuaale info edastamiseks – graafikud, kuvatõmmised jms.
+- **Vormindamine on tähtis** – kasuta pealkirjasid ja paksemat kirja olulisemate asjade rõhutamiseks. See aitab loetavusele kaasa. (*airfocus*) 
 
 ### Näiteid väljalaskemärkmetest:
 [Amazon Business](https://business.amazon.com/en/discover-more/release-notes) (*appcues*)  
-[Helpscout](https://www.helpscout.com/blog/march-2022-release-notes/) 
+[Helpscout](https://www.helpscout.com/blog/march-2022-release-notes/)  
 [UIpath](https://docs.uipath.com/release-notes/other/latest) (*airfocus*) 
 
 
