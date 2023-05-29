@@ -1,6 +1,6 @@
 # Pull Request
 
-Pull Request (PR) on GitHubis, GitLabis ja teistes Git-põhistes versioonihaldussüsteemides kasutatav mehhanism, mis võimaldab arendajatel teavitada teisi arendajais oma muudatustest, mis on tehtud koodi baasis, ning paluda neil üle vaadata ja lisada need muudatused peamisse koodi harusse (tavaliselt `master` või `main` haru).
+Pull Request (PR) on GitHubis, GitLabis ja teistes Git-põhistes versioonihaldussüsteemides kasutatav mehhanism, mis võimaldab arendajatel teavitada teisi arendajaid oma muudatustest, mis on tehtud koodi baasis, ning paluda neil üle vaadata ja lisada need muudatused peamisse koodi harusse (tavaliselt `master` või `main` haru).
 
 Pull Requesti loomine algab tavaliselt koodi muudatuste tegemisega uues harus. Kui arendaja on oma muudatustega rahul, pushib ta selle haru repositooriumi ja loob Pull Requesti, mis sisaldab teavet muudatuste kohta, sealhulgas:
 - Millised muudatused on tehtud (st, millised failid on muudetud ja millised on nende muudatuste sisu)
