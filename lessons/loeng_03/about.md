@@ -14,7 +14,7 @@ Seejärel räägime pisut täpsemalt erinevatest tarkvaraarendusmeetoditest.
 - [Eelmise loengu töö](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/issues/10)
 - Kuidas on läinud Githubiga?
 - Kuidas on läinud ESLint tööriistaga?
-- [Tarkvaraarenduse meetodid](../../concepts/meetodid/about.md)
+- [Tarkvaraarenduse meetodid](../../concepts/arendusmeetodid/about.md)
 - [Rollid tarkvaraarenduses](../../concepts/rollid/about.md)
 - [Dokumentatsioon](../../concepts/dokumentatsioon/about.md)
 

@@ -16,7 +16,7 @@ Esimese loengu eesmärk on arutleda selle üle, mis on üldse tarkvara ja kuidas
 - [Github](../../concepts/github/readme.md)
 - [.gitignore](../../concepts/gitignore/about.md)
 - [Markdown](../../concepts/markdown/about.md)
-- [Github issue](../../concepts/githubIssue/readme.md)
+- [Github issue](../../concepts/githubIssue//about.md)
 
 ![Tarkvaraarenduse elutsükkel](files/image1.jpeg)
 ![Git](files/image0.jpeg)
