@@ -13,10 +13,10 @@ Esimese loengu eesmärk on arutleda selle üle, mis on üldse tarkvara ja kuidas
 - [Tarkvaraarendus](../../concepts/tarkvaraarendus/about.md)
 - [Tarkvaraarenduse elutsükkel](../../concepts/SDLC/about.md)
 - [Git](../../concepts/git/about.md)
-- [Github](../../concepts/github/readme.md)
+- [Github](../../concepts/github/about.md)
 - [.gitignore](../../concepts/gitignore/about.md)
 - [Markdown](../../concepts/markdown/about.md)
-- [Github issue](../../concepts/githubIssue//about.md)
+- [Github issue](../../concepts/githubIssue/about.md)
 
 ![Tarkvaraarenduse elutsükkel](files/image1.jpeg)
 ![Git](files/image0.jpeg)
