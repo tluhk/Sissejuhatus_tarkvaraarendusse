@@ -1,7 +1,5 @@
 # Testimine
 
-# Testimine
-
 ## Milleks testida?
 - **Probleemide tuvastamine** disaini, toote või teenuse juures. 
 - **Võimaluste leidmine** disaini parandamiseks. 
