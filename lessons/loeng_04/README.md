@@ -2,7 +2,7 @@
 
 Kõigepealt meenutame eelmist loengut ja vaatame üle, kuidas on läinud kodutööde tegemine.
 
-[Kolmas loeng](../loeng_03/about.md)
+[Kolmas loeng](../loeng_03/README.md)
 
 [Neljanda loengu slaidid](files/)
 
@@ -10,12 +10,12 @@ Kõigepealt meenutame eelmist loengut ja vaatame üle, kuidas on läinud kodutö
 
 ## Neljanda loengu teemad
 
-- [Meenutame eelmist loengut](../loeng_03/about.md)
+- [Meenutame eelmist loengut](../loeng_03/README.md)
 - Kuidas on läinud ESLint tööriistaga?
-- [Pull Request](../../concepts/pullRequest/about.md)
-- [Forkimine](../../concepts/fork/about.md)
-- [Dokumentatsioon](../../concepts/dokumentatsioon/about.md)
-- [Mittefunktsionaalsed nõuded](../../concepts/mittefunktsionaalsedNouded/about.md)
+- [Pull Request](../../concepts/pullRequest/README.md)
+- [Forkimine](../../concepts/fork/README.md)
+- [Dokumentatsioon](../../concepts/dokumentatsioon/README.md)
+- [Mittefunktsionaalsed nõuded](../../concepts/mittefunktsionaalsedNouded/README.md)
 
 
 ## Mida veel materjalidesse lisada

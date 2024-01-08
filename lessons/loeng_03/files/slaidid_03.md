@@ -9,12 +9,12 @@ martti.raavel@tlu.ee
 ---
 # Kolmas loeng
 
-- [Meenutame eelmist loengut](../loeng_02/about.md)
+- [Meenutame eelmist loengut](../loeng_02/README.md)
 - [Eelmise loengu töö](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/issues/10)
 - Kuidas on läinud Githubiga?
 - Kuidas on läinud ESLint tööriistaga?
 - Koduste tööde näitamine ja arutelu
-- [Rollid tarkvaraarenduses](../../concepts/rollid/about.md)
+- [Rollid tarkvaraarenduses](../../concepts/rollid/README.md)
 
 ---
 # Kodustest töödest

@@ -8,28 +8,28 @@ Järgmisena viime läbi harjutuse, mis sisaldab loodava rakenduse jaoks analüü
 
 Lisaks räägime tarkvaraarenduse meetoditest ja koodi kvaliteedist.
 
-[Esimene loeng](../loeng_01/about.md)
+[Esimene loeng](../loeng_01/README.md)
 
 [Teise loengu slaidid](files/slaidid_02.pdf)
 
 [Teise loengu salvestus]()
 
-[Kolmas loeng](../loeng_03/about.md)
+[Kolmas loeng](../loeng_03/README.md)
 
 ## Teise loengu teemad
 
-- [Meenutame eelmist loengut](../loeng_01/about.md)
+- [Meenutame eelmist loengut](../loeng_01/README.md)
 - Konsultatsioon
 - [Kodused tööd](../../docs/kodusedtood/kodune_01_tagasiside.md)
-- [.gitignore](../../concepts/gitignore/about.md)
-- [Markdown](../../concepts/markdown/about.md)
+- [.gitignore](../../concepts/gitignore/README.md)
+- [Markdown](../../concepts/markdown/README.md)
 - [Harjutus nõuete väljaselgitamiseks](files/harjutus.md)
-- [Persoona](../../concepts/persoona/about.md)
-- [Stsenaarium](../../concepts/stsenaarium/about.md)
-- [Kasutajalood](../../concepts/kasutajalugu/about.md)
-- [Kasutaja teekond](../../concepts/kasutajateekond/about.md)
-- [Tarkvaraarenduse meetodid](../../concepts/arendusmeetodid/about.md)
-- [Koodi kvaliteet](../../concepts/koodikvaliteet/about.md)
+- [Persoona](../../concepts/persoona/README.md)
+- [Stsenaarium](../../concepts/stsenaarium/README.md)
+- [Kasutajalood](../../concepts/kasutajalugu/README.md)
+- [Kasutaja teekond](../../concepts/kasutajateekond/README.md)
+- [Tarkvaraarenduse meetodid](../../concepts/arendusmeetodid/README.md)
+- [Koodi kvaliteet](../../concepts/koodikvaliteet/README.md)
 
 ![Teine loeng](files/teine_loeng.jpg)
 

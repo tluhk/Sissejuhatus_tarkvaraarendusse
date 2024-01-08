@@ -59,7 +59,7 @@ graph TD
 - Kust neid saab?
 - Kas midagi on vaja endale salvestada?
 - Kui on vaja salvestada, siis kuhu ja kuidas?
-- [UX/UI prototüüp](../../../concepts/prototyypimine/about.md)
+- [UX/UI prototüüp](../../../concepts/prototyypimine/README.md)
 
 ## Tulemuse esitamine
 

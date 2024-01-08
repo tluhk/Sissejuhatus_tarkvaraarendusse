@@ -9,14 +9,14 @@ martti.raavel@tlu.ee
 ---
 # Esimene loeng
 
-- [Sissejuhatus](../../concepts/sissejuhatus/about.md)
-- [Tarkvara](../../concepts/tarkvara/about.md)
-- [Tarkvaraarendus](../../concepts/tarkvaraarendus/about.md)
-- [Tarkvaraarenduse elutsükkel](../../concepts/SDLC/about.md)
-- [Git](../../concepts/git/about.md)
+- [Sissejuhatus](../../concepts/sissejuhatus/README.md)
+- [Tarkvara](../../concepts/tarkvara/README.md)
+- [Tarkvaraarendus](../../concepts/tarkvaraarendus/README.md)
+- [Tarkvaraarenduse elutsükkel](../../concepts/SDLC/README.md)
+- [Git](../../concepts/git/README.md)
 - [Github](../../concepts/github/readme.md)
-- [.gitignore](../../concepts/gitignore/about.md)
-- [Markdown](../../concepts/markdown/about.md)
+- [.gitignore](../../concepts/gitignore/README.md)
+- [Markdown](../../concepts/markdown/README.md)
 - [Github issue](../../concepts/githubIssue/readme.md)
 
 

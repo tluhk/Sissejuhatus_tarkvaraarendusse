@@ -9,28 +9,28 @@ martti.raavel@tlu.ee
 ---
 # Teine loeng
 
-- [Meenutame eelmist loengut](../loeng_01/about.md)
+- [Meenutame eelmist loengut](../loeng_01/README.md)
 - Konsultatsioon
 - [Koduste tööde tagasiside](../../docs/kodusedtood/kodune_01_tagasiside.md)
 - [.gitignore](../../.gitignore)
-- [Markdown](../../concepts/markdown/about.md)
+- [Markdown](../../concepts/markdown/README.md)
 - [Harjutus nõuete väljaselgitamiseks](files/harjutus.md)
-- [Persoonad](../../../concepts/persoona/about.md)
-- [Kasutajalood](../../../concepts/kasutajalugu/about.md)
-- [Tarkvaraarenduse meetodid](../../../concepts/arendusmeetodid/about.md)
-- [Koodi kvaliteet](../../concepts/koodikvaliteet/about.md)
+- [Persoonad](../../../concepts/persoona/README.md)
+- [Kasutajalood](../../../concepts/kasutajalugu/README.md)
+- [Tarkvaraarenduse meetodid](../../../concepts/arendusmeetodid/README.md)
+- [Koodi kvaliteet](../../concepts/koodikvaliteet/README.md)
 
 
 ---
 # Eelmine loeng
 
-- [Tarkvara](../../concepts/tarkvara/about.md)
-- [Tarkvaraarendus](../../concepts/tarkvaraarendus/about.md)
-- [Tarkvaraarenduse elutsükkel](../../concepts/SDLC/about.md)
-- [Git](../../concepts/git/about.md)
+- [Tarkvara](../../concepts/tarkvara/README.md)
+- [Tarkvaraarendus](../../concepts/tarkvaraarendus/README.md)
+- [Tarkvaraarenduse elutsükkel](../../concepts/SDLC/README.md)
+- [Git](../../concepts/git/README.md)
 - [Github](../../concepts/github/readme.md)
-- [.gitignore](../../concepts/gitignore/about.md) - ei jõudnud
-- [Markdown](../../concepts/markdown/about.md) - ei jõudnud
+- [.gitignore](../../concepts/gitignore/README.md) - ei jõudnud
+- [Markdown](../../concepts/markdown/README.md) - ei jõudnud
 - [Github issue](../../concepts/githubIssue/readme.md)
 
 ---
@@ -38,7 +38,7 @@ martti.raavel@tlu.ee
 
 - Kaustade struktuur!
 - Edaspidi kasutame `Homework_03` jne (edaspidi ka koduse töö juures kirjas)
-- Enne kodutöö tegemist `merge main -> oma_branch` ([juhend](../../concepts/mergemain/about.md))
+- Enne kodutöö tegemist `merge main -> oma_branch` ([juhend](../../concepts/mergemain/README.md))
 
 ---
 # .gitignore
@@ -60,10 +60,10 @@ Kuidas me seda teeme?
 ---
 # Nõuete väljaselgitamine
 
-- [Persoona](../../../concepts/persoona/about.md)
-- [Kasutajalood](../../../concepts/kasutajalugu/about.md)
-- [Stsenaariumid](../../../concepts/stsenaarium/about.md)
-- [Kasutaja teekond](../../../concepts/kasutajateekond/about.md)
+- [Persoona](../../../concepts/persoona/README.md)
+- [Kasutajalood](../../../concepts/kasutajalugu/README.md)
+- [Stsenaariumid](../../../concepts/stsenaarium/README.md)
+- [Kasutaja teekond](../../../concepts/kasutajateekond/README.md)
 
 ---
 # Moodustame grupid
@@ -126,7 +126,7 @@ Kood peaks olema töökindel ja prognoositav. See peaks töötama ootuspäraselt
   - Kuidas ülesande lahendamisele lähenesid
   - Kas oli probleeme
   - Kuidas probleemid lahendasid
-- [ESLint](../../../concepts/eslint/about.md) rakendamine Programmeerimine I kodutöödes
+- [ESLint](../../../concepts/eslint/README.md) rakendamine Programmeerimine I kodutöödes
   - Enne koduse töö üles laadimist `merge main -> koduseTooBranch`
   - Veendu, et test õnnestub
 - [Rühmatööna õppematerjali täiendamine](../../../docs/kodusedtood/kodune_02.md)

@@ -64,7 +64,7 @@ Tõenäoliselt paistab sellisel juhul kaustastruktuur lõpuks välja sarnane:
 └── package.json
 ```
 
-Tähtajad vastavalt Programmeerimine I aine [tähtaegadele](https://github.com/tluhk/Programmeerimine_I/blob/master/lessons/loeng_02/about.md#kodune-t%C3%B6%C3%B6).
+Tähtajad vastavalt Programmeerimine I aine [tähtaegadele](https://github.com/tluhk/Programmeerimine_I/blob/master/lessons/loeng_02/README.md#kodune-t%C3%B6%C3%B6).
 
 - Endanimelises kaustas README.md lühikese ülevaade oma kodutööde kohta
   - Kuidas ülesande lahendamisele lähenesid

@@ -9,7 +9,7 @@ Pull Requesti loomine algab tavaliselt koodi muudatuste tegemisega uues harus. K
 
 Ülevaatajad saavad seejärel Pull Requesti vaadata, kommenteerida, esitada küsimusi, soovitada muudatusi või nõustuda muudatustega ja lisada need peamisse harusse. Pull Requestide kasutamine aitab tagada, et koodi muudatused on läbipaistvad, arutatavad ja läbivaadatavad, enne kui need lisatakse peamisse koodibaasi. See protsess aitab parandada koodi kvaliteeti, vähendada vigu ja tagada, et kõik meeskonnaliikmed on kursis projekti arenguga.
 
-Vaata ka: [Pull Requesti kodutöö](../../homeworks/pullRequest/about.md)
+Vaata ka: [Pull Requesti kodutöö](../../homeworks/pullRequest/README.md)
 
 ## Harude nimetamine
 

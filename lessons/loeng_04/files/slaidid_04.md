@@ -9,11 +9,11 @@ martti.raavel@tlu.ee
 ---
 # Neljas loeng
 
-- [Meenutame eelmist loengut](../loeng_03/about.md)
-- [Pull Request](../../../concepts/pullRequest/about.md)
-- [Forkimine](../../../concepts/fork/about.md)
-- [Dokumentatsioon](../../../concepts/dokumentatsioon/about.md)
-- [Mittefunktsionaalsed nõuded](../../../concepts/mittefunktsionaalsedNouded/about.md)
+- [Meenutame eelmist loengut](../loeng_03/README.md)
+- [Pull Request](../../../concepts/pullRequest/README.md)
+- [Forkimine](../../../concepts/fork/README.md)
+- [Dokumentatsioon](../../../concepts/dokumentatsioon/README.md)
+- [Mittefunktsionaalsed nõuded](../../../concepts/mittefunktsionaalsedNouded/README.md)
 
 ---
 # Pull Request
