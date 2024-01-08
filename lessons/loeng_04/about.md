@@ -2,10 +2,11 @@
 
 Kõigepealt meenutame eelmist loengut ja vaatame üle, kuidas on läinud kodutööde tegemine.
 
+[Kolmas loeng](../loeng_03/about.md)
 
 [Neljanda loengu slaidid](files/)
 
-[Neljanda loengu salvestus](https://youtu.be/Up0bVNySXuU)
+[Neljanda loengu salvestus]()
 
 ## Neljanda loengu teemad
 

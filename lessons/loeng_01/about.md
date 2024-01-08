@@ -4,7 +4,9 @@ Esimese loengu eesmärk on arutleda selle üle, mis on üldse tarkvara ja kuidas
 
 [Esimese loengu slaidid](files/slaidid_01.pdf)
 
-[Esimese loengu salvestus](https://youtu.be/1FAehOHmmrs)
+[Esimese loengu salvestus]()
+
+[Teine loeng](../loeng_02/about.md)
 
 ## Esimese loengu teemad:
 
@@ -17,7 +19,7 @@ Esimese loengu eesmärk on arutleda selle üle, mis on üldse tarkvara ja kuidas
 - [.gitignore](../../concepts/gitignore/about.md)
 - [Markdown](../../concepts/markdown/about.md)
 - [Github issue](../../concepts/githubIssue/about.md)
-
+ 
 ![Tarkvaraarenduse elutsükkel](files/image1.jpeg)
 ![Git](files/image0.jpeg)
 

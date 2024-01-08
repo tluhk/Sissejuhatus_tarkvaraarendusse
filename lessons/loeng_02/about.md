@@ -8,9 +8,13 @@ Järgmisena viime läbi harjutuse, mis sisaldab loodava rakenduse jaoks analüü
 
 Lisaks räägime tarkvaraarenduse meetoditest ja koodi kvaliteedist.
 
+[Esimene loeng](../loeng_01/about.md)
+
 [Teise loengu slaidid](files/slaidid_02.pdf)
 
-[Teise loengu salvestus](https://youtu.be/bQHvnP9tKuU)
+[Teise loengu salvestus]()
+
+[Kolmas loeng](../loeng_03/about.md)
 
 ## Teise loengu teemad
 

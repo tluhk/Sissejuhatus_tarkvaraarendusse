@@ -4,9 +4,13 @@ Kõigepealt meenutame eelmist loengut ja vaatame üle, kuidas on läinud kodutö
 
 Seejärel räägime pisut täpsemalt erinevatest tarkvaraarendusmeetoditest.
 
+[Teine loeng](../loeng_02/about.md)
+
 [Kolmanda loengu slaidid](files/slaidid_03.pdf)
 
-[Kolmanda loengu salvestus](https://youtu.be/trjIsAMS6-Q)
+[Kolmanda loengu salvestus]()
+
+[Neljas loeng](../loeng_04/about.md)
 
 ## Kolmanda loengu teemad
 
