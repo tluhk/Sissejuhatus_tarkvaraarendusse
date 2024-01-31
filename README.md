@@ -39,27 +39,23 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 
 ## Loengud
 
-- [Esimene loeng](./lessons/loeng_01/README.md) 18. veebruar 2023
-- [Teine loeng](lessons/loeng_02/README.md) 02. märts 2023
-  - [Loengus kirja pandud kasutajalood](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/issues/10#issuecomment-1470102382)
-- [Kolmas loeng](lessons/loeng_03/README.md) 22. aprill 2023
-- [Neljas loeng](lessons/loeng_04/README.md) 06. mai 2023
-- Arvestus 20. mai 2023
+- [Esimene loeng](./lessons/loeng_01/README.md) 01. veebruar 2024
+- [Teine loeng](lessons/loeng_02/README.md) 16. veebruar 2024
+- [Kolmas loeng](lessons/loeng_03/README.md) 16. märts 2024
+- [Neljas loeng](lessons/loeng_04/README.md) 30. mai 2024
+- Arvestus 13. juuni 2024
 
 ## Kodused tööd
 
-- [Esimene](docs/kodusedtood/kodune_01.md)
-  - Tähtajad vastavalt Programmeerimine I aine tähtaegadele
-- [Teine](docs/kodusedtood/kodune_02.md)
-  - Individuaalse töö tähtajad vastavalt Programmeerimine I aine tähtaegadele
-  - Rühmatöö tähtaeg:
-- [Viimane kodutöö](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/issues/19) Tähtaeg: 
+- [Esimene]()
+- [Teine]()
+- [Kolmas]() 
 
 ## Esitatud kodused tööd
 
-[Esitatud kodused tööd](./homeworks/README.md)
+[Esitatud kodused tööd]()
 
 ## Eksam
 
-- [Hindamine](lessons/eksam/README.md)
+- [Hindamine]()
   

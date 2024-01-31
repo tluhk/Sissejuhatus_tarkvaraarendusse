@@ -1,29 +1,14 @@
 # Eksam
 
-Eksam koosneb kahest osast:
+Eksamile pääsemise eeldus on aktiivne osalemine loengutes, koduste tööde õigeaegne esitamine ja versioonihalduskeskkonna `Github` kasutamine erinevates õppeainetes.
 
-1. osa sisaldab endas Programmeerimine I arvestustöö esitamist teatud viisil teatud asukohta Githubis.
-2. osa koosneb ühest järgmistest variantidest:
-   - panustamist kolledži mittefunktsionaalsete nõuete koostamise projekti
-   - SJTA aine õppematerjalide loomine/täiendamine
-   - lahtiste küsimustega test loengus räägitud ja kodutöödes käsitletud teemade kohta
+Eksam koosneb kolmest osast:
 
-## Esimese osa hindamismudel
+- Semestri jooksul esitatud kodustest töödest;
+- versioonihalduskeskkonna Github kasutamine erinevates õppeainetes;
+- viimasel kohtumisel tehtav eneseanalüüs.
 
-Esimese osa töö moodustab kuni 50% kogu eksami hindest. Esimese osa töö hindamisel arvestatakse järgmisi kriteeriume:
-
-| Tingimus | Protsent |
-| --- | --- |
-| Kas Programmeerimine I arvestustöö on esitatud õigesse kohta? |0-8% |
-| Kas Programmeerimine I tööle on tehtud korrektne `Pull Request`? |0-8% |
-| Kas Programmeerimine I tööle on loodud korrektne ja nõuetele vastav dokumentatsioon? |0-10% |
-| Kas Programmeerimine I töös on rakendatud koodi staatilist kontrolli? (ESLint + Airbnb) |0-8% |
-| Kas Programmeerimine I töö on struktureeritud korrektselt? |0-8% |
-| Kas Programmeerimine I arvestustöös on kasutatud korrektseid muutujate, konstantide ja funktsioonide nimesid? |0-8% |
-
-## Teise osa hindamismudel
-
-Teise osa töö moodustab kuni 50% kogu eksami hindest.
+## Hindamismudel
 
 ## Eksami hinne
 
@@ -38,5 +23,5 @@ Teise osa töö moodustab kuni 50% kogu eksami hindest.
 
 
 
-Kui protsent jääb järgmisest hindest napilt alla (näiteks 50%), siis vaadatakse üldist osalemist loengutes, tähtaegadest kinnipidamist, panustamist Githubi jne ja vastavalt sellele on võimalik hinnet tõsta või jätta samaks.
+Kui protsent jääb järgmisest hindest napilt alla (näiteks 50%), siis vaadatakse üldist osalemist loengutes, tähtaegadest kinnipidamist, panustamist Githubi jne. Vastavalt sellele on võimalik hinnet tõsta või jätta samaks.
 

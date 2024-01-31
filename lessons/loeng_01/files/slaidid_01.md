@@ -41,17 +41,18 @@ martti.raavel@tlu.ee
 # Kodused tööd
 
 - Kohustuslikud
-- Tähtajaks!
-- Kuni 50% lõpptulemusest
+- **Tähtajaks!**
 - Vigade leidmine materjalidest annab lisaboonust
-- Materjalide täiendamine alnnab lisaboonust
+- Materjalide täiendamine annab lisaboonust
 
 ---
 # Hindamine
 
+- Hindamisele pääsemise eeldus on aktiivne osalemine loengutes ja **koduste tööde õigeaegne esitamine** 
 - Eksam
-  - 50% punktidest kodused tööd
-  - 50% punktidest kohapeal tehtav avatud ja valikvastustega test
+  - kodused tööd
+  - Githubi kasutamine õppeainetes
+  - Eneseanalüüs
 
 ---
 # Mis on tarkvara?
@@ -156,7 +157,7 @@ Tarkvaraarendus on tarkvararakenduste kavandamise, loomise, testimise ja hooldam
 ---
 # Kuidas kirjutatud koodi kaitsta ja hallata?
 
-- Palu faile
+- Palju faile
 - Palju muudatusi
 - Rohkem kui üks arendaja/osapool
 
@@ -181,19 +182,19 @@ Git on hajutatud versioonihaldussüsteem, mis on loodud tarkvara arendamise käi
 ---
 # Git-i sõnavara
 
-- Repository
-- Clone
-- Pull
-- Branch
-- Commit
-- Push
-- Pull request
-- Merge
+- Repositoorium (*Repository*)
+- Kloonimine (*Clone*)
+- Tõmbamine (*Pull*)
+- Haru (*Branch*)
+- Kinnitus? (*Commit*)
+- Tõukamine (*Push*)
+- Tõmbetaotlus (*Pull request*)
+- Sulatamine? (*Merge*)
 
 ---
 # Git-i töövoog
 
-Giti töövoog on parimate tavade ja juhiste kogum Giti kasutamiseks koodimuudatuste haldamisel. Giti töövooge on palju, kuid kõige levinumat neist nimetatakse *feature branch flow*,
+*Git*-i töövoog on parimate tavade ja juhiste kogum *Git*-i kasutamiseks koodimuudatuste haldamisel. *Git*-i töövooge on palju, kuid kõige levinumat neist nimetatakse *feature branch flow*-ks.
 
 ---
 # Feature branch flow
@@ -210,7 +211,7 @@ Giti töövoog on parimate tavade ja juhiste kogum Giti kasutamiseks koodimuudat
 ---
 # Harud
 
-- main
+- main (master)
 - dev
 - test
 - alamharud
@@ -237,48 +238,49 @@ GitHub on veebipõhine platvorm, mida kasutatakse versioonikontrolliks ja koost�
   - Github Desktop
 
 ---
+# Markdown
+
+Markdown on märgendikeel, mis võimaldab kasutajatel kirjutada lihtteksti ja vormindada seda lihtsa süntaksiga, et luua dokumente, mida on lihtne lugeda ja kirjutada.
+
+---
 # Githubi kasutamise harjutamine 1
 
-- Loo omale repositoorium
+- Loo oma organisatsiooni alla repositoorium nimega SJTA
 - Klooni see oma arvutisse
-- Lisa sinna README.md
+- Lisa sinna `README.md` fail ja lisa sinna pealkiri `Sissejuhatus tarkvaraarendusse`
 - Täida loodud fail mingi sisuga
 - Tee *commit*
 - Push
 
 ---
+# Collaborator-i lisamine
+
+Koduste tööde esitamisel hakkame kasutama sellist töövoogu, kus enne lõplikku kodus töö esitamist, vaatab teie koduse töö üle kõigepealt `collaborator` ja annab selle kohta tagasisidet. Kui `collaborator` on tööga rahul, siis esitatakse kodune töö edasi õppejõule (esialgu Programmeerimine I ja SJTA õppeaines).
+
+---
 # Githubi kasutamise harjutamine 2
 
-- Tee uus haru
-- Lisa mingi uus fail
+- Tee uus haru nimega `test`
+- Lisa repositooriumisse uus fail nimega `test.md` ja lisa sinna pealkiri `Test`
 - Tee commit
 - Tee push
-- Tee Pull request
+- Tee Pull request ja lisa ülevaatajaks `collaborator`
+- Kui `collaborator` on muudatustega rahul, siis tee merge
+- Tee `Review` Sinule määratud `Pull Request`-ile
 - Tee merge
 
 ---
-# Koduste tööde reposse oma kausta tegemine
+# Githubi kasutamise harjutamine 3
 
-- Clone
-- Tee kaust Eesnimi_Perekonnanimi
-- Sinna alla loo fail README.md, sinna lisa oma nimi
-- Loo kaust Programmeerimine_I
-- Sinna alla loo fail README.md
-- Loo kaust SJTA
-- Sinna alla loo fail README.md
-- Commit
-- Push
-- Pull request
+- Loo oma organisatsioonile `Member` ja `Public` vaated
+- Member vaatesse lisa minimaalselt oma nimi ja pilt
+- Loo repositoorium nimega `Programmeerimine-I` ja lisa sinna `README.md` fail
+- Loo repositoorium nimega `Veebirakendused` ja lisa sinna `README.md` fail
 
 ---
 # .gitignore
 
 `.gitignore` on konfiguratsioonifail, mida Git kasutab, et määrata, millised failid ja kataloogid tuleks versioonihaldussüsteemist välja jätta.
-
----
-# Markdown
-
-Markdown on märgendikeel, mis võimaldab kasutajatel kirjutada lihtteksti ja vormindada seda lihtsa süntaksiga, et luua dokumente, mida on lihtne lugeda ja kirjutada.
 
 ---
 # Github Issue
@@ -288,11 +290,8 @@ GitHubi kontekstis on *issue* omadus, mis võimaldab kasutajatel jälgida konkre
 ---
 # Kodune töö
 
-- Endanimelises kaustas README.md lühikese ülevaade oma kodutööde kohta
-  - Kuidas ülesande lahendamisele lähenesid
-  - Kas oli probleeme
-  - Kuidas probleemid lahendasid
-- Programmeerimine I ülesanded
-- Omamnimelisse kasutas olevasse Programmeerimine_I kausta
-  - Kodune_1
-  - Kodune_2
+Kodused tööd sisaldavad üldiselt Gihtubi kasutamist erinevates õppeainetes
+- Programmeerimine I loengutes kirjutatud kood
+- Programmeerimine I kodused tööd
+- Veebirakendused ja nende loomine õppeaine kood
+- jms
