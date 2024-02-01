@@ -100,6 +100,11 @@ Tarkvaraarendus on tarkvararakenduste kavandamise, loomise, testimise ja hooldam
 ---
 # Tarkvaraarenduse elutsükkel
 
+Tarkvaraarenduse elutsükkel (Software Development Life Cycle - SDLC) on protsess, mida tarkvaratööstus kasutab kvaliteetse tarkvara kavandamiseks, arendamiseks ja testimiseks. SDLC eesmärk on toota kvaliteetset tarkvara, mis vastab või ületab klientide ootusi, jõuab lõpule ettenähtud aja ja kuluprognooside jooksul.
+
+---
+# Tarkvaraarenduse elutsükkel
+
 - Planeerimine
 - Nõuete määramine
 - Disain
@@ -189,7 +194,7 @@ Git on hajutatud versioonihaldussüsteem, mis on loodud tarkvara arendamise käi
 - Kinnitus? (*Commit*)
 - Tõukamine (*Push*)
 - Tõmbetaotlus (*Pull request*)
-- Sulatamine? (*Merge*)
+- Ühendamine (*Merge*)
 
 ---
 # Git-i töövoog
@@ -241,6 +246,8 @@ GitHub on veebipõhine platvorm, mida kasutatakse versioonikontrolliks ja koost�
 # Markdown
 
 Markdown on märgendikeel, mis võimaldab kasutajatel kirjutada lihtteksti ja vormindada seda lihtsa süntaksiga, et luua dokumente, mida on lihtne lugeda ja kirjutada.
+
+> Markdown'i kirjutamise lihtsustamiseks on hea kasutada VS Code-i laiendit `Markdown All in One`
 
 ---
 # Githubi kasutamise harjutamine 1

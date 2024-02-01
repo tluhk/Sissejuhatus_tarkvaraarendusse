@@ -62,12 +62,3 @@ graph TD
 - [UX/UI prototüüp](../../../concepts/prototyypimine/README.md)
 
 ## Tulemuse esitamine
-
-```bash
-└── Eesnimi_Perekonnanimi
-    ├── SJTA
-    │   ├── Classwork_1
-    │   │   └── requirements.md
-    │   └── README.md
-    └── README.md
-```

@@ -25,17 +25,17 @@ graph TD
 
 Tüüpiline tarkvaraarenduse elutsükkel koosneb järgmistest etappidest –
 
-1. **Planeerimine ja nõuete analüüs**
+**1\. Planeerimine ja nõuete analüüs**
 
 Nõuete analüüs on SDLC kõige olulisem ja põhiline etapp. Seda viivad läbi meeskonna liikmed kliendi, müügiosakonna, turu-uuringute ja valdkonna ekspertide koostöös. Seda teavet kasutatakse seejärel projekti põhilise lähenemisviisi kavandamiseks ja toote teostatavusuuringu läbiviimiseks majandus-, töö- ja tehnilistes valdkondades.
 
 Planeerimisetapis toimub ka kvaliteedi tagamise nõuete planeerimine ja projektiga seotud riskide väljaselgitamine. Tehnilise teostatavusuuringu tulemuseks on määratleda erinevad tehnilised lähenemisviisid, mida saab järgida projekti edukaks elluviimiseks minimaalsete riskidega.
 
-2. **Nõuete määratlemine**
+**2\. Nõuete määratlemine**
 
 Kui nõuete analüüs on tehtud, on järgmine samm tootenõuete selgelt määratlemine ja dokumenteerimine ning kliendi või turuanalüütikute poolt heakskiitmine. Seda tehakse tarkvaranõuete spetsifikatsiooni (Software Requirement Specification - SRS) kaudu, mis sisaldab kõiki projekti elutsükli jooksul kavandatavaid ja arendatavaid tootenõudeid.
 
-3. **Tootearhitektuuri kujundamine (disain)**
+**3\.Tootearhitektuuri kujundamine (disain)**
 
 Tarkvaranõuete spetsifikatsioon on aluseks tootearhitektidele, et tulla välja arendatava toote jaoks parima arhitektuuriga. Tarkvaranõuete spetsifikatsioonis määratletud nõuete alusel pakutakse tavaliselt välja rohkem kui üks tootearhitektuuri disainilahendus ja dokumenteeritakse need projekteerimisdokumendi spetsifikatsioonis (DDS).
 
@@ -43,17 +43,17 @@ Projekteerimisdokumendi spetsifikatsiooni vaatavad üle kõik olulised sidusrüh
 
 Disaini lähenemisviis määratleb selgelt kõik toote arhitektuurimoodulid koos selle side- ja andmevoo esitusega välise ja kolmanda osapoole moodulitega (kui neid on). Kavandatava arhitektuuri kõigi moodulite sisekujundus peaks olema selgelt määratletud Projekteerimisdokumendi spetsifikatsiooni pisimate üksikasjadega.
 
-4. **Toote ehitamine või arendamine**
+**4\. Toote ehitamine või arendamine**
 
 Selles SDLC etapis algab tegelik arendus ja toote ehitamine. Programmeerimiskood genereeritakse selles etapis vastavalt projekteerimisdokumendi spetsifikatsioonile. Kui disain on läbi viidud üksikasjalikult ja organiseeritult, saab koodi genereerida ilma suurema vaevata.
 
-Arendajad peavad järgima oma organisatsiooni määratletud kodeerimisjuhiseid ja koodi genereerimiseks kasutatakse programmeerimistööriistu, nagu kompilaatorid, tõlgid, silujad jne. Kodeerimiseks kasutatakse erinevaid kõrgetasemelisi programmeerimiskeeli nagu C, C++, Pascal, Java ja PHP. Programmeerimiskeel valitakse vastavalt arendatava tarkvara tüübile.
+Arendajad peavad järgima oma organisatsiooni määratletud kodeerimisjuhiseid ja koodi genereerimiseks kasutatakse programmeerimistööriistu, nagu kompilaatorid, tõlgid, silujad jne. Kodeerimiseks kasutatakse erinevaid kõrgetasemelisi programmeerimiskeeli nagu C, C++, Pascal, Java, Javascript ja PHP. Programmeerimiskeel valitakse vastavalt arendatava tarkvara tüübile.
 
-5. **Toote testimine**
+**5\. Toote testimine**
 
 See etapp on tavaliselt kõigi etappide alamhulk, nagu tänapäevaste SDLC mudelite puhul, testimistegevused hõlmavad enamasti kõiki SDLC etappe. See etapp viitab aga toote ainult testimise etapile, kus toote defektidest teatatakse, neid jälgitakse, parandatakse ja testitakse uuesti, kuni toode saavutab SRS-is määratletud kvaliteedistandardid.
 
-6. **Turuleviimine ja hooldus**
+**6\. Turuleviimine ja hooldus**
 
 Kui toode on testitud ja kasutuselevõtuks valmis, lastakse see ametlikult vastavale turuel. Mõnikord toimub toote juurutamine selle organisatsiooni äristrateegia kohaselt etapiviisiliselt. Toode võidakse esmalt välja anda piiratud segmendis ja testida reaalses ärikeskkonnas (UAT – kasutaja aktsepteerimise testimine).
 

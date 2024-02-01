@@ -1,5 +1,5 @@
 
-# GITHUB ISSUE
+# Github Issue
 
 Kõik projektid vajavad süsteemi, mis aitaks töökulgu organiseerida ja sellel silma peal hoida. Selleks on palju erinevaid tööriistu, **GitHub Issues** on kõigest üks paljudest turul olemasolevatest. 
 
