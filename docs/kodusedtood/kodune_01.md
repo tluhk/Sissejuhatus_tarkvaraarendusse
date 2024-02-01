@@ -1,79 +1,35 @@
-Kes loengus ei olnud, siis kõigepealt tuleb teha koduste tööde [repositooriumisse](https://github.com/tluhk/RIF22_kodutood):
+# 1. kodutöö
 
-- Oma nimega branch kujul: Eesnimi_Perekonnanimi
-- Kaust Eesnimi_Perekonnanimi
-- Sinna alla loo fail README.md, mille sisse lisa oma nimi
-- Loo kaust Programmeerimine_I
-- Sinna alla loo fail README.md
-- Loo kaust SJTA
-- Sinna alla loo fail README.md
+Kes loengus ei osalenud, siis kõigepealt tuleb teha loengus tehtud harjutused:
 
-Esialgne kaustade struktuur peaks välja nägema sarnane:
+## Githubi kasutamise harjutamine 1
 
-```bash
-├── Eesnimi_Perekonnanimi
-│   ├── Programmeerimine_I
-│   │   ├── Kodune_1
-│   │   │   └── README.md
-│   │   ├── Kodune_2
-│   │   │   └── README.md
-│   │   ├── Homework_3
-│   │   │   └── README.md
-│   │   ├── Homework_4
-│   │   │   └── README.md
-│   │   └── README.md
-│   └── SJTA
-│       ├── Classwork_1
-│       │   └── README.md
-│       ├── Homework_1
-│       │   └── README.md
-│       └── README.md
-└── README.md
-```
+- Loo oma organisatsiooni alla repositoorium nimega SJTA
+- Klooni see oma arvutisse
+- Lisa sinna `README.md` fail ja lisa sinna pealkiri `Sissejuhatus tarkvaraarendusse`
+- Täida loodud fail mingi sisuga
+- Tee *commit*
+- Push
 
-Kui tegid/teed oma haru peale loengut, siis sisaldab `main` haru juba mõningaid uusi kaustu, mis tulevad Sinu loodud harusse kaasa - need on seotud Programmeerimine I aine kodutööde automaatse testimisega, millest räägime konsultatsioonis ja järgmistes loengutes.
+## Githubi kasutamise harjutamine 2
 
-Tõenäoliselt paistab sellisel juhul kaustastruktuur lõpuks välja sarnane:
+- Lisa oma organisatsiooni uus liige, kes hakkab edaspidi Sinu kodustele töödele `Code Review`-d tegema
+- Tee SJTA repositooriumisse uus haru nimega `test`
+- Lisa repositooriumisse uus fail nimega `test.md` ja lisa sinna pealkiri `Test`
+- Tee `commit`
+- Tee `push`
+- Tee `Pull Request` ja lisa ülevaatajaks varem lisatud uus organisatsiooni liige
+- Kui ülevaataja nõuab muudatusi, siis tee muudatused, `commit`-i, `push`-i ja küsi uuesti ülevaatust
+- Tee `Review` Sinule määratud `Pull Request`-ile
+  - Vastavalt vajadusele `Request changes` või `Approve`
+  - Peale `Approve` lisa uueks `Reviewer`iks `mrtrvl`
 
-```bash
-├── .github/workflows
-|   └── homework1.yml
-├── Eesnimi_Perekonnanimi
-│   ├── Programmeerimine_I
-│   │   ├── Kodune_1
-│   │   │   └── README.md
-│   │   ├── Kodune_2
-│   │   │   └── README.md
-│   │   ├── Homework_3
-│   │   │   └── README.md
-│   │   ├── Homework_4
-│   │   │   └── README.md
-│   │   └── README.md
-│   └── SJTA
-│       ├── Classwork_1
-│       │   └── README.md
-│       ├── Homework_1
-│       │   └── README.md
-│       └── README.md
-├── test
-|   └── math.test.js
-├── .gitattributes
-├── .gitignore
-├── README.md
-├── package-lock.json
-└── package.json
-```
+## Kodune töö
 
-Tähtajad vastavalt Programmeerimine I aine [tähtaegadele](https://github.com/tluhk/Programmeerimine_I/blob/master/lessons/loeng_02/README.md#kodune-t%C3%B6%C3%B6).
-
-- Endanimelises kaustas README.md lühikese ülevaade oma kodutööde kohta
-  - Kuidas ülesande lahendamisele lähenesid
-  - Kas oli probleeme
-  - Kuidas probleemid lahendasid
-- Programmeerimine I ülesanded
-- Oma Programmeerimine I kausta
-  - Kodune_1
-  - Kodune_2
-  
-  Issue: https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/issues/8
+- Loo oma organisatsioonile `Member` ja `Public` vaated kasutades 2. Githubi harjutuses näidatud töövoogu
+  - Member vaatesse lisa minimaalselt oma nimi ja pilt
+- Loo oma organisatsiooni alla repositoorium nimega `Programmeerimine-I` ja lisa sinna `README.md` fail
+  - Sellesse repositooriumisse tuleb edaspidi lisada kõik `Programmeerimine I` loengus kirjutatud kood ja kodused tööd
+- Loo oma organisatsiooni alla repositoorium nimega `Veebirakendused` ja lisa sinna `README.md` fail
+  - Sellesse repositooriumisse tuleb edaspidi lisada kõik `Veebirakendused ja nende loomine` loengus kirjutatud kood ja kodused tööd
   

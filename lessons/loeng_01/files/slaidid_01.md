@@ -260,42 +260,31 @@ Markdown on märgendikeel, mis võimaldab kasutajatel kirjutada lihtteksti ja vo
 - Push
 
 ---
-# Collaborator-i lisamine
-
-Koduste tööde esitamisel hakkame kasutama sellist töövoogu, kus enne lõplikku kodus töö esitamist, vaatab teie koduse töö üle kõigepealt `collaborator` ja annab selle kohta tagasisidet. Kui `collaborator` on tööga rahul, siis esitatakse kodune töö edasi õppejõule (esialgu Programmeerimine I ja SJTA õppeaines).
-
----
 # Githubi kasutamise harjutamine 2
 
-- Tee uus haru nimega `test`
+- Lisa oma organisatsiooni uus liige, kes hakkab edaspidi Sinu kodustele töödele `Code Review`-d tegema
+- Tee SJTA repositooriumisse uus haru nimega `test`
 - Lisa repositooriumisse uus fail nimega `test.md` ja lisa sinna pealkiri `Test`
-- Tee commit
-- Tee push
-- Tee Pull request ja lisa ülevaatajaks `collaborator`
-- Kui `collaborator` on muudatustega rahul, siis tee merge
+- Tee `commit`
+- Tee `push`
+- Tee `Pull Request` ja lisa ülevaatajaks varem lisatud uus organisatsiooni liige
+- Kui ülevaataja nõuab muudatusi, siis tee muudatused, `commit`-i, `push`-i ja küsi uuesti ülevaatust
 - Tee `Review` Sinule määratud `Pull Request`-ile
-- Tee merge
+  - Vastavalt vajadusele `Request changes` või `Approve`
+  - Peale `Approve` lisa uueks `Reviewer`iks `mrtrvl`
 
 ---
-# Githubi kasutamise harjutamine 3
+# Kodune töö 1
 
-- Loo oma organisatsioonile `Member` ja `Public` vaated
-- Member vaatesse lisa minimaalselt oma nimi ja pilt
-- Loo repositoorium nimega `Programmeerimine-I` ja lisa sinna `README.md` fail
-- Loo repositoorium nimega `Veebirakendused` ja lisa sinna `README.md` fail
-
+- Loo oma organisatsioonile `Member` ja `Public` vaated kasutades 2. Githubi harjutuses näidatud töövoogu
+  - Member vaatesse lisa minimaalselt oma nimi ja pilt
+- Loo oma organisatsiooni alla repositoorium nimega `Programmeerimine-I` ja lisa sinna `README.md` fail
+  - Sellesse repositooriumisse tuleb edaspidi lisada kõik `Programmeerimine I` loengus kirjutatud kood ja kodused tööd
+- Loo oma organisatsiooni alla repositoorium nimega `Veebirakendused` ja lisa sinna `README.md` fail
+  - Sellesse repositooriumisse tuleb edaspidi lisada kõik `Veebirakendused ja nende loomine` loengus kirjutatud kood ja kodused tööd
 ---
-# .gitignore
 
-`.gitignore` on konfiguratsioonifail, mida Git kasutab, et määrata, millised failid ja kataloogid tuleks versioonihaldussüsteemist välja jätta.
-
----
-# Github Issue
-
-GitHubi kontekstis on *issue* omadus, mis võimaldab kasutajatel jälgida konkreetse hoidla ülesandeid, vigu ja funktsioonitaotlusi
-
----
-# Kodune töö
+# Kodused tööd üldiselt
 
 Kodused tööd sisaldavad üldiselt Gihtubi kasutamist erinevates õppeainetes
 - Programmeerimine I loengutes kirjutatud kood

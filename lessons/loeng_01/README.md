@@ -4,7 +4,7 @@ Esimese loengu eesmärk on arutleda selle üle, mis on üldse tarkvara ja kuidas
 
 [Esimese loengu slaidid](files/slaidid_01.pdf)
 
-[Esimese loengu salvestus]()
+[Esimese loengu salvestus](https://youtu.be/-Y1HmkYb_qY)
 
 [Teine loeng](../loeng_02/README.md)
 
@@ -18,8 +18,6 @@ Esimese loengu eesmärk on arutleda selle üle, mis on üldse tarkvara ja kuidas
 - [Github](../../concepts/github/README.md)
 - [Githubi organisatsiooni vaadete loomine](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile)
 - [Markdown](../../concepts/markdown/README.md)
-- [.gitignore](../../concepts/gitignore/README.md)
-- [Github issue](../../concepts/githubIssue/README.md)
  
 ![Tarkvaraarenduse elutsükkel](files/image1.jpeg)
 ![Git](files/image0.jpeg)
@@ -30,4 +28,4 @@ Esimese loengu eesmärk on arutleda selle üle, mis on üldse tarkvara ja kuidas
 
 ## Kodune töö
 
-[Esimese koduse töö kirjelduse leiad siit]()
+[Esimese koduse töö kirjelduse leiad siit](../docs/kodusedtood/kodune_01.md)
