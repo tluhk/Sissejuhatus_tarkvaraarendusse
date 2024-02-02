@@ -28,4 +28,4 @@ Esimese loengu eesmärk on arutleda selle üle, mis on üldse tarkvara ja kuidas
 
 ## Kodune töö
 
-[Esimese koduse töö kirjelduse leiad siit](../docs/kodusedtood/kodune_01.md)
+[Esimese koduse töö kirjelduse leiad siit](../../docs/kodusedtood/kodune_01.md)

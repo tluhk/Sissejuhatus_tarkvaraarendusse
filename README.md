@@ -47,7 +47,7 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 
 ## Kodused tööd
 
-- [Esimene]()
+- [Esimene](./docs/kodusedtood/kodune_01.md)
 - [Teine]()
 - [Kolmas]() 
 
