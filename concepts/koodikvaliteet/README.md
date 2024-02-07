@@ -20,7 +20,7 @@ Järgnevalt mõned punktid, kuidas tagada koodi kvaliteeti:
 
 - **Järjepidev koodi vormindamine** (*Consistent Code Formatting*): koodivormingu järjepidevus muudab arendajatel koodibaasi mõistmise ja hooldamise lihtsamaks. Kasutage koodibaasi ühtse stiili jõustamiseks koodilinterit või vormindustööriista, nagu Prettier või [ESLint](../eslint/README.md).
 
-**Kommentaarid ja dokumentatsioon** (*Code Comments and Documentation*): koodibaasi dokumenteerimine kommentaaride, dokumentatsiooni ja tekstisiseste märkustega on hea tava tagamaks, et arendajad saavad koodist aru ja seda muuta. Kommenteeri lühidalt ja seda miks midagi sellisel kujul teed, mitte mita teed. Püüa muutujaid ja funktsioone nimetad selliselt, et kommentaare ei olekski vaja. Pikad nimed on okei.
+**Kommentaarid ja dokumentatsioon** (*Code Comments and Documentation*): koodibaasi dokumenteerimine kommentaaride, dokumentatsiooni ja tekstisiseste märkustega on hea tava tagamaks, et arendajad saavad koodist aru ja seda muuta. Kommenteeri lühidalt ja seda miks midagi sellisel kujul teed, mitte mida teed. Püüa muutujaid ja funktsioone nimetad selliselt, et kommentaare ei olekski vaja. Pikad nimed on okei.
 
 **Ühiktestimine** (*Unit Testing*): koodi automaattestide kirjutamine aitab tagada, et see toimib ootuspäraselt ja et koodibaasi muudatused ei too kaasa uusi vigu ega probleeme. Javascripti ühiktestide kirjutamiseks ja käitamiseks saab kasutada näiteks selliseid tööriistu nagu [Jest](https://jestjs.io/) või [Mocha](https://mochajs.org/).
 
