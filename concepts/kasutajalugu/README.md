@@ -16,7 +16,7 @@ Kasutajaloo kirjutamiseks järgige neid lihtsaid samme:
 
 Kasutajalugude kirjutamisel on oluline, et need oleksid lühikesed ja keskenduksid lõppkasutaja vajadustele. Samuti tuleks kasutajalood kirjutada lihtsalt ja arusaadavalt ning prioriseerida, et arendusmeeskond saaks kiiresti kindlaks teha, milliseid lugusid on kõige olulisem rakendada.
 
-## Näide:
+## Näide
 
 Siin on näide väljamõeldud e-kaubanduse veebisaidi prioriteetsete kasutajalugude loendist.
 

@@ -6,6 +6,10 @@ Repositooriumi struktuur saab olema vastavalt loengutele ja õppematerjalide lä
 
 Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kulutaks liialt aega asjadele, mida kõik saavad eelnevalt kodus ise ära teha (kui kasutad loengutes oma arvutit). Tegevuste nimekiri on [siin](lessons/enne_loenguid.md).
 
+## Koduste tööde esitamine
+
+[Koduste tööde esitamise tabel](https://docs.google.com/spreadsheets/d/1nQHGV_-T3g5AZgdZ8NJBsLq_kFgqQMBoCDQNIkoTBfA/edit?usp=sharing)
+
 ## Ainekaart
 
 [Ainekaart](docs/ainekaart.md)
