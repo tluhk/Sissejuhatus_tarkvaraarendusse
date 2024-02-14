@@ -22,12 +22,11 @@ Lisaks räägime tarkvaraarenduse meetoditest ja koodi kvaliteedist.
 - Konsultatsioon
 - [Kodused tööd](../../docs/kodusedtood/kodune_01_tagasiside.md)
 - [.gitignore](../../concepts/gitignore/README.md)
-- [Markdown](../../concepts/markdown/README.md)
-- [Harjutus nõuete väljaselgitamiseks](files/harjutus.md)
 - [Persoona](../../concepts/persoona/README.md)
 - [Stsenaarium](../../concepts/stsenaarium/README.md)
 - [Kasutajalood](../../concepts/kasutajalugu/README.md)
 - [Kasutaja teekond](../../concepts/kasutajateekond/README.md)
+- [Harjutus nõuete väljaselgitamiseks](files/harjutus.md)
 - [Tarkvaraarenduse meetodid](../../concepts/arendusmeetodid/README.md)
 - [Koodi kvaliteet](../../concepts/koodikvaliteet/README.md)
 
@@ -37,7 +36,7 @@ Lisaks räägime tarkvaraarenduse meetoditest ja koodi kvaliteedist.
 
 ## Loengus tehtav töö
 
-Esitada repositooriumisse hiljemalt 04.03.2023
+Esitada repositooriumisse hiljemalt
 
 [Harjutus](files/harjutus.md)
 

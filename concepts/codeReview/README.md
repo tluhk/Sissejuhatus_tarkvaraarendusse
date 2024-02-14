@@ -3,6 +3,7 @@
 Koodi ülevaatus on protsess, mille käigus üks või mitu arendajat vaatavad üle teise arendaja kirjutatud koodi. Koodiülevaatuse eesmärk on tuvastada võimalikud probleemid, parandada koodi kvaliteeti ja tagada koodi vastavus projekti nõuetele.
 
 Koodi ülevaatus hõlmab tavaliselt koodi ridade kaupa läbilugemist, selliste probleemide otsimist nagu:
+
 - vead;
 - turvanõrkused;
 - jõudlusprobleemid;
@@ -32,3 +33,4 @@ flowchart LR
     F --> | Jah | A
     F --> | Ei | G(Merge)
   ```
+  

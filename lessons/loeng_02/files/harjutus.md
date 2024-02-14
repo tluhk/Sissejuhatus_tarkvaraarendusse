@@ -1,7 +1,5 @@
 # Harjutus nõuete kogumiseks
 
-## Maja joonistamine
-
 ## Riigikogu liikmete lehekülg
 
 - Riigikogu liikmete lehekülg
@@ -14,6 +12,7 @@
 - List
   - Kõik nimed
   - Otsing
+
 ---
 
 - Kust saab andmed?
@@ -21,7 +20,7 @@
 - Disain?
 - Veel midagi?
 
-## Eelmisest loengust mäletame:
+## Eelmisest loengust mäletame
 
 ```mermaid
 graph TD
@@ -33,7 +32,7 @@ graph TD
   F --> A
 ```
 
-## Et ei juhtuks nii ...
+## Et ei juhtuks nii
 
 ![Projekti juthimine](Tree.jpg)  
 [Pildi allikas](https://pmac-agpc.ca/sites/default/files/Tree.jpg)

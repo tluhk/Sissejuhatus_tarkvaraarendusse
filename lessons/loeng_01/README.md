@@ -18,7 +18,6 @@ Esimese loengu eesmärk on arutleda selle üle, mis on üldse tarkvara ja kuidas
 - [Github](../../concepts/github/README.md)
 - [Githubi organisatsiooni vaadete loomine](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile)
 - [Markdown](../../concepts/markdown/README.md)
- 
 ![Tarkvaraarenduse elutsükkel](files/image1.jpeg)
 ![Git](files/image0.jpeg)
 
