@@ -12,6 +12,7 @@ Martti Raavel
 
 - [Meenutame eelmist loengut](../loeng_01/README.md)
 - Koduste tööde tagasiside
+- Issuest branchi loomine
 - [.gitignore](../../../.gitignore)
 - [Koodi kvaliteet](../../../concepts/koodikvaliteet/README.md)
 - [Persoonad](../../../concepts/persoona/README.md)
@@ -34,6 +35,18 @@ Martti Raavel
 ---
 
 ## Kodustest töödest
+
+---
+
+## Issuest branchi loomine 1
+
+![Issuest Branchi loomine](issue1.png)
+
+---
+
+## Issuest branchi loomine 2
+
+![Branchi loomine](issue2.png)
 
 ---
 
