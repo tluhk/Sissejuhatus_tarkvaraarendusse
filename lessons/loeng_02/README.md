@@ -19,16 +19,14 @@ Lisaks räägime tarkvaraarenduse meetoditest ja koodi kvaliteedist.
 ## Teise loengu teemad
 
 - [Meenutame eelmist loengut](../loeng_01/README.md)
-- Konsultatsioon
-- [Kodused tööd](../../docs/kodusedtood/kodune_01_tagasiside.md)
+- Koduste tööde tagasiside
 - [.gitignore](../../concepts/gitignore/README.md)
+- [Koodi kvaliteet](../../concepts/koodikvaliteet/README.md)
 - [Persoona](../../concepts/persoona/README.md)
-- [Stsenaarium](../../concepts/stsenaarium/README.md)
 - [Kasutajalood](../../concepts/kasutajalugu/README.md)
+- [Stsenaarium](../../concepts/stsenaarium/README.md)
 - [Kasutaja teekond](../../concepts/kasutajateekond/README.md)
 - [Harjutus nõuete väljaselgitamiseks](files/harjutus.md)
-- [Tarkvaraarenduse meetodid](../../concepts/arendusmeetodid/README.md)
-- [Koodi kvaliteet](../../concepts/koodikvaliteet/README.md)
 
 ![Teine loeng](files/teine_loeng.jpg)
 

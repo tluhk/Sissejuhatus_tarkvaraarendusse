@@ -10,7 +10,7 @@ ESLint on sageli integreeritud koodiredaktorite ja ehitustööriistadega, nagu V
 
 ## ESLint-i paigaldamine NodeJS projektile (VSCode)
 
-Kõigepealt lisa VSCode-le (kui ei ole veel lisatud) ESLint psitikprogramm. Leiad selle pistikprogrammide alt või siis siit: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+Kõigepealt lisa VSCode-le (kui ei ole veel lisatud) ESLint psitikprogramm. Leiad selle pistikprogrammide alt või siis siit: <https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint>
 
 1. Paigalda ESLint arendussõltuvusena järgmiselt:
 
@@ -23,10 +23,10 @@ npm install eslint --save-dev
 ```bash
 npx eslint --init
 ```
+
 > Pööra tähelepanu - `npx`, mitte `npm`
-
+>
 > See käsk küsib juhiseid ESLinti konfigureerimiseks oma projekti jaoks küsimuste küsimisega. Saate valida stiilijuhise, mida soovite järgida, määrata failitüübid, mida soovite lintida, ja konfigureerida mõned reeglid.
-
 > Programmeerimine I kursuse raames kasutame stiilijuhendina `Airbnb` stiilijuhiste komplekti.
 
 Vasta küsimustele järgmiselt:

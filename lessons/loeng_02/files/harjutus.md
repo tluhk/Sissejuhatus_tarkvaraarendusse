@@ -15,6 +15,8 @@
 
 ---
 
+## Analüüs
+
 - Kust saab andmed?
 - Kuidas andmeid säilitada?
 - Disain?
