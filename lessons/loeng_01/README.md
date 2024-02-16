@@ -8,7 +8,7 @@ Esimese loengu eesmärk on arutleda selle üle, mis on üldse tarkvara ja kuidas
 
 [Teine loeng](../loeng_02/README.md)
 
-## Esimese loengu teemad:
+## Esimese loengu teemad
 
 - [Sissejuhatus](../../concepts/sissejuhatus/README.md)
 - [Tarkvara](../../concepts/tarkvara/README.md)

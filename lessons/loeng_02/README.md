@@ -12,7 +12,7 @@ Lisaks räägime tarkvaraarenduse meetoditest ja koodi kvaliteedist.
 
 [Teise loengu slaidid](files/slaidid_02.pdf)
 
-[Teise loengu salvestus]()
+[Teise loengu salvestus](https://youtu.be/rh8k2sevui4)
 
 [Kolmas loeng](../loeng_03/README.md)
 
