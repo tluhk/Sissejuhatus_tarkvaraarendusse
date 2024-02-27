@@ -43,23 +43,14 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 
 ## Loengud
 
-- [Esimene loeng](./lessons/loeng_01/README.md) 01. veebruar 2024
-- [Teine loeng](lessons/loeng_02/README.md) 16. veebruar 2024
-- [Kolmas loeng](lessons/loeng_03/README.md) 16. märts 2024
-- [Neljas loeng](lessons/loeng_04/README.md) 30. mai 2024
-- Arvestus 13. juuni 2024
-
-## Kodused tööd
-
-- [Esimene](./docs/kodusedtood/kodune_01.md)
-- [Teine]()
-- [Kolmas]() 
-
-## Esitatud kodused tööd
-
-[Esitatud kodused tööd]()
+| Loeng | Kuupäev | Iseseisev töö | Tähtaeg |
+|-------|---------|----------------|---------|
+| [Esimene](lessons/loeng_01/README.md) | 01. veebruar 2024 | [Esimene iseseisev töö](lessons/loeng_01/kodune_01.md) | 14. veebruar 2024 |
+| [Teine](lessons/loeng_02/README.md) | 16. veebruar 2024 | [Teine iseseisev töö](lessons/loeng_02/kodune_02.md) | 14. märts 2024 kell 09:00 |
+| [Kolmas](lessons/loeng_03/README.md) | 16. märts 2024 | [Kolmas iseseisev töö](lessons/loeng_03/kodune_03.md) | 28. mai 2024 kell 09:00 |
+| [Neljas](lessons/loeng_04/README.md) | 30. mai 2024 | [Neljas iseseisev töö](lessons/loeng_04/kodune_04.md) | 11. juuni 2024 kell 09:00 |
+| Arvestus | 13. juuni 2024 |  |  |
 
 ## Eksam
 
 - [Hindamine]()
-  
