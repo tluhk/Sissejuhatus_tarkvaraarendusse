@@ -15,8 +15,8 @@ Seejärel räägime pisut täpsemalt erinevatest tarkvaraarendusmeetoditest.
 ## Kolmanda loengu teemad
 
 - [Meenutame eelmist loengut](../loeng_02/README.md)
-- [Eelmise loengu töö](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/issues/10)
-- Kuidas on läinud Githubiga?
+- [RK lehekülje kasutajalood](../../homeworks/RK_lehekylg/Kasutajalood.md)
+- Varasemate kodutööde seis
 - Kuidas on läinud ESLint tööriistaga?
 - [Tarkvaraarenduse meetodid](../../concepts/arendusmeetodid/README.md)
 - [Rollid tarkvaraarenduses](../../concepts/rollid/README.md)

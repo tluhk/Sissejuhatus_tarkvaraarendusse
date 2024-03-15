@@ -1,17 +1,53 @@
-# Tarkvaraarenduse meetodid
+# Mis on tarkvaraarenduse mudelid?
 
-Tarkvaraarendusmeetodid on struktureeritud lähenemisviisid tarkvara arendamiseks, mis loovad raamistiku tarkvaratoodete kavandamiseks, kujundamiseks, ehitamiseks, testimiseks ja tarnimiseks. Tarkvaraarendusmeetodeid on palju erinevaid, millest igaühel on oma tugevad ja nõrgad küljed ning igaüks sobib erinevat tüüpi tarkvaraarendusprojektidega.
+Tarkvaraarenduse mudelid on struktureeritud lähenemised tarkvaraarendusele, mis määratlevad etapid ja protsessid, mida tuleb järgida tarkvara tootmisel. Need mudelid võivad olla lineaarsed, järjestikused või iteratiivsed, sõltuvalt projekti olemusest ja nõuetest. Siin on mõned levinumad tarkvaraarenduse mudelid:
 
-Siin on mõned levinumad tarkvaraarendusmeetodid:
+## **Kose mudel:**
 
-- **Kosk (*Waterfall*)**: traditsiooniline tarkvaraarendusmeetod, kus iga arendustsükli faas viiakse läbi enne järgmisse faasi liikumist. See meetod on kasulik, kui nõuded on hästi mõistetavad ja tõenäoliselt ei muutu.
+- **Kirjeldus:** Lineaarne ja järjestikune lähenemine, kus iga faas tuleb lõpetada enne järgmise algust. See on varaseim SDLC lähenemine.
+- **Eelised:** Selge struktuur, lihtne mõistmine, hästi määratletud etapid.
+- **Puudused:** Pärast faasi lõpetamist on muudatuste tegemine keeruline, ei sobi keerukate projektide jaoks.
 
-- **Agiilne**: iteratiivne tarkvaraarendusmeetod, kus nõuded ja lahendused arenevad iseorganiseeruvate ja ristfunktsionaalsete meeskondade koostöös. See meetod on kasulik kiiresti muutuvate nõuetega projektide jaoks või kui soovitakse tarkvara tarnida väikeste sammudena.
+## **Lean:**
 
-- **DevOps**: see meetod rõhutab tarkvaraarenduse ja IT-operatsioonide vahelist koostööd, et automatiseerida tarkvara tarnimise ja infrastruktuuri muutmise protsessi. See meetod on kasulik, kui arendustsüklit on vaja kiirendada ning pidev integreerimine ja edastamine on vajalik.
+- **Kirjeldus:** Sai alguse tootmisest, keskendub ressursside optimeerimisele ja kliendi väärtuse pakkumisele. Eesmärk on kõrvaldada igasugune "raiskamine" protsessist.
+- **Eelised:** Tõhus ressursside kasutamine, keskendub väärtuse pakkumisele.
+- **Puudused:** Võib jätta tähelepanuta vajalikud ülesanded kui "raiskamine", nõuab korrektseks rakendamiseks sügavat mõistmist.
 
-- **Scrum**: agiilne meetod, mis rõhutab meeskonnatööd, suhtlust ja kiireid arengutsükleid, mida nimetatakse sprindideks. See meetod on kasulik kiiresti muutuvate nõuetega projektide puhul või kui soovitakse paindlikku lähenemist arendustegevusele.
+## **Spiraalmudel:**
 
-- **Kanban**: Lean-meetod, mis rõhutab töö visualiseerimist, poolelioleva töö piiramist ja voo maksimeerimist. See meetod on kasulik suure töömahuga projektide jaoks või kui tööüksustel on erinevad prioriteedid.
+- **Kirjeldus:** Ühendab kose mudeli disainifaasi prototüüpimise iteratiivse filosoofiaga. Keskpunktis on riskide hindamine igal spiraalil.
+- **Eelised:** Keskpunktis on riskijuhtimine, paindlikkus disainis ja nõuetes.
+- **Puudused:** Võib olla kallis, nõuab riskihindamise asjatundlikkust.
 
-- **Extreme Programming** (XP): agiilne meetod, mis rõhutab kiiret tagasisidet, pidevat testimist ja paarisprogrammeerimist. See meetod on kasulik kiiresti muutuvate nõuetega projektide puhul, kus kvaliteetse tarkvara kiire tarnimine on hädavajalik.
+## **Agiilne mudel:**
+
+- **Kirjeldus:** Iteratiivne lähenemine tarkvara tarnimisele, mis ehitab tarkvara järk-järgult, keskendudes kliendi tagasisidele ja kiiretele iteratsioonidele.
+- **Eelised:** Paindlik, edendab iteratiivset tagasisidet, julgustab kliendi kaasamist.
+- **Puudused:** Vähem ennustatav, võib olla raske mõista neile, kes on harjunud traditsiooniliste meetoditega.
+
+## **Feature-Driven Development (FDD):**
+
+- **Kirjeldus:** Iteratiivne ja inkrementaalne tarkvaraarendusprotsess, mis on juhitud funktsioonide loetelust.
+- **Eelised:** Keskendub konkreetsete, kliendi hinnatud funktsioonide loomisele ja tarnimisele.
+- **Puudused:** Ei ole nii paindlik kui teised agiilsed metodoloogiad, nõuab üksikasjalikku dokumentatsiooni.
+
+## **Extreme Programming (XP):**
+
+- **Kirjeldus:** Agiilne raamistik, mis rõhutab kliendi rahulolu, pakkudes sagedasi "väljalaskeid" lühikeste arendustsüklite jooksul, eesmärgiga parandada tootlikkust ja tutvustada kontrollpunkte.
+- **Eelised:** Rõhutab koodi kvaliteeti, julgustab kliendi kaasamist.
+- **Puudused:** Nõuab ulatuslikku kliendi kaasamist, võib olla intensiivne arendajatele.
+
+## **Kanban:**
+
+- **Kirjeldus:** Visuaalne protsessijuhtimise lähenemine, mis võtab vihjeid lean tootmisest ja rõhutab just õigeaegset tarnimist.
+- **Eelised:** Paindlikkus, pidev tarnimine, visuaalne olemus aitab tuvastada kitsaskohti.
+- **Puudused:** Vähem struktureeritud, võib viia ülekoormuseni, kui seda korralikult ei hallata.
+
+## **Scrum:**
+
+- **Kirjeldus:** Agiilse metodoloogia tüüp, mis korraldab töö tsüklitena, mida nimetatakse "Sprintideks", mis kestavad tavaliselt 2-4 nädalat.
+- **Eelised:** Regulaarsed toodete tarned, läbipaistvus, kohandatavus.
+- **Puudused:** Nõuab kogenud meeskonnaliikmeid, ulatus võib mõnikord olla liiga paindlik.
+
+Kokkuvõttes sõltub tarkvaraarenduse mudeli valik projekti olemusest, organisatsioonilistest eelistustest, meeskonna suurusest, projekti ulatusest ja muudest teguritest. Lõppeesmärk on toota kvaliteetset tarkvara, mis vastab kasutaja ootustele, säilitades samal ajal ajalise ja eelarvelise raamistiku.
