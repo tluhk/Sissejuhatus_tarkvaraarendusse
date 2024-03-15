@@ -255,11 +255,11 @@ Tarkvaraarendus on pidev protsess, mistõttu on oluline dokumentatsiooni projekt
 
 ## Näpunäiteid
 
-- Kasutage kogu dokumentatsioonis ühtset vormingut ja stiili
-- Keeruliste mõistete selgitamiseks kasutage diagramme ja pilte
-- Hoidke dokumentatsioon ajakohasena
-- Kasutage selget ja kokkuvõtlikku keelt
-- Kaaluge sihtrühma vajadusi ja vaatenurki
+- Kasuta kogu dokumentatsioonis ühtset vormingut ja stiili
+- Keeruliste mõistete selgitamiseks kasuta diagramme ja pilte
+- Hoia dokumentatsioon ajakohasena
+- Kasuta selget ja kokkuvõtlikku keelt
+- Kaalu sihtrühma vajadusi ja vaatenurki
 
 ---
 
