@@ -8,7 +8,7 @@ Seejärel räägime pisut täpsemalt erinevatest tarkvaraarendusmeetoditest.
 
 [Kolmanda loengu slaidid](files/slaidid_03.pdf)
 
-[Kolmanda loengu salvestus]()
+[Kolmanda loengu salvestus](https://youtu.be/550_cJXZxwU)
 
 [Neljas loeng](../loeng_04/README.md)
 
