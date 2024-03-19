@@ -12,11 +12,8 @@ Kõigepealt meenutame eelmist loengut ja vaatame üle, kuidas on läinud kodutö
 
 - [Meenutame eelmist loengut](../loeng_03/README.md)
 - Kuidas on läinud ESLint tööriistaga?
-- [Pull Request](../../concepts/pullRequest/README.md)
 - [Forkimine](../../concepts/fork/README.md)
-- [Dokumentatsioon](../../concepts/dokumentatsioon/README.md)
 - [Mittefunktsionaalsed nõuded](../../concepts/mittefunktsionaalsedNouded/README.md)
-
 
 ## Mida veel materjalidesse lisada
 
