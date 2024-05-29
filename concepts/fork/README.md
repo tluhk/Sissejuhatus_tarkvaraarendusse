@@ -15,6 +15,7 @@ Forkimise protsess on järgmine:
 - Pärast forkimist saad kloonida repositooriumi oma arvutisse, luua uusi harusid, teha muudatusi, commit'e ja push'e. Kui soovid oma muudatusi esitada algsele repositooriumile, tuleb sul luua pull request.
 
 Kui oled teinud `forki`, selle oma arvutisse klooninud, teinud selles mingeid muudatusi (koos `commit`i ja `push`iga) ja soovid need muudatused esitada algsele repositooriumile, siis tuleb sul luua `pull request`. Selleks:
+
 - Ava oma GitHubi kontol forkitud repositoorium.
 - Vali `Contribute` menüüst `Open pull request`
   ![Pull request](files/pullRequest.png)

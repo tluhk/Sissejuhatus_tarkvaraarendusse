@@ -4,24 +4,21 @@ marp: true
 # Sissejuhatus tarkvaraarendusse
 
 Martti Raavel
-martti.raavel@tlu.ee
+<martti.raavel@tlu.ee>
 
 ---
-# Neljas loeng
+
+## Neljas loeng
 
 - [Meenutame eelmist loengut](../loeng_03/README.md)
-- [Pull Request](../../../concepts/pullRequest/README.md)
 - [Forkimine](../../../concepts/fork/README.md)
-- [Dokumentatsioon](../../../concepts/dokumentatsioon/README.md)
 - [Mittefunktsionaalsed nõuded](../../../concepts/mittefunktsionaalsedNouded/README.md)
+- [Prototüüpimine](../../../concepts/prototyypimine/README.md)
+- [Testimine](../../../concepts/testimine/README.md)
 
 ---
-# Pull Request
 
-`Pull Request` on mehhanism mis võimaldab arendajatel teavitada teisi arendajaid oma muudatustest, mis on tehtud koodi baasis, ning paluda neil üle vaadata ja lisada need muudatused teise koodi harusse (sageli peamisse harusse).
-
----
-# Fork
+## Fork
 
 `Fork`imine tähendab olemasoleva repositooriumi kopeerimist enda Githubi kontole.
 
@@ -30,91 +27,26 @@ martti.raavel@tlu.ee
 `Fork`imine annab võimaluse teha muudatusi repositooriumis, millele sul ei ole kirjutamisõigusi (läbi `Pull Request`i).
 
 ---
-# Fork vs Clone
+
+## Fork vs Clone
 
 Mis vahe on repositooriumi `fork`imisel ja `clone`imisel?
 
 ---
-# Dokumentatsioon
 
-Tarkvaraarenduse dokumentatsioon viitab kirjalike või visuaalsete materjalide loomise ja korrastamise protsessile, mis kirjeldavad tarkvaratoote või -süsteemi disaini, arendust ja kasutamist.
-
----
-## Tehnilised kirjeldused
-
-Dokumendid, mis kirjeldavad tarkvarasüsteemi, sealhulgas andmestruktuuride, algoritmide ja liideste kavandamist ja rakendamist.
-
----
-## Kasutusjuhendid
-
-Dokumendid, mis kirjeldavad tarkvaratoote kasutamist, sealhulgas installi-, konfiguratsiooni- ja kasutusjuhiseid.
-
----
-## Väljalaskemärkmed
-
-Dokumendid, mis kirjeldavad tarkvaratoote iga versiooni muudatusi ja täiustusi.
-
----
-## Koodikommentaarid
-
-Kommentaarid, mis lisatakse tarkvaratoote lähtekoodile, et kirjeldada, kuidas koodi erinevad osad töötavad ja kuidas need on kasutamiseks mõeldud.
-
----
-## API dokumentatsioon
-
-Dokumendid, mis kirjeldavad tarkvarasüsteemi poolt avaldatavaid liideseid, sealhulgas iga liidese sisendeid, väljundeid ja käitumist.
-
----
-# Dokumentatsiooni loomine
-
-Tarkvaraarenduse dokumentatsiooni koostamine võib olla keeruline protsess, kuna olenevalt projekti vajadustest võib olla vaja koostada palju erinevat tüüpi dokumentatsiooni. Siin on aga mõned üldised sammud, mida saab tõhusa tarkvaraarenduse dokumentatsiooni loomiseks järgida
-
----
-## Tehke kindlaks dokumentatsiooni eesmärk ja ulatus
-
-Enne dokumentatsiooni loomise alustamist on oluline kindlaks teha, millist tüüpi dokumentatsiooni on vaja, kes on sihtrühm ja millised on dokumentatsiooni eesmärgid.
-
----
-## Dokumentatsiooni kavandamine
-
-See samm hõlmab dokumentatsiooni struktuuri, vormingu ja sisu määratlemist. Peaksite kaaluma dokumentatsiooni (nt tekst, diagrammid või videod) parimat vormingut ja otsustama, milline sisu tuleb kaasata.
-
----
-## Dokumentatsiooni kirjutamine
-
-Kui planeerimine on lõpetatud, võite alustada dokumentatsiooni kirjutamist. Kasutage selget ja ülevaatlikku keelt ning veenduge, et dokumentatsioon oleks kergesti loetav ja arusaadav. Peaksite lisama ka kõik asjakohased diagrammid, pildid ja viited, mis aitavad sisu selgitada.
-
----
-## Dokumentatsiooni testimine ja ülevaatamine
-
-Oluline on dokumentatsiooni testida, et olla kindel, et see on täpne ja hõlpsasti jälgitav. See võib hõlmata seda, et teised arendajad, sidusrühmad või lõppkasutajad vaatavad tagasiside andmiseks dokumentatsiooni üle.
-
----
-## Dokumentatsiooni värskendamine ja hooldamine
-
-Tarkvaraarendus on pidev protsess, mistõttu on oluline dokumentatsiooni projekti edenedes uuendada ja säilitada. See võib hõlmata uue teabe lisamist, olemasoleva teabe värskendamist ja aegunud teabe eemaldamist.
-
----
-## Näpunäiteid
-
-- Kasutage kogu dokumentatsioonis ühtset vormingut ja stiili
-- Keeruliste mõistete selgitamiseks kasutage diagramme ja pilte
-- Hoidke dokumentatsioon ajakohasena
-- Kasutage selget ja kokkuvõtlikku keelt
-- Kaaluge sihtrühma vajadusi ja vaatenurki
-
----
-# Mittefunktsionaalsed nõuded
+## Mittefunktsionaalsed nõuded
 
 Funktsionaalsed vs mittefunktsionaalsed nõuded?
 
 ---
-# Mittefunktsionaalsed nõuded
+
+## Mittefunktsionaalsed nõuded - mis?
 
 Kriteeriumid, mis määravad süsteemi kvaliteedi, toimivuse ja töökindluse, kuid ei ole seotud süsteemi konkreetsete funktsionaalsete omadustega
 
 ---
-# Mittefunktsionaalsed nõuded projektile
+
+## Mittefunktsionaalsed nõuded projektile
 
 - Jõudlus
 - Skaleeritavus
@@ -125,7 +57,8 @@ Kriteeriumid, mis määravad süsteemi kvaliteedi, toimivuse ja töökindluse, k
 - Ühilduvus
 
 ---
-# Mittefunktsonaalsed nõuded koodile
+
+## Mittefunktsonaalsed nõuded koodile
 
 - Koodi loetavus
 - Koodi struktuur ja modulaarsus
@@ -139,14 +72,112 @@ Kriteeriumid, mis määravad süsteemi kvaliteedi, toimivuse ja töökindluse, k
 - Arendusstandardite ja kodeerimisstiilide järgimine
 
 ---
-# Kodune töö
 
-- Lisage oma viimasele Programmeerimine I kodutööle dokumentatsioon läbi `Pull Requesti` ja määrake sellele ülevaatajaks sama üliõpilane, kellega koos tegite eelmist kodust tööd
-- Kui olete ise määratud ülevaatajaks, siis tehke ülevaatus (`Approve` või `Request changes`) ja tehke `Merge` kui kõik on korras
+## Prototüüpimine
 
-Lisatud dokumentatsioon peab sisaldama vähemalt:
-  - Autori nimi
-  - Mis rakendusega tegemist on
-  - Kuidas rakendust käivitada
-  - Kuidas rakendust kasutada
- 
+Prototüüpimine on tehnika, mida kasutatakse tarkvaraarenduses tarkvaratoote või -süsteemi varajaste töötavate versioonide loomiseks.
+
+Prototüüpimine hõlmab lõpptootest lihtsustatud, kuid funktsionaalse versiooni loomist, mida saab kasutada tagasiside kogumiseks, ideede testimiseks ja nõuete täpsustamiseks enne lõpliku versiooni loomist.
+
+---
+
+## Protorüüpimise eesmärk
+
+Prototüüpimise peamine eesmärk on pakkuda lõpptootest käegakatsutavat interaktiivset esitust, mida saab kasutada võimalike probleemide ja parendusvaldkondade tuvastamiseks.
+
+Prototüübi loomisega saavad arendajad kiiresti katsetada ja itereerida erinevaid disainikontseptsioone ja töövooge ning saada paremat arusaama sellest, kuidas lõpptoode töötab ja kuidas seda lõppkasutajad kasutavad.
+
+---
+
+## Prototüüpimise eelised
+
+- Parem suhtlus ja koostöö meeskonnaliikmete ja sidusrühmade vahel
+- Võimalike probleemide ja parendusvaldkondade varajane tuvastamine
+- Arusaamatuste ja valesti suhtlemise oht arendajate ja sidusrühmade vahel
+- Disainikontseptsioonide ja töövoogude kiirem iteratsioon ja testimine
+- Parem kasutajate seotus ja rahulolu varajase tagasiside ja sisendi kaudu
+- ...
+
+---
+
+## Prototüüpimine - kuidas?
+
+Prototüüpimine võib esineda mitmel kujul, alates lihtsatest visanditest ja paberprototüüpidest kuni täiustatud digitaalsete prototüüpideni, mis on loodud spetsiaalsete tarkvaratööriistadega.
+
+Kasutatava prototüübi tüüp sõltub projekti vajadustest, eelarvest ja ajakavast.
+
+---
+
+## Paberprototüüpimine
+
+Sageli alahinnatud prototüüpimise tehnika, mis võimaldab kiiresti ja odavalt luua interaktiivseid prototüüpe.
+
+See hõlmab paberi, pastakate ja muude põhimaterjalide kasutamist kasutajaliidese või töövoo füüsilise mudeli loomiseks.
+
+---
+
+## Paberprototüüpimise eelised
+
+- Madalad kulud
+- Kiire iteratsioon
+- Parandatud suhtlus
+- Suurem kasutajate kaasatus
+
+---
+
+## Digitaalsed prototüüpimise tööriistad
+
+- Figma
+- Sketch
+- Adobe XD
+- InVision
+- Axure RP
+- ...
+
+---
+
+## Testimine - milleks?
+
+- **Probleemide tuvastamine** disaini, toote või teenuse juures. 
+- **Võimaluste leidmine** disaini parandamiseks. 
+- **Kasutajate jälgimine** harjumuste ja eelistuste tuvastamiseks.
+
+---
+
+## Testimise elemendid
+
+- **Testi läbiviija** - juhendab testis osalejat ülesannete sooritamisel, vaatleb ja talletab reaktsioone, vajadusel esitab lisaküsimusi.
+- **Ülesanded** ehk reaalsed tegevused, mida kasutajad sooritaks tavaolukorras. Edastatakse suuliselt või kirjalikult.
+- **Osaleja / testija** - esindab testitava toote tavakasutajat, sooritab läbiviija poolt antud ülesandeid ja tegevusi, annab tagasisidet.
+
+---
+
+## Osalejate / testijate arv
+
+- Piisab **kuni 5 testijast**, et tuvastada pea kõik kasutatavuse probleemid;
+- Juba esimene testija tuvastab umbes ühe kolmandiku probleemidest;
+- Testimise võib lõpetada niipea, kui uus testija enam **midagi uut** välja ei too.
+
+---
+
+## Testijate arv
+
+![Testimine](./testimine.png)
+
+---
+
+## Testimise tüübid
+
+- **Kasutatavustestid** - kasutajaliidese ja kasutuskogemuse testimine.
+- **A/B testimine** - kahe või enama versiooni võrdlemine, et teha kindlaks, milline neist toimib paremini.
+- **Funktsionaalsed testid** - süsteemi funktsionaalsuse testimine.
+- **Jõudlustestid** - süsteemi jõudluse testimine.
+- **Turvalisustestid** - süsteemi turvalisuse testimine.
+- **Ühilduvustestid** - süsteemi ühilduvuse testimine erinevate platvormide ja seadmetega.
+- ...
+
+---
+
+## Kodune töö
+
+

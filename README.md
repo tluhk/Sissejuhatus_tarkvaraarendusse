@@ -40,6 +40,8 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 - [Pull Request](concepts/pullrequest/README.md)
 - [Forkimine](concepts/fork/README.md)
 - [Mittefunktsionaalsed nõuded](concepts/mittefunktsionaalsednouded/README.md)
+- [Prototüüpimine](concepts/prototyypimine/README.md)
+- [Testimine](concepts/testimine/README.md)
 
 ## Loengud
 
@@ -49,7 +51,7 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 | [Teine](lessons/loeng_02/README.md) | 16. veebruar 2024 | [Teine iseseisev töö](./docs/kodusedtood/kodune_02.md) | 14. märts 2024 kell 09:00 |
 | [Kolmas](lessons/loeng_03/README.md) | 16. märts 2024 | [Kolmas iseseisev töö](./docs/kodusedtood/kodune_03.md) | 28. mai 2024 kell 09:00 |
 | [Neljas](lessons/loeng_04/README.md) | 30. mai 2024 | [Neljas iseseisev töö](./docs/kodusedtood/kodune_04.md) | 11. juuni 2024 kell 09:00 |
-| Arvestus | 13. juuni 2024 |  |  |
+| Eksam | 13. juuni 2024 |  |  |
 
 ## Eksam
 

@@ -14,8 +14,9 @@ Kõigepealt meenutame eelmist loengut ja vaatame üle, kuidas on läinud kodutö
 - Kuidas on läinud ESLint tööriistaga?
 - [Forkimine](../../concepts/fork/README.md)
 - [Mittefunktsionaalsed nõuded](../../concepts/mittefunktsionaalsedNouded/README.md)
-
-## Mida veel materjalidesse lisada
+- [Prototüüpimine](../../concepts/prototyypimine/README.md)
+- [Testimine](../../concepts/testimine/README.md)
+- Kuidas saab ideest siis lõpuks tarkvara?
 
 ## Kodune töö
 
