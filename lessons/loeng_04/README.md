@@ -6,7 +6,7 @@ Kõigepealt meenutame eelmist loengut ja vaatame üle, kuidas on läinud kodutö
 
 [Neljanda loengu slaidid](files/)
 
-[Neljanda loengu salvestus]()
+[Neljanda loengu salvestus](https://youtu.be/gh3_XvMUSbo)
 
 ## Neljanda loengu teemad
 
