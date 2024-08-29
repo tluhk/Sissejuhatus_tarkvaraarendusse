@@ -73,5 +73,8 @@ Järgmised on kõige olulisemad ja populaarsemad SDLC mudelid, mida selles valdk
 
 Teised seotud metoodikad on Agile Model, RAD Model, Rapid Application Development ja Prototyping Models.
 
+Lisalugemist arendusmudelite kohta: 
+- https://web.htk.tlu.ee/digitaru/tarkvara/chapter/tarkvaraarenduse-etapid/
+
 Allikad:
 - https://www.tutorialspoint.com/sdlc/sdlc_overview.htm
