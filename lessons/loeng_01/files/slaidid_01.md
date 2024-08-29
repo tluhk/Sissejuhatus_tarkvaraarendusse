@@ -3,8 +3,8 @@ marp: true
 ---
 # Sissejuhatus tarkvaraarendusse
 
-Martti Raavel
-martti.raavel@tlu.ee
+Juho Kalberg
+juho.kalberg@tlu.ee
 
 ---
 # Esimene loeng
