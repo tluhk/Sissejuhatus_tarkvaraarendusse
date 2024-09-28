@@ -17,3 +17,5 @@
   - Kirjuta iga nõude juurde lühike põhjendus, miks see on oluline kasutaja või äri seisukohast.
 
 See harjutus aitab sul mõista, kuidas nõudeid identifitseerida, struktureerida ja prioritiseerida.
+
+- Uuri välja, mis on `.gitignore` file ja kirjuta selle kohta väike selgitus. Leia ja too mõned näited.
