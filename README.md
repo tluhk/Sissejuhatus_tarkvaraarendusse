@@ -49,7 +49,7 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 
 ## Seminarid
 
-[Esimene](seminarid/seminar_01/README.md)
+[Esimene](seminarid/seminar_01/README.md)  
 [Teine](seminarid/seminar_02/README.md)
 
 ## Eksam
