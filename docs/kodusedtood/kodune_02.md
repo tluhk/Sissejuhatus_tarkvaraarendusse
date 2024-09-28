@@ -1,6 +1,8 @@
 # Kodutöö nr 3
 Loo folder `03-kodutoo` ja lae kõik vajalikud failid sinna. Kõik kirjatööd tee markdown formaadis, kasutades korralikku vormistust.
 
+- Loe läbi Agiilse arenduse manifest. Tee sellest seline lühikokkuvõte, mis on võimalik teiesugusele esitada nii, et ta saab asja sisust aru.
+
 - Leia veebist materjal kuidas koostada tarkvarale esitatavaid nõudeid või mõni juba loodud materjal mõne rakenduse või süsteemi kohta. Tee leitud materjalist lühikokkuvõte, aga sisukas. Arvesta võimalusega, et võibolla pead seda teistele tutvustama.
 
 - Leia üks veebipõhine või mobiilirakendus, mida sa regulaarselt kasutad.
@@ -23,4 +25,4 @@ See harjutus aitab sul mõista, kuidas nõudeid identifitseerida, struktureerida
 
 ## Kodutöö esitamine
 
-Eelmisel korral ooli ülesandeks tutvuda forkimise ja kaasõppija lisamine koodiülevaatajaks. Seekord tuleb töö esitada nii, et kõigepealt kaasõppija vaatab teie töö üle ja kui see sobib siis aktsepteerib töö ning lisab(assign) mind lõplikuiks kinnitajaks. Juhend on olemas loengu videos, käisime teema eelmise seminari alul läbi (videos ca 23.15). Juhend asub ka siin: https://github.com/tluhk/Abimaterjalid/blob/master/docs/koduse_too_esitamine.md
+Eelmisel korral oli ülesandeks tutvuda forkimise ja kaasõppija lisamine koodiülevaatajaks. Seekord tuleb töö esitada nii, et kõigepealt kaasõppija vaatab teie töö üle ja kui see sobib siis aktsepteerib töö ning lisab(assign) mind lõplikuiks kinnitajaks. Juhend on olemas loengu videos, käisime teema eelmise seminari alul läbi (videos alates ca 23.15, täpsemalt ca 30.00). Juhend asub ka siin: https://github.com/tluhk/Abimaterjalid/blob/master/docs/koduse_too_esitamine.md
