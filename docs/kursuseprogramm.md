@@ -138,3 +138,9 @@ Need praktilised tegevused on loodud selleks, et:
 - **Vähendada hirmu tehnoloogia ees:** Kuna tegevused ei nõua koodimist, saavad üliõpilased enesekindlust enne tehniliste oskuste arendamist.
 
 ---
+
+## **5. Viies seminar**
+
+### **Teemad:**
+
+Eksam
