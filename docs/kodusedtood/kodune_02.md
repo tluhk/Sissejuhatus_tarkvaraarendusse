@@ -1,6 +1,8 @@
 # Kodutöö nr 3
 Loo folder `03-kodutoo` ja lae kõik vajalikud failid sinna. Kõik kirjatööd tee markdown formaadis, kasutades korralikku vormistust.
 
+**Ülesanne koosneb viiest alamülesandest**
+
 - Loe läbi Agiilse arenduse manifest. Tee sellest seline lühikokkuvõte, mis on võimalik teiesugusele esitada nii, et ta saab asja sisust aru.
 
 - Leia veebist materjal kuidas koostada tarkvarale esitatavaid nõudeid või mõni juba loodud materjal mõne rakenduse või süsteemi kohta. Tee leitud materjalist lühikokkuvõte, aga sisukas. Arvesta võimalusega, et võibolla pead seda teistele tutvustama.
@@ -19,9 +21,15 @@ Loo folder `03-kodutoo` ja lae kõik vajalikud failid sinna. Kõik kirjatööd t
     - Won't have this time (Seekord ei ole)
   - Kirjuta iga nõude juurde lühike põhjendus, miks see on oluline kasutaja või äri seisukohast.
 
-See harjutus aitab sul mõista, kuidas nõudeid identifitseerida, struktureerida ja prioritiseerida.
 
 - Uuri välja, mis on `.gitignore` file ja kirjuta selle kohta väike selgitus. Leia ja too mõned näited.
+
+- Loe läbi aadressil: https://web.htk.tlu.ee/digitaru/disain/chapter/disaini-moiste-ja-disainiprotsess/  asuvast materjalist esimesed 3 sisupeatükki:
+1. Disaini mõiste ja disainiprotsess
+2. Sihtgrupi vajaduste kaardistamine
+3. Persoonad ja stsenaariumid  
+Vasta võimalikult lühidalt iga kolme mõiste kohta, mis need on ja miks need vajalikud on.
+
 
 ## Kodutöö esitamine
 
