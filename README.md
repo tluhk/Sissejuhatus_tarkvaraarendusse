@@ -43,16 +43,10 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 - [Prototüüpimine](concepts/prototyypimine/README.md)
 - [Testimine](concepts/testimine/README.md)
 
-## Loengud
+## Seminarid
 
-| Loeng | Kuupäev | Iseseisev töö | Tähtaeg |
-|-------|---------|----------------|---------|
-| [Esimene](lessons/loeng_01/README.md) | 01. veebruar 2024 | [Esimene iseseisev töö](./docs/kodusedtood/kodune_01.md) | 14. veebruar 2024 |
-| [Teine](lessons/loeng_02/README.md) | 16. veebruar 2024 | [Teine iseseisev töö](./docs/kodusedtood/kodune_02.md) | 14. märts 2024 kell 09:00 |
-| [Kolmas](lessons/loeng_03/README.md) | 16. märts 2024 | [Kolmas iseseisev töö](./docs/kodusedtood/kodune_03.md) | 28. mai 2024 kell 09:00 |
-| [Neljas](lessons/loeng_04/README.md) | 30. mai 2024 |  |  |
-| Eksam | 13. juuni 2024 |  |  |
+[Esimene](seminarid/seminar_01/README.md)
 
 ## Eksam
 
-- [Hindamine]()
+- [Hindamine](seminarid/eksam/)
