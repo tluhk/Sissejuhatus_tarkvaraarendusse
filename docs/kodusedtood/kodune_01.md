@@ -31,6 +31,12 @@ Kui olete ülesande lahendanud, määrake Issuete vaates paremal paanil olevast 
 
 Abimaterjalid leiate meie kursuse githubi repositooriumist: https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse
 
-**Tähtaeg 10.10.2024**
+## Esimese kodutöö teine osa
 
-Edu.
+* Loo folder `02-kodutoo` ja lae kõik vajalikud failid sinna
+* Loo endale peamistest giti terminali käsklustest spikker-md fail – `git-commands.md`
+* Lisa kasutaja, kes hakkab su koodi üle vaatama – proovige ise hakama saada ja kirjeldage hiljem läbitud protsessi md failis – `process.md`
+* Lase lisatud kaastudengil fork’ida õpetaja või kaasõpilase GitHubi repo.
+* Kaasõpilane tehku mõned muudatused oma forki'tud repos ja esita pull request algsele repole. Kirjelda protsess, õnnestumist, ebaõnnestumist, tulemust ja arusaamist `process.md`failis.
+
+Ekspluateerige ja aidake teineteist, tehke üle Teamsi või Zoomi grupitööd – üks teab üht, teine teist, nii õpite ja edenete.

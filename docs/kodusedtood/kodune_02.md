@@ -1,10 +1,19 @@
-# Teine kodune töö
+# Järgmine kodutöö
 
-## Tähtaeg: Kõikides Programmeerimine I edaspidistes kodutöödes
+- Leia veebist materjal kuidas koostada tarkvarale esitatavaid nõudeid või mõni juba loodud materjal mõne rakenduse või süsteemi kohta. Tee leitud materjalist lühikokkuvõte, aga sisukas. Arvesta võimalusega, et võibolla pead seda teistele tutvustama.
 
-- [ESLint + Airbnb](../../concepts/eslint/README.md)-i rakendamine [Programmeerimine I](https://github.com/tluhk/Programmeerimine_I) (ja miks mitte ka Veebirakenduste) aine kodutöödes
+- Leia üks veebipõhine või mobiilirakendus, mida sa regulaarselt kasutad.
+  - Identifitseeri vähemalt 3 funktsionaalset nõuet valitud rakenduse jaoks.
+    - Funktsionaalsed nõuded kirjeldavad, mida süsteem peaks tegema.
+    - Näiteks: "Kasutaja peab saama otsida tooteid nime järgi."
+  - Identifitseeri vähemalt 2 mittefunktsionaalset nõuet.
+    - Mittefunktsionaalsed nõuded kirjeldavad, kuidas süsteem peaks toimima.
+    - Näiteks: "Rakendus peab laadima tulemused vähem kui 2 sekundiga."
+  - Prioritiseeri need nõuded, kasutades MoSCoW meetodit:
+    - Must have (Peab olema)
+    - Should have (Peaks olema)
+    - Could have (Võiks olla)
+    - Won't have this time (Seekord ei ole)
+  - Kirjuta iga nõude juurde lühike põhjendus, miks see on oluline kasutaja või äri seisukohast.
 
-## Tähtaeg: 14.03.2024 kell 09:00
-
-- Loengus tehtud harjutuse lõpetamine (kui ei jõudnud klassis valmis)
-- Harjutuse tulemuste esitamine individuaalselt
+See harjutus aitab sul mõista, kuidas nõudeid identifitseerida, struktureerida ja prioritiseerida.

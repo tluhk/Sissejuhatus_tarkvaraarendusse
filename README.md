@@ -18,6 +18,10 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 
 [Kursuseprogramm](docs/kursuseprogramm.md)
 
+## Sõnastik
+
+[Sõnastik](docs/sonastik.md)
+
 ## Teemade nimekiri
 
 - [Sissejuhatus](concepts/sissejuhatus/README.md)

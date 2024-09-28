@@ -2,7 +2,9 @@
 
 Esimese loengu eesmärk on arutleda selle üle, mis on üldse tarkvara ja kuidas see tekib. Seejärel räägime natukene tööriistadest ja hakkame põhjalikumalt otsa vaatama Github-ile, mille kasutamist olete juba pisut harjutanud.
 
-[Esimese loengu slaidid](files/slaidid_01.pdf)
+[Esimese loengu uued slaidid](https://gamma.app/docs/Sissejuhatus-tarkvaraarendusse-orp3sw6v6z53aae)
+
+[Esimese loengu vanad slaidid](files/slaidid_01.pdf)
 
 [Esimese loengu salvestus](https://www.youtube.com/watch?v=G0ZrGdIgJjw)
 
