@@ -1,4 +1,5 @@
 # Sissejuhatus tarkvaraarendusse
+Enne sügis 2024 materjalid
 
 Tegemist on Haapsalu kolledži Rakendusinformaatika õppekava kohustusliku õppeaine Sissejuhatus tarkvaraarendusse repositooriumiga. Repositoorium täieneb jooksvalt kursuse käigus. Repositooriumis saavad olema õppematerjalid, ülesanded, viited välistele allikatele/materjalidele jne.
 
