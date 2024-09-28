@@ -20,3 +20,7 @@ Loo folder `03-kodutoo` ja lae kõik vajalikud failid sinna. Kõik kirjatööd t
 See harjutus aitab sul mõista, kuidas nõudeid identifitseerida, struktureerida ja prioritiseerida.
 
 - Uuri välja, mis on `.gitignore` file ja kirjuta selle kohta väike selgitus. Leia ja too mõned näited.
+
+## Kodutöö esitamine
+
+Eelmisel korral ooli ülesandeks tutvuda forkimise ja kaasõppija lisamine koodiülevaatajaks. Seekord tuleb töö esitada nii, et kõigepealt kaasõppija vaatab teie töö üle ja kui see sobib siis aktsepteerib töö ning lisab(assign) mind lõplikuiks kinnitajaks. Juhend on olemas loengu videos, käisime teema eelmise seminari alul läbi (videos ca 23.15). Juhend asub ka siin: https://github.com/tluhk/Abimaterjalid/blob/master/docs/koduse_too_esitamine.md
