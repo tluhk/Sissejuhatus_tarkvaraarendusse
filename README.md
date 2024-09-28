@@ -8,7 +8,7 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 
 ## Koduste tööde esitamine
 
-[Koduste tööde esitamise tabel (õpetajale)](https://docs.google.com/spreadsheets/d/1nQHGV_-T3g5AZgdZ8NJBsLq_kFgqQMBoCDQNIkoTBfA/edit?usp=sharing)
+[Koduste tööde esitamise tabel (õpetajale)](https://docs.google.com/spreadsheets/d/1-w7_r8TTgx3-VOX4JdsXV0Xey7s52C1GiqR55Pz1ldQ/edit?usp=sharing)
 
 ## Ainekaart
 

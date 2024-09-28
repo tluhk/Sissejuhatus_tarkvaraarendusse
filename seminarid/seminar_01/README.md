@@ -4,7 +4,7 @@ Esimese loengu eesmärk on arutleda selle üle, mis on üldse tarkvara ja kuidas
 
 [Esimese loengu slaidid](files/slaidid_01.pdf)
 
-[Esimese loengu salvestus](https://youtu.be/-Y1HmkYb_qY)
+[Esimese loengu salvestus](https://www.youtube.com/watch?v=G0ZrGdIgJjw)
 
 [Teine loeng](../loeng_02/README.md)
 
@@ -21,9 +21,6 @@ Esimese loengu eesmärk on arutleda selle üle, mis on üldse tarkvara ja kuidas
 ![Tarkvaraarenduse elutsükkel](files/image1.jpeg)
 ![Git](files/image0.jpeg)
 
-## Mida veel materjalidesse lisada
-
-- [XML](https://github.com/tluhk/Programmeerimine_I/blob/master/concepts/xml/README.md)
 
 ## Kodune töö
 
