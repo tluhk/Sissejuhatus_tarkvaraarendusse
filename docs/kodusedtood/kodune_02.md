@@ -1,4 +1,4 @@
-# Järgmine kodutöö
+# Kodutöö nr 3
 Loo folder `03-kodutoo` ja lae kõik vajalikud failid sinna. Kõik kirjatööd tee markdown formaadis, kasutades korralikku vormistust.
 
 - Leia veebist materjal kuidas koostada tarkvarale esitatavaid nõudeid või mõni juba loodud materjal mõne rakenduse või süsteemi kohta. Tee leitud materjalist lühikokkuvõte, aga sisukas. Arvesta võimalusega, et võibolla pead seda teistele tutvustama.
