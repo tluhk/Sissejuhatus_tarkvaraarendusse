@@ -12,11 +12,11 @@ https://dev.to/sheraz4194/good-commit-vs-bad-commit-best-practices-for-git-1plc
 ### Tähendusrikkad sõnumid
 Tähendusrikas commit-sõnum selgitab muudatuste eesmärki. Väldi ebamääraseid sõnumeid nagu "Parandatud vead" või "Tehtud muudatused". Selle asemel kasuta lühidat ja kirjeldavat sõnumit, mis illustreerib commit-i eesmärki ja tulemust.
 
-Tee:  
+**Tee:**  
 "Add user profile image upload functionality"  
 "Fix broken navigation links in header menu"
 
-Ära tee:  
+**Ära tee:**  
 "Updated code"  
 "Typo fixes"
 
@@ -53,11 +53,11 @@ vs
 ### Maini pileti numbrit
 Kui kasutad ülesannete/piletite haldamise süsteemi (nagu GitHub või Jira), on kasulik viidata commit-sõnumis pileti numbrile. See loob selge seose commit-i ja seotud pileti või vea vahel.
 
-Tee:  
+**Tee:**  
 "Implement password reset functionality, resolves #234"  
 "Add dark mode theme support, closes #567"
 
-Ära tee:  
+**Ära tee:**  
 "Parandatud tüütu viga"  
 "Parandatud kasutajaliides"
 
@@ -67,10 +67,10 @@ Soovitused:
 ### Regulaarsed commit-id
 Regulaarne commit-imine on oluline. See tagab, et muudatused on järkjärgulised ja hallatavad, võimaldades lihtsamat ülevaatust, vigade otsimist ja vajadusel tagasipööramist.
 
-Tee:  
+**Tee:**  
 - Tee commit, kui oled lõpetanud ühe loogilise muudatuse, isegi kui see on väike.
 
-Ära tee:  
+**Ära tee:**  
 - Oota, et koguda palju mitteseotud muudatusi ühte suurde commit-i.
 
 Soovitused:
