@@ -26,6 +26,30 @@ Soovitused:
 - Piira pealkirja umbes 50 tähemärgini
 - Kui on vaja rohkem detaile, eralda pealkiri tühja reaga ja lisa põhjalikum kirjeldus, murdepunktiga umbes 72 tähemärgi juures
 
+**Miks peaks kasutama käskivat kõneviisi?**
+
+Commit sõnumites on soovituslik kasutada käskivat kõneviisi ("lisa", "paranda", "uuenda") mitte minevikuvormi ("lisasin", "parandasin", "uuendasin") mitmel põhjusel:
+
+Järjepidevus: Commit kirjeldab, mida see commit teeb koodiga, mitte mida sina tegid. See on nagu käsklus või samm-sammuline juhend.
+Lühidus: Käskiv vorm on tavaliselt lühem.
+
+```bash
+docs: add correction  // 3 sõna
+docs: added correction  // 3 sõna, aga pikem
+```
+Rahvusvaheline tava: See järgib Git'i enda dokumentatsiooni ja commit sõnumite stiili. Inglise keeles kirjutatakse "add", "fix", "update" mitte "added", "fixed", "updated".
+Loetavus changelogides: Kui vaatad commit ajalugu või changelog'i, siis käskiv vorm loeb paremini:
+
+- add authentication
+- fix login error 
+- update documentation  
+vs  
+- added authentication
+- fixed login error
+- updated documentation
+
+**Aga see on siiski konventsioon - kui sinu tiim või projekt eelistab minevikuvormi, siis võib ka seda kasutada. Peamine on järjepidevus projekti piires.**
+
 ### Maini pileti numbrit
 Kui kasutad ülesannete/piletite haldamise süsteemi (nagu GitHub või Jira), on kasulik viidata commit-sõnumis pileti numbrile. See loob selge seose commit-i ja seotud pileti või vea vahel.
 
@@ -59,7 +83,20 @@ Atomaarne commit tähendab, et üks commit esindab ainult ühte konkreetset muud
 
 Soovitused:
 - Enne commit-i tegemist vaata muudatused üle käsuga `git diff`
-- Kui muudatused hõlmavad mitut valdkonda või funktsionaalsust, kaalu tükkide või üksikute failide lisamist käskudega `git add -p` või `git add <failinimi>`. Käsk `git add -p` võimaldab sul muudatusi tükkhaaval üle vaadata ja valida, milliseid muudatusi soovid lisada. See on eriti kasulik, kui oled teinud mitu erinevat muudatust samas failis, aga soovid need eraldi commit-idesse panna.
+- Kui muudatused hõlmavad mitut valdkonda või funktsionaalsust, kasuta käsku `git add -p` muudatuste tükkhaaval lisamiseks. Käsu kasutamine käib nii:
+
+1. Sisesta käsk `git add -p`
+2. Git näitab sulle esimest muudatuste tükki ja küsib, mida sellega teha
+3. Sul on järgmised valikud:
+   - `y` - lisa see tükk (yes)
+   - `n` - jäta see tükk lisamata (no) 
+   - `s` - jaga tükk väiksemateks osadeks (split)
+   - `q` - välju, ära lisa rohkem tükke (quit)
+   - `?` - näita kõiki võimalikke valikuid (help)
+4. Vasta igale tükile kas `y` või `n`, kuni kõik muudatused on üle vaadatud
+5. Seejärel saad teha commit-i ainult valitud muudatustega
+
+See on eriti kasulik, kui oled teinud mitu erinevat muudatust samas failis, aga soovid need eraldi commit-idesse panna.
 
 ## Konventsionaalsete commit-ide kirjutamise reeglid:
 https://www.conventionalcommits.org/en/v1.0.0/
