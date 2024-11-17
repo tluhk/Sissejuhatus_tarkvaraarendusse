@@ -62,12 +62,23 @@ Soovitused:
 - Kui muudatused hõlmavad mitut valdkonda või funktsionaalsust, kaalu tükkide või üksikute failide lisamist käskudega git add -p või git add <failinimi>
 
 ## Konventsionaalsete commit-ide kirjutamise reeglid:
-https://pranaybathini.medium.com/conventional-commit-specification-ecd701b0bbb2
 https://www.conventionalcommits.org/en/v1.0.0/
+https://pranaybathini.medium.com/conventional-commit-specification-ecd701b0bbb2
+https://www.gitkraken.com/learn/git/best-practices/git-commit-message
+
+Üldine loogika on järgmine:  
+Selmet kirjutada:
+```Bash
+git commit -m "parandatud login viga"
+```
+kirjutad arusaadavama sõnumi:
+```Bash
+git commit -m "fix(auth): paranda sisselogimise sessioon"
+```
 
 ### Peamised
 #### Fix
-Fix-tüüpi commit-e kasutatakse koodibaasis esinevate vigade või probleemide lahendamiseks. Kui commit käsitleb probleemi või viga, kuulub see sellesse kategooriasse.
+Fix-tüüpi commit-e kasutatakse koodibaasis esinevate vigade või probleemide lahendamiseks.
 
 ```Bash
 $ git commit -m "fix: resolve issue with form submission not triggering validation"
@@ -75,7 +86,7 @@ $ git commit -m "fix(login): improve login error handling"
 ```
 
 #### Feat
-Seda tüüpi kasutatakse projektile lisatud uute funktsioonide jaoks. Kui lisad uue funktsionaalsuse või võimalused, loetakse seda funktsiooniks.
+Seda kasutatakse projektile lisatud uute funktsioonide jaoks.
 
 ```Bash
 $ git commit -m "feat: introduce real-time notifications for new messages"
@@ -94,9 +105,23 @@ $ git commit -m "BREAKING CHANGE: remove support for IE11"
 $ git commit -m "feat(api): remove support for IE11"
 ```
 
-Üldjuhul nendest peakski piisama.
+**Üldjuhul nendest peakski piisama.**
 
 ### Muud
+
+#### Chore
+Chore-tüüpi commit-e kasutatakse regulaarsete hooldustööde jaoks, nagu sõltuvuste uuendamine, paketihaldurite konfiguratsioonid või muud ülesanded, mis ei muuda lähtekoodi ega mõjuta rakenduse käitumist.
+
+```Bash 
+$ git commit -m "chore: clean up unused dependencies from package.json"
+```
+
+#### Docs
+Commit-id, mis hõlmavad ainult dokumentatsiooni muudatusi, nagu README failide uuendamine, kommentaaride lisamine või funktsioonide või klasside dokumentatsiooni kirjutamine.
+
+```Bash
+$ git commit -m "docs: add auth service instructions to README"
+```
 
 #### Build
 Seda tüüpi kasutatakse muudatuste jaoks, mis mõjutavad ehitussüsteemi või väliseid sõltuvusi. Näiteks kui uuendad teeki või muudad ehituse konfiguratsioone, kuulub see sellesse kategooriasse.
@@ -106,25 +131,11 @@ $ git commit -m "build: update webpack configuration"
 $ git commit -m "build: update Hive Maven dependency to version 3"
 ```
 
-#### Chore
-Chore-tüüpi commit-e kasutatakse regulaarsete hooldustööde jaoks, nagu sõltuvuste uuendamine, paketihaldurite konfiguratsioonid või muud ülesanded, mis ei muuda lähtekoodi ega mõjuta rakenduse käitumist.
-
-```Bash 
-$ git commit -m "chore: clean up unused dependencies from package.json"
-```
-
 #### CI
 Commit-id, mis on seotud pideva integratsiooni konfiguratsioonide või skriptidega. See hõlmab muudatusi automatiseerimiseks ja testimiseks kasutatavates tööriistades ja protsessides.
 
 ```Bash
 $ git commit -m "ci: add vault stage to gitlab ci pipeline to fetch api secrets"
-```
-
-#### Docs
-Commit-id, mis hõlmavad ainult dokumentatsiooni muudatusi, nagu README failide uuendamine, kommentaaride lisamine või funktsioonide või klasside dokumentatsiooni kirjutamine.
-
-```Bash
-$ git commit -m "docs: add auth service instructions to README"
 ```
 
 #### Performance
