@@ -12,41 +12,41 @@ https://dev.to/sheraz4194/good-commit-vs-bad-commit-best-practices-for-git-1plc
 ### Tähendusrikkad sõnumid
 Tähendusrikas commit-sõnum selgitab muudatuste eesmärki. Väldi ebamääraseid sõnumeid nagu "Parandatud vead" või "Tehtud muudatused". Selle asemel kasuta lühidat ja kirjeldavat sõnumit, mis illustreerib commit-i eesmärki ja tulemust.
 
-Tee:
-"Add user profile image upload functionality"
+Tee:  
+"Add user profile image upload functionality"  
 "Fix broken navigation links in header menu"
 
-Ära tee:
-"Updated code"
+Ära tee:  
+"Updated code"  
 "Typo fixes"
 
-Soovitused:
+Soovitused:  
 - Alusta suure tähega
 - Kasuta käskivat kõneviisi ("Add" mitte "Added", "Change" mitte "Changed") 
 - Piira pealkirja umbes 50 tähemärgini
 - Kui on vaja rohkem detaile, eralda pealkiri tühja reaga ja lisa põhjalikum kirjeldus, murdepunktiga umbes 72 tähemärgi juures
 
-### Maini ülesande numbrit
-Kui kasutad ülesannete haldamise süsteemi (nagu GitHub või Jira), on kasulik viidata commit-sõnumis ülesande numbrile. See loob selge seose commit-i ja seotud ülesande või vea vahel.
+### Maini pileti numbrit
+Kui kasutad ülesannete/piletite haldamise süsteemi (nagu GitHub või Jira), on kasulik viidata commit-sõnumis pileti numbrile. See loob selge seose commit-i ja seotud pileti või vea vahel.
 
-Tee:
-"Implement password reset functionality, resolves #234" 
+Tee:  
+"Implement password reset functionality, resolves #234"  
 "Add dark mode theme support, closes #567"
 
-Ära tee:
-"Parandatud tüütu viga"
+Ära tee:  
+"Parandatud tüütu viga"  
 "Parandatud kasutajaliides"
 
-Soovitused:
+Soovitused:  
 - Kasuta standardset terminoloogiat nagu "fixes", "closes" või "resolves" ülesande numbrile viitamisel. Paljud platvormid nagu GitHub tunnevad need ära ja seovad automaatselt commit-id mainitud ülesannetega ning võivad need isegi sulgeda, kui commit liidetakse.
 
 ### Regulaarsed commit-id
 Regulaarne commit-imine on oluline. See tagab, et muudatused on järkjärgulised ja hallatavad, võimaldades lihtsamat ülevaatust, vigade otsimist ja vajadusel tagasipööramist.
 
-Tee:
+Tee:  
 - Tee commit, kui oled lõpetanud ühe loogilise muudatuse, isegi kui see on väike.
 
-Ära tee:
+Ära tee:  
 - Oota, et koguda palju mitteseotud muudatusi ühte suurde commit-i.
 
 Soovitused:
@@ -58,8 +58,8 @@ Soovitused:
 Atomaarne commit tähendab, et üks commit esindab ainult ühte konkreetset muudatust. See ei tähenda, et muudetud on ainult üks fail või isegi üks rida, vaid pigem ühte "loogilist" muudatust. Atomaarsed commit-id teevad lihtsamaks muudatuste mõistmise, vigade otsimise ja võimalike probleemide tuvastamise.
 
 Soovitused:
-- Enne commit-i tegemist vaata muudatused üle käsuga git diff
-- Kui muudatused hõlmavad mitut valdkonda või funktsionaalsust, kaalu tükkide või üksikute failide lisamist käskudega git add -p või git add <failinimi>
+- Enne commit-i tegemist vaata muudatused üle käsuga `git diff`
+- Kui muudatused hõlmavad mitut valdkonda või funktsionaalsust, kaalu tükkide või üksikute failide lisamist käskudega `git add -p` või `git add <failinimi>`. Käsk `git add -p` võimaldab sul muudatusi tükkhaaval üle vaadata ja valida, milliseid muudatusi soovid lisada. See on eriti kasulik, kui oled teinud mitu erinevat muudatust samas failis, aga soovid need eraldi commit-idesse panna.
 
 ## Konventsionaalsete commit-ide kirjutamise reeglid:
 https://www.conventionalcommits.org/en/v1.0.0/
