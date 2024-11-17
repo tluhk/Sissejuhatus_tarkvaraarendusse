@@ -1,4 +1,4 @@
-# Teine loeng – Tarkvaraarenduse meetodid ja koodi kvaliteet
+# Teine seminar – Tarkvaraarenduse meetodid ja koodi kvaliteet
 
 Teise loengu eesmärk on teoreetilise poole pealt tutvuda tarkvaraarenduse meetoditega ja praktilise poole pealt seadistada VSCode ning teha praktiliselt läbi paar koodi kena kirjutamise harjutust.
 
