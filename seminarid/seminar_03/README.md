@@ -231,15 +231,16 @@ Kui teosel pole märgitud litsentsi, siis järelikult on ta litsentsitud kõige 
 
 Kõik GitHubis leiduvad populaarsed litsentsid on loodud selleks, et võimaldada tarkvara jagamist ja levitamist, kuid iga litsents seab sellele tegevusele erinevad tingimused.
 
-#### Miks ei ole Githubis täielikult keelavaid litsentse?
+#### Miks pigem ei leia Githubist täielikult keelavaid litsentse?
 
-- Avatud lähtekoodi põhimõtted: GitHub on platvorm, mis on loodud avatud lähtekoodiga projektide jaoks. Seetõttu ei ole seal koht litsentsidele, mis täielikult keelavad jagamise.
+- Avatud lähtekoodi põhimõtted: GitHub on platvorm, mis on loodud avatud lähtekoodiga projektide jaoks. 
 - Litsentside eesmärk: Litsentsid on loodud selleks, et määratleda, kuidas tarkvara võib olla kasutatav ja levitatav. Nende eesmärk ei ole keelata jagamist, vaid reguleerida seda.
+- GitHub toetab ka litsentse, mis piiravad tarkvara jagamist (nt "All Rights Reserved"). Kui soovid oma tarkvara täielikult privaatseks jätta, saad kasutada privaatselt hallatavaid repositooriume, millel pole üldse jagamiskohustust.
 
 #### Mida erinevad litsentsid reguleerivad?
 
 - Muudatuste tegemine: Mõned litsentsid nõuavad, et kõik muudatused peavad olema samuti avalikult kättesaadavad (näiteks GPLv3).
-- Kommertsialiseerimine: Mõned litsentsid seavad piirangud tarkvara kommertsialiseerimisele (näiteks GPLv3).
+- Kommertsialiseerimine: Mõned litsentsid reguleerivad, kuidas tarkvara võib olla kommertsiaalselt kasutatav. Näiteks GPLv3 lubab kommertsialiseerimist, kuid nõuab, et lähtekood oleks jagamisel kättesaadav.
 - Autorite õigused: Kõik litsentsid kaitsevad tarkvara autori intellektuaalomandit.
 
 Kõik GitHubis leiduvad populaarsed litsentsid võimaldavad mingil määral tarkvara jagamist. Kui soovid täielikult keelata jagamise, siis GitHub ei ole selleks õige platvorm. Kui soovid täielikult keelata jagamise, siis hoia seda privaatsena.
@@ -258,7 +259,7 @@ Kõik GitHubis leiduvad populaarsed litsentsid võimaldavad mingil määral tark
 
 - Boost Software License 1.0 - Lihtne ja vaba litsents, mis lubab kasutada lähtekoodi nii avatud kui suletud lähtekoodiga projektides.
 
-- Creative Commons Zero v1.0 Universal - Loobub kõigist autoriõigustest võimalikult suures ulatuses, viies teose avalikku omandisse.
+- Creative Commons Zero v1.0 Universal (CC0) - Loobub kõigist autoriõigustest võimalikult suures ulatuses, viies teose avalikku omandisse. 
 
 - Eclipse Public License 2.0 - Võimaldab kommertskasutust ja muutmist, kuid nõuab lähtekoodi avaldamist muudatuste korral.
 
@@ -277,9 +278,9 @@ Kõik GitHubis leiduvad populaarsed litsentsid võimaldavad mingil määral tark
 
 **MIT License:**
 
-Lihtne ja paindlik: See on kõige minimalistlikum litsents, mis võimaldab kasutajatel vabalt kasutada, muuta ja levitada tarkvara, ilma et nad peaksid oma muudatusi avaldama.
-See on tüüpi "Tee minu asjadega, mida tahad, aga ära mind kohtusse kaeba".  
-Tegemist on lubava vaba tarkvara litsentsiga.  
+Lihtne ja paindlik litsents, mis võimaldab kasutajatel vabalt kasutada, muuta ja levitada tarkvara, ilma et nad peaksid oma muudatusi avaldama.  
+Tüüpiline "Tee minu asjadega, mida tahad, aga ära mind kohtusse kaeba."  
+See on lubava vaba tarkvara litsents.    
 Vali see, kui kardad, et keegi ei hakka sinu tarkvara kasutama.  
 MIT litsents on üldjoontes sarnane BSD ja ISC litsentsidega.  
 
@@ -294,11 +295,11 @@ Vali see MIT litsentsi asemel, kui kardad patenditrollimist.
 
 Karmim litsents: GPLv3 on üks karmimatest vabavaralitsentsidest, mis nõuab, et kõik tuletised peavad olema samuti vabavaralised.  
 Populaarne vabavaralistes projektides: See litsents on populaarne vabavaralistes projektides, nagu GNU/Linux ja LibreOffice.  
-Vali see, kui kardad, et inimesed kasutavad sinu tööd ebaausalt (nt kui sind häirib, et keegi võiks sinu arvelt raha teenida). Kui nad kasutavad sinu tarkvara, peavad nad kasutama sama litsentsi nagu sina (st tõenäoliselt muutma selle avatud lähtekoodiga tarkvaraks).
-Lühidalt öeldes: kui keegi loob sinu tööst tuletatud teose ja levitab seda teatud tingimustel, peab ta avaldama lähtekoodi sama litsentsi alusel.
-See on copyleft-litsents (vastandina copyright'ile).
-Näiteks üks põhjustest, miks Apple'i Mac OS ei põhine Linuxil, on see, et Linux kasutab GPL litsentsi, mis tähendaks, et ka OSX oleks pidanud olema avatud lähtekoodiga.
-Paljudele idufirmadele ei meeldi GPL litsents, kuna see võib väljumise ajal tõsiseid probleeme tekitada. Harva leidub investoreid, kes sooviksid osta midagi, mille nad on sunnitud avatud lähtekoodiga muutma.
+Vali see, kui kardad, et inimesed kasutavad sinu tööd ebaausalt (nt kui sind häirib, et keegi võiks sinu arvelt raha teenida). Kui nad kasutavad sinu tarkvara, peavad nad kasutama sama litsentsi nagu sina (st tõenäoliselt muutma selle avatud lähtekoodiga tarkvaraks).  
+Lühidalt öeldes: kui keegi loob sinu tööst tuletatud teose ja levitab seda teatud tingimustel, peab ta avaldama lähtekoodi sama litsentsi alusel.  
+GPLv3 on "copyleft" litsents, mis nõuab, et kõik tuletised jääksid sama litsentsi alla (vastandina copyright'ile).  
+Näiteks üks põhjustest, miks Apple'i Mac OS ei põhine Linuxil, on see, et Linux kasutab GPL litsentsi, mis tähendaks, et ka OSX oleks pidanud olema avatud lähtekoodiga.  
+Paljudele idufirmadele ei meeldi GPL litsents, kuna see võib väljumise ajal tõsiseid probleeme tekitada. Harva leidub investoreid, kes sooviksid osta midagi, mille nad on sunnitud avatud lähtekoodiga muutma.  
 
 #### Valiku kriteeriumid:
 
