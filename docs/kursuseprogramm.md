@@ -36,15 +36,13 @@
 - [Seminari salvestus](https://youtu.be/2GWtP4dUIcQ?si=L2aPjk4xkmN9kOqE)
 
 ### **Kontseptsioonid:**
-- Tarkvaraarenduse meetodid
-  - Traditsioonilised meetodid (Waterfall)
-  - Agiilne metoodika
-  - Scrum
-- Rollid tarkvaraarenduses
-- Koodi kvaliteet
-- Git commit'ide kirjutamine
-- Avatud ja suletud lähtekood
-- Litsentsid
+- [Tarkvaraarenduse meetodid](../concepts/arendusmeetodid/README.md)
+- [Rollid tarkvaraarenduses](../concepts/rollid/README.md)
+- [Koodi kvaliteet](../concepts/koodikvaliteet/README.md)
+- [.gitignore](../concepts/gitignore/README.md)
+
+### **Kodutöö:**
+[Teise koduse töö kirjeldus](../docs/kodusedtood/kodune_02.md)
 
 ## **3. Kolmas seminar**
 
