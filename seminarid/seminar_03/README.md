@@ -582,6 +582,7 @@ Need kirjeldused peavad aitama meeskonnal tunnetada, kas loodav toode vastab kas
 
 #### Teistsugune vaade persoonadele – [Ärge kasutage fotosid](https://medium.com/we-are-systematic/short-post-stop-using-photos-in-your-personas-c2b11dc1383b)
 
+#### Veel teistsugusem:
 **[Milliseid persoonasid mitte luua](https://medium.com/design-bridges/personas-e60c1c06ead1)**
 
 ![bad persona](dontpersona.png)
