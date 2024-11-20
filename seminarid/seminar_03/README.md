@@ -13,11 +13,14 @@ Siinjuures tõstan esile Pillet, Tanelit, Kasparit (Kiltmaad), Carli, kes leidis
 
 ## Commitite kirjutamine
 
+**Hea commit aitab teistel arendajatel mõista tehtud muudatusi ning lihtsustab hilisemat koodi ülevaatamist ja vigade leidmist.**
+
 [10 Essential Practices for Better Git Commits and Why They Matter](https://medium.com/@saeid/10-essential-practices-for-better-git-commits-and-why-they-matter-3cfc420bf53e)  
 [Good Commit ✔ VS. Bad Commit ❌: Best Practices for Git](https://dev.to/sheraz4194/good-commit-vs-bad-commit-best-practices-for-git-1plc)
 
 ### Tähendusrikkad kommentaarid/sõnumid commititele
-Tähendusrikas kommentaar selgitab muudatuste eesmärki. Väldi ebamääraseid kommentaare nagu "Parandatud vead" või "Tehtud muudatused". Selle asemel kasuta lühidat ja kirjeldavat kommentaari, mis illustreerib commit-i eesmärki ja tulemust.
+Tähendusrikas kommentaar selgitab muudatuste eesmärki.  
+Väldi ebamääraseid kommentaare nagu "Parandatud vead" või "Tehtud muudatused". Selle asemel kasuta lühidat ja kirjeldavat kommentaari, mis illustreerib commit-i eesmärki ja tulemust.
 
 **Tee:**  
 "Add user profile image upload functionality"  
@@ -37,8 +40,8 @@ Soovitused:
 
 Commiti kommentaarides on soovituslik kasutada käskivat kõneviisi ("lisa", "paranda", "uuenda") mitte minevikuvormi ("lisasin", "parandasin", "uuendasin") mitmel põhjusel:
 
-Järjepidevus: Commit kirjeldab, mida see commit teeb koodiga, mitte mida sina tegid. See on nagu käsklus või samm-sammuline juhend.
-Lühidus: Käskiv vorm on tavaliselt lühem.
+- Commit kirjeldab, mida see commit teeb koodiga, mitte mida sina tegid. See on nagu käsklus või samm-sammuline juhend.
+- Käskiv vorm on tavaliselt lühem.
 
 ```bash
 docs: add correction  // 3 sõna
@@ -263,7 +266,13 @@ Muudab sõnumi git log vaates paremini loetavaks.
 * **Kui vajad täielikku kontrolli:** Suletud lähtekood võimaldab sul täielikult kontrollida tarkvara arendamist.
 * **Kui vajad kiiret toetust:** Kuigi avatud lähtekoodiga projektide taga on sageli tugevad kogukonnad, võib professionaalse toe saamine olla keerulisem.
 * **Kui töötad tundlike andmetega:** Mõnel juhul võivad olla turvalisuse nõuded, mis ei võimalda avatud lähtekoodi kasutamist.
+* **Kui tahad oma toodet müüa või kui tahad, et keegi teine seda ei saaks müüa:** Avatud lähtekood võib piirata sinu võimalusi toodet kommertsialiseerida, kuna teised saavad seda vabalt kasutada ja levitada. Samuti ei saa sa takistada teistel sinu koodi põhjal sarnaseid tooteid luua ja müüa. Kui soovid täielikku kontrolli oma toote müügi üle, on suletud lähtekood parem valik.
 
+### Kui soovite oma toodet täielikult kaitsta, võiksite kaaluda järgmisi võimalusi:
+
+* **Kaitse autoriõigusega:** Te saate oma kohandatud koodi kaitsta autoriõigusega, mis annab teile eksklusiivsed õigused selle kasutamiseks ja levitamiseks.
+* **Litsentsimise piirangud:** Võite lisada oma tootele litsentsi, mis piirab selle kasutamist teatud viisidel.
+* **Krüpteerimine:** Võite kasutada krüpteerimist tundliku andme kaitseks.
 
 ## Litsentsid
 
@@ -355,18 +364,6 @@ Paljudele idufirmadele ei meeldi GPL litsents, kuna see võib väljumise ajal t�
 Kui muu ei aita litsentsi valida, siis kasuta abimeest:  
 https://choosealicense.com
 
-
-**Miks avatud lähtekood on sageli parem valik?**  
-
-* **Koostöö:** Avatud lähtekoodiga projektid võimaldavad paljudel inimestel koos töötada, mis kiirendab arendust ja parandab tarkvara kvaliteeti.
-* **Läbipaistvus:** Avatud lähtekood suurendab usaldust, kuna igaüks saab koodi kontrollida ja veenduda, et see on turvaline.
-* **Innovatsioon:** Avatud lähtekoodiga projektid soodustavad innovatsiooni, kuna ideed ja lahendused levivad kiiresti.
-
-**Kui soovite oma tootet kaitsta, võiksite kaaluda järgmisi võimalusi:**
-
-* **Kaitse autoriõigusega:** Te saate oma kohandatud koodi kaitsta autoriõigusega, mis annab teile eksklusiivsed õigused selle kasutamiseks ja levitamiseks.
-* **Litsentsimise piirangud:** Võite lisada oma tootele litsentsi, mis piirab selle kasutamist teatud viisidel.
-* **Krüpteerimine:** Võite kasutada krüpteerimist tundliku andme kaitseks.
 
 ### Mõned meie õppetöös ette tulevad näited:
 
