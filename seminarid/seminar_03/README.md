@@ -411,7 +411,7 @@ Toote kirjeldus – mida teie tarkvara teeb.
 ![Idee genereerimine](ideegen.png)  
 
 Protseduur:
-* Leppige kokku üldine probleem (ühiskondlik, keskkonnaalane või produktiivsusega seotud).
+* Leppige kokku üldine probleem (vt allpool).
 * Igaüks saab ühe paberilehe. Veenduge, et teil on kirjutusvahend.
 * Kirjutage üles kolm toote ideed (üks lause iga idee kohta). Teil on 5 minutit aega.
 * Viis minutit on möödunud. Andke oma leht päripäeva edasi järgmisele inimesele. Saate uue lehe kolme ideega. Lugege ideed läbi ja lisage veel kolm. Teil on 5 minutit aega.
@@ -419,7 +419,7 @@ Protseduur:
 * Korrake.
 Arutage saadud ideid ja valige üks välja.
 
-**Valik probleeme**
+**Valik probleeme**  
 Otsesed probleemid:
 * Kodutööde ja tähtaegade haldamine - kuidas hoida ülevaadet kõikidest ülesannetest ja tähtaegadest erinevates õppeainetes, eriti kui õpitakse töö kõrvalt.  
 * Õppematerjalide jagamine ja sünkroniseerimine erinevate seadmete vahel - kuidas tagada, et vajalikud materjalid oleksid alati õigel ajal kättesaadavad, olenemata asukohast.  
