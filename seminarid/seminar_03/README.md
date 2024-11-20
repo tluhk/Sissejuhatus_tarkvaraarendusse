@@ -444,7 +444,7 @@ Toote kirjeldus – mida teie tarkvara teeb.
 
 ### Tooteloomise "mäng"
 
-![Idee genereerimine](/ideegen.png)  
+![Idee genereerimine](ideegen.png)  
 
 Protseduur:
 * Leppige kokku üldine probleem (vt allpool).
