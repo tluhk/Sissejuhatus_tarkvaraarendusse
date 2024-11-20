@@ -397,8 +397,7 @@ HTML, CSS ja puhas JavaScript on standardid, mis on loodud kõigi jaoks vabalt k
 
 ### Milleks üldse tarkvara luua?
 
-### Probleem
-### Tarkvara – lahendus
+### Probleem – tarkvara kui lahendus
 
 Toote kirjeldus – mida teie tarkvara teeb.  
 **See peaks sisaldama:**
@@ -406,6 +405,32 @@ Toote kirjeldus – mida teie tarkvara teeb.
 - Toote kirjeldus
 - Toote eesmärgid
 - Toote funktsioonid
+
+### Tooteloomise "mäng"
+
+![Idee genereerimine](ideegen.png)
+Protseduur:
+* Leppige kokku üldine probleem (ühiskondlik, keskkonnaalane või produktiivsusega seotud).
+* Igaüks saab ühe paberilehe. Veenduge, et teil on kirjutusvahend.
+* Kirjutage üles kolm toote ideed (üks lause iga idee kohta). Teil on 5 minutit aega.
+* Viis minutit on möödunud. Andke oma leht päripäeva edasi järgmisele inimesele. Saate uue lehe kolme ideega. Lugege ideed läbi ja lisage veel kolm. Teil on 5 minutit aega.
+* Korrake.
+* Korrake.
+Arutage saadud ideid ja valige üks välja.
+
+**Valik probleeme**
+Otsesed probleemid:
+* Kodutööde ja tähtaegade haldamine - kuidas hoida ülevaadet kõikidest ülesannetest ja tähtaegadest erinevates õppeainetes, eriti kui õpitakse töö kõrvalt.  
+* Õppematerjalide jagamine ja sünkroniseerimine erinevate seadmete vahel - kuidas tagada, et vajalikud materjalid oleksid alati õigel ajal kättesaadavad, olenemata asukohast.  
+* Efektiivne ajakasutus pendeldamisel kooli ja kodu vahel - kuidas kasutada sõiduaega produktiivselt õppimiseks või puhkamiseks.  
+* Grupitööde koordineerimine - kuidas leida sobivaid aegu kohtumisteks ja hallata ühiseid ülesandeid, kui kõigil on erinevad graafikud.  
+
+Üldisemad probleemid:
+* Vanemaealiste inimeste ravimite võtmise järjepidevus - kuidas tagada, et õiged ravimid saaksid õigel ajal võetud ja hoida ülevaadet tarvitamisest.  
+* Toiduraiskamise vähendamine kodumajapidamistes - kuidas jälgida toiduainete säilivusaegu ja planeerida tarbimist enne aegumist.  
+* Väikeettevõtete energia- ja ressursikulu optimeerimine - kuidas tuvastada ja vähendada tarbetut ressursikulu igapäevatöös.  
+* Ühistranspordi kasutajate liikumisinfo kogumine ja analüüs - kuidas koguda anonüümset infot inimeste liikumismustrite kohta, et optimeerida ühistranspordi graafikuid.  
+
 
 ## Kasutajakeskne disain
 Kasutajakeskne disain (User-Centered Design, UCD) on disainiprotsess, kus lõppkasutajate vajadused, soovid ja piirangud on disainiprotsessi igas etapis kesksel kohal. See tähendab, et toode või teenus luuakse kasutajate tegelikke vajadusi silmas pidades, mitte ainult tehnilisi võimalusi või ärilisi eesmärke arvestades.
