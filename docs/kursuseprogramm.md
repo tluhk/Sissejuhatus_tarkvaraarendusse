@@ -43,6 +43,7 @@
 
 ### **Kodutöö:**
 [Teise koduse töö kirjeldus](../docs/kodusedtood/kodune_02.md)
+[Kolmanda koduse töö kirjeldus](../docs/kodusedtood/kodune_03.md)
 
 ## **3. Kolmas seminar**
 
@@ -55,35 +56,18 @@
 - Litsentsid
 
 #### Osa 2:
-- Nõuete kogumine
 - Persoonad
 - Kasutajalood (user stories)
 - Stsenaariumid
-- Prototüüpimise alused
-
-### **Materjalid:**
-- Git commit'ide kirjutamise juhendid:
-  - [10 Essential Practices for Better Git Commits](https://medium.com/@saeid/10-essential-practices-for-better-git-commits-and-why-they-matter-3cfc420bf53e)
-  - [Good Commit VS. Bad Commit: Best Practices](https://dev.to/sheraz4194/good-commit-vs-bad-commit-best-practices-for-git-1plc)
-  - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
-- Litsentside valimise abimees: [Choose a License](https://choosealicense.com)
-
-### **Kontseptsioonid:**
-- Git commit'ide kirjutamise põhimõtted
-- Avatud ja suletud lähtekoodi põhimõtted
-- Litsentsid GitHubis
-- Nõuete kogumise meetodid
-- Persoonade loomine
-- Kasutajalugude kirjutamine
-- Stsenaariumide koostamine
-- Prototüüpimise põhimõtted
 
 ### **Kodutöö:**
-[Kolmanda koduse töö kirjeldus](../docs/kodusedtood/kodune_03.md)
+[Neljanda koduse töö kirjeldus](../docs/kodusedtood/kodune_04.md)
 
 ## **4. Neljas seminar**
 
 ### **Teemad:**
+#### Prototüüpimise põhimõtted
+
 #### Dokumentatsioon tarkvaraarenduses
 - Dokumentatsiooni tüübid ja eesmärgid
 - Tehniline dokumentatsioon

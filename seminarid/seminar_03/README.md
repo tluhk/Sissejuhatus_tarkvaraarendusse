@@ -393,3 +393,124 @@ HTML, CSS ja puhas JavaScript on standardid, mis on loodud kõigi jaoks vabalt k
 
 * **Autoriõigus:** Kuigi HTML, CSS ja JavaScript ise ei ole autoriõigusega kaitstud, võib sinu enda loodud veebilehe disain ja sisu olla autoriõigusega kaitstud.
 
+## Toode
+
+### Milleks üldse tarkvara luua?
+
+### Probleem
+
+Toote kirjeldus – mida teie tarkvara teeb.  
+**See peaks sisaldama:**
+- Toote nimi
+- Toote kirjeldus
+- Toote eesmärgid
+- Toote funktsioonid
+
+
+## Persoonad
+
+Persoonad on detailsed, fiktiivsed karakterid, mis esindavad teie toote või teenuse tüüpilisi kasutajaid. Need aitavad disaineritel ja arendajatel paremini mõista kasutajate vajadusi, eesmärke ja käitumismustreid.
+
+NB! Persoonat ei tohiks välja mõelda, persoona peaks baseeruma kasutajauuringutel. Väljamõeldud persoona kipub olema väljamõtleja eelarvamus, mitte tegelik kasutaja.
+
+### Kuidas luua persoonasid?
+
+Persoonade loomine on meeskonnatöö, mitte sellepärast, et see oleks keeruline, vaid et kaasata meeskonnaliikmeid ja tagada nende toetus persoonade kasutamisele. Persoonade loomise protsess peaks põhinema päris kasutajauuringutel, mitte väljamõeldud detailidel.
+
+#### Persoonade loomise protsess:
+
+1. **Alusta kasutajauuringutega**
+   - Kogu andmeid päris kasutajate kohta
+   - Tuvasta olulised karakteristikud ja käitumismustrid
+   
+2. **Grupeeri omadused**
+   - Ühenda sarnased omadused klastriteks
+   - Ühenda või eemalda liiga sarnased grupid
+   - Tuvasta selged karakterid
+
+3. **Lisa realistlikud detailid**
+   - Täienda karakterit usutavate ja meeldejäävate detailidega
+   - Veendu, et iga detail on asjakohane ja vajalik
+
+#### Mida persoona peaks sisaldama:
+
+1. **Põhiinfo:**
+   - Nimi, vanus, sugu
+   - Foto
+   - Lühike kirjeldus tegevusalast
+
+2. **Kogemus ja kontekst:**
+   - Kogemustase antud valdkonnas
+   - Kas kasutab toodet vabatahtlikult või töö tõttu
+   - Kasutamise sagedus
+   - Kasutatavad seadmed (arvuti, telefon jne)
+
+3. **Eesmärgid ja mured:**
+   - Olulised vajadused (kiirus, täpsus, põhjalikkus)
+   - Peamised väljakutsed
+   - Motivatsioon toote kasutamiseks
+
+4. **Iseloomulikud tsitaadid:**
+   - Laused, mis iseloomustavad persoona suhtumist
+
+#### Olulised põhimõtted:
+
+- Väldi ebavajalikke detaile, mis ei mõjuta disainiotsuseid
+- Iga lisatud detail peaks teenima kindlat eesmärki
+- Persoona peab olema meeldejääv ja usutav
+- Põhine reaalsetel andmetel, mitte väljamõeldisel
+
+
+Lühike selgitav näide persoona mõiste kohta:
+> **Mari Mets, 35**  
+> Projektijuht IT-firmas  
+> Elab Tallinnas, abielus, 2 last  
+> Vajab efektiivset projektijuhtimise tarkvara  
+> Peamine väljakutse: tiimide koordineerimine erinevates ajavööndites
+
+![Persoonakarakter](./persona.png)
+[Näide Nielsen Norman Groupi lehelt](https://www.nngroup.com/articles/persona/)
+
+Teistsugune vaade persoonadele – [Ärge kasutage fotosid](https://medium.com/we-are-systematic/short-post-stop-using-photos-in-your-personas-c2b11dc1383b)
+
+[Milliseid persoonasid mitte luua](https://medium.com/design-bridges/personas-e60c1c06ead1)
+![bad persona](./dontpersona.png)
+[Allikas](https://medium.com/design-bridges/personas-e60c1c06ead1)
+
+**Lihtsad sammud hea persoona loomiseks:**  
+Samm 1. Eemalda visuaalsed efektid  
+Samm 2. Kustuta ebaoluline või väljamõeldud info  
+Samm 3. Eemalda fookus demograafilistelt andmetelt  
+Samm 4. Jutusta lugu  
+Samm 5. Lisa rohkem vajadusi, soove ja hirme  
+Samm 6. Kirjelda asjakohast kogemust  
+Samm 7. Määra prioriteedid ja rõhuasetus  
+
+![good persona](./dopersona.png)
+[Allikas](https://medium.com/design-bridges/personas-e60c1c06ead1)
+
+
+## Kasutajalood (user stories)
+
+Kasutajalood on lühikesed, lihtsad kirjeldused funktsionaalsusest, mida kasutaja soovib. Need on kirjutatud kasutaja vaatenurgast ja järgivad tavaliselt formaati:
+
+"Kasutajana (kes?) soovin ma (mida teha?), et (mis eesmärgil?)."
+
+Näited kasutajalugudest:
+- Kasutajana soovin ma sisse logida oma e-posti kontoga, et pääseda ligi oma isiklikele andmetele
+- Administraatorina soovin ma näha kõiki aktiivseid kasutajaid, et jälgida süsteemi kasutust
+- Kliendina soovin ma lisada tooteid ostukorvi, et neid hiljem osta
+
+## Stsenaariumid
+
+Stsenaariumid on detailsed kirjeldused, kuidas kasutajad süsteemiga suhtlevad konkreetsetes olukordades. Need aitavad mõista kasutajate teekonda läbi süsteemi ja tuvastada võimalikke probleeme.
+
+Stsenaarium peaks sisaldama:
+1. Kontekst - mis olukorras kasutaja on
+2. Eesmärk - mida kasutaja üritab saavutada
+3. Tegevused - sammud, mida kasutaja peab tegema
+4. Tulemus - mida kasutaja loodab saavutada
+
+Näide stsenaariumist:
+> **Uue konto loomine**  
+> Mari soovib luua uue konto rakenduses. Ta avab rakenduse avalehe, klikib "Loo konto" nupul, täidab vajalikud väljad oma andmetega ja vajutab "Registreeru". Süsteem saadab talle kinnitusmeili, mille ta avab ja kinnitab oma konto. Seejärel saab ta sisse logida ja alustada rakenduse kasutamist.
