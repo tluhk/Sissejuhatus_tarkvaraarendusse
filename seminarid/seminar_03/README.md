@@ -355,18 +355,6 @@ Paljudele idufirmadele ei meeldi GPL litsents, kuna see võib väljumise ajal t�
 Kui muu ei aita litsentsi valida, siis kasuta abimeest:  
 https://choosealicense.com
 
-### Mõned meie õppetöös ette tulevad näited:
-
-#### React.js litsentsipoliitika
-
-**React.js kasutab MIT litsentsi**, mis, nagu eespool kirjas, on avatud lähtekoodiga litsentside seas üks liberaalsemaid. See tähendab, et saate React.js-i vabalt kasutada, muuta, levitada ja isegi kommertsiaalseks otstarbeks kasutada ilma oluliste piiranguteta.
-
-**Kas saate React.js-iga luua täielikult kaitstud toote?**
-
-* Kuigi React.js kood ise on avatud lähtekoodiga, ei tähenda see, et teie rakenduse loogika või struktuur muutuks automaatselt avalikuks. Kui te kaitsete oma rakenduse lähtekoodi (nt autoriõiguse või litsentsiga), ei ole kellelgi õigust seda kasutada, ilma et te oleksite selleks loa andnud.  
-* React.js-i kasutamine ei kohusta teid avalikustama oma rakenduse lähtekoodi.  
-
-Aga rakenduse täielikult sulgemine võib raskendada selle edasist arendamist ja hooldamist. Avatud lähtekoodiga kogukond pakub sageli väärtuslikku tagasisidet ja abi.  
 
 **Miks avatud lähtekood on sageli parem valik?**  
 
@@ -379,6 +367,20 @@ Aga rakenduse täielikult sulgemine võib raskendada selle edasist arendamist ja
 * **Kaitse autoriõigusega:** Te saate oma kohandatud koodi kaitsta autoriõigusega, mis annab teile eksklusiivsed õigused selle kasutamiseks ja levitamiseks.
 * **Litsentsimise piirangud:** Võite lisada oma tootele litsentsi, mis piirab selle kasutamist teatud viisidel.
 * **Krüpteerimine:** Võite kasutada krüpteerimist tundliku andme kaitseks.
+
+### Mõned meie õppetöös ette tulevad näited:
+
+#### React.js litsentsipoliitika
+
+**[React.js kasutab MIT litsentsi](https://github.com/facebook/react/blob/main/LICENSE)**, mis, nagu eespool kirjas, on avatud lähtekoodiga litsentside seas üks liberaalsemaid. See tähendab, et saate React.js-i vabalt kasutada, muuta, levitada ja isegi kommertsiaalseks otstarbeks kasutada ilma oluliste piiranguteta.
+
+
+**Kas saate React.js-iga luua täielikult kaitstud toote?**
+
+* Kuigi React.js kood ise on avatud lähtekoodiga, ei tähenda see, et teie rakenduse loogika või struktuur muutuks automaatselt avalikuks. Kui te kaitsete oma rakenduse lähtekoodi (nt autoriõiguse või litsentsiga), ei ole kellelgi õigust seda kasutada, ilma et te oleksite selleks loa andnud.  
+* React.js-i kasutamine ei kohusta teid avalikustama oma rakenduse lähtekoodi.  
+
+Aga rakenduse täielikult sulgemine võib raskendada selle edasist arendamist ja hooldamist. Avatud lähtekoodiga kogukond pakub sageli väärtuslikku tagasisidet ja abi.  
 
 
 #### HTML, CSS ja JavaScript – litsentsimise nüansid
