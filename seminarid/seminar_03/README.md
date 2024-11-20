@@ -398,6 +398,7 @@ HTML, CSS ja puhas JavaScript on standardid, mis on loodud kõigi jaoks vabalt k
 ### Milleks üldse tarkvara luua?
 
 ### Probleem
+### Tarkvara – lahendus
 
 Toote kirjeldus – mida teie tarkvara teeb.  
 **See peaks sisaldama:**
@@ -406,12 +407,59 @@ Toote kirjeldus – mida teie tarkvara teeb.
 - Toote eesmärgid
 - Toote funktsioonid
 
+## Kasutajakeskne disain
+Kasutajakeskne disain (User-Centered Design, UCD) on disainiprotsess, kus lõppkasutajate vajadused, soovid ja piirangud on disainiprotsessi igas etapis kesksel kohal. See tähendab, et toode või teenus luuakse kasutajate tegelikke vajadusi silmas pidades, mitte ainult tehnilisi võimalusi või ärilisi eesmärke arvestades.
+
+### Kasutajakeskse disaini põhiprintsiibid:
+
+1. **Varajane keskendumine kasutajatele ja ülesannetele**
+   - Mõista kasutajate vajadusi ja konteksti enne disainimist
+   - Kaasata kasutajaid kogu protsessi vältel
+
+2. **Empiiriline mõõtmine**
+   - Jälgida kasutajate käitumist ja reaktsioone
+   - Koguda tagasisidet prototüüpide ja toodete kohta
+
+3. **Iteratiivne disain**
+   - Disaini korduv täiustamine tagasiside põhjal
+   - Probleemide varajane tuvastamine ja lahendamine
+
+### Kasutajakeskse disaini protsess:
+
+1. **Konteksti mõistmine**
+   - Kasutajate tundmaõppimine
+   - Kasutuskonteksti analüüs
+   - Nõuete kogumine
+
+2. **Disaini loomine**
+   - Lahenduste väljatöötamine
+   - Prototüüpide loomine
+   - Disaini hindamine kasutajatega
+
+3. **Hindamine ja täiustamine**
+   - Kasutajatestid
+   - Tagasiside kogumine
+   - Disaini iteratiivne parandamine
+
+Kasutajakeskne disain aitab luua tooteid, mis on:
+- Lihtsamini kasutatavad
+- Paremini vastavad kasutajate vajadustele
+- Suurema kasutajate rahuloluga
+- Väiksema õppimiskõveraga
+
 
 ## Persoonad
 
 Persoonad on detailsed, fiktiivsed karakterid, mis esindavad teie toote või teenuse tüüpilisi kasutajaid. Need aitavad disaineritel ja arendajatel paremini mõista kasutajate vajadusi, eesmärke ja käitumismustreid.
 
-NB! Persoonat ei tohiks välja mõelda, persoona peaks baseeruma kasutajauuringutel. Väljamõeldud persoona kipub olema väljamõtleja eelarvamus, mitte tegelik kasutaja.
+Lühike selgitav näide persoona mõiste kohta:
+> **Mari Mets, 35**  
+> Projektijuht IT-firmas  
+> Elab Tallinnas, abielus, 2 last  
+> Vajab efektiivset projektijuhtimise tarkvara  
+> Peamine väljakutse: tiimide koordineerimine erinevates ajavööndites
+
+NB! Persoonat ei tohiks lihtsalt välja mõelda, persoona peaks baseeruma kasutajauuringutel. Väljamõeldud persoona kipub olema väljamõtleja isiklik eelarvamus, mitte tegelik kasutaja.
 
 ### Kuidas luua persoonasid?
 
@@ -453,6 +501,8 @@ Persoonade loomine on meeskonnatöö, mitte sellepärast, et see oleks keeruline
 4. **Iseloomulikud tsitaadid:**
    - Laused, mis iseloomustavad persoona suhtumist
 
+Need kirjeldused peavad aitama meeskonnal tunnetada, kas loodav toode vastab kasutaja, ehk persoona ootustele.
+
 #### Olulised põhimõtted:
 
 - Väldi ebavajalikke detaile, mis ei mõjuta disainiotsuseid
@@ -460,21 +510,16 @@ Persoonade loomine on meeskonnatöö, mitte sellepärast, et see oleks keeruline
 - Persoona peab olema meeldejääv ja usutav
 - Põhine reaalsetel andmetel, mitte väljamõeldisel
 
-
-Lühike selgitav näide persoona mõiste kohta:
-> **Mari Mets, 35**  
-> Projektijuht IT-firmas  
-> Elab Tallinnas, abielus, 2 last  
-> Vajab efektiivset projektijuhtimise tarkvara  
-> Peamine väljakutse: tiimide koordineerimine erinevates ajavööndites
+**[Näide Nielsen Norman Groupi lehelt](https://www.nngroup.com/articles/persona/)**
 
 ![Persoonakarakter](./persona.png)
-[Näide Nielsen Norman Groupi lehelt](https://www.nngroup.com/articles/persona/)
 
-Teistsugune vaade persoonadele – [Ärge kasutage fotosid](https://medium.com/we-are-systematic/short-post-stop-using-photos-in-your-personas-c2b11dc1383b)
+#### Teistsugune vaade persoonadele – [Ärge kasutage fotosid](https://medium.com/we-are-systematic/short-post-stop-using-photos-in-your-personas-c2b11dc1383b)
 
-[Milliseid persoonasid mitte luua](https://medium.com/design-bridges/personas-e60c1c06ead1)
+**[Milliseid persoonasid mitte luua](https://medium.com/design-bridges/personas-e60c1c06ead1)**
+
 ![bad persona](./dontpersona.png)
+
 [Allikas](https://medium.com/design-bridges/personas-e60c1c06ead1)
 
 **Lihtsad sammud hea persoona loomiseks:**  
@@ -496,6 +541,13 @@ Kasutajalood on lühikesed, lihtsad kirjeldused funktsionaalsusest, mida kasutaj
 
 "Kasutajana (kes?) soovin ma (mida teha?), et (mis eesmärgil?)."
 
+Kasutajalood võib kirjutada:
+
+1. Agiilse arenduse tööriistadesse nagu Jira, Trello või Azure DevOps
+2. Projekti dokumentatsiooni (nt requirements.md fail)
+3. Eraldi kasutajalugude dokumenti (nt user-stories.md)
+4. Figma faili, kus on näha, kuidas toode peaks töötama
+
 Näited kasutajalugudest:
 - Kasutajana soovin ma sisse logida oma e-posti kontoga, et pääseda ligi oma isiklikele andmetele
 - Administraatorina soovin ma näha kõiki aktiivseid kasutajaid, et jälgida süsteemi kasutust
@@ -514,3 +566,36 @@ Stsenaarium peaks sisaldama:
 Näide stsenaariumist:
 > **Uue konto loomine**  
 > Mari soovib luua uue konto rakenduses. Ta avab rakenduse avalehe, klikib "Loo konto" nupul, täidab vajalikud väljad oma andmetega ja vajutab "Registreeru". Süsteem saadab talle kinnitusmeili, mille ta avab ja kinnitab oma konto. Seejärel saab ta sisse logida ja alustada rakenduse kasutamist.
+
+## Storyboard
+
+Storyboard on visuaalne jutustus või stsenaariumi esitlus, mis näitab sammhaaval, kuidas kasutaja süsteemiga suhtleb. See on sarnane koomiksile, kus iga pilt esindab ühte sammu või tegevust kasutaja teekonnas.
+
+Storyboard'i eelised:
+- Aitab visualiseerida kasutajakogemust
+- Teeb keerulised stsenaariumid lihtsamini mõistetavaks
+- Võimaldab tuvastada probleeme enne arendamist
+- Hea kommunikatsioonivahend meeskonna ja sidusrühmade vahel
+
+Hea storyboard sisaldab:
+1. Selge järjestus - sammud on loogilises järjekorras
+2. Kontekst - kus ja millal tegevus toimub
+3. Kasutaja emotsioonid ja mõtted
+4. Probleemid ja lahendused
+5. Selgitavad tekstid või dialoogid
+
+Näide storyboard'ist võiks kujutada mobiilirakenduse kasutamist:
+1. Kasutaja avastab probleemi (vajab transporti)
+2. Avab rakenduse ja sisestab sihtkoha
+3. Valib sobiva transpordiviisi
+4. Kinnitab tellimuse
+5. Ootab ja jälgib teenuse saabumist
+6. Kasutab teenust
+7. Maksab ja hindab kogemust
+
+## Customer Journey Map
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVP20eerM=/?moveToViewport=863,2330,4714,2531&embedId=316210475838" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+
+
+Lugemist:
+https://blog.prototypr.io/the-entire-ux-design-process-3fbbb36debd7
