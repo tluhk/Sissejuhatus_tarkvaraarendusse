@@ -1,4 +1,12 @@
-# Kolmas seminar – 
+# Kolmas seminar
+- [Eelmise seminari meenutus](#eelmise-seminari-meenutus)
+- [Tagasiside kodutöödele](#tagasiside-kodutöödele)
+- [Commitite kirjutamine](#commitite-kirjutamine)
+- [Avatud ja suletud lähtekood](#avatud-ja-suletud-lähtekood)
+- [Litsentsid](#litsentsid)
+
+## Eelmise seminari meenutus
+
 ## Tagasiside kodutöödele
 Üks olulisemaid osasid teie kodutöödes läbi kogu õpiaja hakkab olema *codereview*. See on asi, mida ma arvestan ka hindamisel. Mida põhjalikumalt on keegi kellegi teise koodi lugenud ja seejärel seda kommenteerinud, seda parem. Esialgu võib kodutööde all ka niisama lobiseda. Kui ei leia midagi sisulist.  
 Siinjuures tõstan esile Pillet, Tanelit, Kasparit (Kiltmaad), Carli, kes leidis, kuidas ka hästi tehtud asja kommida, Silverit, ka Ervit. Helina oli kõvasti kommiteid teinud – kiidan.
@@ -223,7 +231,42 @@ See aitab eristada sõnumi algust.
 See on pikaajaline Git-i tava, mida näeb Git-i enda dokumentatsioonis ja paljudes suurtes projektides.  
 Muudab sõnumi git log vaates paremini loetavaks.  
 
+## Avatud ja suletud lähtekood
+
+**Avatud lähtekood** tähendab, et tarkvara lähtekood on avalikult kättesaadav. See, et igaüks saab seda koodi näha, muuta ja levitada. See on vastand suletud lähtekoodile, kus lähtekood on ettevõtte omand ja seda ei jagata avalikult.
+
+**Peamised põhimõtted:**
+
+* **Vaba juurdepääs:** Igaüks saab koodi vaadata, uurida ja mõista.
+* **Vaba levitamine:** Koodi saab vabalt kopeerida, levitada ja jagada teistega.
+* **Vaba muudatus:** Koodi saab muuta ja kohandada vastavalt oma vajadustele.
+* **Vaba kasutamine:** Koodi saab kasutada igal eesmärgil, ka kommertsiaalselt.
+
+**Miks avatud lähtekood võib olla hea valik?**
+
+* **Koostöö:** Suur hulk inimesi üle maailma saab koos töötada tarkvara parandamiseks ja uute funktsioonide lisamiseks.
+* **Innovatsioon:** Avatud lähtekood soodustab innovatsiooni, kuna ideed levivad kiiresti ja neid saab erineval moel kombineerida.
+* **Kvaliteet:** Rohkem inimesi ühe tarkvara kallal, võimaldab avastada rohkem vigu ja parandada kvaliteeti.
+* **Turvalisus:** Avatud lähtekood on sageli turvalisem, kuna võimalikud haavatavused avastatakse ja parandatakse kiiremini.
+* **Kulude kokkuhoid:** Paljudel juhtudel on avatud lähtekoodiga tarkvara tasuta või väga odav.
+
+**Näited avatud lähtekoodiga tarkvarast:**
+
+* **Operatsioonisüsteemid:** Linux, Android
+* **Veebiserverid:** Apache, Nginx
+* **Programmeerimiskeeled:** Python, Java
+* **Andmebaasid:** MySQL, PostgreSQL
+* **Veebiprojekteerimise teegid ja raamistikud:** React, Angular
+
+### Millal ei ole avatud lähtekood parim valik?
+
+* **Kui vajad täielikku kontrolli:** Suletud lähtekood võimaldab sul täielikult kontrollida tarkvara arendamist.
+* **Kui vajad kiiret toetust:** Kuigi avatud lähtekoodiga projektide taga on sageli tugevad kogukonnad, võib professionaalse toe saamine olla keerulisem.
+* **Kui töötad tundlike andmetega:** Mõnel juhul võivad olla turvalisuse nõuded, mis ei võimalda avatud lähtekoodi kasutamist.
+
+
 ## Litsentsid
+
 ### Üldine autoriõguse loogika:
 Kui teosel pole märgitud litsentsi, siis järelikult on ta litsentsitud kõige tugevamalt ja sa ei tohi teost jagada. Seega, kui sa tahad, et sinu materjal oleks kasutatav, pead lisama litsentsi.
 
@@ -311,4 +354,44 @@ Paljudele idufirmadele ei meeldi GPL litsents, kuna see võib väljumise ajal t�
 
 Kui muu ei aita litsentsi valida, siis kasuta abimeest:  
 https://choosealicense.com
+
+### Mõned meie õppetöös ette tulevad näited:
+
+#### React.js litsentsipoliitika
+
+**React.js kasutab MIT litsentsi**, mis, nagu eespool kirjas, on avatud lähtekoodiga litsentside seas üks liberaalsemaid. See tähendab, et saate React.js-i vabalt kasutada, muuta, levitada ja isegi kommertsiaalseks otstarbeks kasutada ilma oluliste piiranguteta.
+
+**Kas saate React.js-iga luua täielikult kaitstud toote?**
+
+* Kuigi React.js kood ise on avatud lähtekoodiga, ei tähenda see, et teie rakenduse loogika või struktuur muutuks automaatselt avalikuks. Kui te kaitsete oma rakenduse lähtekoodi (nt autoriõiguse või litsentsiga), ei ole kellelgi õigust seda kasutada, ilma et te oleksite selleks loa andnud.  
+* React.js-i kasutamine ei kohusta teid avalikustama oma rakenduse lähtekoodi.  
+
+Aga rakenduse täielikult sulgemine võib raskendada selle edasist arendamist ja hooldamist. Avatud lähtekoodiga kogukond pakub sageli väärtuslikku tagasisidet ja abi.  
+
+**Miks avatud lähtekood on sageli parem valik?**  
+
+* **Koostöö:** Avatud lähtekoodiga projektid võimaldavad paljudel inimestel koos töötada, mis kiirendab arendust ja parandab tarkvara kvaliteeti.
+* **Läbipaistvus:** Avatud lähtekood suurendab usaldust, kuna igaüks saab koodi kontrollida ja veenduda, et see on turvaline.
+* **Innovatsioon:** Avatud lähtekoodiga projektid soodustavad innovatsiooni, kuna ideed ja lahendused levivad kiiresti.
+
+**Kui soovite oma tootet kaitsta, võiksite kaaluda järgmisi võimalusi:**
+
+* **Kaitse autoriõigusega:** Te saate oma kohandatud koodi kaitsta autoriõigusega, mis annab teile eksklusiivsed õigused selle kasutamiseks ja levitamiseks.
+* **Litsentsimise piirangud:** Võite lisada oma tootele litsentsi, mis piirab selle kasutamist teatud viisidel.
+* **Krüpteerimine:** Võite kasutada krüpteerimist tundliku andme kaitseks.
+
+
+#### HTML, CSS ja JavaScript – litsentsimise nüansid
+
+HTML, CSS ja puhas JavaScript on standardid, mis on loodud kõigi jaoks vabalt kasutamiseks.
+
+**Pikem selgitus:**
+
+* **Standardid, mitte tarkvara:** HTML, CSS ja JavaScript on veebilehtede loomiseks kasutatavad standardid. Need on nagu keele grammatika – määratlevad, kuidas elemente ühendada ja kuidas veebileht peaks toimima.
+* **Vaba kasutamine:** Kuna need on standardid, ei ole nende kasutamiseks vaja mingit litsentsi. Võid vabalt luua veebilehti, kasutades neid tehnoloogiaid, ilma et peaksid kellelegi tasu maksma või tingimusi järgima.
+* **Litsentsid tulevad mängu teekide ja tööriistadega:** Kui hakkad kasutama teeke nagu jQuery, React või Angular, siis on neil tavaliselt litsents. See litsents määrab, kuidas sa võid seda teeki kasutada, muuta ja levitada.
+
+**Mida peaksid teadma:**
+
+* **Autoriõigus:** Kuigi HTML, CSS ja JavaScript ise ei ole autoriõigusega kaitstud, võib sinu enda loodud veebilehe disain ja sisu olla autoriõigusega kaitstud.
 
