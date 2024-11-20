@@ -594,7 +594,9 @@ Näide storyboard'ist võiks kujutada mobiilirakenduse kasutamist:
 7. Maksab ja hindab kogemust
 
 ## Customer Journey Map
+```iframe
 <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVP20eerM=/?moveToViewport=863,2330,4714,2531&embedId=316210475838" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+```
 
 Lugemist:
 https://blog.prototypr.io/the-entire-ux-design-process-3fbbb36debd7
