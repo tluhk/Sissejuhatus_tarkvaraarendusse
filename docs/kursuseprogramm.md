@@ -9,20 +9,19 @@
 
 ### **Materjalid:**
 - [Uued slaidid](https://gamma.app/docs/Sissejuhatus-tarkvaraarendusse-orp3sw6v6z53aae)
-- [Vanad slaidid](files/slaidid_01.pdf)
+- [Vanad slaidid](../seminarid/seminar_01/files/slaidid_01.pdf)
 - [Seminari salvestus](https://www.youtube.com/watch?v=G0ZrGdIgJjw)
 
 ### **Kontseptsioonid:**
-- [Sissejuhatus](../../concepts/sissejuhatus/README.md)
-- [Tarkvara](../../concepts/tarkvara/README.md)
-- [Tarkvaraarendus](../../concepts/tarkvaraarendus/README.md)
-- [Tarkvaraarenduse elutsükkel](../../concepts/SDLC/README.md)
-- [Git](../../concepts/git/README.md)
-- [Github](../../concepts/github/README.md)
-- [Markdown](../../concepts/markdown/README.md)
+- [Tarkvara](../concepts/tarkvara/README.md)
+- [Tarkvaraarendus](../concepts/tarkvaraarendus/README.md)
+- [Tarkvaraarenduse elutsükkel](../concepts/SDLC/README.md)
+- [Git](../concepts/git/README.md)
+- [Github](../concepts/github/README.md)
+- [Markdown](../concepts/markdown/README.md)
 
 ### **Kodutöö:**
-[Esimese koduse töö kirjeldus](../../docs/kodusedtood/kodune_01.md)
+[Esimese koduse töö kirjeldus](../docs/kodusedtood/kodune_01.md)
 
 ## **2. Teine seminar**
 
@@ -50,11 +49,19 @@
 ## **3. Kolmas seminar**
 
 ### **Teemad:**
+#### Osa 1:
 - Eelmise seminari meenutus
 - Tagasiside kodutöödele
 - Commitite kirjutamine
 - Avatud ja suletud lähtekood
 - Litsentsid
+
+#### Osa 2:
+- Nõuete kogumine
+- Persoonad
+- Kasutajalood (user stories)
+- Stsenaariumid
+- Prototüüpimise alused
 
 ### **Materjalid:**
 - Git commit'ide kirjutamise juhendid:
@@ -64,18 +71,46 @@
 - Litsentside valimise abimees: [Choose a License](https://choosealicense.com)
 
 ### **Kontseptsioonid:**
-- Git commit'ide kirjutamise põhimõtted:
-  - Tähendusrikkad kommentaarid
-  - Käskiv kõneviis
-  - Pileti numbri mainimine
-  - Regulaarsed ja atomaarsed commit'id
-  - Konventsionaalsed commit'id (fix, feat, chore jne)
+- Git commit'ide kirjutamise põhimõtted
 - Avatud ja suletud lähtekoodi põhimõtted
-- Litsentsid GitHubis:
-  - MIT License
-  - Apache License 2.0
-  - GNU GPL v3.0
-  - Teised populaarsed litsentsid
+- Litsentsid GitHubis
+- Nõuete kogumise meetodid
+- Persoonade loomine
+- Kasutajalugude kirjutamine
+- Stsenaariumide koostamine
+- Prototüüpimise põhimõtted
 
 ### **Kodutöö:**
-[Kolmanda koduse töö kirjeldus](../../docs/kodusedtood/kodune_03.md)
+[Kolmanda koduse töö kirjeldus](../docs/kodusedtood/kodune_03.md)
+
+## **4. Neljas seminar**
+
+### **Teemad:**
+#### Dokumentatsioon tarkvaraarenduses
+- Dokumentatsiooni tüübid ja eesmärgid
+- Tehniline dokumentatsioon
+- Kasutajadokumentatsioon
+- API dokumentatsioon
+- README failide koostamine
+
+#### Projekti planeerimine
+- Nõuetest tööülesannete loomine
+- Tööde mahu hindamine
+- Prioriteetide seadmine
+- Ajakava koostamine
+- Riskide hindamine
+
+#### Meeskonnatöö põhimõtted
+- Rollid meeskonnas
+- Ülesannete jagamine
+- Kommunikatsioon
+- Code review protsess
+- Konfliktide lahendamine
+
+### **Kontseptsioonid:**
+- Dokumentatsiooni olulisus ja põhimõtted
+- Projekti planeerimise meetodid
+- Meeskonnatöö head tavad
+
+### **Kodutöö:**
+[Neljanda koduse töö kirjeldus](../docs/kodusedtood/kodune_04.md)
