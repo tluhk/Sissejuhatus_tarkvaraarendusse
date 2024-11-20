@@ -424,6 +424,8 @@ Kasutajakeskne disain (User-Centered Design, UCD) on disainiprotsess, kus lõppk
    - Disaini korduv täiustamine tagasiside põhjal
    - Probleemide varajane tuvastamine ja lahendamine
 
+
+
 ### Kasutajakeskse disaini protsess:
 
 1. **Konteksti mõistmine**
@@ -446,6 +448,8 @@ Kasutajakeskne disain aitab luua tooteid, mis on:
 - Paremini vastavad kasutajate vajadustele
 - Suurema kasutajate rahuloluga
 - Väiksema õppimiskõveraga
+
+![ucd](ucd.jpg)
 
 
 ## Persoonad
@@ -593,7 +597,17 @@ Näide storyboard'ist võiks kujutada mobiilirakenduse kasutamist:
 6. Kasutab teenust
 7. Maksab ja hindab kogemust
 
+**[Näide storyboard'ist:](https://blog.adobe.com/en/publish/2017/09/26/a-comprehensive-overview-of-ux-design-deliverables)**
+
+![storyboard](storyboard.png)
+
+https://www.uxstudioteam.com/ux-blog/ux-storyboard
+
 ## Customer Journey Map
+![customer journey map](journeymap.jpg)
+
+
+Ver2
 https://miro.com/app/board/uXjVP20eerM=/?share_link_id=350385825919
 
 Lugemist:
