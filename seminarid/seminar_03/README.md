@@ -4,6 +4,12 @@
 - [Commitite kirjutamine](#commitite-kirjutamine)
 - [Avatud ja suletud lähtekood](#avatud-ja-suletud-lähtekood)
 - [Litsentsid](#litsentsid)
+- [Toode](#toode)
+- [Persoonad](#persoonad)
+- [Kasutajalood](#kasutajalood-user-stories)
+- [Stsenaariumid](#stsenaariumid)
+- [Storyboard](#storyboard)
+- [Customer Journey Map](#customer-journey-map)
 
 ## Eelmise seminari meenutus
 
