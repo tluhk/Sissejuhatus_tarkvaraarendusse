@@ -393,6 +393,36 @@ HTML, CSS ja puhas JavaScript on standardid, mis on loodud kõigi jaoks vabalt k
 
 * **Autoriõigus:** Kuigi HTML, CSS ja JavaScript ise ei ole autoriõigusega kaitstud, võib sinu enda loodud veebilehe disain ja sisu olla autoriõigusega kaitstud.
 
+### Mäng: "Litsentside dilemma"
+Iga grupp saab ühe dilema. Arutelu aeg 15 minutit.
+
+1. Idufirma dilemma
+"Olete idufirma, kes arendab innovaatilist tehisintellekti rakendust. Teie kood põhineb osaliselt avatud lähtekoodiga projektidel. Investorid on huvitatud, aga muretsevad intellektuaalomandi pärast."
+- Milliseid litsentse peaks kasutama?
+- Kuidas kaitsta oma intellektuaalomandit?
+
+2. Kogukonna projekt
+"Arendate hariduslikku platvormi, mida soovite, et koolid saaksid vabalt kasutada ja kohandada. Samas tahate vältida, et keegi teie tööd kommertseesmärkidel ära ei kasutaks."
+- Milline litsents sobiks?
+- Millised on ohud ja võimalused?
+
+3. Ettevõtte siseprojekt
+"Teie ettevõte soovib luua sisemist tööriista, kasutades palju avatud lähtekoodiga komponente. Hiljem võib tekkida soov seda tööriista ka müüa."
+Millised litsentsid on sobivad?
+- Millised piirangud võivad tekkida?
+
+4. Rahvusvaheline koostöö
+"Teete koostööd rahvusvahelise meeskonnaga, kus igaüks lisab oma komponente. Projekt võib tulevikus muutuda kas äriliseks või jääda avalikuks."
+- Kuidas litsentside valik mõjutab koostööd?
+- Milliseid litsentse kombineerida?
+
+Arutelu punktid:
+- Mis on valitud litsentsi peamised eelised?
+- Millised on potentsiaalsed riskid?
+- Kuidas see mõjutab projekti tulevikuplaane?
+
+Igal grupil 5 minutit aega esitluseks.
+
 ## Toode
 
 ### Milleks üldse tarkvara luua?
