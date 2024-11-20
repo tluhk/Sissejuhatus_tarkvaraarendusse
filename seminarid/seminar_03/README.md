@@ -123,7 +123,7 @@ kirjuta arusaadavam kommentaar:
 git commit -m "fix(auth): improve login error handling"
 ```
 
-### Peamised
+### Peamised tüübid:
 #### Fix
 Fix-tüüpi commit-e kasutatakse koodibaasis esinevate vigade või probleemide lahendamiseks.
 
@@ -223,14 +223,14 @@ Commit-id, mis lisavad või muudavad teste. See hõlmab ühikteste, integratsioo
 ```Bash
 $ git commit -m "test: add unit tests for authentication service"
 ```
-Nagu näed, siis ilme tüübi eesliiteta, soovitatakse alustada lauset suure algustähega, kuid  eesliite puhul kirjutatakse kõik väiksega. 
+Kuigi ilma tüübi eesliiteta, soovitatakse alustada lauset suure algustähega, siis  eesliite puhul kirjutatakse kõik väikse algustähega. 
 Tüübi eesliide (feat:, fix:, jne) annab juba struktuuri.  
 Väiketähed säilitavad visuaalse ühtsuse eesliitega.  
 See on osa formaalsest spetsifikatsioonist.  
 
 **Tavaliste Git-i commit-ide puhul:**  
-Suure algustähega alustamine järgib standardset eesti keele lauseehitust.  
-See aitab eristada sõnumi algust.  
+Suure algustähega alustamine järgib standardset lauseehitust.  
+Aitab eristada sõnumi algust.  
 See on pikaajaline Git-i tava, mida näeb Git-i enda dokumentatsioonis ja paljudes suurtes projektides.  
 Muudab sõnumi git log vaates paremini loetavaks.  
 
@@ -240,7 +240,7 @@ Muudab sõnumi git log vaates paremini loetavaks.
 
 **Peamised põhimõtted:**
 
-* **Vaba juurdepääs:** Igaüks saab koodi vaadata, uurida ja mõista.
+* **Vaba juurdepääs:** Igaüks saab koodi vaadata ja uurida.
 * **Vaba levitamine:** Koodi saab vabalt kopeerida, levitada ja jagada teistega.
 * **Vaba muudatus:** Koodi saab muuta ja kohandada vastavalt oma vajadustele.
 * **Vaba kasutamine:** Koodi saab kasutada igal eesmärgil, ka kommertsiaalselt.
@@ -272,7 +272,6 @@ Muudab sõnumi git log vaates paremini loetavaks.
 
 * **Kaitse autoriõigusega:** Te saate oma kohandatud koodi kaitsta autoriõigusega, mis annab teile eksklusiivsed õigused selle kasutamiseks ja levitamiseks.
 * **Litsentsimise piirangud:** Võite lisada oma tootele litsentsi, mis piirab selle kasutamist teatud viisidel.
-* **Krüpteerimine:** Võite kasutada krüpteerimist tundliku andme kaitseks.
 
 ## Litsentsid
 
@@ -285,17 +284,17 @@ Kõik GitHubis leiduvad populaarsed litsentsid on loodud selleks, et võimaldada
 
 #### Miks pigem ei leia Githubist täielikult keelavaid litsentse?
 
-- Avatud lähtekoodi põhimõtted: GitHub on platvorm, mis on loodud avatud lähtekoodiga projektide jaoks. 
-- Litsentside eesmärk: Litsentsid on loodud selleks, et määratleda, kuidas tarkvara võib olla kasutatav ja levitatav. Nende eesmärk ei ole keelata jagamist, vaid reguleerida seda.
-- GitHub toetab ka litsentse, mis piiravad tarkvara jagamist (nt "All Rights Reserved"). Kui soovid oma tarkvara täielikult privaatseks jätta, saad kasutada privaatselt hallatavaid repositooriume, millel pole üldse jagamiskohustust.
+- GitHub on platvorm, mis on loodud avatud lähtekoodiga projektide jaoks. 
+- Litsentsid on loodud selleks, et määratleda, kuidas tarkvara võib olla kasutatav ja levitatav. Nende eesmärk ei ole keelata jagamist, vaid reguleerida seda.
+
+GitHub siiski toetab ka litsentse, mis piiravad tarkvara jagamist (nt "All Rights Reserved").  
+Kui soovid oma tarkvara täielikult privaatseks jätta, saad kasutada privaatselt hallatavaid repositooriume, millel pole üldse jagamiskohustust.
 
 #### Mida erinevad litsentsid reguleerivad?
 
 - Muudatuste tegemine: Mõned litsentsid nõuavad, et kõik muudatused peavad olema samuti avalikult kättesaadavad (näiteks GPLv3).
 - Kommertsialiseerimine: Mõned litsentsid reguleerivad, kuidas tarkvara võib olla kommertsiaalselt kasutatav. Näiteks GPLv3 lubab kommertsialiseerimist, kuid nõuab, et lähtekood oleks jagamisel kättesaadav.
 - Autorite õigused: Kõik litsentsid kaitsevad tarkvara autori intellektuaalomandit.
-
-Kõik GitHubis leiduvad populaarsed litsentsid võimaldavad mingil määral tarkvara jagamist. Kui soovid täielikult keelata jagamise, siis GitHub ei ole selleks õige platvorm. Kui soovid täielikult keelata jagamise, siis hoia seda privaatsena.
 
 #### Valik Githubi litsentse:
 

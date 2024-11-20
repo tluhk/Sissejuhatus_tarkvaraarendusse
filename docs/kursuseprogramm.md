@@ -1,146 +1,81 @@
-
 ## **1. Esimene seminar**
 
 ### **Teemad:**
-
 - Sissejuhatus
 - Tarkvara ja tarkvaraarendus
 - Tarkvaraarenduse elutsükkel
 - Git ja GitHub
 - Markdown
 
-### **Praktilised tegevused:** 
+### **Materjalid:**
+- [Uued slaidid](https://gamma.app/docs/Sissejuhatus-tarkvaraarendusse-orp3sw6v6z53aae)
+- [Vanad slaidid](files/slaidid_01.pdf)
+- [Seminari salvestus](https://www.youtube.com/watch?v=G0ZrGdIgJjw)
 
-- **Grupiarutelu: "Mis on tarkvara?"**
-  - Jagage üliõpilased väikestesse rühmadesse.
-  - Iga rühm arutab ja koostab nimekirja erinevatest tarkvaratüüpidest, mida nad igapäevaselt kasutavad.
-  - Rühmad esitavad oma tulemused klassile, rõhutades tarkvara rolli tänapäeva maailmas.
+### **Kontseptsioonid:**
+- [Sissejuhatus](../../concepts/sissejuhatus/README.md)
+- [Tarkvara](../../concepts/tarkvara/README.md)
+- [Tarkvaraarendus](../../concepts/tarkvaraarendus/README.md)
+- [Tarkvaraarenduse elutsükkel](../../concepts/SDLC/README.md)
+- [Git](../../concepts/git/README.md)
+- [Github](../../concepts/github/README.md)
+- [Markdown](../../concepts/markdown/README.md)
 
-- **Tarkvaraarenduse elutsükli visualiseerimine:**
-  - Rühmad loovad plakati või digitaalse esituse, mis illustreerib tarkvaraarenduse elutsükli peamisi etappe.
-  - See aitab neil mõista iga etapi eesmärki ja järjepidevust protsessis.
-
-- **GitHubi konto loomine ja tutvumine:**
-  - Abistage üliõpilasi GitHubi kontode loomisel.
-  - Näidake neile, kuidas leida ja vaadata olemasolevaid repositooriume.
-  - Selgitage Git ja GitHubi põhimõisteid ning nende rolli koostöös.
-
-- **Markdowni töötuba:**
-  - Üliõpilased loovad lihtsa Markdowni dokumendi, mis sisaldab nende pilti ja kolme põhjust, miks nad otsustasid õppima asuda.
-  - See aitab neil tutvuda Markdowni süntaksiga ja näha tulemusi GitHubis.
-
+### **Kodutöö:**
+[Esimese koduse töö kirjeldus](../../docs/kodusedtood/kodune_01.md)
 
 ## **2. Teine seminar**
 
 ### **Teemad:**
-
 - Tarkvaraarenduse meetodid (Agile, Scrum)
 - Rollid tarkvaraarenduses
 - Koodi kvaliteet
-- VSCode seadistamine – Prettier, Emmet, Pythoni, CSS'i ja HTML'i näitel
+- VSCode seadistamine
 
-### **Praktilised tegevused:**
+### **Materjalid:**
+- [Seminari slaidid](https://gamma.app/docs/Tarkvaraarenduse-meetodid-ja-koodi-kvaliteet-6hyvvauxa5dckj4)
+- [Seminari salvestus](https://youtu.be/2GWtP4dUIcQ?si=L2aPjk4xkmN9kOqE)
 
-- **Scrumi simulatsioonimäng:**
-  - Mängige mängu, kus üliõpilased peavad piiratud aja jooksul täitma lihtsa ülesande (nt paberist tornide ehitamine).
-  - Jagage rühmad rollideks: Scrum Master, Product Owner, arendajad.
-  - Pärast iga "sprinti" peavad nad reflekteerima, mis läks hästi ja mida saaks parandada.
-
-- **Rollimäng: "Tarkvaraarenduse meeskond":**
-  - Iga üliõpilane võtab endale rolli (nt analüütik, disainer, testija).
-  - Koos peavad nad planeerima lihtsa rakenduse (nt to-do listi) loomist, arutades igaühe panust protsessi.
-
-- **Kvaliteedi arutelu:**
-  - Näidake näiteid hästi ja halvasti kujundatud kasutajaliidestest või dokumentatsioonist.
-  - Arutage, kuidas kvaliteet mõjutab kasutajakogemust ja tarkvara edukust.
-
----
+### **Kontseptsioonid:**
+- Tarkvaraarenduse meetodid
+  - Traditsioonilised meetodid (Waterfall)
+  - Agiilne metoodika
+  - Scrum
+- Rollid tarkvaraarenduses
+- Koodi kvaliteet
+- Git commit'ide kirjutamine
+- Avatud ja suletud lähtekood
+- Litsentsid
 
 ## **3. Kolmas seminar**
 
 ### **Teemad:**
+- Eelmise seminari meenutus
+- Tagasiside kodutöödele
+- Commitite kirjutamine
+- Avatud ja suletud lähtekood
+- Litsentsid
 
-- Nõuete analüüs:
-  - Persoona
-  - Kasutajalood
-  - Stsenaarium
-  - Kasutaja teekond
-- Prototüüpimine
+### **Materjalid:**
+- Git commit'ide kirjutamise juhendid:
+  - [10 Essential Practices for Better Git Commits](https://medium.com/@saeid/10-essential-practices-for-better-git-commits-and-why-they-matter-3cfc420bf53e)
+  - [Good Commit VS. Bad Commit: Best Practices](https://dev.to/sheraz4194/good-commit-vs-bad-commit-best-practices-for-git-1plc)
+  - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- Litsentside valimise abimees: [Choose a License](https://choosealicense.com)
 
-### **Praktilised tegevused:**
+### **Kontseptsioonid:**
+- Git commit'ide kirjutamise põhimõtted:
+  - Tähendusrikkad kommentaarid
+  - Käskiv kõneviis
+  - Pileti numbri mainimine
+  - Regulaarsed ja atomaarsed commit'id
+  - Konventsionaalsed commit'id (fix, feat, chore jne)
+- Avatud ja suletud lähtekoodi põhimõtted
+- Litsentsid GitHubis:
+  - MIT License
+  - Apache License 2.0
+  - GNU GPL v3.0
+  - Teised populaarsed litsentsid
 
-- **Persoonade loomine:**
-  - Rühmad loovad fiktiivsed kasutajapersoonad, kes võiksid nende väljamõeldud rakendust kasutada.
-  - Nad määratlevad persoona demograafia, eesmärgid, motivatsioonid ja valupunktid.
-
-- **Kasutajalugude kirjutamine:**
-  - Lähtudes loodud persoonadest, koostavad rühmad kasutajalood, mis kirjeldavad, mida kasutajad soovivad rakendusega saavutada.
-  - Näiteks: "Kasutajana soovin ma saada teavitusi uute sõnumite kohta, et olla kursis suhtlusega."
-
-- **Kasutaja teekonna kaart:**
-  - Rühmad joonistavad välja kasutaja teekonna alates rakenduse avamisest kuni konkreetse eesmärgi saavutamiseni.
-  - See aitab mõista kasutajakogemuse olulisust ja võimalikke takistusi.
-
-- **Paberprototüüpimine:**
-  - Kasutades paberit ja pliiatseid, loovad rühmad rakenduse põhilised ekraanid.
-  - Nad esitavad oma prototüübid klassile ja saavad tagasisidet.
-
----
-
-## **4. Neljas seminar**
-
-### **Teemad:**
-
-- Dokumentatsioon
-- .gitignore
-- Forkimine
-- Pull request'id ja koodireview protsess
-- Mittefunktsionaalsed nõuded
-- Testimine
-- Kuidas saab ideest lõpuks tarkvara?
-
-### **Praktilised tegevused:**
-
-- **Dokumentatsiooni koostamine:**
-  - Üliõpilased täiendavad oma varasemate projektide README faile, lisades selgitused:
-    - Projekti eesmärk
-    - Kasutusjuhend
-    - Arendusprotsessi kirjeldus
-  - See aitab mõista hea dokumentatsiooni tähtsust.
-
-- **GitHubi forkimise ja pull request'i harjutus:**
-  - Üliõpilased forkivad õpetaja loodud repositooriumi.
-  - Nad teevad väikese muudatuse (nt parandavad kirjavea dokumentatsioonis).
-  - Seejärel loovad pull request'i originaalsesse repositooriumisse.
-
-- **Koodireview simulatsioon:**
-  - Rühmad vahetavad omavahel pull request'e.
-  - Nad vaatavad muudatused üle ja annavad konstruktiivset tagasisidet.
-  - See arendab kriitilise mõtlemise ja koostööoskusi.
-
-- **Mittefunktsionaalsete nõuete tuvastamine:**
-  - Rühmad arutavad, millised mittefunktsionaalsed nõuded võivad olla olulised nende projektide jaoks (nt turvalisus, jõudlus, kasutatavus).
-  - Nad esitavad oma leiud klassile.
-
-- **Testimise põhimõtted:**
-  - Üliõpilased mõtlevad välja testjuhtumid oma paberprototüüpidele.
-  - Nad simuleerivad kasutaja tegevusi, et leida võimalikke probleeme.
-
----
-
-## **Eesmärk ja tulemused**
-
-Need praktilised tegevused on loodud selleks, et:
-
-- **Soodustada aktiivõpet:** Üliõpilased õpivad läbi tegemise, mis suurendab materjali omandamist.
-- **Arendada koostööoskusi:** Grupitööd aitavad üliõpilastel õppida efektiivselt suhtlema ja meeskonnana töötama.
-- **Tõsta teadlikkust tarkvaraarenduse protsessist:** Üliõpilased näevad, kuidas erinevad etapid ja rollid aitavad kaasa toimiva tarkvara loomisele.
-- **Vähendada hirmu tehnoloogia ees:** Kuna tegevused ei nõua koodimist, saavad üliõpilased enesekindlust enne tehniliste oskuste arendamist.
-
----
-
-## **5. Viies seminar**
-
-### **Teemad:**
-
-Eksam
+### **Kodutöö:**
+[Kolmanda koduse töö kirjeldus](../../docs/kodusedtood/kodune_03.md)
