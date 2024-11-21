@@ -151,7 +151,7 @@ $ git commit -m "feat(styles): add modal window animations"
 ```
 
 #### Breaking Change
-Breaking change ehk väga oluline muudatus tähistab commit-i, mis muudab API-t või funktsionaalsust viisil, mis ei ole tagasiühilduv. Selliseid muudatusi saab tähistada kas hüüumärgiga (!) või BREAKING CHANGE: märkega commit-i kirjelduses.
+Breaking change ehk väga oluline muudatus tähistab commit-i, mis muudab API-t (Application Programming Interface - rakendusliidest) või funktsionaalsust viisil, mis ei ole tagasiühilduv. Selliseid muudatusi saab tähistada kas hüüumärgiga (!) või BREAKING CHANGE: märkega commit-i kirjelduses.
 
 Näited hüüumärgiga:
 ```Bash
