@@ -80,22 +80,11 @@ Peamised tüübid:
 
 ---
 
-## Litsentsid
-
-### Peamised litsentsi tüübid GitHubis:
-
-1. MIT License
-2. Apache License 2.0
-3. GNU General Public License v3.0 (GPLv3)
-
----
-
 ## Toode
 
-### Milleks tarkvara luua?
-- Probleemi lahendamiseks
-- Vajaduse rahuldamiseks
-- Väärtuse loomiseks
+### Tooteloomise "mäng"
+
+![Idee genereerimine](ideegen.png)
 
 ---
 
@@ -106,14 +95,25 @@ Põhiprintsiibid:
 2. Empiiriline mõõtmine
 3. Iteratiivne disain
 
+![User Centered Design](ucd.jpg)
+
 ---
 
 ## Persoonad
 
-- Detailsed fiktiivsed karakterid
-- Esindavad tüüpilisi kasutajaid
-- Põhinevad kasutajauuringutel
-- Aitavad mõista kasutajate vajadusi
+![Persoonakarakter](persona.png)
+
+---
+
+## Persoonad - mida vältida
+
+![bad persona](dontpersona.png)
+
+---
+
+## Persoonad - hea näide
+
+![good persona](dopersona.png)
 
 ---
 
@@ -139,10 +139,7 @@ Sisaldavad:
 
 ## Storyboard
 
-- Visuaalne jutustus
-- Sammhaaval kasutaja teekond
-- Aitab visualiseerida kasutajakogemust
-- Tuvastab probleeme enne arendamist
+![storyboard](storyboard.png)
 
 ---
 
@@ -151,7 +148,3 @@ Sisaldavad:
 ![customer journey map](journeymap.jpg)
 
 ---
-
-## Tänan tähelepanu eest!
-
-[Lisalugemist](https://blog.prototypr.io/the-entire-ux-design-process-3fbbb36debd7)
