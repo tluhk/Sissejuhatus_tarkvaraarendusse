@@ -14,6 +14,9 @@
 ## Eelmise seminari meenutus
 
 ## Tagasiside kodutöödele
+
+[Kodutöö esitamise protsess](https://github.com/tluhk/Abimaterjalid/blob/master/docs/koduse_too_esitamine.md)  
+
 Üks olulisemaid osasid teie kodutöödes läbi kogu õpiaja hakkab olema *codereview*. See on asi, mida ma arvestan ka hindamisel. Mida põhjalikumalt on keegi kellegi teise koodi lugenud ja seejärel seda kommenteerinud, seda parem. Esialgu võib kodutööde all ka niisama lobiseda. Kui ei leia midagi sisulist.  
 Siinjuures tõstan esile Pillet, Tanelit, Kasparit (Kiltmaad), Carli, kes leidis, kuidas ka hästi tehtud asja kommida, Silverit, ka Ervit. Helina oli kõvasti kommiteid teinud – kiidan.
 
