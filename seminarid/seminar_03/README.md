@@ -515,6 +515,27 @@ Kasutajakeskne disain aitab luua tooteid, mis on:
 - Väiksema õppimiskõveraga
 
 ![ucd](ucd.jpg)
+### Kasutajakeskse disaini etapid:
+
+1. **Analüüs (Analysis)**
+   - Kasutajate ja nende vajaduste uurimine
+   - Konteksti ja keskkonna analüüs
+   - Nõuete ja piirangute kaardistamine
+
+2. **Disain (Design)**
+   - Kontseptsiooni loomine
+   - Lahenduste visandamine
+   - Prototüüpide arendamine
+
+3. **Hindamine (Evaluation)**
+   - Kasutajatestide läbiviimine
+   - Tagasiside kogumine
+   - Probleemide tuvastamine
+
+4. **Rakendamine (Implementation)**
+   - Lõpliku lahenduse arendamine
+   - Kasutajate koolitamine
+   - Toote või teenuse juurutamine
 
 
 ## Persoonad
