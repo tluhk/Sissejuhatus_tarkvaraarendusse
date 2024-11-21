@@ -693,8 +693,25 @@ https://www.uxstudioteam.com/ux-blog/ux-storyboard
 ## Customer Journey Map
 ![customer journey map](journeymap.jpg)
 
-
 Ver2
+```mermaid
+journey
+    title E-poe kasutaja teekond
+    section Avastamine
+        Näeb reklaami: 3: kasutaja
+        Külastab veebilehte: 4
+        Sirvib tooteid: 4
+    section Ostu sooritamine
+        Lisab toote ostukorvi: 5
+        Täidab andmed: 2
+        Maksab: 3
+    section Järelteenindus
+        Saab kinnitusmeili: 4
+        Ootab tarnet: 3
+        Saab toote kätte: 5
+```
+
+Ver3
 https://miro.com/app/board/uXjVP20eerM=/?share_link_id=350385825919
 
 Lugemist:
