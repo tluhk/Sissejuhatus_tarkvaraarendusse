@@ -18,3 +18,6 @@ Pidage tööd tehes meeles, miks te seda teete – et kogu tiim mõistaks ühese
 Arvestage, et kodutöö maht on ca 11h, seega tegemist peaks jaguma.
 
 Teil tuleb järgmistel aastatel see teema juba süvitsi, seega ärge väga muretsege, kui teil hetkel see asi segasemat laadi välja kukub.
+
+## Kodutöö esitamise juhised
+https://github.com/tluhk/Abimaterjalid/blob/master/docs/koduse_too_esitamine.md
