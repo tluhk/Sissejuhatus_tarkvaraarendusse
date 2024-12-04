@@ -110,7 +110,7 @@ Epicud on suuremad tööüksused või kasutajalood, mis jagunevad väiksemateks 
 **Roadmap**
 ![Roadmap](roadmap.png)
 
-Vaata projekti siin: https://github.com/orgs/TLUHK-RIF20-Juho/projects/7
+Vaata projekti siin: https://github.com/orgs/TLUHK-RIF20-Juho/projects/7  
 Issued: https://github.com/TLUHK-RIF20-Juho/scrum-project-test/issues
 
 ### Epicute loomine Githubis.
