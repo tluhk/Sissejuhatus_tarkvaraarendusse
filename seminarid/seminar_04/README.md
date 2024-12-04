@@ -2,7 +2,7 @@
 
 Eelmise seminari tagaside:
 Forkimine  
-Fork > clone > muudatus > push > Contribute > Assign (sel juhul saan ma sõnumi, et muudatus on ootel)
+Fork > clone > checkout -b "uus haru" > muudatus > push > Contribute > Assign (sel juhul saan ma sõnumi, et muudatus on ootel)
 
 
 ## Osa 1: Paberprototüüpide loomine (1.5h)
@@ -54,7 +54,6 @@ Kanban võimaldab paindlikku ülesannete järjekorra muutmist ning keskendub pid
 
 Scrum sobib paremini projektidesse, kus on selged eesmärgid ja vajadus kiire arenduse järele, samas kui Kanban sobib olukordadesse, kus tööülesanded muutuvad pidevalt ning ei ole vajalikud kindlad ajaraamid[1][2].
 
-
 Sources
 [1] Millist agiilse arenduse raamistikku valida ehk Scrumist Scrumbanini https://blog.twn.ee/et/scrumist-scrumbanini
 [2] 2.4.2. Kanban vs Scrum - poolt ja vastu https://www.tlu.ee/~sirvir/Re-designing_and_Co-creating_Innovative_Cultural-Heritage_Services_Through_Libraries_Estonian_version/242_kanban_vs_scrum__poolt_ja_vastu.html
@@ -81,7 +80,15 @@ Sources
 [2] [PDF] Scrum raamistik ja selle rakendamine Playtech Estonia OÜ osakonna näitel https://dspace.ut.ee/server/api/core/bitstreams/6f0e1e8e-bbe0-4131-b802-3b74dc0573d4/content
 [3] Millist agiilse arenduse raamistikku valida ehk Scrumist Scrumbanini https://blog.twn.ee/et/scrumist-scrumbanini
 
-
+Backlog Management View
+| Title | Assignees | Status | Story Points | Priority | Epic | Sprint | Type of |
+|-------|-----------|--------|--------------|----------|------|--------|---------|
+| Registreerimisvormi UI loomine | Anna | To Do | 5 | High | Autentimine | Sprint 1 | Feature |
+| API endpoints'ide loomine | Peeter | To Do | 8 | High | Autentimine | Sprint 1 | Feature |
+| Google auth integratsioon | Peeter | Backlog | 5 | Medium | Autentimine | Sprint 2 | Feature |
+| Automaattestide kirjutamine | Liis | Backlog | 3 | Medium | Autentimine | Sprint 1 | Task |
+| Kasutajaprofiili haldamine | Anna | Backlog | 5 | Low | Autentimine | Sprint 2 | Feature |
+| Dokumentatsiooni uuendamine | Mari | Backlog | 2 | Low | Autentimine | Sprint 2 | Documentation |
 
 Lisalugemist:  
 https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf
