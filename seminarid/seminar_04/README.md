@@ -48,6 +48,8 @@ https://www.justinmind.com/prototyping/paper-prototype
 
 ## 2. osa: projekti haldamine Githubis (1.5h)
 
+NB. Seminari jaoks loo oma organisatsiooni eraldu uus repo nimega githubi-näidisprojekt.
+
 ### Teemad:
 - Scrum ja Kanban metoodikad
 - Github Projects funktsionaalsus ja erinevad vaated
