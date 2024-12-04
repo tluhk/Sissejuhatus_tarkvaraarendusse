@@ -55,12 +55,12 @@ Kanban võimaldab paindlikku ülesannete järjekorra muutmist ning keskendub pid
 Scrum sobib paremini projektidesse, kus on selged eesmärgid ja vajadus kiire arenduse järele, samas kui Kanban sobib olukordadesse, kus tööülesanded muutuvad pidevalt ning ei ole vajalikud kindlad ajaraamid[1][2].
 
 ## Allikad:
-[1] Millist agiilse arenduse raamistikku valida ehk Scrumist Scrumbanini https://blog.twn.ee/et/scrumist-scrumbanini
-[2] 2.4.2. Kanban vs Scrum - poolt ja vastu https://www.tlu.ee/~sirvir/Re-designing_and_Co-creating_Innovative_Cultural-Heritage_Services_Through_Libraries_Estonian_version/242_kanban_vs_scrum__poolt_ja_vastu.html
-[3] [PDF] Scrum raamistik ja selle rakendamine Playtech Estonia OÜ osakonna näitel https://dspace.ut.ee/server/api/core/bitstreams/6f0e1e8e-bbe0-4131-b802-3b74dc0573d4/content
-[4] Agiilne arendus ehk Kanban, Scrum ja teised – kaasaegne lähenemisviis ... https://koren.ee/blogi/agiilne-arendus-ehk-kanban-scrum-ja-teised-kaasaegne-laehenemisviis-tarkvaraarenduses
-[5] Agiilne arendus - Vikipeedia https://et.wikipedia.org/wiki/Agiilne_arendus
-[6] [PDF] AGIILSE LÄHENEMISE RAKENDUSVÕIMALUSTE ... https://digikogu.taltech.ee/et/Download/29545de0-840c-48c6-90d7-da7ca1786b22
+[1] Millist agiilse arenduse raamistikku valida ehk Scrumist Scrumbanini https://blog.twn.ee/et/scrumist-scrumbanini  
+[2] 2.4.2. Kanban vs Scrum - poolt ja vastu https://www.tlu.ee/~sirvir/ Re-designing_and_Co-creating_Innovative_Cultural-Heritage_Services_Through_Libraries_Estonian_version/242_kanban_vs_scrum__poolt_ja_vastu.html  
+[3] [PDF] Scrum raamistik ja selle rakendamine Playtech Estonia OÜ osakonna näitel https://dspace.ut.ee/server/api/core/bitstreams/6f0e1e8e-bbe0-4131-b802-3b74dc0573d4/content  
+[4] Agiilne arendus ehk Kanban, Scrum ja teised – kaasaegne lähenemisviis ... https://koren.ee/blogi/agiilne-arendus-ehk-kanban-scrum-ja-teised-kaasaegne-laehenemisviis-tarkvaraarenduses  
+[5] Agiilne arendus - Vikipeedia https://et.wikipedia.org/wiki/Agiilne_arendus  
+[6] [PDF] AGIILSE LÄHENEMISE RAKENDUSVÕIMALUSTE ... https://digikogu.taltech.ee/et/Download/29545de0-840c-48c6-90d7-da7ca1786b22  
 
 ## Srum projekti kulg
 ### Backlog
