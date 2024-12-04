@@ -28,6 +28,10 @@ Fork > clone > checkout -b "uus haru" > muudatus > push > Contribute > Assign (s
 - Github Projects funktsionaalsus ja erinevad vaated
 - Projekti töövoo ja tööülesannete haldamine
 
+## Ülesanne:
+Loe läbi Scrum ja Kanban artikkel (5-10 min)
+https://blog.twn.ee/et/scrumist-scrumbanini  
+
 ### Scrum ja Kanban
 ### Mis on Scrum?
 
@@ -46,11 +50,11 @@ Kanban võimaldab paindlikku ülesannete järjekorra muutmist ning keskendub pid
 
 | Omadus        | Scrum                                           | Kanban                                         |
 |---------------|-------------------------------------------------|------------------------------------------------|
-| Struktuur     | tsükliline (sprindid)                          | jätkuv voog                                    |
-| Rollid        | toote omanik, Scrum Master, arendusmeeskond         | pole kindlaid rolle; tiimid kohandavad ise   |
-| Planeerimine  | sprindi planeerimine                           | paindlik ülesannete järjekord                |
-| Visuaalsus    | kasutatakse sprindi tahvleid                    | visuaalne Kanban-tahvel                       |
-| Eesmärk       | kiire arendus ja tagasiside                    | tööde sujuv voog ja läbipaistvus              |
+| Struktuur     | tsükliline (sprindid)                           | jätkuv voog                                    |
+| Rollid        | toote omanik, Scrum Master, arendusmeeskond     | pole kindlaid rolle; tiimid kohandavad ise     |
+| Planeerimine  | sprindi planeerimine                            | paindlik ülesannete järjekord                  |
+| Visuaalsus    | kasutatakse sprindi tahvleid                    | visuaalne Kanban-tahvel                        |
+| Eesmärk       | kiire arendus ja tagasiside                     | tööde sujuv voog ja läbipaistvus               |
 
 Scrum sobib paremini projektidesse, kus on selged eesmärgid ja vajadus kiire arenduse järele, samas kui Kanban sobib olukordadesse, kus tööülesanded muutuvad pidevalt ning ei ole vajalikud kindlad ajaraamid[1][2].
 
