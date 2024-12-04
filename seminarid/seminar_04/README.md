@@ -1,6 +1,6 @@
 # Neljas seminar
 
-Eelmise seminari tagaside:
+Eelmise seminari tagasiside:
 Forkimine  
 Fork > clone > checkout -b "uus haru" > muudatus > push > Contribute > Assign (sel juhul saan ma sõnumi, et muudatus on ootel)
 
@@ -9,7 +9,20 @@ Fork > clone > checkout -b "uus haru" > muudatus > push > Contribute > Assign (s
 
 ### Teemad:
 - Paberprototüüpide eesmärk ja kasulikkus
+  - Kiire ja odav viis kasutajaliidese kontseptsiooni testimiseks
+  - Võimaldab varakult tuvastada kasutajaliidese probleeme
+  - Soodustab iteratiivset disainiprotsessi ja kasutajate kaasamist
+  - Hea viis ideede visualiseerimiseks ja arutelude algatamiseks
 - Paberprototüüpide loomise põhimõtted
+
+  - Lihtsus ja selgus - kasuta lihtsaid kujundeid ja selget paigutust
+  - Fookus põhifunktsionaalsusele - keskendu peamistele elementidele ja funktsioonidele
+  - Kiire visandamine - ära kuluta liiga palju aega detailidele
+  - Paindlikkus - võimalda lihtsat muutmist ja itereerimist
+  - Kasutajaliidese elementide järjepidevus - säilita ühtne stiil ja loogika
+  - Interaktiivsuse märkimine - näita selgelt, millised elemendid on klikitavad/interaktiivsed
+  - Tagasiside kohtade planeerimine - jäta ruumi märkusteks ja kommentaarideks
+
 - Praktilised harjutused:
   - Eelnevalt loodud persoonade ja stsenaariumite põhjal prototüüpide visandamine
   - Kasutajaliidese elementide kavandamine
@@ -19,7 +32,7 @@ Fork > clone > checkout -b "uus haru" > muudatus > push > Contribute > Assign (s
 ### Tegevused:
 1. Sissejuhatus paberprototüüpimisse (15 min)
 2. Prototüüpide visandamine gruppides (45 min)
-3. Prototüüpide esitlemine ja tagasiside (30 min)
+3. Prototüüpide testimine ja tagasiside (30 min)
 
 ## Osa 2: Projekti haldamine Githubis (1.5h)
 
@@ -35,9 +48,9 @@ https://blog.twn.ee/et/scrumist-scrumbanini
 ### Scrum ja Kanban
 ### Mis on Scrum?
 
-Scrum on **agiilne** arenduse raamistik, mis keskendub tiimide tihedale koostööle ning järkjärgulisele projekti edenemisele. See raamistiku versioon arenes välja 1980. aastatel ja on praegu üks populaarsemaid agiilse arenduse meetodeid, mida kasutab umbes pisut üle poole agiilset lähenemist rakendavatest ettevõtetest[1][4]. Scrumi protsess koosneb kolmest peamisest rollist: **toote omanik**, **Scrum Master** ja **arendusmeeskond**. Toote omank vastutab toote nõuete määratlemise ja prioriseerimise eest, Scrum Master aitab protsessi juhtida ning arendusmeeskond teostab töö vastavalt nõudmistele[5].
+Scrum on **agiilne** arenduse raamistik, mis keskendub tiimide tihedale koostööle ning järkjärgulisele projekti edenemisele. See on praegu üks populaarsemaid agiilse arenduse meetodeid, mida kasutab umbes pisut üle poole agiilset lähenemist rakendavatest ettevõtetest[1][4]. Scrumi protsess koosneb kolmest peamisest rollist: **toote omanik**, **Scrum Master** ja **arendusmeeskond**. Toote omanik vastutab toote nõuete määratlemise ja prioriseerimise eest, Scrum Master aitab protsessi juhtida ning arendusmeeskond teostab töö vastavalt nõudmistele[5]. Scrum baseerub kindlal reeglistikul.
 
-Scrum töötab tsüklite ehk **sprindidena**, mis kestavad tavaliselt 2-4 nädalat. Iga sprindi alguses toimub planeerimise koosolek, kus määratakse ülesanded, mida meeskond peab lõpetama. Sprindi lõpus toimub ülevaatus, kus esitatakse valminud töö[3][4]. Scrum rõhutab ka pidevat tagasisidet ja tiimide iseorganiseerumist, mis aitab saavutada suuremat paindlikkust ja tootlikkust[1].
+Scrum töötab tsüklite ehk **sprintidena**, mis kestavad tavaliselt 2-4 nädalat. Iga sprindi alguses toimub planeerimise koosolek, kus määratakse ülesanded, mida meeskond peab lõpetama. Sprindi lõpus toimub ülevaatus, kus esitatakse valminud töö[3][4]. Scrum rõhutab ka pidevat tagasisidet ja tiimide iseorganiseerumist, mis aitab saavutada suuremat paindlikkust ja tootlikkust[1].
 
 ### Mis on Kanban?
 
