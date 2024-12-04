@@ -4,7 +4,7 @@
 
 ## Tingimused
 - kodutöö peab olema esitatud läbi pull requesti
-- kodutöö protsess peab olema kirjeldatud failis Protsess.md
+- kodutöö protsess peab olema kirjeldatud failis **protsess.md**
 
 ## Sisu
 ### Grupitöö
@@ -24,15 +24,17 @@
   - [ ] Sorteerimisvõimalused
 ```
 Pilt lisa nii, et seda kuvatakse
-6. Konverdi märkeruutudega ülesanded Issue'deks. Kirjuta issue korralikult lahti.  
+6. Konverdi märkeruutudega ülesanded/komponendid issue'teks. Kirjuta issue korralikult lahti.  
 7. Lisa vajalikud label'id (epic, ui jne)  
 ### Grupitöö
 8. Looge reposse projekt  
 9. Looge vähemalt kolm vaadet – Backlog, Sprint Board või Kanban ja Roadmap  
 10. Lisage vaadetele vajalikud väljad  
-10. Tõmmake issued projekti vaadetesse  
+10. Tõmmake issued projekti vaadetesse
+11. Jagage ülesanded-issued epic-issuete alla nii nagu need jaotuma peavad. Määrake issue'le vastavad assignee'd.
 
-Nb! Hoolitsege, et igaühe kommiteid oleks tööd piisavalt näha, see kinnitab teie osalemist kodutöös.
+
+Nb! Hoolitsege, et igaühe kommiteid oleks töös piisavalt näha, see kinnitab teie osalemist kodutöös.
 
 
 Kohustuslik:    
