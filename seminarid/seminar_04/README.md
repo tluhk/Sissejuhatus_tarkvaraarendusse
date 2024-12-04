@@ -87,7 +87,7 @@ Epicud on suuremad tööüksused või kasutajalood, mis jagunevad väiksemateks 
 
 
 **Sprint tracking**
-![Sprint tracking](sprint.png)
+![Scrum Board](sprint.png)
 
 
 **Roadmap**
