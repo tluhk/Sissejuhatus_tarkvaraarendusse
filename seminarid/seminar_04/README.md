@@ -92,29 +92,29 @@ Backlog Management View
 | Kasutajajuhendi kirjutamine | Liis (Dokumenteerija) | Backlog | 3 | Low | Dokumentatsioon | Sprint 2 | Documentation |
 
 Sprint Tracking View
-Backlog (0)
+Backlog (0)  
 Ootavad ülesanded
-Sprint Ready (2)
-Logi sisse vormi loomine
-Andmebaasi ühenduse loomine
-In Progress (1)
-Õppeainete nimekirja kuvamine
-Review (0)
-Ülevaatust ootavad ülesanded
-Epics View (Kalendrivaade)
-November 2024
-Autentimine
-Kasutajate sisselogimine
-Paroolide haldus
-Detsember 2024
-Ainete Haldus
-Ainete kuvamine
-Registreerimine
-Teavitused
-E-mail süsteem
-Meeskonna rollid:
-Mari - UI/UX disainer (vastutab kasutajaliidese eest)
-Jaan - Front-end arendaja (teeb veebilehe eesmise osa)
+Sprint Ready (2)  
+Logi sisse vormi loomine  
+Andmebaasi ühenduse loomine  
+In Progress (1)  
+Õppeainete nimekirja kuvamine  
+Review (0)  
+Ülevaatust ootavad ülesanded  
+Epics View (Kalendrivaade)  
+November 2024  
+Autentimine  
+Kasutajate sisselogimine  
+Paroolide haldus  
+Detsember 2024  
+Ainete Haldus  
+Ainete kuvamine  
+Registreerimine  
+Teavitused  
+E-mail süsteem  
+Meeskonna rollid:  
+Mari - UI/UX disainer (vastutab kasutajaliidese eest)  
+Jaan - Front-end arendaja (teeb veebilehe eesmise osa)  
 Peeter - Back-end arendaja (teeb serveripoolse loogika)
 Liis - Dokumenteerija ja testija (kirjutab juhendid ja testib)
 
