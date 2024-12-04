@@ -4,8 +4,8 @@ Eelmise seminari tagasiside:
 Forkimine    
 Fork > clone > checkout -b "uus haru" > muudatus > push > Contribute > Assign (sel juhul saan ma sõnumi, et muudatus on ootel)  
 
-Kodutöö:
-Toote loomine, persoonad, kasutajalood, stsenaariumid. Esimese poole lõpus hinnang/refleksioon om kodutöö kohta – kui kasutatav oli prototüüpide loomisel persoonad, kasutajalood ja stsenaariumid.
+Kodutöö tagasiside:
+Toote loomine, persoonad, kasutajalood, stsenaariumid. Esimese poole lõpus hinnang/refleksioon om kodutöö kohta – kui kasutatav oli prototüüpide loomisel persoonad, kasutajalood ja stsenaariumid. See on peamine tagasiside kodutööle.  
 
 ## 1. osa: paberprototüüpide loomine (1.5h)
 
@@ -48,7 +48,7 @@ https://www.justinmind.com/prototyping/paper-prototype
 
 ## 2. osa: projekti haldamine Githubis (1.5h)
 
-NB. Seminari jaoks loo oma organisatsiooni eraldu uus repo nimega githubi-näidisprojekt.
+**NB. Seminari jaoks loo oma organisatsiooni eraldu uus repo nimega githubi-näidisprojekt. Määra nähtavuseks "internal"**
 
 ### Teemad:
 - Scrum ja Kanban metoodikad
