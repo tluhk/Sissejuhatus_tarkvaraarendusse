@@ -7,6 +7,7 @@
 - kodutööl peab olema "code-reviewer", kes selle kõigepealt üle vaatab. NB! Hoolitsege, et teil oleks kellegi töö, mida üle vaadata. Code Review on osa õppetöö sisust.
 - "code-reviewer" on see, kes alles suunab/"assignib" töö mulle kinnitamiseks.
 - "code-reviewerina" ei pea te üldse ainult vigu otsima, võib ka häid asju esile tõsta.
+- kodutöö protsess peab olema kirjeldatud failis Protsess.md
 
 ## Sisu
 ### Grupitöö
