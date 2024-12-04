@@ -7,7 +7,7 @@ Fork > clone > checkout -b "uus haru" > muudatus > push > Contribute > Assign (s
 Kodutöö:
 Toote loomine, persoonad, kasutajalood, stsenaariumid. Esimese poole lõpus hinnang/refleksioon om kodutöö kohta – kui kasutatav oli prototüüpide loomisel persoonad, kasutajalood ja stsenaariumid.
 
-## Osa 1: Paberprototüüpide loomine (1.5h)
+## 1. osa: paberprototüüpide loomine (1.5h)
 
 ![Paberprototüübid](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*HLA7FU2RFi-mXQW7OZQ5Xw.jpeg)  
 Foto: [Alexander Skogberg](https://blog.prototypr.io/how-paper-wireframing-will-make-you-a-better-designer-5a57db8dca13)  
@@ -45,7 +45,7 @@ Foto: [Alexander Skogberg](https://blog.prototypr.io/how-paper-wireframing-will-
 #### Lisalugemist:
 https://www.interaction-design.org/literature/article/prototyping-learn-eight-common-methods-and-best-practices
 
-## Osa 2: Projekti haldamine Githubis (1.5h)
+## 1. osa: projekti haldamine Githubis (1.5h)
 
 ### Teemad:
 - Scrum ja Kanban metoodikad
