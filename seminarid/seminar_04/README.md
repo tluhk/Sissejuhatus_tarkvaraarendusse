@@ -54,7 +54,7 @@ Kanban võimaldab paindlikku ülesannete järjekorra muutmist ning keskendub pid
 
 Scrum sobib paremini projektidesse, kus on selged eesmärgid ja vajadus kiire arenduse järele, samas kui Kanban sobib olukordadesse, kus tööülesanded muutuvad pidevalt ning ei ole vajalikud kindlad ajaraamid[1][2].
 
-## Allikad:
+#### Allikad:
 [1] Millist agiilse arenduse raamistikku valida ehk Scrumist Scrumbanini https://blog.twn.ee/et/scrumist-scrumbanini  
 [2] 2.4.2. Kanban vs Scrum - poolt ja vastu https://www.tlu.ee/~sirvir/Re-designing_and_Co-creating_Innovative_Cultural-Heritage_Services_Through_Libraries_Estonian_version/242_kanban_vs_scrum__poolt_ja_vastu.html  
 [3] [PDF] Scrum raamistik ja selle rakendamine Playtech Estonia OÜ osakonna näitel https://dspace.ut.ee/server/api/core/bitstreams/6f0e1e8e-bbe0-4131-b802-3b74dc0573d4/content  
@@ -76,7 +76,7 @@ Sprint tracking on protsess, mille käigus jälgitakse ja mõõdetakse sprindi e
 
 Epicud on suuremad tööüksused või kasutajalood, mis jagunevad väiksemateks ja hallatavamateks osadeks (nt **user stories**). Need esindavad laiemat funktsionaalsust või ärivajadust ning aitavad meeskonnal planeerida ja korraldada oma tööd. Epicute kasutamine võimaldab arendusmeeskondadel näha suuremat pilti ning paremini mõista, kuidas erinevad funktsioonid omavahel seotud on. Epicute jagamine väiksemateks osadeks aitab ka backlog'i haldamisel ning prioritiseerimisel[2][3].
 
-## Allikad:  
+#### Allikad:  
 [1] [PDF] AGIILSETE ARENDUSMETOODIKATE ... https://digikogu.taltech.ee/et/Download/44719e8b-4e75-4090-9289-beeaff7db137
 [2] [PDF] Scrum raamistik ja selle rakendamine Playtech Estonia OÜ osakonna näitel https://dspace.ut.ee/server/api/core/bitstreams/6f0e1e8e-bbe0-4131-b802-3b74dc0573d4/content
 [3] Millist agiilse arenduse raamistikku valida ehk Scrumist Scrumbanini https://blog.twn.ee/et/scrumist-scrumbanini
@@ -106,7 +106,7 @@ Epicu sees tuleb vastav ülesanne lahti kirjutada ja jagada alamissutekes, või 
 
 Milestone on projektijuhtimises oluline punkt ajakavas, mis tähistab märkimisväärset saavutust või sündmust. Milestone'id toimivad kontrollpunktid, mis aitavad jälgida projekti edenemist ja tagada, et see püsib õigel teel. Need ei hõlma aega ega ressursse nagu tavalised ülesanded, vaid tähistavad olulisi edusamme, nagu näiteks projekti algus, peamiste etappide lõpetamine või lõppkokkuvõtte esitamine[1][2][4].
 
-## Allikad:
+#### Allikad:
 [1] What Is a Milestone in Project Management? (Definition & Meaning) https://teamboard.cloud/milestone-definition/
 [2] Milestone definition: what it is and why it's important for you - Monday.com https://monday.com/blog/project-management/milestone-definition/
 [3] MILESTONE | English meaning - Cambridge Dictionary https://dictionary.cambridge.org/dictionary/english/milestone/
@@ -131,7 +131,6 @@ Scrum või Kanban projekti seadistamine Githubis.
 5) Loo Github'i projekt
 6) Loo vajalikud vaated ja väljad
 7) Lisa issued projektivaadetesse
-
 
 
 ## Lisalugemist:  
