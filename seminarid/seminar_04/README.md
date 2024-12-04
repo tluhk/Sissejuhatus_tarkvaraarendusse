@@ -46,7 +46,7 @@ Foto: [Alexander Skogberg](https://blog.prototypr.io/how-paper-wireframing-will-
 https://www.interaction-design.org/literature/article/prototyping-learn-eight-common-methods-and-best-practices  
 https://www.justinmind.com/prototyping/paper-prototype  
 
-## 1. osa: projekti haldamine Githubis (1.5h)
+## 2. osa: projekti haldamine Githubis (1.5h)
 
 ### Teemad:
 - Scrum ja Kanban metoodikad
