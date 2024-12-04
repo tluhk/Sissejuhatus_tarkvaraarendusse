@@ -31,7 +31,7 @@ Fork > clone > checkout -b "uus haru" > muudatus > push > Contribute > Assign (s
 #### Scrum ja Kanban
 ##### Mis on Scrum?
 
-Scrum on **agiilne** arenduse raamistik, mis keskendub tiimide tihedale koostööle ning järkjärgulisele projekti edenemisele. See raamistiku versioon arenes välja 1980. aastatel ja on praegu üks populaarsemaid agiilse arenduse meetodeid, mida kasutab umbes pisut üle poole agiilset lähenemist rakendavatest ettevõtetest[1][4]. Scrumi protsess koosneb kolmest peamisest rollist: **toote omanik**, **Scrum Master** ja **arendusmeeskond**. Toote omank vastutab toote nõuete määratlemise ja prioriseerimise eest, Scrum Master aitab protsessi juhtida ning arendusmeeskond teostab töö vastavalt nõudmistele[5].
+Scrum on **agiilne** arenduse raamistik, mis keskendub tiimide tihedale koostööle ning järkjärgulisele projekti edenemisele. See raamistiku versioon arenes välja 1980. aastatel ja on praegu üks populaarsemaid agiilse arenduse meetodeid, mida kasutab umbes pisut üle poole agiilset lähenemist rakendavatest ettevõtetest[1](#1)[4](#4). Scrumi protsess koosneb kolmest peamisest rollist: **toote omanik**, **Scrum Master** ja **arendusmeeskond**. Toote omank vastutab toote nõuete määratlemise ja prioriseerimise eest, Scrum Master aitab protsessi juhtida ning arendusmeeskond teostab töö vastavalt nõudmistele[5](#5].
 
 Scrum töötab tsüklite ehk **sprindidena**, mis kestavad tavaliselt 2-4 nädalat. Iga sprindi alguses toimub planeerimise koosolek, kus määratakse ülesanded, mida meeskond peab lõpetama. Sprindi lõpus toimub ülevaatus, kus esitatakse valminud töö[3][4]. Scrum rõhutab ka pidevat tagasisidet ja tiimide iseorganiseerumist, mis aitab saavutada suuremat paindlikkust ja tootlikkust[1].
 
@@ -52,12 +52,12 @@ Kanban võimaldab paindlikku ülesannete järjekorra muutmist ning keskendub pid
 | Visuaalsus    | kasutatakse sprindi tahvleid                    | visuaalne Kanban-tahvel                       |
 | Eesmärk       | kiire arendus ja tagasiside                    | tööde sujuv voog ja läbipaistvus              |
 
-Scrum sobib paremini projektidesse, kus on selged eesmärgid ja vajadus kiire arenduse järele, samas kui Kanban sobib olukordadesse, kus tööülesanded muutuvad pidevalt ning ei ole vajalikud kindlad ajaraamid[1][2].
+Scrum sobib paremini projektidesse, kus on selged eesmärgid ja vajadus kiire arenduse järele, samas kui Kanban sobib olukordadesse, kus tööülesanded muutuvad pidevalt ning ei ole vajalikud kindlad ajaraamid[1](#1)[2](#2).
 
-Sources
-[1] Millist agiilse arenduse raamistikku valida ehk Scrumist Scrumbanini https://blog.twn.ee/et/scrumist-scrumbanini
-[2] 2.4.2. Kanban vs Scrum - poolt ja vastu https://www.tlu.ee/~sirvir/Re-designing_and_Co-creating_Innovative_Cultural-Heritage_Services_Through_Libraries_Estonian_version/242_kanban_vs_scrum__poolt_ja_vastu.html
-[3] [PDF] Scrum raamistik ja selle rakendamine Playtech Estonia OÜ osakonna näitel https://dspace.ut.ee/server/api/core/bitstreams/6f0e1e8e-bbe0-4131-b802-3b74dc0573d4/content
+Allikad:  
+[#1] Millist agiilse arenduse raamistikku valida ehk Scrumist Scrumbanini https://blog.twn.ee/et/scrumist-scrumbanini
+[#2] 2.4.2. Kanban vs Scrum - poolt ja vastu https://www.tlu.ee/~sirvir/Re-designing_and_Co-creating_Innovative_Cultural-Heritage_Services_Through_Libraries_Estonian_version/242_kanban_vs_scrum__poolt_ja_vastu.html
+[#3] [PDF] Scrum raamistik ja selle rakendamine Playtech Estonia OÜ osakonna näitel https://dspace.ut.ee/server/api/core/bitstreams/6f0e1e8e-bbe0-4131-b802-3b74dc0573d4/content
 [4] Agiilne arendus ehk Kanban, Scrum ja teised – kaasaegne lähenemisviis ... https://koren.ee/blogi/agiilne-arendus-ehk-kanban-scrum-ja-teised-kaasaegne-laehenemisviis-tarkvaraarenduses
 [5] Agiilne arendus - Vikipeedia https://et.wikipedia.org/wiki/Agiilne_arendus
 [6] [PDF] AGIILSE LÄHENEMISE RAKENDUSVÕIMALUSTE ... https://digikogu.taltech.ee/et/Download/29545de0-840c-48c6-90d7-da7ca1786b22
