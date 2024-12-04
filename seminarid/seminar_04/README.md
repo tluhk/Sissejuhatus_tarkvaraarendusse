@@ -80,15 +80,43 @@ Sources
 [2] [PDF] Scrum raamistik ja selle rakendamine Playtech Estonia OÜ osakonna näitel https://dspace.ut.ee/server/api/core/bitstreams/6f0e1e8e-bbe0-4131-b802-3b74dc0573d4/content
 [3] Millist agiilse arenduse raamistikku valida ehk Scrumist Scrumbanini https://blog.twn.ee/et/scrumist-scrumbanini
 
+Näidis: Ülikooli Õppeaine Registreerimissüsteem
 Backlog Management View
 | Title | Assignees | Status | Story Points | Priority | Epic | Sprint | Type of |
 |-------|-----------|--------|--------------|----------|------|--------|---------|
-| Registreerimisvormi UI loomine | Anna | To Do | 5 | High | Autentimine | Sprint 1 | Feature |
-| API endpoints'ide loomine | Peeter | To Do | 8 | High | Autentimine | Sprint 1 | Feature |
-| Google auth integratsioon | Peeter | Backlog | 5 | Medium | Autentimine | Sprint 2 | Feature |
-| Automaattestide kirjutamine | Liis | Backlog | 3 | Medium | Autentimine | Sprint 1 | Task |
-| Kasutajaprofiili haldamine | Anna | Backlog | 5 | Low | Autentimine | Sprint 2 | Feature |
-| Dokumentatsiooni uuendamine | Mari | Backlog | 2 | Low | Autentimine | Sprint 2 | Documentation |
+| Logi sisse vormi loomine | Mari (UI/UX) | To Do | 3 | High | Autentimine | Sprint 1 | Feature |
+| Õppeainete nimekirja kuvamine | Jaan (Front-end) | To Do | 5 | High | Ainete Haldus | Sprint 1 | Feature |
+| Registreerimise nupu lisamine | Mari (UI/UX) | Backlog | 2 | Medium | Registreerimine | Sprint 1 | Feature |
+| E-maili teavituste süsteem | Peeter (Back-end) | Backlog | 8 | Low | Teavitused | Sprint 2 | Feature |
+| Andmebaasi ühenduse loomine | Peeter (Back-end) | To Do | 5 | High | Autentimine | Sprint 1 | Task |
+| Kasutajajuhendi kirjutamine | Liis (Dokumenteerija) | Backlog | 3 | Low | Dokumentatsioon | Sprint 2 | Documentation |
+
+Sprint Tracking View
+Backlog (0)
+Ootavad ülesanded
+Sprint Ready (2)
+Logi sisse vormi loomine
+Andmebaasi ühenduse loomine
+In Progress (1)
+Õppeainete nimekirja kuvamine
+Review (0)
+Ülevaatust ootavad ülesanded
+Epics View (Kalendrivaade)
+November 2024
+Autentimine
+Kasutajate sisselogimine
+Paroolide haldus
+Detsember 2024
+Ainete Haldus
+Ainete kuvamine
+Registreerimine
+Teavitused
+E-mail süsteem
+Meeskonna rollid:
+Mari - UI/UX disainer (vastutab kasutajaliidese eest)
+Jaan - Front-end arendaja (teeb veebilehe eesmise osa)
+Peeter - Back-end arendaja (teeb serveripoolse loogika)
+Liis - Dokumenteerija ja testija (kirjutab juhendid ja testib)
 
 Lisalugemist:  
 https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf
