@@ -52,11 +52,11 @@ https://www.interaction-design.org/literature/article/prototyping-learn-eight-co
 - Github Projects funktsionaalsus ja erinevad vaated
 - Projekti töövoo ja tööülesannete haldamine
 
-## Ülesanne:
+### Ülesanne:
 Loe läbi Scrum ja Kanban artikkel (5-10 min)
 https://blog.twn.ee/et/scrumist-scrumbanini  
 
-### Scrum ja Kanban
+## Scrum ja Kanban
 ### Mis on Scrum?
 
 Scrum on **agiilne** arenduse raamistik, mis keskendub tiimide tihedale koostööle ning järkjärgulisele projekti edenemisele. See on praegu üks populaarsemaid agiilse arenduse meetodeid, mida kasutab umbes pisut üle poole agiilset lähenemist rakendavatest ettevõtetest[1][4]. Scrumi protsess koosneb kolmest peamisest rollist: **toote omanik**, **Scrum Master** ja **arendusmeeskond**. Toote omanik vastutab toote nõuete määratlemise ja prioriseerimise eest, Scrum Master aitab protsessi juhtida ning arendusmeeskond teostab töö vastavalt nõudmistele[5]. Scrum baseerub kindlal reeglistikul.
