@@ -43,7 +43,8 @@ Foto: [Alexander Skogberg](https://blog.prototypr.io/how-paper-wireframing-will-
 Foto: [Alexander Skogberg](https://blog.prototypr.io/how-paper-wireframing-will-make-you-a-better-designer-5a57db8dca13)  
 
 #### Lisalugemist:
-https://www.interaction-design.org/literature/article/prototyping-learn-eight-common-methods-and-best-practices
+https://www.interaction-design.org/literature/article/prototyping-learn-eight-common-methods-and-best-practices  
+https://www.justinmind.com/prototyping/paper-prototype  
 
 ## 1. osa: projekti haldamine Githubis (1.5h)
 
