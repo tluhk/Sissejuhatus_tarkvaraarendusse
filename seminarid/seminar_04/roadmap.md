@@ -62,7 +62,7 @@ Sources
 [5] Agiilne arendus - Vikipeedia https://et.wikipedia.org/wiki/Agiilne_arendus
 [6] [PDF] AGIILSE LÄHENEMISE RAKENDUSVÕIMALUSTE ... https://digikogu.taltech.ee/et/Download/29545de0-840c-48c6-90d7-da7ca1786b22
 
-## Projekti kulg
+## Srum projekti kulg
 ### Backlog
 
 Backlog on prioriseeritud nimekiri kõigist töödest, funktsioonidest, parendustest ja vigadest, mis on vajalikud toote arendamiseks. Scrum'i kontekstis jaguneb backlog kaheks: **toote backlog** (Product Backlog) ja **sprindi backlog** (Sprint Backlog). Toote backlog sisaldab kõiki nõudeid ja ülesandeid, mida toode vajab, samas kui sprindi backlog on valik toote backlog'ist, mis on määratud teostatavaks konkreetse sprindi jooksul. Backlog'i haldamine on kriitilise tähtsusega, et tagada arenduse sujuvus ja prioriteetide vastavus ärivajadustele[1][2].
@@ -71,47 +71,39 @@ Backlog on prioriseeritud nimekiri kõigist töödest, funktsioonidest, parendus
 
 Sprint tracking viitab protsessile, mille käigus jälgitakse ja mõõdetakse sprindi edenemist. See hõlmab tööde oleku jälgimist, et tagada, et meeskond liigub õigesti eesmärkide suunas. Sprint tracking'i raames kasutatakse sageli visuaalseid tööriistu nagu **burndown chart**, mis näitab, kui palju tööd on jäänud lõpetada sprindi jooksul. See aitab meeskonnal tuvastada takistusi ja kohandada oma lähenemist vastavalt vajadusele[1][3].
 
-### Epics
+### Epic
 
-Epics on suuremad tööüksused või kasutajalood, mis jagunevad väiksemateks ja hallatavamateks osadeks (nt **user stories**). Need esindavad laiemat funktsionaalsust või ärivajadust ning aitavad meeskonnal planeerida ja korraldada oma tööd. Epics'i kasutamine võimaldab arendusmeeskondadel näha suuremat pilti ning paremini mõista, kuidas erinevad funktsioonid omavahel seotud on. Epics'i jagamine väiksemateks osadeks aitab ka backlog'i haldamisel ning prioriseerimisel[2][3].
+Epicud on suuremad tööüksused või kasutajalood, mis jagunevad väiksemateks ja hallatavamateks osadeks (nt **user stories**). Need esindavad laiemat funktsionaalsust või ärivajadust ning aitavad meeskonnal planeerida ja korraldada oma tööd. Epicute kasutamine võimaldab arendusmeeskondadel näha suuremat pilti ning paremini mõista, kuidas erinevad funktsioonid omavahel seotud on. Epicute jagamine väiksemateks osadeks aitab ka backlog'i haldamisel ning prioritiseerimisel[2][3].
 
 Sources
 [1] [PDF] AGIILSETE ARENDUSMETOODIKATE ... https://digikogu.taltech.ee/et/Download/44719e8b-4e75-4090-9289-beeaff7db137
 [2] [PDF] Scrum raamistik ja selle rakendamine Playtech Estonia OÜ osakonna näitel https://dspace.ut.ee/server/api/core/bitstreams/6f0e1e8e-bbe0-4131-b802-3b74dc0573d4/content
 [3] Millist agiilse arenduse raamistikku valida ehk Scrumist Scrumbanini https://blog.twn.ee/et/scrumist-scrumbanini
 
-Näidis: Ülikooli Õppeaine Registreerimissüsteem
-Backlog Management View
-| Title | Assignees | Status | Story Points | Priority | Epic | Sprint | Type of |
-|-------|-----------|--------|--------------|----------|------|--------|---------|
-| Logi sisse vormi loomine | Mari (UI/UX) | To Do | 3 | High | Autentimine | Sprint 1 | Feature |
-| Õppeainete nimekirja kuvamine | Jaan (Front-end) | To Do | 5 | High | Ainete Haldus | Sprint 1 | Feature |
-| Registreerimise nupu lisamine | Mari (UI/UX) | Backlog | 2 | Medium | Registreerimine | Sprint 1 | Feature |
-| E-maili teavituste süsteem | Peeter (Back-end) | Backlog | 8 | Low | Teavitused | Sprint 2 | Feature |
-| Andmebaasi ühenduse loomine | Peeter (Back-end) | To Do | 5 | High | Autentimine | Sprint 1 | Task |
-| Kasutajajuhendi kirjutamine | Liis (Dokumenteerija) | Backlog | 3 | Low | Dokumentatsioon | Sprint 2 | Documentation |
+#### Näidis: Ülikooli Õppeaine Registreerimissüsteem
+**Backlog**
+![Backlog](backlog.png)
 
-Sprint Tracking View
-Backlog (0)  
-Ootavad ülesanded
-Sprint Ready (2)  
-Logi sisse vormi loomine  
-Andmebaasi ühenduse loomine  
-In Progress (1)  
-Õppeainete nimekirja kuvamine  
-Review (0)  
-Ülevaatust ootavad ülesanded  
-Epics View (Kalendrivaade)  
-November 2024  
-Autentimine  
-Kasutajate sisselogimine  
-Paroolide haldus  
-Detsember 2024  
-Ainete Haldus  
-Ainete kuvamine  
-Registreerimine  
-Teavitused  
-E-mail süsteem  
+
+**Sprint tracking**
+![Sprint tracking](sprint.png)
+
+
+**Roadmap**
+![Roadmap](roadmap.png)
+
+Vaata projekti siin: https://github.com/orgs/TLUHK-RIF20-Juho/projects/7
+Issued: https://github.com/TLUHK-RIF20-Juho/scrum-project-test/issues
+
+### Epicute loomine Githubis.
+Github ei ole päris täielik ja automaatne projektihaldamissüsteem, seega on siin vaja pisut rohkem käsitsi tööd teha.
+
+Epic tuleb luua Github Issuena ja talle tuleks luua eraldi label "Epic". Epiku nime ette lisa [EPIC], et oleks lihtne aru saada, et tegemist on epikuga.  
+
+Epicu sees tuleb vastav ülesanne lahti kirjutada ja jagada alamissutekes, või piletiteks või kes kuskil kuidas nimetab. Kui vormindada korrektselt, kasutades märkeruudustikuga list, on võimalik Epicu sees olevad ülesanded muuta issueteks. KAsuta seda lahendust kindlasti. Sellisel juhul on Epicu sees olevad ülesanded ja issued seotud ja kui issue on lahendatud, märgitakse see ka tekstis selliselt.
+![Epic](epic.png)
+
+
 Meeskonna rollid:  
 Mari - UI/UX disainer (vastutab kasutajaliidese eest)  
 Jaan - Front-end arendaja (teeb veebilehe eesmise osa)  
@@ -122,28 +114,4 @@ Lisalugemist:
 https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf
 
 
-
-
-
-
-### Tegevused:
-1. Github Projects keskkonna tutvustus (20 min)
-   - Backlog management vaate ülevaade
-   - Sprint tracking kanban tahvli tutvustus
-   - Epics kalendrivaate demonstratsioon
-
-2. SCRUM projekti seadistamine (30 min)
-   - Tööülesannete väljade seadistamine (Story Points, Priority, Epic)
-   - Sprint tracking tahvli töövoo seadistamine
-   - Filtrite ja vaadete kohandamine
-
-3. Praktiline töö (40 min):
-   - Näidisülesannete lisamine backlogisse
-   - Sprintide planeerimine ja ülesannete määramine
-   - Epics'ide ajastamine kalendrivaates
-
-### Materjalid:
-- Github Projects SCRUM template näidis
-- Scrum põhimõtete ülevaade
-- Projekti planeerimise head tavad
 
