@@ -180,5 +180,7 @@ Scrum või Kanban projekti seadistamine Githubis.
 https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf  
 https://www.agilest.org/scrum/
 
+## Kodutöö
+[5. kodutöö](../kodusedtood/kodune_05.md)
 
 
