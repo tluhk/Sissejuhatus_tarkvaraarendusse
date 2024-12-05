@@ -3,15 +3,15 @@
 Õppida dokumenteerima kasutajaliidese prototüüpe ja seadistama projekti GitHubis, kasutades agiilse arenduse põhimõtteid.
 
 ## Tingimused
-- kodutöö peab olema esitatud läbi pull requesti
-- kodutöö protsess peab olema kirjeldatud failis **protsess.md**
+- kodutöö peab olema esitatud läbi pull requesti – linkige om projekt ja repo kodutöösse.
+- kodutöö protsess peab olema kirjeldatud failis **protsess.md**. Selles kirjeldage protsessi kulgu, mis oli keeruline või mis oli lihtne, mida õppisite või ei õppinud, mida teeksite teisiti (ka ülesande püstituse juures).
 
 ## Sisu
 ### Hinnang oma eelmisele kodutööle vastavalt sellele, kuidas seminaris prototüüpimisetöö sujus oma persoonade, stsenaariumite ja kasutuslugude alusel. Lisage kirjeldus faili **protsess.md**
 ### Grupitöö
 1. Märkige prototüüpidel interaktiivsed alad
 2. Digitaliseerige prototüübid
-3. Looge grupiga uus GitHubi repo, lisage kõik kasutajad reposse
+3. Looge grupiga uus GitHubi repo rif24 organisatsiooni: https://github.com/TLUHK-RIF24. Jälgige, et ligipääs poleks "privat", vaid "internal". Nimetage oma repo ja projekt oma toote nimega, lisage reposse README projekti kirjeldusega (kopeerige eelmise kodutöö materjalid).  
 ### Individuaalne osa
 4. Loo Epic. Nt. pealkirjaga "[EPIC] UI Prototüübid - avaleht" (vastavalt oma ülesandele)
 5. Lisa Epic'usse prototüüp koos komponentide nimekirjaga, näiteks:
