@@ -2,7 +2,7 @@
 
 ## Eelmise seminari tagasiside
 Muudatuste tegemine õppematerjalidesse:      
-Fork > clone > checkout -b "uus haru" > muudatus > push > Contribute > Assign (sel juhul saan ma sõnumi, et muudatus on ootel)  
+Fork > clone > checkout -b "uus haru" > muudatus > push > contribute > Assign (sel juhul saan ma sõnumi, et muudatus on ootel)  
 
 Kodutöö tagasiside:
 toote loomine, persoonad, kasutajalood, stsenaariumid. Esimese poole lõpus hinnang/refleksioon om kodutöö kohta – kui kasutatav oli prototüüpide loomisel persoonad, kasutajalood ja stsenaariumid. See on peamine tagasiside kodutööle.  
