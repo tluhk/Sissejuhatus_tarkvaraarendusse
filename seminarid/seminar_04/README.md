@@ -7,6 +7,7 @@ Fork > clone > checkout -b "uus haru" > muudatus > push > contribute > assign (s
 **Kodutöö tagasiside:**  
 - Looge iga kodutöö jaoks oma folder  
 - Kommitite kommentaarid lisage ingliskeelsed  
+- Pildiline persoona võib olla esitluseks hea, kuid kui soovite muta või kopeerida teksti hiljem, võib tekkida probleeme.
 - Toote loomine, persoonad, kasutajalood, stsenaariumid. Esimese poole lõpus hinnang/refleksioon oma kodutöö kohta – kui kasutatav oli prototüüpide loomisel persoonad, kasutajalood ja stsenaariumid. See on peamine tagasiside kodutööle.  
 
 ## 1. osa: paberprototüüpide loomine (1.5h)
