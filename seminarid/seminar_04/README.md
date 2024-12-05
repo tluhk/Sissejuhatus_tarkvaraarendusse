@@ -30,10 +30,13 @@ Paberprototüüpimine on kõige kiirem, lihtsam ehk kõige vähem ressurssi nõu
   - Tagasiside kohtade planeerimine - jäta ruumi märkusteks ja kommentaarideks
 
 - Praktilised harjutused:
-  - Eelnevalt loodud persoonade ja stsenaariumite põhjal prototüüpide visandamine
+  - Eelneva kodutöö jooksul loodud persoonade ja stsenaariumite põhjal prototüüpide visandamine
   - Kasutajaliidese elementide kavandamine
   - Navigatsiooni ja kasutajavoo visualiseerimine
 - Prototüüpide testimine ja tagasiside
+  - Dokumenteerida tagasisidest saadud info ja muudatused
+
+**Praktiliste harjutuste põhjal tuleb teha ka uus kodutöö.**
 
 ### Tegevused:
 1. Sissejuhatus paberprototüüpimisse (15 min)
@@ -107,7 +110,11 @@ Sprint tracking on protsess, mille käigus jälgitakse ja mõõdetakse sprindi e
 
 ### Epic
 
-Epicud on suuremad tööüksused või kasutajalood, mis jagunevad väiksemateks ja hallatavamateks osadeks (nt **user stories**). Need esindavad laiemat funktsionaalsust või ärivajadust ning aitavad meeskonnal planeerida ja korraldada oma tööd. Epicute kasutamine võimaldab arendusmeeskondadel näha suuremat pilti ning paremini mõista, kuidas erinevad funktsioonid omavahel seotud on. Epicute jagamine väiksemateks osadeks aitab ka backlog'i haldamisel ning prioritiseerimisel[2][3].
+Epicud on suuremad tööüksused või kasutajalood, mis jagunevad väiksemateks ja hallatavamateks osadeks (nt **user stories** või ülesanded). Need esindavad laiemat funktsionaalsust või ärivajadust ning aitavad meeskonnal planeerida ja korraldada oma tööd. Epicute kasutamine võimaldab arendusmeeskondadel näha suuremat pilti ning paremini mõista, kuidas erinevad funktsioonid omavahel seotud on. Epicute jagamine väiksemateks osadeks aitab ka backlog'i haldamisel ning prioritiseerimisel[2][3].
+
+### Issue, ticket, pilet
+
+Heal lapsel mitu nime. Issue, kuigi nimi viitab probleemile, on sisuliselt ülesanne. Sõltuvalt kontekstist võib ta olla tõepoolest ka probleem. Tarvaraarenduses kutsutakse teda sageli piletiks (ticket). Tegemist on väikseima konkreetse ja kompaktse tööühikuga, mis on vaja nt ühe sprindi jooksul ära teha. 
 
 #### Allikad:  
 [1] [PDF] Agiilsete arendusmetoodikate rakendamise analüüs logistika lahendusi pakkuva firma näitel https://digikogu.taltech.ee/et/Download/44719e8b-4e75-4090-9289-beeaff7db137  

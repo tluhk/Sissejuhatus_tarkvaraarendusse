@@ -66,33 +66,16 @@
 ## **4. Neljas seminar**
 
 ### **Teemad:**
-#### Prototüüpimise põhimõtted
+#### 1. osa: paberprototüüpide loomine
+- Paberprototüüpide eesmärk ja kasulikkus
+- Paberprototüüpide loomise põhimõtted
+- Praktilised harjutused
+- Prototüüpide testimine ja tagasiside
 
-#### Dokumentatsioon tarkvaraarenduses
-- Dokumentatsiooni tüübid ja eesmärgid
-- Tehniline dokumentatsioon
-- Kasutajadokumentatsioon
-- API dokumentatsioon
-- README failide koostamine
-
-#### Projekti planeerimine
-- Nõuetest tööülesannete loomine
-- Tööde mahu hindamine
-- Prioriteetide seadmine
-- Ajakava koostamine
-- Riskide hindamine
-
-#### Meeskonnatöö põhimõtted
-- Rollid meeskonnas
-- Ülesannete jagamine
-- Kommunikatsioon
-- Code review protsess
-- Konfliktide lahendamine
-
-### **Kontseptsioonid:**
-- Dokumentatsiooni olulisus ja põhimõtted
-- Projekti planeerimise meetodid
-- Meeskonnatöö head tavad
+#### 2. osa: projekti haldamine Githubis
+- Scrum ja Kanban metoodikad
+- Github Projects funktsionaalsus ja erinevad vaated
+- Projekti töövoo ja tööülesannete haldamine
 
 ### **Kodutöö:**
-[Neljanda koduse töö kirjeldus](../docs/kodusedtood/kodune_04.md)
+[Neljanda koduse töö kirjeldus](../docs/kodusedtood/kodune_05.md)
