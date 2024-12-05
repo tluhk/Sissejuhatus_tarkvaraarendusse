@@ -49,8 +49,6 @@ https://www.justinmind.com/prototyping/paper-prototype
 
 ## 2. osa: projekti haldamine Githubis (1.5h)
 
-**NB. Seminari jaoks loo oma organisatsiooni eraldu uus repo nimega githubi-näidisprojekt. Määra nähtavuseks "internal"**
-
 ### Teemad:
 - Scrum ja Kanban metoodikad
 - Github Projects funktsionaalsus ja erinevad vaated
@@ -96,6 +94,9 @@ Scrum sobib paremini projektidesse, kus on selged eesmärgid ja vajadus kiire ar
 Keskkonnaministeeriumi haldusala tarkvaraprotsessis https://digikogu.taltech.ee/et/Download/29545de0-840c-48c6-90d7-da7ca1786b22  
 
 ## Scrum projekti kulg
+
+**NB! Seminari jaoks loo oma organisatsiooni eraldu uus repo nimega githubi-näidisprojekt. Määra nähtavuseks "internal"**
+
 ### Backlog
 
 Backlog on prioriseeritud nimekiri kõigist töödest, funktsioonidest, parendustest ja vigadest, mis on vajalikud toote arendamiseks. Scrum'i kontekstis jaguneb backlog kaheks: **toote backlog** (Product Backlog) ja **sprindi backlog** (Sprint Backlog). Toote backlog sisaldab kõiki nõudeid ja ülesandeid, mida toode vajab, samas kui sprindi backlog on valik toote backlog'ist, mis on määratud teostatavaks konkreetse sprindi jooksul. Backlog'i haldamine on kriitilise tähtsusega, et tagada arenduse sujuvus ja prioriteetide vastavus ärivajadustele[1][2].
