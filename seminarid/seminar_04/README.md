@@ -32,6 +32,9 @@ Paberprototüüpimine on kõige kiirem, lihtsam ehk kõige vähem ressurssi nõu
   - Interaktiivsuse märkimine - näita selgelt, millised elemendid on klikitavad/interaktiivsed
   - Tagasiside kohtade planeerimine - jäta ruumi märkusteks ja kommentaarideks
 
+![Protomine seminaris](protomine-seminaris.png)  
+Prototüüpimine seminaris, RIF24  
+
 - Praktilised harjutused:
   - Eelneva kodutöö jooksul loodud persoonade ja stsenaariumite põhjal prototüüpide visandamine
   - Kasutajaliidese elementide kavandamine
