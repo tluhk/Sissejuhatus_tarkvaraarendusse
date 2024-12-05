@@ -7,6 +7,7 @@
 - kodutöö protsess peab olema kirjeldatud failis **protsess.md**
 
 ## Sisu
+### Hinnang oma eelmisele kodutööle vastavalt sellele, kuidas seminaris prototüüpimisetöö sujus oma persoonade, stsenaariumite ja kasutuslugude alusel. Lisage kirjeldus faili **protsess.md**
 ### Grupitöö
 1. Märkige prototüüpidel interaktiivsed alad
 2. Digitaliseerige prototüübid
@@ -38,4 +39,4 @@ Nb! Hoolitsege, et igaühe kommiteid oleks töös piisavalt näha, see kinnitab 
 
 
 Kohustuslik:    
-- Dokumenteerige oma tööd ja mõtteid, mis selgitavad teie tegevust failis Protsess.md
+- Dokumenteerige oma tööd ja mõtteid, mis selgitavad teie tegevust failis **protsess.md**
