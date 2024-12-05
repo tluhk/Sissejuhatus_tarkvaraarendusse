@@ -1,7 +1,7 @@
 # Neljas seminar
 
 Eelmise seminari tagasiside:
-Forkimine    
+Muudatuste tegemine õppematerjalidesse      
 Fork > clone > checkout -b "uus haru" > muudatus > push > Contribute > Assign (sel juhul saan ma sõnumi, et muudatus on ootel)  
 
 Kodutöö tagasiside:
