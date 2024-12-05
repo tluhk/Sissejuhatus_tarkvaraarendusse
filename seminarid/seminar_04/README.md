@@ -12,7 +12,8 @@ toote loomine, persoonad, kasutajalood, stsenaariumid. Esimese poole lõpus hinn
 ![Paberprototüübid](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*HLA7FU2RFi-mXQW7OZQ5Xw.jpeg)  
 Foto: [Alexander Skogberg](https://blog.prototypr.io/how-paper-wireframing-will-make-you-a-better-designer-5a57db8dca13)  
 
-### Teemad:
+### Paberprototüümine – miks?
+Paberprototüüpimine on kõige kiirem, lihtsam ehk kõige vähem ressurssi nõudev viis kirelt visandada ideed. Igaüks suudab vedada pliiatsiga jälje paberile ja mingil kombel oma idee valmis sodida.  
 - Paberprototüüpide eesmärk ja kasulikkus
   - Kiire ja odav viis kasutajaliidese kontseptsiooni testimiseks
   - Võimaldab varakult tuvastada kasutajaliidese probleeme
