@@ -7,7 +7,7 @@
 - kodutöö protsess peab olema kirjeldatud failis **protsess.md**. Selles kirjeldage protsessi kulgu, mis oli keeruline või mis oli lihtne, mida õppisite või ei õppinud, mida teeksite teisiti (ka ülesande püstituse juures).
 
 ## Sisu
-### Hinnang oma eelmisele kodutööle vastavalt sellele, kuidas seminaris prototüüpimisetöö sujus oma persoonade, stsenaariumite ja kasutuslugude alusel. Lisage kirjeldus faili **protsess.md**
+### Andke hinnang oma eelmisele kodutööle vastavalt sellele, kuidas seminaris prototüüpimise töö sujus oma persoonade, stsenaariumite ja kasutuslugude alusel. Lisage kirjeldus faili **protsess.md**
 ### Grupitöö
 1. Märkige prototüüpidel interaktiivsed alad
 2. Digitaliseerige prototüübid
@@ -35,7 +35,7 @@ Pilt lisa nii, et seda kuvatakse
 11. Jagage ülesanded-issued epic-issuete alla nii nagu need jaotuma peavad. Määrake issue'le vastavad assignee'd.
 
 
-Nb! Hoolitsege, et igaühe kommiteid oleks töös piisavalt näha, see kinnitab teie osalemist kodutöös.
+**NB! Hoolitsege, et igaühe kommiteid oleks töös piisavalt näha, see kinnitab teie osalemist kodutöös.**
 
 
 Kohustuslik:    
