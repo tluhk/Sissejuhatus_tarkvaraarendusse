@@ -123,7 +123,7 @@ Epicud on suuremad tööüksused või kasutajalood, mis jagunevad väiksemateks 
 
 ### Issue, ticket, pilet
 
-Heal lapsel mitu nime. Issue, kuigi nimi viitab probleemile, on sisuliselt ülesanne. Sõltuvalt kontekstist võib ta olla tõepoolest ka probleem. Tarvaraarenduses kutsutakse teda sageli piletiks (ticket). Tegemist on väikseima konkreetse ja kompaktse tööühikuga, mis on vaja nt ühe sprindi jooksul ära teha. 
+Heal lapsel mitu nime. Issue, kuigi nimi viitab probleemile, on sisuliselt ülesanne. Sõltuvalt kontekstist võib ta olla tõepoolest ka probleem. Tarkvaraarenduses kutsutakse teda sageli piletiks (ticket). Tegemist on väikseima konkreetse ja kompaktse tööühikuga, mis on vaja nt ühe sprindi jooksul ära teha. 
 
 #### Allikad:  
 [1] [PDF] Agiilsete arendusmetoodikate rakendamise analüüs logistika lahendusi pakkuva firma näitel https://digikogu.taltech.ee/et/Download/44719e8b-4e75-4090-9289-beeaff7db137  
