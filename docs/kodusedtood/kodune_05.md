@@ -3,6 +3,7 @@
 Õppida dokumenteerima kasutajaliidese prototüüpe ja seadistama projekti GitHubis, kasutades agiilse arenduse põhimõtteid.
 
 ## Tingimused
+- kodutöö on grupitöö ja selle jaoks tuleb luua uus repo TLUHK-RIF24 organisatsioonis.
 - kodutöö peab olema esitatud läbi pull requesti – linkige om projekt ja repo kodutöösse.
 - kodutöö protsess peab olema kirjeldatud failis **protsess.md**. Selles kirjeldage protsessi kulgu, mis oli keeruline või mis oli lihtne, mida õppisite või ei õppinud, mida teeksite teisiti (ka ülesande püstituse juures).
 
