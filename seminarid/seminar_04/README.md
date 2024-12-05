@@ -113,9 +113,23 @@ Keskkonnaministeeriumi haldusala tarkvaraprotsessis https://digikogu.taltech.ee/
 
 Backlog on prioriseeritud nimekiri kõigist töödest, funktsioonidest, parendustest ja vigadest, mis on vajalikud toote arendamiseks. Scrum'i kontekstis jaguneb backlog kaheks: **toote backlog** (Product Backlog) ja **sprindi backlog** (Sprint Backlog). Toote backlog sisaldab kõiki nõudeid ja ülesandeid, mida toode vajab, samas kui sprindi backlog on valik toote backlog'ist, mis on määratud teostatavaks konkreetse sprindi jooksul. Backlog'i haldamine on kriitilise tähtsusega, et tagada arenduse sujuvus ja prioriteetide vastavus ärivajadustele[1][2].
 
+##### Näidis: Ülikooli Õppeaine Registreerimissüsteem
+**Backlog**
+![Backlog](backlog.png)
+
 ### Sprint Tracking, Scrum board
 
 Sprint tracking on protsess, mille käigus jälgitakse ja mõõdetakse sprindi edenemist. See hõlmab tööde oleku jälgimist, et tagada, et meeskond liigub õigesti eesmärkide suunas. Sprint tracking'i raames kasutatakse sageli visuaalseid tööriistu nagu **burndown chart**, mis näitab, kui palju tööd on jäänud lõpetada sprindi jooksul. See aitab meeskonnal tuvastada takistusi ja kohandada oma lähenemist vastavalt vajadusele[1][3]. **Scrum Board** on visuaalne tööriist, mis aitab meeskonnal hallata ja jälgida tööd, mis toimub konkreetse sprindi jooksul. See korraldab tööülesanded veergudesse, mis esindavad erinevaid arenduse etappe, nagu “To Do” (teha), “In Progress” (töös) ja “Done” (valmis). Scrum Board võimaldab meeskonnaliikmetel kiiresti näha, millised ülesanded on lõpetatud, millised on töös ja millised tuleb veel teha. See aitab tagada läbipaistvust ning soodustab koostööd meeskonna sees.
+
+
+##### Näidis: Ülikooli Õppeaine Registreerimissüsteem
+
+**Sprint tracking**
+![Scrum Board](sprint.png)
+
+
+**Roadmap**
+![Roadmap](roadmap.png)
 
 ### Epic
 
@@ -130,17 +144,9 @@ Heal lapsel mitu nime. Issue, kuigi nimi viitab probleemile, on sisuliselt üles
 [2] [PDF] Scrum raamistik ja selle rakendamine Playtech Estonia OÜ osakonna näitel https://dspace.ut.ee/server/api/core/bitstreams/6f0e1e8e-bbe0-4131-b802-3b74dc0573d4/content  
 [3] Millist agiilse arenduse raamistikku valida ehk Scrumist Scrumbanini https://blog.twn.ee/et/scrumist-scrumbanini  
 
-#### Näidis: Ülikooli Õppeaine Registreerimissüsteem
-**Backlog**
-![Backlog](backlog.png)
 
 
-**Sprint tracking**
-![Scrum Board](sprint.png)
 
-
-**Roadmap**
-![Roadmap](roadmap.png)
 
 Vaata projekti siin: https://github.com/orgs/TLUHK-RIF20-Juho/projects/7  
 Issued: https://github.com/TLUHK-RIF20-Juho/scrum-project-test/issues
