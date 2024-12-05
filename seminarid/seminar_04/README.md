@@ -5,7 +5,7 @@ Muudatuste tegemine õppematerjalidesse:
 Fork > clone > checkout -b "uus haru" > muudatus > push > contribute > assign (sel juhul saan ma sõnumi, et muudatus on ootel)  
 
 Kodutöö tagasiside:
-toote loomine, persoonad, kasutajalood, stsenaariumid. Esimese poole lõpus hinnang/refleksioon om kodutöö kohta – kui kasutatav oli prototüüpide loomisel persoonad, kasutajalood ja stsenaariumid. See on peamine tagasiside kodutööle.  
+toote loomine, persoonad, kasutajalood, stsenaariumid. Esimese poole lõpus hinnang/refleksioon oma kodutöö kohta – kui kasutatav oli prototüüpide loomisel persoonad, kasutajalood ja stsenaariumid. See on peamine tagasiside kodutööle.  
 
 ## 1. osa: paberprototüüpide loomine (1.5h)
 
