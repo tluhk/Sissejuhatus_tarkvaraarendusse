@@ -48,9 +48,9 @@ Prototüüpimine seminaris, RIF24
 **Praktiliste harjutuste põhjal tuleb teha ka uus kodutöö.**
 
 ### Tegevused:
-1. Sissejuhatus paberprototüüpimisse (15 min)
-2. Prototüüpide visandamine gruppides (45 min)
-3. Prototüüpide testimine ja tagasiside (30 min)
+1. Sissejuhatus paberprototüüpimisse (15 min).
+2. Prototüüpide visandamine gruppides (60 min). Taustaks ekraanil paberprototüüpide testimise videod.
+3. Prototüüpide testimine ja tagasiside (15 min).
 
 ![Paberprototüübid](https://miro.medium.com/v2/resize:fit:1320/format:webp/1*T5SpIGBWFDKhd4g0E_z3kw.jpeg)  
 Foto: [Alexander Skogberg](https://blog.prototypr.io/how-paper-wireframing-will-make-you-a-better-designer-5a57db8dca13)  
