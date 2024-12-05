@@ -95,7 +95,7 @@ Keskkonnaministeeriumi haldusala tarkvaraprotsessis https://digikogu.taltech.ee/
 
 ## Scrum projekti kulg
 
-**NB! Seminari jaoks loo oma organisatsiooni eraldu uus repo nimega githubi-näidisprojekt. Määra nähtavuseks "internal"**
+**NB! Seminari jaoks loo oma organisatsiooni eraldi uus repo nimega "githubi-näidisprojekt". Määra nähtavuseks "internal"**
 
 ### Backlog
 
