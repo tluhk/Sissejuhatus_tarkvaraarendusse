@@ -35,12 +35,15 @@ Paberprototüüpimine on kõige kiirem, lihtsam ehk kõige vähem ressurssi nõu
 ![Protomine seminaris](protomine-seminaris.png)  
 Prototüüpimine seminaris, RIF24  
 
+![Protomine seminaris 2](protomine-seminaris-2.png)  
+Prototüüpimine seminaris, RIF24  
+
 - Praktilised harjutused:
   - Eelneva kodutöö jooksul loodud persoonade ja stsenaariumite põhjal prototüüpide visandamine
   - Kasutajaliidese elementide kavandamine
   - Navigatsiooni ja kasutajavoo visualiseerimine
-- Prototüüpide testimine ja tagasiside
-  - Dokumenteerida tagasisidest saadud info ja muudatused
+- Prototüüpide testimine ja tagasiside (10min)
+  - Dokumenteerida tagasisidest saadud info ja muudatused (5min)
 
 **Praktiliste harjutuste põhjal tuleb teha ka uus kodutöö.**
 
