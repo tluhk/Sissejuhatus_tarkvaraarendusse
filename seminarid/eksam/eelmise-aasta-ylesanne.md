@@ -1,3 +1,5 @@
+NB, hetkel pole kindel, kas see ülesanne on ka eksamil
+
 # Ülesanne
 
 - Kirjelda oma sõnadega, mis on tarkvara.
@@ -18,5 +20,5 @@ Eksamitöö vastus tuleb esitada:
 - Faili nimi peab olema `README.md`
 - Fail tuleb esitada läbi GitHubi, kasutades selleks `Pull Requesti`
 - `Pull Requesti` pealkirjaks pane `Eksamitöö: <sinu nimi>`, kus `<sinu nimi>` on sinu ees- ja perekonnanimi
-- Faili asukoht peab olema Sinu harus RIF22 kodutööde repositooriumis `SJTA` kausta all `Eksam` alamkaustas
+- Faili asukoht peab olema Sinu harus RIF24 kodutööde repositooriumis `SJTA` kausta all `Eksam` alamkaustas
 
