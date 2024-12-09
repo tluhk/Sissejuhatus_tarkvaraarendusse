@@ -1,27 +1,91 @@
 # Eksam
 
-Eksamile pääsemise eeldus on aktiivne osalemine loengutes, koduste tööde õigeaegne esitamine ja versioonihalduskeskkonna `Github` kasutamine erinevates õppeainetes.
+Eksamile pääsemise eeldus on aktiivne osalemine loengutes, koduste tööde mõistlikul ajal esitamine ja versioonihalduskeskkonna `Github` kasutamine erinevates õppeainetes.
 
 Eksam koosneb kolmest osast:
 
 - Semestri jooksul esitatud kodustest töödest;
-- versioonihalduskeskkonna Github kasutamine erinevates õppeainetes;
-- viimasel kohtumisel tehtav eneseanalüüs.
+- versioonihalduskeskkonna Github kasutamise näitajatest;
+- viimasel kohtumisel tehtavast kiirest kirjalikust eneseanalüüsist, mis sisaldab:
+  - ülevaadet õpitud teemadest ja nende rakendamisest praktikas
+  - hinnangut oma arengule kursuse jooksul
+  - analüüsi oma tugevuste ja arendamist vajavate külgede kohta
+  - tagasisidet kursuse ülesehituse ja sisu kohta
 
-## Hindamismudel
+## Kordamisküsimused:
+
+### Git & GitHub
+
+- Selgita Git-i põhilisi käske ja nende kasutamist (commit, push, pull, branch jne)
+- Mis on Pull Request ja milleks seda kasutatakse?
+- Kuidas toimub koodi ülevaatus (code review) GitHubis?
+
+### Tarkvaraarenduse Meetodid
+
+Millised on Waterfall ja agiilse arenduse peamised erinevused?
+- Selgita Scrum ja Kanban meetodite põhierinevusi
+- Mis on Sprint ja kuidas see toimib Scrumis?
+
+### Rollid Tarkvaraarenduses
+
+- Kirjelda erinevaid rolle tarkvaraarenduse meeskonnas
+- Mis on Scrum Masteri roll ja vastutused?
+- Kuidas erinevad analüütiku ja arendaja rollid?
+
+### Projekti Planeerimine
+
+- Mis on Product Backlog ja Sprint Backlog?
+- Selgita mõistet "Epic" ja kuidas see seostub user story'dega
+
+### Koodi Kvaliteet
+
+- Mis on persoona ja miks see on oluline tarkvaraarenduses?
+- Kuidas koostada head persoonat?
+- Mis on storyboard ja milleks seda kasutatakse?
+- Mis on stsenaarium ja kuidas seda kasutatakse?
+
+### Litsentsid ja Avatud Lähtekood
+
+- Selgita erinevaid tarkvaralitsentside tüüpe
+- Mis on MIT litsents ja millal seda kasutada?
+- Mis vahe on avatud ja suletud lähtekoodil?
+
+### Projekti Dokumenteerimine
+
+- Miks on oluline kirjutada häid commit sõnumeid/kommentaare?
+- Kuidas dokumenteerida projekti GitHubis?
+- Mis on README.md fail ja mida see peaks sisaldama?
+
 
 ## Eksami hinne
 
-| Protsent | Hinne |
-| --- | --- |
-| 91-100% | A |
-| 81-90% | B |
-| 71-80% | C |
-| 61-70% | D |
-| 51-60% | E |
-| 0-50% | F |
+Eksami hinne kujuneb järgmiste komponentide põhjal:
 
+1. Teoreetilised teadmised (40% koguhindest)
+   - Git & GitHub põhimõtete ja käskude tundmine (10%)
+   - Tarkvaraarenduse meetodite tundmine (10%) 
+   - Rollide ja vastutuste mõistmine tarkvaraarenduses (10%)
+   - Projekti planeerimise ja dokumenteerimise põhimõtted (10%)
 
+2. Praktiline töö (40% koguhindest)
+   - Persoonade ja stsenaariumite koostamine (10%)
+   - GitHub projektide haldamine ja dokumenteerimine (10%)
+   - Pull Request'ide ja code review protsessi läbiviimine (10%)
+   - README.md ja muu dokumentatsiooni kvaliteet (10%)
 
-Kui protsent jääb järgmisest hindest napilt alla (näiteks 50%), siis vaadatakse üldist osalemist loengutes, tähtaegadest kinnipidamist, panustamist Githubi jne. Vastavalt sellele on võimalik hinnet tõsta või jätta samaks.
+3. Reflektsioon ja analüüs (20% koguhindest)
+   - Õpitu rakendamine praktikas (5%)
+   - Eneseanalüüs ja areng kursuse jooksul (5%)
+   - Tugevuste ja arendamist vajavate külgede analüüs (5%)
+   - Kursuse tagasiside ja ettepanekud (5%)
+
+Hindamiskriteeriumid:
+- A (91-100%): Suurepärane arusaam kõigist teemadest, aktiivne osalemine, põhjalik praktiline töö
+- B (81-90%): Väga hea teemade valdamine, kvaliteetne praktiline töö, hea analüüsivõime
+- C (71-80%): Hea arusaam põhiteemadest, korralik praktiline töö, piisav analüüs
+- D (61-70%): Rahuldav teemade mõistmine, minimaalselt aktsepteeritav praktiline töö
+- E (51-60%): Piisav teadmiste tase põhiteemadest, nõrk praktiline töö
+- F (0-50%): Ebapiisavad teadmised ja/või puudulik praktiline töö
+
+Kui protsent jääb järgmisest hindest napilt alla positiivse hinde saamiseks vajaliku, siis vaadatakse üldist osalemist loengutes, tähtaegadest kinnipidamist, panustamist Githubi jne.
 
