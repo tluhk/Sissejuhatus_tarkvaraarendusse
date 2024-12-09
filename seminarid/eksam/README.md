@@ -70,7 +70,7 @@ Eksami hinne kujuneb järgmiste komponentide põhjal:
 2. Praktiline töö (40% koguhindest)
    - Persoonade ja stsenaariumite koostamine
    - GitHub'is kodutööde haldamine ja dokumenteerimine
-   - Pull Request'ide ja code review protsessi läbiviimine – kommentaaride jagamine kaasõppijatele
+   - Pull Request'ide ja code review protsessi panustamine – kommentaaride jagamine kaasõppijatele
    - README.md ja muu dokumentatsiooni kvaliteet
 
 3. Reflektsioon ja analüüs (20% koguhindest)
