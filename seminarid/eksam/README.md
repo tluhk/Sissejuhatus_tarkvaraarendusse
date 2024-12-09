@@ -44,7 +44,7 @@ Millised on Waterfall ja agiilse arenduse peamised erinevused?
 - Mis on storyboard ja milleks seda kasutatakse?
 - Mis on stsenaarium ja kuidas seda kasutatakse?
 
-### Litsentsid ja Avatud Lähtekood
+### Litsentsid ja avatud Lähtekood
 
 - Selgita erinevaid tarkvaralitsentside tüüpe
 - Mis on MIT litsents ja millal seda kasutada?
