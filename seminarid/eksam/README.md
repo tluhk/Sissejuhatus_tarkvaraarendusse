@@ -62,22 +62,21 @@ Millised on Waterfall ja agiilse arenduse peamised erinevused?
 Eksami hinne kujuneb järgmiste komponentide põhjal:
 
 1. Teoreetilised teadmised (40% koguhindest)
-   - Git & GitHub põhimõtete ja käskude tundmine (10%)
-   - Tarkvaraarenduse meetodite tundmine (10%) 
-   - Rollide ja vastutuste mõistmine tarkvaraarenduses (10%)
-   - Projekti planeerimise ja dokumenteerimise põhimõtted (10%)
+   - Git & GitHub põhimõtete ja käskude tundmine
+   - Tarkvaraarenduse meetodite tundmine
+   - Rollide ja vastutuste mõistmine tarkvaraarenduses
+   - Projekti planeerimise ja dokumenteerimise põhimõtted
 
 2. Praktiline töö (40% koguhindest)
-   - Persoonade ja stsenaariumite koostamine (10%)
-   - GitHub projektide haldamine ja dokumenteerimine (10%)
-   - Pull Request'ide ja code review protsessi läbiviimine (10%)
-   - README.md ja muu dokumentatsiooni kvaliteet (10%)
+   - Persoonade ja stsenaariumite koostamine
+   - GitHub'is kodutööde haldamine ja dokumenteerimine
+   - Pull Request'ide ja code review protsessi läbiviimine – kommentaaride jagamine kaasõppijatele
+   - README.md ja muu dokumentatsiooni kvaliteet
 
 3. Reflektsioon ja analüüs (20% koguhindest)
-   - Õpitu rakendamine praktikas (5%)
-   - Eneseanalüüs ja areng kursuse jooksul (5%)
-   - Tugevuste ja arendamist vajavate külgede analüüs (5%)
-   - Kursuse tagasiside ja ettepanekud (5%)
+   - Eneseanalüüs ja areng kursuse jooksul
+   - Tugevuste ja arendamist vajavate külgede analüüs
+   - Kursuse tagasiside ja ettepanekud
 
 Hindamiskriteeriumid:
 - A (91-100%): Suurepärane arusaam kõigist teemadest, aktiivne osalemine, põhjalik praktiline töö
