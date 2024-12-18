@@ -12,9 +12,9 @@
 ### Grupitöö
 1. Märkige prototüüpidel interaktiivsed alad
 2. Digitaliseerige prototüübid
-3. Looge grupiga uus GitHubi repo rif24 organisatsiooni: https://github.com/TLUHK-RIF24. Jälgige, et ligipääs poleks "privat", vaid "internal". Nimetage oma repo ja projekt oma toote nimega, lisage reposse README projekti kirjeldusega (kopeerige eelmise kodutöö materjalid).  
+3. Looge grupiga uus GitHubi repo rif24 organisatsiooni: https://github.com/TLUHK-RIF24. Jälgige, et ligipääs poleks "privat", vaid "internal". Nimetage oma repo ja projekt oma toote nimega, lisage reposse README projekti kirjeldusega (kopeerige valitud kodutöö materjalid).  
 ### Individuaalne osa
-4. Loo Epic. Nt. pealkirjaga "[EPIC] UI Prototüübid - avaleht" (vastavalt oma ülesandele)
+4. Loo Epic (igaüks teeb vähemalt ühe). Nt. pealkirjaga "[EPIC] UI Prototüübid - avaleht" (vastavalt oma ülesandele)
 5. Lisa Epic'usse prototüüp koos komponentide nimekirjaga, näiteks:
 ```markdown
 [EPIC] UI Prototüübid - avaleht
@@ -25,7 +25,7 @@
   - [ ] Ainete nimekiri
   - [ ] Sorteerimisvõimalused
 ```
-Pilt lisa nii, et seda kuvatakse
+Pilt lisa nii, et seda kuvatakse  
 6. Konverdi märkeruutudega ülesanded/komponendid issue'teks. Kirjuta issue korralikult lahti.  
 7. Lisa vajalikud label'id (epic, ui jne)  
 ### Grupitöö

@@ -4,9 +4,10 @@ Eksamile pääsemise eeldus on aktiivne osalemine loengutes, koduste tööde mõ
 
 Eksam koosneb kolmest osast:
 
-- Semestri jooksul esitatud kodustest töödest;
-- versioonihalduskeskkonna Github kasutamise näitajatest;
-- viimasel kohtumisel tehtavast kiirest kirjalikust eneseanalüüsist, mis sisaldab:
+- Semestri jooksul esitatud kodustest töödest;  
+- versioonihalduskeskkonna Github kasutamise näitajatest;  
+- viimasel kohtumisel tehtavast kiirest kirjalikust eneseanalüüsist ja testist.  
+  Eneseanalüüs sisaldab:
   - ülevaadet õpitud teemadest ja nende rakendamisest praktikas
   - hinnangut oma arengule kursuse jooksul
   - analüüsi oma tugevuste ja arendamist vajavate külgede kohta
