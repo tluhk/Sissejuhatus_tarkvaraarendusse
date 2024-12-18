@@ -6,7 +6,7 @@ Eksam koosneb kolmest osast:
 
 - Semestri jooksul esitatud kodustest töödest;  
 - versioonihalduskeskkonna Github kasutamise näitajatest;  
-- viimasel kohtumisel tehtavast kiirest kirjalikust testist ja eneseanalüüsist.  
+- viimasel kohtumisel tehtavast kirjalikust testist ja eneseanalüüsist.  
   Eneseanalüüs sisaldab:
   - ülevaadet õpitud teemadest ja nende rakendamisest praktikas
   - hinnangut oma arengule kursuse jooksul
