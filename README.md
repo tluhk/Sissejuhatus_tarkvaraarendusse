@@ -56,4 +56,4 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 
 ## Eksam
 
-- [Hindamine](seminarid/eksam/)
+- [Eksami kirjeldus](seminarid/eksam/)
