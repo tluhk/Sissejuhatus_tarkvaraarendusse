@@ -76,6 +76,7 @@ Eksami hinne kujuneb järgmiste komponentide põhjal:
 
 3. Reflektsioon ja analüüs (20% koguhindest)
    - Eneseanalüüs ja areng kursuse jooksul
+   - Mida tegid hästi, mida halvasti, mida muudad oma õpistrateegiates järgmisel poolaastal uutel kursustel
    - Tugevuste ja arendamist vajavate külgede analüüs
    - Kursuse tagasiside ja ettepanekud
 
