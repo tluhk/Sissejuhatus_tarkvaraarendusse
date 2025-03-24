@@ -35,7 +35,7 @@ Planeerimisetapis toimub ka kvaliteedi tagamise nõuete planeerimine ja projekti
 
 Kui nõuete analüüs on tehtud, on järgmine samm tootenõuete selgelt määratlemine ja dokumenteerimine ning kliendi või turuanalüütikute poolt heakskiitmine. Seda tehakse tarkvaranõuete spetsifikatsiooni (Software Requirement Specification - SRS) kaudu, mis sisaldab kõiki projekti elutsükli jooksul kavandatavaid ja arendatavaid tootenõudeid.
 
-**3\.Tootearhitektuuri kujundamine (disain)**
+**3\. Tootearhitektuuri kujundamine (disain)**
 
 Tarkvaranõuete spetsifikatsioon on aluseks tootearhitektidele, et tulla välja arendatava toote jaoks parima arhitektuuriga. Tarkvaranõuete spetsifikatsioonis määratletud nõuete alusel pakutakse tavaliselt välja rohkem kui üks tootearhitektuuri disainilahendus ja dokumenteeritakse need projekteerimisdokumendi spetsifikatsioonis (DDS).
 
