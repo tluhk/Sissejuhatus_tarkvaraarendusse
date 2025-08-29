@@ -49,6 +49,7 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 
 ## Seminarid
 
+[Sissejuhatav seminart Marttiga](seminar/sissejuhatus/README.md)
 [Esimene](seminarid/seminar_01/README.md)  
 [Teine](seminarid/seminar_02/README.md)  
 [Kolmas](seminarid/seminar_03/README.md)  
