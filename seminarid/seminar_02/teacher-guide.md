@@ -57,6 +57,10 @@ Seminari lõpuks tudeng:
 #### Õpetaja kõne (5 min):
 **"Tere tulemast teisele seminarile! Enne kui sukeldume probleemide analüüsimisesse, peame vastama põhiküsimusele: mis on tarkvaraarendus? Paljud arvavad, et see on lihtsalt programmeerimine, aga tegelikult on see palju laiem."**
 
+Sissejuhatus slaidile 4:
+Mis on teie arust tarkvara?
+Millest ta koosneb?
+
 **SLIDE 4 - Tarkvara definitsioon:**
 - **RÕHUTA**: Tarkvara ei ole ainult kood! Kolm komponenti on võrdselt olulised.
 - **Näide**: "Mõelge WhatsApp-ile. Kood võimaldab sõnumeid saata, andmed on teie vestlused, dokumentatsioon ütleb, kuidas rakendust kasutada."

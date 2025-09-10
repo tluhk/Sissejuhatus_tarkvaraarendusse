@@ -16,7 +16,7 @@ footer: 'Seminar 2: Uurimine - probleemi analüüs ja kasutajate mõistmine'
 
 ## Tänased eesmärgid 🎯
 
-Kursuse lõpus oskad:
+Seminari lõpus oskad:
 - ✅ **Mõista tarkvaraarenduse olemust** ja selle erinevust programmeerimisest
 - ✅ Defineerida ja analüüsida probleeme süstemaatiliselt
 - ✅ Kasutada erinevaid kasutajauuringute meetodeid
