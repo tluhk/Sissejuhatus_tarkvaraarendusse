@@ -143,7 +143,7 @@ Visual Studio Code on üks kõige populaarsemaid koodiredaktoreid maailmas, kuna
 
 **Eesmärk:**
 
-.gitignore fail aitab arendajatel vältida mittevajalike failide lisamist Git repositooriumi. See on eriti oluline, kuna tarkvara arenduse käigus tekivad sageli ajutised failid, süsteemispetsiifilised failid või suured kaustad, mida pole vaja teistega jagada.
+.gitignore fail aitab arendajatel vältida mittevajalike failide lisamist Git repositooriumi. See on eriti oluline, kuna tarkvaraarenduse käigus tekivad sageli ajutised failid, süsteemispetsiifilised failid või suured kaustad, mida pole vaja teistega jagada.
 
 **Näide:** Kui töötate Node.js projektiga, paigaldatakse kõik vajalikud teegid `node_modules` kausta, kuid seda kausta ei ole mõistlik Git repositooriumi lisada, sest sõltuvused saab uuesti installida `package.json` põhjal.
 
