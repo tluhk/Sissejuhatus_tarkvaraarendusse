@@ -97,6 +97,8 @@ Probleem → Analüüs → Disain → Arendamine → Testimine → Juurutamine �
 
 ## 1.2 Probleemi defineerimine
 
+---
+
 ### Mis on "hea" probleem? 🎯
 
 - ✅ **Selgelt defineeritud**: Konkreetne, mitte üldine
@@ -190,6 +192,8 @@ Probleem → Analüüs → Disain → Arendamine → Testimine → Juurutamine �
 
 ## 1.5 Konkurentsianalüüs
 
+---
+
 ### Miks konkurentsianalüüs on oluline? 🤔
 
 - 📊 Mõista turu praegust seisu
@@ -250,9 +254,11 @@ Probleem → Analüüs → Disain → Arendamine → Testimine → Juurutamine �
 - 🏘️ Kohalik kogukond
 - 🌱 Keskkond ja jätkusuutlikkus
 
+---
+
 ### Probleemi evalueerimine 📊
 **Aeg**: 10 minutit  
-Kasutades analüüsi raamistikku!
+Kasutades probleemi analüüsi raamistikku (slide 11)
 
 ---
 
@@ -278,6 +284,8 @@ Grupid modustavad paarid ja vahetavad rolle!
 - 5-7 peamist funktsionaalsed nõuet
 - Vorm: "Süsteem peab võimaldama..."
 - Prioritiseerimine: Must-have vs Nice-to-have
+
+---
 
 ### Mitte-funktsionaalsed nõuded 🔧
 **Aeg**: 10 minutit  
@@ -320,6 +328,8 @@ Grupid modustavad paarid ja vahetavad rolle!
 - **Detailne konkurentsianalüüs**: 5+ konkurenti
 - **Stakeholder analüüs**: Kes on kõik osapooled?
 
+---
+
 ### Individuaalne osa 👤
 - **Kasutajate uurija**: Täiendavad intervjuud ja andmeanalüüs
 - **Turu-analüütik**: Konkurendid ja ärimudel
@@ -358,6 +368,6 @@ Kuidas probleemi ja uurimuste põhjal planeerida projekti ja organiseerida meesk
 
 **Tänan tähelepanu eest!** 
 
-📧 Küsimused: [õpetaja email]  
+📧 Küsimused: Discordis 
 📁 Materjalid: GitHub repositooriumis  
 📅 Järgmine seminar: [kuupäev]

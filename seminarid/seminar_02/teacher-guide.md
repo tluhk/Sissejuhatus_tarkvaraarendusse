@@ -70,17 +70,24 @@ Millest ta koosneb?
 - **Rõhuta**: "See on jätkuv tsükkel, mitte lineaarne"
 - **Küsi tudengitelt**: "Miks on tagasiside oluline?"
 
+ENNE 6 slaidi:
+Pakkuge, millistest etappidest võiks tarkvara arendus koosneda?
+
 **SLIDE 6 - Põhietapid:**
 - **Läbi iga etapi**: Selgita igat sammavat
 - **Rõhuta**: "Meie kursuses läbime iga etapi!"
+
+Enne 7 slaidi:
+Küsi tudengitelt, millised rakendused on teie elu muutnud?
+
 
 **SLIDE 7 - Miks oluline:**
 - **Küsi tudengitelt**: "Millised rakendused on teie elu muutnud?"
 - **Seo näidetega**: Uber (automatiseerimine), Facebook (kommunikatsioon)
 
 Enne 8 slaidi:  
-#### Interaktiivne hetk (5 min):
-**Küsimus klassile**: "Kes teab, mida teeb toote omanik tarkvaraarenduses?"
+Interaktiivne hetk (5 min):
+"Kes teab, mida teeb toote omanik tarkvaraarenduses?"
 - Las tudengid mõtlevad paarides 2 minutit
 - Kogu vastused tahvlile
 - Selgita toote omaniku rolli
@@ -107,7 +114,10 @@ Enne 8 slaidi:
 
 ---
 
+
 ### 🎯 1.2 Probleemi defineerimine (20 min) - SLIDES 9-13
+Mis on hea probleemi definitsioon?
+Mis on halb probleemi definitsioonis 'Mul on igav'?
 
 #### Õpetaja kõne (10 min):
 **SLIDE 10 - Hea probleem:**
@@ -120,10 +130,48 @@ Enne 8 slaidi:
 
 **SLIDE 11 - Raamistik:**
 **"Siin on süstemaatiline viis probleemi analüüsimiseks."**
-- **Näide tahvlil**: Võta "tudengite kodutööde meeldetuletused"
-- Töötage läbi kõik 5 punkti koos tudengitega
 
-**SLIDE 12-13 - Näited:**
+**Näide tahvlil: "Tudengite kodutööde meeldetuletused"**
+
+**Töötage läbi 5 punkti koos tudengitega:**
+
+**1. PROBLEEM: Mis täpselt toimub valesti?**
+- **Küsi tudengitelt**: "Mis on teie kogemus kodutöödega?"
+- **Oodatavad vastused**: "Unustavad tähtajad", "Ei tea, mis on kodutöö", "Leiavad infot hilja"
+- **Täpsusta**: "Tudengid ei saa õigeaegselt infot kodutööde kohta"
+
+**2. MÕJU: Kellele ja kuidas see mõjutab?**
+- **Küsi**: "Kes sellest kannatab ja kuidas?"
+- **Oodatavad vastused**: 
+  - Tudengid: stress, kehvad hinded, ajaplaneerimise raskused
+  - Õpetajad: palju küsimusi, hilinenud tööd
+  - Ülikool: õppekvaliteedi langus
+
+**3. PÕHJUSED: Miks see probleem tekib?**
+- **Küsi**: "Miks see juhtub?"
+- **Oodatavad vastused**:
+  - Info on hajutatud (e-mail, Moodle, WhatsApp)
+  - Tudengid ei kontrolli regulaarselt kõiki kanaleid
+  - Õpetajad lisavad infot viimasel hetkel
+
+**4. KONTEKST: Millistes olukordades esineb?**
+- **Küsi**: "Millal ja kus see probleem tekib?"
+- **Oodatavad vastused**:
+  - Semestri alguses (palju uut infot)
+  - Enne tähtaegu (stress suureneb)
+  - Erinevate ainete puhul (igal õpetajal oma süsteem)
+
+**5. PIIRANGUD: Millised on tehnilised/ressursi/aja piirangud?**
+- **Küsi**: "Millised on piirangud lahenduse leidmisel?"
+- **Oodatavad vastused**:
+  - Eelarve: tudengitel pole raha maksma
+  - Tehnoloogia: peab töötama kõigil seadmetel
+  - Aeg: lahendus peab olema kiiresti kasutatav
+  - Õpetajad: ei taha rohkem tööd
+
+**Õpetaja märkus**: Kirjuta kõik vastused tahvlile raamistiku järgi, et tudengid näeksid struktuuri!
+
+**SLIDE 12 - Näited:**
 **"Vaatame, mis vahe on heal ja halval probleemi kirjeldusel."**
 
 #### Praktiline harjutus (10 min):
@@ -135,21 +183,25 @@ Enne 8 slaidi:
 
 ---
 
-### 🎯 1.3 Kasutajate uurimise meetodid (25 min) - SLIDES 14-16
+### 🎯 1.3 Kasutajate uurimise meetodid (25 min) - SLIDES 13-16
 
 #### Õpetaja kõne (15 min):
 **"Probleem on defineeritud, aga kuidas me teame, mida kasutajad tegelikult vajavad?"**
 
-**SLIDE 14 - Kvalitatiivsed meetodid:**
+**SLIDE 13 - Kvalitatiivsed meetodid:**
 - **Intervjuud**: "Küsi 'Miks?' vähemalt 5 korda"
 - **Näide**: Demos intervjuu tehnika - võta üks tudeng vabatahtlikuks
 - **Vaatlused**: "Inimesed räägivad ühte, aga teevad teist"
 
-**SLIDE 15 - Kvantitatiivsed meetodid:**
+**SLIDE 14 - Kvantitatiivsed meetodid:**
 - **Küsitlused**: "Suured numbrid, aga miks-küsimustele ei vasta"
 - **Analüütika**: "Google Analytics näitab, mida inimesed teevad"
+- **Persoonade loomine**: "Kasutajate vajaduste hindamine" [persona workshop](https://miro.com/persona/how-to-run-a-persona-workshop/)  
+- **Card sorting**: "Informatsiooni arhitektuuri testimine" [card sorting](https://youtu.be/6RhFN6cul3w)  
+[card sorting by NN](https://www.nngroup.com/articles/card-sorting-definition/)
+- **Journey mapping**: "Kasutajakogemuse kaardistamine" – see on meetod, mille abil kaardistatakse kasutaja teekond läbi süsteemi või teenuse. Eesmärk on mõista, milliseid samme kasutaja läbib, millised on tema kogemused, emotsioonid ja võimalikud takistused igas etapis. Journey mapping aitab tuvastada kitsaskohti ja võimalusi kasutajakogemuse parandamiseks.
+[Journey mapping](https://youtu.be/A2LFJF1SUBg)
 
-**SLIDE 16 - Kombineeritud:**
 - **Rõhuta**: "Parim tulemus tuleb kombinatsioonist"
 
 #### Praktiline näide (10 min):
@@ -158,12 +210,31 @@ Enne 8 slaidi:
 2. **Head küsimused**: "Kuidas te praegu kodutöid meeles peate?"
 
 **Demo**: Õpetaja intervjueerib ühte tudengit "kodutööde haldamise" kohta
+
 - Demonstreeri halbu ja häid küsimusi
 - Tudengid märgivad erinevust
 
+**Halvad küsimused** (miks need on halvad):
+- "Kas teile meeldiks, kui oleks olemas äpp, mis saadab kodutööde meeldetuletusi?"  
+  *Põhjus: suunav küsimus, eeldab juba lahendust, ei anna infot tegeliku vajaduse kohta.*
+- "Kas te kasutaksite sellist lahendust?"  
+  *Põhjus: hüpoteetiline, inimesed kipuvad viisakusest nõustuma, ei näita tegelikku käitumist.*
+- "Kas teil on tihti kodutöödega probleeme?"  
+  *Põhjus: üldine, ei aita mõista konkreetset olukorda ega tausta.*
+
+**Head küsimused** (miks need on head):
+- "Kuidas te praegu kodutööde tähtaegu meeles peate?"  
+  *Põhjus: uurib olemasolevat käitumist, annab infot tegeliku olukorra kohta.*
+- "Räägi viimasest korrast, kui unustasid kodutöö tähtaja – mis juhtus?"  
+  *Põhjus: konkreetne kogemus, aitab mõista probleemi tausta ja emotsioone.*
+- "Milliseid tööriistu või süsteeme sa praegu kasutad kodutööde jälgimiseks?"  
+  *Põhjus: selgitab, millised lahendused on juba kasutusel ja mis nende juures töötab/ei tööta.*
+
+**Arutelu**: Palu tudengitel märkida, miks üks küsimus on halb ja teine hea – rõhuta, et head küsimused keskenduvad kasutaja kogemusele ja olemasolevale käitumisele, mitte lahenduse pakkumisele.
+
 ---
 
-### 🎯 1.4 Nõuete tüübid (20 min) - SLIDES 17-20
+### 🎯 1.4 Nõuete tüübid (20 min) - SLIDES 15-17
 
 #### Õpetaja kõne (10 min):
 **"Kasutajate uurimine on tehtud. Nüüd peame selle tõlkima konkreetseteks nõueteks."**
@@ -181,18 +252,30 @@ Enne 8 slaidi:
 
 **Õpetaja feedback**: Paranda ja täienda tudengite vastuseid
 
+[Nõuete näide](https://wiki.twn.ee/spaces/REFERENTS/pages/83919369/3.+N%C3%B5uete+kaardistamine)  
+
+KAsutatakse ka tähistusi, nt:  
+- FN or FR - functional need või functional requirement
+- UC - use case
+jms.
+nt FN-UC01.1-4  
+
+
+
 ---
 
-### 🎯 1.5 Konkurentsianalüüs (15 min) - SLIDES 21-22
 
+
+### 🎯 1.5 Konkurentsianalüüs (15 min) - SLIDES 18-22
 #### Õpetaja kõne (10 min):
+Küsimus:  
 **"Miks peaksime vaatama, mida teised juba teevad?"**
 
-**SLIDE 21 - Miks oluline:**
+**SLIDE 19 - Miks oluline:**
 - **Näide**: "Tesla ei leiutanud elektriautot, aga tegi seda paremini"
 - **Rõhuta**: Innovatsioon ≠ täiesti uus asi
 
-**SLIDE 22 - Raamistik:**
+**SLIDE 20 - Raamistik:**
 - **Praktiline näide**: Vaatame koos Spotify vs Apple Music
   - Läbida kõik 6 punkti
 
@@ -204,9 +287,11 @@ Enne 8 slaidi:
 
 **Analüüsi**: Miks valite just neid?
 
+**SLIDE 21 - Dokumentatsioon** 
+
 ---
 
-## 10-MINUTILINE PAUS ☕
+## Vaheaeg ☕
 
 ---
 
@@ -219,14 +304,22 @@ Enne 8 slaidi:
 
 **Gruppide moodustamine**:
 - 3-4 tudengit grupis
-- Jaga välja kleepsud gruppide märkistamiseks
-- Iga grupp valib endale nime
+- töövahendite seadistamine – tunni repo/kaust, md file
 
 #### Brainstorm (10 min):
 **SLIDE 24 - Valdkonnad:**
 **Juhendid gruppidele**:
 1. **5 min**: Brainstorming - iga valdkonna kohta vähemalt 2 probleemi
-2. **Kasuta tahvlit/paberit**: Kirjutage kõik ideed üles
+2. **Kasuta seminar-01 kausta**: 
+- `problem-definition.md` - valitud probleem
+- `user-research.md` - intervjuu tulemused
+- `requirements.md` - funktsionaalsed ja mitte-funktsionaalsed nõuded
+- `competitive-analysis.md` - konkurentide analüüs
+- `README.md` - projekti ülevaade
+
+
+Korralik vormistus, grupiliikmete nimed. 
+Kirjutage kõik ideed üles
 3. **Ära kritiseeri**: Kõik ideed on lubatud!
 
 **Õpetaja ülesanne**: Käi gruppide vahel ringi, küsi täpsustavaid küsimusi
