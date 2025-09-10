@@ -10,7 +10,7 @@
 ## SEMINARI ÜLEVAADE
 
 ### Peamine eesmärk
-Tudengid mõistavad, mis on tarkvaraarendus ning õpivad esimest etappi arendusprotsessis - probleemi defineerimine ja kasutajate uurimine.
+Tudengid mõistavad, mis on tarkvaraarendus ning õpivad arendusprotsessi esimest etappi - probleemi defineerimine ja kasutajate uurimine.
 
 ### Õpiväljundid
 Seminari lõpuks tudeng:
@@ -74,24 +74,36 @@ Seminari lõpuks tudeng:
 - **Küsi tudengitelt**: "Millised rakendused on teie elu muutnud?"
 - **Seo näidetega**: Uber (automatiseerimine), Facebook (kommunikatsioon)
 
+Enne 8 slaidi:  
+#### Interaktiivne hetk (5 min):
+**Küsimus klassile**: "Kes teab, mida teeb toote omanik tarkvaraarenduses?"
+- Las tudengid mõtlevad paarides 2 minutit
+- Kogu vastused tahvlile
+- Selgita toote omaniku rolli
+- Selgita toote omaniku rolli:  
+  Toote omanik (product owner) on inimene, kes vastutab arendusmeeskonnas selle eest, et arendatav tarkvara vastaks kasutajate ja ärilistele vajadustele. Ta kogub ja prioriseerib nõudeid, suhtleb nii tellija kui ka arendajatega ning otsustab, millised funktsioonid ja muudatused on kõige olulisemad. Toote omanik on justkui sillaehitaja kasutajate, äripoole ja arendajate vahel ning tema ülesanne on tagada, et lõpptulemus lahendaks õigeid probleeme.
+
+#### Kontrollküsimused (5 min):
+1. "Mis vahe on tarkvaraarendusel ja programmeerimisel?"  
+   **Vastus:** Tarkvaraarendus hõlmab kogu protsessi alates probleemi mõistmisest, nõuete kogumisest, disainist, koodimisest, testimisest kuni juurutamise ja hoolduseni. Programmeerimine (ehk koodimine) on vaid üks osa sellest protsessist – see tähendab koodi kirjutamist.
+
+2. "Nimetage kolm tarkvara komponenti"  
+   **Vastus:**  
+   - Kood (programmeerimiskeeles kirjutatud juhised)  
+   - Andmed (informatsioon, mida tarkvara töötleb)  
+   - Dokumentatsioon (selgitused, kuidas tarkvara töötab ja kuidas seda kasutada)
+
+3. "Miks on tarkvara arendamine tsükliline protsess?"  
+   **Vastus:** Sest tarkvara arenduses saadakse pidevalt tagasisidet kasutajatelt ja äripoolelt, mille põhjal tuleb lahendust täiustada. Vajadused ja tehnoloogiad muutuvad, seega tuleb tarkvara regulaarselt uuendada ja parandada, et see vastaks kasutajate ootustele ja lahendaks õigeid probleeme.
+
 **SLIDE 8 - Võrdlustabel:**
 - **OLULINE MOMENT**: "Programmeerimine on ainult üks osa!"
 - **Analoogia**: "Nagu maja ehitamine - see ei ole ainult telliste laduminem"
 
-#### Interaktiivne hetk (5 min):
-**Küsimus klassile**: "Kes teab, mida teeb Product Manager tarkvaraarenduses?"
-- Las tudengid mõtlevad paarides 2 minutit
-- Kogu vastused tahvlile
-- Selgita Product Manager rolli
-
-#### Kontrollküsimused (5 min):
-1. "Mis vahe on tarkvaraarendusel ja programmeeremisel?"
-2. "Nimetage kolm tarkvara komponenti"
-3. "Miks on tarkvara arendamine tsükliline protsess?"
 
 ---
 
-### 🎯 1.2 Probleemi defineerimine (20 min) - SLIDES 10-13
+### 🎯 1.2 Probleemi defineerimine (20 min) - SLIDES 9-13
 
 #### Õpetaja kõne (10 min):
 **SLIDE 10 - Hea probleem:**

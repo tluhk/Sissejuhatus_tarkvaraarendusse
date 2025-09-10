@@ -10,7 +10,7 @@ footer: 'Seminar 2: Uurimine - probleemi analüüs ja kasutajate mõistmine'
 ## Probleemi analüüs ja kasutajate mõistmine
 
 **Kestus**: 3h (90 min teooria + 90 min praktikat)  
-**Fookus**: Arendusprotsessi 1. etapp - probleemi defineerimine ja uurimine
+**Fookus**: arendusprotsessi esimene etapp - probleemi defineerimine ja uurimine
 
 ---
 
@@ -82,7 +82,7 @@ Probleem → Analüüs → Disain → Arendamine → Testimine → Juurutamine �
 
 ---
 
-## Tarkvaraarendus vs Programmeerimine
+## Tarkvaraarendus vs programmeerimine
 
 | **Programmeerimine** | **Tarkvaraarendus** |
 |---|---|
@@ -137,7 +137,7 @@ Probleem → Analüüs → Disain → Arendamine → Testimine → Juurutamine �
 - **Intervjuud**: Süvavestlused kasutajatega
   - Struktureeritud vs poolstruktureeritud vs vabad
   - Küsimuste koostamise tehnika
-  - Aktiivsne kuulamine
+  - Aktiivne kuulamine
 - **Vaatlused**: Kasutajate käitumise jälgimine loomulikus keskkonnas
 - **Fookusgrupi arutelud**: Grupidiskussioonid
 
@@ -221,11 +221,13 @@ Probleem → Analüüs → Disain → Arendamine → Testimine → Juurutamine �
 4. **Soovitused**: Mida edasi teha
 5. **Lisad**: Toetavad materjalid
 
+---
+
 ### Markdown parimad tavad:
 - Selged pealkirjad ja struktuur
 - Pildid ja diagrammid illustreerimiseks
 - Linkid allikatele
-- Version control läbi Git
+- Versioonihaldus läbi Giti
 
 ---
 
@@ -240,11 +242,11 @@ Probleem → Analüüs → Disain → Arendamine → Testimine → Juurutamine �
 
 ## 2.1 Probleemi valimine ja defineerimine
 
-### Grupitöö: probleemi brainstorm 🧠
+### Grupitöö: probleemi ajurünnak 🧠
 **Aeg**: 10 minutit  
 **Valdkonnad**:
 - 🎓 Haridus ja õppimine
-- 👨‍🎓 Tudengite igapäevane elu
+- 👨‍🎓 Tudengite igapäevane elu (nt toitlustus)
 - 🏘️ Kohalik kogukond
 - 🌱 Keskkond ja jätkusuutlikkus
 
@@ -265,7 +267,7 @@ Kasutades analüüsi raamistikku!
 
 ### Rollimäng: kasutajate intervjuu 🎭
 **Aeg**: 20 minutit  
-Grupid paaristavad ja vahetavad rolle!
+Grupid modustavad paarid ja vahetavad rolle!
 
 ---
 
@@ -333,7 +335,7 @@ Grupid paaristavad ja vahetavad rolle!
 - **Dokumentatsioon**: Selgus ja professionaalsus
 - **Koostöö**: GitHub workflow ja peer review kvaliteet
 
-**📅 Tähtaeg**: 1 nädal  
+**📅 Tähtaeg**: Seminarinädala esmaspäeva hommikul kell 9.00  
 **🔄 Protsess**: Individual research → Branch → PR → Peer review → Merge
 
 ---
