@@ -6,6 +6,16 @@ header: 'Sissejuhatus tarkvaraarendusse'
 footer: 'Seminar 2: Uurimine - probleemi analüüs ja kasutajate mõistmine'
 ---
 
+# Tagasisid esimesele seminarile
+## Millised olid probleemid?
+- Kas markdown sai selgeks?
+- Kas git ja github on arusaadav?
+
+NB! Esimsele semestril on täitsa ok kasutada GH Desktoppi. Ärge tekitage endas pinget terminaliga.
+NB! NB! Ärge kasutage Githubi veebis! Vaid erandjuhtudel, kui kindlalt teate, mida teete.
+
+---
+
 # Seminar 2: Uurimine
 ## Probleemi analüüs ja kasutajate mõistmine
 
@@ -16,7 +26,6 @@ footer: 'Seminar 2: Uurimine - probleemi analüüs ja kasutajate mõistmine'
 
 ## Tänased eesmärgid 🎯
 
-Seminari lõpus oskad:
 - ✅ **Mõista tarkvaraarenduse olemust** ja selle erinevust programmeerimisest
 - ✅ Defineerida ja analüüsida probleeme süstemaatiliselt
 - ✅ Kasutada erinevaid kasutajauuringute meetodeid
@@ -112,7 +121,7 @@ Probleem → Analüüs → Disain → Arendamine → Testimine → Juurutamine �
 
 ```
 1. PROBLEEM: Mis täpselt toimub valesti?
-2. MÕJU: Kellele ja kuidas see mõjutab?
+2. MÕJU: Kellele ja kuidas see mõjub?
 3. PÕHJUSED: Miks see probleem tekib?
 4. KONTEKST: Millistes olukordades esineb?
 5. PIIRANGUD: Millised on tehnilised/ressursi/aja piirangud?
