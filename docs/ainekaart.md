@@ -36,4 +36,4 @@ Luua eeldused teadmiste kujunemiseks tarkvaraarenduse protsessist ja arendusmeet
 
 - Eksam
   - 50% punktidest kodused tööd
-  - 50% punktidest kohapeal tehtav avatud ja valikvastustega test
+  - 50% punktidest kohapeal tehtav avatud ja valikvastustega test 
