@@ -26,56 +26,62 @@
 ## **2. Teine seminar**
 
 ### **Teemad:**
-- Tarkvaraarenduse meetodid (Agile, Scrum)
-- Rollid tarkvaraarenduses
-- Koodi kvaliteet
-- VSCode seadistamine
-
-### **Materjalid:**
-- [Seminari slaidid](https://gamma.app/docs/Tarkvaraarenduse-meetodid-ja-koodi-kvaliteet-6hyvvauxa5dckj4)
-- [Seminari salvestus](https://youtu.be/2GWtP4dUIcQ?si=L2aPjk4xkmN9kOqE)
-
-### **Kontseptsioonid:**
-- [Tarkvaraarenduse meetodid](../concepts/arendusmeetodid/README.md)
-- [Rollid tarkvaraarenduses](../concepts/rollid/README.md)
-- [Koodi kvaliteet](../concepts/koodikvaliteet/README.md)
-- [.gitignore](../concepts/gitignore/README.md)
+- Probleemi defineerimine ja analüüs
+- Kasutajate uurimise meetodid (intervjuud, küsitlused, vaatlused)
+- Harjutus nõuete väljaselgitamiseks
+- VSCode + Markdown uurimistulemuste dokumenteerimiseks
+- Konkurentsianalüüs ja turu-uuringud
+- Funktsionaalsed vs mitte-funktsionaalsed nõuded
+- Nõuete kogumine ja dokumenteerimine
 
 ### **Kodutöö:**
 [Teise koduse töö kirjeldus](../docs/kodusedtood/kodune_02.md)
-[Kolmanda koduse töö kirjeldus](../docs/kodusedtood/kodune_03.md)
 
 ## **3. Kolmas seminar**
 
 ### **Teemad:**
-#### Osa 1:
-- Eelmise seminari meenutus
-- Tagasiside kodutöödele
-- Commitite kirjutamine
-- Avatud ja suletud lähtekood
-- Litsentsid
-
-#### Osa 2:
-- Persoonad
-- Kasutajalood (user stories)
-- Stsenaariumid
+- Rollid tarkvaraarenduses: product owner, Scrum Master, Developer, QA, UX Designer
+- projekti planeerimine: Ajakavad, ressursid, riskid
+- Arendusmetoodikad võrdlus: Waterfall, Agile, Scrum, Kanban, Lean
+- meeskonnatöö ja kommunikatsioon: Hajusmeeskonnatöö, kommunikatsiooni raamistikud, konfliktide lahendamine
+- Git branching strateegiad: Feature branches, merge strateegiad
+- Koostöö tööriistad: GitHub workflow, projektihalduse platvormid
 
 ### **Kodutöö:**
-[Neljanda koduse töö kirjeldus](../docs/kodusedtood/kodune_04.md)
+[Kolmanda koduse töö kirjeldus](../docs/kodusedtood/kodune_03.md)
 
 ## **4. Neljas seminar**
 
 ### **Teemad:**
-#### 1. osa: paberprototüüpide loomine
-- Paberprototüüpide eesmärk ja kasulikkus
-- Paberprototüüpide loomise põhimõtted
-- Praktilised harjutused
-- Prototüüpide testimine ja tagasiside
+- Design Thinking metoodika: Empaatia → Definitsioon → Ideation → Prototüüp → Test
+- Kasutajate mõistmine: Persoonade loomine uurimistulemuste põhjal
+- Kasutajalugude kirjutamine: "Kasutajana soovin..."
+- Stsenaariumide arendamine: Samm-sammulised kasutaja teekond
+- Kasutaja teekond (customer journey): Täielik kogemuse kaardistamine
+- RK lehekülje kasutajalood: Praktiline näide haridusportaalist
+- Paberprototüüpide loomine gruppides
+- Prototüüpide testimine: Rollimäng kasutajatega
+- Dokumenteerimine: Prototüüpide digitaliseerimine, disaini spetsifikatsioonid, GitHub dokumenteerimine
 
-#### 2. osa: projekti haldamine Githubis
-- Scrum ja Kanban metoodikad
-- Github Projects funktsionaalsus ja erinevad vaated
-- Projekti töövoo ja tööülesannete haldamine
+### **Kodutöö:**
+[Neljanda koduse töö kirjeldus](../docs/kodusedtood/kodune_04.md)
+
+## **5. Viies seminar**
+
+### **Teemad:**
+- Sprint planning: prototüüpidest arendusülesannete juurde, Epic-ute jagamine, Story points ja hinnangud, Sprint backlog
+- GitHub Projects praktiline seadistamine: Epic-ute loomine, Issue-te konvertimine, Kanban board, Labels ja prioriteedid, Milestone-d ja releases
+- Sprint simulation: Daily standup simulation, Progressi jälgimine, Blocker-ite käsitlemine
 
 ### **Kodutöö:**
 [Viienda koduse töö kirjeldus](../docs/kodusedtood/kodune_05.md)
+
+## **6. Kuues seminar**
+
+### **Teemad:**
+- Kvaliteedi testimine ja QA metoodikad: testimise liigid, QA protsessid, Prototype testing, User acceptance testing, Documentation review, Cross-team review, Bug reporting
+- Release ettevalmistus ja DevOps alused: release management, DevOps põhimõtted, Release notes kirjutamine, Final documentation, GitHub Pages seadistamine, Deployment checklist, Retrospective
+- "Product launch" - esitlused: Product demo, Process presentation, Lessons learned
+
+### **Kodutöö:**
+[Kuuenda koduse töö kirjeldus](../docs/kodusedtood/kodune_06.md)
