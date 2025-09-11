@@ -4,7 +4,7 @@
 |---|---|
 |Õppeaine nimetus eesti k: | Sissejuhatus tarkvaraarendusse |
 | Õppeaine nimetus inglise k: | Introduction to Software Engineering |
-| Õppeaine maht EAP: | 4.0 |
+| Õppeaine maht EAP: | 6.0 |
 | Kontrollivorm: | eksam |
 
 ## Õppeaine eesmärgid
@@ -26,10 +26,11 @@ Luua eeldused teadmiste kujunemiseks tarkvaraarenduse protsessist ja arendusmeet
 ## Õppeaine õpiväljundid
 
 Õppeaine edukal läbimisel üliõpilane:
-- kirjeldab erinevaid tarkvaraarenduse protsesse ja elutsükli etappe, erinevate tarkvara arendusmeetodite olemust ja eeliseid
-- kirjeldab erinevaid rolle tarkvaraarenduses
-- kasutab erinevates arenduse õppeainetes koodihalduskeskkonda
-- kasutab arenduse õppeainetes koodi kvaliteedi tagamiseks vähemalt ühte tööriista
+- selgitab tarkvara olemust, erinevaid tarkvaratüüpe ja arhitektuuri ning tarkvara arendusprotsesside ja metoodikate (sh SDLC ja agiilsed meetodid) põhimõtteid ja eeliseid;  
+- kirjeldab tarkvara litsentsimise tüüpe, nende rakendusvõimalusi ja mõju tarkvaraprojektidele;  
+- kasutab versioonihalduse tööriistu, nagu Git ja GitHub, meeskonnatööks, arvestades tarkvaraarenduse häid tavasid;  
+- rakendab koodi kvaliteedi ja jätkusuutlikkuse tagamiseks häid arendustavasid, sealhulgas dokumenteerimist ja koodi ülevaatust;  
+- planeerib ja juhib oma töövoogu efektiivselt, rakendades ajahalduse põhimõtteid.  
 
 ## Hindamine
 
