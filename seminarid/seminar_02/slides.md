@@ -6,13 +6,13 @@ header: 'Sissejuhatus tarkvaraarendusse'
 footer: 'Seminar 2: Uurimine - probleemi analüüs ja kasutajate mõistmine'
 ---
 
-# Tagasisid esimesele seminarile
+# Tagasiside esimesele seminarile
 ## Millised olid probleemid?
 - Kas markdown sai selgeks?
 - Kas git ja github on arusaadav?
 
 NB! Esimsele semestril on täitsa ok kasutada GH Desktoppi. Ärge tekitage endas pinget terminaliga.
-NB! NB! Ärge kasutage Githubi veebis! Vaid erandjuhtudel, kui kindlalt teate, mida teete.
+NB! NB! Ärge kasutage Githubi koodimuudatuste tegemise võimalust veebis! Vaid erandjuhtudel kui kindlalt teate, mida teete.
 
 ---
 
@@ -26,7 +26,7 @@ NB! NB! Ärge kasutage Githubi veebis! Vaid erandjuhtudel, kui kindlalt teate, m
 
 ## Tänased eesmärgid 🎯
 
-- ✅ **Mõista tarkvaraarenduse olemust** ja selle erinevust programmeerimisest
+- ✅ **Mõista tarkvaraarenduse olemust**
 - ✅ Defineerida ja analüüsida probleeme süstemaatiliselt
 - ✅ Kasutada erinevaid kasutajauuringute meetodeid
 - ✅ Eristada funktsionaalseid ja mitte-funktsionaalseid nõudeid
@@ -250,6 +250,7 @@ Probleem → Analüüs → Disain → Arendamine → Testimine → Juurutamine �
 ### 2.2 Kasutajate uurimise harjutus (30 min)
 ### 2.3 Nõuete kogumine (25 min)
 ### 2.4 Konkurentsianalüüs (15 min)
+Praktiline töötuba on ettevalmistus kodutööks
 
 ---
 
@@ -325,7 +326,7 @@ Grupid modustavad paarid ja vahetavad rolle!
 - `competitive-analysis.md` - konkurentide analüüs
 - `README.md` - projekti ülevaade
 
-**🔄 Git workflow**: Fork/Branch → Commit → Push → PR
+**🔄 Git workflow**: Issue → Branch → Changes → Commit → Push → PR → Review → Merge
 
 ---
 
@@ -355,7 +356,7 @@ Grupid modustavad paarid ja vahetavad rolle!
 - **Koostöö**: GitHub workflow ja peer review kvaliteet
 
 **📅 Tähtaeg**: Seminarinädala esmaspäeva hommikul kell 9.00  
-**🔄 Protsess**: Individual research → Branch → PR → Peer review → Merge
+**🔄 Protsess**: Individual research → Issue → Branch → Changes → Commit → Push → PR → Review → Merge
 
 ---
 

@@ -21,14 +21,6 @@ Seminari lõpuks tudeng:
 - Oskab dokumenteerida uurimistulemusi professionaalselt
 - Mõistab konkurentsianalüüsi tähtsust
 
-### Materjalid seminariks
-- [ ] Projektori seadistus (slides.md)
-- [ ] Flipchart paberid gruppidele
-- [ ] Markerid
-- [ ] Timer/stopperid
-- [ ] Kleepsud gruppide märkimiseks
-- [ ] GitHub repo template-i link
-
 ---
 
 ## SEMINARI STRUKTUUR
@@ -52,13 +44,11 @@ Seminari lõpuks tudeng:
 
 ## OSA 1: TEOORIA (90 MINUTIT)
 
-### 🎯 1.1 Mis on tarkvaraarendus? (15 min) - SLIDES 5-9
+### 🎯 1.1 Mis on tarkvaraarendus? (15 min) - SLIDES 3-9
 
-#### Õpetaja kõne (5 min):
-**"Tere tulemast teisele seminarile! Enne kui sukeldume probleemide analüüsimisesse, peame vastama põhiküsimusele: mis on tarkvaraarendus? Paljud arvavad, et see on lihtsalt programmeerimine, aga tegelikult on see palju laiem."**
-
-Sissejuhatus slaidile 5:
-Mis on teie arust tarkvara?
+(5 min):
+**Slide 3 - Mis üldse on tarkvaraarendus? Paljud arvavad, et see on lihtsalt programmeerimine, aga tegelikult on see palju laiem."**
+Mis on teie arust tarkvara? Mis on tarkvaraarendus?
 Millest ta koosneb?
 
 **SLIDE 5 - Tarkvara definitsioon:**
@@ -78,7 +68,7 @@ Pakkuge, millistest etappidest võiks tarkvara arendus koosneda?
 - **Rõhuta**: "Meie kursuses läbime iga etapi!"
 
 Enne 8 slaidi:
-Küsi tudengitelt, millised rakendused on teie elu muutnud?
+Küsi tudengitelt, millised rakendused on teie elu muutnud? Et teada või juhtida tähelepanu, miks tarkvaraarendus on oluline – probleemide lahendamine.
 
 
 **SLIDE 8 - Miks oluline:**
@@ -297,6 +287,8 @@ Küsimus:
 ---
 
 ## OSA 2: PRAKTILINE TÖÖTUBA (90 MINUTIT)
+
+Eesmärk teha kodutöö jaoks vajalikud "soojendused", et oskaks kodutöö lõpuni teha.
 
 ### 🛠️ 2.1 Probleemi valimine ja defineerimine (20 min) - SLIDES 25-26
 
