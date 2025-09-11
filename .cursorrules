@@ -1,0 +1,115 @@
+# Estonian Language and Grammar Rules for Cursor
+
+## General Estonian Writing Conventions
+
+### Headlines and Titles
+- Use sentence case (capitalize only the first word and proper nouns)
+- Examples:
+  - ✅ "Sissejuhatus tarkvaraarendusse"
+  - ✅ "Git ja GitHub põhitõed"
+  - ❌ "Sissejuhatus Tarkvaraarendusse" (don't capitalize every word)
+  - ❌ "Git Ja GitHub Põhitõed"
+
+### Capitalization Rules
+- Capitalize only:
+  - First word of sentences
+  - Proper nouns (names, places, companies: GitHub, VSCode, Tallinn)
+  - Beginning of direct quotes
+- Do NOT capitalize:
+  - Regular nouns in the middle of sentences
+  - Course subjects or general concepts
+  - Technology terms unless they are proper nouns
+
+### Estonian-specific Grammar
+- Use Estonian word order: Subject-Verb-Object
+- **CRITICAL: Proper use of Estonian käänded (cases)**:
+  - Coordinated nouns must be in the same case: "koodimise ja programmeerimise" (both genitive)
+  - Genitive for possession/attributes: "tarkvaraarenduse protsess"
+  - Partitive for indefinite objects: "koodi kirjutamine"
+  - Locative cases for spatial/temporal relations
+- Correct plural forms ending in -d, -sid, -te
+- Use Estonian conjunctions: ja (and), või (or), aga (but), kuid (however)
+
+### Punctuation
+- Use Estonian punctuation rules
+- Commas before subordinate clauses introduced by "et", "kui", "kuna"
+- No comma before "ja" in simple lists (unlike English)
+
+### Technical Terms
+- Keep English technical terms in original form when widely accepted:
+  - ✅ Git, GitHub, VSCode, pull request, commit
+  - ✅ Markdown, README, Issues
+- Translate when good Estonian equivalent exists:
+  - ✅ "repositoorium" instead of "repository"
+  - ✅ "haru" instead of "branch"
+  - ✅ "koodiülevaatus" instead of "code review"
+  - ✅ "koodimine" instead of "coding" (NOT "kodeerimine")
+  - ✅ "programmeerija" for "programmer"
+
+### Mixed Language Usage
+- When using English terms in Estonian text, don't inflect them unnecessarily
+- Use Estonian grammar with English loan words appropriately
+- Examples:
+  - ✅ "Git-i kasutamine" (using Git)
+  - ✅ "pull request-i esitamine" (submitting a pull request)
+  - ✅ "VSCode-s töötamine" (working in VSCode)
+
+### Document Structure
+- Use consistent Estonian formatting for:
+  - Section headers (sentence case)
+  - Lists and bullet points
+  - File names and references
+  - Links and citations
+
+### Common Estonian Phrases for Technical Writing
+- "Praktiline harjutus" (practical exercise)
+- "Kodutöö" (homework)
+- "Õpieesmärk" (learning objective)
+- "Arendusprotsess" (development process)
+- "Meeskonnatöö" (teamwork)
+- "Projektijuhtimine" (project management)
+
+### File Naming
+- Use lowercase with hyphens for multi-word files
+- Examples:
+  - ✅ "kodutoo-01.md"
+  - ✅ "seminari-materjalid.md"
+  - ✅ "kasutaja-lood.md"
+
+### Estonian Academic Writing Style
+- Use formal but accessible language
+- Avoid overly complex sentences
+- Use active voice when possible
+- Be concise and clear
+- Use appropriate academic terminology in Estonian
+
+## Application in This Project
+
+When writing course materials, documentation, or any content:
+1. Check headline capitalization (sentence case only)
+2. Verify Estonian grammar and word order
+3. Use appropriate technical term translations
+4. Follow Estonian punctuation rules
+5. Maintain consistent formatting throughout documents
+6. Use proper Estonian academic writing style
+
+## Examples of Correct Usage
+
+### Headlines:
+✅ "Tarkvaraarenduse elutsükkel"
+✅ "Git ja GitHub põhitõed"
+✅ "Kasutajakeskne disaini meetodid"
+
+### Technical Integration:
+✅ "GitHub-i repositooriumi loomine"
+✅ "Pull request-i protsess"  
+✅ "Markdown-i dokumentatsiooni kirjutamine"
+✅ "Koodimise ja programmeerimise alused"
+❌ "Kodeerimine" (incorrect form)
+
+### Lists and Content:
+✅ "Seminari eesmärgid:"
+✅ "Praktilised harjutused:"
+✅ "Kodutöö tingimused:"
+
+Remember: Estonian is the primary language, English technical terms are integrated naturally but don't override Estonian grammar rules.
