@@ -408,4 +408,4 @@ Kursuse lõpuks mõistavad tudengid täielikult **tee ideest tarkvarani**:
 2. **Template-de loomine** - GitHub repo template-id kodutöödeks
 3. **Hindamiskriteeriumi täpsustamine** - rubric-ud iga kodutöö jaoks
 4. **Eksami kujundamine** - praktiline eksam GitHub-is
-5. **Õpetaja ressursside loomine** - juhendid kursuse läbiviimiseks
+5. **Õpetaja ressursside loomine** - juhendid kursuse läbiviimiseks 
