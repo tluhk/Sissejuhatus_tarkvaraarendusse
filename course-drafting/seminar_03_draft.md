@@ -17,42 +17,42 @@ Kursuse lõpus tudeng:
 
 ### 1.1 Arendusmetoodikate ülevaade (35 min)
 
-#### Waterfall mudel (10 min)
-**Iseloomustus**: Lineaarne, sammhaaval mudel
+#### Kosk/Waterfall mudel (10 min)
+**Iseloomustus**: lineaarne, sammhaaval 
 
 **Etapid**:
 1. Nõuete kogumine ja analüüs
 2. Süsteemi disain
-3. Rakendamine (kodeerimine)
+3. Rakendamine (koodimine)
 4. Testimine
 5. Juurutamine
 6. Hooldus
 
 **Eelised**:
 - ✅ Selge struktuur ja dokumentatsioon
-- ✅ Hea raske muutuvate nõuete puhul
+- ✅ Hea, kui nõuded ei muutu tihti
 - ✅ Lihtne planeerida ja jälgida
 
 **Puudused**:
 - ❌ Vähe paindlikkust muudatusteks
-- ❌ Hilised tagasiside
+- ❌ Hiline tagasiside
 - ❌ Risk, et lõpptulemus ei vasta vajadustele
 
 **Millal kasutada**: Selged, stabiilsed nõuded; reguleeritud valdkonnad
 
-#### Agile manifestos ja põhimõtted (10 min)
+#### Agiilne arendus ja põhimõtted (10 min)
 **4 põhiväärtust**:
 1. **Inimesed ja koostöö** > protsessid ja tööriistad
 2. **Töötav tarkvara** > põhjalik dokumentatsioon
 3. **Koostöö kliendiga** > lepingu tingimused
 4. **Reageerimine muudatustele** > plaani järgimine
 
-**12 agile põhimõtet** (võtmepunktid):
+**12 agiilse arenduse põhimõtet** (võtmepunktid):
 - Kliendi rahulolu läbi pideva väärtuse tarnimise
-- Tervitame muudatusi ka projekti hilises faasis
-- Tarnime töötavat tarkvara sagedasti (nädalad, mitte kuud)
+- Muudatusi saab teha ka projekti hilises faasis
+- Töötavat tarkvara sage tarnimine (nädalad, mitte kuud)
 - Äri ja arendajad töötavad koos iga päev
-- Ehita projektid motiveeritud inimeste ümber
+- Saab ehitada projektid motiveeritud inimeste ümber
 
 #### Scrum raamistik (15 min)
 **Rollid**:
@@ -76,7 +76,7 @@ Kursuse lõpus tudeng:
 ### 1.2 Kanban ja Lean põhimõtted (20 min)
 
 #### Kanban süsteem (10 min)
-**Põhiprintsiip**: Töövoore visualiseerimine ja piiramine
+**Põhiprintsiip**: Töövoogude visualiseerimine ja piiramine
 
 **Kanban tahvel**:
 ```
@@ -205,7 +205,7 @@ To Do | In Progress | Review | Done
 #### Rollide tutvustus ja valik
 **Ülesanne**: Iga tudeng valib endale peamise rolli järgmisteks seminariteks:
 
-**Võimalikud rollid**:
+**Võimalikud rollid**: (Ilmselt mõistlik muuta, kuna Scrummasteriks niteks peaks ikka õppima jms)
 - **Product Owner**: Toote visioon, prioriteedid, kasutajate esindamine
 - **Scrum Master**: Protsessi koordineerimine, takistuste lahendamine
 - **UX Designer**: Kasutajakogemus, uuringud, testimine
@@ -220,14 +220,14 @@ To Do | In Progress | Review | Done
 - Millised tulemused on tema vastutada
 - Kuidas ta oma rolli edukust mõõdab
 
-### 2.2 Projekti charter ja ajakava loomine (25 min)
+### 2.2 Projekti ajakava loomine (25 min)
 
-#### Projekti charter workshop
+#### Projekti ajakava workshop
 **Aeg**: 20 minutit  
-**Ülesanne**: Grupp täidab projekti charter template:
+**Ülesanne**: Grupp täidab projekti ajakava templiidi:
 
 ```markdown
-# PROJECT CHARTER
+# PROJECT AJAKAVA
 
 ## Projekti ülevaade
 - **Projekti nimi**: 
@@ -260,7 +260,7 @@ To Do | In Progress | Review | Done
 
 #### Ajakava visualiseerimine
 **Aeg**: 5 minutit  
-**Ülesanne**: Roadmap loomine Miro või paberil
+**Ülesanne**: Roadmap loomine Miros/Figmas või paberil
 
 ### 2.3 GitHub organisatsiooni ja projekti seadistamine (30 min)
 
