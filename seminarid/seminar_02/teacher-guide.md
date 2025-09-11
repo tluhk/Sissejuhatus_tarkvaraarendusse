@@ -107,6 +107,7 @@ Interaktiivne hetk (5 min):
 
 ### 🎯 1.2 Probleemi defineerimine (20 min) - SLIDES 10-14
 
+**SLIDE 10**
 Mis on hea probleemi definitsioon?
 Mis on halb probleemi definitsioonis 'Mul on igav'?
 
@@ -348,7 +349,7 @@ Kirjutage kõik ideed üles
 **"Nüüd testite oma küsimusi!"**
 
 **Juhendid**:
-1. **Gruppide paaristamine**: Grupp A intervjueerib gruppi B
+1. **Grupp A intervjueerib gruppi B**
 2. **10 min esimene voor**: A küsib, B vastab (nende probleemi kontekstis)
 3. **10 min teine voor**: Rollide vahetus
 
