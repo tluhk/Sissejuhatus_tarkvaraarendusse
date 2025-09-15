@@ -420,7 +420,6 @@ Kirjutage kõik ideed üles
    - `competitive-analysis.md`
    - `README.md` (projekti kirjeldus)
 
-**Template failid**: Anna linkid template-idele
 
 ---
 
