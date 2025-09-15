@@ -49,11 +49,8 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 
 ## Seminarid
 
-[Sissejuhatav seminar Marttiga](seminarid/sissejuhatus/README.md)  
-[Esimene](seminarid/seminar_01/README.md)  
-[Teine](seminarid/seminar_02/README.md)  
-[Kolmas](seminarid/seminar_03/README.md)  
-[Neljas](seminarid/seminar_04/README.md)
+[Sissejuhatav seminar Marttiga](seminarid/sissejuhatus/README.md)
+[Teine](seminarid/seminar_02/slides.md)  
 
 ## Eksam
 
