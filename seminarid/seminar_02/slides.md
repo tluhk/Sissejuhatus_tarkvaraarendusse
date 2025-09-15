@@ -22,6 +22,9 @@ NB! NB! Ärge kasutage Githubi koodimuudatuste tegemise võimalust veebis! Vaid 
 **Kestus**: 3h (90 min teooria + 90 min praktikat)  
 **Fookus**: arendusprotsessi esimene etapp - probleemi defineerimine ja uurimine
 
+[Seminari salvestus I](https://youtu.be/j7WDoi3zYuY?si=R3-i_pIy9-fsB0id)  
+[Seminari salvestus II](https://youtu.be/cRsbK6CNAMA?si=xu_kZyCTdBwmopVa)  
+
 ---
 
 ## Tänased eesmärgid 🎯
