@@ -370,6 +370,8 @@ Grupid modustavad paarid ja vahetavad rolle!
 - Ülevaataja lisab oma arvamuse ja ettepaneku ja kui on kena, siis kiidab heaks ning lisab õppejõu ülevaatajaks
 - Õppejõud kinnitab töö sobivusel
 
+**Kodutöö esitamise juhend:** https://github.com/tluhk/Abimaterjalid/blob/master/docs/koduse_too_esitamine.md
+
 ---
 
 ## Hindamise kriteeriumid 📊
