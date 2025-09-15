@@ -6,6 +6,16 @@ header: 'Sissejuhatus tarkvaraarendusse'
 footer: 'Seminar 2: Uurimine - probleemi analüüs ja kasutajate mõistmine'
 ---
 
+# Tagasiside esimesele seminarile
+## Millised olid probleemid?
+- Kas markdown sai selgeks?
+- Kas git ja github on arusaadav?
+
+NB! Esimsele semestril on täitsa ok kasutada GH Desktoppi. Ärge tekitage endas pinget terminaliga.
+NB! NB! Ärge kasutage Githubi koodimuudatuste tegemise võimalust veebis! Vaid erandjuhtudel kui kindlalt teate, mida teete.
+
+---
+
 # Seminar 2: Uurimine
 ## Probleemi analüüs ja kasutajate mõistmine
 
@@ -16,8 +26,7 @@ footer: 'Seminar 2: Uurimine - probleemi analüüs ja kasutajate mõistmine'
 
 ## Tänased eesmärgid 🎯
 
-Seminari lõpus oskad:
-- ✅ **Mõista tarkvaraarenduse olemust** ja selle erinevust programmeerimisest
+- ✅ **Mõista tarkvaraarenduse olemust**
 - ✅ Defineerida ja analüüsida probleeme süstemaatiliselt
 - ✅ Kasutada erinevaid kasutajauuringute meetodeid
 - ✅ Eristada funktsionaalseid ja mitte-funktsionaalseid nõudeid
@@ -112,7 +121,7 @@ Probleem → Analüüs → Disain → Arendamine → Testimine → Juurutamine �
 
 ```
 1. PROBLEEM: Mis täpselt toimub valesti?
-2. MÕJU: Kellele ja kuidas see mõjutab?
+2. MÕJU: Kellele ja kuidas see mõjub?
 3. PÕHJUSED: Miks see probleem tekib?
 4. KONTEKST: Millistes olukordades esineb?
 5. PIIRANGUD: Millised on tehnilised/ressursi/aja piirangud?
@@ -241,6 +250,7 @@ Probleem → Analüüs → Disain → Arendamine → Testimine → Juurutamine �
 ### 2.2 Kasutajate uurimise harjutus (30 min)
 ### 2.3 Nõuete kogumine (25 min)
 ### 2.4 Konkurentsianalüüs (15 min)
+Praktiline töötuba on ettevalmistus kodutööks
 
 ---
 
@@ -312,41 +322,67 @@ Grupid modustavad paarid ja vahetavad rolle!
 ### Täna loome:
 - `problem-definition.md` - valitud probleem
 - `user-research.md` - intervjuu tulemused
+- `product-description.md` - toote kirjeldus
 - `requirements.md` - funktsionaalsed ja mitte-funktsionaalsed nõuded
+    **Näidised funktsionaalsetest nõuetest:**
+    - Kasutaja peab saama lisada uue kodutöö.
+    - Süsteem peab saatma meeldetuletusi tähtaegade kohta.
+    - Kasutaja peab saama vaadata kõiki varasemaid kodutöid.
+    - Administraator peab saama muuta kasutajate õigusi.
+
+    **Näidised mitte-funktsionaalsetest nõuetest:**
+    - Süsteem peab reageerima kasutaja tegevusele maksimaalselt 3 sekundi jooksul.
+    - Rakendus peab toetama vähemalt 1000 samaaegset kasutajat.
+    - Andmed peavad olema kaitstud volitamata ligipääsu eest.
+    - Lahendus peab töötama nii mobiilis kui arvutis.
 - `competitive-analysis.md` - konkurentide analüüs
 - `README.md` - projekti ülevaade
 
-**🔄 Git workflow**: Fork/Branch → Commit → Push → PR
+**🔄 Git workflow**: Issue → Branch → Changes → Commit → Push → PR → Review → Merge
 
 ---
 
 ## Kodutöö 2: süvauurimine
 
 ### Grupi osa 👥
-- **Probleemi süvaanalüüs**: Täiendavad allikad, statistika
-- **Laiendatud kasutajate uurimine**: Vähemalt 3 päris intervjuud
-- **Detailne konkurentsianalüüs**: 5+ konkurenti
-- **Stakeholder analüüs**: Kes on kõik osapooled?
+- **Probleemi sügavam alüüs**: täiendage seminaris alatud probleemi analüüsi, kirjeldage probleemi nii, et oleks arusaadav, et tegemist on tõepoolest probleemiga.
+- **Kasutajate uurimine**: seminaris alustasite küsimuste koostamist, lõpetage nende koostamine ning intervjueerige igaüks vähemalt 1 päris inimest. Koostage kokkuvõtted.
+- **Detailne konkurentsianalüüs**: 3+ konkurenti, igaüks teeb ühe konkurendi kohta ülevaate.  
+- **Stakeholder analüüs**: Kes on asjasse puutuvad osapooled?
 
 ---
 
 ### Individuaalne osa 👤
-- **Kasutajate uurija**: Täiendavad intervjuud ja andmeanalüüs
-- **Turu-analüütik**: Konkurendid ja ärimudel
-- **Tehnoloogia uurija**: Tehnilised lahendused ja teostatavus
-- **Nõuete analüütik**: Detailsed nõuded ja prioritiseerimine
+- **Kasutajate uurija**: intervjuu
+- **Turu-analüütik**: konkurendid
+- **Tehnoloogia uurija**: tehnilised lahendused ja teostatavus
+- **Nõuete analüütik**: detailsed nõuded ja prioritiseerimine
+
+---
+
+### Tööde esitamine
+- Kodutööde kohta saabub teile Github issue.
+- Looge issuest haru/branch
+- Tehke oma kodutöö
+- Pushige oma töö
+- Tee pull request
+- Lisage grupikaaslane ülevaatajaks (VAADAKE TABELIST, KES PEAB TEIE TÖÖ ÜLE VAATAMA)
+- Ülevaataja lisab oma arvamuse ja ettepaneku ja kui on kena, siis kiidab heaks ning lisab õppejõu ülevaatajaks
+- Õppejõud kinnitab töö sobivusel
+
+**Kodutöö esitamise juhend:** https://github.com/tluhk/Abimaterjalid/blob/master/docs/koduse_too_esitamine.md
 
 ---
 
 ## Hindamise kriteeriumid 📊
 
-- **Põhjalikkus**: Kui sügavalt probleemi uuriti
-- **Metodoloogia**: Kas kasutati õigeid uurimismeetodeid
-- **Dokumentatsioon**: Selgus ja professionaalsus
+- **Põhjalikkus**: kui sügavalt probleemi uuriti
+- **Metodoloogia**: kas kasutati õigeid uurimismeetodeid
+- **Dokumentatsioon**: selgus ja professionaalsus
 - **Koostöö**: GitHub workflow ja peer review kvaliteet
 
-**📅 Tähtaeg**: Seminarinädala esmaspäeva hommikul kell 9.00  
-**🔄 Protsess**: Individual research → Branch → PR → Peer review → Merge
+**📅 Tähtaeg**: seminarinädala esmaspäeva hommikul kell 9.00  
+**🔄 Protsess**: individual research → Issue → Branch → Changes → Commit → Push → PR → Review → Merge
 
 ---
 

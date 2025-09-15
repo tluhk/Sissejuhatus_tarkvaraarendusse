@@ -21,71 +21,61 @@ Seminari lõpuks tudeng:
 - Oskab dokumenteerida uurimistulemusi professionaalselt
 - Mõistab konkurentsianalüüsi tähtsust
 
-### Materjalid seminariks
-- [ ] Projektori seadistus (slides.md)
-- [ ] Flipchart paberid gruppidele
-- [ ] Markerid
-- [ ] Timer/stopperid
-- [ ] Kleepsud gruppide märkimiseks
-- [ ] GitHub repo template-i link
-
 ---
 
 ## SEMINARI STRUKTUUR
 
 | **Aeg** | **Tegevus** | **Kestus** | **Märkused** |
 |---------|-------------|------------|---------------|
-| 0:00-0:05 | Sissejuhatus ja ülevaade | 5 min | Slides 1-3 |
-| 0:05-0:20 | 1.1 Mis on tarkvaraarendus? | 15 min | Slides 4-9, OLULINE! |
-| 0:20-0:40 | 1.2 Probleemi defineerimine | 20 min | Slides 10-13, interaktiivne |
-| 0:40-1:05 | 1.3 Kasutajate uurimise meetodid | 25 min | Slides 14-16, näited |
-| 1:05-1:25 | 1.4 Nõuete tüübid | 20 min | Slides 17-20, praktiline |
-| 1:25-1:40 | 1.5 Konkurentsianalüüs | 15 min | Slides 21-22 |
+| 0:00-0:05 | Sissejuhatus ja ülevaade | 5 min | Slides 2-4 |
+| 0:05-0:20 | 1.1 Mis on tarkvaraarendus? | 15 min | Slides 5-9, OLULINE! |
+| 0:20-0:40 | 1.2 Probleemi defineerimine | 20 min | Slides 9-13, interaktiivne |
+| 0:40-1:05 | 1.3 Kasutajate uurimise meetodid | 25 min | Slides 14-15, näited |
+| 1:05-1:25 | 1.4 Nõuete tüübid | 20 min | Slides 16-18, praktiline |
+| 1:25-1:40 | 1.5 Konkurentsianalüüs | 15 min | Slides 19-23 |
 | **1:40-1:50** | **PAUS** | **10 min** | **Kohustuslik!** |
-| 1:50-2:10 | 2.1 Probleemi valimine ja defineerimine | 20 min | Slides 24-25, grupitöö |
-| 2:10-2:40 | 2.2 Kasutajate uurimise harjutus | 30 min | Slides 26-27, rollimäng |
+| 1:50-2:10 | 2.1 Probleemi valimine ja defineerimine | 20 min | Slides 25-26, grupitöö |
+| 2:10-2:40 | 2.2 Kasutajate uurimise harjutus | 30 min | Slides 27, rollimäng |
 | 2:40-3:05 | 2.3 Nõuete kogumine | 25 min | Slides 28-29, praktiline |
-| 3:05-3:20 | 2.4 Konkurentsianalüüs | 15 min | Slide 30 |
-| 3:20-3:30 | Dokumenteerimine ja kokkuvõte | 10 min | Slides 31-35 |
+| 3:05-3:20 | 2.4 Konkurentsianalüüs | 15 min | Slide 30-31 |
+| 3:20-3:30 | Dokumenteerimine ja kokkuvõte | 10 min | Slides 32-36 |
 
 ---
 
 ## OSA 1: TEOORIA (90 MINUTIT)
 
-### 🎯 1.1 Mis on tarkvaraarendus? (15 min) - SLIDES 4-9
+### 🎯 1.1 Mis on tarkvaraarendus? (15 min) - SLIDES 3-9
 
-#### Õpetaja kõne (5 min):
-**"Tere tulemast teisele seminarile! Enne kui sukeldume probleemide analüüsimisesse, peame vastama põhiküsimusele: mis on tarkvaraarendus? Paljud arvavad, et see on lihtsalt programmeerimine, aga tegelikult on see palju laiem."**
-
-Sissejuhatus slaidile 4:
-Mis on teie arust tarkvara?
+(5 min):
+**Slide 3 - Mis üldse on tarkvaraarendus? Paljud arvavad, et see on lihtsalt programmeerimine, aga tegelikult on see palju laiem."**
+Mis on teie arust tarkvara? Mis on tarkvaraarendus?
 Millest ta koosneb?
 
-**SLIDE 4 - Tarkvara definitsioon:**
+**SLIDE 5 - Tarkvara definitsioon:**
 - **RÕHUTA**: Tarkvara ei ole ainult kood! Kolm komponenti on võrdselt olulised.
 - **Näide**: "Mõelge WhatsApp-ile. Kood võimaldab sõnumeid saata, andmed on teie vestlused, dokumentatsioon ütleb, kuidas rakendust kasutada."
 
-**SLIDE 5 - Protsess:**
+**SLIDE 6 - Protsess:**
 - **JOONISTA tahvlile**: Tsükliline protsess
 - **Rõhuta**: "See on jätkuv tsükkel, mitte lineaarne"
 - **Küsi tudengitelt**: "Miks on tagasiside oluline?"
 
-ENNE 6 slaidi:
+ENNE 7 slaidi:
 Pakkuge, millistest etappidest võiks tarkvara arendus koosneda?
 
-**SLIDE 6 - Põhietapid:**
+**SLIDE 7 - Põhietapid:**
 - **Läbi iga etapi**: Selgita igat sammavat
 - **Rõhuta**: "Meie kursuses läbime iga etapi!"
 
-Enne 7 slaidi:
-Küsi tudengitelt, millised rakendused on teie elu muutnud?
+Enne 8 slaidi:
+Küsi tudengitelt, millised rakendused on teie elu muutnud? Et teada või juhtida tähelepanu, miks tarkvaraarendus on oluline – probleemide lahendamine.
 
 
-**SLIDE 7 - Miks oluline:**
+**SLIDE 8 - Miks oluline:**
 - **Küsi tudengitelt**: "Millised rakendused on teie elu muutnud?"
 - **Seo näidetega**: Uber (automatiseerimine), Facebook (kommunikatsioon)
 
-Enne 8 slaidi:  
+Enne 9 slaidi:  
 Interaktiivne hetk (5 min):
 "Kes teab, mida teeb toote omanik tarkvaraarenduses?"
 - Las tudengid mõtlevad paarides 2 minutit
@@ -107,7 +97,7 @@ Interaktiivne hetk (5 min):
 3. "Miks on tarkvara arendamine tsükliline protsess?"  
    **Vastus:** Sest tarkvara arenduses saadakse pidevalt tagasisidet kasutajatelt ja äripoolelt, mille põhjal tuleb lahendust täiustada. Vajadused ja tehnoloogiad muutuvad, seega tuleb tarkvara regulaarselt uuendada ja parandada, et see vastaks kasutajate ootustele ja lahendaks õigeid probleeme.
 
-**SLIDE 8 - Võrdlustabel:**
+**SLIDE 9 - Võrdlustabel:**
 - **OLULINE MOMENT**: "Programmeerimine on ainult üks osa!"
 - **Analoogia**: "Nagu maja ehitamine - see ei ole ainult telliste laduminem"
 
@@ -115,12 +105,14 @@ Interaktiivne hetk (5 min):
 ---
 
 
-### 🎯 1.2 Probleemi defineerimine (20 min) - SLIDES 9-13
+### 🎯 1.2 Probleemi defineerimine (20 min) - SLIDES 10-14
+
+**SLIDE 10**
 Mis on hea probleemi definitsioon?
 Mis on halb probleemi definitsioonis 'Mul on igav'?
 
 #### Õpetaja kõne (10 min):
-**SLIDE 10 - Hea probleem:**
+**SLIDE 11 - Hea probleem:**
 **"Kõik head tarkvaraprojektid algavad hästi defineeritud probleemiga. Vaadame, mis teeb probleemi 'heaks'."**
 
 - **Selgelt defineeritud**: Küsi tudengitelt: "Mis on halb probleemi definitsioonis 'Mul on igav'?"
@@ -128,7 +120,7 @@ Mis on halb probleemi definitsioonis 'Mul on igav'?
 - **Lahendatav**: "Kas meil on ressursse ja oskusi?"
 - **Oluline**: "Kas keegi tõesti vajab seda?"
 
-**SLIDE 11 - Raamistik:**
+**SLIDE 12 - Raamistik:**
 **"Siin on süstemaatiline viis probleemi analüüsimiseks."**
 
 **Näide tahvlil: "Tudengite kodutööde meeldetuletused"**
@@ -140,7 +132,7 @@ Mis on halb probleemi definitsioonis 'Mul on igav'?
 - **Oodatavad vastused**: "Unustavad tähtajad", "Ei tea, mis on kodutöö", "Leiavad infot hilja"
 - **Täpsusta**: "Tudengid ei saa õigeaegselt infot kodutööde kohta"
 
-**2. MÕJU: Kellele ja kuidas see mõjutab?**
+**2. MÕJU: Kellele ja kuidas see mõjub?**
 - **Küsi**: "Kes sellest kannatab ja kuidas?"
 - **Oodatavad vastused**: 
   - Tudengid: stress, kehvad hinded, ajaplaneerimise raskused
@@ -171,7 +163,7 @@ Mis on halb probleemi definitsioonis 'Mul on igav'?
 
 **Õpetaja märkus**: Kirjuta kõik vastused tahvlile raamistiku järgi, et tudengid näeksid struktuuri!
 
-**SLIDE 12 - Näited:**
+**SLIDE 13 - Näited:**
 **"Vaatame, mis vahe on heal ja halval probleemi kirjeldusel."**
 
 #### Praktiline harjutus (10 min):
@@ -183,17 +175,17 @@ Mis on halb probleemi definitsioonis 'Mul on igav'?
 
 ---
 
-### 🎯 1.3 Kasutajate uurimise meetodid (25 min) - SLIDES 13-16
+### 🎯 1.3 Kasutajate uurimise meetodid (25 min) - SLIDES 14-16
 
 #### Õpetaja kõne (15 min):
 **"Probleem on defineeritud, aga kuidas me teame, mida kasutajad tegelikult vajavad?"**
 
-**SLIDE 13 - Kvalitatiivsed meetodid:**
+**SLIDE 14 - Kvalitatiivsed meetodid:**
 - **Intervjuud**: "Küsi 'Miks?' vähemalt 5 korda"
 - **Näide**: Demos intervjuu tehnika - võta üks tudeng vabatahtlikuks
 - **Vaatlused**: "Inimesed räägivad ühte, aga teevad teist"
 
-**SLIDE 14 - Kvantitatiivsed meetodid:**
+**SLIDE 15 - Kvantitatiivsed meetodid:**
 - **Küsitlused**: "Suured numbrid, aga miks-küsimustele ei vasta"
 - **Analüütika**: "Google Analytics näitab, mida inimesed teevad"
 - **Persoonade loomine**: "Kasutajate vajaduste hindamine" [persona workshop](https://miro.com/persona/how-to-run-a-persona-workshop/)  
@@ -205,7 +197,7 @@ Mis on halb probleemi definitsioonis 'Mul on igav'?
 - **Rõhuta**: "Parim tulemus tuleb kombinatsioonist"
 
 #### Praktiline näide (10 min):
-**"The Mom Test" meetod:**
+
 1. **Halvad küsimused**: "Kas teile meeldiksid kodutööde meeldetuletused?"
 2. **Head küsimused**: "Kuidas te praegu kodutöid meeles peate?"
 
@@ -234,12 +226,12 @@ Mis on halb probleemi definitsioonis 'Mul on igav'?
 
 ---
 
-### 🎯 1.4 Nõuete tüübid (20 min) - SLIDES 15-17
+### 🎯 1.4 Nõuete tüübid (20 min) - SLIDES 16-18
 
 #### Õpetaja kõne (10 min):
 **"Kasutajate uurimine on tehtud. Nüüd peame selle tõlkima konkreetseteks nõueteks."**
 
-**SLIDE 17-18 - Funktsionaalsed vs mitte-funktsionaalsed:**
+**SLIDE 16-18 - Funktsionaalsed vs mitte-funktsionaalsed:**
 - **Analoogia**: "Auto võimekused (kiirus, kütusekulu) vs Auto funktsionaalsused (käigukast, rool)"
 - **Näited WhatsApp-ist**:
   - Funktsionaalne: "Kasutaja saab saata sõnumeid"
@@ -297,7 +289,9 @@ Küsimus:
 
 ## OSA 2: PRAKTILINE TÖÖTUBA (90 MINUTIT)
 
-### 🛠️ 2.1 Probleemi valimine ja defineerimine (20 min) - SLIDES 24-25
+Eesmärk teha kodutöö jaoks vajalikud "soojendused", et oskaks kodutöö lõpuni teha.
+
+### 🛠️ 2.1 Probleemi valimine ja defineerimine (20 min) - SLIDES 25-26
 
 #### Ülesande seadistamine (5 min):
 **"Nüüd teeme päris tööd! Valime probleemi, millega töötame järgmiste seminariteni."**
@@ -307,7 +301,7 @@ Küsimus:
 - töövahendite seadistamine – tunni repo/kaust, md file
 
 #### Brainstorm (10 min):
-**SLIDE 24 - Valdkonnad:**
+**SLIDE 25 - Valdkonnad:**
 **Juhendid gruppidele**:
 1. **5 min**: Brainstorming - iga valdkonna kohta vähemalt 2 probleemi
 2. **Kasuta seminar-01 kausta**: 
@@ -325,7 +319,7 @@ Kirjutage kõik ideed üles
 **Õpetaja ülesanne**: Käi gruppide vahel ringi, küsi täpsustavaid küsimusi
 
 #### Evalueerimine ja valik (5 min):
-**SLIDE 25 - Evalueerimine:**
+**SLIDE 26 - Evalueerimine:**
 1. **Vali 3 parimat**: Kasutades kriteeriumeid slide-lt 10
 2. **Vali üks**: Millega jätkate
 
@@ -335,10 +329,10 @@ Kirjutage kõik ideed üles
 
 ---
 
-### 🛠️ 2.2 Kasutajate uurimise harjutus (30 min) - SLIDES 26-27
+### 🛠️ 2.2 Kasutajate uurimise harjutus (30 min) - SLIDES 27
 
 #### Intervjuu küsimuste koostamine (10 min):
-**SLIDE 26:**
+**SLIDE 27:**
 **"Nüüd valmistame ette intervjuu oma probleemi kohta."**
 
 **Juhendid**:
@@ -355,7 +349,7 @@ Kirjutage kõik ideed üles
 **"Nüüd testite oma küsimusi!"**
 
 **Juhendid**:
-1. **Gruppide paaristamine**: Grupp A intervjueerib gruppi B
+1. **Grupp A intervjueerib gruppi B**
 2. **10 min esimene voor**: A küsib, B vastab (nende probleemi kontekstis)
 3. **10 min teine voor**: Rollide vahetus
 
@@ -426,7 +420,6 @@ Kirjutage kõik ideed üles
    - `competitive-analysis.md`
    - `README.md` (projekti kirjeldus)
 
-**Template failid**: Anna linkid template-idele
 
 ---
 
