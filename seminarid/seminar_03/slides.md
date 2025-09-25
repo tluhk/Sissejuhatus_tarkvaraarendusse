@@ -14,11 +14,11 @@ Kestus: 3h (90 min teooria + 90 min praktikat)
 
 ## Täna:
 
-- **Arendusmetoodikaid**: Waterfall, Agile, Scrum, Kanban
+- **Arendusmetoodikad**: Waterfall, Agile, Scrum, Kanban
 - **Rollid tarkvaraarenduses**: Project Owner, Project Manager, Developer, UX/UI Designer
-- **Meeskonnatöö põhimõtteid**: kommunikatsioon, koostöö
-- **GitHub Projects** advanced funktsioone
-- **Sprint 1 planeerimist** ja käivitamist
+- **Meeskonnatöö põhimõtted**: kommunikatsioon, koostöö
+- **GitHub Projects** 
+- **Sprint 1 planeerimine** ja käivitamine
 
 ---
 
@@ -36,7 +36,7 @@ Kestus: 3h (90 min teooria + 90 min praktikat)
 
 ---
 ### Waterfall mudel
-**Eelised**: ✅ Selge struktuur, hea dokumentatsioon
+**Eelised**: ✅ Selge struktuur, hea dokumentatsioon  
 **Puudused**: ❌ Vähe paindlikkust, hiline tagasiside
 
 ---
@@ -85,7 +85,7 @@ Kestus: 3h (90 min teooria + 90 min praktikat)
 
 ![kanban](kanban.jpg)
 
-**Põhiprintsiip**: Töövoogude visualiseerimine ja WIP piiramine
+**Põhiprintsiip**: töövoogude visualiseerimine ja WIP piiramine
 
 ---
 
@@ -103,12 +103,12 @@ Kestus: 3h (90 min teooria + 90 min praktikat)
 
 ### Waterfall projektides
 
-- **Developers ehk arendajad** – ehitavad süsteemi alles pärast nõuete ja disaini lukku panekut
-- **Test Engineers (QA) ehk testijad** – testivad alles valmis tarkvara
+- **Developers ehk arendajad** – ehitavad süsteemi pärast nõuete ja disaini lukku panekut
+- **Test Engineers (QA) ehk testijad** – testivad valmis tarkvara
 - **Technical Writer ehk tehnilised kirjutajad** – dokumentatsioon ja juhendid
 - **Operations/IT** – juurutamine pärast arendust
 
-Iseloomulik: Rollid on lineaarselt järjestatud, töö liigub etappide kaupa edasi („relay race“).
+Iseloomulik: rollid on lineaarselt järjestatud, töö liigub etappide kaupa edasi („relay race“).
 
 ---
 
@@ -117,7 +117,7 @@ Iseloomulik: Rollid on lineaarselt järjestatud, töö liigub etappide kaupa eda
 **Juhirollid:**
 - **Product Owner ehk tooteomanik** - toote visioon, prioriteedid, kasutajate vajadused
 - **Project Manager ehk projektijuht** - projekti koordineerimine, ajakavad, ressursid
-- **Scrum Master** - protsessi juhtimine, takistuste eemaldamine
+- **Scrum Master** - protsessi juhtimine, takistuste eemaldamine, Scrum protsessi järgimine
 
 ---
 
@@ -126,7 +126,7 @@ Iseloomulik: Rollid on lineaarselt järjestatud, töö liigub etappide kaupa eda
 **Arenduse rollid:**
 - **Developer/Programmer ehk arendaja ja programmeerija** - koodimine, tehnilised lahendused
 - **System Architect ehk süsteemi arhitekt** - süsteemi arhitektuur, tehnilised standardid
-- **DevOps Engineer** - juurutamine, CI/CD, infrastruktuur. IT-spetsialist, kes töötab arenduse (Dev) ja süsteemihalduse/operatsioonide (Ops) vahepealses rollis.
+- **DevOps Engineer** - IT-spetsialist, kes töötab arenduse (Dev) ja süsteemihalduse/operatsioonide (Ops) vahepealses rollis. Juurutamine, CI/CD, infrastruktuur. 
 - **QA Engineer** - Quality Assurance ahk kvaliteedi tagamine. Testimine, kvaliteedi tagamine
 
 ---
@@ -261,14 +261,14 @@ PROJEKT: Kooli toidu soojendamise ja jagamise keskkond
 
 ### Ülesanne: Vali oma roll
 
-Iga tudeng valib ühe rolli järgmisteks seminariteks:
+Iga tudeng valib ühe rolli järgmisteks seminarideks:
 
 - **Product Owner**
 - **Project Manager** 
 - **Developer**
 - **UX/UI Designer**
 
-**Kirjuta üles**: Oma rolli peamised vastutused projektis
+**Kirjuta üles**: oma rolli peamised vastutused projektis
 
 ---
 
@@ -293,7 +293,7 @@ Iga tudeng valib ühe rolli järgmisteks seminariteks:
 
 ## 2.3 GitHub Projects seadistamine (25 min)
 
-### Advanced funktsioone
+### Advanced funktsioonid
 
 **Custom fields:**
 - Story Points (Number: 1, 2, 3, 5, 8, 13)
@@ -328,7 +328,7 @@ Sort: Priority (desc), Story Points (asc)
 
 ### Capacity planning
 
-- Iga tudeng: 5-8 story points nädalas
+- Iga tudeng: 5-8 story pointsi nädalas
 - Grupp kokku: ~15-25 story points Sprint 1 jaoks
 
 ---
@@ -382,7 +382,7 @@ Looge järgmised Markdown failid:
 **Developer**: `technical-architecture.md`
 **UX/UI Designer**: `design-strategy.md`
 
-**Tähtaeg**: 1 nädal
+**Tähtaeg**: 2 nädalat
 **Esitamine**: GitHub workflow (Branch → PR → Review → Merge)
 
 ---
