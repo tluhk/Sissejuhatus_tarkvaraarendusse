@@ -206,10 +206,10 @@ Iseloomulik: Rollid on lineaarselt järjestatud, töö liigub etappide kaupa eda
 
 ---
 
-### Epikute jagamine
+### Epicute jagamine
 
 ```
-THEME: Kooli toidu soojendamise ja jagamise keskkond
+PROJEKT: Kooli toidu soojendamise ja jagamise keskkond
 └── EPIC: Mikrolaineahjude broneerimissüsteem
     ├── USER STORY: Kasutaja näeb vabade ahjude olekut
     │   ├── TASK: IoT sensorite API
@@ -217,6 +217,17 @@ THEME: Kooli toidu soojendamise ja jagamise keskkond
     ├── USER STORY: Broneering kindlaks ajaks
     └── USER STORY: Broneeringu tühistamine
 ```
+
+**Hierarhia selgitus:**
+- **TASK** = Konkreetne, teostatav ülesanne (nt "Loo API endpoint")
+- **USER STORY** = Kasutaja eesmärk, mis koosneb task-idest
+- **EPIC** = Suur funktsioon, mis koosneb user story-dest
+- **PROJEKT** = Terve lahendus, mis koosneb epikutest
+
+**Kuidas see töötab:**
+1. Task-id tehakse valmis → User Story saab valmis
+2. User Story-d saavad valmis → Epic saab valmis  
+3. Epicud saavad valmis → Projekt saab valmis
 
 ---
 
@@ -235,9 +246,9 @@ THEME: Kooli toidu soojendamise ja jagamise keskkond
 ### Prioritiseerimise tehnikad
 
 **MoSCoW meetod**:
-- **Must have**: Kritilised funktsioonid
+- **Must have**: Kritilised epicud/funktsioonid
 - **Should have**: Olulised, aga mitte kriitilised
-- **Could have**: Nice-to-have funktsioonid
+- **Could have**: Nice-to-have epicud/funktsioonid
 - **Won't have**: Praegu välistatud
 
 ---

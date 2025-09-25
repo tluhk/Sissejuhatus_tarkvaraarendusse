@@ -155,28 +155,24 @@ Nähtavad ülesanded: Project charter, rollide kirjeldused, IoT integratsiooni p
 
 ### Backlog Management - "Kooli Köök" näide
 
-#### Epikute jagamine
+#### Epicute jagamine
 
 **Alustame suurest pildist ja jagame väiksemaks:**
 
 ```
-THEME: Kooli toidu soojendamise ja jagamise keskkond
-└── EPIK: Mikrolaineahjude broneerimissüsteem
-    ├── USER STORY: Kasutaja näeb vabade ahjude nimekirja
-    │   ├── TASK: IoT sensorite andmete API
-    │   ├── TASK: Reaalajas statusse näitav kaart
-    │   └── TASK: Mobile-responsive ahju vaade
-    ├── USER STORY: Kasutaja saab broneerida ahju kindlaks ajaks  
-    │   ├── TASK: Broneerimise UI komponent
-    │   └── TASK: Broneerimisloogika backend
-    └── USER STORY: Kasutaja saab tühistada broneeringu
-        ├── TASK: Tühistamise funktsioon
-        └── TASK: Teadete süsteem vabade kohtade kohta
-```
-
-```
-THEME: Kooli toidu soojendamise ja jagamise keskkond  
-└── EPIK: Toidu jagamise ja ühisostude platvorm
+PROJEKT: Kooli toidu soojendamise ja jagamise keskkond
+├── EPIC: Mikrolaineahjude broneerimissüsteem
+│   ├── USER STORY: Kasutaja näeb vabade ahjude nimekirja
+│   │   ├── TASK: IoT sensorite andmete API
+│   │   ├── TASK: Reaalajas statusse näitav kaart
+│   │   └── TASK: Mobile-responsive ahju vaade
+│   ├── USER STORY: Kasutaja saab broneerida ahju kindlaks ajaks  
+│   │   ├── TASK: Broneerimise UI komponent
+│   │   └── TASK: Broneerimisloogika backend
+│   └── USER STORY: Kasutaja saab tühistada broneeringu
+│       ├── TASK: Tühistamise funktsioon
+│       └── TASK: Teadete süsteem vabade kohtade kohta
+└── EPIC: Toidu jagamise ja ühisostude platvorm
     ├── USER STORY: Kasutaja saab pakkuda ülejäänud toitu
     │   ├── TASK: Toidu pakkumise vormi disain
     │   ├── TASK: Pildi üleslaadimise funktsioon  

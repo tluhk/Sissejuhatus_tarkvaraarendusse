@@ -213,19 +213,26 @@ slaid 24
 ### 1.4 Backlog management ja prioriseerimine (20 min)
 Slide 25
 
-#### Epikute jagamine visuaalselt:
+#### Epicute jagamine visuaalselt:
 Slide 26
 
 **Selgitus:**
-> "Mõelge oma projektist kui raamatust. Raamat koosneb peatükkidest (epikud), peatükid lõikudest (User Story-d), lõigud lausetest (Task-id). Alustame suurtest asjadest ja jagame väiksemaks."
+> "Mõelge oma projektist kui raamatust. Raamat koosneb peatükkidest (epicud), peatükid lõikudest (User Story-d), lõigud lausetest (Task-id). Alustame suurtest asjadest ja jagame väiksemaks."
 
 **Praktiliseks näiteks kasutage tudengite enda projekte:**
 > "Võtame näiteks projekti 'Kooli Köök':
-> - EPIK: Mikrolaineahjude broneerimissüsteem
->   - USER STORY: Kasutaja näeb vabade ahjude reaalajas olekut
->     - TASK: IoT sensorite andmete API
->     - TASK: Reaalajas kaardi komponendi loomine
->     - TASK: Mobile-responsive kujundus"
+> - PROJEKT: Kooli toidu soojendamise ja jagamise keskkond
+>   - EPIC: Mikrolaineahjude broneerimissüsteem
+>     - USER STORY: Kasutaja näeb vabade ahjude reaalajas olekut
+>       - TASK: IoT sensorite andmete API
+>       - TASK: Reaalajas kaardi komponendi loomine
+>       - TASK: Mobile-responsive kujundus"
+
+**Hierarhia selgitus tudengitele:**
+> "Mõelge sellele nagu raamatule: PROJEKT on kogu raamat, EPIC on peatükk, USER STORY on lõik, TASK on lause. Iga tase koosneb allpool olevatest osadest."
+
+**Kuidas see töötab praktikas:**
+> "Task-id on konkreetsed ülesanded, mida meeskond teeb. Kui kõik ühe USER STORY task-id on valmis, siis USER STORY on valmis. Kui kõik ühe EPIC-i USER STORY-d on valmis, siis EPIC on valmis. Kui kõik PROJEKTI EPIC-ud on valmis, siis PROJEKT on valmis."
 
 #### Story pointide selgitamine:
 Slide 27
@@ -242,11 +249,11 @@ Slide 27
 Slide 28
 
 **Praktiline harjutus klassiga:**
-> "Võtame 'Kooli Köök' projekti ja kategoriseerime funktsioone:
-> - **Must have**: Mikrolaineahjude reaalajas olek (ilma selleta ei ole projekt kasulik)
+> "Võtame 'Kooli Köök' PROJEKTI ja kategoriseerime EPIC-uid:
+> - **Must have**: Mikrolaineahjude broneerimissüsteem (ilma selleta ei ole projekt kasulik)
 > - **Should have**: Push teavitused vabadest ahjudest (väga oluline, aga saab ka ilma)
-> - **Could have**: Toidu jagamise funktsioon (tore lisa, kui aeg lubab)
-> - **Won't have**: Täielik makselahendus (hetkel teadlikult välja jätame)"
+> - **Could have**: Toidu jagamise EPIC (tore lisa, kui aeg lubab)
+> - **Won't have**: Täielik makselahendus EPIC (hetkel teadlikult välja jätame)"
 
 ---
 
