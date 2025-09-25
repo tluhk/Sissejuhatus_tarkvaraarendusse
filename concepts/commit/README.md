@@ -1,0 +1,222 @@
+## Commitite kirjutamine
+
+**Hea commit aitab teistel arendajatel mõista tehtud muudatusi ning lihtsustab hilisemat koodi ülevaatamist ja vigade leidmist.**
+
+[10 Essential Practices for Better Git Commits and Why They Matter](https://medium.com/@saeid/10-essential-practices-for-better-git-commits-and-why-they-matter-3cfc420bf53e)  
+[Good Commit ✔ VS. Bad Commit ❌: Best Practices for Git](https://dev.to/sheraz4194/good-commit-vs-bad-commit-best-practices-for-git-1plc)
+
+### Tähendusrikkad kommentaarid/sõnumid commititele
+Tähendusrikas kommentaar selgitab muudatuste eesmärki.  
+Väldi ebamääraseid kommentaare nagu "Parandatud vead" või "Tehtud muudatused". Selle asemel kasuta lühidat ja kirjeldavat kommentaari, mis illustreerib commit-i eesmärki ja tulemust.
+
+**Tee:**  
+"Add user profile image upload functionality"  
+"Fix broken navigation links in header menu"
+
+**Ära tee:**  
+"Updated code"  
+"Typo fixes"
+
+Soovitused:  
+- Alusta suure tähega
+- Kasuta käskivat kõneviisi ("Add" mitte "Added", "Change" mitte "Changed") 
+- Piira pealkirja umbes 50 tähemärgini
+- Kui on vaja rohkem detaile, eralda pealkiri tühja reaga ja lisa põhjalikum kirjeldus, murdepunktiga umbes 72 tähemärgi juures
+
+**Miks peaks kasutama käskivat kõneviisi?**
+
+Commiti kommentaarides on soovituslik kasutada käskivat kõneviisi ("lisa", "paranda", "uuenda") mitte minevikuvormi ("lisasin", "parandasin", "uuendasin") mitmel põhjusel:
+
+- Commit kirjeldab, mida see commit teeb koodiga, mitte mida sina tegid. See on nagu käsklus või samm-sammuline juhend.
+- Käskiv vorm on tavaliselt lühem.
+
+```bash
+docs: add correction  // 3 sõna
+docs: added correction  // 3 sõna, aga pikem
+```
+Rahvusvaheline tava: See järgib Git'i enda dokumentatsiooni ja commiti stiili. Inglise keeles kirjutatakse "add", "fix", "update" mitte "added", "fixed", "updated".
+Loetavus changelogides: Kui vaatad commit ajalugu või changelog'i, siis käskiv vorm loeb paremini:
+
+- add authentication
+- fix login error 
+- update documentation  
+**vs**  
+- added authentication
+- fixed login error
+- updated documentation
+
+**Aga see on siiski konventsioon - kui sinu tiim või projekt eelistab minevikuvormi, siis võib ka seda kasutada. Peamine on järjepidevus projekti piires.**
+
+### Maini pileti numbrit
+Kui kasutad ülesannete/piletite haldamise süsteemi (nagu GitHub või Jira), on kasulik viidata commitis pileti numbrile. See loob selge seose commit-i ja seotud pileti või vea vahel.
+
+**Tee:**  
+"Implement password reset functionality, resolves #234"  
+"Add dark mode theme support, closes #567"
+
+**Ära tee:**  
+"Fixed annoying bug"  
+"Fixed user interface"
+
+**Soovitused:**  
+- Kasuta standardset terminoloogiat nagu "fixes", "closes" või "resolves" ülesande numbrile viitamisel. Paljud platvormid nagu GitHub tunnevad need ära ja seovad automaatselt commit-id mainitud ülesannetega ning võivad need isegi sulgeda, kui commit liidetakse.
+
+### Regulaarsed commit-id
+Regulaarne commit-imine on oluline. See tagab, et muudatused on järkjärgulised ja hallatavad, võimaldades lihtsamat ülevaatust, vigade otsimist ja vajadusel tagasipööramist.
+
+**Tee:**  
+- Tee commit, kui oled lõpetanud ühe loogilise muudatuse, isegi kui see on väike.
+
+**Ära tee:**  
+- Oota, et koguda palju mitteseotud muudatusi ühte suurde commit-i.
+
+**Soovitused:**
+- Mõtle igast commit-ist kui peatükist loos. Iga peatükk peaks olema arusaadav iseseisvalt.
+- Väldi mitme mitteseotud muudatuse lisamist ühte commit-i. See teeb keeruliseks iga muudatuse eesmärgi jälgimise ja raskendab protsessi, kui on vaja tagasi pöörata.
+- Kui leiad end kasutamas "ja" commit-i pealkirjas, mõtle, kas sinu commit sisaldab mitteseotud muudatusi.
+
+### Kasuta atomaarseid commit-e
+Atomaarne commit tähendab, et üks commit esindab ainult ühte konkreetset muudatust. See ei tähenda, et muudetud on ainult üks fail või isegi üks rida, vaid pigem ühte "loogilist" muudatust. Atomaarsed commit-id teevad lihtsamaks muudatuste mõistmise, vigade otsimise ja võimalike probleemide tuvastamise.
+
+**Soovitused:**
+- Enne commit-i tegemist vaata muudatused üle käsuga `git diff`
+- Kui muudatused hõlmavad mitut valdkonda või funktsionaalsust, kasuta käsku `git add -p` muudatuste tükkhaaval lisamiseks. Käsu kasutamine käib nii:
+
+1. Sisesta käsk `git add -p`
+2. Git näitab sulle esimest muudatuste tükki ja küsib, mida sellega teha
+3. Sul on järgmised valikud:
+   - `y` - lisa see tükk (yes)
+   - `n` - jäta see tükk lisamata (no) 
+   - `s` - jaga tükk väiksemateks osadeks (split)
+   - `q` - välju, ära lisa rohkem tükke (quit)
+   - `?` - näita kõiki võimalikke valikuid (help)
+4. Vasta igale tükile kas `y` või `n`, kuni kõik muudatused on üle vaadatud
+5. Seejärel saad teha commit-i ainult valitud muudatustega
+
+See on eriti kasulik, kui oled teinud mitu erinevat muudatust samas failis, aga soovid need eraldi commit-idesse panna.
+
+## Konventsionaalsete commit-ide kirjutamise reeglid:
+[Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)  
+[Conventional Commit Specification](https://pranaybathini.medium.com/conventional-commit-specification-ecd701b0bbb2)  
+[Writing a Good Git Commit Message](https://www.gitkraken.com/learn/git/best-practices/git-commit-message)  
+
+Üldine loogika on järgmine:  
+Selmet kirjutada:
+```Bash
+git commit -m "fixed login error"
+```
+kirjuta arusaadavam kommentaar:
+```Bash
+git commit -m "fix(auth): improve login error handling"
+```
+
+### Peamised tüübid:
+#### Fix
+Fix-tüüpi commit-e kasutatakse koodibaasis esinevate vigade või probleemide lahendamiseks.
+
+```Bash
+$ git commit -m "fix: resolve issue with form submission not triggering validation"
+$ git commit -m "fix(login): improve login error handling"
+```
+
+#### Feat
+Seda kasutatakse projektile lisatud uute funktsioonide jaoks.
+
+```Bash
+$ git commit -m "feat: introduce real-time notifications for new messages"
+$ git commit -m "feat(css): add mobile view layout"
+$ git commit -m "feat(styles): add modal window animations"
+```
+
+#### Breaking Change
+Breaking change ehk väga oluline muudatus tähistab commit-i, mis muudab API-t (Application Programming Interface - rakendusliidest) või funktsionaalsust viisil, mis ei ole tagasiühilduv. Selliseid muudatusi saab tähistada kas hüüumärgiga (!) või BREAKING CHANGE: märkega commit-i kirjelduses.
+
+Näited hüüumärgiga:
+```Bash
+$ git commit -m "feat!: remove support for IE11"
+$ git commit -m "feat: remove support for IE11"
+$ git commit -m "BREAKING CHANGE: remove support for IE11"
+$ git commit -m "feat(api): remove support for IE11"
+```
+
+**Üldjuhul nendest peakski piisama.**
+
+### Muud
+
+#### Chore
+Chore-tüüpi commit-e kasutatakse regulaarsete hooldustööde jaoks, nagu sõltuvuste uuendamine, paketihaldurite konfiguratsioonid või muud ülesanded, mis ei muuda lähtekoodi ega mõjuta rakenduse käitumist.
+
+```Bash 
+$ git commit -m "chore: clean up unused dependencies from package.json"
+```
+
+#### Docs
+Commit-id, mis hõlmavad ainult dokumentatsiooni muudatusi, nagu README failide uuendamine, kommentaaride lisamine või funktsioonide või klasside dokumentatsiooni kirjutamine.
+
+```Bash
+$ git commit -m "docs: add auth service instructions to README"
+```
+
+#### Build
+Seda tüüpi kasutatakse muudatuste jaoks, mis mõjutavad ehitussüsteemi või väliseid sõltuvusi. Näiteks kui uuendad teeki või muudad ehituse konfiguratsioone, kuulub see sellesse kategooriasse.
+
+```Bash
+$ git commit -m "build: update webpack configuration"
+$ git commit -m "build: update Hive Maven dependency to version 3"
+```
+
+#### CI
+Commit-id, mis on seotud pideva integratsiooni konfiguratsioonide või skriptidega. See hõlmab muudatusi automatiseerimiseks ja testimiseks kasutatavates tööriistades ja protsessides.
+
+```Bash
+$ git commit -m "ci: add vault stage to gitlab ci pipeline to fetch api secrets"
+```
+
+#### Performance
+Commit-id, mis parandavad koodibaasi jõudlust ilma selle välist käitumist muutmata. Optimeerimisega seotud muudatused kategoriseeritakse jõudluse parendustena.
+
+```Bash
+$ git commit -m "perf: optimize guest misconduct database search by reservation for faster retrieval"
+```
+
+#### Refactor
+Refaktoreerimise commit-id hõlmavad koodi muudatusi, mis ei paranda viga ega lisa funktsionaalsust. Refaktoreerimine on suunatud koodi struktuuri, loetavuse või hooldatavuse parandamisele ilma selle välist käitumist muutmata.
+
+```Bash
+$ git commit -m "refactor: simplify validation logic in user registration"
+$ git commit -m "refactor(validation): improve user registration validation logic"
+```
+
+#### Revert
+Revert-tüüpi commit-e kasutatakse varasemate muudatuste tagasipööramiseks. On oluline mainida commit-i kommentaaris tagasipööratavate muudatuste commit-i ID või pealkiri.
+
+```Bash
+$ git commit -m "revert: revert changes made in commit abc123"
+```
+
+#### Style
+Commit-id, mis on seotud koodi stiili ja vormindamisega. See võib hõlmata taandamise muudatusi, koodi ümbervormindamist või muutujate ümbernimetamist koodistandardite järgimiseks.
+
+```Bash
+$ git commit -m "style: format code according to linting rules"
+$ git commit -m "style(css): add header hover effect"
+$ git commit -m "style(navbar): update button colors and borders"
+```
+
+
+#### Test
+Commit-id, mis lisavad või muudavad teste. See hõlmab ühikteste, integratsiooniteste või mis tahes muud tüüpi automatiseeritud testimist.
+
+```Bash
+$ git commit -m "test: add unit tests for authentication service"
+```
+Kuigi ilma tüübi eesliiteta, soovitatakse alustada lauset suure algustähega, siis  eesliite puhul kirjutatakse kõik väikse algustähega. 
+Tüübi eesliide (feat:, fix:, jne) annab juba struktuuri.  
+Väiketähed säilitavad visuaalse ühtsuse eesliitega.  
+See on osa formaalsest spetsifikatsioonist.  
+
+**Tavaliste Git-i commit-ide puhul:**  
+Suure algustähega alustamine järgib standardset lauseehitust.  
+Aitab eristada sõnumi algust.  
+See on pikaajaline Git-i tava, mida näeb Git-i enda dokumentatsioonis ja paljudes suurtes projektides.  
+Muudab sõnumi git log vaates paremini loetavaks.  
