@@ -93,6 +93,7 @@ Kestus: 3h (90 min teooria + 90 min praktikat)
 
 ### Materjalid
 Scrumist Scrumbanini: https://blog.twn.ee/et/scrumist-scrumbanini
+Tarkvaraarenduse etapid https://web.htk.tlu.ee/digitaru/tarkvara2/chapter/tarkvaraarenduse-etapid/
 Scrum vs Agiilne: https://www.youtube.com/watch?v=K7YMEFjh724
 Mis on scrum: https://www.youtube.com/watch?v=iJ_sl6J8PRg
 Scrum vs Kanban: https://www.youtube.com/watch?v=F5QIqFEDv2k
