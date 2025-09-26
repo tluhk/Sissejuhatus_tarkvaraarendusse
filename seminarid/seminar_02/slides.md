@@ -60,7 +60,7 @@ NB! NB! Ärge kasutage Githubi koodimuudatuste tegemise võimalust veebis! Vaid 
 
 ---
 
-## Tarkvaraarendus kui protsess
+## Tarkvaraarendus kui protsess. Tarkvaraarenduse elutsükkel.
 
 ```
 Probleem → Analüüs → Disain → Arendamine → Testimine → Juurutamine → Hooldus
