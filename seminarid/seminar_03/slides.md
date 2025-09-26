@@ -14,6 +14,8 @@ Kestus: 3h (90 min teooria + 90 min praktikat)
 
 ## Täna:
 
+- **Kodutööde tagasiside**  
+- **Commitite kirjutamine**  
 - **Arendusmetoodikad**: Waterfall, Agile, Scrum, Kanban
 - **Rollid tarkvaraarenduses**: Project Owner, Project Manager, Developer, UX/UI Designer
 - **Meeskonnatöö põhimõtted**: kommunikatsioon, koostöö
@@ -86,6 +88,18 @@ Kestus: 3h (90 min teooria + 90 min praktikat)
 ![kanban](kanban.jpg)
 
 **Põhiprintsiip**: töövoogude visualiseerimine ja WIP piiramine
+
+---
+
+### Materjalid
+Scrumist Scrumbanini: https://blog.twn.ee/et/scrumist-scrumbanini
+Scrum vs Agiilne: https://www.youtube.com/watch?v=K7YMEFjh724
+Mis on scrum: https://www.youtube.com/watch?v=iJ_sl6J8PRg
+Scrum vs Kanban: https://www.youtube.com/watch?v=F5QIqFEDv2k
+Agile vs waterfall: https://www.youtube.com/watch?v=x2LE3FKGEkA
+5 meetodit (sh waterfall): https://www.youtube.com/watch?v=ID2KvYvuN3Y
+DevOps vs Agile: https://www.youtube.com/watch?v=MSjr6sCUniE
+Waterfall vs Agile: https://www.youtube.com/watch?v=5RocT_OdQcA
 
 ---
 
