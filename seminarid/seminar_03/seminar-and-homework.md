@@ -111,7 +111,7 @@ Meeskond otsustas rollid järgmiselt:
 - Prototüübi testimine annab positiivse tagasiside
 ```
 
-### Project Charter - "Kooli Köök"
+### Projekriplaan - "Kooli Köök"
 
 ```markdown
 # PROJEKTI AJAKAVA - Sprint 1
@@ -150,7 +150,7 @@ Meeskond otsustas rollid järgmiselt:
 ```
 To Do | In Progress | Review | Done
 Filter: Sprint = "Sprint 1" AND Component = "Planning"
-Nähtavad ülesanded: Project charter, rollide kirjeldused, IoT integratsiooni plaan
+Nähtavad ülesanded: Projektiplaan, rollide kirjeldused, IoT integratsiooni plaan
 ```
 
 ### Backlog Management - "Kooli Köök" näide
@@ -196,7 +196,7 @@ NB! ### Epicute ajaline jaotus:
 SPRINT 1 FOCUS: Projekti organiseerimine ja meeskonnakorraldus
 
 - [ ] **Meeskonna rollide jaotamine** (2 SP) 📍 Sprint 1 - setup
-- [ ] **Project charter dokument** (3 SP) 📍 Sprint 1 - setup  
+- [ ] **Projektiplaani dokument** (3 SP) 📍 Sprint 1 - setup  
 - [ ] **GitHub Projects seadistamine** (2 SP) 📍 Sprint 1 - setup
 - [ ] **Kommunikatsiooni protokoll** (2 SP) 📍 Sprint 1 - setup
 - [ ] **High-level roadmap 3 sprindiks** (2 SP) 📍 Sprint 1 - setup
@@ -304,7 +304,7 @@ Meeskond arutleb:
 
 **Sprint 1 Tasks:**
 
-- [ ] **Project charter dokument valmis** (3 SP) - kasutades mikrolaineahjude kasutamise analüüsi
+- [ ] **Projektiplaani dokument valmis** (3 SP) - kasutades mikrolaineahjude kasutamise analüüsi
   - *Vastutab*: Marko (Project Manager)
   - *Definition of Done*: Dokument sisaldab projekti eesmärke, edu kriteeriume ja on meeskonna poolt heaks kiidetud
 
@@ -366,7 +366,7 @@ Meeskond arutleb:
 
 #### `project-charter.md`
 ```markdown
-# Kooli Köök - Project Charter
+# Kooli Köök - Projektiplaan
 
 ## Projekti taust
 Kooli uuringute põhjal selgus, et 90% kasutajatest kulutab mikrolaineahju otsimisele ja ootamisele 10-15 minutit päevas. Peamised probleemid on pikad järjekorrad ja info puudumine vabade ahjude kohta.

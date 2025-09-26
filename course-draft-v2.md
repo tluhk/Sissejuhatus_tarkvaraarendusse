@@ -66,7 +66,7 @@ Tudengid valivad **päris probleemi** lahendamiseks, midagi oma igapäevaelust. 
 - **UX/UI Designer**: kasutajakogemus, visuaalne disain ja testimine
 
 **Sprint 1 eesmärgid:**
-- Täielik projekti charter ja roadmap
+- Täielik projektiplaan ja roadmap
 - GitHub Projects seadistamine advanced workflow-dega
 - Riskianalüüs ja leevendamise strateegiad
 - Meeskonna kommunikatsiooni protokollid

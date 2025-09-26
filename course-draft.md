@@ -125,7 +125,7 @@ Iga seminar vastab **ühele arenduse etapile**:
 
 #### Praktilised harjutused:
 - **Rollide jaotamine**: Iga tudeng valib rolli järgmisteks seminariteks
-- **Projekti charter loomine**: Eesmärgid, skoop, ajakava
+- **Projektiplaani loomine**: Eesmärgid, skoop, ajakava
 - **GitHub repository setup**: Organisational structure
 - **GitHub organisatsiooni vaadete loomine**: Custom views, dashboards
 - **Branching strategy** määramine ja praktiline harjutamine
