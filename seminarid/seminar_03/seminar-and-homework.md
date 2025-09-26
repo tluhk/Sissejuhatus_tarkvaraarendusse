@@ -193,7 +193,7 @@ NB! ### Epicute ajaline jaotus:
 📍 Sprint 2 - disainimine = Kasutajaliidese ja kogemuse disain  
 📍 Sprint 3 - arendusprotsess = Arenduse simuleerimine ja koordineerimine  
 
-SPRINT 1 FOCUS: Projekti organiseerimine ja meeskonnakorraldus
+SPRINT 1 FOOKUS: Projekti organiseerimine ja meeskonnakorraldus
 
 - [ ] **Meeskonna rollide jaotamine** (2 SP) 📍 Sprint 1 - setup
 - [ ] **Projektiplaani dokument** (3 SP) 📍 Sprint 1 - setup  
@@ -205,7 +205,7 @@ SPRINT 1 FOCUS: Projekti organiseerimine ja meeskonnakorraldus
 
 💡 Märkus: Sprint 1-s EI disaini ega arendata veel midagi - ainult planeerime!
 
-SPRINT 2 FOCUS: Kasutajaliidese ja kogemuse kavandamine
+SPRINT 2 FOOKUS: Kasutajaliidese ja kogemuse kavandamine
 
 Sprint 2 taskid Epic breakdown-ist:
 - [ ] **Reaalajas kaardi komponendi disain** (3 SP)
@@ -220,7 +220,7 @@ Disaini-spetsiifilised taskid:
 - [ ] **Kasutajateekondade kaardistamine** (2 SP)
 - [ ] **Paberprototüüpide testimine** (2 SP)
 
-SPRINT 3 FOCUS: Arenduse simuleerimine ja projekti koordineerimine  
+SPRINT 3 FOOKUS: Arenduse simuleerimine ja projekti koordineerimine  
 
 Sprint 3 taskid Epic breakdown-ist:
 - [ ] **IoT sensorite API spetsifikatsioon** (5 SP)
