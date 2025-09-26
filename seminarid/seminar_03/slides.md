@@ -4,7 +4,7 @@ theme: default
 paginate: true
 ---
 
-# Seminar 3: Sprint 1 - Planeerimine
+# Seminar 3: Sprint 1 - planeerimine
 ## Projektijuhtimine ja meeskonnatöö
 
 **Sissejuhatus tarkvaraarendusse**
@@ -183,7 +183,7 @@ Iseloomulik: rollid on lineaarselt järjestatud, töö liigub etappide kaupa eda
 - Tehnilised lahendused ja arhitektuur
 - Arenduse planeerimine
 
-**UX/UI Disainer**: 
+**UX/UI disainer**: 
 - Kasutajakogemus ja visuaalne disain
 - Prototüüpimine ja testimine
 
@@ -224,20 +224,20 @@ Iseloomulik: rollid on lineaarselt järjestatud, töö liigub etappide kaupa eda
 ### Epicute jagamine
 
 ```
-PROJEKT: Kooli toidu soojendamise ja jagamise keskkond
-└── EPIC: Mikrolaineahjude broneerimissüsteem
-    ├── USER STORY: Kasutaja näeb vabade ahjude olekut
+PROJEKT: kooli toidu soojendamise ja jagamise keskkond
+└── EPIC: mikrolaineahjude broneerimissüsteem
+    ├── USER STORY: kasutaja näeb vabade ahjude olekut
     │   ├── TASK: IoT sensorite API
     │   └── TASK: Mobile-responsive kaart
-    ├── USER STORY: Broneering kindlaks ajaks
-    └── USER STORY: Broneeringu tühistamine
+    ├── USER STORY: broneering kindlaks ajaks
+    └── USER STORY: broneeringu tühistamine
 ```
 
 **Hierarhia selgitus:**
-- **TASK** = Konkreetne, teostatav ülesanne (nt "Loo API endpoint")
-- **USER STORY** = Kasutaja eesmärk, mis koosneb task-idest
-- **EPIC** = Suur funktsioon, mis koosneb user story-dest
-- **PROJEKT** = Terve lahendus, mis koosneb epikutest
+- **TASK** = konkreetne, teostatav ülesanne (nt "Loo API endpoint")
+- **USER STORY** = kasutaja eesmärk, mis koosneb task-idest
+- **EPIC** = suur funktsioon, mis koosneb user story-dest
+- **PROJEKT** = terve lahendus, mis koosneb epikutest
 
 **Kuidas see töötab:**
 1. Task-id tehakse valmis → User Story saab valmis
@@ -250,21 +250,21 @@ PROJEKT: Kooli toidu soojendamise ja jagamise keskkond
 
 **Fibonacci skaal**: 1, 2, 3, 5, 8, 13, 21
 
-- **1 punkt**: Triviaalne (30 min - 1h)
-- **2 punkti**: Lihtne (2-4h)
-- **3 punkti**: Keskmine (halb päev)
-- **5 punkti**: Keeruline (2-3 päeva)
-- **8+ punkti**: Peaks jagama väiksemateks
+- **1 punkt**: triviaalne (30 min - 1h)
+- **2 punkti**: lihtne (2-4h)
+- **3 punkti**: keskmine (halb päev)
+- **5 punkti**: keeruline (2-3 päeva)
+- **8+ punkti**: peaks jagama väiksemateks
 
 ---
 
 ### Prioritiseerimise tehnikad
 
 **MoSCoW meetod**:
-- **Must have**: Kritilised epicud/funktsioonid
-- **Should have**: Olulised, aga mitte kriitilised
-- **Could have**: Nice-to-have epicud/funktsioonid
-- **Won't have**: Praegu välistatud
+- **Must have**: kritilised epicud/funktsioonid
+- **Should have**: olulised, aga mitte kriitilised
+- **Could have**: nice-to-have epicud/funktsioonid
+- **Won't have**: praegu välistatud
 
 ---
 
@@ -368,7 +368,7 @@ Sort: Priority (desc), Story Points (asc)
 2. Mida teed täna?
 3. Mis sind takistab?
 
-**Reeglid**: Lühidalt, konkreetselt, regulaarselt
+**Reeglid**: lühidalt, konkreetselt, regulaarselt
 
 ---
 
@@ -420,4 +420,4 @@ Looge järgmised Markdown failid:
 
 # Küsimused?
 
-**Edu Sprint 1-ga! 🚀**
+**Edu Sprint 1-ga!**
