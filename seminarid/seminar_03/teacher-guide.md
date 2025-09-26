@@ -132,13 +132,13 @@ Slide 12
 
 
 ### 1.2 Rollid tarkvaraarenduses (20 min)
-Slide 13
+Slide 14
 
 **Selgitus:**
 > "Nüüd räägime sellest, milliseid rolle teie projektides mängite. Need pole ametinimetused, vaid vastutusalad - see tähendab, et igaüks teist õpib ühte osa tarkvaraarenduse protsessist sügavamalt."
 
 #### Waterfall projektide rollide selgitus (5 min)
-Slide 14
+Slide 15
 
 **Selgitus:**
 > "Waterfall projektides on rollid nagu etappide järgi jaotatud - iga inimene töötab ühes faasis ja siis annab töö edasi järgmisele. See on nagu võistluse teatejooks."
@@ -156,7 +156,7 @@ Slide 14
 > "Waterfall: 'Relay race' - igaüks teeb oma osa ja annab edasi. Agile: 'Basketball' - kõik mängivad koos, kõik teavad kõike."
 
 #### Agiilse arenduse rollide selgitus:
-Slaid 16
+Slaid 17
 
 **Product Owner rolli süvitsi:**
 > "Tooteomanik on nagu tõlk kasutajate ja meeskonna vahel. Te peate mõistma, mida kasutajad tegelikult tahavad - mitte seda, mida nad ütlevad, et tahavad. Näiteks kui kasutaja ütleb 'Ma tahan kiiremat süsteemi', siis Product Owner küsib: 'Mis täpselt on aeglane? Millal? Miks see sind häirib?'"
@@ -181,7 +181,7 @@ Slaid 16
 > "Designer paneb end kasutaja kingadesse. Te küsite: 'Kuidas kasutaja end tunneb? Mis on tema eesmärk? Kuidas ta mõtleb?' Te olete nagu psühholoog ja kunstnik koos."
 
 ### 1.3 Meeskonnatöö ja kommunikatsioon (15 min)
-Slide 22
+Slide 23
 
 **Selgitus:**
 > "Tarkvaraarendus on meeskonnasport. Isegi maailma parim programmeerija ei saa üksi suurt süsteemi ehitada. Seepärast peame õppima koostööd."
@@ -202,7 +202,7 @@ Slide 22
 - "Kritiseerige ideid, mitte inimesi"
 
 #### Kommunikatsiooni vormid:
-slaid 24
+slaid 25
 
 **Daily standup:**
 > "Kujutage ette, et igal hommikul käib kogu pere kokku ja ütleb: mida ma eile tegin, mida ma täna teen, mis mulle takistab. See võtab 5 minutit, aga kõik teavad, mis toimub."
@@ -211,10 +211,10 @@ slaid 24
 > "GitHub-is võite jätta kommentaare, küsimusi, linke. See on nagu chat, aga organiseeritum. Kõik info on alles ja hiljem leitav."
 
 ### 1.4 Backlog management ja prioriseerimine (20 min)
-Slide 25
+Slide 26
 
 #### Epicute jagamine visuaalselt:
-Slide 26
+Slide 27
 
 **Selgitus:**
 > "Mõelge oma projektist kui raamatust. Raamat koosneb peatükkidest (epicud), peatükid lõikudest (User Story-d), lõigud lausetest (Task-id). Alustame suurtest asjadest ja jagame väiksemaks."
@@ -235,7 +235,7 @@ Slide 26
 > "Task-id on konkreetsed ülesanded, mida meeskond teeb. Kui kõik ühe USER STORY task-id on valmis, siis USER STORY on valmis. Kui kõik ühe EPIC-i USER STORY-d on valmis, siis EPIC on valmis. Kui kõik PROJEKTI EPIC-ud on valmis, siis PROJEKT on valmis."
 
 #### Story pointide selgitamine:
-Slide 27
+Slide 28
 
 > "Story point-id pole tunnid või päevad - need on KEERUKUS. 1 punkt on nagu kooli maht-ülesanne matemaatikas - te teate kohe vastust. 5 punkti on nagu uurimistöö - peate uurima, katsetama, võib-olla mitut korda proovima."
 
@@ -246,7 +246,7 @@ Slide 27
 - "Täielik prototüüp" - 8 punkti (liiga suur, peaks jagama)
 
 #### MoSCoW prioritiseerimine:
-Slide 28
+Slide 29
 
 **Praktiline harjutus klassiga:**
 > "Võtame 'Kooli Köök' PROJEKTI ja kategoriseerime EPIC-uid:
@@ -258,7 +258,7 @@ Slide 28
 ---
 
 ## OSA 2: PRAKTILINE TÖÖTUBA (90 minutit)
-Slaid 29
+Slaid 30
 
 ### Üldised juhised õpetajale praktiliseks osaks:
 
@@ -268,7 +268,7 @@ Slaid 29
 4. **Jälgige aega**: Kasutage timerit - tudengid kaotavad aja tunde
 
 ### 2.1 Rollide jaotamine (15 min)
-Slide 30
+Slide 31
 
 #### Juhised tudengitele:
 
@@ -302,7 +302,7 @@ Slide 30
 ```
 
 ### 2.2 Projektiplaani loomine (20 min)
-Slide 31
+Slide 32
 
 #### Project Charteri/projektiplaani loomise juhendamine:
 
@@ -332,7 +332,7 @@ Slide 31
 - "Kuidas te seda mõõdate?"
 
 ### 2.3 GitHub Projects seadistamine (25 min)
-Slide 32
+Slide 33
 
 #### Praktilise demo ettevalmistus:
 
@@ -408,7 +408,7 @@ Options: Sprint 1, Sprint 2, Sprint 3
 - "Kuidas kasutaksite erinevaid vaateid erinevates olukordades?"
 
 ### 2.4 Sprint 1 planeerimine (20 min)
-Slide 34
+Slide 35
 
 #### Sprint Goal ehk sprindi eesmärkide väljatöötamine:
 
@@ -433,7 +433,7 @@ See on pigem tööülesannete loetelu, mitte eesmärk. Sprinti eesmärk peaks va
 3. Keskmiselt: 2-4 story point-i tudeng/nädal
 
 #### Task-ide väljatöötamine Sprint 1 jaoks:
-Slaid 35
+Slaid 36
 
 **Juhendage gruppi looma konkrettseid task-e:**
 
@@ -450,7 +450,7 @@ Slaid 35
 - "Kes selle eest vastutab?"
 
 ### 2.5 Daily workflow seadistamine (10 min)
-Slide 36
+Slide 37
 
 #### Daily standup protokolli ülespanek:
 
@@ -484,7 +484,7 @@ Slide 36
 
 ---
 
-## Slide 37: Kodutöö selgitamine
+## Slide 38: Kodutöö selgitamine
 
 **Rõhutage tudengitele:**
 - See ei ole individuaalne töö - see on ühine projekt
@@ -509,7 +509,7 @@ Slide 36
 
 ---
 
-## Slide 33-34: Kokkuvõte ja järgmised sammud
+## Slide 41: Kokkuvõte ja järgmised sammud
 
 **Mida õppisime:**
 - ✅ Erinevaid arendusmetoodikaid
@@ -522,8 +522,6 @@ Slide 36
 > "Järgmine seminar: **Sprint 2 - Disainimine**. Te loote kasutajaid, joonistage prototüüpe ja planeerite kasutajakogemust."
 
 ---
-
-## Slide 35: Küsimused?
 
 **Edu Sprint 1-ga! 🚀**
 
