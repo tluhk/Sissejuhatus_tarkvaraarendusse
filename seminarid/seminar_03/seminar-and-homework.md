@@ -160,30 +160,82 @@ Nähtavad ülesanded: Project charter, rollide kirjeldused, IoT integratsiooni p
 **Alustame suurest pildist ja jagame väiksemaks:**
 
 ```
-PROJEKT: Kooli toidu soojendamise ja jagamise keskkond
-├── EPIC: Mikrolaineahjude broneerimissüsteem
-│   ├── USER STORY: Kasutaja näeb vabade ahjude nimekirja
-│   │   ├── TASK: IoT sensorite andmete API
-│   │   ├── TASK: Reaalajas statusse näitav kaart
-│   │   └── TASK: Mobile-responsive ahju vaade
+PROJEKT: Kooli Köök - Toidu soojendamise ja jagamise keskkond
+│
+├── EPIC: Mikrolaineahjude broneerimissüsteem 
+│   ├── USER STORY: Kasutaja näeb vabade ahjude reaalajas olekut
+│   │   ├── TASK: IoT sensorite andmete API 📍 Sprint 3 - arendusprotsess
+│   │   ├── TASK: Reaalajas statusse näitav kaart 📍 Sprint 2 - disainimine  
+│   │   └── TASK: Mobile-responsive ahju vaade 📍 Sprint 2 - disainimine
 │   ├── USER STORY: Kasutaja saab broneerida ahju kindlaks ajaks  
-│   │   ├── TASK: Broneerimise UI komponent
-│   │   └── TASK: Broneerimisloogika backend
+│   │   ├── TASK: Broneerimise UI komponent 📍 Sprint 2 - disainimine
+│   │   └── TASK: Broneerimisloogika backend 📍 Sprint 3 - arendusprotsess
 │   └── USER STORY: Kasutaja saab tühistada broneeringu
-│       ├── TASK: Tühistamise funktsioon
-│       └── TASK: Teadete süsteem vabade kohtade kohta
+│       ├── TASK: Tühistamise funktsioon 📍 Sprint 3 - arendusprotsess
+│       └── TASK: Teadete süsteem vabade kohtade kohta 📍 Sprint 3 - arendusprotsess
+│
 └── EPIC: Toidu jagamise ja ühisostude platvorm
     ├── USER STORY: Kasutaja saab pakkuda ülejäänud toitu
-    │   ├── TASK: Toidu pakkumise vormi disain
-    │   ├── TASK: Pildi üleslaadimise funktsioon  
-    │   └── TASK: Pakkumiste filtreerimise süsteem
+    │   ├── TASK: Toidu pakkumise vormi disain 📍 Sprint 2 - disainimine
+    │   ├── TASK: Pildi üleslaadimise funktsioon 📍 Sprint 3 - arendusprotsess
+    │   └── TASK: Pakkumiste filtreerimise süsteem 📍 Sprint 3 - arendusprotsess
     ├── USER STORY: Kasutaja saab liituda ühisostuga
-    │   ├── TASK: Ühisostu loomise interface
-    │   └── TASK: Maksejaotuse kalkulaator
+    │   ├── TASK: Ühiostu loomise interface 📍 Sprint 2 - disainimine
+    │   └── TASK: Maksejaotuse kalkulaator 📍 Sprint 3 - arendusprotsess
     └── USER STORY: Kasutaja näeb kogukonna aktiivsust
-        ├── TASK: Kogukonna statistika dashboard
-        └── TASK: Hinnangute ja tagasiside süsteem
+        ├── TASK: Kogukonna statistika dashboard 📍 Sprint 2 - disainimine
+        └── TASK: Hinnangute ja tagasiside süsteem 📍 Sprint 3 - arendusprotsess
 ```
+
+NB! ### Epicute ajaline jaotus:
+
+📍 Sprint 1 - projekti setup = Organiseerimise ja planeerimise taskid  
+📍 Sprint 2 - disainimine = Kasutajaliidese ja kogemuse disain  
+📍 Sprint 3 - arendusprotsess = Arenduse simuleerimine ja koordineerimine  
+
+SPRINT 1 FOCUS: Projekti organiseerimine ja meeskonnakorraldus
+
+- [ ] **Meeskonna rollide jaotamine** (2 SP) 📍 Sprint 1 - setup
+- [ ] **Project charter dokument** (3 SP) 📍 Sprint 1 - setup  
+- [ ] **GitHub Projects seadistamine** (2 SP) 📍 Sprint 1 - setup
+- [ ] **Kommunikatsiooni protokoll** (2 SP) 📍 Sprint 1 - setup
+- [ ] **High-level roadmap 3 sprindiks** (2 SP) 📍 Sprint 1 - setup
+- [ ] **Riskianalüüs** (2 SP) 📍 Sprint 1 - setup
+- [ ] **Stakeholderite kaardistamine** (1 SP) 📍 Sprint 1 - setup
+
+💡 Märkus: Sprint 1-s EI disaini ega arendata veel midagi - ainult planeerime!
+
+SPRINT 2 FOCUS: Kasutajaliidese ja kogemuse kavandamine
+
+Sprint 2 taskid Epic breakdown-ist:
+- [ ] **Reaalajas kaardi komponendi disain** (3 SP)
+- [ ] **Mobile-responsive ahju vaate wireframe** (2 SP) 
+- [ ] **Broneerimise UI komponendi prototüüp** (5 SP)
+- [ ] **Toidu pakkumise vormi disain** (3 SP)
+- [ ] **Ühiostu interface mockup** (3 SP)
+- [ ] **Kogukonna dashboard wireframe** (2 SP)
+
+Disaini-spetsiifilised taskid:
+- [ ] **3 detailset persoonat** (3 SP)
+- [ ] **Kasutajateekondade kaardistamine** (2 SP)
+- [ ] **Paberprototüüpide testimine** (2 SP)
+
+SPRINT 3 FOCUS: Arenduse simuleerimine ja projekti koordineerimine  
+
+Sprint 3 taskid Epic breakdown-ist:
+- [ ] **IoT sensorite API spetsifikatsioon** (5 SP)
+- [ ] **Broneerimisloogika pseudo-algoritm** (5 SP)
+- [ ] **Tühistamise funktsiooni plaan** (3 SP)
+- [ ] **Teadete süsteemi arhitektuur** (3 SP)
+- [ ] **Pildi upload funktsiooni spetsifikatsioon** (2 SP)
+- [ ] **Filtreerimise süsteemi disain** (3 SP)
+- [ ] **Maksejaotuse algoritm** (5 SP)
+- [ ] **Tagasiside süsteemi spetsifikatsioon** (2 SP)
+
+Arendusprotsessi taskid:
+- [ ] **Daily standup-te protokollid** (1 SP)
+- [ ] **Sprint ceremonies läbiviimine** (2 SP)
+- [ ] **Velocity tracking ja burndown** (2 SP)
 
 #### Story Points hinnangud
 
