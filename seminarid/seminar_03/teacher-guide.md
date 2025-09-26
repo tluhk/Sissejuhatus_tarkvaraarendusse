@@ -523,8 +523,6 @@ Slide 37
 
 ---
 
-## Slide 32: Küsimused?
-
 **Edu Sprint 1-ga! 🚀**
 
 ---
