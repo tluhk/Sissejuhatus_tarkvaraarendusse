@@ -351,7 +351,7 @@ Sort: Priority (desc), Story Points (asc)
 ### Tasks Sprint 1 jaoks
 
 **Must-have ülesanded:**
-- [ ] Project charter valmis
+- [ ] Projektiplaan valmis
 - [ ] Rollid määratud ja kirjeldatud
 - [ ] GitHub Projects seadistatud
 - [ ] Kommunikatsiooni protokoll kokku lepitud
