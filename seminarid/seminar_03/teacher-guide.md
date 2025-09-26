@@ -438,7 +438,7 @@ Slaid 36
 **Juhendage gruppi looma konkrettseid task-e:**
 
 **Must-have task-id:**
-- [ ] Project charter dokument valmis (3 SP)
+- [ ] Projektiplaan valmis (3 SP)
 - [ ] Kõigi rollide kirjeldused (2 SP)
 - [ ] GitHub Projects seadistatud (2 SP)  
 - [ ] Risk assessment tehtud (3 SP)
@@ -584,7 +584,7 @@ Slide 37
 ### Seminari lõpu checklist:
 
 - [ ] Kõik grupid on rollid jaotanud
-- [ ] Project charter on alustatud
+- [ ] Projektiplaan on alustatud
 - [ ] GitHub Projects on seadistatud
 - [ ] Sprint 1 goal on määratletud
 - [ ] Daily standup protokoll on kokku lepitud
