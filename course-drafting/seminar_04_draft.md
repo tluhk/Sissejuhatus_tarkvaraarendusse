@@ -4,13 +4,13 @@
 **Fookus**: arendusprotsessi 3. etapp - kasutajaliidese ja kasutajakogemuse disainimine
 
 ## Eesmärgid
-Kursuse lõpus tudeng:
-- Mõistab design thinking metoodikat ja selle rakendamist
-- Oskab luua persoonasid uurimistulemuste põhjal
-- Oskab kirjutada kvaliteetseid kasutajalugusid
-- Oskab kavandada ja luua paberprototüüpe
+Seminari ja kodutöö järel tudeng:
+- mõistab design thinking metoodikat ja selle rakendamist
+- loob persoonasid uurimistulemuste põhjal
+- kirjutab kvaliteetseid kasutajalugusid
+- kavandab ja loob paberprototüüpe
 - Mõistab kasutaja teekonna kaardistamise tähtsust
-- Oskab testida prototüüpe kasutajatega
+- tstib prototüüpe kasutajatega
 
 ---
 
@@ -19,14 +19,14 @@ Kursuse lõpus tudeng:
 ### 1.1 Design thinking metoodika (25 min)
 
 #### Design thinking ülevaade (10 min)
-**Definitsioon**: Inimesekeskne lähenemine innovatsioonile, mis integreerib inimeste vajadused, tehnoloogia võimalused ja äri nõudmised.
+**Definitsioon**: inimesekeskne lähenemine innovatsioonile, mis integreerib inimeste vajadused, tehnoloogia võimalused ja äri nõudmised.
 
 **5 etapit**:
-1. **Empaatia (Empathize)**: Kasutajate mõistmine
-2. **Defineerimine (Define)**: Probleemi selge formuleerimine  
-3. **Ideation**: Lahenduste genereerimine
-4. **Prototüüpimine (Prototype)**: Kiired, odavad testversioonid
-5. **Testimine (Test)**: Kasutajatega valideerimine
+1. **Empaatia (Empathize)**: kasutajate mõistmine
+2. **Defineerimine (Define)**: probleemi selge formuleerimine  
+3. **Ideation**: lahenduste genereerimine
+4. **Prototüüpimine (Prototype)**: kiired, odavad testversioonid
+5. **Testimine (Test)**: kasutajatega valideerimine
 
 #### Double Diamond protsess (8 min)
 ```
@@ -36,57 +36,57 @@ Kursuse lõpus tudeng:
 Divergent -> Convergent -> Divergent -> Convergent
 ```
 
-**Esimene teemant**: Õige probleemi leidmine
-- **Discover**: Laia uurimine, mitmete võimaluste kaardistamine
-- **Define**: Fookuse leidmine, konkreetse probleemi valimine
+**Esimene teemant**: õige probleemi leidmine
+- **Discover**: lai uurimine, mitmete võimaluste kaardistamine
+- **Define**: fookuse leidmine, konkreetse probleemi valimine
 
-**Teine teemant**: Õige lahenduse leidmine  
-- **Develop**: Mitmete lahenduste genereerimine ja katsetamine
-- **Deliver**: Parima lahenduse valjemine ja ellurakendamine
+**Teine teemant**: õige lahenduse leidmine  
+- **Develop**: mitmete lahenduste genereerimine ja katsetamine
+- **Deliver**: parima lahenduse valjemine ja ellurakendamine
 
 #### Human-Centered Design põhimõtted (7 min)
-- **Inimesed esimeses kohas**: Tehnoloogia teenib inimesi, mitte vastupidi
-- **Konteksti mõistmine**: Kus, millal ja kuidas inimesed toodet kasutavad
-- **Iteratiivne protsess**: Jätkuv tagasiside ja parandamine
-- **Multidistsiplinaarne koostöö**: Erinevad vaatenurgad ja oskused
-- **Empaatia**: Kasutajate emotsioonide ja motivatsiooni mõistmine
+- **Inimesed esimeses kohas**: tehnoloogia teenib inimesi, mitte vastupidi
+- **Konteksti mõistmine**: kus, millal ja kuidas inimesed toodet kasutavad
+- **Iteratiivne protsess**: jätkuv tagasiside ja parandamine
+- **Multidistsiplinaarne koostöö**: erinevad vaatenurgad ja oskused
+- **Empaatia**: kasutajate emotsioonide ja motivatsiooni mõistmine
 
 ### 1.2 Persoonade loomine (20 min)
 
 #### Mis on persoona? (5 min)
-**Definitsioon**: Persoona on fiktiivsne karakter, mis esindab reaalset kasutajagruppi ja on loodud kasutajauuringute tulemuste põhjal.
+**Definitsioon**: persoona on fiktiivsne karakter, mis esindab reaalset kasutajagruppi ja on loodud kasutajauuringute tulemuste põhjal.
 
 **Persoona eesmärk**:
-- Aitab meeskonnal keskenduda konkreetse kasutaja vajadustele
-- Teeb otsuste tegemise lihtsamaks ("Kas Mari kasutaks seda funktsiooni?")
-- Loob ühise arusaama kasutajatest
-- Aitab vältida iseenda projekteerimist
+- aitab meeskonnal keskenduda konkreetse kasutaja vajadustele
+- teeb otsuste tegemise lihtsamaks ("Kas Mari kasutaks seda funktsiooni?")
+- loob ühise arusaama kasutajatest
+- aitab vältida iseenda projekteerimist
 
 #### Persoona elemendid (10 min)
 **Põhiinfo**:
-- Nimi ja pilt (aitab meeldejätta)
-- Vanus, elukutse, haridus
-- Tehnika kogemus ja oskused
+- nimi ja pilt (aitab meeldejätta)
+- vanus, elukutse, haridus
+- tehnika kogemus ja oskused
 
 **Kontekst ja keskkond**:
-- Kus ja millal toodet kasutab
-- Millised seadmed ja tehnoloogiad
-- Ajaline koormus ja stress
+- kus ja millal toodet kasutab
+- millised seadmed ja tehnoloogiad
+- ajaline koormus ja stress
 
 **Eesmärgid ja motivatsioon**:
-- Miks tahab toodet kasutada
-- Millised on tema peamised eesmärgid
-- Mis teda motiveerib või demotiveerib
+- miks tahab toodet kasutada
+- millised on tema peamised eesmärgid
+- mis teda motiveerib või demotiveerib
 
 **Frustatsioonid ja takistused**:
-- Mis teda praegu segab
-- Millised on tema peamised väljakutsed
-- Milliseid vigu ei tohi teha
+- mis teda praegu segab
+- millised on tema peamised väljakutsed
+- milliseid vigu ei tohi teha
 
 **Käitumismustrid**:
-- Kuidas tavaliselt uusi tööriistasid omaks võtab
-- Kui palju aega investeerib õppimisse
-- Kas eelistab kiireid lahendusi või põhjalikku uurimist
+- kuidas tavaliselt uusi tööriistasid omaks võtab
+- kui palju aega investeerib õppimisse
+- kas eelistab kiireid lahendusi või põhjalikku uurimist
 
 #### Persona näide (5 min)
 ```
@@ -144,7 +144,7 @@ Hea user story peab olema:
 ```
 USER STORY: Kui tudeng, siis soovin näha kõiki tähtaegu kalendrivaates.
 
-ACCEPTANCE CRITERIA:
+ACCEPTANCE CRITERIA/VASTUVÕTMISE KRITEERIUMID:
 ✅ Kasutaja näeb kõiki kodutöid kronoloogilises järjekorras
 ✅ Iga ülesande juures on näha tähtaeg ja õppeaine
 ✅ Võib filtreerida õppeainete kaupa
@@ -155,14 +155,14 @@ ACCEPTANCE CRITERIA:
 ### 1.4 Kasutajateekond ja stsenaariumid (15 min)
 
 #### Customer Journey Map (8 min)
-**Definitsioon**: Visuaalne esitlus kasutaja kogemusest toote või teenusega.
+**Definitsioon**: visuaalne esitlus kasutaja kogemusest toote või teenusega.
 
 **Elemendid**:
-- **Puutepunktid (Touchpoints)**: Kus kasutaja tootega kohtub
-- **Tegevused (Actions)**: Mida kasutaja teeb
-- **Mõtted (Thoughts)**: Mis kasutaja mõtleb
-- **Emotsioonid (Emotions)**: Kuidas kasutaja tunneb
-- **Võimalused (Opportunities)**: Kus saab parendada
+- **Puutepunktid (Touchpoints)**: kus kasutaja tootega kohtub
+- **Tegevused (Actions)**: mida kasutaja teeb
+- **Mõtted (Thoughts)**: mis kasutaja mõtleb
+- **Emotsioonid (Emotions)**: kuidas kasutaja tunneb
+- **Võimalused (Opportunities)**: kus saab parendada
 
 **Näide lühikesest kasutajateekonnast**:
 ```
@@ -186,22 +186,22 @@ ETAPP 3: Leiab info
 ```
 
 #### Stsenaariumide kirjutamine (7 min)
-**Definitsioon**: Detailne kirjeldus sellest, kuidas kasutaja konkreetses olukorras tootega suhtleb.
+**Definitsioon**: detailne kirjeldus sellest, kuidas kasutaja konkreetses olukorras tootega suhtleb.
 
 **Stsenaariumi elemendid**:
-- **Kontekst**: Kus ja millal
-- **Kasutaja**: Kes (viide persoonale)
-- **Eesmärk**: Mida tahab saavutada
-- **Sammud**: Mida täpselt teeb
-- **Tulemus**: Mida saavutab või mitte
+- **Kontekst**: kus ja millal
+- **Kasutaja**: kes (viide persoonale)
+- **Eesmärk**: mida tahab saavutada
+- **Sammud**: mida täpselt teeb
+- **Tulemus**: mida saavutab või mitte
 
 **Näide stsenaariumist**:
 ```
-STSENAARIUM: Tähtaja kontrollimine hommikul
+STSENAARIUM: tähtaja kontrollimine hommikul
 
 KONTEKST: Mari istub trammi Ülemistelt Noblessneri kampusesse
 KASUTAJA: Mari Mets (20a, rakendusinformaatika tudeng)
-EESMÄRK: Kiire ülevaade päeva kohustustest
+EESMÄRK: kiire ülevaade päeva kohustustest
 
 SAMMUD:
 1. Avab telefonis tähtaegade rakenduse
@@ -231,20 +231,20 @@ ALTERNATIIV: ❌ Kui info puudub → stress ja ajaraiskamine
 **Kategooriad ja näited**:
 
 **Jõudlus**:
-- Leht laadib 3 sekundi jooksul
-- Toetab kuni 1000 samaegset kasutajat
+- leht laadib 3 sekundi jooksul
+- toetab kuni 1000 samaegset kasutajat
 
 **Kasutatavus**:
-- Uus kasutaja õpib põhifunktsioonid 5 minutiga
-- Töötab iOS Safari ja Android Chrome brauserites
+- uus kasutaja õpib põhifunktsioonid 5 minutiga
+- töötab iOS Safari ja Android Chrome brauserites
 
 **Turvalisus**:
-- Parool peab olema vähemalt 8 märki
-- Andmed krüpteeritakse ülekandmisel
+- parool peab olema vähemalt 8 märki
+- andmed krüpteeritakse ülekandmisel
 
 **Skaleeruvus**:
-- Süsteem peab toetama 10x kasutajate kasvu
-- Võimalik lisada uusi õppeasutusi
+- süsteem peab toetama 10x kasutajate kasvu
+- võimalik lisada uusi õppeasutusi
 
 ---
 
@@ -254,17 +254,17 @@ ALTERNATIIV: ❌ Kui info puudub → stress ja ajaraiskamine
 
 #### Uurimisandmete analüüs
 **Aeg**: 5 minutit  
-**Ülesanne**: Grupp vaatab üle eelmise kodutöö kasutajauuringute tulemused:
-- Millised muutrid esinesid kõige sagedamini?
-- Millised on peamised kasutajatüübid?
-- Millised on erinevad vajadused ja motivatsioonid?
+**Ülesanne**: Grupp vaatab üle eelnenud kodutöö kasutajauuringute tulemused:
+- millised mustrid esinesid kõige sagedamini?
+- millised on peamised kasutajatüübid?
+- millised on erinevad vajadused ja motivatsioonid?
 
 #### Persoonade töötuba
 **Aeg**: 15 minutit  
-**Ülesanne**: Iga tudeng (vastavalt oma rollile) loob ühe persoona:
+**Ülesanne**: iga tudeng (vastavalt oma rollile) loob ühe persoona:
 
-**UX Designer**: Peamine kasutaja (põhiline sihtgrupp)  
-**Product Owner**: Äriline kasutaja (kes otsustab ostu/kasutamise)  
+**UX Designer**: peamine kasutaja (põhiline sihtgrupp)  
+**Product Owner**: äriline kasutaja (kes otsustab ostu/kasutamise)  
 **Technical Lead**: "Power user" (intensiivse kasutaja)  
 **QA Lead**: "Edge case" kasutaja (erilised vajadused)  
 
@@ -306,54 +306,54 @@ EPIC: Tähtaegade haldamine
 
 #### Kasutajalugude brainstorm
 **Aeg**: 15 minutit  
-**Ülesanne**: Grupitöö - looge 8-12 user story-t, mis katavad:
-- **Core features** (4-5): Põhifunktsioonid, ilma milleta ei toimi
-- **Important features** (3-4): Olulised, teevad kogemuse märksa paremaks  
-- **Nice-to-have features** (1-3): Meeldivad lisad
+**Ülesanne**: grupitöö - looge 8-12 user story-t, mis katavad:
+- **Core features** (4-5): põhifunktsioonid, ilma milleta ei toimi
+- **Important features** (3-4): olulised, teevad kogemuse märksa paremaks  
+- **Nice-to-have features** (1-3): meeldivad lisad
 
 **Iga user story kohta**:
-1. Kirjutage INVEST kriteeriumite järgi
-2. Lisage acceptance criteria (2-4 punkti)
-3. Hinnake prioriteeti (Must/Should/Could/Won't)
+1. kirjutage INVEST kriteeriumite järgi
+2. lisage acceptance criteria (2-4 punkti)
+3. hinnake prioriteeti (Must/Should/Could/Won't)
 
 ### 2.3 Paberprototüüpide loomine (35 min)
 
 #### Prototüüpimise põhimõtted
 **Aeg**: 5 minutit  
 **Põhimõtted**:
-- **Kiirus > Täpsus**: Ei pea ilus olema, peab olema arusaadav
-- **Fokus funktsioonidele**: Vorm tuleb hiljem
-- **Iteratiivne**: Tee kiiresti, testi, paranda
-- **Kaasahaarav**: Kõik saavad kaasa rääkida
+- **Kiirus > Täpsus**: ei pea ilus olema, peab olema arusaadav
+- **Fokus funktsioonidele**: vorm tuleb hiljem
+- **Iteratiivne**: tee kiiresti, testi, paranda
+- **Kaasahaarav**: kõik saavad kaasa rääkida
 
 #### Lo-fi wireframe-ide loomine
 **Aeg**: 20 minutit  
 **Ülesanne**: Igaüks joonistab 3-5 ekraani:
 
 **Ekraanide jaotus rollidega**:
-- **UX Designer**: Peamised user flow'd
-- **Product Owner**: Dashboard ja overview ekraanid
-- **Technical Lead**: Seadistused ja admin vaated
+- **UX Designer**: peamised user flow'd
+- **Product Owner**: dashboard ja overview ekraanid
+- **Technical Lead**: seadistused ja admin vaated
 - **QA Lead**: Error state'd ja edge case'd
 
 **Joonistamise reeglid**:
-- Kasuta lihtsa pliiatsit ja paberit
-- Tee suured kastid komponentidele
-- Kirjuta tekstid väikeses kirjas
-- Märgi clickable elemendid selgelt
-- Näita navigatsiooni
+- kasuta lihtsa pliiatsit ja paberit
+- tee suured kastid komponentidele
+- kirjuta tekstid väikeses kirjas
+- märgi clickable elemendid selgelt
+- näita navigatsiooni
 
 #### Interaktiivsuse planeerimine
 **Aeg**: 10 minutit  
 **Ülesanne**: 
-- Märgi prototüüpidele nooled üleminekuteks
-- Kirjuta lühike kirjeldus, mis toimub klikkidel
-- Planeeri kasutaja tee läbi peamiste funktsionode
+- märgi prototüüpidele nooled üleminekuteks
+- kirjuta lühike kirjeldus, mis toimub klikkidel
+- planeeri kasutaja tee läbi peamiste funktsionode
 
 ### 2.4 Kasutajateekonna kaardistamine (10 min)
 
 #### Journey map loomine
-**Ülesanne**: Grupp loob visuaalse journey map põhifunktsiooni kohta:
+**Ülesanne**: grupp loob visuaalse journey map põhifunktsiooni kohta:
 
 ```
 ETAPP 1 → ETAPP 2 → ETAPP 3 → ETAPP 4
@@ -364,60 +364,60 @@ Puutepunkt: Puutepunkt: Puutepunkt: Puutepunkt:
 Võimalus:   Võimalus:   Võimalus:   Võimalus:
 ```
 
-**Fookus**: Vali üks põhiline kasutajateekond (näiteks "Esimest korda kasutama hakkamine")
+**Fookus**: vali üks põhiline kasutajateekond (näiteks "Esimest korda kasutama hakkamine")
 
 ---
 
 ## Kodutöö 4: täielik UI/UX disaini dokumentatsioon
 
 ### Ülesande kirjeldus
-**Tähtaeg**: 1 nädal  
+**Tähtaeg**: järgmise seminarinädala esmaspäeva hommik  
 **Vorm**: GitHub repositoorium + individuaalne panus
 
 ### Grupi osa
-- **Design system document**: Komponendid, värvid, fonts
+- **Design system document**: komponendid, värvid, fonts
 - **Complete user journey**: 3-4 peamist kasutajateed
-- **Integrated prototype**: Kõik ekraanid sidutud vooguks
+- **Integrated prototype**: kõik ekraanid sidutud vooks
 
 ### Rolli-põhised ülesanded
 
 #### UX Designer
-- **3 detailset persoonat**: Kvalitatiivsed ja kvantitatiivsed andmed
+- **3 detailset persoonat**: kvalitatiivsed ja kvantitatiivsed andmed
 - **Complete user journey map**: Journey mapi peamiste kasutamise stsenaariumite kohta
-- **Usability testing plan**: Kuidas prototüüpe testida
+- **Usability testing plan**: kuidas prototüüpe testida
 
 #### Product Owner  
-- **Prioritized backlog**: Kõik user stories prioriteediga ja acceptance criteria
-- **Business user stories**: Äriliselt olulised funktsioonid
-- **Success metrics definition**: Kuidas edu mõõta
+- **Prioritized backlog**: kõik user stories prioriteediga ja acceptance criteria
+- **Business user stories**: äriliselt olulised funktsioonid
+- **Success metrics definition**: kuidas edu mõõta
 
 #### Technical Lead
-- **Technical user stories**: Arhitektuuri ja jõudluse nõuded
-- **System requirements**: Funktsionaalsed ja mitte-funktsionaalsed nõuded
-- **Technical feasibility analysis**: Mis on tehniliselt võimalik
+- **Technical user stories**: arhitektuuri ja jõudluse nõuded
+- **System requirements**: funktsionaalsed ja mitte-funktsionaalsed nõuded
+- **Technical feasibility analysis**: mis on tehniliselt võimalik
 
 #### QA Lead
-- **Edge case scenarios**: Erilised kasutamise juhud
-- **Error handling design**: Kuidas käsitleda vigu  
-- **Testing scenarios**: Test case-id kasutajaliidese jaoks
+- **Edge case scenarios**: erilised kasutamise juhud
+- **Error handling design**: kuidas käsitleda vigu  
+- **Testing scenarios**: test case-id kasutajaliidese jaoks
 
 ### Kõik kokku
-- **Paper prototype digitization**: Kõik paberprototüübid pildistatud ja dokumenteeritud
+- **Paper prototype digitization**: kõik paberprototüübid pildistatud ja dokumenteeritud
 - **Interactive flow documentation**: User flows ja click-through scenarios
-- **Requirements specification**: Täielik nõuete dokument
+- **Requirements specification**: täielik nõuete dokument
 
 ### Esitamise vorm
-- **GitHub repository**: Täielik disaini dokumentatsioon
-- **Role-based contributions**: Iga roll oma eksperte ala
-- **Cross-role validation**: Rollide vaheline ülevaatus
-- **Integrated deliverable**: Kõik osad töötavad koos
+- **GitHub repository**: täielik disaini dokumentatsioon
+- **Role-based contributions**: iga roll oma eksperte ala
+- **Cross-role validation**: rollide vaheline ülevaatus
+- **Integrated deliverable**: kõik osad töötavad koos
 
 ### Hindamise kriteeriumid
-- **User-centricity**: Kui hästi on kasutajate vajadused kaetud
-- **Consistency**: Kas disain on järjepidev
-- **Completeness**: Kas kõik olulised ekraanid on kaetud  
-- **Feasibility**: Kas prototüüp on teostatav
-- **Documentation quality**: Professionaalsus ja selgus
+- **User-centricity**: kui hästi on kasutajate vajadused kaetud
+- **Consistency**: kas disain on järjepidev
+- **Completeness**: kas kõik olulised ekraanid on kaetud  
+- **Feasibility**: kas prototüüp on teostatav
+- **Documentation quality**: professionaalsus ja selgus
 
 ---
 
@@ -428,10 +428,10 @@ Võimalus:   Võimalus:   Võimalus:   Võimalus:
 - [User Story Mapping](https://www.jpattonassociates.com/user-story-mapping/) - Jeff Patton
 
 ### Soovituslikud tööriistad
-- **Prototype creation**: Paaber + pliiats, telefoni kaamera
+- **Prototype creation**: paber + pliiats, telefoni kaamera
 - **Digital mockups**: Figma (tasuta), Sketch, Adobe XD
-- **Journey mapping**: Miro, Mural
-- **Documentation**: Notion, Confluence
+- **Journey mapping**: Figjam, Miro, Mural
+- **Documentation**: Github, markdown failid
 
 ### Template failid
 - `persona-template.md`
