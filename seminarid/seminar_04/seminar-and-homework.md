@@ -40,7 +40,7 @@ Enne Sprint 2 alustamist vaatame üle Sprint 1 tulemused ja õpime sprindi lõpe
 - ✅ Kasutajateekondade visandid - 3 peamist flow'd
 - ✅ Esialgsed wireframe'i sketšid
 
-### 3. Sprint metriigad (3 min)
+### 3. Sprint mõõdikud (3 min)
 - **Planeeritud**: 14 Story Points
 - **Täidetud**: 15 Story Points (107% - väike overcommit)
 - **Velocity**: 15 SP (baseline järgmisteks sprintideks)

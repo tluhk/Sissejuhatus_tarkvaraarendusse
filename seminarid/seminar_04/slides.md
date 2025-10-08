@@ -55,7 +55,7 @@
 
 ---
 
-## Sprint 1 metriigad
+## Sprint 1 mõõdikud
 
 - **Planeeritud**: 14 Story Points
 - **Täidetud**: 15 Story Points (107%)
