@@ -164,44 +164,44 @@ PROJEKT: Kooli Köök - Toidu soojendamise ja jagamise keskkond
 │
 ├── EPIC: Mikrolaineahjude broneerimissüsteem 
 │   ├── USER STORY: Kasutaja näeb vabade ahjude reaalajas olekut
-│   │   ├── TASK: IoT sensorite andmete API 📍 Sprint 3 - arendusprotsess
-│   │   ├── TASK: Reaalajas statusse näitav kaart 📍 Sprint 2 - disainimine  
-│   │   └── TASK: Mobile-responsive ahju vaade 📍 Sprint 2 - disainimine
+│   │   ├── TASK: IoT sensorite andmete API | Sprint 3 - arendusprotsess
+│   │   ├── TASK: Reaalajas statusse näitav kaart | Sprint 2 - disainimine  
+│   │   └── TASK: Mobile-responsive ahju vaade | Sprint 2 - disainimine
 │   ├── USER STORY: Kasutaja saab broneerida ahju kindlaks ajaks  
-│   │   ├── TASK: Broneerimise UI komponent 📍 Sprint 2 - disainimine
-│   │   └── TASK: Broneerimisloogika backend 📍 Sprint 3 - arendusprotsess
+│   │   ├── TASK: Broneerimise UI komponent | Sprint 2 - disainimine
+│   │   └── TASK: Broneerimisloogika backend | Sprint 3 - arendusprotsess
 │   └── USER STORY: Kasutaja saab tühistada broneeringu
-│       ├── TASK: Tühistamise funktsioon 📍 Sprint 3 - arendusprotsess
-│       └── TASK: Teadete süsteem vabade kohtade kohta 📍 Sprint 3 - arendusprotsess
+│       ├── TASK: Tühistamise funktsioon | Sprint 3 - arendusprotsess
+│       └── TASK: Teadete süsteem vabade kohtade kohta | Sprint 3 - arendusprotsess
 │
 └── EPIC: Toidu jagamise ja ühisostude platvorm
     ├── USER STORY: Kasutaja saab pakkuda ülejäänud toitu
-    │   ├── TASK: Toidu pakkumise vormi disain 📍 Sprint 2 - disainimine
-    │   ├── TASK: Pildi üleslaadimise funktsioon 📍 Sprint 3 - arendusprotsess
-    │   └── TASK: Pakkumiste filtreerimise süsteem 📍 Sprint 3 - arendusprotsess
+    │   ├── TASK: Toidu pakkumise vormi disain | Sprint 2 - disainimine
+    │   ├── TASK: Pildi üleslaadimise funktsioon | Sprint 3 - arendusprotsess
+    │   └── TASK: Pakkumiste filtreerimise süsteem | Sprint 3 - arendusprotsess
     ├── USER STORY: Kasutaja saab liituda ühisostuga
-    │   ├── TASK: Ühiostu loomise interface 📍 Sprint 2 - disainimine
-    │   └── TASK: Maksejaotuse kalkulaator 📍 Sprint 3 - arendusprotsess
+    │   ├── TASK: Ühiostu loomise interface | Sprint 2 - disainimine
+    │   └── TASK: Maksejaotuse kalkulaator | Sprint 3 - arendusprotsess
     └── USER STORY: Kasutaja näeb kogukonna aktiivsust
-        ├── TASK: Kogukonna statistika dashboard 📍 Sprint 2 - disainimine
-        └── TASK: Hinnangute ja tagasiside süsteem 📍 Sprint 3 - arendusprotsess
+        ├── TASK: Kogukonna statistika dashboard | Sprint 2 - disainimine
+        └── TASK: Hinnangute ja tagasiside süsteem | Sprint 3 - arendusprotsess
 ```
 
 NB! ### Epicute ajaline jaotus:
 
-📍 Sprint 1 - projekti setup = Organiseerimise ja planeerimise taskid  
-📍 Sprint 2 - disainimine = Kasutajaliidese ja kogemuse disain  
-📍 Sprint 3 - arendusprotsess = Arenduse simuleerimine ja koordineerimine  
+- Sprint 1 - projekti setup = Organiseerimise ja planeerimise taskid  
+- Sprint 2 - disainimine = Kasutajaliidese ja kogemuse disain  
+- Sprint 3 - arendusprotsess = Arenduse simuleerimine ja koordineerimine  
 
 SPRINT 1 FOOKUS: Projekti organiseerimine ja meeskonnakorraldus
 
-- [ ] **Meeskonna rollide jaotamine** (2 SP) 📍 Sprint 1 - setup
-- [ ] **Projektiplaani dokument** (3 SP) 📍 Sprint 1 - setup  
-- [ ] **GitHub Projects seadistamine** (2 SP) 📍 Sprint 1 - setup
-- [ ] **Kommunikatsiooni protokoll** (2 SP) 📍 Sprint 1 - setup
-- [ ] **High-level roadmap 3 sprindiks** (2 SP) 📍 Sprint 1 - setup
-- [ ] **Riskianalüüs** (2 SP) 📍 Sprint 1 - setup
-- [ ] **Stakeholderite kaardistamine** (1 SP) 📍 Sprint 1 - setup
+- [ ] **Meeskonna rollide jaotamine** (2 SP) - Sprint 1 - setup
+- [ ] **Projektiplaani dokument** (3 SP) - Sprint 1 - setup  
+- [ ] **GitHub Projects seadistamine** (2 SP) - Sprint 1 - setup
+- [ ] **Kommunikatsiooni protokoll** (2 SP) - Sprint 1 - setup
+- [ ] **High-level roadmap 3 sprindiks** (2 SP) - Sprint 1 - setup
+- [ ] **Riskianalüüs** (2 SP) - Sprint 1 - setup
+- [ ] **Stakeholderite kaardistamine** (1 SP) - Sprint 1 - setup
 
 💡 Märkus: Sprint 1-s EI disaini ega arendata veel midagi - ainult planeerime!
 
