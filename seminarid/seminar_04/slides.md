@@ -555,17 +555,21 @@ praegust olekut, et ma ei peaks ringi käima ja otsima.
 Tudengina soovin broneerida vaba mikrolaineahju 
 kuni 15 minutiks, et ma ei peaks kartma järjekorda.
 
-✅ Broneering max 15 min
-✅ Auto-tühistus kui ei kasuta 5 min  
-✅ Saab broneerida 2h ette
-✅ Push teavitus enne algust
-✅ Saab tühistada enne kasutamist
+ Broneering max 15 min
+ Auto-tühistus kui ei kasuta 5 min  
+ Saab broneerida 2h ette
+ Push teavitus enne algust
+ Saab tühistada enne kasutamist
 ```
 
 ---
 
 # Paberprototüüpimine
 ## Lo-fi wireframe'id
+![paberproto](./protomine-seminaris.png)
+
+## Vaata näidet ja loe juurde siit:  
+https://uxplanet.org/the-magic-of-paper-prototyping-51693eac6bc3
 
 ---
 
