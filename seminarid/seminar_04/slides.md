@@ -1,4 +1,4 @@
-# Seminar 4: Sprint 2 - Disainimine
+# Seminar 4: sprint 2 - disainimine
 
 ---
 
@@ -8,27 +8,27 @@
 2. **Design Thinking** - inimesekeskne lähenemine
 3. **Persoonade loomine** - kasutajate mõistmine
 4. **User Story-d** - vajaduste kirjeldamine
-5. **Prototüüpimine** - ideede testimine
+5. **Prototüüpimine** - ideede rakendamine ja testimine
 
 ---
 
 ## Seminari struktuur
 
 - **30 min** - Sprint 1 Review & Retrospective
-- **90 min** - Teooria (Design Thinking, Persoonad, User Stories)
-- **90 min** - Praktika (Persoonad, Prototüübid)
+- **90 min** - teooria (Design Thinking, Persoonad, User Stories)
+- **90 min** - praktika (Persoonad, Prototüübid)
 
 ---
 
 # Sprint 1 Review
-## "Mis me tegime?"
+## "Mida me tegime?"
 
 ---
 
 ## Sprint Review eesmärk
 
 - **Demonstreerida** Sprint 1 tulemusi
-- **Saada tagasiside** stakeholder'itelt
+- **Saada tagasiside** stakeholder'itelt ehk neilt, kes on asjaga seotud
 - **Kinnitada** Sprint 2 suund
 - **Luua läbipaistvus** meeskonna töös
 
@@ -36,22 +36,22 @@
 
 ## Demo struktur (15 min)
 
-1. **Sprint Goal meeldetuletus** (2 min)
+1. **Sprindi eesmärgi meeldetuletus** (2 min)
 2. **Saavutatud tulemused** (8 min) 
-3. **Sprint metriigad** (3 min)
-4. **Stakeholder tagasiside** (2 min)
+3. **Sprindi mõõdikud** (3 min)
+4. **Stakeholderite tagasiside** (2 min)
 
 ---
 
-## "Kooli Köök" Sprint 1 Demo
+## "Kooli Köök" Sprint 1 demo
 
-**Sprint Goal:** "Projekt on käivitamiseks valmis"
+**Sprindi eesmärk:** "Projekt on käivitamiseks valmis"
 
 **Saavutused:**
-- ✅ Projektiplaani dokument
-- ✅ Meeskonna rollide jaotus
-- ✅ Tehniline arhitektuur
-- ✅ GitHub Projects seadistus
+- Projektiplaani dokument
+- Meeskonna rollide jaotus
+- Tehniline arhitektuur
+- GitHub Projects seadistus
 
 ---
 
@@ -59,8 +59,8 @@
 
 - **Planeeritud**: 14 Story Points
 - **Täidetud**: 15 Story Points (107%)
-- **Velocity**: 15 SP (baseline järgmisteks)
-- **Blockers**: 2 väikest
+- **Velocity**(meeskonna töökiirus sprindis): 15 SP (baseline järgmisteks)
+- **Blockers**(takistused, mis aeglustasid tööd) : 2 väikest
 
 ---
 
@@ -80,24 +80,24 @@
 
 ## Start-Stop-Continue meetod
 
-**🟢 CONTINUE** - Mis läks hästi?
-**🔴 STOP** - Mida tuleks lõpetada?
-**🟡 START** - Mida alustada?
+**CONTINUE** - Mis läks hästi?
+**STOP** - Mida tuleks lõpetada?
+**START** - Mida alustada?
 
 ---
 
 ## "Kooli Köök" Retrospective näide
 
-**🟢 CONTINUE**
+**CONTINUE**
 - Daily standupid GitHub-is töötasid
 - Rollide jaotus oli selge
 - Peer review tõi kvaliteeti
 
-**🔴 STOP**
+**STOP**
 - Liiga pikad hindamise arutelud
 - Liiga palju väikesi PR-e
 
-**🟡 START**
+**START**
 - Planning poker cards
 - Definition of Done checklistid
 
@@ -112,14 +112,19 @@
 
 ---
 
-# Design Thinking
+# Disainmõtlemine
 ## Inimesekeskne innovatsioon
 
 ---
 
-## Mis on Design Thinking?
+## Mis on disainmõtlemine?
 
-**Definitsioon:** Inimesekeskne lähenemine innovatsioonile
+"Inimkeskne disain on interaktiivsete süsteemide arendamine, mille eesmärk on muuta süsteemid kasutatavaks ja kasulikuks, keskendudes kasutajatele, nende vajadustele ja nõuetele ning rakendades inimfaktori, ergonoomika ja kasutatavuse teadmisi ja tehnikaid. See suurendab tõhusust ja efektiivsust, parandab inimeste heaolu, kasutajate rahulolu, ligipääsetavust ja jätkusuutlikkust ning aitab vältida võimalikke negatiivseid mõjusid inimeste tervisele, ohutusele ja sooritusele."  
+— ISO 9241-210:2019(E)
+
+---
+
+**Definitsioon lühidalt:** Inimkeskne lähenemine innovatsioonile
 
 **Integreerib:**
 - Inimeste vajadused
@@ -128,33 +133,33 @@
 
 ---
 
-## Design Thinking 5 etappi
+## Disainmõtlemise 5 etappi
+![disainmütlemise 5 etappi](./designthinking5.png)
+
+---
+
+## Disainmõtlemise 5 etappi
 
 1. **Empaatia** (Empathize) - kasutajate mõistmine
 2. **Defineerimine** (Define) - probleemi formuleerimine
-3. **Ideation** - lahenduste genereerimine
+3. **Ideestamine** - lahenduste genereerimine
 4. **Prototüüpimine** - kiired testversioonid
 5. **Testimine** - kasutajatega valideerimine
 
 ---
 
-## Double Diamond protsess
+## Dopelt teemanti mudel
 
-```
-    DISCOVER  |  DEFINE   |  DEVELOP  |  DELIVER
-       /\     |    \/     |    /\     |    \/
-      /  \    |   /  \    |   /  \    |   /  \
-Divergent -> Convergent -> Divergent -> Convergent
-```
+![dopelt teemant](./double_diamond.webp)
 
 **1. teemant:** Õige probleemi leidmine
 **2. teemant:** Õige lahenduse leidmine
 
 ---
 
-## Human-Centered Design põhimõtted
+## Inimkeskse disaini põhimõtted
 
-- **Inimesed esimeses kohas** - tehnoloogia teenib inimesi
+- **Inimesed esikohal** - tehnoloogia teenib inimesi, rakendused on inimeste jaoks, mitte vastupidi
 - **Konteksti mõistmine** - kus, millal, kuidas kasutavad
 - **Iteratiivne protsess** - jätkuv tagasiside
 - **Multidistsiplinaarne koostöö** - erinevad vaatenurgad
@@ -169,41 +174,41 @@ Divergent -> Convergent -> Divergent -> Convergent
 
 ## Mis on persoona?
 
-**Definitsioon:** Fiktiivsne karakter, mis esindab reaalset kasutajagruppi
+**Definitsioon:** fiktiivne karakter, mis esindab reaalset kasutajagruppi
 
 **Persoona eesmärk:**
-- Keskenduda konkreetsele kasutajale
-- Lihtsamad otsused ("Kas Mari kasutaks seda?")
-- Ühine arusaam kasutajatest
-- Väldi iseenda projitseerimist
+- keskenduda konkreetsele kasutajale
+- lihtsamad otsused ("Kas Mari kasutaks seda?")
+- ühine arusaam kasutajatest
+- väldi iseenda projitseerimist
 
 ---
 
 ## Persoona elemendid
 
 **Põhiinfo:**
-- Nimi ja pilt (meeldejätmine)
-- Vanus, elukutse, haridus
-- Tehnika kogemus
+- nimi ja pilt (meeldejätmine)
+- vanus, elukutse, haridus
+- tehnika kogemus
 
 **Kontekst:**
-- Kasutamise keskkond
-- Seadmed ja tehnoloogiad
-- Ajaline koormus
+- kasutamise keskkond
+- seadmed ja tehnoloogiad
+- ajaline koormus
 
 ---
 
-## Persoona elemendid (jätk)
+## Persoona elemendid
 
 **Eesmärgid:**
-- Miks tahab toodet kasutada
-- Peamised eesmärgid
-- Motivatsioon
+- miks tahab toodet kasutada
+- peamised eesmärgid
+- motivatsioon
 
 **Frustatsioonid:**
-- Mis praegu segab
-- Peamised väljakutsed
-- Vältimist vajavad vead
+- mis praegu segab
+- peamised väljakutsed
+- vältimist vajavad vead
 
 ---
 
@@ -223,7 +228,43 @@ KÄITUMINE: Kontrollib telefoni iga 30 min
 
 ---
 
-# User Story-d
+#### Olulised põhimõtted:
+
+- Väldi ebavajalikke detaile, mis ei mõjuta disainiotsuseid
+- Iga lisatud detail peaks teenima kindlat eesmärki
+- Persoona peab olema meeldejääv ja usutav
+- Põhine reaalsetel andmetel, mitte väljamõeldisel
+
+**[Näide Nielsen Norman Groupi lehelt](https://www.nngroup.com/articles/persona/)**
+
+![Persoonakarakter](persona.png)
+
+#### Teistsugune vaade persoonadele – [Ärge kasutage fotosid](https://medium.com/we-are-systematic/short-post-stop-using-photos-in-your-personas-c2b11dc1383b)  
+![fotota persoona](./text-persona.webp)
+
+#### Veel teistsugusem:
+**[Milliseid persoonasid mitte luua](https://medium.com/design-bridges/personas-e60c1c06ead1)**
+
+![bad persona](dontpersona.png)
+
+[Allikas](https://medium.com/design-bridges/personas-e60c1c06ead1)
+
+**Lihtsad sammud hea persoona loomiseks:**  
+Samm 1. Eemalda visuaalsed efektid  
+Samm 2. Kustuta ebaoluline või väljamõeldud info  
+Samm 3. Eemalda fookus demograafilistelt andmetelt  
+Samm 4. Jutusta lugu  
+Samm 5. Lisa rohkem vajadusi, soove ja hirme  
+Samm 6. Kirjelda asjakohast kogemust  
+Samm 7. Määra prioriteedid ja rõhuasetus  
+
+![good persona](dopersona.png)
+[Allikas](https://medium.com/design-bridges/personas-e60c1c06ead1)
+
+
+---
+
+# User Storyd (Põgus turvustus eelmises seminaris)
 ## Vajaduste kirjeldamine
 
 ---
@@ -231,13 +272,12 @@ KÄITUMINE: Kontrollib telefoni iga 30 min
 ## User Story formaat
 
 ```
-"Kui [kasutaja tüüp], 
-siis soovin ma [eesmärk/funktsioon], 
+"[kasutaja tüübina] soovin ma [eesmärk/funktsioon], 
 et [kasutaja väärtus/põhjus]."
 ```
 
 **Näide:**
-"Kui tudeng, siis soovin ma näha kõiki oma kodutöid ühes kalendris, et ma ei unustaks ühtegi tähtaega."
+"Tudengina soovin ma näha kõiki oma kodutöid ühes kalendris, et ma ei unustaks ühtegi tähtaega."
 
 ---
 
@@ -245,29 +285,42 @@ et [kasutaja väärtus/põhjus]."
 
 Hea user story peab olema:
 
-- **I**ndependent - Sõltumatu teistest
-- **N**egotiable - Läbirääkitav  
-- **V**aluable - Väärtuslik
-- **E**stimable - Hinnatav
-- **S**mall - Piisavalt väike
-- **T**estable - Testitav
+- **I**ndependent - sõltumatu teistest
+- **N**egotiable - läbirääkitav  
+- **V**aluable - väärtuslik
+- **E**stimable - hinnatav
+- **S**mall - piisavalt väike
+- **T**estable - testitav
 
 ---
 
-## Acceptance Criteria
+## Aksepteerimiskriteeriumid
 
 **Definitsioon:** Tingimused, mis peavad olema täidetud
 
 **Näide:**
 ```
-USER STORY: Kui tudeng, siis soovin näha tähtaegu kalendris
+USER STORY: tudengina soovin näha tähtaegu kalendris
 
-ACCEPTANCE CRITERIA:
-✅ Näeb kõiki kodutöid kronoloogiliselt
-✅ Iga ülesande juures tähtaeg ja õppeaine  
-✅ Saab filtreerida õppeainete kaupa
-✅ Näitab ainult aktiivseid ülesandeid
+Aksepeerimiskriteeriumid:
+- Näeb kõiki kodutöid kronoloogiliselt
+- Iga ülesande juures tähtaeg ja õppeaine  
+- Saab filtreerida õppeainete kaupa
+- Näitab ainult aktiivseid ülesandeid
 ```
+
+---
+
+###Kasutajalood võib kirjutada:  
+
+Agiilse arenduse tööriistadesse nagu Jira, Trello või Azure DevOps
+Projekti dokumentatsiooni (nt requirements.md fail)
+Eraldi kasutajalugude dokumenti (nt user-stories.md)
+Figma faili, kus on näha, kuidas toode peaks töötama
+
+---
+
+Kasutajalugudest saab komplekteerida EPIC-ud ning need saab lisada projekti ning tuletada nendest ülesanded.  
 
 ---
 
@@ -307,11 +360,82 @@ ETAPP 2: Otsib infot
 
 ---
 
-# Funktsionaalsed vs Mitte-funktsionaalsed nõuded
+## Kasutajateekonna näide
+![Kasutajateekond](./journeymap.jpg)
 
 ---
 
-## Funktsionaalsed nõuded
+## Stsenaariumid
+
+Stsenaariumid on detailsed kirjeldused, kuidas kasutajad süsteemiga suhtlevad konkreetsetes olukordades. Need aitavad mõista kasutajate teekonda läbi süsteemi ja tuvastada võimalikke probleeme.
+
+---
+
+Stsenaarium peaks sisaldama:
+1. Kontekst - mis olukorras kasutaja on
+2. Eesmärk - mida kasutaja üritab saavutada
+3. Tegevused - sammud, mida kasutaja peab tegema
+4. Tulemus - mida kasutaja loodab saavutada
+
+---
+
+Näide stsenaariumist:
+> **Uue konto loomine**  
+> Mari soovib luua uue konto rakenduses. Ta avab rakenduse avalehe, klikib "Loo konto" nupul, täidab vajalikud väljad oma andmetega ja vajutab "Registreeru". Süsteem saadab talle kinnitusmeili, mille ta avab ja kinnitab oma konto. Seejärel saab ta sisse logida ja alustada rakenduse kasutamist.
+
+---
+
+## Storyboard
+
+Storyboard on visuaalne jutustus või stsenaariumi esitlus, mis näitab sammhaaval, kuidas kasutaja süsteemiga suhtleb. See on sarnane koomiksile, kus iga pilt esindab ühte sammu või tegevust kasutaja teekonnas.
+
+---
+
+Storyboard'i eelised:
+- Aitab visualiseerida kasutajakogemust
+- Teeb keerulised stsenaariumid lihtsamini mõistetavaks
+- Võimaldab tuvastada probleeme enne arendamist
+- Hea kommunikatsioonivahend meeskonna ja sidusrühmade vahel
+
+---
+
+Hea storyboard sisaldab:
+1. Selge järjestus - sammud on loogilises järjekorras
+2. Kontekst - kus ja millal tegevus toimub
+3. Kasutaja emotsioonid ja mõtted
+4. Probleemid ja lahendused
+5. Selgitavad tekstid või dialoogid
+
+---
+
+Näide storyboard'ist võiks kujutada mobiilirakenduse kasutamist:
+1. Kasutaja avastab probleemi (vajab transporti)
+2. Avab rakenduse ja sisestab sihtkoha
+3. Valib sobiva transpordiviisi
+4. Kinnitab tellimuse
+5. Ootab ja jälgib teenuse saabumist
+6. Kasutab teenust
+7. Maksab ja hindab kogemust
+
+---
+**[Näide storyboard'ist:](https://blog.adobe.com/en/publish/2017/09/26/a-comprehensive-overview-of-ux-design-deliverables)**
+
+![storyboard](storyboard.png)
+
+https://www.uxstudioteam.com/ux-blog/ux-storyboard
+
+
+---
+
+Jutusein https://miro.com/app/board/uXjVP20eerM=/
+
+---
+
+# Funktsionaalsed vs mittefunktsionaalsed nõuded (käsitletud ka eelnevates seminarides)
+
+---
+
+## Funktsionaalsed nõuded 
 
 **Definitsioon:** Mida süsteem TEEB
 
@@ -339,13 +463,15 @@ ETAPP 2: Otsib infot
 
 ---
 
-## Sprint 2 Goal
+## Sprint 2 eesmärk
 
-"Kasutajad saavad kiiresti leida vaba mikrolaineahju ja jagada toitu - täielik kasutajaliides ja prototüübid on loodud ja testitud."
+Kasutajaliidese prototüüp on loodud ja testitut, arendus saab alustada tööga.  
+
+Mis meil selleks vaja on?
 
 ---
 
-## Sprint 2 Capacity
+## Sprint 2 Capacity (näide)
 
 **Velocity kasv 15 → 18 SP:**
 - **Liisa (PO)**: 4 SP - uurimistöö ja tagasiside
@@ -355,18 +481,18 @@ ETAPP 2: Otsib infot
 
 ---
 
-## Sprint 2 Backlog
+## Sprint 2 GitHub Issues (näide)
 
-**Design Epic (12 SP):**
-- 3 detailset persoonat (3 SP)
-- Mikrolaineahjude broneerimise UI (5 SP)
-- Toidu jagamise interface (3 SP)
-- Design system (1 SP)
+**Design Epic Issues (12 SP):**
+- **Issue #8**: Loo 3 detailset persoonat (3 SP)
+- **Issue #9**: Disaini broneerimise UI (5 SP)  
+- **Issue #10**: Toidu jagamise interface (3 SP)
+- **Issue #11**: Design System dokumentatsioon (1 SP)
 
-**Research Epic (6 SP):**
-- Kasutajatestimise plaan (2 SP)
-- Konkurentsianalüüs (2 SP)  
-- Tehnilise teostatavuse analüüs (2 SP)
+**Research Epic Issues (6 SP):**
+- **Issue #12**: Kasutajatestimise plaan (2 SP)
+- **Issue #13**: Konkurentsianalüüs (2 SP)
+- **Issue #14**: Tehnilise teostatavuse analüüs (2 SP)
 
 ---
 
@@ -409,7 +535,7 @@ KÄITUMINE: Telefon iga 30 min, intuitiivne kasutus
 
 **1. Reaalajas ahjude olek (3 SP)**
 ```
-Kui tudeng, siis soovin näha kõigi mikrolaineahjude 
+Tudengina soovin näha kõigi mikrolaineahjude 
 praegust olekut, et ma ei peaks ringi käima ja otsima.
 
 ✅ 12 ahju ühel vaatel
@@ -424,7 +550,7 @@ praegust olekut, et ma ei peaks ringi käima ja otsima.
 
 **2. Broneerimise funktsioon (5 SP)**
 ```
-Kui tudeng, siis soovin broneerida vaba mikrolaineahju 
+Tudengina soovin broneerida vaba mikrolaineahju 
 kuni 15 minutiks, et ma ei peaks kartma järjekorda.
 
 ✅ Broneering max 15 min
@@ -444,8 +570,8 @@ kuni 15 minutiks, et ma ei peaks kartma järjekorda.
 ## Prototüüpimise põhimõtted
 
 - **Kiirus > Täpsus** - ei pea ilus olema
-- **Fokus funktsioonidele** - vorm tuleb hiljem
-- **Iteratiivne** - kiiresti, testa, paranda
+- **Fookus funktsioonidele** - vorm tuleb hiljem
+- **Iteratiivne** - kiiresti, testi, paranda
 - **Kaasahaarav** - kõik saavad kaasa rääkida
 
 ---
@@ -460,7 +586,7 @@ kuni 15 minutiks, et ma ei peaks kartma järjekorda.
 
 ---
 
-## Ekraanide jaotus rollide kaupa
+## Ekraanide jaotus rollide kaupa (võimlik näide)
 
 - **UX Designer**: Peamised user flow'd
 - **Product Owner**: Dashboard ja overview
@@ -470,63 +596,55 @@ kuni 15 minutiks, et ma ei peaks kartma järjekorda.
 ---
 
 # Kodutöö 4
-## Sprint 2 dokumentatsioon
+## Sprint 2 GitHub Issues täitmine
 
 ---
 
-## Grupi osa
+## GitHub Workflow
 
-- **`personas.md`** - 3 detailset persoonat
-- **`user-stories.md`** - täielik backlog
-- **`paper-prototypes.md`** - dokumenteeritud sketšid
-- **`user-journey-maps.md`** - kasutajateekond
+**Kodutöö = Sprint 2 Issues (#8-#14) täitmine**
 
----
-
-## Rolli-põhised ülesanded
-
-**UX Designer:** `usability-testing-plan.md`
-**Product Owner:** `business-requirements.md`  
-**Developer:** `technical-requirements.md`
-**QA Lead:** `testing-scenarios.md`
+1. **Loo GitHub Issues** 
+2. **Määra Labels, Assignee, Components**  
+3. **Töö In Progress** → **Review** → **Done**
+4. **Daily standups** GitHub Discussions-is
+5. **Pull Requests** + peer review
 
 ---
 
-## GitHub struktuur
+## 6 Issue-t täitmiseks
+
+**Issue #8**: Loo 3 detailset persoonat (3 SP)
+**Issue #9**: Disaini broneerimise UI (5 SP)
+**Issue #10**: Toidu jagamise interface (3 SP)  
+**Issue #11**: Design System (1 SP)
+**Issue #12**: Kasutajatestimise plaan (2 SP)
+**Issue #13**: Konkurentsianalüüs (2 SP)
+**Issue #14**: Tehnilise teostatavuse analüüs (2 SP)
+
+---
+
+## Repositooriumi struktuur
 
 ```
 kooli-kook-sprint2/
-├── README.md 
-├── personas.md 
-├── user-stories.md
-├── paper-prototypes.md
-├── [rolli-spetsiifilised failid]
-├── images/
-│   ├── prototype-1-dashboard.jpg
-│   └── prototype-2-booking.jpg  
-└── sprint-2-retrospective.md
+├── docs/ (Issue #8, #9, #10, #11 tulemused)
+├── research/ (Issue #12, #13, #14 tulemused)  
+├── images/prototypes/
+├── sprint-management/
+│   ├── daily-standups.md
+│   ├── sprint-2-review.md
+│   └── sprint-2-retrospective.md
+└── README.md
 ```
-
----
-
-## Hindamise kriteeriumid
-
-- **User-centricity (25%)** - Persoonad päris uuringutest
-- **Consistency (25%)** - Ühtne design system
-- **Completeness (25%)** - Kõik user story-d kaetud
-- **Feasibility (25%)** - Realistlikud tehnilised nõuded
 
 ---
 
 ## Tähtaeg
 
-**1 nädal pärast seminari**
+**Järgmise seminarinädala algus**
 
 Järgmine seminar: **Sprint 3 - Arendamine**
-- Epic-ute jagamine task-ideks
-- GitHub Projects automation
-- Velocity tracking
-- Quality assurance
 
 ---
 
