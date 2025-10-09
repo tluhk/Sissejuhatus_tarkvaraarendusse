@@ -239,6 +239,8 @@ KÄITUMINE: Kontrollib telefoni iga 30 min
 
 ![Persoonakarakter](persona.png)
 
+---
+
 #### Teistsugune vaade persoonadele – [Ärge kasutage fotosid](https://medium.com/we-are-systematic/short-post-stop-using-photos-in-your-personas-c2b11dc1383b)  
 ![fotota persoona](./text-persona.webp)
 
@@ -465,7 +467,7 @@ Jutusein https://miro.com/app/board/uXjVP20eerM=/
 
 ## Sprint 2 eesmärk
 
-Kasutajaliidese prototüüp on loodud ja testitut, arendus saab alustada tööga.  
+Kasutajaliidese prototüüp on loodud ja testitud, arendus saab alustada tööga.  
 
 Mis meil selleks vaja on?
 
@@ -553,17 +555,21 @@ praegust olekut, et ma ei peaks ringi käima ja otsima.
 Tudengina soovin broneerida vaba mikrolaineahju 
 kuni 15 minutiks, et ma ei peaks kartma järjekorda.
 
-✅ Broneering max 15 min
-✅ Auto-tühistus kui ei kasuta 5 min  
-✅ Saab broneerida 2h ette
-✅ Push teavitus enne algust
-✅ Saab tühistada enne kasutamist
+ Broneering max 15 min
+ Auto-tühistus kui ei kasuta 5 min  
+ Saab broneerida 2h ette
+ Push teavitus enne algust
+ Saab tühistada enne kasutamist
 ```
 
 ---
 
 # Paberprototüüpimine
 ## Lo-fi wireframe'id
+![paberproto](./protomine-seminaris.png)
+
+## Vaata näidet ja loe juurde siit:  
+https://uxplanet.org/the-magic-of-paper-prototyping-51693eac6bc3
 
 ---
 
@@ -586,7 +592,7 @@ kuni 15 minutiks, et ma ei peaks kartma järjekorda.
 
 ---
 
-## Ekraanide jaotus rollide kaupa (võimlik näide)
+## Ekraanide jaotus rollide kaupa (võimalik näide)
 
 - **UX Designer**: Peamised user flow'd
 - **Product Owner**: Dashboard ja overview
@@ -602,39 +608,37 @@ kuni 15 minutiks, et ma ei peaks kartma järjekorda.
 
 ## GitHub Workflow
 
-**Kodutöö = Sprint 2 Issues (#8-#14) täitmine**
+**Kodutöö = Sprint 2 Issues täitmine**
 
-1. **Loo GitHub Issues** 
-2. **Määra Labels, Assignee, Components**  
-3. **Töö In Progress** → **Review** → **Done**
-4. **Daily standups** GitHub Discussions-is
-5. **Pull Requests** + peer review
+1. **Loo sprindi plaan** – mida te teete, kes mille eest vastutab jne
+2. **Loo vajalikud failid**
+3. **Loo wireframed**  
+4. **Loo GitHub Issues projekti** 
+5. **Määra Labels, Assignee, Components**  
+6. **Töö In Progress** → **Review** → **Done**
+7. **Sprint review ja Retrospective** võtke seekordne sprint kokku. Lisage igaüks enda poolt kommentaar, mida õppisid, mis oleks võinud olla teisit, mis on endiselt segane või muud kommenteerimits vajavad jutud. 
 
 ---
 
-## 6 Issue-t täitmiseks
+## Issued täitmiseks
 
-**Issue #8**: Loo 3 detailset persoonat (3 SP)
-**Issue #9**: Disaini broneerimise UI (5 SP)
-**Issue #10**: Toidu jagamise interface (3 SP)  
-**Issue #11**: Design System (1 SP)
-**Issue #12**: Kasutajatestimise plaan (2 SP)
-**Issue #13**: Konkurentsianalüüs (2 SP)
-**Issue #14**: Tehnilise teostatavuse analüüs (2 SP)
+**Issue #X**: Loo 2-3 detailset persoonat
+**Issue #X**: Loo persoonade baasil kasutajateekonnad (stsenaarium, storyboard), mis vastavad ülesannetele, mida kasutaja peaks/saaks rakenduses sooritada
+**Issue #X**: Loo rakenduse kuvad (wireframed), mida saaksid järgmisel korral kasutajate peal testida. Kuvade arv vali, et saaksid anda testimiseks vähemalt kaks ülesannet
 
 ---
 
 ## Repositooriumi struktuur
 
 ```
-kooli-kook-sprint2/
-├── docs/ (Issue #8, #9, #10, #11 tulemused)
-├── research/ (Issue #12, #13, #14 tulemused)  
-├── images/prototypes/
-├── sprint-management/
-│   ├── daily-standups.md
-│   ├── sprint-2-review.md
-│   └── sprint-2-retrospective.md
+sprint2/
+├── sprint_plan.md
+├── personas.md  
+├── scenario-journey-storyboard.md  
+├── images/wireframes dokumenteerimise huvides
+├── daily-standups.md
+├── sprint-2-review.md
+├── sprint-2-retrospective.md
 └── README.md
 ```
 
