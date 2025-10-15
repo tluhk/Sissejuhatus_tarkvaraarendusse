@@ -625,7 +625,7 @@ https://uxplanet.org/the-magic-of-paper-prototyping-51693eac6bc3
 ## Issued täitmiseks
 
 **Issue #X**: Loo 2-3 detailset persoonat
-**Issue #X**: Loo persoonade baasil kasutajateekonnad (stsenaarium, storyboard), mis vastavad ülesannetele, mida kasutaja peaks/saaks rakenduses sooritada
+**Issue #X**: Loo persoonade baasil kasutajateekonnad või stsenaarium või storyboard, mis vastavad ülesannetele, mida kasutaja peaks/saaks rakenduses sooritada
 **Issue #X**: Loo rakenduse kuvad (wireframed), mida saaksid järgmisel korral kasutajate peal testida. Kuvade arv vali, et saaksid anda testimiseks vähemalt kaks ülesannet
 
 ---
@@ -638,7 +638,7 @@ sprint2/
 ├── personas.md  
 ├── scenario-journey-storyboard.md  
 ├── images/wireframes dokumenteerimise huvides
-├── daily-standups.md
+├── daily-standups.md (juhul kui teete)  
 ├── sprint-2-review.md
 ├── sprint-2-retrospective.md
 └── README.md
