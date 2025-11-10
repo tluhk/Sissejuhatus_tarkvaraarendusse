@@ -644,268 +644,53 @@ ACCEPTANCE CRITERIA:
 
 ---
 
-## Kodutöö 4: Sprint 2 täielik disaini dokumentatsioon
+## Kodutöö 4: Sprint 2 disaini dokumentatsioon
 
-### Ülesande kirjeldus
-**Tähtaeg**: 1 nädal pärast seminari  
-**Vorm**: GitHub repositoorium + Issues + Projects board
-**Sprint**: Sprint 2 GitHub Issues täitmine (Issues #8-#14)
+**Kodutöö = Sprint 2 Issues täitmine**
 
-### GitHub Workflow nõuded
+1. **Loo sprindi plaan** – mida te teete, kes mille eest vastutab jne
+2. **Loo vajalikud failid**
+3. **Loo wireframed**
+4. **Loo GitHub Issues projekti**
+5. **Määra Labels, Assignee, Components**
+6. **Töö In Progress** → **Review (omavaheline ülevaateus)** → **Done**
+7. **Sprint review ja Retrospective** võtke seekordne sprint kokku. Lisage igaüks enda poolt kommentaar, mida õppisid, mis oleks võinud olla teisit, mis on endiselt segane või muud kommenteerimits vajavad jutud.
 
-#### Sprint 2 Issues täitmine
-Kodutöö tähendab **Sprint 2 Issues'ide** täitmist GitHub Projects-is:
+---
 
-**Kohustulik workflow:**
-1. **Loo GitHub Issues** ülaltoodud 6 Issue template'i järgi (#8-#14)
-2. **Määra õiged Labels, Assignee, Component** igale Issue'le  
-3. **Vii Issues In Progress** → **Review** → **Done** staatusesse töö käigus
-4. **Update GitHub Projects board** regulaarselt
-5. **Daily standups GitHub Discussions** kaudu (vähemalt 4 päeva)
+### Issued täitmiseks
 
-#### Branch strateegia Sprint 2-ks
+**Issue #X**: Loo 2-3 detailsat persoonat.
+**Issue #X**: Loo persoonade baasil kasutajateekonnad või stsenaarium või storyboard, mis vastavad ülesannetele, mida kasutaja peaks/saaks rakenduses sooritada.
+**Issue #X**: Loo rakenduse kuvad (wireframed), mida saaksid järgmisel korral kasutajate peal testida. Kuvade arv vali, et saaksid anda testimiseks vähemalt kaks ülesannet.
+
+---
+
+### Repositooriumi struktuur selle ülesande raames
+
 ```
-main branch
-├── feature/personas-sprint2 (Issue #8)
-├── feature/booking-ui-design (Issue #9)  
-├── feature/food-sharing-ui (Issue #10)
-├── feature/design-system (Issue #11)
-├── feature/usability-testing-plan (Issue #12)
-├── feature/competitive-analysis (Issue #13)
-└── feature/technical-feasibility (Issue #14)
-```
-
-**Pull Request nõuded:**
-- Iga Issue = eraldi branch + PR  
-- Minimum 1 teammate review enne merge'i
-- PR kirjelduses viide Issue'le (#8, #9, jne)
-- PR-is märgitud Definition of Done täitmine
-
-### Grupi osa (kõik koos)
-
-#### `personas.md` - 3 detailset kasutajapersoonat
-```markdown
-# Kooli Köök - Kasutajapersoonad
-
-## Persoona 1: Mari Mets (Põhikasutaja)
-[Ülaltoodud Mari põhjalik kirjeldus]
-
-## Persoona 2: Professor Karin Kukk (Ärikasutaja)  
-[Analoogiline struktuuri ärikasutajale]
-
-## Persoona 3: Toomas Tamm (Tehniline kasutaja)
-[Analoogiline struktuur tehnilisele kasutajale]
-
-## Persoonade kasutamine disainis
-- Kas Mari leiaks selle funktsiooni kiiresti?
-- Kas Karin saaks vajaliku info otsustamise jaoks?
-- Kas Toomas saaks süsteemi turvaliselt integreerida?
+sprint2/
+├── sprint_plan.md
+├── personas.md
+├── scenario-journey-storyboard.md
+├── images/wireframes dokumenteerimise huvides
+├── daily-standups.md (juhul kui teete)
+├── sprint-2-review.md
+├── sprint-2-retrospective.md
+└── README.md (üldised selgitused selle kodutöö sisu kohta, kus mis ja miks on)
 ```
 
-#### `user-stories.md` - täielik user story backlog
-```markdown
-# User Stories - Kooli Köök Sprint 2
+> [!NOTE]
+> Õppematerjalid leiad [siit](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse)
 
-## Must Have - Sprint 2 Core (8 SP)
-1. [Ülaltoodud 2 peamist user story-t acceptance criteria-ga]
 
-## Should Have - Sprint 2 Extended (6 SP)
-3. [Kaardi ja kogukonna user story-d]
 
-## Could Have - Tulevikuks (4 SP)  
-5. [Statistika ja ühisostude story-d]
-
-## Definition of Ready kontroll:
-✅ User story on persoonade põhjal kirjutatud
-✅ Acceptance criteria on selged ja testitavad
-✅ Story points on meeskonna poolt hinnatud
-✅ Pole sõltuvusi muudest story-dest
-```
-
-#### `paper-prototypes.md` - paberprototüüpide dokumenteerimine
-```markdown
-# Paberprototüübid - Kooli Köök
-
-## Prototüüp 1: Pealeht/Dashboard
-![Pealeht sketch](./images/prototype-1-dashboard.jpg)
-
-**Kirjeldus:**
-- Reaalajas ahjude olek
-- Kauguse järgi sorteerimine  
-- Kiire broneerimise nupud
-- Navigatsioon teistesse vaateisse
-
-**Testimise märkused:**
-- Kasutajad leiksid info 15 sekundiga ✅
-- "Broneeri" nupud liiga väiksed ❌
-- Värvikodeering intuitiivne ✅
-```
-
-### Rolli-põhised ülesanded
-
-#### UX/UI Designer (Kristel): `usability-testing-plan.md`
-```markdown
-# Kasutajatestimise plaan - Kooli Köök
-
-## Testimise eesmärk
-Valideerida "Kooli Köök" prototüüpide kasutatavust ja efektiivsust.
-
-## Testimise meetod
-- **Formaat**: Think-aloud protocol + task-based testing
-- **Kestus**: 20 minutit kasutaja kohta
-- **Asukoht**: TLU kantiin (loomulik keskkond)
-- **Vahendid**: Paberprototüübid + iPhone mockup
-
-## Test-ülesanded
-1. **Ülesanne 1**: "Leia lähim vaba mikrolaineahi"
-   - Edu kriteerium: Leiab alla 30 sekundi
-
-2. **Ülesanne 2**: "Broneeri ahi 15 minutiks"
-   - Edu kriteerium: Broneering edukas, kasutaja kindel
-
-## Testilised kasutajad
-- **3 tudengit** (16-25a): peamine sihtgrupp
-- **1 töötaja** (35+a): teisene kasutajagupp  
-
-## Edu kriteeriumid
-- ✅ Task completion rate > 85%  
-- ✅ Average task time < 60 sek
-- ✅ SUS score > 70 (good usability)
-```
-
-#### Product Owner (Liisa): `business-requirements.md`
-```markdown
-# Ärilised nõuded - Kooli Köök
-
-## Ärimudeli analüüs
-- **Hetke kulude hinnang**: 300 kasutajat × 10 min päevas = 1500h/nädal raiskub
-- **Lahenduse äriline väärtus**: 85% vähendus otsimisajal
-
-## Edu mõõdikud (KPIs)
-- **Kasutamise sagedus**: 60%+ tudengeid kasutab iga nädal  
-- **Ajakulu vähenemine**: 70%+ vähendus mikrolaineahju leidmisele
-- **NPS**: >50 (hea kasutajakogemus)
-```
-
-#### Developer (Jaan): `technical-requirements.md`
-```markdown
-# Tehnilised nõuded - Kooli Köök
-
-## Funktsionaalsed nõuded
-### FR1: Reaalajas andmete kuvamine
-- Mikrolaineahjude olek uuendatakse ≤30 sekundi jooksul
-- API response time <200ms 95% juhtudel
-
-## Mitte-funktsionaalsed nõuded
-### Jõudlus
-- **Response time**: API calls <300ms
-- **Throughput**: toetab 300 concurrent user-t
-
-### Turvalisus
-- **Autentimine**: TLU LDAP integratsioon
-- **GDPR compliance**: Data anonymization
-```
-
-### Esitamise vorm - GitHub Repository struktuuri nõuded
-
-**Lõplik repository struktuur (Sprint 2 Issues täitmise tulemus):**
-```
-kooli-kook-sprint2/
-├── README.md (projekti ülevaade + Sprint 2 tulemused)
-├── .github/
-│   └── ISSUE_TEMPLATE/
-│       ├── user-story.md
-│       ├── epic.md  
-│       └── sprint-task.md
-├── docs/
-│   ├── personas.md (Issue #8 tulemus)
-│   ├── user-stories.md 
-│   ├── user-journey-maps.md
-│   ├── design-system.md (Issue #11 tulemus)
-│   ├── paper-prototypes.md (Issue #9 tulemus)
-│   ├── wireframes.md
-│   ├── interaction-flows.md
-│   └── sprint-2-review.md
-├── research/
-│   ├── usability-testing-plan.md (Issue #12 tulemus)
-│   ├── business-requirements.md (Issue #13 tulemus)  
-│   ├── technical-requirements.md (Issue #14 tulemus)
-│   └── competitive-analysis.md
-├── images/
-│   ├── prototypes/
-│   │   ├── prototype-1-dashboard.jpg
-│   │   ├── prototype-2-booking.jpg
-│   │   ├── prototype-3-food-sharing.jpg
-│   │   └── prototype-4-admin.jpg
-│   ├── personas/
-│   └── wireframes/
-├── sprint-management/
-│   ├── sprint-2-plan.md
-│   ├── daily-standups.md
-│   ├── sprint-2-review.md
-│   └── sprint-2-retrospective.md
-└── .gitignore
-```
-
-### GitHub Projects nõuded kodutöö hindamisel
-
-**Sprint 2 GitHub Projects Board järgmised elemendid peavad olema nähtavad:**
-
-1. **Projects Board State**:
-   ```
-   ✅ To Do: 0 issues (kõik alustatud)
-   ✅ In Progress: 0 issues (kõik lõpetatud)  
-   ✅ Review: 0-1 issues (võib olla viimane review)
-   ✅ Done: 6 issues (#8, #9, #10, #11, #12, #13, #14)
-   ```
-
-2. **Issues Quality Check**:
-   - Kõik Issues sisaldavad täielikku Definition of Done
-   - Labels on õigesti määratud (`design`, `research`, `sprint-2`)
-   - Story Points on määratud ja realistlikud
-   - Assignee on määratud vastavalt rollile
-
-3. **Pull Requests History**:
-   - Minimum 6 PR-i (iga Issue kohta)
-   - PR-id on läbinud peer review
-   - Merge commit messages viitavad Issue'dele
-   - Ei ole merge conflicts või broken builds
-
-4. **Sprint Tracking**:
-   - Daily standups GitHub Discussions (min 4 kirjet)
-   - Sprint 2 velocity tracking (18 SP planeeritud vs tegelik)
-   - Sprint retrospective dokument
-
-### Hindamise kriteeriumid
-
-**GitHub Projects & Process (25%)**
-- ✅ Kõik 6 Issue-t täidetud Definition of Done järgi
-- ✅ Proper Git workflow (branch → PR → review → merge)
-- ✅ Daily standups dokumenteeritud
-- ✅ Sprint metriigad jälgitud
-
-**User-centricity (25%)**  
-- ✅ Persoonad baseeruvad Sprint 1 uurimistulemuste põhjal
-- ✅ User story-d lahendavad reaalseid probleeme
-- ✅ Journey map sisaldab emotsionaalseid insights
-- ✅ Design otsused on kasutaja-keskse mõtlemisega põhjendatud
-
-**Consistency (25%)**
-- ✅ Design system on ühtne kõigi prototüüpide lõikes
-- ✅ Navigatsioon ja interaktsioonid on järjepidevad  
-- ✅ Terminoloogia ja toonisus ühine kõigi dokumentide vahel
-- ✅ Visual hierarchy ja information architecture loogiline
-
-**Feasibility (25%)**
-- ✅ Tehnilised nõuded on realistlikud kooli infrastruktuuriga
-- ✅ Ärilised eesmärgid on mõõdetavad ja saavutatavad
-- ✅ Prototüübid on arenduseks piisavalt detailsed  
-- ✅ Testimine on praktiline ja läbiviidav
-
-**Bonus punktid (+10%):**
-- GitHub Actions workflow seadistatud
-- Advanced GitHub Projects features kasutatud (custom views, automation)
-- Kasutajatestide videod või täiendavad materjalid
+> [!IMPORTANT]
+> **Selle ülesande lahendus lisa selle Issue kommentaari**
+> Lisa oma lahendus otse selle issue kommentaariks
+> või kui Sul on failid, lisa need oma repository-sse ja viita neile kommentaaris
+> Kui ülesanne on valmis, siis lisa issue-le "submission" silt
+> Issuele lisa Assignee-ks õpetaja
 
 ---
 
