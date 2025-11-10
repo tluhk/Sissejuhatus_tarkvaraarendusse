@@ -1,6 +1,6 @@
 # Seminar 4: sprint 2 - disainimine
-[Seminari salvestus, I-osa](https://youtu.be/2A1mUSwpdqQ)  
-[Seminari salvestus, II-osa](https://youtu.be/--mdY1zROYo)
+[Seminari salvestus, I-osa](https://youtu.be/nZ9RNSWMC5g)  
+[Seminari salvestus, II-osa](https://youtu.be/IHJZ6oEXq5U)
 
 ---
 
