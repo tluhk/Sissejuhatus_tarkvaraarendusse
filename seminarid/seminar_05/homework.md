@@ -14,10 +14,10 @@ Sprint 3 on arenduse simulatsioon - te EI kirjuta koodi, vaid dokumenteerite ja 
 **Fail:** `sprint-3-plan.md`
 
 **Sisu:**
-- Sprint Goal (1 lause - mida tahate saavutada?)
-- Selected tasks (mis ülesanded Sprint 3-sse võtate? Loetlege 5-10 ülesannet)
-- Team members (kes mida teeb?)
-- Definition of Done (millal on Sprint valmis?)
+- Sprint Goal (1 lause - mida tahate saavutada? Näiteks: "Broneerimise funktsionaalsus on tehniliselt kirjeldatud ja testitud")
+- Selected EPIC (milline peamine funktsioon/EPIC Sprint 3-sse võtate? Näiteks: "Mikrolaineahju broneerimine")
+- Team members (kes milliseid rolle täidab? Developer, Tester, jne)
+- Definition of Done (millal on Sprint valmis? Näiteks: "Kõik pseudokoodid kirjutatud, testid dokumenteeritud, API kirjeldatud")
 
 ---
 
@@ -25,16 +25,21 @@ Sprint 3 on arenduse simulatsioon - te EI kirjuta koodi, vaid dokumenteerite ja 
 **Fail:** `task-breakdown.md`
 
 **Ülesanne:**
-- Vali 1 peamine funktsioon teie projektist
+- Vali 1 peamine funktsioon teie projektist (see on teie **EPIC** Scrum terminoloogias)
 - Kirjelda, mida see funktsioon teeb (1-2 lauset)
-- Jaga 5-10 ülesandeks
+- Jaga 5-10 ülesandeks (need on **TASK'id**)
 - Iga ülesanne peab sisaldama:
   - Ülesande kirjeldus (mida tehakse?)
-  - Tüüp (Disain/Programmeer imine/Testimine/Dokument atsioon)
+  - Tüüp (Programmeerimine/Testimine/Dokumentatsioon)
   - Vastutaja (kes teeb?)
   - Staatus (Tehtud/Pooleli/Ei alanud)
 
-**Näide struktuuri:**
+**EPIC vs Funktsioon:**
+Teie valitud "peamine funktsioon" on tegelikult **EPIC** Scrum terminoloogias. Näiteks "Mikrolaineahju broneerimine" on EPIC. Selles ülesandes keskendute ühele EPICule ja jagate selle konkreetseteks ülesanneteks (TASK'ideks). Valikuliselt võite jagada EPICu ka USER STORY'deks enne TASK'ide loomist, kui see aitab struktuuril.
+
+**Märkus:** Sprint 3 keskendub arendusele, seega ülesanded on programmeerimise, testimise ja dokumenteerimisega seotud. Disaini ülesanded olid Sprint 2 osa.
+
+**Näide:**
 ```markdown
 # Funktsioon: Mikrolaineahju broneerimine
 
@@ -42,78 +47,66 @@ Sprint 3 on arenduse simulatsioon - te EI kirjuta koodi, vaid dokumenteerite ja 
 Kasutaja saab broneerida vaba mikrolaineahju kuni 15 minutiks.
 
 ## Ülesanded:
-1. **Disaini broneerimise ekraan** (Disain) - @mari - Tehtud
-2. **Kirjuta pseudokood broneerimise loogikale** (Programmeerimine) - @jaan - Pooleli
-3. **Testi broneerimist erinevate stsenaariumidega** (Testimine) - @liis - Ei alanud
+1. **Kirjuta pseudokood broneerimise loogikale** (Programmeerimine) - @jaan
+2. **Kirjuta pseudokood aja kontrollimisele** (Programmeerimine) - @jaan
+3. **Testi broneerimist erinevate stsenaariumidega** (Testimine) - @liis
+4. **Dokumenteeri API endpoint'id** (Dokumentatsioon) - @mari
+5. **Kirjuta kasutajajuhend broneerimisele** (Dokumentatsioon) - @liis
 ...
-```
+
 
 ---
+```
 
-### 3. Daily Standups (simuleeritud)
-**Fail:** `daily-standups.md`
+### 3. Kanban
+**GitHub Projects:** Ülesandeid haldame visuaalselt board'il (To Do / In Progress / Done)
+
+### 4. Daily Standups ja progress
+**Fail:** `daily-standups.md`  
 
 **Ülesanne:**
-- Kirjuta 10 päeva standup kirjeid (simuleeritud 2 nädalat)
-- Iga päev KÕIK meeskonnaliikmed kirjutavad:
-  - Mida "eile" tegid
+- Kirjutage standup kirjeid 2 nädala jooksul (ei pea olema iga päev)
+- Iga standup korral KÕIK meeskonnaliikmed kirjutavad:
+  - Mida "eile" tegid (kuna iga päev ei kirjuta, siis "eelmine kord")
   - Mida "täna" teevad
-  - Mis "takistab"
+  - Mis "takistab" (blockerid, probleemid)
+- Lisage iga standup lõppu progress kokkuvõte (mitu ülesannet tehtud/pooleli/alustamata)
+- Haldage ülesandeid GitHub Projects board'il ja lisage link board'ile standup kirjetesse
 
-**Oluline:** Simuleeritud tähendab, et kirjutate 3. dets korraga kõik 10 päeva kirjed, kujutades ette mis oleks tegelikult juhtunud.
+**Oluline:** Teil on kaks võimalust:
+1. **Simuleeritud variant:** Kirjutate kõik 6-8 standup kirjet korraga lõpus, kujutades ette mis oleks tegelikult juhtunud (nö simulatsioon)
+2. **Reaalajas variant:** Kirjutate standup kirjeid kahe nädala jooksul 3-5 korda nädalas vastavalt sellele, kuidas tegelikult tegutsete
 
-**Template iga päeva kohta:**
+Mõlemal juhul peab kokku olema vähemalt 6-8 standup kirjet, et mõista meeskonna kommunikatsiooni ja progressi jälgimist.
+
+**Template iga standup kohta:**
 ```markdown
-## Päev X [Kuupäev]
-
-### Mari (UX Designer)
-**Eile:** Lõpetasin wireframe'i parandused
-**Täna:** Alustan kasutajatestide dokumenteerimist
-**Takistab:** Ei ole kindel, kas wireframe on piisavalt detailne
+## Standup [Kuupäev] - Päev X
 
 ### Jaan (Developer)
 **Eile:** Kirjeldasin tehnilise arhitektuuri
 **Täna:** Dokumenteerin API endpoint'e
 **Takistab:** Ei ole veel otsustanud andmebaasi struktuuri
+
+### Mari (Developer)
+**Eile:** Kirjutasin pseudokoodi broneerimise loogikale
+**Täna:** Alustan aja kontrollimise algoritmi kirjutamist
+**Takistab:** Ei ole kindel, kuidas kattuvaid broneeringuid kontrollida
+
+### Progress kokkuvõte
+- Tehtud: 2 ülesannet
+- Pooleli: 3 ülesannet
+- Alustamata: 5 ülesannet
+- GitHub Projects: [link board'ile]
+
+### Märkused
+- Blocker lahendatud: Jaan sai abi andmebaasi struktuuri küsimuses
+- Uuendasime GitHub board'i
 ```
 
 ---
 
-### 4. Sprint Progress Tracking
-**Fail:** `sprint-progress.md`
-
-**Sisu:**
-- Ülesannete progress (mitu tehtud, mitu pooleli, mitu alustamata)
-- Blockerite log (mis takistas tööd?)
-- Päevade kaupa progress
-
-**Template:**
-```markdown
-# Sprint 3 Progress
-
-## Progress ülevaade
-
-| Päev | Tehtud ülesanded | Pooleli | Alustamata | Märkused |
-|------|------------------|---------|------------|----------|
-| 1    | 0                | 1       | 9          | Sprint algus, alustasin disainiga |
-| 2    | 1                | 2       | 7          | Disain valmis, alustasin pseudokoodiga |
-| 3    | 2                | 2       | 6          | 2 ülesannet valmis |
-...
-| 10   | 10               | 0       | 0          | Sprint valmis! |
-
-## Tulemus
-- **Planeeritud:** 10 ülesannet
-- **Täidetud:** 10 ülesannet
-- **Lõpetamata:** 0 ülesannet
-
-## Blockerid
-1. **Päev 3:** Ei tea, kuidas pseudokoodi kirjutada (lahendatud: uurisin näiteid)
-2. **Päev 7:** Ootan teammate'i tagasisidet (lahendatud päev 8)
-```
-
----
-
-### 5. Tehnilised otsused
+### 4. Tehnilised otsused
 **Fail:** `technical-decisions.md`
 
 **Ülesanne:**
@@ -154,7 +147,7 @@ Kasutaja saab broneerida vaba mikrolaineahju kuni 15 minutiks.
 
 ---
 
-### 6. Sprint 3 Review
+### 5. Sprint 3 Review
 **Fail:** `sprint-3-review.md`
 
 **Sisu:**
@@ -165,7 +158,7 @@ Kasutaja saab broneerida vaba mikrolaineahju kuni 15 minutiks.
 
 ---
 
-### 7. Sprint 3 Retrospective
+### 6. Sprint 3 Retrospective
 **Fail:** `sprint-3-retrospective.md`
 
 **Sisu:**
@@ -194,16 +187,16 @@ Kasutaja saab broneerida vaba mikrolaineahju kuni 15 minutiks.
 
 ## Individuaalsed reflektsioonid
 
-### Mari (UX Designer)
-Õppisin kuidas arendajad mõtlevad UI implementeerimisest. Mõistsin, et minu wireframe'id peavad olema detailsemad - peab märkima interaktsioone ja state'e. Sprint simulation aitas näha, kui oluline on järjepidev kommunikatsioon.
-
 ### Jaan (Developer)
+Õppisin kuidas suurtest ülesannetest väikseid task'e teha. Pseudokoodi kirjutamine oli alguses raske, aga näidete abil sain paremini aru. Sprint simulation aitas mõista, miks on vaja järjepidevat kommunikatsiooni ja miks blockerid tuleb kiiresti lahendada.
+
+### Mari (Developer)
 ...
 ```
 
 ---
 
-## Rolli-põhised lisaülesanded
+## Rolli-põhised ülesannete näited
 
 ### Product Owner
 **Fail:** `backlog-refinement.md`
@@ -321,125 +314,3 @@ git push origin feature/sprint-3
 ```
 
 ---
-
-## GitHub Issues
-
-Loo järgmised Issues oma projekti:
-
-**Issue #X:** Ülesannete jaotus - vali funktsioon ja jaga ülesanneteks
-**Issue #X:** Daily standup simulation - 10 päeva kirjeid
-**Issue #X:** Technical decisions - dokumenteeri 3 otsust
-**Issue #X:** Sprint progress tracking - ülesannete progress päevade kaupa
-**Issue #X:** Sprint review - kokkuvõte Sprint 3 tulemustest
-**Issue #X:** Retrospective - refleksiooni sprint 3 kohta
-
-**Labels:**
-- `Sprint-3`
-- `documentation`
-- `simulation`
-
-**Assignees:** Jaga issues meeskonnaliikmete vahel vastavalt rollidele
-
----
-
-## Repositooriumi struktuur
-
-```
-project_root/
-├── sprint1/
-│   └── ... (Sprint 1 failid)
-├── sprint2/
-│   └── ... (Sprint 2 failid)
-├── sprint3/                          ← UUS!
-│   ├── README.md                     (ülevaade Sprint 3 kohta)
-│   ├── sprint-3-plan.md              (kohustuslik)
-│   ├── task-breakdown.md             (kohustuslik - asendab epic-breakdown)
-│   ├── daily-standups.md             (kohustuslik)
-│   ├── sprint-progress.md            (kohustuslik)
-│   ├── technical-decisions.md        (kohustuslik)
-│   ├── sprint-3-review.md            (kohustuslik)
-│   ├── sprint-3-retrospective.md     (kohustuslik)
-│   ├── algorithms/                   (Developer - pseudokood!)
-│   │   ├── algorithm-1.md
-│   │   ├── algorithm-2.md
-│   │   └── payment-split-algorithm.md
-│   ├── ui-logic.md                   (UX - kasutajaliidese loogika)
-│   ├── backlog-refinement.md         (PO)
-│   ├── blockers-log.md               (PM)
-│   ├── technical-architecture.md     (Dev)
-│   └── usability-testing-plan.md     (UX)
-└── README.md
-```
-
----
-
-## Hindamiskriteeriumid
-
-### 1. Completeness (25%)
-- Kas kõik kohustuslikud failid on olemas?
-- Kas rolli-põhine fail on olemas?
-- Kas GitHub Issues on loodud?
-
-### 2. Detail Level (25%)
-- Kas epic breakdown on piisavalt detailne?
-- Kas daily standup'id on realistlikud?
-- Kas technical decisions on põhjendatud?
-
-### 3. Realism (25%)
-- Kas võiks olla päris Sprint?
-- Kas velocity on realistlik?
-- Kas blockerid on usutavad?
-
-### 4. Team Coordination (25%)
-- Kas kõik meeskonnaliikmed panustasid?
-- Kas kommunikatsioon on dokumenteeritud?
-- Kas peer review tehti korralikult?
-
----
-
-## Tähtaeg
-
-**1 nädal pärast seminari**
-
-**Esitamine:**
-1. Push kõik muudatused GitHub'i
-2. Loo Pull Request
-3. Peer review (kõik meeskonnaliikmed vaatavad üle)
-4. Merge main branch'i
-5. Lisa `submission` label oma esimesele Issue-le
-6. Lisa Assignee-ks õpetaja
-
----
-
-## Näpunäited
-
-1. **Austa simulatsiooni:** Kirjuta nii, nagu see oleks päris Sprint. Realistlikud blockerid, realistlik progress.
-
-2. **Kasuta seminari materjale:** Epic breakdown, mille te seminaris tegite, on hea alus.
-
-3. **Õpi arendajate mõtteviisist:** Kuigi te ei koodi, mõelge kuidas arendajad tehnilisi otsuseid teevad.
-
-4. **Kommunikatsioon on võti:** Daily standup'id peavad näitama, kuidas meeskond koordineerib tööd.
-
-5. **Ole aus retrospective'is:** Kirjuta, mida te tegelikult õppisite, mitte mis kõlab hästi.
-
----
-
-## Küsimused?
-
-Kui midagi on ebaselge, küsi:
-- GitHub Discussions'is oma repositooriumis
-- Seminari järel õpetajalt
-- Teistelt meeskondadelt
-
----
-
-> [!NOTE]
-> Õppematerjalid leiad [siit](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse)
-
-> [!IMPORTANT]
-> **Selle ülesande lahendus lisa GitHub'i**
-> - Loo pull request kõigi failidega
-> - Lisa "submission" label
-> - Assignee-ks õpetaja
-> - Tähtaeg: 1 nädal pärast seminari
