@@ -53,6 +53,8 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 [Teine](seminarid/seminar_02/slides.md)  
 [Kolmas](seminarid/seminar_03/slides.md)    
 [Neljas](seminarid/seminar_04/slides.md)  
+[Viies](seminarid/seminar_05/slides.md)  
+[Pseudokoodi ideed ja näidised](seminarid/seminar_05/slides.md)
 
 ## Eksam
 
