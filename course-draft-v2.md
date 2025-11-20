@@ -26,9 +26,9 @@ Iga seminar vastab **ühele arenduse etapile**:
 1. ✅ **Alustamine** - Tööriistad ja versioonikontroll
 2. ✅ **Uurimine** - Probleemi defineerimine ja analüüs  
 3. ✅ **Sprint 1: Planeerimine** - Projektijuhtimine, meeskonnatöö ja sprint käivitamine
-4. **Sprint 2: Disainimine** - Kasutajaliides ja prototüüpimine
+4. ✅ **Sprint 2: Disainimine** - Kasutajaliides ja prototüüpimine
 5. **Sprint 3: Arendamine** - Epic breakdown ja süvitsi töö
-6. **Lõplik esitlus ja hindamine** - Demo, portfolio ja kursuse lõpetamine
+6. **Lõplik esitlus ja hindamine** - Demo ja kursuse lõpetamine
 
 ---
 
