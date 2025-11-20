@@ -158,7 +158,7 @@ Tudengid töötavad oma projektidega (nt "FindFood", "Kooli Köök"), kasutades 
 ## OSA 2: Teooria (90 min)
 
 
-### 2.1 Epic Breakdown ja Task Hierarhia (25 min)
+### 2.2 Epic Breakdown ja Task Hierarhia (25 min)
 
 **Task hierarhia** - Püramiidne struktuur, kus suur funktsioon (epic) jaotatakse väiksemateks kasutajalugudeks (user story) ja need omakorda konkreetseteks töödeks (task).
 
@@ -232,13 +232,13 @@ Küsi: "Milliseid tüüpe teie projekt vajab?"
 - Näita: Task'id ei ole alati lineaarsed - mõned võib teha paralleelselt
 - Jälgi: Kas tudengid mõistavad hierarhiat?
 
-### 2.2 Story Points ja hindamistehnikad (20 min)
+### 2.3 Story Points ja hindamisehnikad (20 min)
 
-**Hindamisehnikad** - Meetodid, millega meeskond hindab ülesannete suurust, keerukust ja vajalikku pingutust.
+**Hindamistehnikad** - Meetodid, millega meeskond hindab ülesannete suurust, keerukust ja vajalikku pingutust.
 
 **Planning Poker demonstratsioon:**
 
-**Planning Poker** - Meeskondlik hindamise tehnika, kus iga liige hindab ülesande suurust iseseisvalt kaartidega, seejärel arutatakse erinevusi ja jõutakse konsensusele.
+**Planning Poker** - Meeskondlik hindamistehnika, kus iga liige hindab ülesande suurust iseseisvalt kaartidega, seejärel arutatakse erinevusi ja jõutakse konsensusele.
 
 **Story pointide meeldetuletus** (5 min)
 ```
@@ -278,7 +278,7 @@ Selgita tavalised vead:
 Rõhuta: Esimesed hinnangud on alati valed - see on normaalne!
 ```
 
-### 2.3 Arenduse Jälgimise Meetrikad (20 min)
+### 2.4 Arenduse Jälgimise Meetrikad (20 min)
 
 **Meetrikad** - Mõõdetavad näitajad, mis aitavad jälgida ja analüüsida meeskonna tööd ning projekti progressi.
 
@@ -346,7 +346,7 @@ Küsi: "Milliseid blockereid võite te kogeda oma projektides?"
 - Näita: Hea meeskond tunnistab probleeme vara
 - Jälgi: Kas tudengid mõistavad, miks me mõõdame?
 
-### 2.4 Daily Standups ja Koordineerimine (15 min)
+### 2.5 Daily Standups ja Koordineerimine (15 min)
 
 **Daily standup** - Lühike (tavaliselt 15 min) igapäevane meeskonna kohtumine, kus iga liige räägib oma tööst, plaanidest ja takistustest.
 
@@ -784,10 +784,9 @@ Näita slides-is:
 ## Kokkuvõte õpetajale
 
 **Seminari edu tunnused:**
+- Tudengid mõistavad litsentsimise põhimõtteid ja oskavad valida litsentsi
 - Tudengid mõistavad epic → story → task hierarhiat
 - Meeskonnad suutsid simuleerida 2-nädalast sprinti
-- Tudengid said kogemuse pseudokoodi kirjutamisest
-- Tudengid mõistavad velocity ja burndown'i kontseptsioone teoreetiliselt
 - Burndown chart on mõistetav
 - Tudengid teavad, mida arendamine tähendab (ilma koodita!)
 

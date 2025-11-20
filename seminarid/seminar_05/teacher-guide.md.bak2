@@ -2,12 +2,12 @@
 
 ## Seminari ülevaade
 
-**Kestus**: 3 tundi (30 min + 90 min + 90 min)
+**Kestus**: 3.5 tundi (30 min + 120 min + 90 min)
 **Osavõtjaid**: ~20 tudengit, 4-5 meeskonda
-**Fookus**: Arendusprotsessi simuleerimine, epic breakdown, sprint jälgimine, pseudokood
+**Fookus**: Litsentsid tarkvaraarenduses, arendusprotsessi simuleerimine, epic breakdown, sprint jälgimine
 **Oluline**: Tudengid EI KOODI - nad simuleerivad arendust dokumentatsiooni ja planeerimise kaudu
 
-**Märkus**: Litsentsiteema on eraldatud lisaõppematerjaliks failis `licenses-extra.md`.
+**Märkus**: Seminar on pikendatud 3 tunnilt 3.5 tunnile, et lisada litsentsiteema (30 min).
 
 ### Mõisted ja selgitused
 
@@ -155,10 +155,293 @@ Tudengid töötavad oma projektidega (nt "FindFood", "Kooli Köök"), kasutades 
 
 ---
 
-## OSA 2: Teooria (90 min)
+## OSA 2: Teooria (120 min)
 
+**Märkus:** OSA 2 on pikendatud 90 minutilt 120 minutile, et lisada litsentsiteema (30 min).
 
-### 2.1 Epic Breakdown ja Task Hierarhia (25 min)
+### 2.1 Litsentsid tarkvaraarenduses (30 min)
+
+**Eesmärk**: Tutvustada avatud ja suletud lähtekoodi ning peamisi litsentse, millega arendajad kokku puutuvad.
+
+#### Avatud ja suletud lähtekood (10 min)
+
+**Põhimõisted:**
+```
+**Avatud lähtekood** - Tarkvara lähtekood on avalikult kättesaadav, igaüks saab seda vaadata, muuta ja levitada.
+
+**Suletud lähtekood** - Lähtekood on ettevõtte omand ja seda ei jagata avalikult.
+
+**Litsents** - Juriidiline dokument, mis määrab, kuidas tarkvara võib kasutada, muuta ja levitada.
+```
+
+**Selgita tahvlil:**
+```
+Avatud lähtekoodi peamised põhimõtted:
+1. Vaba juurdepääs - igaüks saab koodi vaadata ja uurida
+2. Vaba levitamine - koodi saab vabalt kopeerida ja jagada
+3. Vaba muudatus - koodi saab muuta vastavalt oma vajadustele
+4. Vaba kasutamine - koodi saab kasutada igal eesmärgil, ka kommertsiaalselt
+
+Näited avatud lähtekoodiga tarkvarast:
+- Operatsioonisüsteemid: Linux, Android
+- Veebiserverid: Apache, Nginx
+- Programmeerimiskeeled: Python, Java
+- Andmebaasid: MySQL, PostgreSQL
+- Veebiprojekteerimise teegid: React, Angular
+```
+
+**Küsi tudengitelt:**
+- "Kas teie projekt saab olema avatud lähtekoodiga või suletud?"
+- "Miks võiksite valida avatud lähtekoodi?"
+
+**Miks avatud lähtekood võib olla hea valik?**
+```
+✅ Koostöö: Suur hulk inimesi saab koos töötada
+✅ Innovatsioon: Ideed levivad kiiresti
+✅ Kvaliteet: Rohkem inimesi leiab vigu
+✅ Turvalisus: Haavatavused avastatakse kiiremini
+✅ Kulude kokkuhoid: Sageli tasuta või odav
+```
+
+**Millal ei ole avatud lähtekood parim valik?**
+```
+❌ Vajad täielikku kontrolli toodete üle
+❌ Vajad kiiret professionaalset toetust
+❌ Töötad tundlike andmetega
+❌ Tahad oma toodet müüa või takistada teistel seda müümast
+```
+
+**Õpetaja märkmed:**
+- Rõhuta: Litsents ei ole "piirang", vaid "reeglid"
+- Näita: Kui litsents puudub, ei või keegi koodi kasutada (kõige rangem variant!)
+- Selgita: GitHub võimaldab valida litsentsi projekti loomisel
+
+#### Autoriõiguse loogika (5 min)
+
+**Üldine autoriõguse loogika:**
+```
+Kui teosel pole märgitud litsentsi → on litsentsitud kõige tugevamalt
+→ Sa ei tohi teost jagada
+
+Seega: Kui tahad, et sinu materjal oleks kasutatav, pead lisama litsentsi!
+```
+
+**Selgita:**
+```
+GitHubis on enamik populaarseid litsentse loodud selleks, et VÕIMALDADA
+tarkvara jagamist ja levitamist, kuid iga litsents seab sellele
+tegevusele erinevad tingimused.
+
+Miks ei leia GitHubist täielikult keelavaid litsentse?
+- GitHub on platvorm, mis on loodud avatud lähtekoodiga projektide jaoks
+- Litsentsid on loodud selleks, et REGULEERIDA jagamist, mitte keelata
+- GitHub toetab ka privaatseid repositooriume (kui soovid täielikku privaatsust)
+```
+
+**Mida erinevad litsentsid reguleerivad?**
+```
+1. Muudatuste tegemine: mõned nõuavad, et muudatused peavad olema avalikud (GPLv3)
+2. Kommertsialiseerimine: kuidas tarkvara võib olla kommertsiaalselt kasutatav
+3. Autorite õigused: kõik litsentsid kaitsevad autori intellektuaalomandit
+```
+
+#### Peamised GitHubi litsentsid (10 min)
+
+**Kolm peamist litsentsi tüüpi:**
+
+**1. MIT License (Kõige vabam)**
+```
+📝 "Tee minu asjadega, mida tahad, aga ära mind kohtusse kaeba."
+
+Lubab:
+✅ Vabalt kasutada, muuta ja levitada
+✅ Kasutada kommertsiaalselt
+✅ Ei nõua muudatuste avaldamist
+
+Nõuab:
+⚠️ Autoriõiguste märget
+
+Vali see: Kui kardad, et keegi ei hakka sinu tarkvara kasutama
+```
+
+**2. Apache License 2.0 (Patendi kaitse)**
+```
+📝 "Sama mis MIT, aga rohkemate sõnadega ja patendikaitsega."
+
+Lubab:
+✅ Sama mis MIT
+✅ Lisaks kaitseb patendikasutust
+
+Nõuab:
+⚠️ Autoriõiguste säilitamist
+⚠️ Muudatuste dokumenteerimist
+
+Vali see: Kui kardad patenditrollimist või soovid juriidilist selgust
+```
+
+**3. GNU General Public License v3.0 (Copyleft)**
+```
+📝 "Kui kasutad minu koodi, peab su kood samuti avatud olema."
+
+Lubab:
+✅ Vabalt kasutada ja muuta
+
+Nõuab:
+⚠️ Kõik tuletised peavad olema sama litsentsi all (copyleft!)
+⚠️ Lähtekood peab olema kättesaadav
+
+Vali see: Kui kardad, et inimesed kasutavad sinu tööd ebaausalt
+(nt kui sind häirib, et keegi võiks sinu arvelt raha teenida)
+
+**Copyleft** - Nõuab, et kõik tuletised jääksid sama litsentsi alla
+(vastandina copyright'ile)
+```
+
+**Näide:**
+```
+Üks põhjustest, miks Apple'i macOS ei põhine Linuxil:
+→ Linux kasutab GPL litsentsi
+→ See tähendaks, et ka macOS peaks olema avatud lähtekoodiga
+→ Apple ei soovi seda
+```
+
+**Teised olulised litsentsid (lühidalt):**
+```
+- BSD 2-Clause/3-Clause: Sarnane MIT-le, lihtne ja vaba
+- Creative Commons Zero (CC0): Loobub kõigist autoriõigustest (avalik omand)
+- Mozilla Public License 2.0: Võimaldab linkida MPL-koodiga mittevaba tarkvara
+- The Unlicense: Loobub täielikult autoriõigustest
+```
+
+**Õpetaja märkmed:**
+- Näita slides-is võrdlustabelit (MIT vs Apache vs GPL)
+- Rõhuta: Valik sõltub sinu eesmärgist
+- Selgita: Idufirmadele ei meeldi GPL, kuna see võib väljumise ajal probleeme tekitada
+
+#### React.js ja HTML/CSS/JavaScript litsentsid (5 min)
+
+**React.js litsentsipoliitika:**
+```
+**React.js** - MIT litsents (üks liberaalsemaid)
+
+Kas saate React.js-iga luua täielikult kaitstud toote?
+✅ JAH! React.js kood ise on avatud, aga:
+   - Teie rakenduse loogika ei muutu automaatselt avalikuks
+   - Te võite kaitsta oma rakenduse lähtekoodi
+   - React.js-i kasutamine ei kohusta teid oma koodi avaldama
+
+Näide: Facebook kasutab React.js, aga ei jaga facebook.com koodi
+```
+
+**HTML, CSS ja JavaScript:**
+```
+**HTML, CSS, JavaScript** - Standardid, mitte tarkvara
+→ Loodud kõigi jaoks vabalt kasutamiseks
+→ Ei vaja litsentsi, on nagu keele grammatika
+
+Kuid:
+⚠️ Kui kasutad teeke (jQuery, Bootstrap jne) → neil on litsentsid!
+⚠️ Sinu loodud veebilehe disain ja sisu → võib olla autoriõigusega kaitstud
+```
+
+**Selgita:**
+```
+HTML/CSS/JS ise = standardid (tasuta)
+Teegid (React, jQuery) = tarkvaratooted (omavad litsentse)
+Sinu kood = sinu valik (vali litsents või hoia privaatsena)
+```
+
+#### Litsentside dilemma mäng (15 min)
+
+**Eesmärk:** Harjutada litsentside valimist erinevates olukordades
+
+**Jaga klass 4 gruppi, iga grupp saab ühe dilemma:**
+
+**Dilemma 1: Idufirma**
+```
+"Olete idufirma, kes arendab innovaatilist tehisintellekti rakendust.
+Teie kood põhineb osaliselt avatud lähtekoodiga projektidel.
+Investorid on huvitatud, aga muretsevad intellektuaalomandi pärast."
+
+Küsimused:
+- Milliseid litsentse peaks kasutama?
+- Kuidas kaitsta oma intellektuaalomandit?
+```
+
+**Dilemma 2: Kogukonna projekt**
+```
+"Arendate hariduslikku platvormi, mida soovite, et koolid saaksid
+vabalt kasutada ja kohandada. Samas tahate vältida, et keegi teie
+tööd kommertseesmärkidel ära ei kasutaks."
+
+Küsimused:
+- Milline litsents sobiks?
+- Millised on ohud ja võimalused?
+```
+
+**Dilemma 3: Ettevõtte siseprojekt**
+```
+"Teie ettevõte soovib luua sisemist tööriista, kasutades palju avatud
+lähtekoodiga komponente. Hiljem võib tekkida soov seda tööriista ka müüa."
+
+Küsimused:
+- Millised litsentsid on sobivad?
+- Millised piirangud võivad tekkida?
+```
+
+**Dilemma 4: Rahvusvaheline koostöö**
+```
+"Teete koostööd rahvusvahelise meeskonnaga, kus igaüks lisab oma komponente.
+Projekt võib tulevikus muutuda kas äriliseks või jääda avalikuks."
+
+Küsimused:
+- Kuidas litsentside valik mõjutab koostööd?
+- Milliseid litsentse kombineerida?
+```
+
+**Aruteluprotsess:**
+```
+1. Grupid arutlevad 10 minutit
+2. Iga grupp esitleb 2-3 min:
+   - Valitud litsents
+   - Peamised eelised
+   - Potentsiaalsed riskid
+   - Kuidas see mõjutab projekti tulevikuplaane
+3. Teised grupid küsivad küsimusi
+```
+
+**Arutelu punktid:**
+```
+- Mis on valitud litsentsi peamised eelised?
+- Millised on potentsiaalsed riskid?
+- Kuidas see mõjutab projekti tulevikuplaane?
+```
+
+**Õpetaja roll:**
+- Liikuge gruppide vahel ja juhendage
+- Kui grupp on hätta jäänud, vihjake: "Mõelge, kas tahate et teised saaksid teie koodi müüa?"
+- Pärast esitlusi kommenteerige iga lahendust
+
+**Kokkuvõte ja abimees:**
+```
+Kui muu ei aita litsentsi valida:
+🔗 https://choosealicense.com
+
+Peamised küsimused litsentsi valikul:
+1. Kas tahan, et teised saaksid mu koodi kasutada?
+2. Kas tahan, et teised saaksid mu koodi muuta?
+3. Kas tahan, et teised saaksid mu koodiga raha teenida?
+4. Kas tahan, et muudatused oleksid samuti avatud?
+```
+
+**Õpetaja märkused:**
+- Pole õigeid ega valesid vastuseid - kõik sõltub eesmärgist
+- Rõhuta: Litsents on strateegiline otsus, mitte tehniline
+- Näita: Paljud edukas projektid kasutavad MIT litsentsi (React, Vue, Angular)
+
+---
+
+### 2.2 Epic Breakdown ja Task Hierarhia (25 min)
 
 **Task hierarhia** - Püramiidne struktuur, kus suur funktsioon (epic) jaotatakse väiksemateks kasutajalugudeks (user story) ja need omakorda konkreetseteks töödeks (task).
 
@@ -232,13 +515,13 @@ Küsi: "Milliseid tüüpe teie projekt vajab?"
 - Näita: Task'id ei ole alati lineaarsed - mõned võib teha paralleelselt
 - Jälgi: Kas tudengid mõistavad hierarhiat?
 
-### 2.2 Story Points ja hindamistehnikad (20 min)
+### 2.3 Story Points ja hindamisehnikad (20 min)
 
-**Hindamisehnikad** - Meetodid, millega meeskond hindab ülesannete suurust, keerukust ja vajalikku pingutust.
+**Hindamistehnikad** - Meetodid, millega meeskond hindab ülesannete suurust, keerukust ja vajalikku pingutust.
 
 **Planning Poker demonstratsioon:**
 
-**Planning Poker** - Meeskondlik hindamise tehnika, kus iga liige hindab ülesande suurust iseseisvalt kaartidega, seejärel arutatakse erinevusi ja jõutakse konsensusele.
+**Planning Poker** - Meeskondlik hindamistehnika, kus iga liige hindab ülesande suurust iseseisvalt kaartidega, seejärel arutatakse erinevusi ja jõutakse konsensusele.
 
 **Story pointide meeldetuletus** (5 min)
 ```
@@ -266,7 +549,7 @@ Praktika klassiga:
 Proovi 3-4 task'iga erinevate projektide põhjal
 ```
 
-**Hindamisvead** (5 min)
+**Hindamise vead** (5 min)
 ```
 **Scope creep** - Olukord, kus projekti või ülesande ulatus kasvab järk-järgult ilma et sellega kaasneks täiendav aeg või ressursid. Näiteks task, mis pidi olema lihtne nupp, muutub terveks vormisüsteemiks.
 
@@ -278,7 +561,7 @@ Selgita tavalised vead:
 Rõhuta: Esimesed hinnangud on alati valed - see on normaalne!
 ```
 
-### 2.3 Arenduse Jälgimise Meetrikad (20 min)
+### 2.4 Arenduse Jälgimise Meetrikad (20 min)
 
 **Meetrikad** - Mõõdetavad näitajad, mis aitavad jälgida ja analüüsida meeskonna tööd ning projekti progressi.
 
@@ -346,7 +629,7 @@ Küsi: "Milliseid blockereid võite te kogeda oma projektides?"
 - Näita: Hea meeskond tunnistab probleeme vara
 - Jälgi: Kas tudengid mõistavad, miks me mõõdame?
 
-### 2.4 Daily Standups ja Koordineerimine (15 min)
+### 2.5 Daily Standups ja Koordineerimine (15 min)
 
 **Daily standup** - Lühike (tavaliselt 15 min) igapäevane meeskonna kohtumine, kus iga liige räägib oma tööst, plaanidest ja takistustest.
 
@@ -784,10 +1067,9 @@ Näita slides-is:
 ## Kokkuvõte õpetajale
 
 **Seminari edu tunnused:**
+- Tudengid mõistavad litsentsimise põhimõtteid ja oskavad valida litsentsi
 - Tudengid mõistavad epic → story → task hierarhiat
 - Meeskonnad suutsid simuleerida 2-nädalast sprinti
-- Tudengid said kogemuse pseudokoodi kirjutamisest
-- Tudengid mõistavad velocity ja burndown'i kontseptsioone teoreetiliselt
 - Burndown chart on mõistetav
 - Tudengid teavad, mida arendamine tähendab (ilma koodita!)
 

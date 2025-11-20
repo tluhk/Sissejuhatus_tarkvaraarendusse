@@ -27,7 +27,7 @@ NB! NB! Ärge kasutage Githubi koodimuudatuste tegemise võimalust veebis! Vaid 
 
 ---
 
-## Tänased eesmärgid 🎯
+## Tänased eesmärgid
 
 - ✅ **Mõista tarkvaraarenduse olemust**
 - ✅ Defineerida ja analüüsida probleeme süstemaatiliselt
@@ -40,11 +40,11 @@ NB! NB! Ärge kasutage Githubi koodimuudatuste tegemise võimalust veebis! Vaid 
 
 ## OSA 1: TEOORIA (90 min)
 
-### 1.1 Mis on tarkvaraarendus? 🤔
-### 1.2 Probleemi defineerimine 🎯
-### 1.3 Kasutajate uurimise meetodid 👥
-### 1.4 Nõuete tüübid 📋
-### 1.5 Konkurentsianalüüs 🔍
+### 1.1 Mis on tarkvaraarendus?
+### 1.2 Probleemi defineerimine
+### 1.3 Kasutajate uurimise meetodid
+### 1.4 Nõuete tüübid
+### 1.5 Konkurentsianalüüs
 
 ---
 

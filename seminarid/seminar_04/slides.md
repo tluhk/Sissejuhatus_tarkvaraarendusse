@@ -352,13 +352,13 @@ Kasutajalugudest saab komplekteerida EPIC-ud ning need saab lisada projekti ning
 ETAPP 1: Probleem tekib
 - Tegevus: Meenutab tähtaega
 - Mõtted: "Kas mul on aega?"
-- Emotsioon: 😰 Stress
+- Emotsioon: Stress
 - Võimalus: Varajane meeldetuletus
 
 ETAPP 2: Otsib infot  
 - Tegevus: Kontrollib Moodle-t
 - Mõtted: "Kus see info oli?"
-- Emotsioon: 😤 Frustratsioon
+- Emotsioon: Frustratsioon
 - Võimalus: Keskne info koht
 ```
 

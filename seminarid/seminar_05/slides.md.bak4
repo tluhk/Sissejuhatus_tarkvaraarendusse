@@ -1,4 +1,4 @@
-# Seminar 5: Sprint 3 - arendamine (simuleerimine)
+# Seminar 5: Sprint 3 - Arendamine (Simuleerimine)
 
 ---
 
@@ -73,10 +73,6 @@ Täna simuleerime arendusprotsessi:
 
 ---
 
-## Wireframedega testimine
-Et veenduda wireframede sobivuses, tuleb testida. Iga tiim testib oma wireframedega vähemalt kaht sestenaariumit ja dokumenteerib leiud.  
-Päris elus tuleks selle põhjal ka parandused täiustused sisse viia.
-
 ## Sprint 2 mõõdikud
 
 Näide:
@@ -130,9 +126,7 @@ Näide:
 
 ---
 
-## Action items Sprint 3-ks
-
-Iga meeskond valib selgeid praktilisi samme ("action items"), mida võtta järgmiseks sprint'iks, et parandada oma tööprotsessi ja rakendada retrospektiivis leitud õppetunde. Need tegevuspunktid aitavad fookust hoida ning toetavad meeskonna arengut Sprint 3 jooksul – näiteks tehniliste otsuste dokumenteerimine või paremini omavaheline suhtlus.
+## Action Items Sprint 3-ks
 
 Iga meeskond valib 2 action item'it:
 
@@ -141,15 +135,13 @@ Näited:
 - "Kasutame GitHub Projects'i aktiivsemalt"
 - "Teeme daily standup'e järjepidevamalt"
 
-Asub tahvlil nähtavas kohas, nt to do, In Progress, Done, Action items. Või tavaline tööülesanne, mida järgib kas kogu tiim või mõni juht. Järgmises retros vaadatakse, kas si toimis, kas täideti, kas paranes.
-
 ---
 
 # Epic Breakdown
 ## Suurtest ülesannetest väikesteks
 
 **Lisalugemist:**
-[Let's do better Epic Breakdowns](https://medium.com/infobipdev/lets-do-better-epic-breakdowns-it-s-an-investment-that-will-pay-off-3e15819ae10b)
+📖 [Let's do better Epic Breakdowns](https://medium.com/infobipdev/lets-do-better-epic-breakdowns-it-s-an-investment-that-will-pay-off-3e15819ae10b)
 
 ---
 
@@ -305,7 +297,7 @@ Põhjus: UI on lihtne, aga validation teeb keerulisemaks
 
 ---
 
-# Arenduse mõõdikud
+# Arenduse Meetrikad
 ## Kuidas jälgida progressi?
 
 ---
@@ -313,7 +305,7 @@ Põhjus: UI on lihtne, aga validation teeb keerulisemaks
 ## Mis on velocity (sprindivõimekus)
 
 **Lisalugemist:**
-[Sprint Velocity Guide](https://www.parabol.co/blog/sprint-velocity/)
+📖 [Sprint Velocity Guide](https://www.parabol.co/blog/sprint-velocity/)
 
 **Sprint Velocity** = meeskonna poolt ühe sprindi jooksul lõpetatud töö suurus
 
@@ -381,7 +373,7 @@ Sprint 3 plaan: 15-18 SP (realistlik)
 ## Mis on burndown chart
 
 **Lisalugemist:**
-[Burndown Chart Tutorial](https://www.atlassian.com/agile/tutorials/burndown-charts)
+📖 [Burndown Chart Tutorial](https://www.atlassian.com/agile/tutorials/burndown-charts)
 
 **Burndown Chart** (kulumise diagramm) = graafik, mis näitab kui palju tööd on veel jäänud sprindi jooksul
 
@@ -511,7 +503,7 @@ External Blocker:
 ## Igapäevane koordineerimine
 
 **Lisalugemist:**
-[Daily Standups Guide](https://www.atlassian.com/agile/scrum/standups)
+📖 [Daily Standups Guide](https://www.atlassian.com/agile/scrum/standups)
 
 ---
 
@@ -672,26 +664,27 @@ läbi viidud dokumentatsiooni kaudu."
 
 ## Sprint 3 kohustuslikud ülesanded
 
-**1. Ülesannete jaotus** (`task-breakdown.md`)
-- Vali 1 peamine funktsioon teie projektist (nt broneerimine)
-- Jaga see 5-10 konkreetseks ülesandeks (disain, kood, test, dokud)
-- Määra igale ülesandele vastutaja ja staatus
+```
+1. Ülesannete jaotus
+   - Vali 1 peamine funktsioon
+   - Jaga 5-10 ülesandeks
+   - Määra vastutajad
 
-**2. Tehnilised otsused** (`technical-decisions.md`)
-- Kirjelda 3 tehnilist otsust (nt Mobile-first, SQL vs NoSQL)
-- Selgita MIKS see otsus tehti (põhjendused, alternatiivid)
+2. Tehnilised otsused
+   - Kirjelda 3 tehnilist otsust
+   - Selgita, miks need otsused tehti
 
-**3. Daily Standup Simulation** (`daily-standups.md`)
-- Kirjuta 10 päeva standup kirjeid (kujuta ette 2 nädalat)
-- Iga päev: Eile tegin / Täna teen / Mind takistab
+3. Daily Standup Simulation
+   - 10 päeva standup kirjeid (simuleeritud)
 
-**4. Sprint Progress Tracking** (`sprint-progress.md`)
-- Tabel: päevade kaupa mitu ülesannet tehtud/pooleli/alustamata
-- Blockerite log: mis takistas ja kuidas lahendati
+4. Sprint Progress Tracking
+   - Ülesannete progress päevade kaupa
+   - Blockerite log
 
-**5. Pseudokood** (rollipõhine)
-- **Developer:** 3-4 algoritmi lihtsas eesti keeles (vaata näiteid!)
-- **UX:** UI loogika pseudokoodiga (valideerimised, vead)
+5. Pseudokood (rollipõhine)
+   - Developer: 3-4 algoritmi pseudokoodiga
+   - UX: UI loogika pseudokoodiga
+```
 
 ---
 

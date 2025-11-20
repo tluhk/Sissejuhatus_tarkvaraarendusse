@@ -15,39 +15,36 @@ Sprint 3 on arenduse simulatsioon - te EI kirjuta koodi, vaid dokumenteerite ja 
 
 **Sisu:**
 - Sprint Goal (1 lause - mida tahate saavutada?)
-- Capacity (mitu SP iga liige võtab?)
-- Selected tasks (mis ülesanded Sprint 3-sse võtate?)
+- Selected tasks (mis ülesanded Sprint 3-sse võtate? Loetlege 5-10 ülesannet)
+- Team members (kes mida teeb?)
 - Definition of Done (millal on Sprint valmis?)
 
 ---
 
-### 2. Epic Breakdown
-**Fail:** `epic-breakdown.md`
+### 2. Ülesannete jaotus
+**Fail:** `task-breakdown.md`
 
 **Ülesanne:**
-- Vali 1 peamine Epic teie projektist
-- Jaga 3-5 User Story-ks
-- Vali 1 User Story ja jaga 5-8 Task-iks
-- Iga task peab sisaldama:
-  - Task kirjeldus
-  - Tüüp (UI/Backend/Database/Testing/Docs)
-  - Story Points (1-8)
-  - Assignee (kes vastutab?)
-  - Definition of Done
+- Vali 1 peamine funktsioon teie projektist
+- Kirjelda, mida see funktsioon teeb (1-2 lauset)
+- Jaga 5-10 ülesandeks
+- Iga ülesanne peab sisaldama:
+  - Ülesande kirjeldus (mida tehakse?)
+  - Tüüp (Disain/Programmeer imine/Testimine/Dokument atsioon)
+  - Vastutaja (kes teeb?)
+  - Staatus (Tehtud/Pooleli/Ei alanud)
 
 **Näide struktuuri:**
 ```markdown
-# Epic Breakdown: [Teie Epic nimi]
+# Funktsioon: Mikrolaineahju broneerimine
 
-## User Stories
+## Mida see funktsioon teeb?
+Kasutaja saab broneerida vaba mikrolaineahju kuni 15 minutiks.
 
-### US1: [Kirjeldus]
-**Priority:** Must Have
-**Story Points:** 8 SP
-
-#### Tasks:
-1. **TASK 1** (UI) - [Kirjeldus] - 2 SP - @mari
-2. **TASK 2** (Backend) - [Kirjeldus] - 3 SP - @jaan
+## Ülesanded:
+1. **Disaini broneerimise ekraan** (Disain) - @mari - Tehtud
+2. **Kirjuta pseudokood broneerimise loogikale** (Programmeerimine) - @jaan - Pooleli
+3. **Testi broneerimist erinevate stsenaariumidega** (Testimine) - @liis - Ei alanud
 ...
 ```
 
@@ -86,33 +83,32 @@ Sprint 3 on arenduse simulatsioon - te EI kirjuta koodi, vaid dokumenteerite ja 
 **Fail:** `sprint-progress.md`
 
 **Sisu:**
-- Burndown Chart (joonis või tabel)
-- Velocity arvutus
-- Blockerite log
+- Ülesannete progress (mitu tehtud, mitu pooleli, mitu alustamata)
+- Blockerite log (mis takistas tööd?)
 - Päevade kaupa progress
 
 **Template:**
 ```markdown
 # Sprint 3 Progress
 
-## Burndown Chart
+## Progress ülevaade
 
-| Päev | Planeeritud SP | Alles SP | Märkused |
-|------|----------------|----------|----------|
-| 1    | 15             | 15       | Sprint algus |
-| 2    | 15             | 14       | Task 1 valmis |
-| 3    | 15             | 12       | 2 task'i valmis |
+| Päev | Tehtud ülesanded | Pooleli | Alustamata | Märkused |
+|------|------------------|---------|------------|----------|
+| 1    | 0                | 1       | 9          | Sprint algus, alustasin disainiga |
+| 2    | 1                | 2       | 7          | Disain valmis, alustasin pseudokoodiga |
+| 3    | 2                | 2       | 6          | 2 ülesannet valmis |
 ...
-| 10   | 15             | 0        | Sprint valmis! |
+| 10   | 10               | 0       | 0          | Sprint valmis! |
 
-## Velocity
-- **Planeeritud:** 15 SP
-- **Täidetud:** 15 SP (100%)
-- **Velocity:** 15 SP
+## Tulemus
+- **Planeeritud:** 10 ülesannet
+- **Täidetud:** 10 ülesannet
+- **Lõpetamata:** 0 ülesannet
 
 ## Blockerid
-1. **Päev 3:** Ootasime tehnilise otsuse kinnitust (lahendatud päev 4)
-2. **Päev 7:** Wireframe vajas parandust (lahendatud päev 8)
+1. **Päev 3:** Ei tea, kuidas pseudokoodi kirjutada (lahendatud: uurisin näiteid)
+2. **Päev 7:** Ootan teammate'i tagasisidet (lahendatud päev 8)
 ```
 
 ---
@@ -216,6 +212,7 @@ Sprint 3 on arenduse simulatsioon - te EI kirjuta koodi, vaid dokumenteerite ja 
 - Kuidas backlog'i täpsustati Sprint 3 käigus
 - Milliseid user story-sid prioritiseeriti
 - Millised nõuded muutusid ja miks
+- Aktsepteerimiskriteeriumid pseudokoodile (kas vastab kasutajate vajadustele?)
 
 ---
 
@@ -231,6 +228,24 @@ Sprint 3 on arenduse simulatsioon - te EI kirjuta koodi, vaid dokumenteerite ja 
 ---
 
 ### Developer
+**Fail:** `algorithms/` (kaust pseudokoodiga)
+
+**Sisu:**
+- Kirjuta **3-4 pseudokoodi algoritmi** põhifunktsioonide jaoks
+- Iga algoritm peab sisaldama:
+  - Kasutajateekond (kes, mida, miks?)
+  - Pseudokood (lihtsas eesti keeles)
+  - Testjuhtumid (sisend → väljund)
+  - Edge case'id (mis võib minna valesti?)
+
+**Näited:**
+- Broneerimise loogika
+- Otsingu/filtreerimise algoritm
+- Andmete töötlemise algoritm
+- Maksejaotuse arvutamine
+
+**Vaata näiteid:** `pseudocode-examples.md` failist!
+
 **Fail:** `technical-architecture.md`
 
 **Sisu:**
@@ -242,6 +257,32 @@ Sprint 3 on arenduse simulatsioon - te EI kirjuta koodi, vaid dokumenteerite ja 
 ---
 
 ### UX/UI Designer
+**Fail:** `ui-logic.md`
+
+**Sisu:**
+- Kuidas kasutajaliides valideerib sisendeid (pseudokoodiga)
+- Milliseid veateateid millal näidata
+- Kuidas UI reageerib kasutaja tegevustele
+- Loading state'id ja error state'id
+
+**Näide:**
+```markdown
+## Broneerimisvormi valideerimine
+
+FUNKTSIOON valideeri_broneerimise_vorm(algus_aeg, kestus):
+    KUI kestus > 15 minutit:
+        NÄITA veateade: "Maksimaalne aeg on 15 minutit"
+        BLOKEERI nupp "Broneeri"
+
+    KUI algus_aeg < PRAEGUNE_AEG():
+        NÄITA veateade: "Ei saa broneerida minevikku"
+        BLOKEERI nupp "Broneeri"
+
+    MUIDU:
+        AKTIVEERI nupp "Broneeri"
+LÕPP
+```
+
 **Fail:** `usability-testing-plan.md`
 
 **Sisu:**
@@ -285,10 +326,10 @@ git push origin feature/sprint-3
 
 Loo järgmised Issues oma projekti:
 
-**Issue #X:** Epic breakdown - vali epic ja jaga task-ideks
+**Issue #X:** Ülesannete jaotus - vali funktsioon ja jaga ülesanneteks
 **Issue #X:** Daily standup simulation - 10 päeva kirjeid
 **Issue #X:** Technical decisions - dokumenteeri 3 otsust
-**Issue #X:** Sprint progress tracking - burndown ja velocity
+**Issue #X:** Sprint progress tracking - ülesannete progress päevade kaupa
 **Issue #X:** Sprint review - kokkuvõte Sprint 3 tulemustest
 **Issue #X:** Retrospective - refleksiooni sprint 3 kohta
 
@@ -312,12 +353,17 @@ project_root/
 ├── sprint3/                          ← UUS!
 │   ├── README.md                     (ülevaade Sprint 3 kohta)
 │   ├── sprint-3-plan.md              (kohustuslik)
-│   ├── epic-breakdown.md             (kohustuslik)
+│   ├── task-breakdown.md             (kohustuslik - asendab epic-breakdown)
 │   ├── daily-standups.md             (kohustuslik)
 │   ├── sprint-progress.md            (kohustuslik)
 │   ├── technical-decisions.md        (kohustuslik)
 │   ├── sprint-3-review.md            (kohustuslik)
 │   ├── sprint-3-retrospective.md     (kohustuslik)
+│   ├── algorithms/                   (Developer - pseudokood!)
+│   │   ├── algorithm-1.md
+│   │   ├── algorithm-2.md
+│   │   └── payment-split-algorithm.md
+│   ├── ui-logic.md                   (UX - kasutajaliidese loogika)
 │   ├── backlog-refinement.md         (PO)
 │   ├── blockers-log.md               (PM)
 │   ├── technical-architecture.md     (Dev)

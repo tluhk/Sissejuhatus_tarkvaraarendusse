@@ -1,4 +1,4 @@
-# Mis on tarkvaraarenduse mudelid?
+live# Mis on tarkvaraarenduse mudelid?
 
 Tarkvaraarenduse mudelid on struktureeritud lähenemised tarkvaraarendusele, mis määratlevad etapid ja protsessid, mida tuleb järgida tarkvara tootmisel. Need mudelid võivad olla lineaarsed, järjestikused või iteratiivsed, sõltuvalt projekti olemusest ja nõuetest. Siin on mõned levinumad tarkvaraarenduse mudelid:
 
