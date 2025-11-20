@@ -736,10 +736,9 @@ et ta ei peaks kartma järjekordi lõunapausil.
 **Mõelge läbi:**
 
 ```
-1. DISAIN: Mis ekraane / wireframe'e vaja?
-2. PROGRAMMEERIMINE: Mis loogika / pseudokood vaja?
-3. TESTIMINE: Kuidas testida, et töötab?
-4. DOKUMENTATSIOON: Mis kirjeldada?
+1. PROGRAMMEERIMINE: Mis loogika / pseudokood vaja?
+2. TESTIMINE: Kuidas testida, et töötab?
+3. DOKUMENTATSIOON: Mis kirjeldada?
 ```
 
 **Eesmärk:** 5-10 ülesannet
@@ -752,12 +751,12 @@ et ta ei peaks kartma järjekordi lõunapausil.
 FUNKTSIOON: Mikrolaineahju broneerimine
 
 ÜLESANDED:
-1. Disaini broneerimise ekraan (Disain) - @mari
-2. Kirjuta pseudokood broneerimise loogikale (Prog.) - @jaan
-3. Kirjuta pseudokood aja kontrollimisele (Prog.) - @jaan
-4. Disaini teavituste UI (Disain) - @mari
-5. Kirjelda testimise stsenaariume (Test) - @liis
-6. Dokumenteeri kuidas broneerimine töötab (Docs) - @liis
+1. Kirjuta pseudokood broneerimise loogikale (Prog.) - @jaan
+2. Kirjuta pseudokood aja kontrollimisele (Prog.) - @jaan
+3. Kirjuta pseudokood kattuvate broneeringute kontrollimisele (Prog.) - @mari
+4. Kirjelda testimise stsenaariume (Test) - @liis
+5. Dokumenteeri kuidas broneerimine töötab (Docs) - @liis
+6. Dokumenteeri API endpoint'id (Docs) - @mari
 7. Kirjuta kasutajajuhend (Docs) - @liis
 ```
 
