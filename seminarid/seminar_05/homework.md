@@ -228,8 +228,6 @@ Mõlemal juhul peab kokku olema vähemalt 6-8 standup kirjet, et mõista meeskon
 - Iga algoritm peab sisaldama:
   - Kasutajateekond (kes, mida, miks?)
   - Pseudokood (lihtsas eesti keeles)
-  - Testjuhtumid (sisend → väljund)
-  - Edge case'id (mis võib minna valesti?)
 
 **Näited:**
 - Broneerimise loogika
