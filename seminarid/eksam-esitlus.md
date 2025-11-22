@@ -24,7 +24,7 @@
 - Esitluse ülesehitus
 
 **Näide:**
-> "Oleme meeskond X ja meie projekt oli Y probleem. Täna räägime sellest, kuidas me õppisid tarkvaraarenduse protsessi läbi kolme sprindi - uurimisest planeerimiseni ja arenduseni."
+> "Oleme meeskond X ja meie projekt oli Y probleem. Täna räägime sellest, kuidas me õppisime tarkvaraarenduse protsessi läbi kolme sprindi - uurimisest planeerimiseni ja arenduseni."
 
 ---
 
@@ -35,20 +35,10 @@
 - Mis oli iga sprindi eesmärk?
 - Kuidas sprintid omavahel seostusid?
 
-**Soovitatud visuaal:**
-```
-Sprint 1: UURIMINE → Sprint 2: PLANEERIMINE → Sprint 3: ARENDAMINE
-    ↓                      ↓                        ↓
-Probleemi             Meeskonnatöö            Epic breakdown
-mõistmine            seadistamine             ja simuleerimine
-Kasutajad            Rollide jaotus           Daily standups
-Nõuded               Backlog                  Blockerid
-```
-
 **Fookus tarkvaraarendusel:**
 - Miks algab arendus alati probleemi mõistmisest?
 - Kuidas iga sprint ehitas eelmise peale?
-- Mis oleks juhtunud, kui otse koodimist alustasite?
+- Mis oleks juhtunud, kui oleks otse koodimist alustanud?
 
 ---
 
@@ -63,8 +53,8 @@ Nõuded               Backlog                  Blockerid
 - Kasutajate intervjueerimine ja personad
 - Journey mapping ja valupunktide leidmine
 
-**Kuidas rakendusime:**
-- Sprint 1: intervjueerisime X kasutajat
+**Kuidas töötasime:**
+- Intervjueerisime X kasutajat
 - Lõime Y personat põhinedes reaalsete andmete põhjal
 - Avastasime, et meie algne eeldus oli vale: [näide]
 
@@ -78,7 +68,7 @@ Nõuded               Backlog                  Blockerid
 - Iga rolli vastutus ja panus
 - Kommunikatsiooni olulisus (daily standups, retrospectives)
 
-**Kuidas rakendusime:**
+**Kuidas töötasime:**
 - Jaotasime rollid vastavalt huvile ja oskustele
 - Pidime X daily standup'i
 - Kohtasime Y blocker'it ja lahendasime neid meeskonnana
@@ -88,12 +78,12 @@ Nõuded               Backlog                  Blockerid
 
 #### Näide 3: Agiilne metoodika
 
-**Mis õppisime:**
+**Mida õppisime:**
 - Sprint tsükkel: planning → daily standups → review → retrospective
 - Iteratiivne vs lineaarne (Waterfall) lähenemine
 - Velocity ja burndown chart'i kasutamine
 
-**Kuidas rakendusime:**
+**Kuidas töötasime:**
 - Iga sprint lõppes review ja retrospective'iga
 - Sprint 3 simulatsioon näitas, kuidas blocker'id mõjutavad velocity't
 - Õppisime oma estimating'ut parandama
@@ -103,18 +93,18 @@ Nõuded               Backlog                  Blockerid
 
 #### Näide 4: Dokumenteerimine ja GitHub workflow
 
-**Mis õppisime:**
+**Mida õppisime:**
 - Git branching ja pull request workflow
 - Dokumenteerimine kui osa tarkvarast
 - Issue tracking ja project management GitHub'is
 
-**Kuidas rakendusime:**
+**Kuidas töötasime:**
 - Igal dokumendil oli branch → PR → review → merge
 - Lõime X issue'd ja Y pull request'i
 - GitHub Projects aitas visualiseerida progressi
 
 **Mida see meile õpetas:**
-> "Õppisime, et versioonihaldus ja dokumenteerimine ei ole järelmõte, vaid osa arendusprotsessist."
+> "Õppisime, et versioonihaldus ja dokumenteerimine on osa arendusprotsessist."
 
 ---
 
@@ -122,10 +112,11 @@ Nõuded               Backlog                  Blockerid
 
 **Nüüd võite näidata oma toodet, aga fookus on PROTSESSIL:**
 
-**Mis näidata:**
-- Wireframe'id või prototüübid (mitte ainult kirjeldus)
-- Üks peamine user story demonstratsioonina
-- Kuidas see lahendab kasutajate probleemi (personade ja journey map'i põhjal)
+**Mida näidata:**
+- Lühikirjeldus  
+- Wireframed  
+- Üks peamine user story demonstratsioonina  
+- Kuidas see lahendab kasutajate probleemi (personade ja journey map'i põhjal)  
 
 **Visuaalid:**
 - Personad (kes on teie kasutajad?)
@@ -141,10 +132,10 @@ Nõuded               Backlog                  Blockerid
 
 ### 5. Väljakutsed ja õppetunnid (2-3 minutit)
 
-**Mis esitada:**
+**Mida esitada:**
 - 2-3 peamist väljakutset, millega kokku puutusite
 - Kuidas neid lahendasite?
-- Mida õppisite vigadest?
+- Mida õppisite vigadest? Kui olei.
 
 **Näited:**
 
@@ -167,18 +158,10 @@ Nõuded               Backlog                  Blockerid
 
 ### 6. Refleksioon (1-2 minutit)
 
-**Mis esitada:**
+**Mida esitada:**
 - Mis muutus teie arusaamises tarkvaraarendusest?
 - Mida võtate kaasa tulevastesse projektidesse?
 - Mis üllattas teid kõige rohkem?
-
-**Näited:**
-
-> "Alguses arvasin, et tarkvaraarendus on põhiliselt koodimine. Nüüd saan aru, et see on terve protsess alates probleemi mõistmisest kuni kasutajate testimiseni. Programmeerimine on ainult üks etapp."
-
-> "Õppisime, et dokumenteerimine ei ole igav kohustus, vaid oluline suhtlusvahend meeskonna vahel. GitHub workflow aitas hoida kõiki kursis."
-
-> "Meile meeldis enim sprint retrospective, kus saime ausalt rääkida, mis läks hästi ja mis mitte. See kultuur - õppida vigadest ja pidevalt pareneda - on see, mis eristab häid meeskondi."
 
 ---
 
@@ -186,110 +169,6 @@ Nõuded               Backlog                  Blockerid
 
 **Mis esitada:**
 - Kokkuvõte kolmest peamisest õppetunnist
-- Täname kuulamast
 - Küsimused-vastused
 
-**Näide:**
-> "Kokkuvõtteks: õppisime, et tarkvaraarendus algab kasutajatest, nõuab meeskonnatööd ja paindlikku protsessi. Need põhimõtted on aluseks igale edukale projektile."
-
 ---
-
-## Visuaalide soovitused
-
-### Must-have slaidid:
-1. **Tiitelleht**: meeskond, projekt, kuupäev
-2. **Protsessi ülevaade**: 3 sprinti visualiseeritud
-3. **Personad**: 1-2 personat piltide ja detailidega
-4. **Journey map**: kasutajateekond visualiseeritud
-5. **Wireframe'id**: 2-3 ekraani näidet
-6. **Retrospective**: Start-Stop-Continue kokkuvõte
-7. **Õppetunnid**: 3-4 peamist põhimõtet
-
-### Nice-to-have slaidid:
-- GitHub Projects board (kanban või backlog view)
-- Burndown chart Sprint 3 simulatsioonist
-- Konkurentsianalüüsi võrdlus
-- Epic breakdown näide
-- Sprint velocity graafik
-
----
-
-## Näpunäited
-
-### Tehke:
-✅ Rääkige protsessist, mitte ainult tootest
-✅ Kasutage konkreetseid näiteid oma projektist
-✅ Näidake refleksiooni ja õppimist
-✅ Visuaalne materjal aitab jutustamist
-✅ Jagage esitluse osad meeskonnaliikmete vahel
-✅ Harjutage enne
-
-### Ärge:
-❌ Loetlege kõiki funktsioone, mida teie toode peaks omama
-❌ Süvenege tehnilisse žargooni ilma selgitamata
-❌ Keskenduge ainult tootele, mitte õppimisele
-❌ Lubage ühel inimesel kogu esitlust teha
-❌ Unustage ajapiiranguid (10-15 min!)
-
----
-
-## Hindamise rubriik (teadmiseks)
-
-### Tarkvaraarenduse protsessi mõistmine (40%)
-- Kas mõistavad, miks iga sprint oli vajalik?
-- Kas näevad seost uurimise, planeerimise ja arenduse vahel?
-- Kas oskavad selgitada agiilse metoodika põhimõtteid?
-
-### Meeskonnatöö ja rollid (30%)
-- Kas mõistavad erinevate rollide vastutust?
-- Kas näitavad head kommunikatsiooni ja koostööd?
-- Kas oskavad kirjeldada blocker'ite lahendamist?
-
-### Metoodikate rakendamine (20%)
-- Kas kasutasid personasid, journey map'i, user story-sid?
-- Kas rakendasid GitHub workflow'i korrektselt?
-- Kas dokumenteerisid protsessi struktureeritult?
-
-### Refleksioon ja kriitilisus (10%)
-- Kas tunnistavad vigu ja väljakutseid?
-- Kas näitavad õppimist ja arengut?
-- Kas oskavad kriitiliselt hinnata oma tööd?
-
----
-
-## Küsimused, milleks valmis olla
-
-### Protsessi kohta:
-- Miks alustasite kasutajate uurimisega?
-- Kuidas sprint retrospective aitas teil pareneda?
-- Mis oleks teistmoodi, kui kasutaksite Waterfall mudelit?
-
-### Meeskonnatöö kohta:
-- Kuidas jaotas rollid meeskonnas?
-- Kuidas lahendasite konflikte või erimeelsusi?
-- Mis oli kõige keerulisem meeskonnatöö aspekt?
-
-### Metoodikate kohta:
-- Kuidas personad mõjutasid teie disainiotsuseid?
-- Miks kasutasite story points'e aja asemel?
-- Kuidas GitHub Projects aitas teil projekti hallata?
-
-### Toote kohta:
-- Kuidas teate, et teie lahendus vastab kasutajate vajadustele?
-- Milliseid kompromisse tegite prioritiseerimisel?
-- Mis oleksid järgmised sammud toote arendamisel?
-
----
-
-## Kokkuvõte
-
-Teie esitlus peaks jutustama lugu:
-1. **Algus:** Probleem, mida soovisime lahendada
-2. **Teekond:** Kuidas õppisime protsessi, meeskonnatööd ja metoodikaid
-3. **Tulemus:** Mida saavutasime ja mida õppisime
-4. **Tulevik:** Mida võtame kaasa järgmistesse projektidesse
-
-**Peamine sõnum:**
-> Tarkvaraarendus on rohkem kui koodimine - see on kasutajate mõistmine, meeskonnatöö, protsess ja pidev õppimine.
-
-Edu eksamil!
