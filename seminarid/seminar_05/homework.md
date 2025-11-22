@@ -284,4 +284,8 @@ LÕPP
 - Oodatavad tulemused
 - Kuidas tulemusi kasutataks järgmistes iteratsioonides
 
+<<<<<<< HEAD
 ---
+=======
+---
+>>>>>>> sketch-course
