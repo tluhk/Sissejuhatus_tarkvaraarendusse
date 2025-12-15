@@ -2,7 +2,7 @@
 
 ## Esitluse struktuur ja juhised
 
-**Eesmärk:** Esitleda mida õppisite tarkvaraarenduse kohta läbi kolme sprindi, mitte ainult seda, mida teie toode teeb.
+**Eesmärk:** Esitleda mida õppisite tarkvaraarenduse kohta läbi kolme sprindi ja teooria osade, mitte ainult seda, mida teie toode teeb.
 
 **Kestus:** 10-15 minutit + 5 minutit küsimused
 
