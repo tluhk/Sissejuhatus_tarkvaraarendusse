@@ -1,87 +1,113 @@
-## **1. Esimene seminar**
+## **Sissejuhatav seminar**
 
 ### **Teemad:**
-- Sissejuhatus
-- Tarkvara ja tarkvaraarendus
-- Tarkvaraarenduse elutsükkel
-- Git ja GitHub
+- Sissejuhatus kursusesse
+- Git ja GitHub põhitõed
 - Markdown
 
 ### **Materjalid:**
-- [Uued slaidid](https://gamma.app/docs/Sissejuhatus-tarkvaraarendusse-orp3sw6v6z53aae)
-- [Vanad slaidid](../seminarid/seminar_01/files/slaidid_01.pdf)
-- [Seminari salvestus](https://www.youtube.com/watch?v=G0ZrGdIgJjw)
+- [Slaidid](../docs/git_koolis.md)
+- [Seminari 1. poole salvestus](https://hktluee-my.sharepoint.com/:v:/g/personal/mrt_hk_tlu_ee/EYp6Ym2k7nVKnXMMZ1FG8nwBKYJyA0ewqVmRT5F8gyU6NA?e=9915fe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- [Seminari 2. poole salvestus](https://hktluee-my.sharepoint.com/:v:/g/personal/mrt_hk_tlu_ee/EZio-byM-qBEp4Y_iUEwq6EBPdSxe4tU2qz1UG0-YKJiEw?e=WXwLvu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-### **Kontseptsioonid:**
-- [Tarkvara](../concepts/tarkvara/README.md)
-- [Tarkvaraarendus](../concepts/tarkvaraarendus/README.md)
-- [Tarkvaraarenduse elutsükkel](../concepts/SDLC/README.md)
-- [Git](../concepts/git/README.md)
-- [Github](../concepts/github/README.md)
-- [Markdown](../concepts/markdown/README.md)
-
-### **Kodutöö:**
-[Esimese koduse töö kirjeldus](../docs/kodusedtood/kodune_01.md)
-
-## **2. Teine seminar**
+## **Seminar 2: Uurimine**
 
 ### **Teemad:**
+- Mis on tarkvaraarendus ja tarkvaraarenduse elutsükkel
+- Tarkvaraarendus vs programmeerimine
 - Probleemi defineerimine ja analüüs
-- Kasutajate uurimise meetodid (intervjuud, küsitlused, vaatlused)
-- Harjutus nõuete väljaselgitamiseks
-- VSCode + Markdown uurimistulemuste dokumenteerimiseks
-- Konkurentsianalüüs ja turu-uuringud
+- Kasutajate uurimise meetodid (intervjuud, vaatlused, küsitlused)
 - Funktsionaalsed vs mitte-funktsionaalsed nõuded
 - Nõuete kogumine ja dokumenteerimine
+- Konkurentsianalüüs ja turu-uuringud
+- Dokumenteerimise head tavad
+
+### **Materjalid:**
+- [Slaidid](../seminarid/seminar_02/slides.md)
+- [Seminari salvestus I](https://youtu.be/j7WDoi3zYuY?si=R3-i_pIy9-fsB0id)
+- [Seminari salvestus II](https://youtu.be/cRsbK6CNAMA?si=xu_kZyCTdBwmopVa)
 
 ### **Kodutöö:**
-[Teise koduse töö kirjeldus](../docs/kodusedtood/kodune_02.md)
+[Teise koduse töö kirjeldus](../seminarid/seminar_02/homework_02.md)
 
-## **3. Kolmas seminar**
+## **Seminar 3: Sprint 1 - Planeerimine**
 
 ### **Teemad:**
-- Rollid tarkvaraarenduses: product owner, Scrum Master, Developer, QA, UX Designer
-- projekti planeerimine: Ajakavad, ressursid, riskid
-- Arendusmetoodikad võrdlus: Waterfall, Agile, Scrum, Kanban, Lean
-- meeskonnatöö ja kommunikatsioon: Hajusmeeskonnatöö, kommunikatsiooni raamistikud, konfliktide lahendamine
-- Git branching strateegiad: Feature branches, merge strateegiad
-- Koostöö tööriistad: GitHub workflow, projektihalduse platvormid
+- Arendusmetoodikad: Waterfall, Agile, Scrum, Kanban
+- Rollid tarkvaraarenduses: Product Owner, Project Manager, Developer, UX/UI Designer
+- Scrum raamistik ja sündmused: Sprint Planning, Daily Scrum, Sprint Review, Retrospective
+- Meeskonnatöö põhimõtted ja kommunikatsioon
+- Backlog management: Epic-ute jagamine, Story points, MoSCoW prioritiseerimine
+- GitHub Projects seadistamine ja kasutamine
+- Sprint 1 planeerimine ja käivitamine
+- Daily Standup protokoll
+
+### **Materjalid:**
+- [Slaidid](../seminarid/seminar_03/slides.md)
 
 ### **Kodutöö:**
-[Kolmanda koduse töö kirjeldus](../docs/kodusedtood/kodune_03.md)
+Sprint 1 dokumentatsiooni loomine (projekt-charter, rollid, ajakava, riskianalüüs, kommunikatsiooni plaan)
 
-## **4. Neljas seminar**
+## **Seminar 4: Sprint 2 - Disainimine**
 
 ### **Teemad:**
-- Design Thinking metoodika: Empaatia → Definitsioon → Ideation → Prototüüp → Test
-- Kasutajate mõistmine: Persoonade loomine uurimistulemuste põhjal
-- Kasutajalugude kirjutamine: "Kasutajana soovin..."
-- Stsenaariumide arendamine: Samm-sammulised kasutaja teekond
-- Kasutaja teekond (customer journey): Täielik kogemuse kaardistamine
-- RK lehekülje kasutajalood: Praktiline näide haridusportaalist
-- Paberprototüüpide loomine gruppides
-- Prototüüpide testimine: Rollimäng kasutajatega
-- Dokumenteerimine: Prototüüpide digitaliseerimine, disaini spetsifikatsioonid, GitHub dokumenteerimine
+- Sprint Review ja Retrospective (Start-Stop-Continue meetod)
+- Design Thinking metoodika: 5 etappi (Empaatia, Defineerimine, Ideestamine, Prototüüpimine, Testimine)
+- Double Diamond mudel
+- Inimkeskse disaini põhimõtted
+- Persoonade loomine ja elemendid
+- User Story formaat ja INVEST kriteeriumid
+- Aksepteerimiskriteeriumid
+- Customer Journey Mapping
+- Stsenaariumid ja Storyboard
+- Paberprototüüpimine (lo-fi wireframe'id)
+- Wireframe'ide testimine
+
+### **Materjalid:**
+- [Slaidid](../seminarid/seminar_04/slides.md)
+- [Seminari salvestus I](https://youtu.be/nZ9RNSWMC5g)
+- [Seminari salvestus II](https://youtu.be/IHJZ6oEXq5U)
 
 ### **Kodutöö:**
-[Neljanda koduse töö kirjeldus](../docs/kodusedtood/kodune_04.md)
+Sprint 2 dokumentatsiooni loomine (persoonad, kasutajateekonnad/stsenaariumid/storyboard, wireframe'id, testimine, sprint review ja retrospective)
 
-## **5. Viies seminar**
+## **Seminar 5: Sprint 3 - Arendamine (simuleerimine)**
 
 ### **Teemad:**
-- Sprint planning: prototüüpidest arendusülesannete juurde, Epic-ute jagamine, Story points ja hinnangud, Sprint backlog
-- GitHub Projects praktiline seadistamine: Epic-ute loomine, Issue-te konvertimine, Kanban board, Labels ja prioriteedid, Milestone-d ja releases
-- Sprint simulation: Daily standup simulation, Progressi jälgimine, Blocker-ite käsitlemine
+- Sprint 2 Review ja Retrospective
+- Epic Breakdown: Projekt → Epic → User Story → Task
+- Story Points ja Estimating (Fibonacci skeem, Planning Poker)
+- Arenduse mõõdikud: Velocity, Burndown Chart
+- Blockerite juhtimine (takistused)
+- Daily Standups (sünkroonne ja asünkroonne)
+- Continuous Integration (CI/CD) alused
+- Sprint 3 Planning
+- Sprint Simulation: 2 nädala arendus simulatsioon
+- Pseudokoodi kirjutamine algajatele
+
+### **Materjalid:**
+- [Slaidid](../seminarid/seminar_05/slides.md)
+- [Pseudokoodi näited](../seminarid/seminar_05/pseudocode-examples.md)
 
 ### **Kodutöö:**
-[Viienda koduse töö kirjeldus](../docs/kodusedtood/kodune_05.md)
+Sprint 3 dokumentatsiooni loomine (ülesannete jaotus, tehnilised otsused, daily standup'id, progress tracking, pseudokood, sprint review ja retrospective)
 
-## **6. Kuues seminar**
+## **Eksam: Lõplik esitlus**
 
-### **Teemad:**
-- Kvaliteedi testimine ja QA metoodikad: testimise liigid, QA protsessid, Prototype testing, User acceptance testing, Documentation review, Cross-team review, Bug reporting
-- Release ettevalmistus ja DevOps alused: release management, DevOps põhimõtted, Release notes kirjutamine, Final documentation, GitHub Pages seadistamine, Deployment checklist, Retrospective
-- "Product launch" - esitlused: Product demo, Process presentation, Lessons learned
+### **Esitluse struktuur:**
+1. **Sissejuhatus** - meeskond ja projekt
+2. **Protsessi ülevaade** - kolme sprindi ülevaade
+3. **Õpitud põhimõtted** - kasutajakesksus, meeskonnatöö, agiilne metoodika, dokumenteerimine
+4. **Toote lühitutvustus** - wireframe'id, user story'd, personad
+5. **Väljakutsed ja õppetunnid** - probleemid ja lahendused
+6. **Refleksioon** - mida õppisid tarkvaraarenduse kohta
+7. **Kokkuvõte ja küsimused**
 
-### **Kodutöö:**
-[Kuuenda koduse töö kirjeldus](../docs/kodusedtood/kodune_06.md)
+### **Hindamiskriteeriumid:**
+- Arusaam tarkvaraarenduse protsessist (40%)
+- Meeskonnatöö ja rollide mõistmine (30%)
+- Õpitud metoodikate rakendamine (20%)
+- Refleksioon ja kriitilisus (10%)
+
+### **Materjalid:**
+- [Eksami esitluse juhend](../seminarid/eksam-esitlus.md)
