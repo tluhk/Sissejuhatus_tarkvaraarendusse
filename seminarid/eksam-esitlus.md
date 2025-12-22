@@ -2,7 +2,7 @@
 
 ## Esitluse struktuur ja juhised
 
-**Eesmärk:** Esitleda mida õppisite tarkvaraarenduse kohta läbi kolme sprindi, mitte ainult seda, mida teie toode teeb.
+**Eesmärk:** Esitleda mida õppisite tarkvaraarenduse kohta läbi kolme sprindi ja teooria osade, mitte ainult seda, mida teie toode teeb.
 
 **Kestus:** 10-15 minutit + 5 minutit küsimused
 
@@ -18,7 +18,7 @@
 
 ### 1. Sissejuhatus (1-2 minutit)
 
-**Mis esitada:**
+**Mida esitada:**
 - Meeskonna nimi ja liikmed
 - Lühike ülevaade projektist (1 lause: mis probleemi lahendasite?)
 - Esitluse ülesehitus
@@ -30,14 +30,14 @@
 
 ### 2. Protsessi ülevaade (2-3 minutit)
 
-**Mis esitada:**
+**Mida esitada:**
 - Kolme sprindi ülevaade
 - Mis oli iga sprindi eesmärk?
-- Kuidas sprintid omavahel seostusid?
+- Kuidas sprindid omavahel seostusid?
 
 **Fookus tarkvaraarendusel:**
 - Miks algab arendus alati probleemi mõistmisest?
-- Kuidas iga sprint ehitas eelmise peale?
+- Kuidas iga sprint ehitati eelmise peale?
 - Mis oleks juhtunud, kui oleks otse koodimist alustanud?
 
 ---
@@ -50,7 +50,7 @@
 
 **Mis õppisime:**
 - Probleemi defineerimine enne lahenduse leidmist
-- Kasutajate intervjueerimine ja personad
+- Kasutajate intervjueerimine ja persoonad
 - Journey mapping ja valupunktide leidmine
 
 **Kuidas töötasime:**
@@ -70,11 +70,11 @@
 
 **Kuidas töötasime:**
 - Jaotasime rollid vastavalt huvile ja oskustele
-- Pidime X daily standup'i
+- Tegime X daily standup'i
 - Kohtasime Y blocker'it ja lahendasime neid meeskonnana
 
 **Mida see meile õpetas:**
-> "Õppisime, et tarkvaraarendus on meeskonnatöö, mitte üksiku programmeerija töö."
+> "Õppisime, et tarkvaraarendus on meeskonnatöö..."
 
 #### Näide 3: Agiilne metoodika
 
@@ -116,10 +116,10 @@
 - Lühikirjeldus  
 - Wireframed  
 - Üks peamine user story demonstratsioonina  
-- Kuidas see lahendab kasutajate probleemi (personade ja journey map'i põhjal)  
+- Kuidas see lahendab kasutajate probleemi (persoonade ja journey map'i jne põhjal)  
 
 **Visuaalid:**
-- Personad (kes on teie kasutajad?)
+- Persoonad (kes on teie kasutajad?)
 - Journey map (kuidas nad toodet kasutavad?)
 - Wireframe'id või paberprototüübid
 
@@ -135,7 +135,7 @@
 **Mida esitada:**
 - 2-3 peamist väljakutset, millega kokku puutusite
 - Kuidas neid lahendasite?
-- Mida õppisite vigadest? Kui olei.
+- Mida õppisite vigadest? Millised vead olid?
 
 **Näited:**
 
@@ -167,7 +167,7 @@
 
 ### 7. Kokkuvõte ja küsimused (1 minut)
 
-**Mis esitada:**
+**Mida esitada:**
 - Kokkuvõte kolmest peamisest õppetunnist
 - Küsimused-vastused
 
