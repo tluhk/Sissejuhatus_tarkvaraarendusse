@@ -35,5 +35,5 @@ Luua eeldused teadmiste kujunemiseks tarkvaraarenduse protsessist ja arendusmeet
 ## Hindamine
 
 - Eksam
-  - 50% punktidest kodused tööd
-  - 50% punktidest kohapeal tehtav avatud ja valikvastustega test
+  - 70% punktidest kodused tööd ja esitlus
+  - 30% punktidest kohapeal tehtav avatud ja valikvastustega test

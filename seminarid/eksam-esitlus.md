@@ -1,4 +1,7 @@
-# Eksami esitlus: Sissejuhatus tarkvaraarendusse
+# Eksam
+
+Eksam koosneb esitlusest ja testist.  
+Eksamile pääsemise eelduseks on osalemine grupitöödes ja seminarides.
 
 ## Esitluse struktuur ja juhised
 
