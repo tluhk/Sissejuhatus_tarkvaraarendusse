@@ -29,12 +29,12 @@ NB! NB! Ärge kasutage Githubi koodimuudatuste tegemise võimalust veebis! Vaid 
 
 ## Tänased eesmärgid
 
-- ✅ **Mõista tarkvaraarenduse olemust**
-- ✅ Defineerida ja analüüsida probleeme süstemaatiliselt
-- ✅ Kasutada erinevaid kasutajauuringute meetodeid
-- ✅ Eristada funktsionaalseid ja mitte-funktsionaalseid nõudeid
-- ✅ Dokumenteerida uurimistulemusi professionaalselt
-- ✅ Mõista konkurentsianalüüsi tähtsust
+- **Mõista tarkvaraarenduse olemust**
+- Defineerida ja analüüsida probleeme süstemaatiliselt
+- Kasutada erinevaid kasutajauuringute meetodeid
+- Eristada funktsionaalseid ja mitte-funktsionaalseid nõudeid
+- Dokumenteerida uurimistulemusi professionaalselt
+- Mõista konkurentsianalüüsi tähtsust
 
 ---
 
@@ -53,7 +53,7 @@ NB! NB! Ärge kasutage Githubi koodimuudatuste tegemise võimalust veebis! Vaid 
 ### Tarkvara definitsioon
 **Tarkvara** = juhiste kogum, mis ütleb arvutile, mida teha
 
-📦 **Koosneb kolmest osast:**
+**Koosneb kolmest osast:**
 - **Koodist**: Programmeerimiskeeles kirjutatud juhised
 - **Andmetest**: Informatsioon, mida tarkvara töötleb  
 - **Dokumentatsioonist**: Selgitused, kuidas töötab ja kasutada
@@ -74,23 +74,23 @@ Probleem → Analüüs → Disain → Arendamine → Testimine → Juurutamine �
 
 ## Tarkvaraarenduse põhietapid
 
-1. **🔍 Probleemi mõistmine**: Mida me lahendame ja miks?
-2. **📝 Nõuete kogumine**: Mida tarkvara peab täpselt tegema?
-3. **🎨 Disainimine**: Kuidas tarkvara töötab ja välja näeb?
-4. **⚙️ Arendamine**: Koodi kirjutamine ja süsteemi ehitamine
-5. **🧪 Testimine**: Kas tarkvara töötab õigesti?
-6. **🚀 Juurutamine**: Tarkvara kasutajatele kättesaadavaks tegemine
-7. **🔧 Hooldus**: Vigade parandamine ja uute funktsioonide lisamine
+1. **Probleemi mõistmine**: Mida me lahendame ja miks?
+2. **Nõuete kogumine**: Mida tarkvara peab täpselt tegema?
+3. **Disainimine**: Kuidas tarkvara töötab ja välja näeb?
+4. **Arendamine**: Koodi kirjutamine ja süsteemi ehitamine
+5. **Testimine**: Kas tarkvara töötab õigesti?
+6. **Juurutamine**: Tarkvara kasutajatele kättesaadavaks tegemine
+7. **Hooldus**: Vigade parandamine ja uute funktsioonide lisamine
 
 ---
 
 ## Miks tarkvaraarendus on oluline?
 
-- 🤖 **Automatiseerimine**: Korduvate ülesannete automatiseerimine
-- ⚡ **Efektiivsus**: Protsesside kiirendamine ja lihtsustamine
-- 📈 **Skaleeruvus**: Süsteemid, mis töötavad miljonite kasutajatega
-- 💡 **Innovatsioon**: Uued võimalused ja lahendused
-- 🌐 **Kommunikatsioon**: Inimeste ühendamine üle kogu maailma
+- **Automatiseerimine**: Korduvate ülesannete automatiseerimine
+- **Efektiivsus**: Protsesside kiirendamine ja lihtsustamine
+- **Skaleeruvus**: Süsteemid, mis töötavad miljonite kasutajatega
+- **Innovatsioon**: Uued võimalused ja lahendused
+- **Kommunikatsioon**: Inimeste ühendamine üle kogu maailma
 
 ---
 
@@ -103,7 +103,7 @@ Probleem → Analüüs → Disain → Arendamine → Testimine → Juurutamine �
 | Individuaalne töö | Meeskonnatöö ja koostöö |
 | Lühiajaline | Pikajaline planeerimine ja hooldus |
 
-**💡 Programmeerimine on ainult üks osa tarkvaraarendusest!**
+**Programmeerimine on ainult üks osa tarkvaraarendusest!**
 
 ---
 
@@ -111,12 +111,12 @@ Probleem → Analüüs → Disain → Arendamine → Testimine → Juurutamine �
 
 ---
 
-### Mis on "hea" probleem? 🎯
+### Mis on "hea" probleem?
 
-- ✅ **Selgelt defineeritud**: Konkreetne, mitte üldine
-- ✅ **Mõõdetav**: Saab hinnata lahenduse edukust
-- ✅ **Lahendatav**: Tehnilist lahendusvõimalust on olemas
-- ✅ **Oluline**: Tegelik vajadus kasutajatel või turul
+- **Selgelt defineeritud**: Konkreetne, mitte üldine
+- **Mõõdetav**: Saab hinnata lahenduse edukust
+- **Lahendatav**: Tehnilist lahendusvõimalust on olemas
+- **Oluline**: Tegelik vajadus kasutajatel või turul
 
 ---
 
@@ -134,19 +134,19 @@ Probleem → Analüüs → Disain → Arendamine → Testimine → Juurutamine �
 
 ## Näited: hea vs halb probleemi definitsioon
 
-### ✅ **Hea näide**:
+### Hea näide:
 *"Haapsalu kolledži tudengitel on raske jälgida kodutööde tähtaegu, sest info on hajutatud mitmesse süsteemi (Moodle, e-mail, Discord), mistõttu 40% tähtaegadest unustatakse."*
 
-### ❌ **Halb näide**:
+### Halb näide:
 *"Tudengitel on raske õppida."*
 
-**🤔 Mis teeb esimese näite paremaks?**
+**Mis teeb esimese näite paremaks?**
 
 ---
 
 ## 1.3 Kasutajate uurimise meetodid
 
-### Kvalitatiivsed meetodid 🗣️
+### Kvalitatiivsed meetodid
 
 - **Intervjuud**: Süvavestlused kasutajatega
   - Struktureeritud vs poolstruktureeritud vs vabad
@@ -157,13 +157,13 @@ Probleem → Analüüs → Disain → Arendamine → Testimine → Juurutamine �
 
 ---
 
-## Kvantitatiivsed meetodid 📊
+## Kvantitatiivsed meetodid
 
 - **Küsitlused**: Suured andmekogumid
 - **Analüütika**: Olemasolevate süsteemide kasutusstatistika
 - **A/B testimine**: Erinevate lahenduste võrdlus
 
-### Kombineeritud lähenemised 🔄
+### Kombineeritud lähenemised
 - **Persona workshops**: Kvalitatiivsete andmete kvantifitseerimine
 - **Card sorting**: Informatsiooni arhitektuuri testimine
 - **Journey mapping**: Kasutajakogemuse kaardistamine
@@ -172,7 +172,7 @@ Probleem → Analüüs → Disain → Arendamine → Testimine → Juurutamine �
 
 ## 1.4 Nõuete tüübid
 
-### Funktsionaalsed nõuded ⚙️
+### Funktsionaalsed nõuded
 **Definitsioon**: Mida süsteem peab tegema
 
 **Näited**: 
@@ -182,7 +182,7 @@ Probleem → Analüüs → Disain → Arendamine → Testimine → Juurutamine �
 
 ---
 
-### Mitte-funktsionaalsed nõuded 🔧
+### Mitte-funktsionaalsed nõuded
 
 - **Jõudlus**: Kiirus, läbilaskevõime, vastamisaeg
 - **Skaleeruvus**: Kui palju kasutajaid süsteem peab toetama
@@ -193,7 +193,7 @@ Probleem → Analüüs → Disain → Arendamine → Testimine → Juurutamine �
 
 ---
 
-## Kvaliteedi kriteeriumid ✅
+## Kvaliteedi kriteeriumid
 
 - **Täpsus**: Nõue peab olema üheselt mõistetav
 - **Täielikkus**: Kõik olulised aspektid kaetud
@@ -206,12 +206,12 @@ Probleem → Analüüs → Disain → Arendamine → Testimine → Juurutamine �
 
 ---
 
-### Miks konkurentsianalüüs on oluline? 🤔
+### Miks konkurentsianalüüs on oluline?
 
-- 📊 Mõista turu praegust seisu
-- ⭐ Tuvastada parimaid tavasid
-- 💡 Leida innovatsiooni võimalusi
-- ⚠️ Vältida juba tehtud vigu
+- Mõista turu praegust seisu
+- Tuvastada parimaid tavasid
+- Leida innovatsiooni võimalusi
+- Vältida juba tehtud vigu
 
 ---
 
@@ -228,7 +228,7 @@ Probleem → Analüüs → Disain → Arendamine → Testimine → Juurutamine �
 
 ---
 
-## Dokumenteerimise head tavad 📝
+## Dokumenteerimise head tavad
 
 ### Uurimisraporti struktuur:
 1. **Kokkuvõte**: Peamised järeldused
@@ -259,17 +259,17 @@ Praktiline töötuba on ettevalmistus kodutööks
 
 ## 2.1 Probleemi valimine ja defineerimine
 
-### Grupitöö: probleemi ajurünnak 🧠
+### Grupitöö: probleemi ajurünnak
 **Aeg**: 10 minutit  
 **Valdkonnad**:
-- 🎓 Haridus ja õppimine
-- 👨‍🎓 Tudengite igapäevane elu (nt toitlustus)
-- 🏘️ Kohalik kogukond
-- 🌱 Keskkond ja jätkusuutlikkus
+- Haridus ja õppimine
+- Tudengite igapäevane elu (nt toitlustus)
+- Kohalik kogukond
+- Keskkond ja jätkusuutlikkus
 
 ---
 
-### Probleemi evalueerimine 📊
+### Probleemi evalueerimine
 **Aeg**: 10 minutit  
 Kasutades probleemi analüüsi raamistikku (slide 11)
 
@@ -277,14 +277,14 @@ Kasutades probleemi analüüsi raamistikku (slide 11)
 
 ## 2.2 Kasutajate uurimise harjutus
 
-### Intervjuu küsimuste koostamine 📝
+### Intervjuu küsimuste koostamine
 **Aeg**: 10 minutit  
 
 - 2-3 taustküsimust (demograafia, kontekst)
 - 4-5 probleemi kohta (kuidas, millal, miks)
 - 2-3 lahenduse kohta (mida proovitud, mis aitaks)
 
-### Rollimäng: kasutajate intervjuu 🎭
+### Rollimäng: kasutajate intervjuu
 **Aeg**: 20 minutit  
 Grupid modustavad paarid ja vahetavad rolle!
 
@@ -292,7 +292,7 @@ Grupid modustavad paarid ja vahetavad rolle!
 
 ## 2.3 Nõuete kogumine
 
-### Funktsionaalsed nõuded ⚙️
+### Funktsionaalsed nõuded
 **Aeg**: 15 minutit  
 - 5-7 peamist funktsionaalsed nõuet
 - Vorm: "Süsteem peab võimaldama..."
@@ -300,7 +300,7 @@ Grupid modustavad paarid ja vahetavad rolle!
 
 ---
 
-### Mitte-funktsionaalsed nõuded 🔧
+### Mitte-funktsionaalsed nõuded
 **Aeg**: 10 minutit  
 - Jõudluse nõuded (kiirus, kasutajate arv)
 - Kasutatavuse nõuded (seadmed, oskused)
@@ -313,14 +313,14 @@ Grupid modustavad paarid ja vahetavad rolle!
 **Aeg**: 15 minutit  
 
 **Ülesanne**: Leidke 2-3 olemasolevat lahendust
-- 🔍 Otsing Google'ist, app store'idest
-- 📊 Lühike analüüs iga konkurendi kohta
-- ⚖️ Tugevused ja nõrkused
-- 💡 Võimalused innovatsiooniks
+- Otsing Google'ist, app store'idest
+- Lühike analüüs iga konkurendi kohta
+- Tugevused ja nõrkused
+- Võimalused innovatsiooniks
 
 ---
 
-## GitHub dokumentatsioon 📁
+## GitHub dokumentatsioon
 
 ### Täna loome:
 - `problem-definition.md` - valitud probleem
@@ -341,13 +341,13 @@ Grupid modustavad paarid ja vahetavad rolle!
 - `competitive-analysis.md` - konkurentide analüüs
 - `README.md` - projekti ülevaade
 
-**🔄 Git workflow**: Issue → Branch → Changes → Commit → Push → PR → Review → Merge
+**Git workflow**: Issue → Branch → Changes → Commit → Push → PR → Review → Merge
 
 ---
 
 ## Kodutöö 2: süvauurimine
 
-### Grupi osa 👥
+### Grupi osa
 - **Probleemi sügavam alüüs**: täiendage seminaris alatud probleemi analüüsi, kirjeldage probleemi nii, et oleks arusaadav, et tegemist on tõepoolest probleemiga.
 - **Kasutajate uurimine**: seminaris alustasite küsimuste koostamist, lõpetage nende koostamine ning intervjueerige igaüks vähemalt 1 päris inimest. Koostage kokkuvõtted.
 - **Detailne konkurentsianalüüs**: 3+ konkurenti, igaüks teeb ühe konkurendi kohta ülevaate.  
@@ -355,7 +355,7 @@ Grupid modustavad paarid ja vahetavad rolle!
 
 ---
 
-### Individuaalne osa 👤
+### Individuaalne osa
 - **Kasutajate uurija**: intervjuu
 - **Turu-analüütik**: konkurendid
 - **Tehnoloogia uurija**: tehnilised lahendused ja teostatavus
@@ -377,36 +377,36 @@ Grupid modustavad paarid ja vahetavad rolle!
 
 ---
 
-## Hindamise kriteeriumid 📊
+## Hindamise kriteeriumid
 
 - **Põhjalikkus**: kui sügavalt probleemi uuriti
 - **Metodoloogia**: kas kasutati õigeid uurimismeetodeid
 - **Dokumentatsioon**: selgus ja professionaalsus
 - **Koostöö**: GitHub workflow ja peer review kvaliteet
 
-**📅 Tähtaeg**: seminarinädala esmaspäeva hommikul kell 9.00  
-**🔄 Protsess**: individual research → Issue → Branch → Changes → Commit → Push → PR → Review → Merge
+**Tähtaeg**: seminarinädala esmaspäeva hommikul kell 9.00  
+**Protsess**: individual research → Issue → Branch → Changes → Commit → Push → PR → Review → Merge
 
 ---
 
 ## Kokkuvõte ja järgmised sammud
 
-### Täna õpisime: ✅
+### Täna õpisime:
 - Mida tähendab tarkvaraarendus vs programmeerimine
 - Kuidas defineerida ja analüüsida probleeme
 - Kasutajate uurimise meetodeid
 - Funktsionaalseid ja mitte-funktsionaalseid nõudeid
 - Konkurentsianalüüsi tähtsust
 
-### Järgmine seminar: **Planeerimine** 📋
+### Järgmine seminar: **Planeerimine**
 Kuidas probleemi ja uurimuste põhjal planeerida projekti ja organiseerida meeskonnatööd.
 
 ---
 
-## Küsimused? 🤔
+## Küsimused?
 
 **Tänan tähelepanu eest!** 
 
-📧 Küsimused: Discordis 
-📁 Materjalid: GitHub repositooriumis  
-📅 Järgmine seminar: [kuupäev]
+Küsimused: Discordis 
+Materjalid: GitHub repositooriumis  
+Järgmine seminar: 
