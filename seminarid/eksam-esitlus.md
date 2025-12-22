@@ -1,7 +1,8 @@
 # Eksam
 
 Eksam koosneb esitlusest ja testist.  
-Eksamile pääsemise eelduseks on osalemine grupitöödes ja seminarides.
+Eksami eelduseks osalemine vähemalt 70% seminaridest, osalemine grupitöös, kõikide kodutööde õigeagne täitmine.  
+
 
 ## Esitluse struktuur ja juhised
 

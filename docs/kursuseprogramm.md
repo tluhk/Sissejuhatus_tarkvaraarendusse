@@ -94,6 +94,8 @@ Sprint 3 dokumentatsiooni loomine (ülesannete jaotus, tehnilised otsused, daily
 
 ## **Eksam: Lõplik esitlus**
 
+Eksami eelduseks osalemine vähemalt 70% seminaridest, osalemine grupitöös, kõikide kodutööde õigeagne täitmine.  
+
 ### **Esitluse struktuur:**
 1. **Sissejuhatus** - meeskond ja projekt
 2. **Protsessi ülevaade** - kolme sprindi ülevaade
