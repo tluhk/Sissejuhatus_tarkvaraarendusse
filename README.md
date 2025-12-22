@@ -58,4 +58,4 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 
 ## Eksam
 
-- [Eksami kirjeldus](seminarid/eksam/)
+- [Eksami kirjeldus](seminarid/eksam-esitlus.md/)
