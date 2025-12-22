@@ -1,4 +1,4 @@
-# Kodutöö 5: Sprint 3 - Arendamine (Simuleerimine)
+# Kodutöö 5: Sprint 3 - arendamine (simuleerimine)
 
 **Kodutöö = Sprint 3 Issues täitmine**
 
