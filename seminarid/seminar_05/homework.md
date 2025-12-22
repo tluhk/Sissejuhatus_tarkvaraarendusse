@@ -1,4 +1,4 @@
-# Kodutöö 5: Sprint 3 - Arendamine (Simuleerimine)
+# Kodutöö 5: Sprint 3 - arendamine (simuleerimine)
 
 **Kodutöö = Sprint 3 Issues täitmine**
 
@@ -228,8 +228,6 @@ Mõlemal juhul peab kokku olema vähemalt 6-8 standup kirjet, et mõista meeskon
 - Iga algoritm peab sisaldama:
   - Kasutajateekond (kes, mida, miks?)
   - Pseudokood (lihtsas eesti keeles)
-  - Testjuhtumid (sisend → väljund)
-  - Edge case'id (mis võib minna valesti?)
 
 **Näited:**
 - Broneerimise loogika
@@ -247,6 +245,7 @@ Mõlemal juhul peab kokku olema vähemalt 6-8 standup kirjet, et mõista meeskon
 - Tehnoloogia stack (mis tööriistadega ehitataks)
 - Integratsioonid (API-d, kolmandad osapooled)
 
+<<<<<<< HEAD
 ---
 
 ### UX/UI Designer
@@ -284,4 +283,6 @@ LÕPP
 - Oodatavad tulemused
 - Kuidas tulemusi kasutataks järgmistes iteratsioonides
 
+=======
+>>>>>>> sketch-course
 ---
