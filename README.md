@@ -41,7 +41,7 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 - [Koodi kvaliteet](concepts/koodikvaliteet/README.md)
 - [Rollid tarkvaraarenduses](concepts/rollid/README.md)
 - [Dokumentatsioon](concepts/dokumentatsioon/README.md)
-- [Pull Request](concepts/pullrequest/README.md)
+- [Pull Request](concepts/pullRequest/README.md)
 - [Forkimine](concepts/fork/README.md)
 - [Mittefunktsionaalsed nõuded](concepts/mittefunktsionaalsednouded/README.md)
 - [Prototüüpimine](concepts/prototyypimine/README.md)
