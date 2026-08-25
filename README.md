@@ -32,7 +32,7 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 - [GitHub](concepts/github/README.md)
 - [.gitingore](concepts/gitignore/README.md)
 - [Markdown](concepts/markdown/README.md)
-- [Github Issues](concepts/githubissue/README.md)
+- [Github Issues](concepts/githubIssue/README.md)
 - [Persoonad](concepts/persoona/README.md)
 - [Stsenaarium](concepts/stsenaarium/README.md)
 - [Kasutajalood](concepts/kasutajalugu/README.md)
