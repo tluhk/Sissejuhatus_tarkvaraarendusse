@@ -4,7 +4,7 @@ Tegemist on Haapsalu kolledži Rakendusinformaatika õppekava kohustusliku õppe
 
 Repositooriumi struktuur saab olema vastavalt loengutele ja õppematerjalide läbitöötamine peaks toimuma vastavalt loengute järjekorrale.
 
-Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kulutaks liialt aega asjadele, mida kõik saavad eelnevalt kodus ise ära teha (kui kasutad loengutes oma arvutit). Tegevuste nimekiri on [siin](lessons/enne_loenguid.md).
+Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kulutaks liialt aega asjadele, mida kõik saavad eelnevalt kodus ise ära teha (kui kasutad loengutes oma arvutit). Tegevuste nimekiri on [siin](seminarid/enne_loenguid.md).
 
 ## Koduste tööde esitamine
 
@@ -51,7 +51,7 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 
 [Sissejuhatav seminar Marttiga](seminarid/sissejuhatus/README.md)  
 [Teine](seminarid/seminar_02/slides.md)  
-[Kolmas](seminarid/seminar_03/slides.md)    
+[Kolmas](seminarid/seminar_03/slides.md)  
 [Neljas](seminarid/seminar_04/slides.md)  
 [Viies](seminarid/seminar_05/slides.md)  
 [Pseudokoodi ideed ja näidised](seminarid/seminar_05/slides.md)
