@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "updated_at": "2026-08-28T00:00:00Z",
+  "semester_start": "2026-08-24",
+  "semester_end": "2027-01-24",
+  "semester_id": "26S",
+  "code": "HKI5113.HK",
+  "short_code": "SJT",
+  "title": "Sissejuhatus tarkvaraarendusse",
+  "goals": "Luua alused teadmiste ja oskuste kujunemiseks tarkvaraarenduse protsessidest, arendusmeetoditest ning kaasaegsetest töövahenditest. Anda baasteadmised tarkvaraarenduse headest tavadest, tarkvara jätkusuutlikkuse tagamisest (koodi kvaliteet, testimine, versioonihaldus) ja meeskonnatöös osalemisest, kasutades professionaalseid tööriistu nagu Git ja GitHub. Tutvustada tarkvaralitsentse, nende tüüpe ja rakendamist, arvestades õiguslikke ja eetilisi aspekte tarkvaraarenduses.\n\nÕppeaine lõppeesmärk on anda õppijatele kindel baas tarkvaraarenduse metoodikate ja tööriistade mõistmiseks ning rakendamiseks, valmistades neid ette nii teoreetilisteks kui ka praktilisteks väljakutseteks tarkvaraarenduse valdkonnas.",
+  "description": "Õppeaine annab tervikliku ülevaate tarkvaraarenduse alustest, hõlmates tarkvara olemust, erinevaid tarkvaratüüpe ning tarkvara arendusprotsesside ja metoodikate põhimõtteid. Kursus tutvustab funktsionaalsete ja mittefunktsionaalsete nõuete defineerimist, tarkvara litsentsimise tüüpe ning nende praktilist rakendamist tarkvaraprojektides. Õppijad omandavad teadmised tarkvara arendusprotsessidest ja nende etappidest, sealhulgas SDLC (Software Development Life Cycle) ning agiilsete meetodite eelistest ja kasutusvõimalustest.\n\nErilist rõhku pannakse tarkvara arhitektuuri põhimõtete mõistmisele ning arendusmeeskonna rollide ja ülesannete analüüsimisele. Kursus arendab praktilisi oskusi versioonihalduse tööriistade, nagu Git ja GitHub, kasutamisel meeskonnatöös (nt pull request'id, koodi ülevaatused, harude haldamine ja projektihaldus). Lisaks käsitletakse heade arendustavade järgimist, sealhulgas koodi dokumenteerimist, kvaliteedi tagamise meetodeid ja tööriistu. Kursuse käigus tutvutakse ajahalduse põhimõtetega, et arendada tõhusust tarkvaraarenduse protsessides.",
+  "credits": 6,
+  "assessment_form": "exam",
+  "work_context": {
+    "type": "subject_resource"
+  },
+  "learning_outcomes": [
+    {
+      "code": "HKI5113.1",
+      "description": "Selgitab tarkvara olemust, erinevaid tarkvaratüüpe ja arhitektuuri ning tarkvara arendusprotsesside ja metoodikate (sh SDLC ja agiilsed meetodid) põhimõtteid ja eeliseid."
+    },
+    {
+      "code": "HKI5113.2",
+      "description": "Kirjeldab tarkvara litsentsimise tüüpe, nende rakendusvõimalusi ja mõju tarkvaraprojektidele."
+    },
+    {
+      "code": "HKI5113.3",
+      "description": "Kasutab versioonihalduse tööriistu, nagu Git ja GitHub, meeskonnatööks, arvestades tarkvaraarenduse häid tavasid."
+    },
+    {
+      "code": "HKI5113.4",
+      "description": "Rakendab koodi kvaliteedi ja jätkusuutlikkuse tagamiseks häid arendustavasid, sealhulgas dokumenteerimist ja koodi ülevaatust."
+    },
+    {
+      "code": "HKI5113.5",
+      "description": "Planeerib ja juhib oma töövoogu efektiivselt, rakendades ajahalduse põhimõtteid."
+    }
+  ],
+  "prerequisites": [],
+  "vcs_use": "mandatory"
+}
