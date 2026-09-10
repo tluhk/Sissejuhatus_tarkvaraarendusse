@@ -14,7 +14,42 @@ Probleem → uurimine → nõuded → planeerimine
    → avaldamine → hooldus ja tagasiside
 ```
 
-Kursuse jooksul läbime selle teekonna ühe projekti kaudu.
+Seminaris 2 alustame üht läbivat meeskonnaprojekti teie leitud probleemi põhjal.
+
+Tulemus on dokumenteeritud arendusprotsess. Töötav rakendus ei ole nõutav.
+
+---
+
+## Viis seminari ja lõpuesitlus
+
+1. Suur pilt ja töövahendid
+2. Probleemi leidmine ja kerge valideerimine
+3. Meeskond, tööviis ja süsteemi kontseptsioon
+4. Kvaliteet, riskid ja vastutus
+5. Kasutuselevõtt, käitus ja areng
+
+Eksam: dokumenteeritud protsessi esitlus release'ide ajajoonena.
+
+---
+
+## Otsuste logi näitab mõtlemist
+
+- mida valisime ja miks;
+- milliseid alternatiive kaalusime;
+- milline tõend meie arusaama muutis;
+- millised kompromissid ja küsimused jäid alles.
+
+AI kasutamisel selgitame selle kasu ja väljundi kontrollimist.
+
+---
+
+## Projekt kasvab versioonide kaupa
+
+Seminaride 2–5 kodutöö lõpeb GitHub Release'iga: avaldatud versioon fikseerib dokumentatsiooni hetkeseisu.
+
+Iga õppija panustab, vaatab üle kaaslase töö ja kirjutab refleksiooni. Rollid vahetuvad.
+
+Kodutöö maht on umbes 8 tundi õppija kohta.
 
 ---
 

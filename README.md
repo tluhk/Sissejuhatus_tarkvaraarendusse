@@ -30,9 +30,9 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 - [Tarkvaraarenduse elutsükkel (SDLC)](concepts/SDLC/README.md)
 - [Git](concepts/git/README.md)
 - [GitHub](concepts/github/README.md)
-- [.gitingore](concepts/gitignore/README.md)
+- [.gitignore](concepts/gitignore/README.md)
 - [Markdown](concepts/markdown/README.md)
-- [Github Issues](concepts/githubIssue/README.md)
+- [GitHub Issues](concepts/githubIssue/README.md)
 - [Persoonad](concepts/persoona/README.md)
 - [Stsenaarium](concepts/stsenaarium/README.md)
 - [Kasutajalood](concepts/kasutajalugu/README.md)
@@ -49,13 +49,16 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 
 ## Seminarid
 
-[Sissejuhatav seminar Marttiga](seminarid/sissejuhatus/README.md)  
-[Teine](seminarid/seminar_02/slides.md)  
-[Kolmas](seminarid/seminar_03/slides.md)  
-[Neljas](seminarid/seminar_04/slides.md)  
-[Viies](seminarid/seminar_05/slides.md)  
-[Pseudokoodi ideed ja näidised](seminarid/seminar_05/slides.md)
+| Seminar | Materjal | Slaidid | Kodutöö ja release |
+|---|---|---|---|
+| 1. Suur pilt ja töövahendid | [Materjal](seminarid/seminar_01/seminar.md) | [HTML](seminarid/seminar_01/slides.html) | [Kodutöö 1](seminarid/seminar_01/homework.md) |
+| 2. Probleemi leidmine | [Materjal](seminarid/seminar_02/seminar.md) | [HTML](seminarid/seminar_02/slides.html) | [Kodutöö 2 – `v0.1.0`](seminarid/seminar_02/homework.md) |
+| 3. Meeskond, tööviis ja süsteemi põhimõte | [Materjal](seminarid/seminar_03/seminar.md) | [HTML](seminarid/seminar_03/slides.html) | [Kodutöö 3 – `v0.2.0`](seminarid/seminar_03/homework.md) |
+| 4. Kvaliteet, riskid ja vastutus | [Materjal](seminarid/seminar_04/seminar.md) | [HTML](seminarid/seminar_04/slides.html) | [Kodutöö 4 – `v0.3.0`](seminarid/seminar_04/homework.md) |
+| 5. Kasutuselevõtt, käitus ja areng | [Materjal](seminarid/seminar_05/seminar.md) | [HTML](seminarid/seminar_05/slides.html) | [Kodutöö 5 – `v0.4.0`](seminarid/seminar_05/homework.md) |
+
+[Ühised otsuse, release'i, refleksiooni ja pull request'i mallid](seminarid/mallid/README.md)
 
 ## Eksam
 
-- [Eksami kirjeldus](seminarid/eksam-esitlus.md/)
+- [Dokumenteeritud protsessi esitlus ja release `v1.0.0`](seminarid/eksam-esitlus.md)

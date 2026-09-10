@@ -115,7 +115,7 @@ Tüüpiline töövoog:
 3. tee muudatus ja push enda forki;
 4. paku muudatust algsele repositooriumile pull request'iga.
 
-Esimeses seminaris piisab erinevuse mõistmisest. Forki kasutame praktiliselt hiljem.
+Kursuse meeskonnaprojektis kloonime ühise repo ja töötame selle harudes. Forki puhul piisab erinevuse mõistmisest.
 
 ---
 

@@ -122,6 +122,17 @@ Iga õppija teeb vähemalt ühe sisulise commit'i, avab pull request'i ja vaatab
 
 ### Esimene meeskonnatöövoog VS Code'is
 
+Esimese seminari terminalitöövoo kinnistamiseks tee muudatus VS Code'is ja Giti sammud selle terminalis. **Haru** võimaldab enda muudatust eraldi arendada. **Pull request (PR)** on palve see üle vaadata ja peaharusse ühendada (*merge*).
+
+1. Ava meeskonnarepo kohalik kaust. Kontrolli `pwd` ja `git status` abil asukohta ja hetkeseisu.
+2. Ava enda Issue. Loo selle jaoks haru, näiteks `git switch -c 3-probleemi-kirjeldus`.
+3. Muuda kokkulepitud faili ning salvesta. Käivita `git status`, vali fail käsuga `git add faili/tegelik-nimi.md` ja vaata valik üle käsuga `git diff --cached`. Asenda näidistee enda faili teega.
+4. Tee commit, näiteks `git commit -m "Describe problem candidates"`.
+5. Saada uus haru käsuga `git push -u origin 3-probleemi-kirjeldus`. Kasuta enda haru nime.
+6. Ava GitHubis selle haru PR. Lisa Issue viide ja ülevaataja. Ülevaataja kommenteerib sisu; autor parandab vajaduse korral tööd enne ühendamist.
+
+### Graafiline alternatiiv
+
 1. Klooni meeskonna repo käsuga **Git: Clone**.
 2. Ava enda GitHub Issue ja võta see enda vastutusele.
 3. Vali VS Code'i allservas haru nimi ning loo haru `issue-number-luhikirjeldus`.
@@ -134,6 +145,23 @@ Iga õppija teeb vähemalt ühe sisulise commit'i, avab pull request'i ja vaatab
 10. Pärast vajalikku parandust ühendatakse PR peaharusse.
 
 Kui samm ei tööta, ärge tehke sama faili muudatusi peaharus. Tehke tõrkest kuvatõmmis või kopeerige veateade Issue kommentaari ja küsige abi.
+
+### Kaaslase muudatuste toomine: pull
+
+Pärast PR-i ühendamist on GitHubi peaharu uuenenud, kuid kohalik koopia vajab värskendamist. Kontrolli esmalt `git status` abil, et pooleliolevaid muudatusi pole ja enda töö on commit'itud ning push'itud. Seejärel:
+
+```bash
+git switch main
+git pull --ff-only
+```
+
+Kui repo peaharu on `master`, kasuta esimeses käsus seda nime. `pull` toob kaugmuudatused kohalikku harusse; `--ff-only` peatub, kui ajalood on lahknenud. Veateate korral küsi abi. Kontrolli failist, et kaaslase muudatus on nüüd ka sinu arvutis. Järgmise ülesande haru loo uuendatud peaharust.
+
+### Esimene release
+
+**Tag** märgib kindla commit'i ehk ajaloo punkti. **GitHub Release** lisab sellele avaldatud versiooni pealkirja ja kirjelduse. **Release notes** selgitab, mis muutus, mida kontrolliti ja mis jäi lahtiseks.
+
+Kui vajalikud PR-id, sealhulgas `releases/v0.1.0.md`, on ühendatud, ava repo **Releases → Draft a new release**. Loo uus tag `v0.1.0`, kontrolli sihiks õiget peaharu ja commit'i, lisa pealkiri `Probleem sõnastatud` ning release notes'i sisu või link. Avalda release ja kontrolli selle failides otsuse ning refleksioonide olemasolu. See fikseerib dokumentatsiooni hetkeseisu, mitte valmis rakenduse.
 
 ## Seminari praktiline töö
 

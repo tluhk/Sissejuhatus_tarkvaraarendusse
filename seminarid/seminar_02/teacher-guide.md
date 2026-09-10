@@ -2,6 +2,8 @@
 
 ## Enne seminari
 
+- Vaata esimese kodutöö Issue kommentaaridest üle kloonimise, commit'i ja push'i takistused. Paku neile sihitud abi; ära eelda salvestuse põhjal, et kõik said kogu töövoo iseseisvalt tehtud.
+
 - Loo organisatsiooni `TLUHK-RIF26` meeskonnarepositooriumid.
 - Anna kõigile liikmetele vajalik ligipääs.
 - Lisa repodesse või jaga lingina kursuse mallid.
@@ -22,7 +24,7 @@
 
 | Tegevus | Aeg |
 |---|---:|
-| Eelmise seminari kontroll ja päeva eesmärk | 10 min |
+| Uue projekti töökorraldus ja päeva probleemiküsimus | 10 min |
 | Probleem ja lahendusidee | 20 min |
 | Probleemide leidmine | 20 min |
 | GOV.UK discovery juhtum | 15 min |
@@ -34,10 +36,10 @@
 | Tegevus | Aeg |
 |---|---:|
 | Meeskonnad, ligipääs ja repo kloonimine | 20 min |
-| Kandidaatide võrdlus | 15 min |
-| Valik ja esimene otsus | 15 min |
+| Kandidaatide võrdlus | 10 min |
+| Valik ja esimene otsus | 10 min |
 | Kerge valideerimise kava | 10 min |
-| Issue, haru, PR ja ülevaatuse proov | 20 min |
+| Issue, haru, commit, PR, ülevaatus ja pull | 30 min |
 | Kodutöö, refleksioon ja release | 10 min |
 
 Kui tehniline seadistus võtab kauem:
@@ -48,6 +50,18 @@ Kui tehniline seadistus võtab kauem:
 4. ära kiirusta pull request'i ühendamist ilma ülevaatuseta.
 
 Õppijad kloonivad kõik sama meeskonnarepo. Selles töövoos fork'i ei tehta. Näita esimene haru ja PR projektoril ning lase igal õppijal enda harus vähemalt proovimuudatus push'ida.
+
+## Esimese seminari järel: oskused töö sees
+
+Alusta probleemide leidmise teemaga. Esimese kümne minuti sees kuluta kuni viis minutit uue projekti tulemusele: otsuste logi, rollivahetus, refleksioonid ja release'id. Ära tee eraldi esimest seminari kordavat loenguosa.
+
+- Probleemikandidaatide kirjapanekul meenuta Markdowni pealkirju, loendeid ja linke. Lase õppijatel samal ajal kandidaate esialgselt võrrelda.
+- Repo avamisel kontrolli õiget kausta ja repot. Esimeses seminaris kulus just sellele palju abi.
+- Esimese otsuse salvestamisel korda `git status → git add → git diff --cached → git commit → git push`. Peamine kordus järgib tunnis kasutatud terminalitöövoogu; Source Control sobib tuttava alternatiivina.
+- Pärast kaaslase PR-i ühendamist näita, miks kohalik koopia vajab `pull`-i. Harjuta seda puhta töökaustaga peaharus.
+- Viimases kümnes minutis näita tag'i, GitHub Release'i ja release notes'i erinevust ning esimese release'i loomist. Kodutöös korratakse sama protsessi.
+
+Node.js, npm, Docker, GitHub CLI ja SSH ei ole selle seminari eeldused. Arendusmeetodite kordus sobib seminari 3 tööviisi valiku juurde; käituskeskkonnad tulevad tagasi vajaduse tekkimisel. Kui tehniline abi võtab puhvrist kauem, vähenda juhtumi ühise arutelu aega, säilitades probleemivaliku ning iga õppija koostööharjutuse.
 
 ## Aruteluküsimused
 

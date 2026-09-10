@@ -25,6 +25,7 @@ Kehtiva aineinfo esmane masinloetav allikas on `metadata/data.json`. Kui see lä
 - `course-draft-v2.md` on kursuse kavand, mitte automaatselt kehtiv kursuseprogramm.
 - `slides.md` on slaidide muudetav lähtefail. `slides.html` on sellest genereeritud väljund.
 - Seminari 1 peatükkide slaidide lähtefailid asuvad `seminarid/seminar_01/slaidid/` kaustas. HTML-esitlus genereeritakse käsuga `seminarid/seminar_01/export-slides.sh`; genereeritud `slides.html` faili ei muudeta käsitsi.
+- Seminaride 2–5 Marp-lähtefailid on vastava seminari `slides.md` failid. Kõik nende HTML-esitlused genereeritakse käsuga `seminarid/export-marp.sh`; ühe seminari saab eksportida, andes skriptile selle kausta argumendina.
 - `.bak`-failid on varukoopiad ega ole aktiivsed õppematerjalid.
 
 ## Töökorraldus
@@ -85,6 +86,24 @@ Slaidide, kodutöö, õpetaja juhendi, failinimede, tähtaegade ja hindamiskrite
 - Node.js-i, Dockerit ja arenduskeskkondi tutvustatakse esmalt tervikpildi tasandil. Enne paigaldamist või praktilist kasutamist peab olema selge, milleks tööriista kursusel vaja läheb.
 - Võimaluse korral säilitatakse olemasolevate esimese seminari materjalide loogiline järjekord, kuid puuduvaid vaheastmeid ei jäeta lisamata.
 
+## Kursuse aktiivne ülesehitus
+
+- Kursuse aktiivne õppijale suunatud ülevaade asub failis `docs/kursuseprogramm.md`. Ümberkujundamise põhjendatud lähteplaan asub failis `docs/kursuse-umberkujunduse-kava.md`.
+- Esimene seminar jääb sissejuhatuseks ja töövahendite seadistamiseks. Meeskonnad ning läbiv projekt algavad seminaris 2.
+- Kursuse keskne tulemus on tarkvaraarenduse suure pildi mõistmine, mitte teiste erialaainete detailse sisu kordamine.
+- Seminarid 2–5 kasutavad üht läbivat meeskonnaprojekti, mille keskne artefakt on põhjendatud otsuste logi.
+- Meeskonnaprojektide repositooriumid asuvad ühises `TLUHK-RIF26` organisatsioonis. Igal meeskonnal on üks repo ning iga õppija panustab haru, commit'ide, pull request'i ja ülevaatuse kaudu.
+- Release manageri vastutus vahetub projektiseminaride vahel.
+- Rollid kasutavad päris ametinimetusi ja vahetuvad, et õppija kogeks erinevaid professionaalseid vaatenurki.
+- Seminarid 2–5 lõppevad kodutööna GitHub Release'iga. Release võib sisaldada lahtisi küsimusi, kui hetkeseis ja järgmised sammud on selgelt dokumenteeritud.
+- Iga õppija kirjutab pärast iga projektiseminari individuaalse refleksiooni.
+- AI kasutamine on lubatud ja vähemalt ühe olulise otsuse juures kohustuslik. Hinnatakse eesmärki, kontrollimist ja tegelikku kasu, mitte genereeritud materjali hulka.
+- Eksam on release'ide ajajoont järgiv dokumenteeritud protsessi esitlus. Iga õppija esitleb vähemalt ühte olulist release'i või otsust.
+- Hindamise keskmes on arusaamine ja põhjendamine. Dokumentide arv, tehniline keerukus ega visuaalne viimistlus ei asenda sisulist mõistmist.
+- Figma ja klikitav prototüüp ei ole aktiivse kursuse nõuded. Figma mainimine vanemates üldmaterjalides võib alles jääda.
+- Esimese seminari tegelik praktiline Giti töövoog oli terminalipõhine. Esimene kodutöö kinnistab seda; graafiline töövoog jääb alternatiiviks. Node.js-i ja npm-i paigaldamine ei ole esimese kodutöö ega seminari 2 eeldus.
+- Seminar 2 algab probleemide leidmisega. Esimesest seminarist kinnistamist vajavad oskused lisatakse projektitöö sisse: Markdown, muudatuste kontroll, commit ja push; seejärel pull ning tag ja release.
+
 ## Failide ja mõistete vormistus
 
 - Markdown-failides kasutatakse selget pealkirjahierarhiat.
@@ -107,7 +126,6 @@ Slaidide, kodutöö, õpetaja juhendi, failinimede, tähtaegade ja hindamiskrite
 ## Praegu teadaolevad lahtised küsimused
 
 - Esimese seminari 2026. aasta täpne ajakava ja praktilised kontrollpunktid tuleb veel kokku leppida.
-- Tuleb otsustada, kas projektirühmad ja ühine projektirepositoorium luuakse esimeses või teises seminaris.
-- Tuleb kinnitada 2026. aasta GitHubi organisatsiooni nimi.
+- Projektirühmad ja ühine meeskonnarepositoorium luuakse teises seminaris organisatsioonis `TLUHK-RIF26`. Repositooriumide lõplik nimetamise reegel tuleb veel otsustada.
 - Vanemates failides leiduvad 4 EAP, aine kood `HKI5086.HK`, `RIF25` ja märge „juba toimunud” ei ole vaikimisi kehtiv info.
-- Aktiivsete ja arhiveeritavate kursusekavandite staatus tuleb veel täpsustada.
+- `course-draft-v2.md` on arhiivimärkega varasem kavand; aktiivne kursuseprogramm on `docs/kursuseprogramm.md`.

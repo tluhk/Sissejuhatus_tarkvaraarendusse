@@ -56,7 +56,7 @@ Esimeses osas liigume üldisemalt konkreetsemale: kõigepealt selgitame, mis on 
 
 ### Mida kursusel teeme?
 
-Kursuse jooksul läbime tarkvaraarenduse teekonna ühe projekti kaudu:
+Seminaris 2 alustame meeskondades üht läbivat projekti, mille probleem tuleb teie enda tähelepanekutest. Kursuse jooksul uurime tarkvaraarenduse tervikut:
 
 ```text
 Probleem
@@ -76,7 +76,24 @@ Testimine ja tagasiside
 Avaldamine ja hooldus
 ```
 
-Kursuse läbiv praktiline töö toimub GitHubis. Kasutame GitHubi nii failide hoidmiseks, muudatuste jälgimiseks, ülesannete planeerimiseks kui ka koostööks.
+Projekti tulemus on dokumenteeritud arendusprotsess. Selle keskmes on otsuste logi: mida valisime, milliseid alternatiive kaalusime, miks nii otsustasime ja kuidas uus info meie arusaama muutis. Süsteemi põhimõtet selgitame kirjelduse või vajaduse korral skeemiga. Töötav rakendus ja klikitav prototüüp ei ole nõutavad.
+
+Kursus koosneb viiest seminarist ja lõpuesitlusest:
+
+- seminar 1: suur pilt ja töövahendite seadistamine;
+- seminar 2: probleemi leidmine ja kerge valideerimine;
+- seminar 3: rollid, tööviisi valik ja süsteemi kontseptsioon;
+- seminar 4: kvaliteet, riskid ja vastutus;
+- seminar 5: kasutuselevõtt, tagasiside ja hooldus;
+- eksam: dokumenteeritud protsessi esitlus release'ide ajajoonena.
+
+Kursuse läbiv praktiline töö toimub GitHubis. Seminarist 2 kasutab iga meeskond üht ühist repositooriumi. Iga õppija teeb muudatusi enda harus ja vaatab üle kaaslase töö. Ametialased rollid vahetuvad ning iga projektiseminari järel kirjutab iga õppija refleksiooni.
+
+Projektiseminaride kodutöö lõpeb GitHub Release'iga ehk avaldatud versiooniga, mis fikseerib dokumentatsiooni hetkeseisu ja olulised muutused. Kodutöö arvestuslik maht on umbes 8 tundi õppija kohta. Esimese seminari kodutöö on individuaalne; release'ide tegemist alustame meeskonnaprojektiga.
+
+AI-d kasutame vähemalt ühe olulise otsuse juures ning selgitame selle kasu ja väljundi kontrollimist. Hindamisel on keskmes arusaamine ja põhjendamine.
+
+Täpsemad teemad ja kodutööd leiad [kursuseprogrammist](../../docs/kursuseprogramm.md).
 
 ### Aruteluküsimus
 
@@ -344,8 +361,9 @@ Vajalikud töövahendid:
 
 1. [Git](https://git-scm.com/downloads)
 2. [Visual Studio Code](https://code.visualstudio.com/)
-3. [Node.js](https://nodejs.org/)
-4. GitHubi kasutajakonto
+3. GitHubi kasutajakonto
+
+Node.js-i ja npm-i paigaldamine on praegu valikuline. Esimese kodutöö ja teise seminari jaoks piisab Gitist, redaktorist, terminalist ning GitHubi ligipääsust.
 
 [GitHub CLI](https://cli.github.com/) on kasulik valikuline lisatööriist. GitHub Desktop on lubatud graafiline alternatiiv, kuid kursusel kasutame põhilise Giti kasutajaliidesena VS Code'i.
 
@@ -518,7 +536,7 @@ npm --version
 
 ### Kontrollpunkt
 
-Töövahendid on valmis, kui terminal näitab Giti, Node.js-i ja npm-i versiooninumbreid.
+Selle etapi kontrollpunkt: terminal näitab Giti versiooni ning oskad kontrollida enda töökataloogi. Node.js-i, npm-i ja GitHub CLI versioonikäsud on valikulised.
 
 ## 10. Git ja GitHub
 
@@ -580,7 +598,7 @@ Tavaliselt luuakse esmalt GitHubis fork ja seejärel kloonitakse enda fork arvut
 algne GitHubi repo → sinu GitHubi fork → clone → sinu arvuti
 ```
 
-Forki kasutatakse sageli siis, kui kasutajal pole õigust algsesse repositooriumisse otse kirjutada. Muudatus tehakse enda forkis ja pakutakse algsele repositooriumile pull request'iga. Esimeses seminaris piisab selle töövoo mõistmisest, praktiliselt kasutame seda hiljem.
+Forki kasutatakse sageli siis, kui kasutajal pole õigust algsesse repositooriumisse otse kirjutada. Muudatus tehakse enda forkis ja pakutakse algsele repositooriumile pull request'iga. Kursuse meeskonnaprojektis kloonime ühise repositooriumi ja töötame selle harudes. Forki puhul piisab töövoo mõistmisest.
 
 ### HTTPS ja SSH
 
@@ -801,7 +819,7 @@ Node.js-iga paigaldatakse tavaliselt ka **npm** (*Node Package Manager*). npm ai
 - käivitada projektis kirjeldatud käske;
 - hoida projekti seadistust failis `package.json`.
 
-Esimeses seminaris kontrollime ainult, et Node.js ja npm oleksid olemas. Hiljem hakkame neid projekti käivitamiseks kasutama.
+Esimeses seminaris tutvume Node.js-i ja npm-i rolliga arenduskeskkonnas. Nende paigaldamine ja versioonide kontrollimine on valikuline. Need töövahendid võivad vajalikuks osutuda valikulise demo juures ja järgmistes erialaainetes.
 
 ### Docker
 
@@ -821,7 +839,6 @@ Selle kursuse algne arenduskeskkond koosneb vähemalt järgmistest osadest:
 - VS Code'i integreeritud terminal;
 - Git;
 - GitHubi konto ja repositooriumid;
-- Node.js ja npm;
 - projektide jaoks korrastatud kaust arvutis.
 
 ## 14. Seminari lõpu kontroll
@@ -834,8 +851,6 @@ Enne seminari lõppu kontrolli:
 - [ ] Windowsis on terminaliprofiiliks valitud Git Bash.
 - [ ] `git --version` näitab Giti versiooni.
 - [ ] Kui paigaldasin GitHub CLI, siis `gh auth status` näitab õiget kontot.
-- [ ] `node --version` näitab Node.js-i versiooni.
-- [ ] `npm --version` näitab npm-i versiooni.
 - [ ] Olen GitHubi repositooriumi oma arvutisse klooninud.
 - [ ] Olen muutnud `README.md` faili.
 - [ ] Olen teinud commit'i ja push'i.
@@ -853,6 +868,8 @@ See kirjeldus aitab probleemi järgmises tunnis või iseseisvalt lahendada.
 ## 15. Kodutöö
 
 Kodutöös dokumenteerib õppija oma arenduskeskkonna olemasolevas `SJTA` repositooriumis, vaatab muudatuse üle ning teeb commit'i ja push'i.
+
+Toimunud seminari järel kinnistab kodutöö terminalis näidatud töövoogu, lisab lühikese käsuspikri ja eristab faili salvestamist, commit'i ning push'i. Node.js ja npm ei ole kohustuslikud. Tehniline takistus kirjeldatakse ülesande Issue kommentaaris.
 
 [Kodutöö 1: minu arenduskeskkond](homework.md)
 

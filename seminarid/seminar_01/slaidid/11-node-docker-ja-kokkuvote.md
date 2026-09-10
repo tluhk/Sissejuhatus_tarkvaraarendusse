@@ -96,10 +96,10 @@ VS Code
 ├── Source Control → Git
 ├── GitHub → kaug-repositoorium ja koostöö
 └── terminal
-    └── Node.js ja npm
+    └── Git ja kaustades liikumine
 ```
 
-Docker lisandub siis, kui projekt vajab korratavat konteinerkeskkonda.
+Node.js, npm ja Docker lisanduvad vajaduse tekkimisel. Praegu on nende paigaldamine valikuline.
 
 ---
 
@@ -108,7 +108,7 @@ Docker lisandub siis, kui projekt vajab korratavat konteinerkeskkonda.
 - [ ] GitHubi konto avaneb.
 - [ ] VS Code ja terminal töötavad.
 - [ ] Windowsis on valitud Git Bash.
-- [ ] Git, Node.js ja npm näitavad versiooni.
+- [ ] Git näitab versiooni ja oskan kontrollida töökataloogi.
 - [ ] Repo on arvutisse kloonitud.
 - [ ] README muudatus on commit'itud ja GitHubi push'itud.
 
@@ -149,21 +149,24 @@ Kirjelda selles oma arvutit, töövahendeid ja õpitut.
 ## Mida fail peab sisaldama?
 
 - operatsioonisüsteem, redaktor ja terminal;
-- `git`, `node` ja `npm` versioonid;
+- Giti versioon;
 - töövahendite rollide tabel;
-- 3–5-lauseline refleksioon;
+- seitsme käsu terminalispikker;
+- 5–8-lauseline refleksioon, sh salvestamise, commit'i ja push'i erinevus;
 - selgitus, miks tarkvaraarendus pole ainult koodimine.
 
-Dockerit ei pea paigaldama.
+Node.js-i, npm-i, Dockerit ja GitHub CLI-d ei pea paigaldama.
 
 ---
 
 ## Salvesta ja esita
 
-1. Vaata muudatus **Source Controlis** üle.
-2. Tee commit `Lisa esimese seminari kodutöö`.
-3. Tee push.
+1. Salvesta fail ja kontrolli `git status` abil hetkeseisu.
+2. Vali fail `git add` abil ning vaata üle `git diff --cached`.
+3. Tee commit `Add development environment notes` ja push.
 4. Kontrolli faili GitHubis.
 5. Lisa ülesande issue kommentaari link valmis failile.
 
 Täielik juhend: `seminarid/seminar_01/homework.md`
+
+Takistuse korral lisa Issue kommentaari samm, veateade ja juba proovitud lahendused.

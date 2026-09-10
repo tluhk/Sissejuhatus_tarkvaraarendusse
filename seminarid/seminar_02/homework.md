@@ -66,6 +66,8 @@ Iga õppija:
 
 Kasutage [pull request'i kontrollnimekirja](../mallid/pull-request.md).
 
+Järgige [seminari terminalitöövoogu](seminar.md#esimene-meeskonnatöövoog-vs-codeis). Pärast kaaslase PR-i ühendamist harjutab iga õppija ka uuendatud peaharu toomist oma arvutisse [pull-juhise järgi](seminar.md#kaaslase-muudatuste-toomine-pull).
+
 ### 6. Refleksioon ja release, umbes 1 tund
 
 Iga õppija lisab faili `reflections/oppija-nimi-v0.1.0.md`.
@@ -77,6 +79,8 @@ Vahetuv release manager:
 3. loob tag'i `v0.1.0`;
 4. avaldab GitHub Release'i pealkirjaga `Probleem sõnastatud`;
 5. lisab release'i kirjeldusse lingi `releases/v0.1.0.md` failile.
+
+Kasuta seminaris näidatud [esimese release'i juhist](seminar.md#esimene-release).
 
 ## AI kasutamine
 

@@ -52,9 +52,9 @@ Kui valik puudub, kontrolli Giti paigaldust ja taaskäivita VS Code.
 pwd
 ls
 git --version
-node --version
-npm --version
 ```
+
+Node.js-i, npm-i ja GitHub CLI kontroll on valikuline; nende puudumine ei takista kodutööd.
 
 `pwd` näitab asukohta ja `ls` aktiivse kausta sisu.
 

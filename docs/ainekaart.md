@@ -1,6 +1,6 @@
 # Sissejuhatus tarkvaraarendusse
 
-| Õppeaine kood: | HKI5086.HK |
+| Õppeaine kood: | HKI5113.HK |
 |---|---|
 |Õppeaine nimetus eesti k: | Sissejuhatus tarkvaraarendusse |
 | Õppeaine nimetus inglise k: | Introduction to Software Engineering |
@@ -35,5 +35,9 @@ Luua eeldused teadmiste kujunemiseks tarkvaraarenduse protsessist ja arendusmeet
 ## Hindamine
 
 - Eksam
-  - 70% punktidest kodused tööd ja esitlus
-  - 30% punktidest kohapeal tehtav avatud ja valikvastustega test
+  - 40% meeskonna otsuste logi ja release'ide sisuline areng
+  - 25% individuaalsed refleksioonid ja rollide mõistmine
+  - 15% Giti ja GitHubi läbipaistev koostöövoog
+  - 20% lõpuesitlus ja küsimustele vastamine
+
+Hindamise keskmes on arusaamine, põhjendamine ja uue info põhjal õppimine. Valmis rakendus ei ole nõutav.

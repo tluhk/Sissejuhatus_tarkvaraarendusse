@@ -1,119 +1,113 @@
-## **Sissejuhatav seminar**
+# Kursuseprogramm
 
-### **Teemad:**
-- Sissejuhatus kursusesse
-- Git ja GitHub põhitõed
-- Markdown
+Kursus annab suure pildi tarkvaraarendusest kui probleemist lähtuvast, meeskondlikust ja kogu elutsüklit hõlmavast protsessist. Seminarides 2–5 arendab iga meeskond üht läbivat projekti ning talletab olulised valikud otsuste logis ja GitHub Releases'ides.
 
-### **Materjalid:**
+## Seminar 1: suur pilt ja töövahendid
+
+### Teemad
+
+- mis on tarkvara ja tarkvaraarendus;
+- tarkvaraarenduse elutsükkel ja AI mõju;
+- IDE, VS Code, terminal ja käsukest;
+- Git, GitHub, GitHub CLI, Markdown;
+- Node.js, Docker ja arenduskeskkonna mõiste;
+- esimene commit ja push.
+
+### Materjalid
+
 - [Seminari materjal](../seminarid/seminar_01/seminar.md)
-- [Slaidid](../seminarid/seminar_01/slides.html)
-- [Seminari 1. poole salvestus](https://hktluee-my.sharepoint.com/:v:/g/personal/mrt_hk_tlu_ee/EYp6Ym2k7nVKnXMMZ1FG8nwBKYJyA0ewqVmRT5F8gyU6NA?e=9915fe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-- [Seminari 2. poole salvestus](https://hktluee-my.sharepoint.com/:v:/g/personal/mrt_hk_tlu_ee/EZio-byM-qBEp4Y_iUEwq6EBPdSxe4tU2qz1UG0-YKJiEw?e=WXwLvu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- [HTML-slaidid](../seminarid/seminar_01/slides.html)
+- [Kodutöö 1: minu arenduskeskkond](../seminarid/seminar_01/homework.md)
 
-### **Kodutöö:**
-[Kodutöö 1: minu arenduskeskkond](../seminarid/seminar_01/homework.md)
+Toimunud seminari järel kinnistab kodutöö terminalis `add → commit → push` töövoogu ja sisaldab lühikest käsuspikrit. Node.js, npm, Docker ning GitHub CLI on valikulised. Pooleli jäänud sammust antakse teada ülesande Issue kommentaaris.
 
-## **Seminar 2: Uurimine**
+## Seminar 2: probleemi leidmine
 
-### **Teemad:**
-- Mis on tarkvaraarendus ja tarkvaraarenduse elutsükkel
-- Tarkvaraarendus vs programmeerimine
-- Probleemi defineerimine ja analüüs
-- Kasutajate uurimise meetodid (intervjuud, vaatlused, küsitlused)
-- Funktsionaalsed vs mitte-funktsionaalsed nõuded
-- Nõuete kogumine ja dokumenteerimine
-- Konkurentsianalüüs ja turu-uuringud
-- Dokumenteerimise head tavad
+### Põhiküsimus
 
-### **Materjalid:**
-- [Slaidid](../seminarid/seminar_02/slides.md)
-- [Seminari salvestus I](https://youtu.be/j7WDoi3zYuY?si=R3-i_pIy9-fsB0id)
-- [Seminari salvestus II](https://youtu.be/cRsbK6CNAMA?si=xu_kZyCTdBwmopVa)
+> Kas tegeleme päris ja olulise probleemiga?
 
-### **Kodutöö:**
-[Teise koduse töö kirjeldus](../seminarid/seminar_02/homework_02.md)
+Meeskonnad alustavad ühist projekti organisatsiooni `TLUHK-RIF26` repos. Õppijad eristavad probleemi lahendusest, leiavad probleemikandidaate, teevad kerge valideerimise ja põhjendavad valikut.
 
-## **Seminar 3: Sprint 1 - Planeerimine**
+Alustame plaanitud probleemiteemaga. Markdowni, muudatuste kontrolli ja Giti põhiringi kinnistame projektitöö sees; kaaslase PR-i ühendamise järel harjutame `pull`-i ning kodutöö eel esimese release'i loomist.
 
-### **Teemad:**
-- Arendusmetoodikad: Waterfall, Agile, Scrum, Kanban
-- Rollid tarkvaraarenduses: Product Owner, Project Manager, Developer, UX/UI Designer
-- Scrum raamistik ja sündmused: Sprint Planning, Daily Scrum, Sprint Review, Retrospective
-- Meeskonnatöö põhimõtted ja kommunikatsioon
-- Backlog management: Epic-ute jagamine, Story points, MoSCoW prioritiseerimine
-- GitHub Projects seadistamine ja kasutamine
-- Sprint 1 planeerimine ja käivitamine
-- Daily Standup protokoll
+### Materjalid
 
-### **Materjalid:**
-- [Slaidid](../seminarid/seminar_03/slides.md)
+- [Seminari materjal](../seminarid/seminar_02/seminar.md)
+- [HTML-slaidid](../seminarid/seminar_02/slides.html)
+- [Kodutöö 2](../seminarid/seminar_02/homework.md)
 
-### **Kodutöö:**
-Sprint 1 dokumentatsiooni loomine (projekt-charter, rollid, ajakava, riskianalüüs, kommunikatsiooni plaan)
+**Release:** `v0.1.0 – Probleem sõnastatud`
 
-## **Seminar 4: Sprint 2 - Disainimine**
+## Seminar 3: meeskond, tööviis ja süsteemi põhimõte
 
-### **Teemad:**
-- Sprint Review ja Retrospective (Start-Stop-Continue meetod)
-- Design Thinking metoodika: 5 etappi (Empaatia, Defineerimine, Ideestamine, Prototüüpimine, Testimine)
-- Double Diamond mudel
-- Inimkeskse disaini põhimõtted
-- Persoonade loomine ja elemendid
-- User Story formaat ja INVEST kriteeriumid
-- Aksepteerimiskriteeriumid
-- Customer Journey Mapping
-- Stsenaariumid ja Storyboard
-- Paberprototüüpimine (lo-fi wireframe'id)
-- Wireframe'ide testimine
+### Põhiküsimus
 
-### **Materjalid:**
-- [Slaidid](../seminarid/seminar_04/slides.md)
-- [Seminari salvestus I](https://youtu.be/nZ9RNSWMC5g)
-- [Seminari salvestus II](https://youtu.be/IHJZ6oEXq5U)
+> Kuidas meeskond töötab ja millist süsteemi põhimõtteliselt kavandab?
 
-### **Kodutöö:**
-Sprint 2 dokumentatsiooni loomine (persoonad, kasutajateekonnad/stsenaariumid/storyboard, wireframe'id, testimine, sprint review ja retrospective)
+Õppijad vaatavad projekti päris ametialaste rollide kaudu, võrdlevad arendusviise, põhjendavad meeskonna töökorralduse ja kirjeldavad süsteemi üldist kontseptsiooni. Rolle vahetatakse.
 
-## **Seminar 5: Sprint 3 - Arendamine (simuleerimine)**
+### Materjalid
 
-### **Teemad:**
-- Sprint 2 Review ja Retrospective
-- Epic Breakdown: Projekt → Epic → User Story → Task
-- Story Points ja Estimating (Fibonacci skeem, Planning Poker)
-- Arenduse mõõdikud: Velocity, Burndown Chart
-- Blockerite juhtimine (takistused)
-- Daily Standups (sünkroonne ja asünkroonne)
-- Continuous Integration (CI/CD) alused
-- Sprint 3 Planning
-- Sprint Simulation: 2 nädala arendus simulatsioon
-- Pseudokoodi kirjutamine algajatele
+- [Seminari materjal](../seminarid/seminar_03/seminar.md)
+- [HTML-slaidid](../seminarid/seminar_03/slides.html)
+- [Kodutöö 3](../seminarid/seminar_03/homework.md)
 
-### **Materjalid:**
-- [Slaidid](../seminarid/seminar_05/slides.md)
-- [Pseudokoodi näited](../seminarid/seminar_05/pseudocode-examples.md)
+**Release:** `v0.2.0 – Tööviis ja süsteemi kontseptsioon`
 
-### **Kodutöö:**
-Sprint 3 dokumentatsiooni loomine (ülesannete jaotus, tehnilised otsused, daily standup'id, progress tracking, pseudokood, sprint review ja retrospective)
+## Seminar 4: kvaliteet, riskid ja vastutus
 
-## **Eksam: Lõplik esitlus**
+### Põhiküsimus
 
-Eksami eelduseks osalemine vähemalt 70% seminaridest, osalemine grupitöös, kõikide kodutööde õigeagne täitmine.  
+> Kas kavand on piisavalt hea ja vastutustundlik?
 
-### **Esitluse struktuur:**
-1. **Sissejuhatus** - meeskond ja projekt
-2. **Protsessi ülevaade** - kolme sprindi ülevaade
-3. **Õpitud põhimõtted** - kasutajakesksus, meeskonnatöö, agiilne metoodika, dokumenteerimine
-4. **Toote lühitutvustus** - wireframe'id, user story'd, personad
-5. **Väljakutsed ja õppetunnid** - probleemid ja lahendused
-6. **Refleksioon** - mida õppisid tarkvaraarenduse kohta
-7. **Kokkuvõte ja küsimused**
+Õppijad valivad projekti olulised kvaliteediomadused, teevad need kontrollitavaks ning analüüsivad turvalisuse, privaatsuse, ligipääsetavuse, töökindluse, litsentside ja kolmandate osapoolte riske.
 
-### **Hindamiskriteeriumid:**
-- Arusaam tarkvaraarenduse protsessist (40%)
-- Meeskonnatöö ja rollide mõistmine (30%)
-- Õpitud metoodikate rakendamine (20%)
-- Refleksioon ja kriitilisus (10%)
+### Materjalid
 
-### **Materjalid:**
-- [Eksami esitluse juhend](../seminarid/eksam-esitlus.md)
+- [Seminari materjal](../seminarid/seminar_04/seminar.md)
+- [HTML-slaidid](../seminarid/seminar_04/slides.html)
+- [Kodutöö 4](../seminarid/seminar_04/homework.md)
+
+**Release:** `v0.3.0 – Kvaliteedi- ja riskiplaan`
+
+## Seminar 5: kasutuselevõtt, käitus ja areng
+
+### Põhiküsimus
+
+> Mis juhtub süsteemiga pärast selle loomist?
+
+Õppijad kavandavad kasutuselevõtu, toe, seire, tagasiside, hoolduse ja süsteemi lõpetamise põhimõtted. Nad koostavad lõpuesitluse jaoks release'ide ajajoone. Üliminimaalne AI-demo on vabatahtlik ja peab kontrollima konkreetset oletust.
+
+### Materjalid
+
+- [Seminari materjal](../seminarid/seminar_05/seminar.md)
+- [HTML-slaidid](../seminarid/seminar_05/slides.html)
+- [Kodutöö 5](../seminarid/seminar_05/homework.md)
+
+**Release:** `v0.4.0 – Kasutuselevõtu ja arengu plaan`
+
+## Eksam: dokumenteeritud protsessi esitlus
+
+Meeskond esitleb projekti release'ide ajajoonena. Iga õppija selgitab vähemalt üht olulist otsust või release'i ja vastab enda panust puudutavatele küsimustele.
+
+- [Eksami juhend](../seminarid/eksam-esitlus.md)
+
+**Lõplik release:** `v1.0.0 – Tarkvaraarenduse protsessi tervik`
+
+## Läbivad nõuded
+
+- üks meeskonnarepo kogu projekti jaoks;
+- iga õppija töötab enda harus, teeb sisulise commit'i ja avab pull request'i;
+- iga õppija vaatab igas projektietapis üle vähemalt ühe teise õppija pull request'i;
+- release manager vahetub;
+- iga õppija kirjutab pärast iga projektiseminari refleksiooni;
+- AI-d kasutatakse vähemalt ühe olulise otsuse juures ning selle kasu ja kontroll dokumenteeritakse;
+- hinnatakse arusaamist ja põhjendamist, mitte materjali hulka.
+
+## Mallid
+
+- [Otsus](../seminarid/mallid/otsus.md)
+- [Release notes](../seminarid/mallid/release-notes.md)
+- [Individuaalne refleksioon](../seminarid/mallid/individuaalne-refleksioon.md)
+- [Pull request'i kontrollnimekiri](../seminarid/mallid/pull-request.md)

@@ -180,9 +180,46 @@ Issue → haru → muudatus → commit → push
 → pull request → ülevaatus → merge
 ```
 
-VS Code: Git: Clone → uus haru → Source Control → commit → Publish Branch
+VS Code'is muudame faili; terminalis kasutame Giti käske.
 
 GitHub: pull request → ülevaatus → merge
+
+---
+
+## Tuttav põhiring uues harus
+
+`git status` → faili salvestamine → `git add` → `git diff --cached` → `git commit` → `git push`
+
+Kontrolli enne õiget repot ja töökataloogi.
+
+Uue haru esimene saatmine vajab haru seostamist GitHubiga. Täpne näide on seminarijuhendis.
+
+---
+
+# Kaaslase PR on ühendatud. Kas minu arvutis on uus sisu?
+
+---
+
+## Kohalik koopia vajab uuendamist
+
+Kui enda töö on salvestatud, commit'itud ja push'itud ning töökaust puhas:
+
+```bash
+git switch main
+git pull --ff-only
+```
+
+Kui peaharu nimi on `master`, kasuta seda. Kontrolli kaaslase muudatust oma arvutis.
+
+---
+
+## Tag, release ja release notes
+
+- **Tag** märgib kindla commit'i.
+- **GitHub Release** avaldab selle versiooni koos kirjeldusega.
+- **Release notes** selgitab muutusi, kontrolle ja lahtisi küsimusi.
+
+Harjutame esimese release'i loomist enne kodutööd.
 
 ---
 
