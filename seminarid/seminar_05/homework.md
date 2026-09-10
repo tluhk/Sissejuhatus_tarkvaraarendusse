@@ -1,247 +1,68 @@
-# Kodutöö 5: Sprint 3 - arendamine (simuleerimine)
+# Kodutöö 5: kasutuselevõtu ja arengu plaan ning release `v0.4.0`
 
-**Kodutöö = Sprint 3 Issues täitmine**
+## Ülesanne lühidalt
 
-## Ülevaade
+Kirjeldage, kuidas süsteem kasutusele jõuaks, kuidas selle toimimist ja mõju jälgitaks, kes vastutaks hoolduse eest ning millal tuleks lahendust muuta või lõpetada. Koostage release'ide ajajoone mustand ja avaldage `v0.4.0 – Kasutuselevõtu ja arengu plaan`.
 
-Sprint 3 on arenduse simulatsioon - te EI kirjuta koodi, vaid dokumenteerite ja simuleerite arendusprotsessi. Eesmärk on mõista, kuidas päris arendusmeeskond töötab.
+## Maht
 
----
+Arvestuslik maht on ligikaudu 8 tundi õppija kohta.
 
-## Kohustuslikud ülesanded
+## Tulemus
 
-### 1. Loo Sprint 3 plaan
-**Fail:** `sprint-3-plan.md`
+Vähemalt:
 
-**Sisu:**
-- Sprint Goal (1 lause - mida tahate saavutada? Näiteks: "Broneerimise funktsionaalsus on tehniliselt kirjeldatud ja testitud")
-- Selected EPIC (milline peamine funktsioon/EPIC Sprint 3-sse võtate? Näiteks: "Mikrolaineahju broneerimine")
-- Team members (kes milliseid rolle täidab? Developer, Tester, jne)
-- Definition of Done (millal on Sprint valmis? Näiteks: "Kõik pseudokoodid kirjutatud, testid dokumenteeritud, API kirjeldatud")
-
----
-
-### 2. Ülesannete jaotus
-**Fail:** `task-breakdown.md`
-
-**Ülesanne:**
-- Vali 1 peamine funktsioon teie projektist (see on teie **EPIC** Scrum terminoloogias)
-- Kirjelda, mida see funktsioon teeb (1-2 lauset)
-- Jaga 5-10 ülesandeks (need on **TASK'id**)
-- Iga ülesanne peab sisaldama:
-  - Ülesande kirjeldus (mida tehakse?)
-  - Tüüp (Programmeerimine/Testimine/Dokumentatsioon)
-  - Vastutaja (kes teeb?)
-  - Staatus (Tehtud/Pooleli/Ei alanud)
-
-**EPIC vs Funktsioon:**
-Teie valitud "peamine funktsioon" on tegelikult **EPIC** Scrum terminoloogias. Näiteks "Mikrolaineahju broneerimine" on EPIC. Selles ülesandes keskendute ühele EPICule ja jagate selle konkreetseteks ülesanneteks (TASK'ideks). Valikuliselt võite jagada EPICu ka USER STORY'deks enne TASK'ide loomist, kui see aitab struktuuril.
-
-**Märkus:** Sprint 3 keskendub arendusele, seega ülesanded on programmeerimise, testimise ja dokumenteerimisega seotud. Disaini ülesanded olid Sprint 2 osa.
-
-**Näide:**
-```markdown
-# Funktsioon: Mikrolaineahju broneerimine
-
-## Mida see funktsioon teeb?
-Kasutaja saab broneerida vaba mikrolaineahju kuni 15 minutiks.
-
-## Ülesanded:
-1. **Kirjuta pseudokood broneerimise loogikale** (Programmeerimine) - @jaan
-2. **Kirjuta pseudokood aja kontrollimisele** (Programmeerimine) - @jaan
-3. **Testi broneerimist erinevate stsenaariumidega** (Testimine) - @liis
-4. **Dokumenteeri API endpoint'id** (Dokumentatsioon) - @mari
-5. **Kirjuta kasutajajuhend broneerimisele** (Dokumentatsioon) - @liis
-...
-
-
----
+```text
+decisions/005-kasutuselevott-ja-areng.md
+releases/ajajoon.md
+releases/v0.4.0.md
+reflections/oppija-nimi-v0.4.0.md
 ```
 
-### 3. Kanban
-**GitHub Projects:** Ülesandeid haldame visuaalselt board'il (To Do / In Progress / Done)
+## Tööjaotus
 
-### 4. Daily Standups ja progress
-**Fail:** `daily-standups.md`  
+1. Senise kvaliteedi- ja riskiplaani ülevaatus – 1 h.
+2. Kasutuselevõtu, toe ja tagasipööramise plaan – 1,5 h.
+3. Seire, tagasiside ning mõju hindamine – 1,5 h.
+4. Hooldus, muutmine ja lõpetamine – 1 h.
+5. Release'ide ajajoon ning oluliste otsuste valik – 1 h.
+6. PR, ülevaatus ja parandused – 1 h.
+7. Refleksioon ning release – 1 h.
 
-**Ülesanne:**
-- Kirjutage standup kirjeid 2 nädala jooksul (ei pea olema iga päev)
-- Iga standup korral KÕIK meeskonnaliikmed kirjutavad:
-  - Mida "eile" tegid (kuna iga päev ei kirjuta, siis "eelmine kord")
-  - Mida "täna" teevad
-  - Mis "takistab" (blockerid, probleemid)
-- Lisage iga standup lõppu progress kokkuvõte (mitu ülesannet tehtud/pooleli/alustamata)
-- Haldage ülesandeid GitHub Projects board'il ja lisage link board'ile standup kirjetesse
+## Minimaalsed nõuded
 
-**Oluline:** Teil on kaks võimalust:
-1. **Simuleeritud variant:** Kirjutate kõik 6-8 standup kirjet korraga lõpus, kujutades ette mis oleks tegelikult juhtunud (nö simulatsioon)
-2. **Reaalajas variant:** Kirjutate standup kirjeid kahe nädala jooksul 3-5 korda nädalas vastavalt sellele, kuidas tegelikult tegutsete
+- kasutuselevõtu sihtrühm, viis, tugi ja vastutaja;
+- vähemalt üks peatamise või tagasipööramise tingimus;
+- 3–5 põhjendatud märki süsteemi seisundi, kasutaja tulemuse ja mõju kohta;
+- tagasiside kogumise ning otsustesse jõudmise viis;
+- hoolduse omanik, olulised sõltuvused ja tehnilise võla käsitlus;
+- vähemalt üks olukord, kus süsteem tuleks oluliselt ümber mõelda või lõpetada;
+- ajajoon, mis ühendab olulised otsused release'idega.
 
-Mõlemal juhul peab kokku olema vähemalt 6-8 standup kirjet, et mõista meeskonna kommunikatsiooni ja progressi jälgimist.
+## AI kasutamise nõue
 
-**Template iga standup kohta:**
-```markdown
-## Standup [Kuupäev] - Päev X
+Kui meeskond ei ole seni AI-d ühe olulise otsuse juures kasutanud, tuleb seda teha nüüd. Dokumenteerige sisend, väljundi kasutamine või tagasilükkamine, kontroll, kasu ja tekkinud müra.
 
-### Jaan (Developer)
-**Eile:** Kirjeldasin tehnilise arhitektuuri
-**Täna:** Dokumenteerin API endpoint'e
-**Takistab:** Ei ole veel otsustanud andmebaasi struktuuri
+Demo on vabatahtlik. Kui teete demo, piirake selleks kuluv meeskonna aeg enne alustamist ja kirjeldage, millist oletust see kontrollis. Demo visuaalne mulje ei anna hindamisel lisapunkte.
 
-### Mari (Developer)
-**Eile:** Kirjutasin pseudokoodi broneerimise loogikale
-**Täna:** Alustan aja kontrollimise algoritmi kirjutamist
-**Takistab:** Ei ole kindel, kuidas kattuvaid broneeringuid kontrollida
+## GitHubi töövoog
 
-### Progress kokkuvõte
-- Tehtud: 2 ülesannet
-- Pooleli: 3 ülesannet
-- Alustamata: 5 ülesannet
-- GitHub Projects: [link board'ile]
+Iga õppija teeb sisulise panuse enda haru ja PR-i kaudu, vaatab üle teise õppija töö ning lisab refleksiooni. Ajajoon peab sündima meeskonna valikutest, mitte ühe inimese tagantjärele kirjutatud loost.
 
-### Märkused
-- Blocker lahendatud: Jaan sai abi andmebaasi struktuuri küsimuses
-- Uuendasime GitHub board'i
-```
+## Release manager
 
----
+Uus release manager loob tag'i `v0.4.0` ja avaldab release'i pealkirjaga `Kasutuselevõtu ja arengu plaan`.
 
-### 4. Tehnilised otsused
-**Fail:** `technical-decisions.md`
+## Valmis töö kontroll
 
-**Ülesanne:**
-- Dokumenteeri 3 tehnilist otsust, mida teie projekt nõuab
-- Selgita, MIKS see otsus tehti
+- [ ] Plaan käsitleb kasutuselevõttu, tuge, seiret, hooldust ja lõpetamist.
+- [ ] Mõõdikud aitavad otsustada, mitte ainult tegevust kokku lugeda.
+- [ ] Ajajoon näitab arusaamise ja otsuste muutumist.
+- [ ] Vähemalt ühe olulise otsuse juures on AI kasutus läbipaistvalt hinnatud.
+- [ ] Igal õppijal on Issue, commit, PR, ülevaatus ja refleksioon.
+- [ ] Release `v0.4.0` on avaldatud.
 
-**Näited tehnilistest otsustest:**
-- Mobile-first vs Desktop-first
-- Millist andmebaasi kasutada (SQL vs NoSQL)
-- REST API vs GraphQL
-- Single Page App vs Multi-Page App
-- Autentimine (JWT vs Session)
+## Esitamine
 
-**Template:**
-```markdown
-# Tehnilised Otsused
-
-## Otsus 1: Mobile-First lähenemine
-
-**Probleem:** Kas arendame esmalt mobile või desktop versiooni?
-
-**Otsus:** Mobile-first
-
-**Põhjendus:**
-- 85% kasutajatest on mobiilseadmetel
-- Lihtsam skaleerida mobile → desktop kui vastupidi
-- Sunnib keskenduma olulistele funktsioonidele
-
-**Alternatiivid kaalutud:**
-- Desktop-first (keeruline, liiga palju funktsioone)
-- Samaaegselt (ressursside puudus)
-
-**Mõju projekti:**
-- UI disain algab 375px ekraanist
-- Naviga atsioon on bottom navigation bar
-- Kõik funktsioonid peavad töötama puutetundliku ekraaniga
-```
-
----
-
-### 5. Sprint 3 Review
-**Fail:** `sprint-3-review.md`
-
-**Sisu:**
-- Mis "valmis sai" (simulatsiooni tulemus)
-- Kas Sprint Goal saavutati?
-- Mis läks plaanist erinevalt?
-- Stakeholder'ite tagasiside (teiste meeskondade kommentaarid)
-
----
-
-### 6. Sprint 3 Retrospective
-**Fail:** `sprint-3-retrospective.md`
-
-**Sisu:**
-- Start-Stop-Continue analüüs
-- Iga meeskonnaliikme refleksioon
-- Action items järgmiseks (kuigi järgmist Sprinti pole)
-
-**Template:**
-```markdown
-# Sprint 3 Retrospective
-
-## Start-Stop-Continue
-
-### CONTINUE (mis läks hästi)
-- Epic breakdown aitas mõista töö ulatust
-- Daily standup simulation oli kasulik
-- Meeskond töötas hästi koos
-
-### STOP (mida lõpetada)
-- Liiga optimistlik estimating
-- Unustasime testing task'id alguses
-
-### START (mida alustada)
-- Varem breakdown teha
-- Rohkem technical research'i
-
-## Individuaalsed reflektsioonid
-
-### Jaan (Developer)
-Õppisin kuidas suurtest ülesannetest väikseid task'e teha. Pseudokoodi kirjutamine oli alguses raske, aga näidete abil sain paremini aru. Sprint simulation aitas mõista, miks on vaja järjepidevat kommunikatsiooni ja miks blockerid tuleb kiiresti lahendada.
-
-### Mari (Developer)
-...
-```
-
----
-
-## Rolli-põhised ülesannete näited
-
-### Product Owner
-**Fail:** `backlog-refinement.md`
-
-**Sisu:**
-- Kuidas backlog'i täpsustati Sprint 3 käigus
-- Milliseid user story-sid prioritiseeriti
-- Millised nõuded muutusid ja miks
-- Aktsepteerimiskriteeriumid pseudokoodile (kas vastab kasutajate vajadustele?)
-
----
-
-### Project Manager
-**Fail:** `blockers-log.md`
-
-**Sisu:**
-- Kõik blockerid detailselt
-- Kuidas igaüks lahendati
-- Mõju Sprint timeline'le
-- Õppetunnid blockerite vältimiseks
-
----
-
-### Developer
-**Fail:** `algorithms/` (kaust pseudokoodiga)
-
-**Sisu:**
-- Kirjuta **3-4 pseudokoodi algoritmi** põhifunktsioonide jaoks
-- Iga algoritm peab sisaldama:
-  - Kasutajateekond (kes, mida, miks?)
-  - Pseudokood (lihtsas eesti keeles)
-
-**Näited:**
-- Broneerimise loogika
-- Otsingu/filtreerimise algoritm
-- Andmete töötlemise algoritm
-- Maksejaotuse arvutamine
-
-**Vaata näiteid:** `pseudocode-examples.md` failist!
-
-**Fail:** `technical-architecture.md`
-
-**Sisu:**
-- Süsteemi arhitektuur (komponendid)
-- Andmevoog läbi süsteemi
-- Tehnoloogia stack (mis tööriistadega ehitataks)
-- Integratsioonid (API-d, kolmandad osapooled)
+Lisage kodutöö Issue kommentaari release'i, ajajoone, enda refleksiooni, enda PR-i ja tehtud ülevaatuse lingid.
 

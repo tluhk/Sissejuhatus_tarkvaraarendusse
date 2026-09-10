@@ -1,45 +1,67 @@
-**Kodutöö = Sprint 2 Issues täitmine**
+# Kodutöö 4: kvaliteedi- ja riskiplaan ning release `v0.3.0`
 
-1. **Loo sprindi plaan** – mida te teete, kes mille eest vastutab jne
-2. **Loo vajalikud failid**
-3. **Loo wireframed**  
-4. **Loo GitHub Issues projekti** 
-5. **Määra Labels, Assignee, Components**  
-6. **Töö In Progress** → **Review (omavaheline ülevaateus)** → **Done**
-7. **Sprint review ja Retrospective** võtke seekordne sprint kokku. Lisage igaüks enda poolt kommentaar, mida õppisid, mis oleks võinud olla teisit, mis on endiselt segane või muud kommenteerimits vajavad jutud. 
+## Ülesanne lühidalt
 
----
+Koostage projekti põhjendatud kvaliteedi- ja riskiplaan. Siduge olulised kvaliteediomadused kontrollidega, määrake riskidele vastutus ning avaldage release `v0.3.0 – Kvaliteedi- ja riskiplaan`.
 
-## Issued täitmiseks
+## Maht
 
-**Issue #X**: Loo 2-3 detailset persoonat.  
-**Issue #X**: Loo persoonade baasil kasutajateekonnad või stsenaarium või storyboard, mis vastavad ülesannetele, mida kasutaja peaks/saaks rakenduses sooritada.  
-**Issue #X**: Loo rakenduse kuvad (wireframed), mida saaksid järgmisel korral kasutajate peal testida. Kuvade arv vali, et saaksid anda testimiseks vähemalt kaks ülesannet. 
+Arvestuslik maht on ligikaudu 8 tundi õppija kohta.
 
----
+## Tulemus
 
-## Repositooriumi struktuur selle ülesande raames
+Repositooriumis on vähemalt:
 
-```
-sprint2/
-├── sprint_plan.md
-├── personas.md  
-├── scenario-journey-storyboard.md  
-├── images/wireframes dokumenteerimise huvides
-├── daily-standups.md (juhul kui teete)  
-├── sprint-2-review.md
-├── sprint-2-retrospective.md
-└── README.md (üldised selgitused selle kodutöö sisu kohta, kus mis ja miks on)
+```text
+decisions/004-kvaliteet-ja-riskid.md
+releases/v0.3.0.md
+reflections/oppija-nimi-v0.3.0.md
 ```
 
-> [!NOTE]
-> Õppematerjalid leiad [siit](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse)
+Riskitabel võib olla otsuse osa või eraldi fail, millele otsus viitab.
 
+## Tööjaotus
 
+1. Seniste otsuste ja rollivaate ülevaatus – 1 h.
+2. Kvaliteediomaduste valik ja põhjendus – 1,5 h.
+3. Kontrollitavate kriteeriumide koostamine – 1,5 h.
+4. Riskide, mõju, maanduse ja vastutuse analüüs – 2 h.
+5. PR, teise töö ülevaatus ja parandused – 1 h.
+6. Refleksioon ning release – 1 h.
 
-> [!IMPORTANT]
-> **Selle ülesande lahendus lisa selle Issue kommentaari**
-> Lisa oma lahendus otse selle issue kommentaariks
-> või kui Sul on failid, lisa need oma repository-sse ja viita neile kommentaaris
-> Kui ülesanne on valmis, siis lisa issue-le "submission" silt
-> Issuele lisa Assignee-ks õpetaja
+## Minimaalsed nõuded
+
+- 4–6 projekti jaoks olulist kvaliteediomadust;
+- iga omaduse juures põhjendus ja kontrollimise viis;
+- vähemalt kuus eri tüüpi riski;
+- iga olulise riski juures mõju, maandus, märkamine ja vastutaja;
+- eraldi tähelepanu turvalisusele, privaatsusele ja ligipääsetavusele;
+- vähemalt ühe kolmanda osapoole või litsentsi mõju;
+- vähemalt üks varasema otsuse kinnitus, täpsustus või muutmine uue analüüsi põhjal.
+
+## AI kasutamine
+
+AI võib aidata leida puuduvaid riskikategooriaid, kuid pikk üldine riskiloend ei ole väärtus. Meeskond peab eemaldama ebaolulise, kontrollima väited ja põhjendama, miks alles jäetud risk puudutab just nende projekti.
+
+## GitHubi töövoog
+
+Iga õppija töötab enda Issue ja haruga, avab PR-i, vaatab üle teise õppija sisulise panuse ning kirjutab refleksiooni. Ülevaataja küsib vähemalt ühe kontrolli, mõju või vastutuse kohta käiva küsimuse.
+
+## Release manager
+
+Uus release manager kontrollib tervikut, loob tag'i `v0.3.0` ja avaldab release'i pealkirjaga `Kvaliteedi- ja riskiplaan`.
+
+## Valmis töö kontroll
+
+- [ ] Kvaliteedinõuded on kontrollitavad, mitte ainult omadussõnad.
+- [ ] Valikud lähtuvad projekti probleemist.
+- [ ] Kompromissid on nähtavad.
+- [ ] Riskidel on omanik ja reageerimisviis.
+- [ ] AI-ga loodud üldsõnaline materjal on eemaldatud.
+- [ ] Igal õppijal on Issue, commit, PR, ülevaatus ja refleksioon.
+- [ ] Release `v0.3.0` on avaldatud.
+
+## Esitamine
+
+Lisage kodutöö Issue kommentaari release'i, enda refleksiooni, enda PR-i ja tehtud ülevaatuse lingid.
+

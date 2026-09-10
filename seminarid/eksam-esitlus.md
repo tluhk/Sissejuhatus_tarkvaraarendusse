@@ -1,178 +1,94 @@
-# Eksam
+# Eksam: dokumenteeritud tarkvaraarenduse protsessi esitlus
 
-Eksam koosneb esitlusest ja testist.  
-Eksami eelduseks osalemine vähemalt 70% seminaridest, osalemine grupitöös, kõikide kodutööde õigeagne täitmine.  
+## Ülesanne lühidalt
 
+Meeskond vormistab release'i `v1.0.0 – Tarkvaraarenduse protsessi tervik` ja esitleb oma projekti release'ide ajajoonena. Esitlus peab näitama, kuidas probleemist, tõenditest, rollide vaadetest ja riskidest kujunesid põhjendatud otsused.
 
-## Esitluse struktuur ja juhised
+Valmis rakendus ei ole nõutav. Hinnatakse arusaamist ja põhjendamist, mitte tehnilist keerukust, teksti hulka ega visuaalset efekti.
 
-**Eesmärk:** Esitleda mida õppisite tarkvaraarenduse kohta läbi kolme sprindi ja teooria osade, mitte ainult seda, mida teie toode teeb.
+## Eksami eeldus
 
-**Kestus:** 10-15 minutit + 5 minutit küsimused
+Meeskonnal on GitHubis release'id `v0.1.0` kuni `v0.4.0`, otsuste logi, release notes'id ja iga õppija refleksioonid. Puuduv või lõpetamata osa tuleb teha nähtavaks; seda ei tohi esitluses valmis tööna näidata.
 
-**Hindamiskriteeriumid:**
-- Arusaam tarkvaraarenduse protsessist (40%)
-- Meeskonnatöö ja rollide mõistmine (30%)
-- Õpitud metoodikate rakendamine (20%)
-- Refleksioon ja kriitilisus (10%)
+## Lõplik release `v1.0.0`
 
----
+Enne esitlust:
+
+1. vaadake läbi kõik olulised otsused ja nende ajalugu;
+2. parandage vastuolud või märkige need teadlikult avatuks;
+3. lõpetage `releases/ajajoon.md`;
+4. lisage `releases/v1.0.0.md`;
+5. ühendage üle vaadatud PR-id;
+6. looge tag `v1.0.0` ja GitHub Release pealkirjaga `Tarkvaraarenduse protsessi tervik`.
+
+Release ei tähenda, et kavandatud süsteem on valmis. See fikseerib kursusel dokumenteeritud arendusprotsessi terviku.
 
 ## Esitluse struktuur
 
-### 1. Sissejuhatus (1-2 minutit)
+1. **Probleem ja algne arusaam** – kelle probleem, millises olukorras ja millise mõjuga?
+2. **`v0.1.0`** – mida kontrolliti ja mida tõend muutis?
+3. **`v0.2.0`** – kuidas valiti tööviis ja süsteemi kontseptsioon?
+4. **`v0.3.0`** – millised kvaliteedi- ja riskivalikud muutsid kavandit?
+5. **`v0.4.0`** – kuidas süsteem kasutusele jõuaks, areneks ja lõpeks?
+6. **AI kasutamine** – millise otsuse juures, kuidas kontrolliti ja mis oli tegelik kasu?
+7. **Tervik** – mida meeskond nüüd tarkvaraarendusest teisiti mõistab?
 
-**Mida esitada:**
-- Meeskonna nimi ja liikmed
-- Lühike ülevaade projektist (1 lause: mis probleemi lahendasite?)
-- Esitluse ülesehitus
+Ebaolulistest commit'idest ja väikestest muudatustest võib üle hüpata. Vähemalt ühe muutunud või tagasi võetud otsuse käsitlemine on oluline.
 
-**Näide:**
-> "Oleme meeskond X ja meie projekt oli Y probleem. Täna räägime sellest, kuidas me õppisime tarkvaraarenduse protsessi läbi kolme sprindi - uurimisest planeerimiseni ja arenduseni."
+## Esitluskorraldus
 
----
+- Soovituslik aeg: 15 minutit esitlust ja 10 minutit küsimusi meeskonna kohta.
+- Iga õppija esitleb vähemalt üht release'i või olulist otsust.
+- Iga õppija vastab enda rolli, panust ja refleksiooni puudutavatele küsimustele.
+- Esitlus viitab repositooriumis olevatele otsustele ja release'idele.
+- Demo on vabatahtlik ja peab jääma lühikeseks. See ei asenda protsessi selgitust.
 
-### 2. Protsessi ülevaade (2-3 minutit)
+## Hindamine
 
-**Mida esitada:**
-- Kolme sprindi ülevaade
-- Mis oli iga sprindi eesmärk?
-- Kuidas sprindid omavahel seostusid?
+| Hinnatav osa | Osakaal |
+|---|---:|
+| Otsuste logi ja release'ide sisuline areng | 40% |
+| Individuaalsed refleksioonid ning rollide mõistmine | 25% |
+| Giti ja GitHubi läbipaistev koostöövoog | 15% |
+| Lõpuesitlus ja küsimustele vastamine | 20% |
+| **Kokku** | **100%** |
 
-**Fookus tarkvaraarendusel:**
-- Miks algab arendus alati probleemi mõistmisest?
-- Kuidas iga sprint ehitati eelmise peale?
-- Mis oleks juhtunud, kui oleks otse koodimist alustanud?
+### Otsused ja release'id, 40%
 
----
+Hinnatakse probleemist lähtumist, alternatiivide võrdlust, põhjendusi, tõendite kasutamist, kompromisse ning seda, kuidas uus info otsuseid muutis.
 
-### 3. Õpitud põhimõtted (3-4 minutit)
+### Individuaalne arusaamine, 25%
 
-**Valige 3-4 kõige olulisemat õppetundi ja esitlege neid:**
+Hinnatakse refleksioonide sisukust, eri rollide vastutuse mõistmist ja võimet selgitada enda panust. Tegevuste loend ilma õppimise analüüsita ei ole piisav.
 
-#### Näide 1: Kasutajakesksus
+### Koostöövoog, 15%
 
-**Mis õppisime:**
-- Probleemi defineerimine enne lahenduse leidmist
-- Kasutajate intervjueerimine ja persoonad
-- Journey mapping ja valupunktide leidmine
+Hinnatakse Issues'e, harusid, sisulisi commit'e, PR-e, ülevaatusi, tag'e ja release'e kui meeskonna läbipaistvat tööprotsessi. Commit'ide arv üksi ei näita panuse kvaliteeti.
 
-**Kuidas töötasime:**
-- Intervjueerisime X kasutajat
-- Lõime Y personat põhinedes reaalsete andmete põhjal
-- Avastasime, et meie algne eeldus oli vale: [näide]
+### Esitlus, 20%
 
-**Mida see meile õpetas:**
-> "Õppisime, et ilma kasutajaid mõistmata võib ehitada täiesti vale lahenduse."
+Hinnatakse selget release'ide ajajoont, olulise eristamist ebaolulisest, põhjendatud enesekriitikat ning küsimustele vastamist. Kujundus toetab arusaamist, kuid visuaalne viimistlus ei ole eraldi eesmärk.
 
-#### Näide 2: Meeskonnatöö ja rollid
+## AI kasutamise kontroll
 
-**Mis õppisime:**
-- Scrum rollid: Product Owner, Project Manager, Developer, UX/UI Designer
-- Iga rolli vastutus ja panus
-- Kommunikatsiooni olulisus (daily standups, retrospectives)
+Meeskond peab suutma näidata vähemalt üht olulist otsust, mille juures AI-d kasutati, ning vastata:
 
-**Kuidas töötasime:**
-- Jaotasime rollid vastavalt huvile ja oskustele
-- Tegime X daily standup'i
-- Kohtasime Y blocker'it ja lahendasime neid meeskonnana
+- miks AI-d kasutati;
+- milline oli sisend;
+- mida väljundist kasutati või tagasi lükati;
+- kuidas väiteid ja sobivust kontrolliti;
+- kas AI vähendas tööd või tekitas lisatööd;
+- kes vastutab lõpliku otsuse eest.
 
-**Mida see meile õpetas:**
-> "Õppisime, et tarkvaraarendus on meeskonnatöö..."
+Kontrollimata, korduv või ebaoluline AI-materjal vähendab töö selgust ja võib hinnet langetada.
 
-#### Näide 3: Agiilne metoodika
+## Enne esitamist
 
-**Mida õppisime:**
-- Sprint tsükkel: planning → daily standups → review → retrospective
-- Iteratiivne vs lineaarne (Waterfall) lähenemine
-- Velocity ja burndown chart'i kasutamine
+- [ ] `v1.0.0` release ja tag on olemas.
+- [ ] Ajajoon näitab olulisi otsuseid ning muutusi.
+- [ ] Iga esitluse väide on seostatav repo materjaliga.
+- [ ] Iga õppija roll ja panus on nähtav.
+- [ ] Iga õppija teab, millist osa ta esitleb.
+- [ ] AI kasutus ja kontroll on läbipaistvad.
+- [ ] Lahtisi küsimusi ei esitata lõplike faktidena.
 
-**Kuidas töötasime:**
-- Iga sprint lõppes review ja retrospective'iga
-- Sprint 3 simulatsioon näitas, kuidas blocker'id mõjutavad velocity't
-- Õppisime oma estimating'ut parandama
-
-**Mida see meile õpetas:**
-> "Õppisime, et paindlikkus ja pidev tagasiside on olulisemad kui täiuslik algne plaan."
-
-#### Näide 4: Dokumenteerimine ja GitHub workflow
-
-**Mida õppisime:**
-- Git branching ja pull request workflow
-- Dokumenteerimine kui osa tarkvarast
-- Issue tracking ja project management GitHub'is
-
-**Kuidas töötasime:**
-- Igal dokumendil oli branch → PR → review → merge
-- Lõime X issue'd ja Y pull request'i
-- GitHub Projects aitas visualiseerida progressi
-
-**Mida see meile õpetas:**
-> "Õppisime, et versioonihaldus ja dokumenteerimine on osa arendusprotsessist."
-
----
-
-### 4. Toote lühitutvustus (2 minutit)
-
-**Nüüd võite näidata oma toodet, aga fookus on PROTSESSIL:**
-
-**Mida näidata:**
-- Lühikirjeldus  
-- Wireframed  
-- Üks peamine user story demonstratsioonina  
-- Kuidas see lahendab kasutajate probleemi (persoonade ja journey map'i jne põhjal)  
-
-**Visuaalid:**
-- Persoonad (kes on teie kasutajad?)
-- Journey map (kuidas nad toodet kasutavad?)
-- Wireframe'id või paberprototüübid
-
-**VÄLTIDA:**
-- Liiga palju funktsionaalsuse kirjeldamist
-- Tehniliste detailide ülepakkumist
-- Keskendumist ainult sellele, MIS teie toode on, mitte KUIDAS te selle lõite
-
----
-
-### 5. Väljakutsed ja õppetunnid (2-3 minutit)
-
-**Mida esitada:**
-- 2-3 peamist väljakutset, millega kokku puutusite
-- Kuidas neid lahendasite?
-- Mida õppisite vigadest? Millised vead olid?
-
-**Näited:**
-
-**Väljakutse 1: Scope creep**
-- **Probleem:** Sprint 2 planeerides võtsime liiga palju user story-sid
-- **Lahendus:** Õppisime MoSCoW prioritiseerimist ja viisime "Could have" story-d järgmisse sprinti
-- **Õppetund:** Fokusseerimine on oluline, ei saa kõike korraga teha
-
-**Väljakutse 2: Kommunikatsioon**
-- **Probleem:** Meeskonnaliige ei teadnud, et teine liige vajab tema tööd
-- **Lahendus:** Hakkasime asünkroonseid standup'e kirjutama ja dependency-sid märkima
-- **Õppetund:** Transparentsus ja regulaarne kommunikatsioon vältivad blocker'eid
-
-**Väljakutse 3: Estimating**
-- **Probleem:** Hindasime task'e liiga optimistlikult (2 SP asemel 5 SP)
-- **Lahendus:** Kasutasime planning poker'it ja arutlesime meeskonnaga
-- **Õppetund:** Kollektiivne hindamine on täpsem kui individuaalne
-
----
-
-### 6. Refleksioon (1-2 minutit)
-
-**Mida esitada:**
-- Mis muutus teie arusaamises tarkvaraarendusest?
-- Mida võtate kaasa tulevastesse projektidesse?
-- Mis üllattas teid kõige rohkem?
-
----
-
-### 7. Kokkuvõte ja küsimused (1 minut)
-
-**Mida esitada:**
-- Kokkuvõte kolmest peamisest õppetunnist
-- Küsimused-vastused
-
----
