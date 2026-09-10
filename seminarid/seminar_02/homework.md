@@ -55,6 +55,10 @@ Täiendage faili `decisions/001-probleemi-valik.md`. Otsus peab näitama valikut
 
 ### 5. GitHubi koostöövoog, umbes 1 tund
 
+Kasutage meeskonna GitHub Projecti. Iga tööülesanne peab olema Issue, mille
+olek ja vastutaja on Projecti tahvlil nähtavad. Liigutage kaart vähemalt olekust
+`Backlog` olekusse `In progress` ning ülevaatuse järel `Review` või `Done`.
+
 Iga õppija:
 
 1. töötab enda harus;

@@ -24,6 +24,8 @@ Kas ühest programmist piisab?
 | GitHub | repositooriumid ja koostöö veebis |
 | GitHub CLI (`gh`) | GitHubi kasutamine terminalist |
 | Markdown | dokumentatsiooni kirjutamine |
+| Disainitööriistad (nt Figma) | kasutajaliidese ja kasutajakogemuse kavandamine |
+| Projektihalduse tööriistad (nt GitHub Projects, Jira, ClickUp) | tööde ja edenemise korraldamine |
 | Node.js | JavaScripti käivitamine väljaspool brauserit |
 | Docker | korratava käituskeskkonna loomine |
 
@@ -42,6 +44,10 @@ VS Code
     ├── Node.js ja npm
     └── Docker
 ```
+
+Töövahend sõltub rollist ja projekti etapist. Selles aines tegeleme piiratult
+koodi loomise ning seda toetava Giti/GitHubi töövoo tarkvaraga. Disaini- ja
+projektihalduse vahendeid nimetame, kuid siin eraldi ei õpeta.
 
 ---
 
@@ -88,15 +94,28 @@ Pärast paigaldamist sulge ja ava VS Code uuesti.
 
 ---
 
-## Git macOS-is ja Linuxis
+## Git macOS-is: Homebrew
 
-macOS võib pakkuda Giti paigaldamist pärast käsku `git --version`. Vajaduse korral käivita:
+[Homebrew](https://brew.sh/) on paketihaldur programmide paigaldamiseks ja uuendamiseks. Kursusel soovitame seda Maci arendustööriistade haldamiseks.
+
+```bash
+brew install git
+git --version
+```
+
+Esmalt paigalda Homebrew ametliku juhendi järgi ja täida **Next steps**. Töötavat Giti ei pea ümber paigaldama.
+
+[Giti ametlik macOS-i juhend](https://git-scm.com/install/mac)
+
+---
+
+## Giti muud paigaldusvõimalused
+
+macOS-is sobib ka Apple'i Xcode Command Line Toolsi Git:
 
 ```bash
 xcode-select --install
 ```
-
-[Giti juhend macOS-ile](https://git-scm.com/install/mac)
 
 Ubuntu või Debian:
 

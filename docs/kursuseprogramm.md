@@ -27,7 +27,7 @@ Toimunud seminari järel kinnistab kodutöö terminalis `add → commit → push
 
 > Kas tegeleme päris ja olulise probleemiga?
 
-Meeskonnad alustavad ühist projekti organisatsiooni `TLUHK-RIF26` repos. Õppijad eristavad probleemi lahendusest, leiavad probleemikandidaate, teevad kerge valideerimise ja põhjendavad valikut.
+Meeskonnad alustavad ühist projekti organisatsiooni `TLUHK-RIF26` repos ja GitHub Projectsis. Õppijad eristavad probleemi lahendusest, leiavad probleemikandidaate, teevad kerge valideerimise ja põhjendavad valikut. Teise seminari loengus tuletame meelde litsentsi põhitõed ning mainime Jira't ja ClickUpi kui samalaadseid töövahendeid.
 
 Alustame plaanitud probleemiteemaga. Markdowni, muudatuste kontrolli ja Giti põhiringi kinnistame projektitöö sees; kaaslase PR-i ühendamise järel harjutame `pull`-i ning kodutöö eel esimese release'i loomist.
 

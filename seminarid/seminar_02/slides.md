@@ -173,6 +173,31 @@ Kõik liikmed kloonivad sama meeskonnarepo.
 
 ---
 
+# Kus meeskond tööd korraldab?
+
+## GitHub Projects
+
+- Issue kirjeldab tööd.
+- Projecti tahvel näitab olekut ja vastutajat.
+- Näiteks: **Backlog → In progress → Review → Done**.
+
+Jira ja ClickUp on samalaadsed projektihalduse tööriistad. Sellel kursusel
+kasutame GitHub Projectsi.
+
+---
+
+# Litsents enne kasutamist
+
+Kontrolli enne võõra koodi, pildi, fondi, andmete või AI-väljundi kasutamist:
+
+- allikas ja litsents;
+- mida tohib muuta ja jagada;
+- milline viide tuleb alles jätta.
+
+Seminaris piisab lingist, litsentsi nimetusest ja lühikesest põhjendusest.
+
+---
+
 ## Iga õppija töövoog
 
 ```text

@@ -17,6 +17,34 @@ Kodutöö järel oskad:
 - teha terminalis commit'i ja push'i;
 - kontrollida tulemust GitHubis.
 
+## Videod tarkvaraarenduse tööviisidest
+
+Vaata kodutöö osana läbi järgmised lühivideod. Need annavad esimese seminari
+töövahendite kõrval ka ühise sõnavara tarkvaraarenduse protsessi arutamiseks.
+Kõiki videoid ei pea sõna-sõnalt ümber jutustama; pane tähele, millist
+lähenemist või rolli videos selgitatakse.
+
+### Waterfall ja Agile
+
+- [Agile vs. Waterfall Project Management – Wrike](https://www.youtube.com/watch?v=x2LE3FKGEkA)
+- [If You’re Choosing Agile or Waterfall… Watch This First – OeLean](https://www.youtube.com/watch?v=5RocT_OdQcA)
+- [5 Best Techniques for Project Management – upGrad KnowledgeHut](https://www.youtube.com/watch?v=ID2KvYvuN3Y) – üldisem projektijuhtimise ülevaade, milles Waterfall on üks näide.
+
+### Agile'i levinud raamistikud
+
+- [Scrum vs Agile: Key Differences Simplified! – KnowledgeHut](https://www.youtube.com/watch?v=K7YMEFjh724)
+- [What is Scrum? – KnowledgeHut](https://www.youtube.com/watch?v=iJ_sl6J8PRg)
+- [Scrum vs Kanban – KnowledgeHut](https://www.youtube.com/watch?v=F5QIqFEDv2k)
+
+### DevOps
+
+- [DevOps vs Agile – KnowledgeHut](https://www.youtube.com/watch?v=MSjr6sCUniE)
+
+Lisa faili `arenduskeskkond.md` peatüki **Mida õppisin?** lõppu 2–3 lauset,
+milles võrdled Waterfalli ja Agile'i ning nimetad ühe idee, mis jäi Scrumist,
+Kanbanist või DevOpsist meelde. Kui mõni video tekitas küsimuse, kirjuta ka see
+üles – küsimus on täiesti sobiv tulevase seminari arutelupunkt.
+
 ## Ülesanne
 
 ### 1. Ava olemasolev repositoorium
@@ -26,6 +54,8 @@ Kasuta oma olemasolevat `SJTA` repositooriumi. Ava selle kohalik kaust VS Code'i
 Kloonimiseks kopeeri enda repo **Code → HTTPS** aadress. Ava terminal kaustas, kuhu soovid koolitööd paigutada, ning kirjuta `git clone`, tühik ja kopeeritud aadress. Seejärel ava loodud repo kaust VS Code'is. Juba kloonitud repot pole vaja uuesti kloonida.
 
 Ava repo kaustal **Open in Integrated Terminal**. Kontrolli käsuga `pwd`, kus asud, ning käsuga `git status`, kas Git tunneb repo ära. Windowsis kasuta Git Bashi.
+
+Kui Macis Git puudub, soovitame [Homebrew kaudu paigaldamist](seminar.md#macos). Homebrew on programmide paketihaldur; pärast selle seadistamist paigaldab Giti käsk `brew install git`. Kui Git juba töötab, pole uuesti paigaldamist vaja.
 
 ### 2. Loo kodutöö fail
 
@@ -131,6 +161,7 @@ Lisa sama Issue kommentaari, millise sammuni jõudsid, milline käsk ebaõnnestu
 - [ ] Koostasin seitsme käsu terminalispikri.
 - [ ] Selgitasin töövahendite rolle oma sõnadega.
 - [ ] Kirjutasin 5–8-lauselise refleksiooni, sealhulgas salvestamise, commit'i ja push'i erinevuse.
+- [ ] Vaatasin videod läbi ning lisasin refleksiooni Waterfalli/Agile'i võrdluse ja ühe tähelepaneku Scrumist, Kanbanist või DevOpsist.
 - [ ] Vaatasin muudatuse enne commit'i üle.
 - [ ] Tegin commit'i ja push'i.
 - [ ] Kontrollisin faili ja commit'i GitHubis.

@@ -120,6 +120,27 @@ Esimesed Issue'd:
 
 Iga õppija teeb vähemalt ühe sisulise commit'i, avab pull request'i ja vaatab üle vähemalt ühe teise õppija muudatuse.
 
+### Töö planeerimine GitHub Projectsis
+
+Meeskonna töö käib lisaks repositooriumile ka sama projekti **GitHub Projects**
+vaates. Iga ülesanne on esmalt Issue ning Projecti tahvlil on näha selle seis,
+vastutaja ja järgmine samm. Alustuseks piisab veergudest **Backlog → In progress
+→ Review → Done**. Issue sidumine haru ja pull request'iga hoiab arutelu,
+muudatuse ja staatuse ühes jälgitavas ahelas.
+
+GitHub Projects on selle kursuse põhitöövahend. Päris meeskondades kasutatakse
+sarnaseks tööks ka Jira't, ClickUpi või muid projektihalduse süsteeme; nende
+detailset kasutamist me siin ei õpi.
+
+### Litsentsid töö alguses
+
+Enne teiste inimeste koodi, piltide, fontide, andmete või AI-väljundi kasutamist
+kontrollige selle kasutustingimusi ja litsentsi. Litsents ütleb, mida tohib
+kasutada, muuta ja edasi jagada ning milliseid viiteid tuleb säilitada.
+Seminaris piisab, kui lisate Projecti või Issue juurde lingi allikale, litsentsi
+nimetuse ja ühe lausega põhjenduse, miks kasutus on lubatud. Põhjalikum litsentsi
+ja kolmandate osapoolte riskide analüüs tuleb seminaris 4.
+
 ### Esimene meeskonnatöövoog VS Code'is
 
 Esimese seminari terminalitöövoo kinnistamiseks tee muudatus VS Code'is ja Giti sammud selle terminalis. **Haru** võimaldab enda muudatust eraldi arendada. **Pull request (PR)** on palve see üle vaadata ja peaharusse ühendada (*merge*).

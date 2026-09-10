@@ -141,6 +141,20 @@ Ilus kastide kogum ilma põhjendatud piiride ja seosteta ei ole arhitektuuriline
 
 ---
 
+# Milline on hea commit'i sõnum?
+
+---
+
+## Üks commit, üks loogiline muudatus
+
+- `Describe system boundary` ütleb, mida muudeti.
+- `update` või `fix stuff` ei aita hiljem ajaloost aru saada.
+- Commit ei pea olema suur ega neid pea olema võimalikult palju.
+
+Hea commit toetab otsuste ülevaatamist ja vajaduse korral muudatuse leidmist.
+
+---
+
 ## Tänane meeskonnatöö
 
 1. Vaadake üle `v0.1.0`.
@@ -188,4 +202,3 @@ Iga õppija: sisuline panus, PR, ülevaatus ja refleksioon.
 - Kas süsteemi piir on arusaadav?
 - Kas rollide vaated mõjutasid otsust?
 - Mis võib veel muutuda?
-

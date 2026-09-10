@@ -6,6 +6,7 @@
 
 - Loo organisatsiooni `TLUHK-RIF26` meeskonnarepositooriumid.
 - Anna kõigile liikmetele vajalik ligipääs.
+- Loo iga meeskonnarepo juurde GitHub Project veergudega `Backlog`, `In progress`, `Review` ja `Done` ning näita, kuidas Issue Projectiga siduda.
 - Lisa repodesse või jaga lingina kursuse mallid.
 - Valmista ette GOV.UK discovery juhtumi lühikokkuvõte.
 - Ära saada meeskondadele valmis probleemide nimekirja. Varunimekiri on ainult neile, kes ei leia pärast juhendatud vaatlust ühtegi kandidaati.
@@ -57,7 +58,8 @@ Alusta probleemide leidmise teemaga. Esimese kümne minuti sees kuluta kuni viis
 
 - Probleemikandidaatide kirjapanekul meenuta Markdowni pealkirju, loendeid ja linke. Lase õppijatel samal ajal kandidaate esialgselt võrrelda.
 - Repo avamisel kontrolli õiget kausta ja repot. Esimeses seminaris kulus just sellele palju abi.
-- Esimese otsuse salvestamisel korda `git status → git add → git diff --cached → git commit → git push`. Peamine kordus järgib tunnis kasutatud terminalitöövoogu; Source Control sobib tuttava alternatiivina.
+- Esimese otsuse salvestamisel korda `git status → git add → git diff --cached → git commit → git push`. Peamine kordus järgib tunnis kasutatud terminalitöövoogu; Source Control sobib tuttava alternatiivina. Töö staatust liiguta samal ajal GitHub Projectsis.
+- Litsentside juures piisa allikast, litsentsi nimetusest ja kasutusõiguse põhjendusest; detailne riskianalüüs jääb neljandasse seminari.
 - Pärast kaaslase PR-i ühendamist näita, miks kohalik koopia vajab `pull`-i. Harjuta seda puhta töökaustaga peaharus.
 - Viimases kümnes minutis näita tag'i, GitHub Release'i ja release notes'i erinevust ning esimese release'i loomist. Kodutöös korratakse sama protsessi.
 

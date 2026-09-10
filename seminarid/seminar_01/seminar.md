@@ -335,11 +335,18 @@ Tarkvara arendamisel kasutatakse mitut erineva ülesandega töövahendit.
 | GitHub | Giti repositooriumide veebis hoidmine ja meeskonnatöö |
 | GitHub CLI (`gh`) | GitHubi repositooriumide ja Issue'de kasutamine terminalist |
 | Markdown | lihtsa vormindusega dokumentatsiooni kirjutamine |
+| Disainitööriistad (nt Figma) | kasutajaliidese ja kasutajakogemuse kavandamine |
+| Projektihalduse tööriistad (nt GitHub Projects, Jira, ClickUp) | tööde, vastutajate ja edenemise korraldamine |
 | Node.js | JavaScripti käivitamine väljaspool veebibrauserit |
 | npm | Node.js-i pakettide ja projektikäskude haldamine |
 | Docker | rakenduse ja selle keskkonna pakendamine konteinerisse |
 
 Need töövahendid ei asenda üksteist. Nad moodustavad omavahel seotud arenduskeskkonna.
+
+Töövahendite vajadus sõltub rollist ja projekti etapist. Selles loengus
+tegeleme piiratult peamiselt koodi loomise ja seda toetava Giti/GitHubi töövoo
+tarkvaraga. Disaini- ja projektihalduse tööriistu nimetame, kuid ei õpeta siin
+eraldi kasutama.
 
 ```text
 VS Code
@@ -397,13 +404,35 @@ winget install --id Git.Git -e --source winget
 
 #### macOS
 
-macOS võib pakkuda Giti või Xcode Command Line Toolsi paigaldamist, kui käivitad esimest korda `git --version`. Kui paigaldusdialoogi ei ilmu, proovi:
+Kursusel soovitame Giti paigaldamiseks **[Homebrew'd](https://brew.sh/)**. Homebrew on paketihaldur: selle abil saab terminalist programme paigaldada ja uuendada. See on mugav valik arenduskeskkonna jaoks, sest sama tööriistaga saab hiljem hallata ka teisi arendusvahendeid. Homebrew'd nimetab ühe paigaldusvõimalusena ka [Giti ametlik macOS-i juhend](https://git-scm.com/install/mac).
+
+1. Kui Homebrew puudub, järgi [ametliku avalehe](https://brew.sh/) paigaldusjuhist.
+2. Täida paigaldaja lõpus näidatud **Next steps**, sealhulgas terminali otsingutee seadistamine, kui seda küsitakse. Homebrew vajab Xcode Command Line Toolsi; järgi paigaldaja juhiseid ka nende lisamiseks.
+3. Ava uus terminal ja käivita:
+
+```bash
+brew --version
+brew install git
+git --version
+command -v git
+```
+
+Viimane käsk näitab, milline Git käivitub. Homebrew tavapärane Giti asukoht on Apple Siliconi Macis `/opt/homebrew/bin/git` ja Inteli Macis `/usr/local/bin/git`. Kui näed `/usr/bin/git`, käivitub Apple'i Git; kontrolli Homebrew **Next steps** juhiseid ja ava ka VS Code uuesti.
+
+Edaspidi saab Homebrew kaudu paigaldatud Giti uuendada:
+
+```bash
+brew update
+brew upgrade git
+```
+
+Homebrew on meie soovitus, mitte ainus sobiv viis. Kui Git juba töötab, ei pea seda kodutöö tegemiseks ümber paigaldama. Apple pakub Giti ka Xcode Command Line Toolsi koosseisus:
 
 ```bash
 xcode-select --install
 ```
 
-Teised võimalused on [macOS-i Giti paigaldusjuhendis](https://git-scm.com/install/mac).
+Vanema macOS-i või paigaldustõrke korral vaata [Homebrew süsteeminõudeid](https://docs.brew.sh/Installation). Git Bash on Windowsi keskkond; Macis sobib olemasolev Zsh. Homebrew paigaldab programme ega asenda käsukesta.
 
 #### Linux
 

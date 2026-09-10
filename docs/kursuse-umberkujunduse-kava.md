@@ -145,7 +145,7 @@ Kõik seminarid kestavad kaks korda 90 minutit. Projektiseminaris jäetakse väh
 | Probleemikandidaatide võrdlemine | 10 min |
 | Valikukriteeriumid ja esimese otsuse vormistamine | 10 min |
 | Kerge valideerimise kavand | 10 min |
-| GitHubi töövoog: Issue, haru, commit, PR, ülevaatus ja pull | 30 min |
+| GitHubi töövoog: Project, Issue, haru, commit, PR, ülevaatus ja pull | 30 min |
 | Kodutöö, refleksioon ja release `v0.1.0` | 10 min |
 
 **Kodutöö maht õppija kohta:** ligikaudu 8 tundi.

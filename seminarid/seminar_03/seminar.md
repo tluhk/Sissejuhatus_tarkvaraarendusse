@@ -70,6 +70,20 @@ Selles kursuses ei kavandata detailset tehnilist arhitektuuri. Kirjeldage piisav
 
 Skeem on kasulik ainult siis, kui see selgitab mõtet. Ilus, kuid põhjendamata kastide kogum ei ole eesmärk.
 
+## Hea commit'i sõnum
+
+Commit on üks tähenduslik muudatuste komplekt, mitte kogu päeva juhuslik
+salvestus. Hea commit:
+
+- teeb ühe loogilise asja;
+- kasutab tegusõnalist ja arusaadavat sõnumit, näiteks `Describe system boundary`;
+- ei sega kokku vorminduse, ümbernimetamise ja sisulise muudatuse eri eesmärke;
+- lubab hiljem ajaloost aru saada ja vajaduse korral muudatuse üle vaadata.
+
+Seminaris 2 harjutasime commit'i tegemist. Selles seminaris seome hea sõnumi
+otsuse põhjendusega ning võrdleme halba sõnumit (`update`, `fix stuff`) sisulise
+sõnumiga. Commit'i hea tava ei tähenda võimalikult suurt commit'ide arvu.
+
 ## Seminari praktiline töö
 
 1. Vaadake üle release `v0.1.0` ja nimetage üks muutunud arusaam.
@@ -93,4 +107,3 @@ Seminari lõpuks on:
 ## Kodutöö ja release
 
 [Kodutöö 3: release `v0.2.0`](homework.md)
-

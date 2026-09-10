@@ -30,6 +30,10 @@ Täiendage ka README-s rollide ja töövoo osa. Skeem on vabatahtlik, kui selge 
 5. Pull request, teise töö sisuline ülevaatus ja parandused – 1 h.
 6. Individuaalne refleksioon ja release – 1 h.
 
+Vähemalt üks sinu commit peab järgima seminari head tava: see teeb ühe
+loogilise muudatuse ja sõnum kirjeldab tulemust (näiteks `Describe system
+boundary`), mitte ainult tegevust (`update` või `fix`).
+
 ## Nõuded otsustele
 
 Tööviisi otsus sisaldab vähemalt kolme võrreldud varianti. Selgitage, kuidas valik sobib just teie probleemi, ebakindluse ja meeskonnaga. Kui ühendate eri meetodite võtteid, nimetage iga võtte eesmärk.
@@ -71,4 +75,3 @@ Release manageri roll läheb õppijale, kes ei teinud eelmist release'i. Ta kont
 ## Esitamine
 
 Lisage kodutöö Issue kommentaari release'i, enda refleksiooni, enda PR-i ja tehtud ülevaatuse lingid.
-
