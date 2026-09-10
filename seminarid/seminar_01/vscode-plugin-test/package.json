@@ -1,0 +1,10 @@
+{
+  "name": "vscode-plugin-test",
+  "private": true,
+  "scripts": {
+    "lint": "oxlint script.js"
+  },
+  "devDependencies": {
+    "oxlint": "latest"
+  }
+}

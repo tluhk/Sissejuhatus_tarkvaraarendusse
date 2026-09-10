@@ -6,9 +6,13 @@
 - Markdown
 
 ### **Materjalid:**
-- [Slaidid](../docs/git_koolis.md)
+- [Seminari materjal](../seminarid/seminar_01/seminar.md)
+- [Slaidid](../seminarid/seminar_01/slides.html)
 - [Seminari 1. poole salvestus](https://hktluee-my.sharepoint.com/:v:/g/personal/mrt_hk_tlu_ee/EYp6Ym2k7nVKnXMMZ1FG8nwBKYJyA0ewqVmRT5F8gyU6NA?e=9915fe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - [Seminari 2. poole salvestus](https://hktluee-my.sharepoint.com/:v:/g/personal/mrt_hk_tlu_ee/EZio-byM-qBEp4Y_iUEwq6EBPdSxe4tU2qz1UG0-YKJiEw?e=WXwLvu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+### **Kodutöö:**
+[Kodutöö 1: minu arenduskeskkond](../seminarid/seminar_01/homework.md)
 
 ## **Seminar 2: Uurimine**
 

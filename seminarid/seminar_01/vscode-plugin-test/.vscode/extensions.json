@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "oxc.oxc-vscode",
+    "usernamehw.errorlens",
+    "ritwickdey.LiveServer",
+    "streetsidesoftware.code-spell-checker",
+    "streetsidesoftware.code-spell-checker-estonian",
+    "editorconfig.editorconfig",
+    "ecmel.vscode-html-css",
+    "formulahendry.auto-rename-tag",
+    "eamodio.gitlens",
+    "emapco.nu-minify",
+    "ms-vsliveshare.vsliveshare"
+  ],
+  "unwantedRecommendations": ["dbaeumer.vscode-eslint"]
+}
