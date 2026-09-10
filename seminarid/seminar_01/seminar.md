@@ -4,10 +4,13 @@
 
 Esimeses seminaris saad ülevaate kursusest, tarkvarast ja tarkvaraarenduse elutsüklist. Seminari praktilises osas seadistad töövahendid, mida kasutame kogu kursuse jooksul.
 
+Kursuse läbiv mõte on, et **tarkvaraarendus on meeskonnatöö**. Tarkvara loovad koos kasutajad, tellija, analüütikud, disainerid, arendajad ja testijad. See kehtib ka siis, kui suure osa koodist kirjutab AI: vastutus tulemuse eest, otsused ja kokkulepped jäävad inimestele ja meeskonnale.
+
 Seminari lõpuks:
 
-- oskad oma sõnadega selgitada, mis on tarkvara ja tarkvaraarendus;
+- oskad oma sõnadega selgitada, mis on programm, tarkvara ja tarkvaraarendus;
 - tead, et programmeerimine on ainult üks osa tarkvaraarendusest;
+- tead, et tarkvaraarendus on meeskonnatöö ka AI-vahendite kasutamisel;
 - tunned tarkvaraarenduse elutsükli peamisi etappe;
 - oskad nimetada võimalusi ja riske, mida AI tarkvaraarendusse toob;
 - tead, milleks kasutatakse VS Code'i, terminali, Giti, GitHubi, Node.js-i ja Dockerit;
@@ -19,13 +22,13 @@ Seminari lõpuks:
 
 Seminar koosneb kahest 90-minutilisest osast.
 
-### I osa: tarkvara, arendusprotsess ja töövahendite tervikpilt
+### I osa: mis on tarkvaraarendus?
 
 | Aeg | Teema | Kestus |
 |---|---|---:|
 | 0:00–0:10 | Kursus ja tänase seminari eesmärk | 10 min |
-| 0:10–0:30 | Programm, tarkvara ja selle roll | 20 min |
-| 0:30–0:50 | Tarkvaraarendus ja elutsükkel | 20 min |
+| 0:10–0:30 | Programm ja tarkvara ning tarkvara roll | 20 min |
+| 0:30–0:50 | Tarkvaraarendus ja selle elutsükkel | 20 min |
 | 0:50–1:05 | AI tarkvaraarenduses | 15 min |
 | 1:05–1:20 | Arendaja töövahendite tervikpilt | 15 min |
 | 1:20–1:30 | Paigalduste alustamine ja puhver | 10 min |
@@ -45,33 +48,15 @@ Seminar koosneb kahest 90-minutilisest osast.
 
 ---
 
-# I osa: mida me arendame?
+# I osa: mis on tarkvaraarendus?
 
-## 1. Kursuse ülevaade
+Esimeses osas liigume üldisemalt konkreetsemale: kõigepealt selgitame, mis on programm ja tarkvara, seejärel milline on tarkvara roll, mis on tarkvaraarendus ja milline on selle elutsükkel, kuidas AI arendust muudab ning milliseid töövahendeid arendaja kasutab.
 
-### Avaküsimus
+## 1. Kursus ja tänane seminar
 
-> Mis on teie arvates tarkvaraarendus?
+### Mida kursusel teeme?
 
-Arutame seda kõigepealt koos. Paku välja tegevusi, mis sinu arvates tarkvaraarenduse juurde kuuluvad. Selles etapis ei ole vaja jõuda ühe täpse definitsioonini.
-
-**Õppejõule:** kirjuta pakutud tegevused tahvlile või ühisesse dokumenti. Ära hakka vastuseid kohe õigeks või valeks hindama. Kui arutelu ei käivitu, kasuta jätkuküsimusi:
-
-- Millest tarkvara loomine algab?
-- Kes peale programmeerija tarkvara loomises osalevad?
-- Mis peab juhtuma enne koodi kirjutamist?
-- Mis juhtub pärast seda, kui kood on valmis?
-- Kas töötav, kuid kasutaja probleemi mitte lahendav programm on õnnestunud tarkvara?
-
-Tõenäoliselt pakutakse ühe vastusena **programmeerimist ehk koodi kirjutamist**. See vastus on õige, kuid kirjeldab ainult ühte osa tervikust.
-
-> Tarkvaraarendus ei võrdu programmeerimisega. Programmeerimine on üks tarkvaraarenduse tegevustest.
-
-Tarkvaraarendus hõlmab probleemi ja kasutajate vajaduste mõistmist, nõuete kirjeldamist, lahenduse kavandamist, töö planeerimist, programmeerimist, testimist, avaldamist ja hooldamist. Kursuse jooksul vaatame seda tervikliku protsessina.
-
-### Kuidas kursus sellele küsimusele vastab?
-
-Liigume üldjoontes läbi järgmise teekonna:
+Kursuse jooksul läbime tarkvaraarenduse teekonna ühe projekti kaudu:
 
 ```text
 Probleem
@@ -93,11 +78,21 @@ Avaldamine ja hooldus
 
 Kursuse läbiv praktiline töö toimub GitHubis. Kasutame GitHubi nii failide hoidmiseks, muudatuste jälgimiseks, ülesannete planeerimiseks kui ka koostööks.
 
-### Teine aruteluküsimus
+### Aruteluküsimus
 
 Millise tarkvara kasutamine mõjutas sinu tänast päeva juba enne seminari algust?
 
 ## 2. Programm ja tarkvara
+
+### Mis on tarkvara?
+
+Alustame kõige üldisemast küsimusest.
+
+> Mis on tarkvara? Kas programm ja tarkvara on sama asi?
+
+**Õppejõule:** lase õppijatel pakkuda näiteid ja erinevusi enne definitsioonide andmist.
+
+Lühidalt: tarkvara on kõik see, mis paneb riistvara kasuliku ülesande jaoks tööle. Tarkvara ei koosne ainult koodist.
 
 ### Mis on programm?
 
@@ -112,7 +107,7 @@ Programm võib näiteks:
 - saata sõnumi;
 - otsida andmebaasist vajalikku teavet.
 
-### Mis on tarkvara?
+### Programm vs tarkvara
 
 Tarkvara on programmist laiem mõiste. Tarkvara võib koosneda:
 
@@ -160,11 +155,35 @@ Valige üks tarkvara, mida mõlemad kasutate.
 3. Mis juhtuks, kui see töötaks valesti?
 4. Millest see lisaks nähtavale kasutajaliidesele koosneda võib?
 
-## 4. Mis on tarkvaraarendus?
+## 4. Tarkvaraarendus ja selle elutsükkel
+
+### Avaküsimus
+
+Nüüd, kui teame, mis on tarkvara, küsime, kuidas see sünnib.
+
+> Mis on teie arvates tarkvaraarendus?
+
+Arutame seda kõigepealt koos. Paku välja tegevusi, mis sinu arvates tarkvaraarenduse juurde kuuluvad. Selles etapis ei ole vaja jõuda ühe täpse definitsioonini.
+
+**Õppejõule:** kirjuta pakutud tegevused tahvlile või ühisesse dokumenti. Ära hakka vastuseid kohe õigeks või valeks hindama. Kui arutelu ei käivitu, kasuta jätkuküsimusi:
+
+- Millest tarkvara loomine algab?
+- Kes peale programmeerija tarkvara loomises osalevad?
+- Mis peab juhtuma enne koodi kirjutamist?
+- Mis juhtub pärast seda, kui kood on valmis?
+- Kas töötav, kuid kasutaja probleemi mitte lahendav programm on õnnestunud tarkvara?
+
+Tõenäoliselt pakutakse ühe vastusena **programmeerimist ehk koodi kirjutamist**. See vastus on õige, kuid kirjeldab ainult ühte osa tervikust.
+
+### Mis on tarkvaraarendus?
 
 Tarkvaraarendus on protsess, mille käigus uuritakse probleemi, kavandatakse lahendus, luuakse tarkvara, kontrollitakse selle kvaliteeti ning hooldatakse seda pärast kasutuselevõttu.
 
 > Tarkvaraarendus ei võrdu programmeerimisega. Programmeerimine ehk koodi kirjutamine on üks osa tarkvaraarendusest.
+
+Tarkvaraarendus hõlmab probleemi ja kasutajate vajaduste mõistmist, nõuete kirjeldamist, lahenduse kavandamist, töö planeerimist, programmeerimist, testimist, avaldamist ja hooldamist. Kursuse jooksul vaatame seda tervikliku protsessina.
+
+### Kes tarkvara arendavad?
 
 Tarkvara ei loo tavaliselt üks inimene. Arendusse võivad panustada:
 
@@ -178,7 +197,15 @@ Tarkvara ei loo tavaliselt üks inimene. Arendusse võivad panustada:
 
 Ühes projektis võib inimene täita mitut rolli. Teises projektis võib iga rolliga tegeleda terve meeskond.
 
-## 5. Tarkvaraarenduse elutsükkel
+### Tarkvaraarendus on meeskonnatöö
+
+Tarkvara ei loo tavaliselt üks inimene. Ka kursuse projekt on meeskonnatöö: jagame ülesandeid, vaatame üksteise tööd üle ja lepime kokku, kuidas asju teeme.
+
+See kehtib ka AI-vahendite kasutamisel. AI võib kirjutada koodi, pakkuda lahendusi ja koostada dokumentatsiooni, kuid ei otsusta, millist probleemi lahendame, ei lepi kokku meeskonna töökorraldust ega vastuta tulemuse eest. Need jäävad inimestele.
+
+**Õppejõule:** see on kursuse läbiv mõte. Tule selle juurde tagasi AI-peatükis ning GitHubi töövoo juures.
+
+### Tarkvaraarenduse elutsükkel
 
 Tarkvaraarenduse elutsükkel ehk **SDLC** (*Software Development Life Cycle*) kirjeldab tegevusi, mida on vaja tarkvara loomiseks ja käigus hoidmiseks.
 
@@ -250,7 +277,7 @@ MVP ja järkjärguline arendus sobivad hästi agiilse mõtteviisiga, kuid need e
 
 Nii kosemudelis kui ka iteratiivses arenduses on vaja probleemi mõista, tööd kavandada, tulemust kontrollida ja tehtut dokumenteerida.
 
-## 6. AI tarkvaraarenduses
+## 5. AI tarkvaraarenduses
 
 AI ei ole tarkvaraarenduse elutsüklis ainult koodi kirjutamise tööriist. See võib toetada peaaegu kõiki etappe.
 
@@ -264,7 +291,7 @@ AI ei ole tarkvaraarenduse elutsüklis ainult koodi kirjutamise tööriist. See 
 | Dokumentatsioon | mustandid, kokkuvõtted ja näited | faktiline täpsus ja vastavus tegelikule süsteemile |
 | Hooldus | logide, vigade ja vana koodi analüüs | muudatuse mõju kogu süsteemile |
 
-AI võib muuta töö kiiremaks, kuid ei võta inimeselt vastutust.
+AI võib muuta töö kiiremaks, kuid ei võta inimeselt vastutust. Tarkvaraarendus jääb ka AI-vahendeid kasutades meeskonnatööks: mida ehitada, kuidas tööd jagada ja kas tulemus kõlbab, otsustavad inimesed koos.
 
 ### AI kasutamise põhimõtted
 
@@ -279,7 +306,7 @@ AI võib muuta töö kiiremaks, kuid ei võta inimeselt vastutust.
 
 Kui AI loob töötava koodi, siis kes vastutab selle eest, et kood oleks turvaline ja vastaks kasutaja vajadusele?
 
-## 7. Arendaja töövahendite tervikpilt
+## 6. Arendaja töövahendite tervikpilt
 
 Tarkvara arendamisel kasutatakse mitut erineva ülesandega töövahendit.
 
@@ -309,7 +336,7 @@ VS Code
     └── Docker
 ```
 
-## 8. Alustame paigaldustega
+## 7. Alustame paigaldustega
 
 Kui vajalikud programmid pole veel arvutis, alusta nende allalaadimist enne esimese osa lõppu. Paigaldamist jätkame teises osas.
 
@@ -405,7 +432,7 @@ Git for Windows sisaldab Git Credential Manageri. Teistes süsteemides kontrolli
 
 # II osa: arenduskeskkonna seadistamine
 
-## 9. VS Code, koodiredaktor ja IDE
+## 8. VS Code, koodiredaktor ja IDE
 
 **IDE** on lühend ingliskeelsest nimetusest *Integrated Development Environment* ehk integreeritud arenduskeskkond.
 
@@ -448,7 +475,7 @@ Kui oled mõnda neist kasutanud, kirjelda lühidalt:
 4. Leia vasakult Explorer ja Source Control.
 5. Ava menüüst **Terminal → New Terminal**.
 
-## 10. Terminal ja käsukest (*shell*)
+## 9. Terminal ja käsukest (*shell*)
 
 **Terminal** on kasutajaliides, kuhu saab kirjutada tekstikäske ja näha nende väljundit.
 
@@ -493,7 +520,7 @@ npm --version
 
 Töövahendid on valmis, kui terminal näitab Giti, Node.js-i ja npm-i versiooninumbreid.
 
-## 11. Git ja GitHub
+## 10. Git ja GitHub
 
 ### Git
 
@@ -634,7 +661,7 @@ gh issue list --help
 
 > Enne andmeid muutva `gh` käsu kasutamist kontrolli sihtrepositooriumi ja loe käsu abi. Ära jaga autentimisvõtmeid ega muid sisselogimisandmeid.
 
-## 12. Praktiline töö: esimene repositoorium ja muudatus
+## 11. Praktiline töö: esimene repositoorium ja muudatus
 
 Praktilise töö eesmärk on läbida esimene terviklik töövoog:
 
@@ -727,7 +754,7 @@ Töö on valmis, kui:
 - VS Code'i Source Control ei näita saatmata muudatusi;
 - GitHubis on näha uus commit ja README uuendatud sisu.
 
-## 13. Markdown
+## 12. Markdown
 
 Markdown on lihtne märgistuskeel struktureeritud teksti kirjutamiseks. Markdown-faili tunneb tavaliselt ära laiendi `.md` järgi.
 
@@ -761,7 +788,7 @@ Tavaline tekst ja **paks tekst**.
 
 Markdown kirjeldab dokumendi struktuuri. See ei ole mõeldud täpse kujunduse tegemiseks nagu küljendusprogramm.
 
-## 14. Node.js, npm, Docker ja arenduskeskkond
+## 13. Node.js, npm, Docker ja arenduskeskkond
 
 ### Node.js
 
@@ -797,7 +824,7 @@ Selle kursuse algne arenduskeskkond koosneb vähemalt järgmistest osadest:
 - Node.js ja npm;
 - projektide jaoks korrastatud kaust arvutis.
 
-## 15. Seminari lõpu kontroll
+## 14. Seminari lõpu kontroll
 
 Enne seminari lõppu kontrolli:
 
@@ -823,7 +850,7 @@ Kui mõni punkt jäi pooleli, kirjuta üles:
 
 See kirjeldus aitab probleemi järgmises tunnis või iseseisvalt lahendada.
 
-## 16. Kodutöö
+## 15. Kodutöö
 
 Kodutöös dokumenteerib õppija oma arenduskeskkonna olemasolevas `SJTA` repositooriumis, vaatab muudatuse üle ning teeb commit'i ja push'i.
 

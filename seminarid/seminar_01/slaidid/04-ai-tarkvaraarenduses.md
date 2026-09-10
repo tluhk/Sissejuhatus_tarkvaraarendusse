@@ -75,3 +75,5 @@ Kontrollida tuleb vähemalt:
 > Kasuta AI-d abilisena, kuid ole valmis tulemust kontrollima, parandama ja enda tehtud otsuseid selgitama.
 
 Vastutus esitatud töö eest jääb õppijale ja meeskonnale.
+
+Tarkvaraarendus on meeskonnatöö ka siis, kui osa tööst teeb AI.

@@ -3,10 +3,67 @@ marp: true
 theme: default
 paginate: true
 header: Sissejuhatus tarkvaraarendusse
-footer: Seminar 1 – tarkvaraarenduse elutsükkel
+footer: Seminar 1 – tarkvaraarendus ja elutsükkel
 ---
 
-# Millest tarkvaraarendus algab?
+# Mis on teie arvates tarkvaraarendus?
+
+Nüüd teame, mis on tarkvara. Kuidas see sünnib?
+
+Paku tegevusi, mis kuuluvad tarkvaraarenduse juurde.
+
+<!-- Õppejõule: kogu vastused tahvlile. Ära veel anna definitsiooni ega hinda vastuseid. -->
+
+---
+
+## Mõtle veel
+
+- Millest tarkvara loomine algab?
+- Kes peale programmeerija selles osalevad?
+- Mis toimub enne koodi kirjutamist?
+- Mis toimub pärast koodi valmimist?
+- Kas töötav, kuid valet probleemi lahendav programm on õnnestunud tarkvara?
+
+<!-- Õppejõule: kasuta neid küsimusi ainult siis, kui arutelu vajab käivitamist. -->
+
+---
+
+# „Tarkvaraarendus on koodi kirjutamine”
+
+---
+
+# „Tarkvaraarendus on koodi kirjutamine”
+
+See on õige...
+
+...aga kirjeldab ainult ühte osa tervikust.
+
+---
+
+## Mis on tarkvaraarendus?
+
+Tarkvaraarendus on protsess, mille käigus:
+
+1. uuritakse probleemi;
+2. kavandatakse lahendus;
+3. ehitatakse tarkvara;
+4. kontrollitakse selle kvaliteeti;
+5. avaldatakse ja hooldatakse tulemust.
+
+Programmeerimine on üks nendest tegevustest.
+
+---
+
+## Programmeerimine on üks arendustegevus
+
+Tarkvaraarendus hõlmab:
+
+- probleemi ja kasutajate mõistmist;
+- nõuete kirjeldamist;
+- lahenduse kavandamist;
+- töö planeerimist;
+- programmeerimist;
+- testimist, avaldamist ja hooldamist.
 
 ---
 
@@ -33,18 +90,6 @@ Enne lahenduse ehitamist peame teadma:
 
 ---
 
-## Tarkvaraarendus
-
-Tarkvaraarendus on protsess, mille käigus:
-
-1. uuritakse probleemi;
-2. kavandatakse lahendus;
-3. ehitatakse tarkvara;
-4. kontrollitakse selle kvaliteeti;
-5. avaldatakse ja hooldatakse tulemust.
-
----
-
 # Kes tarkvara arendavad?
 
 <!-- Õppejõule: lase nimetada ameteid ja inimesi, mitte ainult arendajaid. -->
@@ -62,6 +107,39 @@ Tarkvaraarendus on protsess, mille käigus:
 - süsteemi-, andme- ja turvaspetsialistid.
 
 Üks inimene võib täita mitut rolli.
+
+---
+
+# Tarkvaraarendus on meeskonnatöö
+
+Ka siis, kui suure osa koodist kirjutab AI.
+
+<!-- Õppejõule: see on kursuse läbiv mõte. Tuleme selle juurde tagasi AI-peatükis ja GitHubi töövoo juures. -->
+
+---
+
+## Miks meeskonnatöö?
+
+- keegi peab mõistma probleemi ja kasutajaid;
+- keegi peab otsustama, mida ehitada;
+- keegi peab tulemust kontrollima;
+- keegi peab tulemuse eest vastutama.
+
+Ka kursuse projekt on meeskonnatöö: jagame ülesandeid, vaatame üksteise tööd üle ja lepime kokku, kuidas asju teeme.
+
+---
+
+## Aga AI?
+
+AI võib:
+
+- kirjutada koodi;
+- pakkuda lahendusi;
+- koostada dokumentatsiooni.
+
+AI ei otsusta, millist probleemi lahendame, ei lepi kokku meeskonna töökorraldust ega vastuta tulemuse eest.
+
+Need jäävad inimestele.
 
 ---
 

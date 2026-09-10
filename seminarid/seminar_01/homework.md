@@ -68,7 +68,7 @@ npm --version: ...
 
 ## Mida õppisin?
 
-Kirjuta 3–5 lauset sellest, mis oli uus, milline seadistamise või Giti samm oli kõige keerulisem ning miks ei tähenda tarkvaraarendus ainult koodi kirjutamist.
+Kirjuta 3–5 lauset sellest, mis oli uus, milline seadistamise või Giti samm oli kõige keerulisem ning miks ei tähenda tarkvaraarendus ainult koodi kirjutamist ja miks on see meeskonnatöö ka siis, kui osa tööst teeb AI.
 ````
 
 Kopeeri versiooninumbrid terminalist, kuid ära lisa faili kasutajanimesid, paroole, võtmeid ega muud tundlikku teavet. Dockerit ei pea selle kodutöö jaoks paigaldama.

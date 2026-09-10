@@ -13,7 +13,7 @@ footer: Seminar 1
 
 ## Tänased eesmärgid
 
-- mõista, mida tarkvaraarendus hõlmab;
+- mõista, mis on programm, tarkvara ja tarkvaraarendus;
 - saada ülevaade kursusest;
 - tutvuda arendaja põhiliste töövahenditega;
 - seadistada enda arenduskeskkond;
@@ -21,14 +21,15 @@ footer: Seminar 1
 
 ---
 
-## I osa – 90 minutit
+## I osa – mis on tarkvaraarendus?
 
-1. Mis on tarkvaraarendus?
-2. Programm ja tarkvara
-3. Tarkvara roll
-4. Tarkvaraarenduse elutsükkel
-5. AI tarkvaraarenduses
-6. Arendaja töövahendid
+1. Programm ja tarkvara
+2. Tarkvara roll
+3. Tarkvaraarenduse elutsükkel
+4. AI tarkvaraarenduses
+5. Arendaja töövahendid
+
+Liigume üldisemalt konkreetsemale: tarkvarast selle loomise ja töövahenditeni.
 
 ---
 

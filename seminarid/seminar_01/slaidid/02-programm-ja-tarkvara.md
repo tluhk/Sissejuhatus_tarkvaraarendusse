@@ -6,9 +6,15 @@ header: Sissejuhatus tarkvaraarendusse
 footer: Seminar 1 – programm ja tarkvara
 ---
 
+# Mis on tarkvara?
+
+<!-- Õppejõule: alustame kõige üldisemast mõistest. Lase õppijatel pakkuda oma sõnastusi ja näiteid. -->
+
+---
+
 # Kas programm ja tarkvara on sama asi?
 
-<!-- Õppejõule: lase õppijatel pakkuda näiteid ja erinevusi. -->
+<!-- Õppejõule: lase õppijatel pakkuda näiteid ja erinevusi enne definitsioone. -->
 
 ---
 
@@ -26,15 +32,17 @@ Programm võib:
 
 ---
 
-## Tarkvara on programmist laiem mõiste
+## Programm vs tarkvara
 
-Tarkvara võib koosneda:
+Tarkvara on programmist laiem mõiste. Tarkvara võib koosneda:
 
 - ühest või mitmest programmist;
 - lähtekoodist ja andmetest;
 - seadistustest;
 - dokumentatsioonist;
 - välistest teekidest ja teenustest.
+
+Tarkvara ei koosne ainult koodist.
 
 ---
 
@@ -80,3 +88,16 @@ Mida see tarkvara sinu eest tegi?
 - pangarakendus – tuvastas kasutaja ja töötles tehinguid.
 
 Tarkvara on peidetud paljudesse igapäevastesse tegevustesse.
+
+---
+
+## Tarkvaral on tagajärjed
+
+Halvasti kavandatud või testitud tarkvara võib põhjustada:
+
+- andmekadu;
+- rahalist kahju;
+- privaatsuse rikkumist;
+- ohtu inimese tervisele.
+
+Ei piisa sellest, et programm „minu arvutis töötab”.
