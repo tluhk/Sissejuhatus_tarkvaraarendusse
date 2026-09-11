@@ -112,7 +112,7 @@ Kirjuta siia paar lauset.
 
 Enne commit'i tegemist vaata muudatus alati üle.
 
-<!-- Õppejõule: lase õppijatel kirjeldada VS Code'i diff-vaate värve ja sümboleid. -->
+<!-- Arutelu: kirjeldage VS Code'i diff-vaate värve ja sümboleid. -->
 
 ---
 
@@ -143,7 +143,7 @@ Commit salvestab muudatuse kohalikku repositooriumi.
 
 # Kas muudatus on nüüd GitHubis?
 
-<!-- Õppejõule: ära vajuta veel Sync Changes. Lase õppijatel GitHubi lehte värskendada. -->
+<!-- Praktiline samm: ärge vajutage veel Sync Changes; värskendage GitHubi lehte. -->
 
 ---
 

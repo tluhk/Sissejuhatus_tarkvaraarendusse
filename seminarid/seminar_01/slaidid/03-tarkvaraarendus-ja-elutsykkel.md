@@ -12,7 +12,7 @@ Nüüd teame, mis on tarkvara. Kuidas see sünnib?
 
 Paku tegevusi, mis kuuluvad tarkvaraarenduse juurde.
 
-<!-- Õppejõule: kogu vastused tahvlile. Ära veel anna definitsiooni ega hinda vastuseid. -->
+<!-- Arutelu: koguge vastused ühisesse dokumenti; ärge püüdke veel üht definitsiooni valida. -->
 
 ---
 
@@ -24,7 +24,7 @@ Paku tegevusi, mis kuuluvad tarkvaraarenduse juurde.
 - Mis toimub pärast koodi valmimist?
 - Kas töötav, kuid valet probleemi lahendav programm on õnnestunud tarkvara?
 
-<!-- Õppejõule: kasuta neid küsimusi ainult siis, kui arutelu vajab käivitamist. -->
+<!-- Abiküsimused: kasutage neid, kui arutelu vajab käivitamist. -->
 
 ---
 
@@ -74,7 +74,7 @@ Tarkvaraarendus hõlmab:
 - Heast ideest?
 - Probleemist?
 
-<!-- Õppejõule: küsi enne järgmisele slaidile liikumist põhjendusi. -->
+<!-- Arutelu: põhjendage oma valikuid enne järgmisele slaidile liikumist. -->
 
 ---
 
@@ -92,7 +92,7 @@ Enne lahenduse ehitamist peame teadma:
 
 # Kes tarkvara arendavad?
 
-<!-- Õppejõule: lase nimetada ameteid ja inimesi, mitte ainult arendajaid. -->
+<!-- Arutelu: nimetage erinevaid ameteid ja inimesi, mitte ainult arendajaid. -->
 
 ---
 
@@ -114,7 +114,7 @@ Enne lahenduse ehitamist peame teadma:
 
 Ka siis, kui suure osa koodist kirjutab AI.
 
-<!-- Õppejõule: see on kursuse läbiv mõte. Tuleme selle juurde tagasi AI-peatükis ja GitHubi töövoo juures. -->
+<!-- Meelespea: tuleme selle mõtte juurde tagasi AI-peatükis ja GitHubi töövoo juures. -->
 
 ---
 
@@ -175,7 +175,7 @@ Joonis: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Systems_deve
 
 # Kas arendus liigub alati algusest lõpuni sirgjooneliselt?
 
-<!-- Õppejõule: palu tuua olukordi, mille tõttu tuleb varasema etapi juurde tagasi minna. -->
+<!-- Arutelu: tooge olukordi, mille tõttu tuleb varasema etapi juurde tagasi minna. -->
 
 ---
 
@@ -234,7 +234,7 @@ Iga samm lisab kasutatavale lahendusele uue osa.
 
 **MVP** – *Minimum Viable Product*
 
-<!-- Õppejõule: kogu esmased reaktsioonid. Rõhuta sõna viable tähendust alles järgmisel slaidil. -->
+<!-- Arutelu: koguge esmased reaktsioonid ja arutlege, mida tähendab viable. -->
 
 ---
 

@@ -8,13 +8,13 @@ footer: Seminar 1 – programm ja tarkvara
 
 # Mis on tarkvara?
 
-<!-- Õppejõule: alustame kõige üldisemast mõistest. Lase õppijatel pakkuda oma sõnastusi ja näiteid. -->
+<!-- Mõtlemiseks: sõnastage esmalt oma definitsioon ja tooge näiteid. -->
 
 ---
 
 # Kas programm ja tarkvara on sama asi?
 
-<!-- Õppejõule: lase õppijatel pakkuda näiteid ja erinevusi enne definitsioone. -->
+<!-- Mõtlemiseks: pakkuge näiteid ja erinevusi enne definitsioonide lugemist. -->
 
 ---
 
@@ -75,7 +75,7 @@ Tarkvara ja riistvara töötavad koos.
 
 Mida see tarkvara sinu eest tegi?
 
-<!-- Õppejõule: kogu 3–5 vastust enne järgmisele slaidile liikumist. -->
+<!-- Arutelu: sõnastage 3–5 vastust ja võrrelge neid. -->
 
 ---
 

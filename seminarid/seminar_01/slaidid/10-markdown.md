@@ -10,7 +10,7 @@ footer: Seminar 1 – Markdown
 
 Millised omadused on arendusprojekti dokumentatsiooni puhul olulised?
 
-<!-- Õppejõule: kogu vastused enne Markdowni eeliste näitamist. -->
+<!-- Arutelu: koguge vastused enne Markdowni eeliste vaatamist. -->
 
 ---
 

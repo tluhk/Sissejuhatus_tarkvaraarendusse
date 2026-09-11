@@ -10,7 +10,7 @@ footer: Seminar 1 – AI tarkvaraarenduses
 
 Millistes tarkvaraarenduse tegevustes võiks AI-st abi olla?
 
-<!-- Õppejõule: seo vastused varem näidatud elutsükli etappidega. -->
+<!-- Arutelu: seostage vastused varem näidatud elutsükli etappidega. -->
 
 ---
 
@@ -42,7 +42,7 @@ Tulemust peab kontrollima inimene.
 
 # AI loodud kood töötab. Kas selle võib kohe avaldada?
 
-<!-- Õppejõule: küsi, mida tähendab „töötab” ja millises keskkonnas seda prooviti. -->
+<!-- Arutelu: täpsustage, mida tähendab „töötab” ja millises keskkonnas seda prooviti. -->
 
 ---
 

@@ -8,7 +8,7 @@ footer: Seminar 1 – terminal
 
 # Kas terminal, Git ja GitHub on sama asi?
 
-<!-- Õppejõule: kogu vastused enne mõistete eristamist. -->
+<!-- Arutelu: koguge vastused enne mõistete eristamist. -->
 
 ---
 
@@ -62,7 +62,7 @@ Node.js-i, npm-i ja GitHub CLI kontroll on valikuline; nende puudumine ei takist
 
 # Mida teeb `--version`?
 
-<!-- Õppejõule: lase pakkuda enne vastuse näitamist. -->
+<!-- Mõtlemiseks: pakkuge vastus enne selgituse vaatamist. -->
 
 ---
 

@@ -67,4 +67,4 @@ Kasutame GitHubi:
 
 # Millise tarkvara kasutamine mõjutas sinu tänast päeva juba enne seminari algust?
 
-<!-- Õppejõule: lühike soojendus enne tarkvara mõiste juurde liikumist. -->
+<!-- Mõtlemiseks: meenutage, milline tarkvara mõjutas teie päeva enne seminari. -->

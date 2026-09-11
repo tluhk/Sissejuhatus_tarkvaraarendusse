@@ -10,7 +10,7 @@ footer: Seminar 1 – VS Code ja IDE
 
 Mis vahe neil üldse on?
 
-<!-- Õppejõule: lase õppijatel kirjeldada redaktoreid, mida nad on kasutanud. -->
+<!-- Arutelu: kirjeldage redaktoreid, mida olete kasutanud. -->
 
 ---
 

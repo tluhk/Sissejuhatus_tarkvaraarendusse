@@ -10,7 +10,7 @@ footer: Seminar 1 – arendaja töövahendid
 
 Kas ühest programmist piisab?
 
-<!-- Õppejõule: lase nimetada töövahendeid, mida õppijad juba teavad. -->
+<!-- Arutelu: nimetage töövahendeid, mida juba teate. -->
 
 ---
 
@@ -62,7 +62,7 @@ Vajame täna:
 
 [GitHub CLI](https://cli.github.com/) on kasulik valikuline lisatööriist. Dockerit tutvustame, kuid selle paigaldamine pole täna kohustuslik.
 
-<!-- Õppejõule: lase allalaadimistel pausi ajal jätkuda. -->
+<!-- Praktiline märkus: laske allalaadimistel pausi ajal jätkuda. -->
 
 ---
 

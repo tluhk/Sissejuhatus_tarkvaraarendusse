@@ -107,7 +107,7 @@ Alustame kõige üldisemast küsimusest.
 
 > Mis on tarkvara? Kas programm ja tarkvara on sama asi?
 
-**Õppejõule:** lase õppijatel pakkuda näiteid ja erinevusi enne definitsioonide andmist.
+Pakkuge enne definitsiooni oma näiteid ja erinevusi.
 
 Lühidalt: tarkvara on kõik see, mis paneb riistvara kasuliku ülesande jaoks tööle. Tarkvara ei koosne ainult koodist.
 
@@ -180,9 +180,9 @@ Nüüd, kui teame, mis on tarkvara, küsime, kuidas see sünnib.
 
 > Mis on teie arvates tarkvaraarendus?
 
-Arutame seda kõigepealt koos. Paku välja tegevusi, mis sinu arvates tarkvaraarenduse juurde kuuluvad. Selles etapis ei ole vaja jõuda ühe täpse definitsioonini.
+Arutame seda kõigepealt koos. Pakkuge välja tegevusi, mis teie arvates tarkvaraarenduse juurde kuuluvad. Selles etapis ei ole vaja jõuda ühe täpse definitsioonini.
 
-**Õppejõule:** kirjuta pakutud tegevused tahvlile või ühisesse dokumenti. Ära hakka vastuseid kohe õigeks või valeks hindama. Kui arutelu ei käivitu, kasuta jätkuküsimusi:
+Kirjutage pakutud tegevused tahvlile või ühisesse dokumenti. Ärge püüdke veel vastuseid õigeks või valeks hinnata. Kui arutelu ei käivitu, kasutage jätkuküsimusi:
 
 - Millest tarkvara loomine algab?
 - Kes peale programmeerija tarkvara loomises osalevad?
@@ -220,7 +220,7 @@ Tarkvara ei loo tavaliselt üks inimene. Ka kursuse projekt on meeskonnatöö: j
 
 See kehtib ka AI-vahendite kasutamisel. AI võib kirjutada koodi, pakkuda lahendusi ja koostada dokumentatsiooni, kuid ei otsusta, millist probleemi lahendame, ei lepi kokku meeskonna töökorraldust ega vastuta tulemuse eest. Need jäävad inimestele.
 
-**Õppejõule:** see on kursuse läbiv mõte. Tule selle juurde tagasi AI-peatükis ning GitHubi töövoo juures.
+Jätke see kursuse läbiv mõte meelde: tuleme selle juurde tagasi AI-peatükis ning GitHubi töövoo juures.
 
 ### Tarkvaraarenduse elutsükkel
 

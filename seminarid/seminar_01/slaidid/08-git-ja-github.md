@@ -8,7 +8,7 @@ footer: Seminar 1 – Git ja GitHub
 
 # Mis vahe on Gitil ja GitHubil?
 
-<!-- Õppejõule: lase õppijatel esmalt paarides ühe lausega vastus sõnastada. -->
+<!-- Arutelu: sõnastage esmalt paarides ühe lausega vastus. -->
 
 ---
 
@@ -59,7 +59,7 @@ GitHub = repositooriumid ja koostöö veebis
 - Ainult sinu arvutis?
 - Mõlemas kohas?
 
-<!-- Õppejõule: küsi, mis võib kahes asukohas erineda. -->
+<!-- Arutelu: arutlege, mis võib kahes asukohas erineda. -->
 
 ---
 

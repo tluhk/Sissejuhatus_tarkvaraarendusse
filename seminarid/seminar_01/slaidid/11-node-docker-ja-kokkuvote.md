@@ -10,7 +10,7 @@ footer: Seminar 1 – arenduskeskkond
 
 Kas koodiredaktor oskab ise kõiki programme käivitada?
 
-<!-- Õppejõule: seo küsimus varem selgitatud töövahendite rollidega. -->
+<!-- Arutelu: seostage küsimus varem selgitatud töövahendite rollidega. -->
 
 ---
 
@@ -56,7 +56,7 @@ npm aitab:
 
 # Miks töötab projekt ühes arvutis, aga teises mitte?
 
-<!-- Õppejõule: lase nimetada erinevaid versioone, seadistusi ja puuduvaid teenuseid. -->
+<!-- Arutelu: nimetage erinevaid versioone, seadistusi ja puuduvaid teenuseid. -->
 
 ---
 
@@ -120,7 +120,7 @@ Vaata tagasi seminari alguses antud vastusele.
 
 Mida sa sellele nüüd lisaksid või muudaksid?
 
-<!-- Õppejõule: lõpeta seminar uue ühise definitsiooniga. -->
+<!-- Kokkuvõte: sõnastage seminari lõpus ühine definitsioon. -->
 
 ---
 
