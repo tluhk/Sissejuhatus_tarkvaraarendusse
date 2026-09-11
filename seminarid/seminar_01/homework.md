@@ -2,7 +2,7 @@
 
 ## Ülesanne lühidalt
 
-Täienda oma olemasolevat `SJTA` repositooriumi failiga, milles kirjeldad enda arenduskeskkonda ja näitad, et seminaris seadistatud põhilised töövahendid töötavad. Tee töö Issue'st loodud harus, salvesta muudatus commit'iga, saada see GitHubi ja ava pull request. Enne õppejõu kinnitust vaatab sinu töö üle kaasõppija ning sina vaatad üle tema töö.
+Täienda oma olemasolevat `SJTA` repositooriumi failiga, milles kirjeldad enda arenduskeskkonda ja näitad, et seminaris seadistatud põhilised töövahendid töötavad. Lisaks on ülesandeks vaadata läbi ka mńed videod ja teha neist lühikokkuvõte. Tee töö Issue'st loodud harus, salvesta muudatus commit'iga, saada see GitHubi ja ava pull request. Enne õppejõu kinnitust vaatab sinu töö üle kaasõppija ning sina vaatad üle tema töö.
 
 See ülesanne ei korda varem tehtud õpikeskkonnaga tutvumise ülesannet. Uut repositooriumi ega GitHubi organisatsiooni pole vaja luua.
 
@@ -27,34 +27,6 @@ Issue → haru → fail → commit → push → pull request → kaasõppija ül
 
 Sama töövoogu kasutavad ka kolledži teised GitHubi-põhised ained. Uued mõisted on selgitatud sammude juures ning pikemalt teemade materjalides: [GitHub Issues](../../concepts/githubIssue/README.md), [Pull Request](../../concepts/pullRequest/README.md) ja [Koodi ülevaatus](../../concepts/codeReview/README.md).
 
-## Videod tarkvaraarenduse tööviisidest
-
-Vaata kodutöö osana läbi järgmised lühivideod. Need annavad esimese seminari
-töövahendite kõrval ka ühise sõnavara tarkvaraarenduse protsessi arutamiseks.
-Kõiki videoid ei pea sõna-sõnalt ümber jutustama; pane tähele, millist
-lähenemist või rolli videos selgitatakse.
-
-### Waterfall ja Agile
-
-- [Agile vs. Waterfall Project Management – Wrike](https://www.youtube.com/watch?v=x2LE3FKGEkA)
-- [If You’re Choosing Agile or Waterfall… Watch This First – OeLean](https://www.youtube.com/watch?v=5RocT_OdQcA)
-- [5 Best Techniques for Project Management – upGrad KnowledgeHut](https://www.youtube.com/watch?v=ID2KvYvuN3Y) – üldisem projektijuhtimise ülevaade, milles Waterfall on üks näide.
-
-### Agile'i levinud raamistikud
-
-- [Scrum vs Agile: Key Differences Simplified! – KnowledgeHut](https://www.youtube.com/watch?v=K7YMEFjh724)
-- [What is Scrum? – KnowledgeHut](https://www.youtube.com/watch?v=iJ_sl6J8PRg)
-- [Scrum vs Kanban – KnowledgeHut](https://www.youtube.com/watch?v=F5QIqFEDv2k)
-
-### DevOps
-
-- [DevOps vs Agile – KnowledgeHut](https://www.youtube.com/watch?v=MSjr6sCUniE)
-
-Lisa faili `arenduskeskkond.md` peatüki **Mida õppisin?** lõppu 2–3 lauset,
-milles võrdled Waterfalli ja Agile'i ning nimetad ühe idee, mis jäi Scrumist,
-Kanbanist või DevOpsist meelde. Kui mõni video tekitas küsimuse, kirjuta ka see
-üles – küsimus on täiesti sobiv tulevase seminari arutelupunkt.
-
 ## Ülesanne
 
 ### 1. Ava olemasolev repositoorium
@@ -75,16 +47,16 @@ Loo haru otse Issue'st, siis jääb Issue ja haru seos GitHubis nähtavaks:
 
 1. Ava Issue GitHubis.
 2. Leia parempoolsest veerust osa **Development** ja vajuta **Create a branch**.
-3. Jäta pakutud haru nimi alles, eda ära muuda.
+3. Avaneb modaal, kus pakutakse valikud. Jäta pakutud haru nimi alles, seda ära muuda. Ka muud valikud sobivad.
 4. Vali **Checkout locally** ja vajuta **Create branch**.
-5. GitHub näitab kaht käsku. Käivita need repo kausta terminalis:
+5. Avaneb uus modaal, kus on kaks käsku. Kopeeri need ja kleebi oma masinas repo kausta terminalis:
 
 ```bash
 git fetch origin
 git checkout 1-kodutoo-1-minu-arenduskeskkond
 ```
 
-Asenda haru nimi sellega, mille GitHub sulle andis. `git fetch origin` toob GitHubis loodud haru info arvutisse ja `git checkout` võtab haru kasutusele. Kontrolli käsuga `git branch --show-current`, et oled uues harus. Ka VS Code'i allserv näitab nüüd peaharu asemel sinu haru nime.
+Haru nimi on see, mille GitHub sulle andis. `git fetch origin` toob GitHubis loodud haru info arvutisse ja `git checkout` võtab haru kasutusele. Kontrolli käsuga `git branch --show-current`, et oled uues harus – nimi peab olema sama, mida nägid ka kopeerides. Ka VS Code'i allserv näitab nüüd peaharu asemel sinu haru nime.
 
 Kui nuppu **Create a branch** ei ole, loo haru terminalis käsuga `git switch -c 1-kodutoo-1-minu-arenduskeskkond`. Pane nime algusesse Issue number. Täpsem selgitus on materjalis [haru loomine Issue'st](../../concepts/githubIssue/README.md#haru-loomine-issuest).
 
@@ -128,6 +100,34 @@ git --version: ...
 ## Minu terminalispikker
 
 Selgita oma sõnadega, mida teevad `pwd`, `ls`, `cd`, `git status`, `git add`, `git commit` ja `git push`. Lisa üks näide, millal mõnda neist vajad.
+
+## Videod tarkvaraarenduse tööviisidest
+
+Vaata kodutöö osana läbi järgmised lühivideod. Need annavad esimese seminari
+töövahendite kõrval ka ühise sõnavara tarkvaraarenduse protsessi arutamiseks.
+Kõiki videoid ei pea sõna-sõnalt ümber jutustama; pane tähele, millist
+lähenemist või rolli videos selgitatakse.
+
+### Waterfall ja Agile
+
+- [Agile vs. Waterfall Project Management – Wrike](https://www.youtube.com/watch?v=x2LE3FKGEkA)
+- [If You’re Choosing Agile or Waterfall… Watch This First – OeLean](https://www.youtube.com/watch?v=5RocT_OdQcA)
+- [5 Best Techniques for Project Management – upGrad KnowledgeHut](https://www.youtube.com/watch?v=ID2KvYvuN3Y) – üldisem projektijuhtimise ülevaade, milles Waterfall on üks näide.
+
+### Agile'i levinud raamistikud
+
+- [Scrum vs Agile: Key Differences Simplified! – KnowledgeHut](https://www.youtube.com/watch?v=K7YMEFjh724)
+- [What is Scrum? – KnowledgeHut](https://www.youtube.com/watch?v=iJ_sl6J8PRg)
+- [Scrum vs Kanban – KnowledgeHut](https://www.youtube.com/watch?v=F5QIqFEDv2k)
+
+### DevOps
+
+- [DevOps vs Agile – KnowledgeHut](https://www.youtube.com/watch?v=MSjr6sCUniE)
+
+Lisa faili `arenduskeskkond.md` peatüki **Mida õppisin?** lõppu 2–3 lauset,
+milles võrdled Waterfalli ja Agile'i ning nimetad ühe idee, mis jäi Scrumist,
+Kanbanist või DevOpsist meelde. Kui mõni video tekitas küsimuse, kirjuta ka see
+üles – küsimus on täiesti sobiv tulevase seminari arutelupunkt.
 
 ## Mida õppisin?
 
