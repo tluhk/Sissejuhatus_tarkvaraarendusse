@@ -213,7 +213,7 @@ Pärast õppejõu ühendamist on muudatus peaharus. Uuendatud peaharu enda arvut
 
 ## Esitamine
 
-Kodutöö esitatakse pull request'iga. Töö on esitatud, kui PR on avatud, selle kirjelduses on `Closes #N` ja ülevaatajaks on määratud kaasõppija. Töö on arvestatud, kui õppejõud on PR-i heaks kiitnud ja peaharusse ühendanud. Eraldi Issue kommentaari valmis töö kohta pole vaja.
+Kodutöö esitatakse pull request'iga. Töö on esitatud, kui PR on avatud ja ülevaatajaks on määratud kaasõppija. Töö on arvestatud, kui õppejõud on PR-i heaks kiitnud ja peaharusse ühendanud. Eraldi Issue kommentaari valmis töö kohta pole vaja.
 
 ### Kui töö jäi tehnilise takistuse taha
 
