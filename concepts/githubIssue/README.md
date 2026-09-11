@@ -41,6 +41,26 @@ Konkreetne pealkiri, tausta kirjeldus, inimeste kaasamine ja järgmine samm väl
 
 Liiga pikk pealkiri, liiga üldine sisu.
 
+## Haru loomine Issue'st
+GitHub võimaldab luua ülesande jaoks haru (*branch*) otse Issue lehelt. Nii jääb Issue, haru ja hilisema pull request'i seos GitHubis nähtavaks: Issue lehel on näha, milline haru ja pull request sellega tegelevad, ning pull request'i ühendamisel saab Issue automaatselt sulgeda.
+
+1. Ava Issue.
+2. Parempoolses veerus on osa **Development**. Vajuta seal **Create a branch**.
+3. GitHub pakub haru nime, mis algab Issue numbriga ja jätkub pealkirjaga, näiteks `12-lisa-kasutajalood`. Jäta Issue number nime algusesse; ülejäänu võid lühendada.
+4. Kontrolli, et lähteharu (**Branch source**) on repo peaharu.
+5. Vali **Checkout locally** ja vajuta **Create branch**.
+6. GitHub kuvab kaks käsku. Käivita need repo kaustas terminalis:
+
+```bash
+git fetch origin
+git checkout 12-lisa-kasutajalood
+```
+
+`git fetch origin` toob GitHubis loodud haru info arvutisse ja `git checkout` võtab haru kasutusele. Kontrolli käsuga `git branch --show-current` või VS Code'i allservast, et aktiivne haru on õige. Edaspidi saadab `git push` commit'id just sellesse harusse.
+
+Kui nuppu **Create a branch** pole, näiteks puudub sul repos kirjutamisõigus, loo haru terminalis käsuga `git switch -c 12-lisa-kasutajalood` ja saada see GitHubi käsuga `git push -u origin 12-lisa-kasutajalood`. Sellisel juhul seo haru Issue'ga pull request'i kirjelduses, näiteks `Closes #12`.
+
+Pärast muudatuste commit'imist ja push'imist avatakse harust pull request. Vaata: [Pull Request](../pullRequest/README.md) ja [Koodi ülevaatus](../codeReview/README.md).
 
 **Kasutatud allikad:**  
 
@@ -53,6 +73,3 @@ https://docs.github.com/en/communities/using-templates-to-encourage-useful-issue
 https://docs.github.com/en/issues/tracking-your-work-with-issues/marking-issues-or-pull-requests-as-a-duplicate 
 
 https://wiredcraft.com/blog/how-we-write-our-github-issues/
-
-
-

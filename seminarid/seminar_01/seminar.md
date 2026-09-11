@@ -896,10 +896,10 @@ See kirjeldus aitab probleemi järgmises tunnis või iseseisvalt lahendada.
 
 ## 15. Kodutöö
 
-Kodutöös dokumenteerib õppija oma arenduskeskkonna olemasolevas `SJTA` repositooriumis, vaatab muudatuse üle ning teeb commit'i ja push'i.
+Kodutöös dokumenteerib õppija oma arenduskeskkonna olemasolevas `SJTA` repositooriumis, vaatab muudatuse üle ning teeb commit'i ja push'i. Töö tehakse Issue'st loodud harus ja esitatakse pull request'iga, mille vaatab enne õppejõudu üle kaasõppija.
 
 Toimunud seminari järel kinnistab kodutöö terminalis näidatud töövoogu, lisab lühikese käsuspikri ja eristab faili salvestamist, commit'i ning push'i. Node.js ja npm ei ole kohustuslikud. Tehniline takistus kirjeldatakse ülesande Issue kommentaaris.
 
 [Kodutöö 1: minu arenduskeskkond](homework.md)
 
-Kodutöö ei korda enne seminari antud õpikeskkonna kirjelduse lugemise ülesannet. Samuti ei nõua see veel haru, forki ega pull request'i kasutamist.
+Kodutöö ei korda enne seminari antud õpikeskkonna kirjelduse lugemise ülesannet. Haru loomine Issue'st, pull request ja kaasõppija ülevaatus on kodutöö juhendis samm-sammult kirjas; forki kodutöö ei nõua.

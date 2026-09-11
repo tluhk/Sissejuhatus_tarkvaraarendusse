@@ -19,7 +19,7 @@ Kursus annab suure pildi tarkvaraarendusest kui probleemist lähtuvast, meeskond
 - [HTML-slaidid](../seminarid/seminar_01/slides.html)
 - [Kodutöö 1: minu arenduskeskkond](../seminarid/seminar_01/homework.md)
 
-Toimunud seminari järel kinnistab kodutöö terminalis `add → commit → push` töövoogu ja sisaldab lühikest käsuspikrit. Node.js, npm, Docker ning GitHub CLI on valikulised. Pooleli jäänud sammust antakse teada ülesande Issue kommentaaris.
+Toimunud seminari järel kinnistab kodutöö terminalis `add → commit → push` töövoogu ja sisaldab lühikest käsuspikrit. Node.js, npm, Docker ning GitHub CLI on valikulised. Kodutöö tehakse Issue'st loodud harus ja esitatakse pull request'iga; enne õppejõudu vaatab töö üle kaasõppija (paarid failis `student_pairs.md`). Pooleli jäänud sammust antakse teada ülesande Issue kommentaaris.
 
 ## Seminar 2: probleemi leidmine
 

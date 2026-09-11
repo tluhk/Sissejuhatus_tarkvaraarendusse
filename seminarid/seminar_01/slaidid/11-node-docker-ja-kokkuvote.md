@@ -159,14 +159,14 @@ Node.js-i, npm-i, Dockerit ja GitHub CLI-d ei pea paigaldama.
 
 ---
 
-## Salvesta ja esita
+## Loo Issue'st haru ja esita
 
-1. Salvesta fail ja kontrolli `git status` abil hetkeseisu.
-2. Vali fail `git add` abil ning vaata üle `git diff --cached`.
-3. Tee commit `Add development environment notes` ja push.
-4. Kontrolli faili GitHubis.
-5. Lisa ülesande issue kommentaari link valmis failile.
+1. Ava kodutöö Issue, vajuta **Development → Create a branch** ja käivita näidatud `git fetch` ja `git checkout` käsud.
+2. Salvesta fail, vali see `git add` abil ning vaata üle `git diff --cached`.
+3. Tee commit `Add development environment notes` ja `git push -u origin <haru>`.
+4. Ava pull request, lisa `Closes #N` ja määra ülevaatajaks paariline.
+5. Vaata üle paarilise pull request ja lisa pärast heakskiitu ülevaatajaks õppejõud.
 
-Täielik juhend: `seminarid/seminar_01/homework.md`
+Paarid: `student_pairs.md`. Täielik juhend: `seminarid/seminar_01/homework.md`
 
 Takistuse korral lisa Issue kommentaari samm, veateade ja juba proovitud lahendused.

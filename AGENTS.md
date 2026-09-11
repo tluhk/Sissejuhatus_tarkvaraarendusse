@@ -102,6 +102,7 @@ Slaidide, kodutöö, õpetaja juhendi, failinimede, tähtaegade ja hindamiskrite
 - Hindamise keskmes on arusaamine ja põhjendamine. Dokumentide arv, tehniline keerukus ega visuaalne viimistlus ei asenda sisulist mõistmist.
 - Figma ja klikitav prototüüp ei ole aktiivse kursuse nõuded. Figma mainimine vanemates üldmaterjalides võib alles jääda.
 - Esimese seminari tegelik praktiline Giti töövoog oli terminalipõhine. Esimene kodutöö kinnistab seda; graafiline töövoog jääb alternatiiviks. Node.js-i ja npm-i paigaldamine ei ole esimese kodutöö ega seminari 2 eeldus.
+- Esimene kodutöö tehakse Issue'st loodud harus ja esitatakse pull request'iga. Enne õppejõudu vaatab töö üle kaasõppija; paarid on failis `student_pairs.md` (rida `A -> B`: A vaatab üle B töö). Sama Issue → haru → PR → ülevaatus töövoog on kolledži ühine, vt `tluhk/Abimaterjalid/docs/koduse_too_esitamine.md`.
 - Seminar 2 algab probleemide leidmisega. Esimesest seminarist kinnistamist vajavad oskused lisatakse projektitöö sisse: Markdown, muudatuste kontroll, commit ja push; seejärel pull ning tag ja release.
 
 ## Failide ja mõistete vormistus

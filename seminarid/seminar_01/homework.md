@@ -2,7 +2,7 @@
 
 ## Ülesanne lühidalt
 
-Täienda oma olemasolevat `SJTA` repositooriumi failiga, milles kirjeldad enda arenduskeskkonda ja näitad, et seminaris seadistatud põhilised töövahendid töötavad. Salvesta muudatus commit'iga ja saada see GitHubi.
+Täienda oma olemasolevat `SJTA` repositooriumi failiga, milles kirjeldad enda arenduskeskkonda ja näitad, et seminaris seadistatud põhilised töövahendid töötavad. Tee töö Issue'st loodud harus, salvesta muudatus commit'iga, saada see GitHubi ja ava pull request. Enne õppejõu kinnitust vaatab sinu töö üle kaasõppija ning sina vaatad üle tema töö.
 
 See ülesanne ei korda varem tehtud õpikeskkonnaga tutvumise ülesannet. Uut repositooriumi ega GitHubi organisatsiooni pole vaja luua.
 
@@ -13,9 +13,19 @@ Kodutöö järel oskad:
 - luua kausta ja Markdown-faili;
 - kirjeldada erinevate arendustööriistade ülesandeid;
 - kontrollida terminalis Giti olemasolu ja enda asukohta;
+- luua GitHub Issue'st haru ja töötada selles;
 - vaadata muudatuse enne salvestamist üle;
 - teha terminalis commit'i ja push'i;
-- kontrollida tulemust GitHubis.
+- avada pull request'i ja määrata sellele ülevaataja;
+- teha kaasõppija tööle ülevaatuse (*code review*) ja vastata tagasisidele.
+
+## Töövoog ühe pilguga
+
+```text
+Issue → haru → fail → commit → push → pull request → kaasõppija ülevaatus → õppejõu ülevaatus → merge
+```
+
+Sama töövoogu kasutavad ka kolledži teised GitHubi-põhised ained. Uued mõisted on selgitatud sammude juures ning pikemalt teemade materjalides: [GitHub Issues](../../concepts/githubIssue/README.md), [Pull Request](../../concepts/pullRequest/README.md) ja [Koodi ülevaatus](../../concepts/codeReview/README.md).
 
 ## Videod tarkvaraarenduse tööviisidest
 
@@ -57,7 +67,28 @@ Ava repo kaustal **Open in Integrated Terminal**. Kontrolli käsuga `pwd`, kus a
 
 Kui Macis Git puudub, soovitame [Homebrew kaudu paigaldamist](seminar.md#macos). Homebrew on programmide paketihaldur; pärast selle seadistamist paigaldab Giti käsk `brew install git`. Kui Git juba töötab, pole uuesti paigaldamist vaja.
 
-### 2. Loo kodutöö fail
+### 2. Loo Issue'st haru
+
+Kodutöö saabub sulle GitHub Issue'na sinu `SJTA` repositooriumis. **Haru** (*branch*) on repositooriumi eraldi tööliin: harus tehtud muudatused ei mõjuta peaharu (`master` või `main`) enne, kui need on üle vaadatud ja ühendatud. Kodutöö tehakse harus, et kaasõppija ja õppejõud saaksid muudatuse enne ühendamist üle vaadata.
+
+Loo haru otse Issue'st, siis jääb Issue ja haru seos GitHubis nähtavaks:
+
+1. Ava Issue GitHubis.
+2. Leia parempoolsest veerust osa **Development** ja vajuta **Create a branch**.
+3. Jäta pakutud haru nimi alles. See algab Issue numbriga, näiteks `1-kodutoo-1-minu-arenduskeskkond`.
+4. Vali **Checkout locally** ja vajuta **Create branch**.
+5. GitHub näitab kaht käsku. Käivita need repo kausta terminalis:
+
+```bash
+git fetch origin
+git checkout 1-kodutoo-1-minu-arenduskeskkond
+```
+
+Asenda haru nimi sellega, mille GitHub sulle andis. `git fetch origin` toob GitHubis loodud haru info arvutisse ja `git checkout` võtab haru kasutusele. Kontrolli käsuga `git branch --show-current`, et oled uues harus. Ka VS Code'i allserv näitab nüüd peaharu asemel sinu haru nime.
+
+Kui nuppu **Create a branch** ei ole, loo haru terminalis käsuga `git switch -c 1-kodutoo-1-minu-arenduskeskkond`. Pane nime algusesse Issue number. Täpsem selgitus on materjalis [haru loomine Issue'st](../../concepts/githubIssue/README.md#haru-loomine-issuest).
+
+### 3. Loo kodutöö fail
 
 Loo repositooriumisse järgmine kaust ja fail:
 
@@ -67,7 +98,7 @@ SJTA/
     └── arenduskeskkond.md
 ```
 
-### 3. Kirjelda oma arenduskeskkonda
+### 4. Kirjelda oma arenduskeskkonda
 
 Lisa faili vähemalt järgmine struktuur ja asenda näitetekst enda vastustega:
 
@@ -107,14 +138,14 @@ Kopeeri Giti versioon terminalist, kuid ära lisa faili paroole, võtmeid ega mu
 
 GitHub CLI on valikuline. Kui see on paigaldatud, võid lisada ka `gh --version` tulemuse ja proovida käske `gh auth status`, `gh repo view` ning `gh issue list`.
 
-### 4. Vaata muudatus üle
+### 5. Vaata muudatus üle
 
 1. Salvesta fail: **Ctrl+S** või macOS-is **Cmd+S**.
 2. Ava käsupaletist **Markdown: Open Preview to the Side** ning kontrolli vormindust.
-3. Käivita repo kausta terminalis `git status`. Uus fail või kaust võib olla märgitud kui **untracked** — see tähendab, et Git ei jälgi seda veel.
+3. Käivita repo kausta terminalis `git status`. Esimene rida näitab, millises harus oled. Uus fail või kaust võib olla märgitud kui **untracked** – see tähendab, et Git ei jälgi seda veel.
 4. Loe faili sisu üle ja paranda vead.
 
-### 5. Tee commit ja push
+### 6. Tee commit ja push
 
 Käivita käsud repo kausta terminalis ükshaaval:
 
@@ -122,39 +153,76 @@ Käivita käsud repo kausta terminalis ükshaaval:
 git add seminar-01/arenduskeskkond.md
 git diff --cached
 git commit -m "Add development environment notes"
-git push
+git push -u origin 1-kodutoo-1-minu-arenduskeskkond
 ```
 
 - `git add` valib selle faili järgmisesse commit'i ehk lisab selle ettevalmistusalasse (*staging area*).
 - `git diff --cached` näitab valitud muudatusi. Kontrolli, et kaasas on soovitud sisu. Kui avaneb keritav vaade, väljud klahviga `q`.
 - `git commit` salvestab valitud muudatused kohalikku Giti ajalukku. Sõnum on tunnis kokku lepitud inglise keeles ja ütleb, mida muudatus teeb.
-- `git push` saadab kohalikud commit'id GitHubi.
+- `git push -u origin haru-nimi` saadab sinu haru commit'id GitHubi ja seob kohaliku haru GitHubi omaga. Asenda haru nimi enda omaga. Edaspidi piisab samas harus käsust `git push`.
 
 Faili salvestamine üksi ei loo commit'i. Commit üksi ei saada midagi GitHubi. Piisab ühest sisulisest commit'ist; kunstlikult muudatusi juurde tekitama ei pea.
 
-Kui käsk annab vea, peatu selle sammu juures. Kui Git küsib autori nime või e-posti, kasuta [seminarimaterjali seadistusjuhist](seminar.md#esimene-commit-küsib-kasutaja-nime-ja-e-posti). Kui push ei õnnestu, ära kasuta sunnitud saatmist (*force push*); kirjelda takistust allpool toodud viisil. Juba tuttav Source Controli graafiline töövoog on samuti lubatud.
+Kui käsk annab vea, peatu selle sammu juures. Kui Git küsib autori nime või e-posti, kasuta [seminarimaterjali seadistusjuhist](seminar.md#esimene-commit-küsib-kasutaja-nime-ja-e-posti). Kui push ei õnnestu, ära kasuta sunnitud saatmist (*force push*); kirjelda takistust allpool toodud viisil. Juba tuttav Source Controli graafiline töövoog on samuti lubatud, kui muudatus jõuab sinu harusse.
 
-### 6. Kontrolli tulemust GitHubis
+### 7. Ava pull request ja määra ülevaataja
 
-Kontrolli, et fail `seminar-01/arenduskeskkond.md` on GitHubis nähtav, Markdown on korrektselt vormindatud ja commit'i ajaloos on commit `Add development environment notes`.
+**Pull request (PR)** on palve muudatus üle vaadata ja peaharusse ühendada (*merge*). Ühendamist teeb selles kodutöös õppejõud.
+
+1. Ava GitHubis oma repo. Pärast push'i pakub GitHub nuppu **Compare & pull request**. Kui nuppu pole, vali **Pull requests → New pull request**, sihiks (*base*) peaharu ja allikaks (*compare*) enda haru.
+2. Pealkirjaks kirjuta `Kodutöö 1: minu arenduskeskkond`. Kirjeldusse lisa paar lauset, mida muutsid, ja eraldi reale `Closes #1`, kus `1` on sinu Issue number. See seob PR-i Issue'ga ja sulgeb Issue ühendamisel.
+3. Vali paremal **Reviewers** ja määra ülevaatajaks kaasõppija, kes on [paaride tabelis](../../student_pairs.md) sinu nimest vasakul. Real `A -> B` vaatab A üle B töö.
+4. Vajuta **Create pull request**.
+5. Kontrolli vahekaardil **Files changed**, et PR-is on ainult fail `seminar-01/arenduskeskkond.md` ja Markdown renderdub korrektselt.
+
+Kui kaasõppijat ei saa ülevaatajaks valida, puudub tal ligipääs sinu repole. Lisa ta repo **Settings → Collaborators and teams → Add people** kaudu rolliga **Triage** või **Write** ja määra ülevaataja uuesti. Vähemalt **Triage** õigust on vaja, et ta saaks hiljem õppejõu ülevaatajaks lisada.
+
+Ava PR hiljemalt kaks päeva enne järgmist seminari, et ülevaatajal jääks aega.
+
+## Koodi ülevaatus (*code review*)
+
+Koodi ülevaatus on tavaline osa arendusprotsessist: keegi teine loeb muudatuse enne ühendamist läbi ja annab tagasisidet. Selles kodutöös on igal õppijal kaks rolli. Autorina saad tagasisidet enda tööle, ülevaatajana loed kaasõppija tööd. Paarid on failis [`student_pairs.md`](../../student_pairs.md); sina oled ühes reas ülevaataja ja teises reas ülevaadatav. Ülevaatuse nuppude täpsem selgitus on materjalis [ülevaatuse tegemine GitHubis](../../concepts/codeReview/README.md#ülevaatuse-tegemine-githubis).
+
+### Ülevaatajana
+
+1. Ava PR, mille ülevaatajaks sind määrati. Teade tuleb GitHubi teavitustesse ja e-postile; PR-id leiad ka kaasõppija repo lehelt **Pull requests**.
+2. Vaata vahekaardil **Files changed** muudatus läbi. Rea kõrval oleva `+` märgiga saad kommenteerida konkreetset rida.
+3. Kontrolli vähemalt, et:
+   - fail asub kohas `seminar-01/arenduskeskkond.md` ja Markdown renderdub korrektselt;
+   - kõik malli peatükid on täidetud oma sõnadega;
+   - terminalispikris on kõik seitse käsku ja vähemalt üks näide;
+   - refleksioonis on 5–8 lauset ning Waterfalli ja Agile'i võrdlus;
+   - failis pole paroole, võtmeid ega muud tundlikku infot;
+   - commit'i sõnum ütleb, mida muudatus teeb.
+4. Kirjuta vähemalt üks sisuline kommentaar: küsimus, ettepanek või põhjendus, miks midagi on hästi tehtud. Ainult „OK” ei ole ülevaatus.
+5. Vali **Review changes** ja lõpeta ülevaatus:
+   - **Approve**, kui töö vastab nõuetele;
+   - **Request changes**, kui midagi olulist on puudu. Kirjuta, mida ja miks.
+   - Ainult **Comment** ei lõpeta ülevaatust; kasuta seda vahepealse küsimuse jaoks.
+6. Pärast heakskiitu lisa PR-i **Reviewers** alla õppejõud ehk Issue looja. Alles siis liigub töö õppejõule.
+7. Ära ühenda PR-i ise. Ühendamise teeb õppejõud pärast enda ülevaatust.
+
+### Autorina
+
+1. Loe tagasiside läbi ja vasta igale kommentaarile: mida muutsid või miks jätsid muutmata.
+2. Paranduste jaoks muuda faili samas harus, tee uus commit ja `git push`. PR uueneb ise; uut PR-i pole vaja avada.
+3. Kui ülevaataja küsis muudatusi, vajuta pärast parandusi PR-is ülevaataja nime juures **Re-request review**.
+4. Kui ülevaataja pole kahe päeva jooksul reageerinud, kirjuta talle ja teavita õppejõudu PR-i kommentaaris.
+
+Pärast õppejõu ühendamist on muudatus peaharus. Uuendatud peaharu enda arvutisse toomist harjutame seminaris 2.
 
 ## Esitamine
 
-Ülesanne saadetakse sulle GitHub Issue'na. Lisa issue kommentaari link failile `seminar-01/arenduskeskkond.md` ning kasuta juba tutvustatud esitamise töövoogu.
-
-```text
-Valmis töö: https://github.com/ORGANISATSIOON/SJTA/blob/master/seminar-01/arenduskeskkond.md
-```
-
-Kui sinu vaikimisi haru nimi on `main`, kasuta lingis `master` asemel `main`.
+Kodutöö esitatakse pull request'iga. Töö on esitatud, kui PR on avatud, selle kirjelduses on `Closes #N` ja ülevaatajaks on määratud kaasõppija. Töö on arvestatud, kui õppejõud on PR-i heaks kiitnud ja peaharusse ühendanud. Eraldi Issue kommentaari valmis töö kohta pole vaja.
 
 ### Kui töö jäi tehnilise takistuse taha
 
-Lisa sama Issue kommentaari, millise sammuni jõudsid, milline käsk ebaõnnestus, täpne veateade ja mida juba proovisid. Vajaduse korral lisa sinna ka valmis Markdown-tekst. Eemalda veateatest või kuvatõmmiselt saladused. Märgi selgelt, et push jäi pooleli: see on abipalve ja vahetulemus, mitte kinnitus edukast saatmisest. Nii saab õppejõud abi kavandada enne järgmist seminari.
+Lisa kodutöö Issue kommentaari, millise sammuni jõudsid, milline käsk ebaõnnestus, täpne veateade ja mida juba proovisid. Vajaduse korral lisa sinna ka valmis Markdown-tekst. Eemalda veateatest või kuvatõmmiselt saladused. Märgi selgelt, milline samm jäi pooleli: see on abipalve ja vahetulemus, mitte kinnitus edukast esitamisest. Nii saab õppejõud abi kavandada enne järgmist seminari.
 
 ## Valmis töö kontrollnimekiri
 
 - [ ] Kasutasin olemasolevat `SJTA` repositooriumi.
+- [ ] Lõin Issue'st haru ja töötasin selles.
 - [ ] Lõin faili `seminar-01/arenduskeskkond.md`.
 - [ ] Lisasin operatsioonisüsteemi, redaktori ning terminali või käsukesta.
 - [ ] Lisasin Giti versiooni.
@@ -163,8 +231,9 @@ Lisa sama Issue kommentaari, millise sammuni jõudsid, milline käsk ebaõnnestu
 - [ ] Kirjutasin 5–8-lauselise refleksiooni, sealhulgas salvestamise, commit'i ja push'i erinevuse.
 - [ ] Vaatasin videod läbi ning lisasin refleksiooni Waterfalli/Agile'i võrdluse ja ühe tähelepaneku Scrumist, Kanbanist või DevOpsist.
 - [ ] Vaatasin muudatuse enne commit'i üle.
-- [ ] Tegin commit'i ja push'i.
-- [ ] Kontrollisin faili ja commit'i GitHubis.
-- [ ] Lisasin issue kommentaari lingi valmis failile.
+- [ ] Tegin commit'i ja push'i enda harusse.
+- [ ] Avasin pull request'i, lisasin `Closes #N` ja määrasin ülevaatajaks paarilise.
+- [ ] Vaatasin üle paarilise pull request'i ja lisasin pärast heakskiitu ülevaatajaks õppejõu.
+- [ ] Vastasin enda PR-i tagasisidele.
 
 Kui mõni samm jäi tegemata, jäta selle kontrollkast märkimata ning kirjelda Issue kommentaaris takistust.

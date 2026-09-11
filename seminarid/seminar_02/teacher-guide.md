@@ -2,7 +2,8 @@
 
 ## Enne seminari
 
-- Vaata esimese kodutöö Issue kommentaaridest üle kloonimise, commit'i ja push'i takistused. Paku neile sihitud abi; ära eelda salvestuse põhjal, et kõik said kogu töövoo iseseisvalt tehtud.
+- Vaata esimese kodutöö pull request'idest ja Issue kommentaaridest üle kloonimise, haru loomise, commit'i ja push'i takistused. Paku neile sihitud abi; ära eelda salvestuse põhjal, et kõik said kogu töövoo iseseisvalt tehtud.
+- Kontrolli, et iga õppija pull request on kaasõppija poolt üle vaadatud, tee enda ülevaatus ja ühenda heaks kiidetud PR-id enne seminari. Nii saab seminaris harjutada uuendatud peaharu toomist.
 
 - Loo organisatsiooni `TLUHK-RIF26` meeskonnarepositooriumid.
 - Anna kõigile liikmetele vajalik ligipääs.

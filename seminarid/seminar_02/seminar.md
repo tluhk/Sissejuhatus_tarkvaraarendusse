@@ -146,7 +146,7 @@ ja kolmandate osapoolte riskide analüüs tuleb seminaris 4.
 Esimese seminari terminalitöövoo kinnistamiseks tee muudatus VS Code'is ja Giti sammud selle terminalis. **Haru** võimaldab enda muudatust eraldi arendada. **Pull request (PR)** on palve see üle vaadata ja peaharusse ühendada (*merge*).
 
 1. Ava meeskonnarepo kohalik kaust. Kontrolli `pwd` ja `git status` abil asukohta ja hetkeseisu.
-2. Ava enda Issue. Loo selle jaoks haru, näiteks `git switch -c 3-probleemi-kirjeldus`.
+2. Ava enda Issue. Loo selle jaoks haru kas Issue lehe nupuga **Create a branch** nagu kodutöös 1 või terminalis, näiteks `git switch -c 3-probleemi-kirjeldus`.
 3. Muuda kokkulepitud faili ning salvesta. Käivita `git status`, vali fail käsuga `git add faili/tegelik-nimi.md` ja vaata valik üle käsuga `git diff --cached`. Asenda näidistee enda faili teega.
 4. Tee commit, näiteks `git commit -m "Describe problem candidates"`.
 5. Saada uus haru käsuga `git push -u origin 3-probleemi-kirjeldus`. Kasuta enda haru nime.
