@@ -75,7 +75,7 @@ Loo haru otse Issue'st, siis jääb Issue ja haru seos GitHubis nähtavaks:
 
 1. Ava Issue GitHubis.
 2. Leia parempoolsest veerust osa **Development** ja vajuta **Create a branch**.
-3. Jäta pakutud haru nimi alles. See algab Issue numbriga, näiteks `1-kodutoo-1-minu-arenduskeskkond`.
+3. Jäta pakutud haru nimi alles, eda ära muuda.
 4. Vali **Checkout locally** ja vajuta **Create branch**.
 5. GitHub näitab kaht käsku. Käivita need repo kausta terminalis:
 
