@@ -2,25 +2,27 @@
 
 Format: Reviewer -> Reviewee (reviewer vaatab reviewee koodi)
 
-1. Andre -> Kristo
-2. Kristo -> Karl
-3. Karl -> Mari
-4. Mari -> Antti
-5. Antti -> Marek
-6. Marek -> Mattias
-7. Mattias -> Andres
-8. Andres -> Gert Martin
-9. Gert Martin -> Katriin
-10. Katriin -> Mark
-11. Mark -> Kairiin
-12. Kairiin -> Dagmar
-13. Dagmar -> Mihkel
-14. Mihkel -> Andreas
-15. Andreas -> Indrek
-16. Indrek -> Ingrid
-17. Ingrid -> Helena
-18. Helena -> Rauno-Marko
-19. Rauno-Marko -> Joonas
-20. Joonas -> Siim
-21. Siim -> Raigo-Robin
-22. Raigo-Robin -> Andre
+1. Meeri -> Thorian
+2. Thorian -> Rico
+3. Rico -> Gerli
+4. Gerli -> Alison
+5. Alison -> Kaspar
+6. Kaspar -> Merilin
+7. Merilin -> Greete
+8. Greete -> Kauri
+9. Kauri -> Kristo
+10. Kristo -> Tauri
+11. Tauri -> Medlin
+12. Medlin -> Marko
+13. Marko -> Martin
+14. Martin -> Mariann
+15. Mariann -> Helen
+16. Helen -> Fredi
+17. Fredi -> Ursula
+18. Ursula -> Peep
+19. Peep -> Mattias
+20. Mattias -> Artur
+21. Artur -> Aili
+22. Aili -> Matthias
+23. Matthias -> Monika
+24. Monika -> Meeri
