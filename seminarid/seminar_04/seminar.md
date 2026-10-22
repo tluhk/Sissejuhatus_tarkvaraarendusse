@@ -1,5 +1,7 @@
 # Seminar 4: kvaliteet, riskid ja vastutus
 
+Meeskonna ühine GitHubi töövoog on kirjas [projekti töökorralduse juhendis](../../docs/projekti-tookorraldus.md).
+
 ## Eesmärk
 
 Seminari lõpuks õppija:
@@ -8,12 +10,44 @@ Seminari lõpuks õppija:
 - eristab funktsiooni kvaliteediomadusest;
 - nimetab projekti olulised riskid ja vastutajad;
 - seob kvaliteedivajaduse kontrollimise viisiga;
+- koostab lihtsa testjuhtumi ning selgitab vea kordamise ja põhjuse kitsendamise samme;
 - arvestab turvalisuse, privaatsuse, ligipääsetavuse, töökindluse ja litsentsidega;
 - dokumenteerib, kuidas risk muudab varasemat otsust.
 
 ## Põhiküsimus
 
 > Kas kavand on piisavalt hea ja vastutustundlik?
+
+## Kogu kursuse teekond ja meie koht
+
+Kursusel vaatame tarkvaraarendust tervikuna:
+
+```text
+Probleem
+  ↓
+Kasutajate ja vajaduste uurimine
+  ↓
+Nõuete kirjeldamine
+  ↓
+Töö planeerimine ja lahenduse disain
+  ↓
+Arendamine
+  ↓
+Testimine ja tagasiside  ← seminar 4: vaatame kvaliteeti ja riske
+  ↓
+Avaldamine ja hooldus
+```
+
+Seminar 4 vaatab, kuidas kvaliteet ja riskid mõjutavad kavandatud lahendust.
+
+- seminar 1: suur pilt ja töövahendite seadistamine;
+- seminar 2: kliendisoovist arendusülesandeni;
+- seminar 3: rollid, tööviisi valik ja süsteemi kontseptsioon;
+- seminar 4: kvaliteet, riskid ja vastutus;
+- seminar 5: kasutuselevõtt, tagasiside ja hooldus;
+- eksam: dokumenteeritud protsessi esitlus release'ide ajajoonena.
+
+Projekti tulemus on dokumenteeritud arendusprotsess ja otsuste logi; töötavat rakendust ega klikitavat prototüüpi ei nõuta.
 
 ## Töötamine ei võrdu kvaliteediga
 
@@ -29,6 +63,12 @@ Nõrk: „Süsteem peab olema kiire.”
 Kontrollitavam: „Kasutaja saab tavapärase koormuse ajal otsingutulemuse kahe sekundi jooksul.”
 
 Kõike pole võimalik maksimeerida. Suurem turvalisus võib lisada samme, suurem töökindlus võib tõsta hinda ja kiirem tarne võib kasvatada hooldusvõlga. Kompromiss peab olema teadlik.
+
+## Testimine ja vea silumine
+
+Testimine võrdleb oodatud tulemust tegeliku tulemusega kindlates tingimustes. Lihtne testjuhtum ütleb, mida kontrollitakse, milliste eeldustega, milliste sammudega ja milline tulemus peaks tekkima. Testimine võib leida vea, kuid ei selgita veel selle põhjust.
+
+Vea silumisel (*debugging*) korda viga võimalikult väikese näitega, pane kirja oodatud ja tegelik tulemus, kitsenda võimalikku põhjust ning kontrolli hüpoteesi. Pärast parandust korda algset testi ja lisa võimaluse korral kontroll, et sama viga tagasi ei tuleks. Kursusel harjutame neid samme lühikese näite kaudu; testide programmeerimist ega täielikku silumisprotsessi ei õpita.
 
 ## Kvaliteedi vaatenurgad
 
@@ -84,9 +124,11 @@ Teek, pilveteenus, andmestik, font või AI-mudel võib kiirendada tööd, kuid t
 1. Vaadake üle `v0.2.0` ja vahetage rollid.
 2. Valige projekti jaoks 4–6 tähtsaimat kvaliteediomadust.
 3. Sõnastage iga omaduse juurde vähemalt üks kontrollitav kriteerium.
-4. Koostage riskikaart: mõju, tõenäosus, ennetus, märkamine, vastutaja.
-5. Vaadake üle varasemad otsused. Muutke vähemalt üht, kui riskianalüüs seda nõuab.
-6. Looge `decisions/004-kvaliteet-ja-riskid.md`.
+4. Valige üks funktsionaalne nõue ja koostage selle põhjal lihtne testjuhtum.
+5. Uurige lühinäites ilmnevat viga: kirjeldage kordamise samme, oodatud ja tegelikku tulemust ning võimalikku põhjust.
+6. Koostage riskikaart: mõju, tõenäosus, ennetus, märkamine, vastutaja.
+7. Vaadake üle varasemad otsused. Muutke vähemalt üht, kui riskianalüüs seda nõuab.
+8. Looge `decisions/004-kvaliteet-ja-riskid.md`.
 
 ## Kontrollpunkt
 

@@ -12,6 +12,23 @@ footer: Seminar 5 – kasutuselevõtt, käitus ja areng
 
 ---
 
+## Kogu kursuse teekond: kus oleme?
+
+Probleem → kasutajate ja vajaduste uurimine → nõuete kirjeldamine → töö
+planeerimine → lahenduse disainimine → arendamine → testimine ja tagasiside →
+**avaldamine ja hooldus — seminar 5**
+
+- seminar 1: suur pilt ja töövahendite seadistamine
+- seminar 2: kliendisoovist arendusülesandeni
+- seminar 3: rollid, tööviisi valik ja süsteemi kontseptsioon
+- seminar 4: kvaliteet, riskid ja vastutus
+- **seminar 5: kasutuselevõtt, tagasiside ja hooldus**
+- eksam: dokumenteeritud protsessi esitlus release'ide ajajoonena
+
+**Projekti tulemus:** dokumenteeritud arendusprotsess ja otsuste logi; töötavat rakendust ega klikitavat prototüüpi ei nõuta.
+
+---
+
 # Millal tarkvaraarendus lõpeb?
 
 ---

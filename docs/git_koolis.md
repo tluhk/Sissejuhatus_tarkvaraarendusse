@@ -54,7 +54,7 @@ Git on hajutatud versioonihaldussüsteem, mis on loodud tarkvara arendamise käi
 
 - Git-iga seotud sõnavara
 - GitHub
-- GitHub Desktop
+- Visual Studio Code
 
 ---
 
@@ -148,21 +148,12 @@ Sotsiaalsed funktsioonid: GitHub pakub sotsiaalseid funktsioone, nagu profiilid,
 ## Github
 
 - Kasutajakonto
-- Github Desktop
 - Visual Studio Code
 - Markdown
 - HK organisatsioonid
 - Harjutused
 
 ---
-
-## Github Desktop
-
-GitHub Desktop on graafilise kasutajaliidesega rakendus, mis võimaldab arendajatel hõlpsasti hallata oma Git-repositooriume ja interakteeruda GitHubiga. Tarkvara on välja töötatud GitHub-i poolt ning see on saadaval nii Windowsi, macOS-i, kui ka Linux-i jaoks.
-
-GitHub Desktop pakub arendajatele võimalust teha Gitiga seotud toiminguid, nagu kloonimine, commit'imine, push'imine ja pull'imine, ilma et peaks kasutama käsurea utiliite.
-
-https://desktop.github.com/
 
 ---
 
@@ -270,21 +261,11 @@ HK organisatsioonide struktuur:
 
 ## Repositooriumi kloonimine
 
-- Vajuta nuppu _Set up in Desktop_
-
-![SetUpInDesktop](images/SetUpInDesktop.png)
-
-- Vajuta nuppu _Clone_
-
-![height:300px](images/Clone.png)
-
----
-
-## Repositoriumi kloonimine
-
-- Vajuta nuppu _Open in Visual Studio Code_
-
-![Open in VSC](images/OpenInVSC.png)
+- Ava repositoorium GitHubis ja vali **Code → HTTPS**.
+- Kopeeri repositooriumi aadress.
+- Ava VS Code'i käsupalett: Windowsis `Ctrl+Shift+P`, macOS-is `Cmd+Shift+P`.
+- Käivita **Git: Clone**, kleebi HTTPS-aadress ja vali arvutis sihtkaust.
+- Ava kloonitud repositoorium VS Code'is.
 
 ---
 
@@ -300,7 +281,7 @@ HK organisatsioonide struktuur:
 
 ## Tee Commit
 
-![height:500px](../images/Commit.png)
+![height:500px](images/Commit.png)
 
 - Commit-i sisu peaks kirjeldama tegevust, mida Commit täidab
 
@@ -308,13 +289,13 @@ HK organisatsioonide struktuur:
 
 ## Tee Push
 
-![Push](../images/Push.png)
+![Push](images/Push.png)
 
 ---
 
 ## Veendu, et muudatus kajastub Github-is
 
-![Muudatus Githubis](../images/MuudatusGithubis.png)
+![Muudatus Githubis](images/MuudatusGithubis.png)
 
 ---
 

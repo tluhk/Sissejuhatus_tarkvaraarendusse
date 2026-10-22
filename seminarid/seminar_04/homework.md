@@ -1,5 +1,7 @@
 # Kodutöö 4: kvaliteedi- ja riskiplaan ning release `v0.3.0`
 
+Meeskonna ühine GitHubi töövoog on kirjas [projekti töökorralduse juhendis](../../docs/projekti-tookorraldus.md).
+
 ## Ülesanne lühidalt
 
 Koostage projekti põhjendatud kvaliteedi- ja riskiplaan. Siduge olulised kvaliteediomadused kontrollidega, määrake riskidele vastutus ning avaldage release `v0.3.0 – Kvaliteedi- ja riskiplaan`.
@@ -33,6 +35,7 @@ Riskitabel võib olla otsuse osa või eraldi fail, millele otsus viitab.
 
 - 4–6 projekti jaoks olulist kvaliteediomadust;
 - iga omaduse juures põhjendus ja kontrollimise viis;
+- vähemalt üks kasutajaloost või funktsionaalsest nõudest tuletatud lihtne testjuhtum (eeldused, sammud ja oodatud tulemus);
 - vähemalt kuus eri tüüpi riski;
 - iga olulise riski juures mõju, maandus, märkamine ja vastutaja;
 - eraldi tähelepanu turvalisusele, privaatsusele ja ligipääsetavusele;
@@ -54,6 +57,7 @@ Uus release manager kontrollib tervikut, loob tag'i `v0.3.0` ja avaldab release'
 ## Valmis töö kontroll
 
 - [ ] Kvaliteedinõuded on kontrollitavad, mitte ainult omadussõnad.
+- [ ] Vähemalt üks lihtne testjuhtum seob nõude eelduste, sammude ja oodatud tulemusega.
 - [ ] Valikud lähtuvad projekti probleemist.
 - [ ] Kompromissid on nähtavad.
 - [ ] Riskidel on omanik ja reageerimisviis.

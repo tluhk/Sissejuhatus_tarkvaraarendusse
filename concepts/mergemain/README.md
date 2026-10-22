@@ -1,33 +1,12 @@
-# main haru 'merge' oma harusse
+# Uuenda peaharu enne järgmist ülesannet
 
-Enne kodutöö esitamist, peab oma kodutööde harusse tegema `merge`, et vahepeal lisatud automaattestid saaksid ka Sinu kodutööde harusse lisatud.
+Kursuse ühises repositooriumis vaatame esmalt kaaslase pull request'i üle. Pärast selle ühendamist uuenda enda arvutis peaharu enne järgmise ülesande alustamist:
 
-Selleks tuleb `Github Desktop` rakenduses valida `Current branch` nupu alt (veendu, et linnuke oleks Sinu nimega haru ees) all servas olev nupp `Choose a branch to merge into Sinu_Nimega_Haru`.
-
-![Merge 1](../../docs/kodusedtood/files/merge_1.png)
-
-Seejärel vali `main` haru ja vajuta nuppu `Create a merge commit`.
-
-![Merge 2](../../docs/kodusedtood/files/merge_2.png)
-
-Seejärel võid juba oma harus tehtud muudatused Github-i `push`-ida.
-
-Diagrammi peal näeb protsess välja selline:
-
-```mermaid
-gitGraph
-    commit id: "RIF kodutööd"
-    commit id: "Add README.md"
-    branch Eesnimi_Perekonnanimi
-    commit id: "Kaustade struktuur"
-    checkout main
-    commit id: "Esimese kodutöö testid"
-    checkout Eesnimi_Perekonnanimi
-    merge main
-    commit id: "Esimene kodutöö"
-    checkout main
-    commit id: "Teise kodutöö testid"
-    checkout Eesnimi_Perekonnanimi
-    merge main
-    commit id: "Teine kodutöö"
+```bash
+git switch main
+git pull origin main
 ```
+
+Seejärel loo järgmise Issue jaoks uus haru ajakohasest `main`-harust. Ära tee muudatusi otse peaharusse. Kui sinu repositooriumi peaharu nimi on `master`, kasuta käskudes `main` asemel `master`.
+
+Täielik kursusel kasutatav töövoog on [seminari 2 materjalis](../../seminarid/seminar_02/peatukid/09-tiimiprojekt-ja-toovoog.md).

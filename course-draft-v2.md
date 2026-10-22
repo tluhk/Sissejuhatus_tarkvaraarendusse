@@ -44,7 +44,7 @@ Tudengid **lahendavad päris probleemi**, mis viib nad läbi kogu tarkvaraarendu
 #### **Seminar 1:** tööriistade ja keskkondade tutvustus
 - Git
 - Github
-- Github desktop (esimesel poolaastal pole terminali kasutamine vajalik)
+- VS Code'i Source Control (graafiline Giti töövoog)
 - Markdown
 
 #### **Seminar 2: Uurimise algus** 
@@ -469,7 +469,7 @@ Tudengid valivad **päris probleemi** lahendamiseks, midagi oma igapäevaelust. 
 ## Ressursid ja tööriistad
 
 ### Kohustuslikud tööriistad:
-- **Git** (GUI kaudu VSCode-s või GitHub Desktop-is)
+- **Git** (VS Code'i graafilise liidese kaudu)
 - **GitHub** (repositories, issues, projects, pages)
 - **VSCode** (Markdown extensions, Git integration)
 - **Markdown** (dokumentatsioon, README-d)

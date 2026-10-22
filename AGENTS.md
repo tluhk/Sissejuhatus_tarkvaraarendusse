@@ -80,7 +80,7 @@ Slaidide, kodutöö, õpetaja juhendi, failinimede, tähtaegade ja hindamiskrite
 - GitHubi ühendusviisidest nimetatakse HTTPS-i ja SSH-d, kuid esimeses seminaris kasutatakse HTTPS-i. SSH-võtmeid selles etapis ei seadistata.
 - Põhiline koodiredaktor on VS Code. Alternatiive võib lühidalt tutvustada ja paluda neid tundvatel õppijatel oma kogemust jagada.
 - Selgitada tuleb mõistet IDE, selle ingliskeelset nimetust `Integrated Development Environment` ja erinevust lihtsa tekstiredaktoriga.
-- Tutvustada tuleb terminali, käsukesta ja graafiliste tööriistade suhet. GitHub Desktop on alternatiiv, kuid kursuse eelistatud graafiline Giti töövoog toimub VS Code'is.
+- Tutvustada tuleb terminali, käsukesta ja graafiliste tööriistade suhet. Kursuse peamine graafiline Giti töövoog toimub VS Code'is; esimeses kodutöös harjutatakse terminali põhikäskude ringi.
 - Windowsis kasutatakse kursuse käsureanäidetes PowerShelli asemel Git Bashi.
 - Markdowni puhul tuleb lisaks süntaksile selgitada, miks see sobib dokumentatsiooni ja GitHubi töövoogu.
 - Node.js-i, Dockerit ja arenduskeskkondi tutvustatakse esmalt tervikpildi tasandil. Enne paigaldamist või praktilist kasutamist peab olema selge, milleks tööriista kursusel vaja läheb.
@@ -104,6 +104,7 @@ Slaidide, kodutöö, õpetaja juhendi, failinimede, tähtaegade ja hindamiskrite
 - Esimese seminari tegelik praktiline Giti töövoog oli terminalipõhine. Esimene kodutöö kinnistab seda; graafiline töövoog jääb alternatiiviks. Node.js-i ja npm-i paigaldamine ei ole esimese kodutöö ega seminari 2 eeldus.
 - Esimene kodutöö tehakse Issue'st loodud harus ja esitatakse pull request'iga. Enne õppejõudu vaatab töö üle kaasõppija; paarid on failis `student_pairs.md` (rida `A -> B`: A vaatab üle B töö). Sama Issue → haru → PR → ülevaatus töövoog on kolledži ühine, vt `tluhk/Abimaterjalid/docs/koduse_too_esitamine.md`.
 - Seminar 2 algab probleemide leidmisega. Esimesest seminarist kinnistamist vajavad oskused lisatakse projektitöö sisse: Markdown, muudatuste kontroll, commit ja push; seejärel pull ning tag ja release.
+- Seminaris 3 tuletatakse valideeritud vajadusest kasutajalood ja kontrollitavad funktsionaalsed nõuded enne süsteemi kontseptsiooni täpsustamist. Waterfalli ja agiilse arenduse võrdlus on oluline ning peab olema nähtav nii seminaris 1 kui ka seminaris 3.
 
 ## Failide ja mõistete vormistus
 

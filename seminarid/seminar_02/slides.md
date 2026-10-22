@@ -3,309 +3,267 @@ marp: true
 theme: default
 paginate: true
 header: Sissejuhatus tarkvaraarendusse
-footer: Seminar 2 – probleemi leidmine
+footer: Seminar 2 · kliendisoovist arendusülesandeni
 ---
 
 # Seminar 2
 
-## Probleemi leidmine
+## Kliendisoovist arendusülesandeni
 
-Meeskonnaprojekti algus
+> Haapsalu Kolledž soovib oma tunniplaani veebilehte muuta kaasaegsemaks.
 
----
+Uurime, kelle jaoks ja miks on muutust vaja.
 
-# Kas tarkvaraarendus algab ideest?
-
----
-
-## Tarkvaraarendus algab probleemist
-
-Idee on üks võimalik vastus.
-
-Enne lahenduse valimist tuleb mõista inimest, olukorda ja takistust.
+<!-- Õppestsenaarium. Kogu enne selgitamist paar õppijate küsimust kliendile. -->
 
 ---
 
-# Kumb kirjeldab probleemi?
+## Kus oleme kursusel?
 
-„Meil on vaja sööklaäppi.”
+- Seminar 1: suur pilt ja töövahendite seadistamine
+- **Seminar 2: kliendisoovist arendusülesandeni**
+- Seminar 3: rollid, tööviisi valik ja süsteemi kontseptsioon
+- Seminar 4: kvaliteet, riskid ja vastutus
+- Seminar 5: kasutuselevõtt, tagasiside ja hooldus
+- Eksam: dokumenteeritud protsessi esitlus release'ide ajajoonena
 
-„Õppija ei tea enne sööklasse minekut, kas sobiv toit on saadaval.”
-
----
-
-## Puuduv äpp ei ole probleem
-
-Esimene väide valib lahenduse.
-
-Teine väide jätab avatuks mitu võimalikku lahendust.
+Projekti tulemus on dokumenteeritud arendusprotsess ja põhjendatud otsuste logi. Töötavat rakendust ega klikitavat prototüüpi ei nõuta.
 
 ---
 
-## Kust probleeme leida?
+## Meenutus: elutsükkel ja tööviis
 
-- korduv käsitöö
-- ootamine ja viivitused
-- sama info korduv sisestamine
-- puudulikust infost tekkivad vead
-- halvasti ühendatud kanalid
-- ligipääsetavuse takistused
-- ebamugavad kõrvalteed
+**Probleem ja kasutajate vajadused (täna)** → nõuded → kavandamine → teostus ja kontroll → kasutuselevõtt ja hooldus
 
----
+Elutsükkel näitab arenduse töid. Tööviis määrab nende korralduse:
 
-## Probleemiväite struktuur
+- **Waterfall:** valdavalt järjestikused etapid ja varased kokkulepped.
+- **Agiilne tööviis:** väikesed sammud, sage tagasiside ja plaani täpsustamine.
 
-> **[Kellel]** on olukorras **[kontekst]** raske **[eesmärk]**, sest **[takistus]**. Selle tagajärg on **[mõju]**.
+[Selgitus: elutsükkel, Waterfall ja agiilne tööviis](peatukid/01-elutsukkel-ja-tooviis.md)
 
 ---
 
-## Näide
+## Miks on arenduses erinevad rollid?
 
-> Õhtuses õppes osaleval õppijal on raske rühmatöö otsuseid hiljem taastada, sest need jäävad vestlustesse ja eri failidesse. Selle tagajärjel korratakse arutelusid.
+Hea otsus arvestab eri vaatenurki:
 
-See on veel oletus.
+- tellija ja tootejuht: eesmärk ning väärtus;
+- analüütik ja UX-uurija: tööprotsess ning kasutaja vajadus;
+- arhitekt ja arendaja: teostatavus ning süsteemi seosed;
+- testija: tulemuse kontrollimine.
 
----
+Väikeses tiimis täidab üks inimene mitut rolli. Vastutus peab olema kokku lepitud.
 
-# Kuidas probleemi kontrollida?
-
----
-
-## Kerge valideerimine
-
-- üks lühike vestlus inimesega, kes probleemi kogeb
-- või üks sõltumatu usaldusväärne andmeallikas
-- meeskonna analüüs, mida uus info muutis
-
-AI vastus ei ole probleemi olemasolu tõend.
+[Selgitus: rollid ja nende koostöö](peatukid/02-rollid-ja-vastutused.md)
 
 ---
 
-## Küsi praeguse tegevuse kohta
+## Soov, probleem ja lahendusidee
 
-- Räägi viimasest korrast, kui see juhtus.
-- Mida sa teha püüdsid?
-- Mis takistas?
-- Kuidas olukorra lahendasid?
-- Mis oli tagajärg?
+**Soov** ütleb, millist muutust oodatakse.
+**Probleem** kirjeldab kasutaja takistust ja selle mõju.
+**Lahendusidee** pakub takistuse kõrvaldamise viisi.
 
-Ära küsi: „Kas kasutaksid meie äppi?”
+„Teeme mobiiliäpi” nimetab lahenduse. Enne on vaja teada, mida inimene praegu teha püüab ja mis teda takistab.
 
----
-
-## Pärisprojekti peegel
-
-GOV.UK discovery põhimõte:
-
-- mõista probleemi enne ehitamist
-- sõnasta ette antud lahendus ümber probleemiks
-- uuri kasutajat, konteksti ja piiranguid
-- discovery võib lõppeda otsusega mitte ehitada
-
-[Allikas](https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works)
+[Selgitus ja probleemiväite näide](peatukid/03-01-probleemi-sonastamine.md)
 
 ---
 
-# Millal on projekti peatamine hea otsus?
+## Mida me teame ja mida oletame?
+
+- **Tõend:** inimese kirjeldatud juhtum, vaatlus või kontrollitav allikas.
+- **Tõlgendus:** järeldus, mille info põhjal teeme.
+- **Oletus:** väide, mille kohta meil veel kinnitust pole.
+
+Ühe inimese kogemus annab uurimiseks vihje. Järelduse ulatus peab vastama kogutud tõenditele.
+
+[Näide: tõendi ja oletuse eristamine](peatukid/03-02-vestlus-toendid-discovery.md)
 
 ---
 
-## Kui tõend muudab arusaama
+## Uurimine algab päris kogemusest
 
-Ebaõnnestunud oletus ei ole läbikukkumine.
+Palu kasutajal kirjeldada viimast tunniplaani kasutamise korda. Uuri eesmärki, takistust ja seda, kuidas ta hakkama sai.
 
-Kontrollimata oletuse põhjal ehitamine võib raisata palju rohkem aega.
+Sellist probleemi ja kasutajate uurimist nimetatakse ka **discovery**-etapiks. Tulemus võib olla otsus senist plaani muuta.
 
----
-
-## Kandidaatide võrdlemine
-
-Hinnake 0–2:
-
-- inimene ja olukord
-- mõju
-- korduvus
-- kontrollitavus
-- kursuse jaoks hallatav ulatus
-
-Skoor aitab valida kontrollimise järjekorra. See ei tõesta probleemi.
+[Intervjuuküsimused ja GOV.UK discovery näide](peatukid/03-02-vestlus-toendid-discovery.md)
 
 ---
 
-## Individuaalne töö
+## AI aitab uurimist ette valmistada
 
-Kirjuta vähemalt kolm probleemikandidaati.
+Kasuta AI-d võimalike kasutajarühmade või uurimisküsimuste leidmiseks.
 
-Iga kandidaadi juures nimeta:
+Kontrolli otsust mõjutavat väljundit inimese, vaatluse või algallikaga. AI vastus ei tõenda kasutajaprobleemi olemasolu.
 
-- inimene
-- olukord
-- takistus
-- mõju
-- oletus
+Pane kirja kasutamise eesmärk, tehtud kontroll ja tegelik kasu. Hoia isikuandmed ning konfidentsiaalne info AI-tööriistast väljas.
+
+[Juhis: AI kasutamine ja riskid](peatukid/03-03-ai-uurimises.md)
 
 ---
 
-## Meeskonna valik
+## Litsents annab kasutusloa
 
-1. Võrrelge kandidaate.
-2. Valige üks probleem.
-3. Dokumenteerige ka kõrvale jäetud variant.
-4. Kirjutage valiku põhjendus.
-5. Nimetage puuduv info.
+Litsents määrab, kuidas võib koodi või muud materjali kasutada, muuta ja jagada.
 
----
+- Võõra materjali puhul kontrolli allikat ning tingimusi.
+- Oma materjalile märgi luba ka siis, kui soovid seda tasuta jagada.
 
-# Meeskonnaprojekt GitHubis
+Avalik GitHubi repo üksi üldist taaskasutusluba ei anna.
 
-Üks repo organisatsioonis `TLUHK-RIF26`
-
-Kõigil liikmetel on ühine ajalugu ja eraldi nähtav panus.
+[Selgitus ja näited: litsentsid](peatukid/04-litsentsid.md)
 
 ---
 
-## Clone, mitte fork
+## Harjutus: igaühe kolm probleemikandidaati
 
-Kõik liikmed kloonivad sama meeskonnarepo.
+Kirjelda iseseisvalt vähemalt kolme võimalikku tunniplaani kasutusprobleemi eri kasutajate või olukordade kaudu.
 
-**Clone** teeb töökoopia arvutisse. **Fork** looks GitHubis eraldi repo ja seda pole kaastöötajana vaja.
+Iga kandidaadi juures näita kasutajat, eesmärki, takistust, mõju ning teadaolevat ja oletatavat infot. Hinda, mida saaks järgmisena kontrollida.
 
----
+[Tööleht ja enesehindamine](peatukid/05-01-probleemikandidaatide-too.md)
 
-# Kus meeskond tööd korraldab?
-
-## GitHub Projects
-
-- Issue kirjeldab tööd.
-- Projecti tahvel näitab olekut ja vastutajat.
-- Näiteks: **Backlog → In progress → Review → Done**.
-
-Jira ja ClickUp on samalaadsed projektihalduse tööriistad. Sellel kursusel
-kasutame GitHub Projectsi.
+<!-- 14 minutit. Esimese osa lõpuks on individuaalsed märkmed. Ühist probleemi veel ei valita. -->
 
 ---
 
-# Litsents enne kasutamist
+## Tiimitöö ühises repositooriumis
 
-Kontrolli enne võõra koodi, pildi, fondi, andmete või AI-väljundi kasutamist:
+Tiim kasutab üht repot organisatsioonis `TLUHK-RIF26`.
+Iga liige **kloonib** sellest töökoopia enda arvutisse.
 
-- allikas ja litsents;
-- mida tohib muuta ja jagada;
-- milline viide tuleb alles jätta.
+Iga õppija loob oma tööülesande ehk **Issue** ning lisab kandidaadid eraldi faili. Muudatused käivad enda haru ja kaaslase ülevaatuse kaudu.
 
-Seminaris piisab lingist, litsentsi nimetusest ja lühikesest põhjendusest.
+[Alustamine: ligipääs, kloonimine ja enda Issue](peatukid/06-01-repo-ja-tookoopia.md)
+
+<!-- Teise 90-minutilise osa algus. Kontrolli ligipääse enne harjutuse jätkamist. -->
 
 ---
 
-## Iga õppija töövoog
+## Kanban näitab töö seisu
 
-```text
-Issue → haru → muudatus → commit → push
-→ pull request → ülevaatus → merge
+GitHub Projectsis liigub Issue vastavalt töö seisule:
+
+**Backlog → In progress → Review → Done**
+
+Igal tööl on vastutaja, lõpetamise tingimus ja ajahinnang. Hoidke pooleliolevate tööde hulk väike ning aidake takerdunud töö lõpuni.
+
+[Juhis: tahvel ja aja planeerimine](peatukid/06-02-issue-ja-kanban.md)
+
+---
+
+## Enda ülesande haru
+
+Haru eraldab sinu töö peaharust `main`.
+
+```bash
+git switch main
+git pull --ff-only
+git switch -c issue-12-map-problem-candidates
 ```
 
-VS Code'is muudame faili; terminalis kasutame Giti käske.
+Haru nimi on kujul `issue-<number>-<short-english-description>`.
+Näites on ülesande number 12.
 
-GitHub: pull request → ülevaatus → merge
-
----
-
-## Tuttav põhiring uues harus
-
-`git status` → faili salvestamine → `git add` → `git diff --cached` → `git commit` → `git push`
-
-Kontrolli enne õiget repot ja töökataloogi.
-
-Uue haru esimene saatmine vajab haru seostamist GitHubiga. Täpne näide on seminarijuhendis.
+[Käskude selgitused ja läbiv näidis](peatukid/06-03-haru-ja-toofail.md)
 
 ---
 
-# Kaaslase PR on ühendatud. Kas minu arvutis on uus sisu?
+## Muudatuse salvestamine
+
+```bash
+git status
+git add research/mari-tamm-probleemikandidaadid.md
+git diff --cached
+git commit -m "Add timetable problem candidates"
+```
+
+**Commit** salvestab valitud muudatuse Giti ajalukku.
+Vaata valik enne üle. Ingliskeelne sõnum algab tegusõnaga ja nimetab konkreetse muudatuse.
+
+[Tööjuhend ja commit'i sõnumite head tavad](peatukid/06-04-commit-ja-push.md)
 
 ---
 
-## Kohalik koopia vajab uuendamist
+## Haru saatmine ja pull request
 
-Kui enda töö on salvestatud, commit'itud ja push'itud ning töökaust puhas:
+```bash
+git push -u origin issue-12-map-problem-candidates
+```
+
+**Push** saadab commit'id GitHubi.
+**Pull request (PR)** palub muudatuse üle vaadata ja peaharuga ühendada.
+
+PR-i kirjeldusse lisa töö sisu ja `Closes #12`.
+Määra ülevaatajaks tiimikaaslane.
+
+[Juhis: PR-i avamine](peatukid/06-05-pull-request-ulevaatus-merge.md)
+
+---
+
+## Ülevaatus ja ühendamine
+
+Kaaslane kontrollib muudatust Issue eesmärgi järgi:
+
+- **Approve:** töö sobib ühendamiseks.
+- **Request changes:** autor parandab sama haru ja saadab uued commit'id.
+
+Pärast heakskiitu ühendab autor PR-i peaharuga ehk teeb **merge**'i. Iga õppija vaatab üle vähemalt ühe kaaslase töö.
+
+[Juhis: sisuline ülevaatus ja merge](peatukid/06-05-pull-request-ulevaatus-merge.md)
+
+---
+
+## Kohaliku peaharu uuendamine
+
+Kui sinu töö on salvestatud ja töökaust puhas:
 
 ```bash
 git switch main
 git pull --ff-only
 ```
 
-Kui peaharu nimi on `master`, kasuta seda. Kontrolli kaaslase muudatust oma arvutis.
+**Pull** toob GitHubis ühendatud töö sinu arvutisse.
+Järgmise ülesande haru loo uuendatud `main`-ist.
+
+[Juhis: pull ja järgmise töö alustamine](peatukid/06-06-pull-ja-jargmine-ulesanne.md)
 
 ---
 
-## Tag, release ja release notes
+## Kodutöö: kandidaatidest ühise otsuseni
 
-- **Tag** märgib kindla commit'i.
-- **GitHub Release** avaldab selle versiooni koos kirjeldusega.
-- **Release notes** selgitab muutusi, kontrolle ja lahtisi küsimusi.
+1. Igaüks lõpetab oma PR-i ja kaaslase ülevaatuse.
+2. Tiim võrdleb ühendatud kandidaate ning valib uuritava probleemi.
+3. Igaüks osaleb probleemi kontrollimises.
+4. Tiim dokumenteerib põhjendatud lähteülesande; igaüks lisab refleksiooni.
 
-Harjutame esimese release'i loomist enne kodutööd.
+Kasuta AI-d vähemalt ühe olulise otsuse juures ja dokumenteeri väljundi kontroll.
 
----
-
-## Esimene otsus
-
-```text
-decisions/
-└── 001-probleemi-valik.md
-```
-
-[Otsuse mall](../mallid/otsus.md)
+[Kodutöö nõuded, failid ja esitamine](peatukid/07-01-kodutoo.md)
 
 ---
 
-## Otsus peab näitama mõtlemist
+## Esimene avaldatud versioon: `v0.1.0`
 
-- probleem või uus info
-- kaalutud variandid
-- valik ja põhjendus
-- mõju ning kompromiss
-- kontrollimise viis
-- otsuse muutmise tingimus
+**Tag** märgib kindla commit'i.
+**GitHub Release** avaldab selle versiooni koos muutuste kirjeldusega.
 
----
+Kodutöö lõpus avaldab release manager versiooni **„Probleem sõnastatud”**. Release manager vahetub järgmises projektietapis.
 
-## Seminari kontrollpunkt
+[Juhis: tag'i valimine ja release'i avaldamine](peatukid/07-02-release.md)
 
-- [ ] Repo on kõigile ligipääsetav.
-- [ ] Probleem on esialgselt sõnastatud.
-- [ ] Otsuse mustand on repos.
-- [ ] Valideerimine on jagatud Issue'deks.
-- [ ] Igal liikmel on järgmine tegevus.
+<!-- Näita loomise samme näidisrepos. Tiimide päris v0.1.0 valmib kodutöö lõpus. -->
 
 ---
 
-# Kodutöö
+## Seminari lõpu kontrollpunkt
 
-## Release `v0.1.0 – Probleem sõnastatud`
+- [ ] Pääsen tiimi repole ja Projectsi tahvlile ligi.
+- [ ] Mul on oma Issue, eraldi tööfail ja alustatud haru.
+- [ ] Tean, kes minu PR-i üle vaatab ja kelle tööd mina kontrollin.
+- [ ] Tean oma järgmist sammu kodutöös.
 
-Kontrollige probleemi, täiendage otsust ja lisage individuaalsed refleksioonid.
-
----
-
-## Release ei tähenda lõplikku vastust
-
-Release näitab:
-
-- mida teame
-- mida otsustasime
-- mis muutus
-- mis jäi lahtiseks
-- mida kontrollime järgmisena
-
----
-
-## Valmis tulemus
-
-- otsus `001-probleemi-valik.md`
-- release notes `v0.1.0.md`
-- iga liikme refleksioon
-- iga liikme pull request ja ülevaatus
-- avaldatud GitHub Release `v0.1.0`
-
-Täielik juhend: [homework.md](homework.md)
+[Pooleli jäänud töö jätkamine ja kodutöö juhend](peatukid/07-03-valmis-too-ja-esitamine.md)

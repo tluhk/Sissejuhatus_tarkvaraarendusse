@@ -12,6 +12,23 @@ footer: Seminar 3 – meeskond, tööviis ja süsteemi põhimõte
 
 ---
 
+## Kogu kursuse teekond: kus oleme?
+
+Probleem → kasutajate ja vajaduste uurimine → **nõuete kirjeldamine, töö
+planeerimine ja lahenduse disainimine — seminar 3** → arendamine → testimine ja
+tagasiside → avaldamine ja hooldus
+
+- seminar 1: suur pilt ja töövahendite seadistamine
+- seminar 2: kliendisoovist arendusülesandeni
+- **seminar 3: rollid, tööviisi valik ja süsteemi kontseptsioon**
+- seminar 4: kvaliteet, riskid ja vastutus
+- seminar 5: kasutuselevõtt, tagasiside ja hooldus
+- eksam: dokumenteeritud protsessi esitlus release'ide ajajoonena
+
+**Projekti tulemus:** dokumenteeritud arendusprotsess ja otsuste logi; töötavat rakendust ega klikitavat prototüüpi ei nõuta.
+
+---
+
 # Kes otsustab, kuidas tarkvara tehakse?
 
 ---
@@ -59,6 +76,32 @@ Rollivahetus aitab mõista, miks arhitekt, disainer, arendaja ja kvaliteedispets
 
 ---
 
+# Kuidas muutub tõend nõudeks?
+
+---
+
+## Kasutajalugu seob kasutaja, tegevuse ja väärtuse
+
+> Kasutajana soovin [tegevust või võimalust], et [saavutatav väärtus].
+
+Näide: „Õppijana soovin näha lähenevaid tähtaegu ühes vaates, et saaksin oma tööd paremini järjestada.”
+
+See kirjeldab funktsionaalset nõuet: mida süsteem peab võimaldama.
+
+Näiteks kontrollime, et tähtajad kuvatakse kuupäeva järjekorras ja iga tähtaja juures on kursuse nimi.
+
+---
+
+## Kontrolli iga kasutajaloo alust
+
+- Milline seminaris 2 kogutud tõend seda vajadust toetab?
+- Kes seda vajab ja mis muutub tema jaoks?
+- Millise tingimuse järgi saame hiljem aru, et nõue on täidetud?
+
+Kasutajalugu ei ole valmis lahenduse kirjeldus ega kata kvaliteediomadusi, nagu turvalisus ja töökindlus.
+
+---
+
 # Milline arendusmeetod on kõige parem?
 
 ---
@@ -68,6 +111,16 @@ Rollivahetus aitab mõista, miks arhitekt, disainer, arendaja ja kvaliteedispets
 Tööviis peab sobima probleemi, ebakindluse, piirangute ja meeskonnaga.
 
 Meetodi nimi ei asenda põhjendust.
+
+---
+
+## Waterfall ja agiilne lähenemine
+
+**Waterfall ehk kosemudel:** valdavalt järjestikused etapid; sobib paremini stabiilsete nõuete ja piirangute korral.
+
+**Agiilne lähenemine:** koostöö, sagedane tagasiside ja plaani kohandamine väikeste sammude kaupa.
+
+Agiilne ei tähenda, et plaani ega dokumentatsiooni pole.
 
 ---
 
@@ -91,7 +144,7 @@ Sobib paremini, kui tulemus ja piirangud on ette teada ning hiline muutus on kal
 
 ## Scrum, Kanban ja Lean
 
-- Scrum: ajaliselt piiratud sprindid ja kokkulepitud sündmused
+- Scrum: agiilne raamistik ajaliselt piiratud sprintide ja kokkulepitud sündmustega
 - Kanban: nähtav töövoog ja poolelioleva töö piiramine
 - Lean: väärtus, õppimine ja raiskamise vähendamine
 
@@ -116,7 +169,9 @@ GOV.UK alpha:
 
 ---
 
-## Süsteemi kontseptsioon
+## Süsteemi kontseptsioon ja kõrgtaseme arhitektuur
+
+Seostage süsteemi eesmärk ja piir vähemalt kahe kasutajalooga.
 
 Kirjeldage:
 
@@ -126,6 +181,8 @@ Kirjeldage:
 - oluline info liikumine
 - välised sõltuvused
 - teadmatused
+
+Arhitektuur näitab suuremaid osi, nende vastutust ja seoseid. Tehnoloogiapinu valimine pole eesmärk.
 
 ---
 
@@ -161,7 +218,8 @@ Hea commit toetab otsuste ülevaatamist ja vajaduse korral muudatuse leidmist.
 2. Vahetage rollid.
 3. Võrrelge vähemalt kolme tööviisi.
 4. Põhjendage valik otsuste logis.
-5. Kirjeldage süsteemi kontseptsioon.
+5. Sõnastage vähemalt kaks tõendiga seotud kasutajalugu ja lisage kummalegi kontrolltingimus.
+6. Kirjeldage süsteemi kontseptsioon ning seostage see kasutajalugudega.
 
 ---
 
@@ -200,5 +258,6 @@ Iga õppija: sisuline panus, PR, ülevaatus ja refleksioon.
 - Kas alternatiivid on nähtavad?
 - Kas valik sobib meie olukorraga?
 - Kas süsteemi piir on arusaadav?
+- Kas kasutajalood lähtuvad tõendist ja väljendavad kasutaja väärtust?
 - Kas rollide vaated mõjutasid otsust?
 - Mis võib veel muutuda?

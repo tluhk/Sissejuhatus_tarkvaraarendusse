@@ -12,6 +12,23 @@ footer: Seminar 4 – kvaliteet, riskid ja vastutus
 
 ---
 
+## Kogu kursuse teekond: kus oleme?
+
+Probleem → kasutajate ja vajaduste uurimine → nõuete kirjeldamine → töö
+planeerimine → lahenduse disainimine → arendamine → **testimine ja tagasiside —
+seminar 4** → avaldamine ja hooldus
+
+- seminar 1: suur pilt ja töövahendite seadistamine
+- seminar 2: kliendisoovist arendusülesandeni
+- seminar 3: rollid, tööviisi valik ja süsteemi kontseptsioon
+- **seminar 4: kvaliteet, riskid ja vastutus**
+- seminar 5: kasutuselevõtt, tagasiside ja hooldus
+- eksam: dokumenteeritud protsessi esitlus release'ide ajajoonena
+
+**Projekti tulemus:** dokumenteeritud arendusprotsess ja otsuste logi; töötavat rakendust ega klikitavat prototüüpi ei nõuta.
+
+---
+
 # Kui tarkvara töötab, kas see on kvaliteetne?
 
 ---
@@ -29,6 +46,16 @@ Kvaliteet tähendab sobivust päris kasutusolukorda.
 **Funktsioon:** mida süsteem võimaldab teha?
 
 **Kvaliteediomadus:** kui hästi või millistel tingimustel peab see toimuma?
+
+---
+
+## Testjuhtum seob nõude kontrolliga
+
+- eeldused või algseis
+- tegevuse sammud
+- oodatud tulemus
+
+Test võrdleb oodatud ja tegelikku tulemust. Läbikukkumine näitab erinevust, mitte veel selle põhjust.
 
 ---
 
@@ -101,6 +128,28 @@ Cloudflare'i 2019. aasta katkestus:
 ## Süsteemne vastus
 
 Kood, testimine, levitamine, seire ja otsustusprotsess mõjutasid koos nii rikke tekkimist kui ka ulatust.
+
+---
+
+# Kuidas viga uurida?
+
+## Silumise lihtne ring
+
+1. Korda viga võimalikult väikese näitega.
+2. Pane kirja oodatud ja tegelik tulemus.
+3. Kitsenda võimalikke põhjuseid ja kontrolli hüpoteesi.
+4. Pärast parandust korda testi ning lisa kontroll, et viga ei korduks.
+
+Näide: keskmise arvutamise funktsioon jagab summa kirjete arvuga. Mis juhtub tühja loendiga? Kuidas seda viga korrata ja millist tulemust peaksime ootama?
+
+Koodi lugemise näide: oodatud keskmine on `4`, tegelik vastus `6`. Katseta sisendiga `[2, 4, 6]`, jälgi arvutust ja leia vea põhjus.
+
+```js
+function average(values) {
+  const total = values.reduce((sum, value) => sum + value, 0);
+  return total / (values.length - 1);
+}
+```
 
 ---
 

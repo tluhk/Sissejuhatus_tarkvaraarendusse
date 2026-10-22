@@ -1,6 +1,45 @@
 # Kursuseprogramm
 
-Kursus annab suure pildi tarkvaraarendusest kui probleemist lähtuvast, meeskondlikust ja kogu elutsüklit hõlmavast protsessist. Seminarides 2–5 arendab iga meeskond üht läbivat projekti ning talletab olulised valikud otsuste logis ja GitHub Releases'ides.
+## Mida kursusel teeme?
+
+Seminaris 2 alustame meeskondades üht läbivat projekti. Kõik tiimid lähtuvad Haapsalu Kolledži tunniplaani veebilehe kohta antud kliendisoovist. Iga õppija uurib iseseisvalt võimalikke kasutajaprobleeme ning esitab oma kandidaadid pull request'iga. Pärast nende ülevaatamist ja ühendamist võrdleb tiim kandidaate, valib ühe probleemi ning kontrollib seda tõendite abil. Nii sõnastatakse arendustiimile selge ja piiritletud ülesanne.
+
+Kursuse jooksul uurime tarkvaraarenduse tervikut:
+
+```text
+Probleem
+  ↓
+Kasutajate ja vajaduste uurimine
+  ↓
+Nõuete kirjeldamine
+  ↓
+Töö planeerimine
+  ↓
+Lahenduse disainimine
+  ↓
+Arendamine
+  ↓
+Testimine ja tagasiside
+  ↓
+Avaldamine ja hooldus
+```
+
+Projekti tulemus on dokumenteeritud arendusprotsess. Selle keskmes on otsuste logi: mida valisime, milliseid alternatiive kaalusime, miks nii otsustasime ja kuidas uus info meie arusaama muutis. Süsteemi põhimõtet selgitame kirjelduse või vajaduse korral skeemiga. Töötav rakendus ja klikitav prototüüp ei ole nõutavad.
+
+Kursus koosneb viiest seminarist ja lõpuesitlusest:
+
+1. seminar 1: suur pilt ja töövahendite seadistamine;
+2. seminar 2: kliendisoovist arendusülesandeni;
+3. seminar 3: rollid, tööviisi valik ja süsteemi kontseptsioon;
+4. seminar 4: kvaliteet, riskid ja vastutus;
+5. seminar 5: kasutuselevõtt, tagasiside ja hooldus;
+6. eksam: dokumenteeritud protsessi esitlus release'ide ajajoonena.
+
+Kursuse läbiv praktiline töö toimub GitHubis. Seminarist 2 kasutab iga meeskond üht ühist repositooriumi. Iga õppija teeb muudatusi enda harus ja vaatab üle kaaslase töö. Ametialased rollid vahetuvad ning iga projektiseminari järel kirjutab iga õppija refleksiooni.
+
+Projektiseminaride kodutöö lõpeb GitHub Release'iga ehk avaldatud versiooniga, mis fikseerib dokumentatsiooni hetkeseisu ja olulised muutused. Kodutöö arvestuslik maht on umbes 8 tundi õppija kohta. Esimese seminari kodutöö on individuaalne; release'ide tegemist alustame meeskonnaprojektiga.
+
+AI-d kasutame vähemalt ühe olulise otsuse juures ning selgitame selle kasu ja väljundi kontrollimist. Hindamisel on keskmes arusaamine ja põhjendamine.
 
 ## Seminar 1: suur pilt ja töövahendid
 
@@ -21,21 +60,22 @@ Kursus annab suure pildi tarkvaraarendusest kui probleemist lähtuvast, meeskond
 
 Toimunud seminari järel kinnistab kodutöö terminalis `add → commit → push` töövoogu ja sisaldab lühikest käsuspikrit. Node.js, npm, Docker ning GitHub CLI on valikulised. Kodutöö tehakse Issue'st loodud harus ja esitatakse pull request'iga; enne õppejõudu vaatab töö üle kaasõppija (paarid failis `student_pairs.md`). Pooleli jäänud sammust antakse teada ülesande Issue kommentaaris.
 
-## Seminar 2: probleemi leidmine
+## Seminar 2: kliendisoovist arendusülesandeni
 
 ### Põhiküsimus
 
 > Kas tegeleme päris ja olulise probleemiga?
 
-Meeskonnad alustavad ühist projekti organisatsiooni `TLUHK-RIF26` repos ja GitHub Projectsis. Õppijad eristavad probleemi lahendusest, leiavad probleemikandidaate, teevad kerge valideerimise ja põhjendavad valikut. Teise seminari loengus tuletame meelde litsentsi põhitõed ning mainime Jira't ja ClickUpi kui samalaadseid töövahendeid.
+Meeskonnad alustavad ühist projekti organisatsiooni `TLUHK-RIF26` repos ja GitHub Projectsis. Kõik lähtuvad kliendisoovist „Haapsalu Kolledž soovib oma tunniplaani veebilehte muuta kaasaegsemaks”. Seminaris loob iga õppija enda probleemikandidaatide Issue'i ja alustab iseseisvat tööd. Pärast individuaalsete pull request'ide ülevaatamist ja ühendamist võrdleb tiim kandidaate, valib kontrollimist vajava probleemi, valideerib selle kodutöö käigus ning koostab tõenditega põhjendatud ja piiritletud arendusülesande lähteülesande. Seminari õppematerjal koondab probleemi uurimise teooria ja tööjuhised slaidide järjekorda; teises osas tutvume ka Kanbani ja GitHub Projectsiga ning harjutame commit'i häid tavasid. Jira't ja ClickUpi nimetame samalaadsete töövahenditena.
 
-Alustame plaanitud probleemiteemaga. Markdowni, muudatuste kontrolli ja Giti põhiringi kinnistame projektitöö sees; kaaslase PR-i ühendamise järel harjutame `pull`-i ning kodutöö eel esimese release'i loomist.
+Valmis kasutajaprobleeme, funktsioone ega kujunduslahendusi ette ei anta. Meeskonnad võivad uurida eri kasutajate ja olukordade vaatenurki. GitHub Projectsis harjutatakse ülesannete järjestamist, töö jagamist ja realistliku ajahinnangu andmist. Markdowni, muudatuste kontrolli ja Giti põhiringi kinnistame projektitöö sees; kaaslase PR-i ühendamise järel harjutame `pull`-i ning kodutöö eel esimese release'i loomist.
 
 ### Materjalid
 
-- [Seminari materjal](../seminarid/seminar_02/seminar.md)
+- [Seminari materjal](../seminarid/seminar_02/01-seminar.md)
+- [Laiem taustalugemine: tarkvaraarendus algusest kasutamiseni](tarkvaraarenduse-tervikprotsess.md)
 - [HTML-slaidid](../seminarid/seminar_02/slides.html)
-- [Kodutöö 2](../seminarid/seminar_02/homework.md)
+- [Kodutöö 2](../seminarid/seminar_02/03-kodutoo.md)
 
 **Release:** `v0.1.0 – Probleem sõnastatud`
 
@@ -45,7 +85,7 @@ Alustame plaanitud probleemiteemaga. Markdowni, muudatuste kontrolli ja Giti põ
 
 > Kuidas meeskond töötab ja millist süsteemi põhimõtteliselt kavandab?
 
-Õppijad vaatavad projekti päris ametialaste rollide kaudu, võrdlevad arendusviise, põhjendavad meeskonna töökorralduse ja kirjeldavad süsteemi üldist kontseptsiooni. Rolle vahetatakse.
+Õppijad vaatavad projekti päris ametialaste rollide kaudu, võrdlevad Waterfalli, iteratiivset ja agiilset tööviisi, tuletavad valideeritud vajadusest kasutajalood ning kontrollitavad funktsionaalsed nõuded ja kirjeldavad nende põhjal süsteemi üldist kontseptsiooni ning kõrgtaseme arhitektuuri: peamised osad, piirid, seosed ja välised sõltuvused. Rolle vahetatakse.
 
 ### Materjalid
 
@@ -61,7 +101,7 @@ Alustame plaanitud probleemiteemaga. Markdowni, muudatuste kontrolli ja Giti põ
 
 > Kas kavand on piisavalt hea ja vastutustundlik?
 
-Õppijad valivad projekti olulised kvaliteediomadused, teevad need kontrollitavaks ning analüüsivad turvalisuse, privaatsuse, ligipääsetavuse, töökindluse, litsentside ja kolmandate osapoolte riske.
+Õppijad valivad projekti olulised kvaliteediomadused ja teevad need kontrollitavaks. Lühidalt harjutatakse testjuhtumi koostamist ning vea kordamist, põhjuse kitsendamist ja paranduse järelkontrolli. Lisaks analüüsitakse turvalisuse, privaatsuse, ligipääsetavuse, töökindluse, litsentside ja kolmandate osapoolte riske.
 
 ### Materjalid
 

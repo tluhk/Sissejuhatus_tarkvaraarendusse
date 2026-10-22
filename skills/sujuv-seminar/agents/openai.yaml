@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sujuv seminar"
+  short_description: "Selged slaidid ja neid avavad õppematerjali peatükid"
+  default_prompt: "Kasuta $sujuv-seminar skilli ja koosta järgmine seminar seminar_02-sujuv eeskujul uude kausta."

@@ -6,13 +6,8 @@ Enne esimest loengut tuleks teha ära järgmised tegevused:
 
 Paigalda oma arvutisse git: https://git-scm.com/downloads
 
-## Graafilise kasutajaliidesega git-i tööriista paigaldus
+## Töövahendid
 
-Kui Sa ei tunne ennast käsurea või käsurealt git-i kasutamisega väga kindlalt, siis lihtsustab git-i kasutamiset graafilise kasutajaliidesega git-i tööriist. Neid tööriistu on mitmeid - nii tasulisi kui ka tasuta variante. Loengutes kasutan ise edaspidi Github Desktop nimelist rakendust.
+Paigalda Git ja [Visual Studio Code](https://code.visualstudio.com/) ning loo GitHubi kasutajakonto. Kursuse peamine graafiline Giti töövoog toimub VS Code'i Source Control vaates; esimeses kodutöös harjutame ka terminali põhikäskude ringi. Windowsis kasuta kursuse juhendites Git Bashi.
 
-Valik graafilise kasutajaliidesega tööriistu:
-
-- [Github Desktop](https://desktop.github.com/)
-- [Sourcetree](https://www.sourcetreeapp.com/)
-- [GitKraken](https://www.gitkraken.com/)
-- [Git-i laiendus VS Code-le](https://code.visualstudio.com/docs/sourcecontrol/overview)
+Esimeses seminaris kasutame GitHubiga ühendumiseks HTTPS-i. SSH-võtmeid ega eraldi Giti graafilist rakendust pole vaja seadistada.

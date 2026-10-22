@@ -56,7 +56,7 @@ Esimeses osas liigume üldisemalt konkreetsemale: kõigepealt selgitame, mis on 
 
 ### Mida kursusel teeme?
 
-Seminaris 2 alustame meeskondades üht läbivat projekti, mille probleem tuleb teie enda tähelepanekutest. Kursuse jooksul uurime tarkvaraarenduse tervikut:
+Seminaris 2 alustame meeskondades üht läbivat projekti. Kõik tiimid lähtuvad Haapsalu Kolledži tunniplaani veebilehe kohta antud kliendisoovist, uurivad selle taga olevaid kasutajaprobleeme ja sõnastavad tõendite põhjal arendusülesande. Kursuse jooksul uurime tarkvaraarenduse tervikut:
 
 ```text
 Probleem
@@ -81,7 +81,7 @@ Projekti tulemus on dokumenteeritud arendusprotsess. Selle keskmes on otsuste lo
 Kursus koosneb viiest seminarist ja lõpuesitlusest:
 
 - seminar 1: suur pilt ja töövahendite seadistamine;
-- seminar 2: probleemi leidmine ja kerge valideerimine;
+- seminar 2: kliendisoovist arendusülesandeni;
 - seminar 3: rollid, tööviisi valik ja süsteemi kontseptsioon;
 - seminar 4: kvaliteet, riskid ja vastutus;
 - seminar 5: kasutuselevõtt, tagasiside ja hooldus;
@@ -264,6 +264,16 @@ Neid kahte mõistet kasutatakse sageli koos, kuid need kirjeldavad veidi erineva
 - **Iteratiivne arendus** tähendab, et tuleme sama lahenduse juurde korduvalt tagasi, kontrollime tulemust ja parandame seda tagasiside põhjal.
 - **Järkjärguline ehk inkrementaalne arendus** tähendab, et lisame töötavale lahendusele sammhaaval uusi võimalusi.
 
+### Waterfall ja agiilne arendus
+
+**Waterfall ehk kosemudel** korraldab töö valdavalt järjestikuste etappidena. See võib sobida, kui eesmärk, nõuded ja piirangud on üsna hästi teada ning hilised muudatused on kallid.
+
+**Agiilne arendus** lähtub sagedasest koostööst, tagasisidest ja valmisolekust plaani uue info põhjal muuta. Töö kavandatakse väiksemateks osadeks, et meeskond saaks varem õppida ja järgmisi samme täpsustada.
+
+Waterfall on arendusmudel; agiilne on laiem väärtuste ja tööpõhimõtete kogum. Scrum ja Kanban on töö korraldamise viisid, mis võivad agiilseid põhimõtteid toetada. Agiilne töö ei tähenda plaani, dokumentatsiooni ega kvaliteedikontrolli puudumist.
+
+Kumbki lähenemine ei sobi igasse olukorda. Valik sõltub muu hulgas nõuete stabiilsusest, riskidest, piirangutest ja sellest, kui kiiresti saab kasutajatelt tagasisidet.
+
 Näiteks võib üliõpilaste ülesannete haldamise rakendus areneda nii:
 
 1. kasutaja näeb ülesannete nimekirja;
@@ -372,13 +382,13 @@ Vajalikud töövahendid:
 
 Node.js-i ja npm-i paigaldamine on praegu valikuline. Esimese kodutöö ja teise seminari jaoks piisab Gitist, redaktorist, terminalist ning GitHubi ligipääsust.
 
-[GitHub CLI](https://cli.github.com/) on kasulik valikuline lisatööriist. GitHub Desktop on lubatud graafiline alternatiiv, kuid kursusel kasutame põhilise Giti kasutajaliidesena VS Code'i.
+[GitHub CLI](https://cli.github.com/) on kasulik valikuline lisatööriist. Giti kasutame terminalis ning muudatusi saab hallata ka VS Code'i Source Control vaates.
 
 Dockerist räägime esimeses seminaris, kuid selle paigaldamine ei ole tänase seminari lõpetamise eeltingimus.
 
 ### Git tuleb eraldi paigaldada
 
-VS Code sisaldab Giti graafilist kasutajaliidest, kuid kasutab arvutisse paigaldatud Giti. Ka GitHub Desktop ei asenda Giti paigaldust VS Code'i jaoks.
+VS Code sisaldab Giti graafilist kasutajaliidest, kuid kasutab arvutisse paigaldatud Giti.
 
 Kontrolli terminalis:
 
@@ -649,12 +659,6 @@ SSH kasutamiseks tuleb võtmepaar luua, privaatset võtit kaitsta, avalik võti 
 
 [GitHubi ametlik SSH selgitus](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh)
 
-### GitHub Desktop
-
-GitHub Desktop on eraldi graafiline rakendus Giti ja GitHubi kasutamiseks. See võib olla kasulik alternatiiv, kui VS Code'i Source Control ei tööta või õppija eelistab eraldi rakendust.
-
-Kursuse peamine töövoog tehakse VS Code'is, et projektifailid, muudatuste võrdlus, Git ja terminal oleksid ühes kohas.
-
 ### GitHub CLI
 
 **GitHub CLI** on GitHubi ametlik käsureatööriist. Selle käsk on `gh`. Git ja GitHub CLI lahendavad erinevaid ülesandeid:
@@ -662,7 +666,7 @@ Kursuse peamine töövoog tehakse VS Code'is, et projektifailid, muudatuste võr
 - `git` haldab kohalikku versiooniajalugu ning saadab ja toob commit'e;
 - `gh` suhtleb GitHubi teenusega, näiteks kuvab repositooriumi või Issue'sid.
 
-GitHub CLI kasutamine on esimeses seminaris valikuline. See ei asenda VS Code'i Source Controli põhivoogu.
+GitHub CLI kasutamine on esimeses seminaris valikuline. See täiendab Giti töövoogu, mida harjutame terminalis ja VS Code'i Source Control vaates.
 
 Kontrolli paigaldust ja sisselogimist:
 

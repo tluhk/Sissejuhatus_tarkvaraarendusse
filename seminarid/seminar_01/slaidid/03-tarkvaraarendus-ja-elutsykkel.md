@@ -218,6 +218,26 @@ Sageli toimuvad mõlemad korraga.
 
 ---
 
+## Waterfall ja agiilne lähenemine
+
+| Waterfall ehk kosemudel | Agiilne arendus |
+|---|---|
+| Töö liigub valdavalt järjestikuste etappidena. | Töö käib väiksemate sammude ja tagasisidetsüklitena. |
+| Eeldab, et eesmärk ja nõuded on piisavalt teada. | Arvestab, et vajadused võivad uue info põhjal muutuda. |
+| Muudatused hilises etapis võivad olla kulukad. | Plaani täpsustatakse koostöö ja õppimise põhjal. |
+
+Kumbki ei sobi igasse olukorda. Valik sõltub nõuetest, riskidest ja piirangutest.
+
+---
+
+## Agiilne ei tähenda plaani puudumist
+
+- Waterfall on arendusmudel; agiilne on väärtuste ja tööpõhimõtete kogum.
+- Scrum ja Kanban on töö korraldamise viisid, mis võivad agiilseid põhimõtteid toetada.
+- Agiilses töös kavandatakse, dokumenteeritakse ja kontrollitakse tulemust samuti.
+
+---
+
 ## Näide: ülesannete haldamise rakendus
 
 1. ülesannete nimekiri;

@@ -145,7 +145,8 @@ Kõik seminarid kestavad kaks korda 90 minutit. Projektiseminaris jäetakse väh
 | Probleemikandidaatide võrdlemine | 10 min |
 | Valikukriteeriumid ja esimese otsuse vormistamine | 10 min |
 | Kerge valideerimise kavand | 10 min |
-| GitHubi töövoog: Project, Issue, haru, commit, PR, ülevaatus ja pull | 30 min |
+| GitHub Projects: töö jagamine, järjestamine ja ajahinnangu andmine | 10 min |
+| GitHubi töövoog: Issue, haru, commit, PR, ülevaatus ja pull | 20 min |
 | Kodutöö, refleksioon ja release `v0.1.0` | 10 min |
 
 **Kodutöö maht õppija kohta:** ligikaudu 8 tundi.
@@ -163,17 +164,20 @@ Kõik seminarid kestavad kaks korda 90 minutit. Projektiseminaris jäetakse väh
 
 **Eesmärk:** õppija mõistab päris ametialaste rollide vastutust, võrdleb tööviise ning osaleb süsteemi üldise kontseptsiooni põhjendamises.
 
+Valideeritud probleemist tuletatakse kasutajalood ja kontrollitavad funktsionaalsed nõuded. Süsteemi kontseptsioonis kirjeldatakse ka kõrgtaseme arhitektuuri: peamisi osi, piire, vastutusi, seoseid ja info liikumist, kuid ei valita detailset tehnoloogiapinu. Waterfalli ja agiilset lähenemist võrreldakse eri olukordade sobivuse kaudu; Scrum ja Kanban on näited agiilse töö korraldamisest.
+
 **Mida ei õpetata süvitsi:** ühe metoodika täielik rakendamine, detailne projektijuhtimine ega tehnoloogiapinu kavandamine.
 
 **I osa, 90 minutit:**
 
 | Tegevus | Aeg |
 |---|---:|
-| Release'i `v0.1.0` ülevaade | 15 min |
-| Ametialased rollid ja vastutuse piirid | 20 min |
-| Waterfall, iteratiivne arendus, Scrum, Kanban ja Lean | 25 min |
+| Release'i `v0.1.0` ülevaade | 10 min |
+| Ametialased rollid ja vastutuse piirid | 15 min |
+| Kasutajalood ja kontrollitavad funktsionaalsed nõuded | 15 min |
+| Waterfalli ja agiilse lähenemise võrdlus; iteratiivsus, Scrum, Kanban ja Lean | 25 min |
 | Päris juhtumiuuringu lühianalüüs | 15 min |
-| Rollide jagamine ja vaatenurkade harjutus | 10 min |
+| Rollide jagamine ja vaatenurkade harjutus | 5 min |
 | Puhver | 5 min |
 
 **II osa, 90 minutit:**
@@ -182,8 +186,8 @@ Kõik seminarid kestavad kaks korda 90 minutit. Projektiseminaris jäetakse väh
 |---|---:|
 | Meeskonna tööviisi variantide võrdlemine | 20 min |
 | Algse tööviisi valik ja põhjendus | 15 min |
-| Süsteemi eesmärk, piir ja suuremad osad | 20 min |
-| Rollide vaatenurkade konflikt ja kompromiss | 15 min |
+| Kasutajalugude seostamine süsteemi eesmärgi, piiri ja kõrgtaseme arhitektuuriga | 25 min |
+| Rollide vaatenurkade konflikt ja kompromiss | 10 min |
 | Otsuste logi ning GitHubi ülevaatus | 10 min |
 | Kodutöö ja release `v0.2.0` | 10 min |
 
@@ -197,7 +201,7 @@ Meeskond võib tööviisi hiljem muuta. Nii algne valik kui ka muutmine peavad o
 
 **Eesmärk:** õppija mõistab, et töötav lahendus ei pruugi olla kvaliteetne, turvaline, õiglane ega jätkusuutlik.
 
-**Mida ei õpetata süvitsi:** testide programmeerimine, turbeaudit, UX-testimise metoodika ega litsentsiõiguse detailid.
+**Mida ei õpetata süvitsi:** testide programmeerimine, turbeaudit, UX-testimise metoodika ega litsentsiõiguse detailid. Testimist ja silumist tutvustatakse lühikese testjuhtumi ning vea põhjuse leidmise harjutuse kaudu.
 
 **I osa, 90 minutit:**
 
@@ -214,13 +218,13 @@ Meeskond võib tööviisi hiljem muuta. Nii algne valik kui ka muutmine peavad o
 
 | Tegevus | Aeg |
 |---|---:|
-| Projekti kvaliteedikriteeriumide valik | 20 min |
-| Riskide ja vastutuse kaardistus | 20 min |
+| Projekti kvaliteedikriteeriumide valik | 15 min |
+| Riskide ja vastutuse kaardistus | 15 min |
+| Lihtne testjuhtum ja vea silumise harjutus | 15 min |
 | Kontrollimise põhimõte: kuidas saame teada, kas otsus töötab? | 15 min |
 | Litsentside ning kolmandate osapoolte vara mõju | 10 min |
 | Dokumentatsiooni või koodi ülevaatuse harjutus | 10 min |
 | Kodutöö ja release `v0.3.0` | 10 min |
-| Puhver | 5 min |
 
 **Kodutöö maht õppija kohta:** ligikaudu 8 tundi. Meeskond põhjendab valitud kvaliteedikriteeriume, olulisemaid riske, kontrollimise viise ja vastutust. Iga õppija lisab rollipõhise refleksiooni.
 
@@ -392,11 +396,11 @@ Dokumentide arv, teksti pikkus, tehniline keerukus, AI väljundi maht ega esitlu
 
 | Õpiväljund | Kuidas kavand seda toetab |
 |---|---|
-| Tarkvara, arhitektuuri ja arendusprotsesside põhimõtete selgitamine | Suur pilt, SDLC, tööviiside võrdlus, rollid ja süsteemi üldine kontseptsioon |
+| Tarkvara, arhitektuuri ja arendusprotsesside põhimõtete selgitamine | Suur pilt, SDLC, tööviiside võrdlus, rollid ning süsteemi kontseptsioon ja kõrgtaseme arhitektuur |
 | Tarkvara litsentsimise mõju kirjeldamine | Litsentside ning kolmandate osapoolte vara mõju kvaliteedi- ja vastutusetapis |
 | Versioonihalduse kasutamine meeskonnatöös | Läbiv meeskonnatöö GitHubis, harud, pull request'id, ülevaatused, tag'id ja release'id |
 | Heade arendustavade rakendamine | Dokumenteerimine, ülevaatus, kvaliteedikriteeriumid, riskid ja jätkusuutlikkus |
-| Enda töövoo planeerimine ja juhtimine | Meeskonna tööviisi valik, Issues, ülesannete jaotus, vahe-eesmärgid ning release'ide tähtajad |
+| Enda töövoo planeerimine ja juhtimine | Meeskonna tööviisi valik, Issues, ülesannete järjestamine ja ajahinnangud, vahe-eesmärgid ning release'ide tähtajad |
 
 ## 13. Edasiseks täpsustatavad korraldusküsimused
 
@@ -407,7 +411,7 @@ Dokumentide arv, teksti pikkus, tehniline keerukus, AI väljundi maht ega esitlu
 
 ## 14. Rakendatud materjalid
 
-- [Seminar 2](../seminarid/seminar_02/seminar.md) ja `v0.1.0`
+- [Seminar 2](../seminarid/seminar_02/01-seminar.md) ja `v0.1.0`
 - [Seminar 3](../seminarid/seminar_03/seminar.md) ja `v0.2.0`
 - [Seminar 4](../seminarid/seminar_04/seminar.md) ja `v0.3.0`
 - [Seminar 5](../seminarid/seminar_05/seminar.md) ja `v0.4.0`

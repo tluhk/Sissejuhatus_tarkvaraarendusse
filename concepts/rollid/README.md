@@ -1,80 +1,32 @@
 # Rollid tarkvaraarenduses
 
-Kuigi tarkvaraarendus jätab sageli mulje põhiliselt koodikirjutamisest, siis tegelikult on tarkvara arendamisega seotud terva hulk inimesi erinevate rollidega. Loomulikult sõltub inimeste ja rollide arv tarkvaraarenduse projketi juures projekti suurusest ja iseloomudt. Lihtsa ja isiklikuks otstarbeks loodava rakenduse jaoks võib ka ühest inimesest piisata, kuid kui räägime suurematest projektidest, siis jääb juba ühest-kahest inimesest väheks. Järgnevalt on välja toodud nimekiri võimalikest rollidest tarkvaraarendusest, mis ei pruugi kindlasti olla täielik.
+Tarkvaraarendus hõlmab enamat kui programmeerimist. Projekti jooksul tuleb mõista vajadusi, teha valikuid, kavandada süsteemi, arendada ja kontrollida seda ning toetada kasutajaid.
 
-Tarkvara valmimise seisukohast olulisim inimeste rühm (inimene) on tellija. Tellijaks võib olla ärimees, firma, omavalitsus, asutuse teine osakond, eraisik. Tarkvaraarenduse protsessi kirjeldamisel nimetatakse seda poolt äriks (_bussiness_).
+## Roll on vastutus, mitte tingimata ametikoht
 
-Äri poolel on mitu rolli, nendest on põhilised:
+Roll kirjeldab, millise vastutuse või vaatenurga keegi projekti toob. Üks inimene võib täita mitut rolli ning üks roll võib olla jagatud mitme inimese vahel. Ametinimetused ja vastutuse piirid erinevad organisatsiooniti; allolevad nimetused on levinud näited, mitte kohustuslik struktuur.
 
-## Tooteomanik (_product owner_)
+## Levinud rollid
 
-Tooteomanik on tellija esindaja, kes tunneb vajadust tarkvara järele ning otsustab, et toode tuleb luua. Olenevalt asutuse suurusest võib tooteomanikuks olla äriomanik (_business owner_) ise või mitte.
+| Roll | Peamine vastutus |
+|---|---|
+| Tellija või äriline omanik (*client*, *business owner*) | Selgitab, miks projekti soovitakse, millist tulemust oodatakse, millised piirangud kehtivad ja kes saab olulisi ärilisi otsuseid teha. Tellija ei pruugi olla toote igapäevane kasutaja. |
+| Tootejuht või tooteomanik (*product manager*, *product owner*) | Hoiab fookuses toote eesmärki ja kasutajatele loodavat väärtust ning aitab vajadusi tähtsuse järgi järjestada. *Product manager* ja *product owner* võivad eri organisatsioonides tähendada erinevaid vastutusi; väikeses tiimis võib neid täita sama inimene. |
+| Projektijuht (*project manager*) | Korraldab projekti plaani, ajakava, ressursse, sõltuvusi, riske ja osaliste koostööd. Ta aitab meeskonnal kokkulepitud eesmärgi poole liikuda. |
+| Ärianalüütik (*business analyst*) | Uurib organisatsiooni tööd, ärireegleid ja osaliste vajadusi ning aitab sõnastada, mida on vaja muuta ja miks. |
+| Süsteemianalüütik (*system analyst*) | Täpsustab, kuidas vajadused väljenduvad süsteemi käitumises, andmetes, liidestes ja piirangutes. Äri- ja süsteemianalüüsi ülesanded võivad kattuda või olla ühe inimese käes. |
+| UX-uurija ja UX-disainer (*UX researcher*, *UX designer*) | UX-uurija uurib kasutajaid ja nende olukordi. UX-disainer kavandab kasutajateekondi ja suhtlust süsteemiga ning kontrollib, kas kavand toetab kasutaja eesmärke. Neid ülesandeid võib täita sama või eri inimene. |
+| Tarkvaraarhitekt (*software architect*) | Kavandab süsteemi suuremad osad, nende piirid ja seosed ning arvestab oluliste kvaliteedinõuete, andmete ja väliste süsteemidega. Arhitektuur areneb koos uue infoga. |
+| Arendaja, programmeerija või tarkvarainsener (*developer*, *programmer*, *software engineer*) | Teostab ja muudab tarkvara, uurib tehnilisi valikuid, parandab vigu ning teeb koostööd kavandamise ja kvaliteedi kontrolliga. Nimetused kattuvad sageli ega tähista alati eri rolle. |
+| Testija või kvaliteedispetsialist (*tester*, *quality assurance specialist*) | Aitab muuta ootused kontrollitavaks, kavandab ja teeb teste, uurib tulemusi ning aitab meeskonnal kvaliteediriske vähendada. Kvaliteedi eest vastutab kogu meeskond, mitte ainult testija. |
+| Käituse eest vastutaja (*system administrator*, *operations*, *DevOps engineer*) | Aitab tarkvara kasutusele võtta, jälgida, varundada ja töökorras hoida. DevOps tähistab sageli ka arenduse ja käituse koostööviisi, mitte ainult ametinimetust. |
 
-## Äriarhitekt (_business architect_)
+## Rollid sõltuvad projekti vajadustest
 
-Äriarhitekt on inimene, kes näeb ning paneb kirja (joonestab) suure pildi, nt kaardistab tarkvaravajadused vastavas äriprotsessis.
+Projektis võivad lisaks osaleda näiteks turbe- või andmekaitsespetsialist, andmebaasiadministraator, kasutajatugi ja kasutajakoolitaja. Need vastutused aitavad hallata andmeid, turberiske, kasutajate küsimusi ja uue süsteemi kasutuselevõttu. Väikeses projektis võib osa tööst jääda teiste rollide juurde.
 
-## Ärianalüütik (_business analyst_)
+Rollid ei tööta tingimata üksteise järel. Arendaja võib aidata teostatavust hinnata juba probleemi uurimise ajal, testija aitab nõudeid kontrollitavaks teha enne teostust ning käituse eest vastutaja saab anda sisendi süsteemi kavandamisel.
 
-Ärianalüütik aitab panna kirja, mida tahetakse saavutada (esmane tõlge inimkeelest IT-keelde).
+## Seminaris 2 käsitletavad rollid
 
-## Tarkvara kasutaja (_software user_)
-
-Tarkvara kasutaja on valmiva toote lõppkasutaja (võib olla ka tooteomanik).
-
-Alati ei pruugi äri poolel äriarhitekti ja ärianalüütikut olla. Sellisel juhul võib neid ülesandeid täita vastav spetsialist projekti täitja poolel.
-
-Ärist alustab IT-firmaga suhtlemist tooteomanik. IT-firmast on suure tõenäosusega esmaseks kontaktiks müügiosakond (ingl sales). Lepingud on sõlmitud ning saab alustada projekti sisulise poolega. Oluline on, et äri ja IT-firma vahel jutt sujuks, seepärast on tihti esmaseks “sisuliseks” kontaktiks tarkvaraarhitekt või süsteemianalüütik
-
-## Tarkvaraarhitekt (_software architect_)
-
-Tarkvaraarhitekt planeerib tarkvara ülesehituse: millistest osadest tarkvara koosneb, kuidase need omavahel ja välismaailmaga suhtlevad.
-
-## Süsteemianalüütik (_system analyst_)
-
-Süsteemianalüütik aitab “tõlkida” ärisoovid arendajatele sobivateks juhisteks.
-
-Tarkvaraarhitekti ja süsteemianalüütiku plaanide järgi saab tarkvara loomisega alustada. Tarkvara kirjutamise ehk programmeerimisega on seotud mitmed ametinimetused. Tasub märkida, et neid nimetusi kasutatakse paindlikult, erinevalt ja teineteisega vahetatavalt, mistõttu ei ole need alati siintoodud tähendusega.
-
-## Programmeerija (_programmer_)
-
-Programmeerija on keegi, kes kirjutab programmi. Kõige lihtsamalt võib see olla keegi, kes instruktsioonide järgi programmi kirjutab, ise programmi ehitusele vähe mõeldes. Üldnimetusena võib see tähistada ükskõik millist programmi kirjutamisega seotud ametit.
-
-## Arendaja (_developer_)
-
-Arendaja on üldmõiste töötaja kohta, kes tarkvara loob. Arendustööks on vaja arusaamist programmeerimiskeelest ja nõuetest, kuid keerukamate ülesannete jaoks võib olla tarvis laialdasemaid teadmisi. Oskuste, kogemuste ning vastutuse põhjal eristatakse vahel nooremarendajat (_junior developer_), kellele usaldatakse enamasti kergemad ülesanded, ja vanemarendajat (_senior developer_), kes saab hakkama nõudlikumate töödega.
-
-## Tarkvarainsener (_software engineer_)
-
-Tarkvarainsener tunneb programmeerimisega seotud infotehnoloogilisi võimalusi (raamistikke, malle, arhitektuure, protsesse, tehnikaid jne.) ning oskab neid otstarbekohaselt rakendada. Tihti võib see kattuda arendaja või vanemarendaja töökirjeldusega.
-
-## Testija (_quality assurance tester_)
-
-Testija kontrollib, et tarkvara teeks seda, mida ta peab tegema, ehk et ärisoovid oleksid täidetud ning tarkvaras ei oleks vigu. Seda rolli saab võrrelda järelevalveametniku rolliga ehituses.
-
-## Süsteemiadministraator (_system administrator_)
-
-Süsteemiadministraator vastutab arvutisüsteemide eest; hangib, paigaldab ja uuendab tarkvara ja riistvarakomponendid, ehk kannab hoolt, et kõik süsteemid oleksid töökorras.
-
-## Andmebaasi administraator (_database administrator_)
-
-Andmebaasi administraator haldab andmebaasi, vastutab andmete säilitamise, rakenduse töötamise eest.
-
-## Kasutajatugi (_helpdesk_)
-
-Kasutajatugi aitab kasutajatel tarkvara kasutada. Tavaelus on kasutajatugi alati kõne kaugusel (mõnikord on abiks murelahendaja), nt kui valminud majast peaks kaduma internet, tuleb ennekõike võtta ühendust teenuse osutajaga, kasutajatugi suunab õige lahenduseni.
-
-## Koolitaja (_training_)
-
-Koolitaja õpetab lõppkasutajat tarkvara kasutama, vajadusel vastutab kasutamiseks vajalike dokumentide loomise eest. Ka maja ehitamisel saab omanik palju “koolitajatega” kokku. Näiteks pärast uue küttesüsteemi paigaldamist ja tööle panemist “koolitab” vastutav isik omanikku süsteemi hooldama ja kasutama, seda sisse ja välja lülitama, toatemperatuuri reguleerima. Või siis uude korterisse sisse kolimisel võib ees oodata pikem koolitus: kas koduloomad on lubatud, kuhu milline prügi läheb, kuidas reguleerida ventilatsiooni, kütet jne.
-
-## Projektijuht (_project manager_)
-
-Projektijuht juhib projekti töökorraldust, hoolitseb lõpptulemuse saavutamise eest, jälgib eelarve täitmist. Ka ehituses võib omanik vajaduse või võimaluse puhul palgata tellija esindaja – projektijuhi. See imeline inimene seisab tellija soovide täitmise eest, jälgib, et ehitus oleks eelarves, tegeleb töötajatega.
-
-## Arenduse juht (_development manager_)
-
-Arenduse juht koordineerib koostööd projektide vahel, saab projekti katkestada.
-
-Allikad:
-- https://web.htk.tlu.ee/digitaru/tarkvara/chapter/tarkvaraarenduse-etapid/
+Seminaris 2 kasutame rolle, et näha, milliseid küsimusi meeskond probleemi uurides ja tööd käivitades küsib. Hilisemates seminarides pöördume samade vastutuste juurde tagasi nõuete, arhitektuuri, testimise, riskide ja kasutuselevõtu juures. Vaata ka [seminari 2 rollide tabelit](../../seminarid/seminar_02/peatukid/03-rollid-ja-vastutused.md).

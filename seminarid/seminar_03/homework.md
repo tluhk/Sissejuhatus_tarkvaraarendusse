@@ -1,8 +1,10 @@
 # Kodutöö 3: tööviis, süsteemi kontseptsioon ja release `v0.2.0`
 
+Meeskonna ühine GitHubi töövoog on kirjas [projekti töökorralduse juhendis](../../docs/projekti-tookorraldus.md).
+
 ## Ülesanne lühidalt
 
-Põhjendage meeskonna tööviis ja süsteemi üldine kontseptsioon. Näidake rollide erinevaid vaatenurki, vaadake üksteise muudatused üle ning avaldage release `v0.2.0 – Tööviis ja süsteemi kontseptsioon`.
+Põhjendage meeskonna tööviis ja süsteemi üldine kontseptsioon. Sõnastage vähemalt kaks kasutajalugu valideeritud vajaduse põhjal ning lisage kummalegi kontrolltingimus. Näidake rollide erinevaid vaatenurki, vaadake üksteise muudatused üle ning avaldage release `v0.2.0 – Tööviis ja süsteemi kontseptsioon`.
 
 ## Maht
 
@@ -21,12 +23,14 @@ reflections/oppija-nimi-v0.2.0.md
 
 Täiendage ka README-s rollide ja töövoo osa. Skeem on vabatahtlik, kui selge tekst annab sama info edasi.
 
+Lisage süsteemi kontseptsiooni juurde vähemalt kaks kasutajalugu, mis lähtuvad seminaris 2 kogutud tõendist. Lisage kummalegi üks kontrolltingimus. Kirjeldage kontseptsioonis ka kõrgtaseme arhitektuuri: süsteemi peamised osad, nende vastutus, süsteemi piir, info liikumine ning olulised välised sõltuvused. Skeem pole kohustuslik, kui samad seosed selgitab tekst. See ei nõua tehnoloogiapinu valimist. Kõiki nõudeid ei pea selles etapis ammendavalt loetlema.
+
 ## Tööjaotus, umbes 8 tundi õppija kohta
 
 1. Release `v0.1.0` ja tagasiside analüüs – 1 h.
 2. Rolli vaatenurgast vajaduste ja konfliktide sõnastamine – 1,5 h.
 3. Tööviiside võrdlemine ja otsuse põhjendamine – 1,5 h.
-4. Süsteemi kontseptsiooni koostamine – 2 h.
+4. Kasutajalugude ja süsteemi kontseptsiooni koostamine – 2 h.
 5. Pull request, teise töö sisuline ülevaatus ja parandused – 1 h.
 6. Individuaalne refleksioon ja release – 1 h.
 
@@ -39,6 +43,8 @@ boundary`), mitte ainult tegevust (`update` või `fix`).
 Tööviisi otsus sisaldab vähemalt kolme võrreldud varianti. Selgitage, kuidas valik sobib just teie probleemi, ebakindluse ja meeskonnaga. Kui ühendate eri meetodite võtteid, nimetage iga võtte eesmärk.
 
 Süsteemi kontseptsiooni otsus sisaldab vähemalt kaht kaalutud lahendussuunda ning põhjendab süsteemi piiri. Ärge valige tehnoloogiapinu lihtsalt sellepärast, et see on tuttav või AI pakkus seda.
+
+Kasutajalugu seob kasutaja, vajaduse ja väärtuse. Kontrolltingimus peab olema piisavalt konkreetne, et meeskond saaks hiljem arutada, kuidas nõude täitmist kontrollida. Ärge tuletage kasutajalugu AI vastusest või lahendusideest ilma tõendita.
 
 ## Rollide vahetamine
 
@@ -66,7 +72,8 @@ Release manageri roll läheb õppijale, kes ei teinud eelmist release'i. Ta kont
 
 - [ ] Tööviisi valik võrdleb vähemalt kolme varianti.
 - [ ] Valik lähtub projekti olukorrast, mitte meetodi populaarsusest.
-- [ ] Süsteemi eesmärk, piir, osalised, suuremad osad ja sõltuvused on arusaadavad.
+- [ ] Süsteemi eesmärk, piir, osalised, suuremad osad, nende vastutus, seosed ja sõltuvused on arusaadavad.
+- [ ] Vähemalt kaks kasutajalugu lähtuvad probleemi kohta kogutud tõendist ning neil on kontrolltingimus.
 - [ ] Alternatiivid, kompromissid ja teadmatused on nähtavad.
 - [ ] Rollide vaatenurgad mõjutasid vähemalt üht otsust.
 - [ ] Igal õppijal on Issue, commit, PR, ülevaatus ja refleksioon.

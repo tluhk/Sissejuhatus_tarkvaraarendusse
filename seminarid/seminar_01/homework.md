@@ -163,7 +163,7 @@ git push -u origin 1-kodutoo-1-minu-arenduskeskkond
 
 Faili salvestamine üksi ei loo commit'i. Commit üksi ei saada midagi GitHubi. Piisab ühest sisulisest commit'ist; kunstlikult muudatusi juurde tekitama ei pea.
 
-Kui käsk annab vea, peatu selle sammu juures. Kui Git küsib autori nime või e-posti, kasuta [seminarimaterjali seadistusjuhist](seminar.md#esimene-commit-küsib-kasutaja-nime-ja-e-posti). Kui push ei õnnestu, ära kasuta sunnitud saatmist (*force push*); kirjelda takistust allpool toodud viisil. Juba tuttav Source Controli graafiline töövoog on samuti lubatud, kui muudatus jõuab sinu harusse.
+Kui käsk annab vea, peatu selle sammu juures. Kui Git küsib autori nime või e-posti, kasuta [seminarimaterjali seadistusjuhist](seminar.md#esimene-commit-küsib-kasutaja-nime-ja-e-posti). Kui push ei õnnestu, ära kasuta sunnitud saatmist (*force push*); kirjelda takistust allpool toodud viisil. Giti käske võib teha terminalis või kasutada VS Code'i Source Control vaadet.
 
 ### 7. Ava pull request ja määra ülevaataja
 

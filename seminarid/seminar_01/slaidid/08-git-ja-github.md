@@ -159,12 +159,6 @@ VS Code'is saame graafiliselt:
 
 ---
 
-## GitHub Desktop
-
-GitHub Desktop on eraldi graafiline Giti rakendus Windowsile ja macOS-ile.
-
-See on lubatud alternatiiv, kuid kursuse põhiline graafiline töövoog toimub VS Code'is, kus projektifailid, Git ja terminal on ühes kohas.
-
 ---
 
 ## GitHub CLI

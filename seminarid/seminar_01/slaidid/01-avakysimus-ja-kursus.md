@@ -14,7 +14,7 @@ Probleem → uurimine → nõuded → planeerimine
    → avaldamine → hooldus ja tagasiside
 ```
 
-Seminaris 2 alustame üht läbivat meeskonnaprojekti teie leitud probleemi põhjal.
+Seminaris 2 alustame üht läbivat meeskonnaprojekti. Kõik tiimid lähtuvad Haapsalu Kolledži tunniplaani veebilehe kohta antud kliendisoovist, uurivad selle taga olevaid kasutajaprobleeme ja sõnastavad tõendite põhjal arendusülesande.
 
 Tulemus on dokumenteeritud arendusprotsess. Töötav rakendus ei ole nõutav.
 
@@ -23,7 +23,7 @@ Tulemus on dokumenteeritud arendusprotsess. Töötav rakendus ei ole nõutav.
 ## Viis seminari ja lõpuesitlus
 
 1. Suur pilt ja töövahendid
-2. Probleemi leidmine ja kerge valideerimine
+2. Kliendisoovist arendusülesandeni
 3. Meeskond, tööviis ja süsteemi kontseptsioon
 4. Kvaliteet, riskid ja vastutus
 5. Kasutuselevõtt, käitus ja areng

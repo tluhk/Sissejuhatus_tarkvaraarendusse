@@ -1,5 +1,7 @@
 # Seminar 5: kasutuselevõtt, käitus ja areng
 
+Meeskonna ühine GitHubi töövoog on kirjas [projekti töökorralduse juhendis](../../docs/projekti-tookorraldus.md).
+
 ## Eesmärk
 
 Seminari lõpuks õppija:
@@ -14,6 +16,39 @@ Seminari lõpuks õppija:
 ## Põhiküsimus
 
 > Mis juhtub süsteemiga pärast selle loomist?
+
+## Kogu kursuse teekond ja meie koht
+
+Kursusel vaatame tarkvaraarendust tervikuna:
+
+```text
+Probleem
+  ↓
+Kasutajate ja vajaduste uurimine
+  ↓
+Nõuete kirjeldamine
+  ↓
+Töö planeerimine
+  ↓
+Lahenduse disainimine
+  ↓
+Arendamine
+  ↓
+Testimine ja tagasiside
+  ↓
+Avaldamine ja hooldus  ← seminar 5: oleme siin
+```
+
+Seminaris 5 käsitleme kasutuselevõttu, tagasisidet, hooldust ja süsteemi lõpetamist.
+
+- seminar 1: suur pilt ja töövahendite seadistamine;
+- seminar 2: kliendisoovist arendusülesandeni;
+- seminar 3: rollid, tööviisi valik ja süsteemi kontseptsioon;
+- seminar 4: kvaliteet, riskid ja vastutus;
+- seminar 5: kasutuselevõtt, tagasiside ja hooldus;
+- eksam: dokumenteeritud protsessi esitlus release'ide ajajoonena.
+
+Projekti tulemus on dokumenteeritud arendusprotsess ja otsuste logi; töötavat rakendust ega klikitavat prototüüpi ei nõuta.
 
 ## Release ei ole finiš
 

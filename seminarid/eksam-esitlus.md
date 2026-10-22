@@ -27,7 +27,7 @@ Release ei tähenda, et kavandatud süsteem on valmis. See fikseerib kursusel do
 
 1. **Probleem ja algne arusaam** – kelle probleem, millises olukorras ja millise mõjuga?
 2. **`v0.1.0`** – mida kontrolliti ja mida tõend muutis?
-3. **`v0.2.0`** – kuidas valiti tööviis ja süsteemi kontseptsioon?
+3. **`v0.2.0`** – kuidas valiti tööviis ja süsteemi kontseptsioon ning millistele kasutajavajadustele see vastab?
 4. **`v0.3.0`** – millised kvaliteedi- ja riskivalikud muutsid kavandit?
 5. **`v0.4.0`** – kuidas süsteem kasutusele jõuaks, areneks ja lõpeks?
 6. **AI kasutamine** – millise otsuse juures, kuidas kontrolliti ja mis oli tegelik kasu?

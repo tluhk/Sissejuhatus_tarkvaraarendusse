@@ -1,5 +1,7 @@
 # Kodutöö 5: kasutuselevõtu ja arengu plaan ning release `v0.4.0`
 
+Meeskonna ühine GitHubi töövoog on kirjas [projekti töökorralduse juhendis](../../docs/projekti-tookorraldus.md).
+
 ## Ülesanne lühidalt
 
 Kirjeldage, kuidas süsteem kasutusele jõuaks, kuidas selle toimimist ja mõju jälgitaks, kes vastutaks hoolduse eest ning millal tuleks lahendust muuta või lõpetada. Koostage release'ide ajajoone mustand ja avaldage `v0.4.0 – Kasutuselevõtu ja arengu plaan`.

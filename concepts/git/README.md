@@ -95,7 +95,7 @@ git config --global user.email "your-email@example.com"
 
 Soovi korral on võimalik giti kasutamiseks paigaldada arvutisse ka graafilise kasutajaliidesega tööriist, mis võimaldab paremat kasutajakogemust eriti algajatele kasutajatele, kes ei tunne ennast käsurea kasutamisel väga kindalt.
 
-Graafilisi kasutajaliidesega tööriistu on mitmeid, kuid üks variant on näiteks tasuta tööriist Github Desktop, mille saab alla laadida siit: https://desktop.github.com/
+Kursusel kasutame Giti graafilise liidesena VS Code'i Source Control vaadet. See võimaldab muudatusi vaadata, commit'ida ning teha push'i ja pull'i samas keskkonnas, kus faile muudetakse.
 
 ## Cheatsheet
 

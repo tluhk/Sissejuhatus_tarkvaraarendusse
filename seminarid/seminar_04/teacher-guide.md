@@ -19,16 +19,19 @@ Seminar annab kvaliteedist ja vastutusest suure pildi. See ei asenda testimise, 
 
 | Tegevus | Aeg |
 |---|---:|
-| Kvaliteedikriteeriumide valik | 20 min |
-| Riskide ja vastutuse kaardistus | 20 min |
+| Kvaliteedikriteeriumide valik | 15 min |
+| Riskide ja vastutuse kaardistus | 15 min |
+| Testjuhtum ja vea silumise lühiharjutus | 15 min |
 | Kontrollimise põhimõte | 15 min |
 | Litsentsid ja kolmandad osapooled | 10 min |
-| Otsuse ning PR-i ülevaatus | 15 min |
+| Otsuse ning PR-i ülevaatus | 10 min |
 | Kodutöö ja release | 10 min |
 
 ## Arutelu võti
 
 Cloudflare'i juhtumit ei kasutata regex'i õpetamiseks. Eesmärk on näha, et rike tekib koodi, testide, levitusviisi, seire ja otsustusprotsessi koosmõjus.
+
+Silumise näites palu õppijatel esmalt ennustada funktsiooni tulemus sisendiga `[2, 4, 6]`. Oodatud keskmine on `4`, kood tagastab `6`; vea põhjus on nimetaja `values.length - 1`. Arutage, milline test paljastab vea ja miks tuleb pärast parandust sama test uuesti käivitada.
 
 ## Ohukohad
 
