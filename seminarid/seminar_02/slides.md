@@ -67,7 +67,7 @@ Väikeses tiimis täidab üks inimene mitut rolli. Vastutus peab olema kokku lep
 
 „Teeme mobiiliäpi” nimetab lahenduse. Enne on vaja teada, mida inimene praegu teha püüab ja mis teda takistab.
 
-[Selgitus ja probleemiväite näide](peatukid/03-01-probleemi-sonastamine.md)
+[Selgitus ja probleemiväite näide](peatukid/03-probleemi-uurimine.md)
 
 ---
 
@@ -79,7 +79,7 @@ Väikeses tiimis täidab üks inimene mitut rolli. Vastutus peab olema kokku lep
 
 Ühe inimese kogemus annab uurimiseks vihje. Järelduse ulatus peab vastama kogutud tõenditele.
 
-[Näide: tõendi ja oletuse eristamine](peatukid/03-02-vestlus-toendid-discovery.md)
+[Näide: tõendi ja oletuse eristamine](peatukid/03-probleemi-uurimine.md)
 
 ---
 
@@ -89,7 +89,7 @@ Palu kasutajal kirjeldada viimast tunniplaani kasutamise korda. Uuri eesmärki, 
 
 Sellist probleemi ja kasutajate uurimist nimetatakse ka **discovery**-etapiks. Tulemus võib olla otsus senist plaani muuta.
 
-[Intervjuuküsimused ja GOV.UK discovery näide](peatukid/03-02-vestlus-toendid-discovery.md)
+[Intervjuuküsimused ja GOV.UK discovery näide](peatukid/03-probleemi-uurimine.md)
 
 ---
 
@@ -101,7 +101,7 @@ Kontrolli otsust mõjutavat väljundit inimese, vaatluse või algallikaga. AI va
 
 Pane kirja kasutamise eesmärk, tehtud kontroll ja tegelik kasu. Hoia isikuandmed ning konfidentsiaalne info AI-tööriistast väljas.
 
-[Juhis: AI kasutamine ja riskid](peatukid/03-03-ai-uurimises.md)
+[Juhis: AI kasutamine ja riskid](peatukid/03-probleemi-uurimine.md)
 
 ---
 
@@ -124,7 +124,7 @@ Kirjelda iseseisvalt vähemalt kolme võimalikku tunniplaani kasutusprobleemi er
 
 Iga kandidaadi juures näita kasutajat, eesmärki, takistust, mõju ning teadaolevat ja oletatavat infot. Hinda, mida saaks järgmisena kontrollida.
 
-[Tööleht ja enesehindamine](peatukid/05-01-probleemikandidaatide-too.md)
+[Tööleht ja enesehindamine](peatukid/05-probleemikandidaadid.md)
 
 <!-- 14 minutit. Esimese osa lõpuks on individuaalsed märkmed. Ühist probleemi veel ei valita. -->
 
@@ -137,7 +137,7 @@ Iga liige **kloonib** sellest töökoopia enda arvutisse.
 
 Iga õppija loob oma tööülesande ehk **Issue** ning lisab kandidaadid eraldi faili. Muudatused käivad enda haru ja kaaslase ülevaatuse kaudu.
 
-[Alustamine: ligipääs, kloonimine ja enda Issue](peatukid/06-01-repo-ja-tookoopia.md)
+[Alustamine: ligipääs, kloonimine ja enda Issue](peatukid/06-tiimi-toovoog.md#1-ühine-repo-ja-töökoopia)
 
 <!-- Teise 90-minutilise osa algus. Kontrolli ligipääse enne harjutuse jätkamist. -->
 
@@ -151,7 +151,7 @@ GitHub Projectsis liigub Issue vastavalt töö seisule:
 
 Igal tööl on vastutaja, lõpetamise tingimus ja ajahinnang. Hoidke pooleliolevate tööde hulk väike ning aidake takerdunud töö lõpuni.
 
-[Juhis: tahvel ja aja planeerimine](peatukid/06-02-issue-ja-kanban.md)
+[Juhis: tahvel ja aja planeerimine](peatukid/06-tiimi-toovoog.md#2-enda-issue-ja-projectsi-tahvel)
 
 ---
 
@@ -168,7 +168,7 @@ git switch -c issue-12-map-problem-candidates
 Haru nimi on kujul `issue-<number>-<short-english-description>`.
 Näites on ülesande number 12.
 
-[Käskude selgitused ja läbiv näidis](peatukid/06-03-haru-ja-toofail.md)
+[Käskude selgitused ja läbiv näidis](peatukid/06-tiimi-toovoog.md#3-haru-ja-tööfail)
 
 ---
 
@@ -184,7 +184,7 @@ git commit -m "Add timetable problem candidates"
 **Commit** salvestab valitud muudatuse Giti ajalukku.
 Vaata valik enne üle. Ingliskeelne sõnum algab tegusõnaga ja nimetab konkreetse muudatuse.
 
-[Tööjuhend ja commit'i sõnumite head tavad](peatukid/06-04-commit-ja-push.md)
+[Tööjuhend ja commit'i sõnumite head tavad](peatukid/06-tiimi-toovoog.md#4-commit-ja-push)
 
 ---
 
@@ -200,7 +200,7 @@ git push -u origin issue-12-map-problem-candidates
 PR-i kirjeldusse lisa töö sisu ja `Closes #12`.
 Määra ülevaatajaks tiimikaaslane.
 
-[Juhis: PR-i avamine](peatukid/06-05-pull-request-ulevaatus-merge.md)
+[Juhis: PR-i avamine](peatukid/06-tiimi-toovoog.md#5-pull-request-ülevaatus-ja-merge)
 
 ---
 
@@ -213,7 +213,7 @@ Kaaslane kontrollib muudatust Issue eesmärgi järgi:
 
 Pärast heakskiitu ühendab autor PR-i peaharuga ehk teeb **merge**'i. Iga õppija vaatab üle vähemalt ühe kaaslase töö.
 
-[Juhis: sisuline ülevaatus ja merge](peatukid/06-05-pull-request-ulevaatus-merge.md)
+[Juhis: sisuline ülevaatus ja merge](peatukid/06-tiimi-toovoog.md#5-pull-request-ülevaatus-ja-merge)
 
 ---
 
@@ -229,7 +229,7 @@ git pull --ff-only
 **Pull** toob GitHubis ühendatud töö sinu arvutisse.
 Järgmise ülesande haru loo uuendatud `main`-ist.
 
-[Juhis: pull ja järgmise töö alustamine](peatukid/06-06-pull-ja-jargmine-ulesanne.md)
+[Juhis: pull ja järgmise töö alustamine](peatukid/06-tiimi-toovoog.md#6-uuendamine-ja-järgmine-ülesanne)
 
 ---
 
@@ -242,7 +242,7 @@ Järgmise ülesande haru loo uuendatud `main`-ist.
 
 Kasuta AI-d vähemalt ühe olulise otsuse juures ja dokumenteeri väljundi kontroll.
 
-[Kodutöö nõuded, failid ja esitamine](peatukid/07-01-kodutoo.md)
+[Kodutöö nõuded, failid ja esitamine](peatukid/07-kodutoo-ja-release.md#kodutöö-probleemist-lähteülesandeni)
 
 ---
 
@@ -253,7 +253,7 @@ Kasuta AI-d vähemalt ühe olulise otsuse juures ja dokumenteeri väljundi kontr
 
 Kodutöö lõpus avaldab release manager versiooni **„Probleem sõnastatud”**. Release manager vahetub järgmises projektietapis.
 
-[Juhis: tag'i valimine ja release'i avaldamine](peatukid/07-02-release.md)
+[Juhis: tag'i valimine ja release'i avaldamine](peatukid/07-kodutoo-ja-release.md#release-v010)
 
 <!-- Näita loomise samme näidisrepos. Tiimide päris v0.1.0 valmib kodutöö lõpus. -->
 
@@ -266,4 +266,4 @@ Kodutöö lõpus avaldab release manager versiooni **„Probleem sõnastatud”*
 - [ ] Tean, kes minu PR-i üle vaatab ja kelle tööd mina kontrollin.
 - [ ] Tean oma järgmist sammu kodutöös.
 
-[Pooleli jäänud töö jätkamine ja kodutöö juhend](peatukid/07-03-valmis-too-ja-esitamine.md)
+[Pooleli jäänud töö jätkamine ja kodutöö juhend](peatukid/07-kodutoo-ja-release.md#valmis-töö-ja-esitamine)
