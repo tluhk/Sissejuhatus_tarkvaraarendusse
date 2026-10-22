@@ -88,14 +88,13 @@ Mustand ei ole avaldatud release. Pärast avaldamist jääb tag tähistama seda 
 
 ## 7. Iga õppija esitab töö
 
-Õppejõu antud kodutöö Issue kommentaari lisa:
+Iga õppija lisab õppejõu antud kodutöö Issue'sse enda kommentaari. PR-i pole kodutöös vaja teha. 
+Kommentaari sisu:
 
-- tiimi avaldatud `v0.1.0` release'i link;
+- link oma tiimi avaldatud `v0.1.0` release'ile;
 - ühise otsusefaili link;
 - enda refleksiooni link;
 - enda PR-i number ja kaaslase PR, mille üle vaatasid.
-
-Tiimi töö-Issue'd jäävad ülesannete jälgimiseks; õppejõu kodutöö Issue kommentaar on õppija esitamise koht.
 
 ## Valmis töö kontrollnimekiri
 
@@ -106,6 +105,23 @@ Tiimi töö-Issue'd jäävad ülesannete jälgimiseks; õppejõu kodutöö Issue
 - [ ] Igal õppijal on refleksioon ning tiimikaaslase PR-i ülevaatus.
 - [ ] Tiimi README ja release notes kirjeldavad etapi tulemust.
 - [ ] `v0.1.0` on GitHubis avaldatud ja selle failid kontrollitud.
-- [ ] Iga õppija on esitanud nõutud lingid ja PR-numbrid õppejõu kodutöö Issue'is.
+- [ ] Iga õppija on lisanud oma kodutöö Issue kommentaari lingi tiimi release'ile, otsusele ja enda refleksioonile ning PR-numbrid.
 
 Töötavat rakendust ega klikitavat prototüüpi ei nõuta. Lahtised küsimused võivad alles jääda, kui järgmine uurimissamm on kirjas.
+
+## Hindamiskriteeriumid
+
+Hindan tiimi ühist tulemust repositooriumis ning iga õppija panust tema Issue'i, PR-i, ülevaatuse ja refleksiooni põhjal. Kokku on võimalik saada 100 punkti.
+
+| Kriteerium | Punktid | Mida repositooriumist vaatan |
+|---|---:|---|
+| Probleemikandidaadid ja valik | 15 | Iga õppija on esitanud kandidaadid. Tiim on neid võrrelnud ning põhjendanud valitud probleemi ja vähemalt üht alternatiivi. |
+| Probleemi uurimine | 25 | Tiim on kontrollinud probleemi sõltumatu infoga. Allikad, leiud ja ebakindlus on kirjas; AI väljundit ei esitata tõendina. |
+| Lähteülesande selgus ja põhjendatus | 20 | Otsusefailist selguvad kasutaja, probleem ja selle mõju, soovitud tulemus ning järgmised uurimisküsimused. Järeldused toetuvad kogutud infole. |
+| Tiimitöö ja iga õppija panus | 20 | Iga õppija panus on jälgitav Issue'i ja PR-i kaudu. Igaüks on sisuliselt üle vaadanud kaaslase PR-i, panustanud uurimisse või dokumenteerimisse ning lisanud kodutöö Issue kommentaari lingi tiimi release'ile. |
+| Refleksioon ja AI kasutamise läbipaistvus | 10 | Iga õppija refleksioon kirjeldab tema panust ja õpitut. Repo näitab, milleks AI-d olulise otsuse juures kasutati, kuidas väljundit kontrolliti ja mis sellest kasu oli. |
+| Repositooriumi korrastatus ja release | 10 | README ja olulised failid on leitavad, muudatused on jõudnud `main`-i PR-ide kaudu ning `v0.1.0` release on avaldatud. |
+
+**Tulemuse tõlgendamine:** 90–100 punkti tähendab põhjendatud ja jälgitavat tööd; 75–89 punkti puhul on tulemus olemas, kuid mõni osa vajab täiendamist; 60–74 punkti puhul takistab oluline lünk järgmises seminaris jätkamist; alla 60 punkti korral ei ole probleemi piisavalt uuritud või panust ja otsuseid ei saa repo põhjal hinnata.
+
+Probleemi uurimise ja lähteülesande eest peab saama kokku vähemalt poole nende kahe kriteeriumi punktidest. Korras README või release ei korva tõendamata probleemi. Töötava rakenduse, prototüübi ega dokumentide hulga eest eraldi punkte ei anta. AI puhul hinnatakse kasutamise eesmärki ja väljundi kontrollimist, mitte genereeritud teksti mahtu.
