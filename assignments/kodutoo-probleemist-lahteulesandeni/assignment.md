@@ -18,8 +18,12 @@ evidence_expected: []
 **Esiteks** – puhastage oma olemasolev SJTA repo, kustutage tarbetuks muutunud haru.
 
 ## Uus osa
-(kui mõned lingid ei tööta vms, siis vaata kodutöö juhendit [siit](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/blob/master/seminarid/seminar_02/homework.md).    
 
+- [Alustage kursuse konspekti läbilugemisest.](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/blob/master/seminarid/seminar_02/slides.md)
+- [Põhjalik ülesandekirjeldus koos viidatud peatükkidega asub siin.](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/blob/master/seminarid/seminar_02/peatukid/07-kodutoo-ja-release.md)
+- (kui mõned lingid ei tööta vms, siis vaata kodutöö juhendit [siit](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/blob/master/seminarid/seminar_02/homework.md).    
+
+### Ülesande kirjeldus
 Üldjuhul on tarkvraarenduse eesmärk lahendada mingi probleem. Olgu see siis mängukire lahendamine (arvutimängud), luulekire rahuldamine (Word) või näiteks bussigraafiku kuvamine internetis, et inimene jõuaks koju.
 
 **Selle kodutöö eesmärk:** leida ja seejärel valida Haapsalu kolledži tunniplaani veebilehe kasutajaprobleem, kontrollida seda ning anda järgmisele seminarile põhjendatud lähtepunkt.
