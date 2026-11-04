@@ -1,11 +1,11 @@
 ---
 name: sujuv-seminar
-description: Koosta või toimeta kursuse Sissejuhatus tarkvaraarendusse seminari õppematerjalid kinnitatud seminar_02-sujuv eeskujul. Loo kokkuvõtvad Marp-slaidid ning neid avavad selged peatükid, praktiline töö ja kodutöö ühe läbiva järjekorrana.
+description: Koosta või toimeta kursuse Sissejuhatus tarkvaraarendusse seminari õppematerjalid kinnitatud seminar_02 eeskujul. Loo kokkuvõtvad Marp-slaidid ning neid avavad selged peatükid, praktiline töö ja kodutöö ühe läbiva järjekorrana.
 ---
 
 # Sujuv seminar
 
-Loo algajale arusaadav eestikeelne seminar, mille keskne fail on `slides.md`. Slaidilt avanev peatükk peab andma näite, põhjenduse või tööjuhise, mida slaidil pole. Kinnitatud eeskuju on selle kursuserepo `seminarid/seminar_02-sujuv/`.
+Loo algajale arusaadav eestikeelne seminar, mille keskne fail on `slides.md`. Slaidilt avanev peatükk peab andma näite, põhjenduse või tööjuhise, mida slaidil pole. Kinnitatud eeskuju on selle kursuserepo `seminarid/seminar_02/`.
 
 ## Lähtematerjal ja ulatus
 
@@ -20,7 +20,7 @@ Loe enne kirjutamist:
 
 Eeskuju määrab esitamise viisi ja lihtsusastme. Uue seminari teemad ja nõuded võta kursuseprogrammist ning selle seminari materjalidest. Ära kanna seminari 2 harjutusi järgmisse seminari lihtsalt näidise jäljendamiseks. Kasutaja uus kokkulepe on esmane; olulist vastuolu aine põhiandmetega ära lahenda oletades.
 
-Kui kasutaja sihtkausta ei määra, loo uus `seminarid/seminar_0N-sujuv/`. Ära kirjuta varasemat versiooni üle. Küsi täpsustust ainult siis, kui puuduv eesmärk või vastuolulised nõuded takistavad sisulist koostamist.
+Kui kasutaja sihtkausta ei määra, tööta seminari olemasolevas kaustas `seminarid/seminar_0N/`. Ära loo paralleelset versioonikausta: varasem seis jääb Giti ajalukku. Ära kirjuta üle kasutaja commit'imata muudatusi. Kui failid saavad uue nime või ülesehituse, eemalda asendatud failid ja uuenda viited failides `README.md`, `docs/kursuseprogramm.md` ning `AGENTS.md`. Küsi täpsustust ainult siis, kui puuduv eesmärk või vastuolulised nõuded takistavad sisulist koostamist.
 
 ## Koosta üks läbiv järjekord
 
@@ -99,7 +99,7 @@ Küsi iga osa kohta:
 Käivita skilli tehniline kontroll repo juurkaustast:
 
 ```bash
-python3 <skilli-kaust>/scripts/check_material.py seminarid/seminar_0N-sujuv
+python3 <skilli-kaust>/scripts/check_material.py seminarid/seminar_0N
 ```
 
 See kontrollib faililinke, koodiplokkide sulgemist, tühje slaide ja peatükkide leitavust. See ei hinda teksti sisulist kvaliteeti.
