@@ -8,7 +8,7 @@ Näide kasutab kursuse ühist õppestsenaariumi: **Haapsalu Kolledž soovib tunn
 
 ## Enne alustamist
 
-Loe läbi [seminari 2 õppematerjal](../seminarid/seminar_02/01-seminar.md), [projekti töökorraldus](projekti-tookorraldus.md) ja [kodutöö 2](../seminarid/seminar_02/03-kodutoo.md). Seminari 3 etapi alguses kasuta [seminari 3 materjali](../seminarid/seminar_03/seminar.md) ja [kodutöö 3 juhendit](../seminarid/seminar_03/homework.md).
+Loe läbi [seminari 2 õppematerjal](../seminarid/seminar_02/README.md), [projekti töökorraldus](projekti-tookorraldus.md) ja [kodutöö 2](../seminarid/seminar_02/homework.md). Seminari 3 etapi alguses kasuta [seminari 3 materjali](../seminarid/seminar_03/seminar.md) ja [kodutöö 3 juhendit](../seminarid/seminar_03/homework.md).
 
 Vaja on tiimi GitHubi repositooriumi ja GitHub Projecti ligipääsu. Iga õppija kloonib repo enda arvutisse üks kord. Kui teed tööd omal käel, võid mustandid ise koostada, kuid päris kursuse töös peavad kaaslane sinu pull request'i üle vaatama ja sina vaatama üle kaaslase töö. Ära kiida enda pull request'i ise heaks.
 

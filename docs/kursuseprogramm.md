@@ -72,10 +72,10 @@ Valmis kasutajaprobleeme, funktsioone ega kujunduslahendusi ette ei anta. Meesko
 
 ### Materjalid
 
-- [Seminari materjal](../seminarid/seminar_02/01-seminar.md)
+- [Seminari materjal](../seminarid/seminar_02/README.md)
 - [Laiem taustalugemine: tarkvaraarendus algusest kasutamiseni](tarkvaraarenduse-tervikprotsess.md)
 - [HTML-slaidid](../seminarid/seminar_02/slides.html)
-- [Kodutöö 2](../seminarid/seminar_02/03-kodutoo.md)
+- [Kodutöö 2](../seminarid/seminar_02/homework.md)
 
 **Release:** `v0.1.0 – Probleem sõnastatud`
 

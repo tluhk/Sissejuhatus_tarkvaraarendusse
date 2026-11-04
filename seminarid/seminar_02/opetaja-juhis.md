@@ -44,7 +44,7 @@ Tiimi ühine probleemivalik, valideerimine ja päris `v0.1.0` avaldamine jääva
 Käivita repo juurkaustas:
 
 ```bash
-seminarid/export-marp.sh seminarid/seminar_02-sujuv
+seminarid/export-marp.sh seminarid/seminar_02
 ```
 
 Käsk loob `slides.md` põhjal sama kausta `slides.html`-i. Kohalikuks lugemiseks ava Markdown-peatükid VS Code'is või GitHubis; Markdown-lingid ei muutu ekspordis automaatselt HTML-lehtedeks.

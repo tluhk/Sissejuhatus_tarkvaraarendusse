@@ -1,3 +1,5 @@
+> **Arhiiv: ühekordne ja lõpetatud tööjuhis.** Ära täida seda. Kaust `seminarid/seminar_02-toimetatud/` ei ole enam olemas; kehtivad materjalid on kaustas `seminarid/seminar_02/`.
+
 # Seminari 2 slaidide ümbertegemise juhis
 
 Kirjuta ümber `seminarid/seminar_02-toimetatud/slides.md`. Eesmärk on loogiline, algajale arusaadav seminar, mida õpetaja saab slaidide järgi läbi viia. Säilita sisulised teemad ja vajalikud selgitused. Liigne lühendamine on praegusest versioonist osa vajalikku sisu juba eemaldanud.

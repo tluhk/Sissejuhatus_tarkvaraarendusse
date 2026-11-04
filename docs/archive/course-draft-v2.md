@@ -1,6 +1,6 @@
 # Sissejuhatus tarkvaraarendusse - Kursuse kavand v2.0
 
-> **Arhiiv:** see on varasema kursuse kavand. 2026. aasta aktiivne ülesehitus asub failis [docs/kursuseprogramm.md](docs/kursuseprogramm.md) ja selle põhjendatud lähteplaan failis [docs/kursuse-umberkujunduse-kava.md](docs/kursuse-umberkujunduse-kava.md).
+> **Arhiiv:** see on varasema kursuse kavand. 2026. aasta aktiivne ülesehitus asub failis [docs/kursuseprogramm.md](../kursuseprogramm.md) ja selle põhjendatud lähteplaan failis [docs/kursuse-umberkujunduse-kava.md](../kursuse-umberkujunduse-kava.md).
 
 ## Kursuse üldinfo
 - **Kursuse nimi**: Sissejuhatus tarkvaraarendusse

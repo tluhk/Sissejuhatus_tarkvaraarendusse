@@ -38,5 +38,5 @@ Seminaride 2–5 kodutööde arvestuslik maht on ligikaudu 8 tundi õppija kohta
 ## Seos teiste juhenditega
 
 - [Aktiivne kursuseprogramm](kursuseprogramm.md) kirjeldab seminaride sisu ja põhitulemusi.
-- [Seminaride ja projektietappide üksikasjalik kava](kursuse-umberkujunduse-kava.md) kirjeldab kavandatud õppetegevusi ja ajakavasid.
+- [Kursuse ümberkujundamise kava](kursuse-umberkujunduse-kava.md) on ajalooline lähteplaan, mis selgitab kursuse ülesehituse põhjuseid. Tegelikud ajakavad on seminaride õpetaja juhendites.
 - Iga seminari kodutöö juhendis on täpsed ülesanded, väljundid ja esitamise nõuded.

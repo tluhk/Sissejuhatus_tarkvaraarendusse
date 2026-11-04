@@ -1,4 +1,4 @@
-> **Arhiiv: varasem slaidikavand.** Aktiivsed seminarid, slaidid ja kodutööd leiad [kursuseprogrammist](kursuseprogramm.md). Siinsed töövahendid ja ülesanded ei ole jooksva kursuse nõuded.
+> **Arhiiv: varasem slaidikavand.** Aktiivsed seminarid, slaidid ja kodutööd leiad [kursuseprogrammist](../kursuseprogramm.md). Siinsed töövahendid ja ülesanded ei ole jooksva kursuse nõuded.
 
 # **Seminar 1: Sissejuhatus tarkvaraarendusse**
 

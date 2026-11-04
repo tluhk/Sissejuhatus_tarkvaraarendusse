@@ -29,4 +29,4 @@ Rollid ei tööta tingimata üksteise järel. Arendaja võib aidata teostatavust
 
 ## Seminaris 2 käsitletavad rollid
 
-Seminaris 2 kasutame rolle, et näha, milliseid küsimusi meeskond probleemi uurides ja tööd käivitades küsib. Hilisemates seminarides pöördume samade vastutuste juurde tagasi nõuete, arhitektuuri, testimise, riskide ja kasutuselevõtu juures. Vaata ka [seminari 2 rollide tabelit](../../seminarid/seminar_02/peatukid/03-rollid-ja-vastutused.md).
+Seminaris 2 kasutame rolle, et näha, milliseid küsimusi meeskond probleemi uurides ja tööd käivitades küsib. Hilisemates seminarides pöördume samade vastutuste juurde tagasi nõuete, arhitektuuri, testimise, riskide ja kasutuselevõtu juures. Vaata ka [seminari 2 rollide tabelit](../../seminarid/seminar_02/peatukid/02-rollid-ja-vastutused.md).

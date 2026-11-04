@@ -1,4 +1,4 @@
-Koostaksin refleksiooni juhendi järgnevalt:
+> **Arhiiv: varasema kursuse refleksioonijuhend.** See ei ole aktiivse kursuse nõue. Kehtiv vorm on [individuaalse refleksiooni mall](../../seminarid/mallid/individuaalne-refleksioon.md).
 
 # Juhend refleksiooni koostamiseks
 

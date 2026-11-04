@@ -19,10 +19,9 @@ Kehtiva aineinfo esmane masinloetav allikas on `metadata/data.json`. Kui see lä
 
 - `README.md` on õppematerjalide avaleht ja sisukord.
 - `metadata/data.json` sisaldab kehtiva kursuse põhiandmeid ja õpiväljundeid.
-- `docs/` sisaldab aine ülddokumente, juhendeid, sõnastikku ja varasemaid slaidikavandeid.
+- `docs/` sisaldab aine ülddokumente, juhendeid, sõnastikku ja juhendeid. Vananenud materjalid asuvad kaustas `docs/archive/`; need ei ole kehtivad nõuded ega tööjuhised.
 - `concepts/` sisaldab mõistete ja teemade õppematerjale.
 - `seminarid/` sisaldab seminaride slaide, ülesandeid ning õpetaja juhendeid.
-- `course-draft-v2.md` on kursuse kavand, mitte automaatselt kehtiv kursuseprogramm.
 - `slides.md` on slaidide muudetav lähtefail. `slides.html` on sellest genereeritud väljund.
 - Seminari 1 peatükkide slaidide lähtefailid asuvad `seminarid/seminar_01/slaidid/` kaustas. HTML-esitlus genereeritakse käsuga `seminarid/seminar_01/export-slides.sh`; genereeritud `slides.html` faili ei muudeta käsitsi.
 - Seminaride 2–5 Marp-lähtefailid on vastava seminari `slides.md` failid. Kõik nende HTML-esitlused genereeritakse käsuga `seminarid/export-marp.sh`; ühe seminari saab eksportida, andes skriptile selle kausta argumendina.
@@ -88,7 +87,7 @@ Slaidide, kodutöö, õpetaja juhendi, failinimede, tähtaegade ja hindamiskrite
 
 ## Kursuse aktiivne ülesehitus
 
-- Kursuse aktiivne õppijale suunatud ülevaade asub failis `docs/kursuseprogramm.md`. Ümberkujundamise põhjendatud lähteplaan asub failis `docs/kursuse-umberkujunduse-kava.md`.
+- Kursuse aktiivne õppijale suunatud ülevaade asub failis `docs/kursuseprogramm.md`. Ümberkujundamise ajalooline lähteplaan asub failis `docs/kursuse-umberkujunduse-kava.md`; vastuolu korral kehtivad kursuseprogramm ja seminari materjalid.
 - Esimene seminar jääb sissejuhatuseks ja töövahendite seadistamiseks. Meeskonnad ning läbiv projekt algavad seminaris 2.
 - Kursuse keskne tulemus on tarkvaraarenduse suure pildi mõistmine, mitte teiste erialaainete detailse sisu kordamine.
 - Seminarid 2–5 kasutavad üht läbivat meeskonnaprojekti, mille keskne artefakt on põhjendatud otsuste logi.
@@ -130,4 +129,4 @@ Slaidide, kodutöö, õpetaja juhendi, failinimede, tähtaegade ja hindamiskrite
 - Esimese seminari 2026. aasta täpne ajakava ja praktilised kontrollpunktid tuleb veel kokku leppida.
 - Projektirühmad ja ühine meeskonnarepositoorium luuakse teises seminaris organisatsioonis `TLUHK-RIF26`. Repositooriumide lõplik nimetamise reegel tuleb veel otsustada.
 - Vanemates failides leiduvad 4 EAP, aine kood `HKI5086.HK`, `RIF25` ja märge „juba toimunud” ei ole vaikimisi kehtiv info.
-- `course-draft-v2.md` on arhiivimärkega varasem kavand; aktiivne kursuseprogramm on `docs/kursuseprogramm.md`.
+- `docs/archive/course-draft-v2.md` on arhiivimärkega varasem kavand; aktiivne kursuseprogramm on `docs/kursuseprogramm.md`.

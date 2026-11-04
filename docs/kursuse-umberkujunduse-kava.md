@@ -1,6 +1,6 @@
 # Kursuse ümberkujundamise kava
 
-> **Staatus:** kinnitatud lähteplaan. Aktiivne õppijale suunatud ülevaade asub failis [kursuseprogramm.md](kursuseprogramm.md).
+> **Staatus:** ajalooline lähteplaan, mis selgitab ümberkujundamise põhjuseid. Seda ei ole seminaride tegeliku sisuga täielikult ühtlustatud; eriti seminaride 1–2 osa, projekti lähtekoht, repo struktuur ja juhtumiuuringute seis on vananenud. Vastuolu korral kehtivad [kursuseprogramm.md](kursuseprogramm.md) ning vastava seminari materjalid ja kodutöö.
 
 ## 1. Ümberkujundamise eesmärk
 
@@ -411,7 +411,7 @@ Dokumentide arv, teksti pikkus, tehniline keerukus, AI väljundi maht ega esitlu
 
 ## 14. Rakendatud materjalid
 
-- [Seminar 2](../seminarid/seminar_02/01-seminar.md) ja `v0.1.0`
+- [Seminar 2](../seminarid/seminar_02/README.md) ja `v0.1.0`
 - [Seminar 3](../seminarid/seminar_03/seminar.md) ja `v0.2.0`
 - [Seminar 4](../seminarid/seminar_04/seminar.md) ja `v0.3.0`
 - [Seminar 5](../seminarid/seminar_05/seminar.md) ja `v0.4.0`

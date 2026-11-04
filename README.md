@@ -60,7 +60,7 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 - [Pull Request](concepts/pullRequest/README.md)
 - [Koodi ülevaatus](concepts/codeReview/README.md)
 - [Forkimine](concepts/fork/README.md)
-- [Mittefunktsionaalsed nõuded](concepts/mittefunktsionaalsednouded/README.md)
+- [Mittefunktsionaalsed nõuded](concepts/mittefunktsionaalsedNouded/README.md)
 - [Prototüüpimine](concepts/prototyypimine/README.md)
 - [Testimine](concepts/testimine/README.md)
 
@@ -69,7 +69,7 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 | Seminar | Materjal | Slaidid | Kodutöö ja release |
 |---|---|---|---|
 | 1. Suur pilt ja töövahendid | [Materjal](seminarid/seminar_01/seminar.md) | [HTML](seminarid/seminar_01/slides.html) | [Kodutöö 1](seminarid/seminar_01/homework.md) |
-| 2. Kliendisoovist arendusülesandeni | [Õppematerjal ja tegevused](seminarid/seminar_02/01-seminar.md) · [Õpetaja juhis](seminarid/seminar_02/00-opetaja-juhis.md) | [HTML-slaidid](seminarid/seminar_02/slides.html) | [Kodutöö 2 – `v0.1.0`](seminarid/seminar_02/03-kodutoo.md) |
+| 2. Kliendisoovist arendusülesandeni | [Õppematerjal ja tegevused](seminarid/seminar_02/README.md) · [Õpetaja juhis](seminarid/seminar_02/opetaja-juhis.md) | [HTML-slaidid](seminarid/seminar_02/slides.html) | [Kodutöö 2 – `v0.1.0`](seminarid/seminar_02/homework.md) |
 | 3. Meeskond, tööviis ja süsteemi põhimõte | [Materjal](seminarid/seminar_03/seminar.md) | [HTML](seminarid/seminar_03/slides.html) | [Kodutöö 3 – `v0.2.0`](seminarid/seminar_03/homework.md) |
 | 4. Kvaliteet, riskid ja vastutus | [Materjal](seminarid/seminar_04/seminar.md) | [HTML](seminarid/seminar_04/slides.html) | [Kodutöö 4 – `v0.3.0`](seminarid/seminar_04/homework.md) |
 | 5. Kasutuselevõtt, käitus ja areng | [Materjal](seminarid/seminar_05/seminar.md) | [HTML](seminarid/seminar_05/slides.html) | [Kodutöö 5 – `v0.4.0`](seminarid/seminar_05/homework.md) |
