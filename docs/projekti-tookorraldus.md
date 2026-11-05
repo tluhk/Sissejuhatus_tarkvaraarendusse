@@ -64,7 +64,7 @@ Merge-konflikt tekib, kui kaks haru muudavad sama rida ja Git ei tea, kumb muuda
 git switch main
 git pull --ff-only
 git switch issue-12-describe-user-groups
-git merge main
+git merge --no-edit main
 ```
 
 Kui Git teatab `CONFLICT`, ava nimetatud fail. Konfliktne koht näeb välja nii:
@@ -84,6 +84,8 @@ git add <fail>
 git commit -m "Resolve conflict in <fail>"
 git push
 ```
+
+Pikem juhend koos VS Code'i ja katkestamisega on [konfliktide lahendamise juhendis](../concepts/mergeConflict/README.md).
 
 ## Ajalugu ja muudatuse tagasivõtmine
 

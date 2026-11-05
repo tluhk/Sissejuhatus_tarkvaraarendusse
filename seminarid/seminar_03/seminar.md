@@ -12,7 +12,7 @@ Seminari lõpuks õppija:
 - võrdleb järjestikust, iteratiivset ja voopõhist tööviisi;
 - valib meeskonnale sobiva tööviisi ning põhjendab valikut;
 - koostab järgmise etapi backlog'i ning kasutab ajahinnangu võrdlusest saadud õppetundi;
-- kirjeldab süsteemi eesmärki, piiri, osalisi, suuremaid osi ja nendevahelisi seoseid kõrgtaseme arhitektuurina;
+- teab, kuidas kirjeldada süsteemi eesmärki, piiri, osalisi, suuremaid osi ja nendevahelisi seoseid kõrgtaseme arhitektuurina, ning teeb selle kodutöös;
 - osaleb GitHubis otsuse ülevaatamises.
 
 ## Põhiküsimus
@@ -147,19 +147,20 @@ Commit'i häid tavasid harjutasime seminaris 2. Kasutage neid nüüd otsuste tö
 
 ## Merge-konflikt
 
-Seni töötas igaüks oma failis. Nüüd kirjutate ühiseid otsusefaile, nii et kaks haru võivad muuta sama rida. Siis tekib merge-konflikt: Git ei tea, kumb muudatus jätta, ja otsuse teeb inimene. Täpsed käsud on [projekti töökorralduse juhendis](../../docs/projekti-tookorraldus.md#kui-tekib-merge-konflikt).
+Seni töötas igaüks oma failis. Nüüd kirjutate ühiseid otsusefaile, nii et kaks haru võivad muuta sama rida. Siis tekib merge-konflikt: Git ei tea, kumb muudatus jätta, ja otsuse teeb inimene. Täpsed käsud on [konfliktide lahendamise juhendis](../../concepts/mergeConflict/README.md).
 
 ## Seminari praktiline töö
 
-1. Vaadake üle release `v0.1.0` ja nimetage üks muutunud arusaam.
+1. Vaadake üle oma tiimi release `v0.1.0` (`https://github.com/TLUHK-RIF26/tiim-XX-tunniplaan/releases/tag/v0.1.0`, `XX` asemel tiimi number) ja nimetage üks muutunud arusaam.
 2. Jagage selleks etapiks rollid. Iga õppija võtab uue vaatenurga.
 3. Võrrelge vähemalt kolme tööviisi projekti ebakindluse, mahu ja meeskonna järgi.
 4. Looge `decisions/002-tooviisi-valik.md`.
 5. Koostage GitHub Projectsi tahvlile järgmise etapi backlog: Issue'd, järjekord, vastutajad ja ajahinnangud. Leppige kokku ka ülevaatajad.
 6. Sõnastage tunniplaani kohta kogutud tõendite põhjal vähemalt kaks kasutajalugu ja lisage kummalegi kontrolltingimus.
-7. Kirjeldage, kuidas kasutaja oma eesmärgini jõuab ja kuidas lood vastavad süsteemi eesmärgile, piirile ja suurematele osadele.
-8. Looge `decisions/003-susteemi-kontseptsioon.md` ning näidake süsteemi peamisi osi, nende vastutust ja vähemalt üht olulist seost või info liikumist.
-9. Tekitage ja lahendage üks merge-konflikt terminalis.
+7. Kirjeldage, kuidas kasutaja oma eesmärgini jõuab.
+8. Tekitage ja lahendage üks merge-konflikt terminalis.
+
+Faili `decisions/003-susteemi-kontseptsioon.md` koostate kodutöös.
 
 ## Kontrollpunkt
 
@@ -168,9 +169,8 @@ Seminari lõpuks on:
 - rollid ja nende vastutus nähtavad;
 - tööviisi valiku mustand koos alternatiividega;
 - vähemalt kaks tõendiga seotud kasutajalugu ja nende kontrolltingimused;
-- süsteemi kontseptsiooni esimene versioon, mis kirjeldab ka kasutaja teekonda;
+- kasutaja teekond tekstina;
 - järgmise etapi backlog koos järjekorra, vastutajate ja ajahinnangutega;
-- kõrgtaseme arhitektuuri visand või selge tekstiline kirjeldus;
 - vähemalt üks lahkarvamus või kompromiss otsusena talletatud;
 - üks merge-konflikt lahendatud;
 - igal õppijal Issue, haru ja ülevaatamise ülesanne.

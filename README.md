@@ -58,6 +58,7 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 - [Rollid tarkvaraarenduses](concepts/rollid/README.md)
 - [Dokumentatsioon](concepts/dokumentatsioon/README.md)
 - [Pull Request](concepts/pullRequest/README.md)
+- [Giti konfliktide lahendamine](concepts/mergeConflict/README.md)
 - [Koodi ülevaatus](concepts/codeReview/README.md)
 - [Forkimine](concepts/fork/README.md)
 - [Mittefunktsionaalsed nõuded](concepts/mittefunktsionaalsedNouded/README.md)

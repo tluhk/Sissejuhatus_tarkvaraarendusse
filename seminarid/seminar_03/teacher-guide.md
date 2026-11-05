@@ -9,9 +9,9 @@ Seminar ei ole Scrumi kiirkursus ega detailse tehnilise arhitektuuri harjutus. T
 | Tegevus | Aeg |
 |---|---:|
 | Release `v0.1.0` ülevaade | 10 min |
+| Lühijutt: kuidas AI arendust muudab | 5 min |
 | Ametialased rollid: meenutus ja vaatenurkade kasutamine | 10 min |
 | Kasutajalood ja kontrollitavad funktsionaalsed nõuded | 15 min |
-| Lühijutt: kuidas AI arendust muudab | 5 min |
 | Waterfalli ja agiilse lähenemise meenutus; Scrum, Kanban, iteratiivsus ja Lean | 11 min |
 | GOV.UK alpha juhtum | 14 min |
 | Rollide jagamine ja vaatenurgad | 5 min |
@@ -24,11 +24,17 @@ Seminar ei ole Scrumi kiirkursus ega detailse tehnilise arhitektuuri harjutus. T
 |---|---:|
 | Valik ja põhjendus | 10 min |
 | Töö planeerimine: backlog, järjestus, vastutajad ja ajahinnangud | 20 min |
-| Kasutajalugude seos kasutaja teekonna, süsteemi eesmärgi, piiri ja kõrgtaseme arhitektuuriga | 15 min |
+| Kasutajalood ja kasutaja teekond; kontseptsiooni ja arhitektuuri lühitutvustus kodutöö jaoks | 15 min |
 | Rollikonflikt ja kompromiss | 10 min |
 | Merge-konflikti harjutus terminalis | 15 min |
 | Otsuste logi, commit'i sõnum ja PR-i ülevaatus | 10 min |
 | Kodutöö ja release | 10 min |
+
+## Release `v0.1.0` ülevaade
+
+Lingid on slaidil. Palu igal tiimil nimetada üks muutunud arusaam. Näidis on [demorepos](https://github.com/TLUHK-RIF26/tiim-demo-tunniplaan/releases/tag/v0.1.0).
+
+Seis 5. novembril 2026: tiimi 08 repos `v0.1.0` release'i ei olnud, seega viib selle tiimi link release'ide lehele. Kontrolli enne seminari, kas see on lisandunud.
 
 ## Küsimused, millega meeskonda tagasi suunata
 
@@ -48,11 +54,15 @@ Seminar ei ole Scrumi kiirkursus ega detailse tehnilise arhitektuuri harjutus. T
 - Rollid muutuvad tiitliteks. Nõua igalt rollilt vähemalt üht sisulist küsimust või vastuväidet.
 - Üks õppija kirjutab kõik. Kontrolli PR-ide ja ülevaatuste ajalugu.
 
+## Mis jääb kodutöösse
+
+Seminaris valmivad kasutajalood ja kasutaja teekond. Süsteemi kontseptsiooni ja arhitektuuri ainult tutvusta: `decisions/003-susteemi-kontseptsioon.md` valmib kodutöös.
+
 ## Merge-konflikti harjutus
 
 Iga tiim teeb harjutuse ühe paariga, teised loevad käske ette ja jälgivad. Tiim loob ühe Issue'i (näites `#20`). Mõlemad õppijad loovad sellest haru, näiteks `issue-20-conflict-a` ja `issue-20-conflict-b`, ning muudavad README-s sama rida. Kui esimene PR on ühendatud, teeb teine slaidil olevad sammud ja tiim otsustab, milline tekst jääb. Seejärel vaatab esimene õppija teise PR-i üle ja see ühendatakse.
 
-Kui aega jääb üle, vahetab järgmine paar. Täpne juhend õppijale on [projekti töökorralduses](../../docs/projekti-tookorraldus.md#kui-tekib-merge-konflikt).
+Kui aega jääb üle, vahetab järgmine paar. Täpne juhend õppijale on [konfliktide lahendamise juhendis](../../concepts/mergeConflict/README.md).
 
 ## Tulevikumärkused
 

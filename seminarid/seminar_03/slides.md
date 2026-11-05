@@ -29,6 +29,19 @@ tagasiside → avaldamine ja hooldus
 
 ---
 
+## Release `v0.1.0` ülevaade
+
+- [Tiim 01](https://github.com/TLUHK-RIF26/tiim-01-tunniplaan/releases/tag/v0.1.0)
+- [Tiim 02](https://github.com/TLUHK-RIF26/tiim-02-tunniplaan/releases/tag/v0.1.0)
+- [Tiim 04](https://github.com/TLUHK-RIF26/tiim-04-tunniplaan/releases/tag/v0.1.0)
+- [Tiim 07](https://github.com/TLUHK-RIF26/tiim-07-tunniplaan/releases/tag/v0.1.0)
+- [Tiim 08](https://github.com/TLUHK-RIF26/tiim-08-tunniplaan/releases)
+- [Tiim 10](https://github.com/TLUHK-RIF26/tiim-10-tunniplaan/releases/tag/v0.1.0)
+
+Mis teie arusaamas muutus? Nimetage üks asi.
+
+---
+
 ## Kuidas AI arendust muudab?
 
 Etapid jäävad samaks. Muutub see, kes mida teeb ja kus töö kinni jääb.
@@ -188,6 +201,20 @@ GOV.UK alpha:
 
 ---
 
+## Tänane meeskonnatöö
+
+1. Vahetage rollid.
+2. Võrrelge vähemalt kolme tööviisi.
+3. Põhjendage valik otsuste logis.
+4. Koostage Projectsi tahvlile järgmise etapi backlog.
+5. Sõnastage vähemalt kaks tõendiga seotud kasutajalugu ja lisage kummalegi kontrolltingimus.
+6. Kirjeldage, kuidas kasutaja oma eesmärgini jõuab.
+7. Lahendage üks merge-konflikt.
+
+Süsteemi kontseptsioon valmib kodutöös.
+
+---
+
 ## Töö planeerimine: järgmise etapi backlog
 
 **Backlog** on järjestatud tööde nimekiri.
@@ -215,6 +242,8 @@ Seostage kontseptsioon vähemalt kahe kasutajalooga ja kirjeldage:
 - oluline info liikumine
 - välised sõltuvused ja teadmatused
 
+<!-- Lühike tutvustus, kirjeldus valmib kodutöös. -->
+
 <!-- Tulevikus: analüüs ja disain võivad toimuda ühes töösessioonis. Samaks jääb: kirja jääb, mida küsiti ja mida otsustati. -->
 
 ---
@@ -228,18 +257,6 @@ Seostage kontseptsioon vähemalt kahe kasutajalooga ja kirjeldage:
 Selge tekst võib olla piisav.
 
 Ilus kastide kogum ilma põhjendatud piiride ja seosteta ei ole arhitektuuriline mõtlemine.
-
----
-
-## Tänane meeskonnatöö
-
-1. Vaadake üle `v0.1.0`.
-2. Vahetage rollid.
-3. Võrrelge vähemalt kolme tööviisi.
-4. Põhjendage valik otsuste logis.
-5. Koostage Projectsi tahvlile järgmise etapi backlog.
-6. Sõnastage vähemalt kaks tõendiga seotud kasutajalugu ja lisage kummalegi kontrolltingimus.
-7. Kirjeldage süsteemi kontseptsioon ning seostage see kasutajalugudega.
 
 ---
 
@@ -287,7 +304,7 @@ git commit -m "Resolve conflict in README"
 git push
 ```
 
-`git add` tuleb pärast faili parandamist.
+`git add` tuleb pärast faili parandamist. [Juhend](../../concepts/mergeConflict/README.md)
 
 <!-- Näita sama lahendust paralleelselt ka VS Code'is. -->
 
