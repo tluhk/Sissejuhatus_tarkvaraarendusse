@@ -172,7 +172,7 @@ Seni töötas igaüks oma failis. Nüüd kirjutate ühiseid otsusefaile, nii et 
 3. Võrrelge vähemalt kolme tööviisi projekti ebakindluse, mahu ja meeskonna järgi.
 4. Looge `decisions/002-tooviisi-valik.md`.
 5. Koostage GitHub Projectsi tahvlile järgmise etapi backlog: Issue'd, järjekord, vastutajad ja ajahinnangud. Leppige kokku ka ülevaatajad.
-6. Sõnastage tunniplaani kohta kogutud tõendite põhjal vähemalt kaks kasutajalugu ja lisage kummalegi kontrolltingimus ([näide](#näide-tõendist-kasutajalooni)).
+6. Iga tiimiliige sõnastab tunniplaani kohta kogutud tõendite põhjal vähemalt ühe kasutajaloo koos kontrolltingimusega ja vaatab läbi ühe kaaslase loo ([näide](#näide-tõendist-kasutajalooni)). Kokku on tiimil vähemalt kaks lugu.
 7. Kirjeldage, kuidas kasutaja oma eesmärgini jõuab.
 8. Tekitage ja lahendage üks merge-konflikt terminalis.
 
@@ -184,7 +184,7 @@ Seminari lõpuks on:
 
 - rollid ja nende vastutus nähtavad;
 - tööviisi valiku mustand koos alternatiividega;
-- vähemalt kaks tõendiga seotud kasutajalugu ja nende kontrolltingimused ([näide](#näide-tõendist-kasutajalooni));
+- igal tiimiliikmel vähemalt üks tõendiga seotud kasutajalugu koos kontrolltingimusega ([näide](#näide-tõendist-kasutajalooni)), kokku vähemalt kaks;
 - kasutaja teekond tekstina;
 - järgmise etapi backlog koos järjekorra, vastutajate ja ajahinnangutega;
 - vähemalt üks lahkarvamus või kompromiss otsusena talletatud;

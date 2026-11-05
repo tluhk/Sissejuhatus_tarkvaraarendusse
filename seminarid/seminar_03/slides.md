@@ -229,7 +229,7 @@ GOV.UK alpha:
 2. Võrrelge vähemalt kolme tööviisi.
 3. Põhjendage valik otsuste logis.
 4. Koostage Projectsi tahvlile järgmise etapi backlog.
-5. Sõnastage vähemalt kaks tõendiga seotud kasutajalugu ja lisage kummalegi kontrolltingimus ([näide](seminar.md#näide-tõendist-kasutajalooni)).
+5. Igaüks: üks tõendiga seotud kasutajalugu ja kontrolltingimus ([näide](seminar.md#näide-tõendist-kasutajalooni)). Vaadake läbi kaaslase lugu.
 6. Kirjeldage, kuidas kasutaja oma eesmärgini jõuab.
 7. Lahendage üks merge-konflikt.
 
@@ -266,7 +266,7 @@ See ütleb, mida süsteem teeb, kuid mitte seda, millega see ehitatakse või kui
 
 Arhitektuur näitab suuremaid osi, nende vastutust ja seoseid. Tehnoloogiapinu valimine pole eesmärk.
 
-Seostage kontseptsioon vähemalt kahe kasutajalooga ([näide](seminar.md#näide-tõendist-kasutajalooni)) ja kirjeldage:
+Seostage kontseptsioon tiimi kasutajalugudega ([näide](seminar.md#näide-tõendist-kasutajalooni)) ja kirjeldage:
 
 - eesmärk, osalised ja süsteemi piir
 - kuidas kasutaja oma eesmärgini jõuab
