@@ -38,7 +38,7 @@ tagasiside → avaldamine ja hooldus
 - [Tiim 08](https://github.com/TLUHK-RIF26/tiim-08-tunniplaan/releases)
 - [Tiim 10](https://github.com/TLUHK-RIF26/tiim-10-tunniplaan/releases/tag/v0.1.0)
 
-Mis teie arusaamas muutus? Nimetage üks asi.
+Mis muutus teie arusaamas kasutaja probleemist, kui sellega kodutöös tegelesite? Nimetage üks asi.
 
 ---
 

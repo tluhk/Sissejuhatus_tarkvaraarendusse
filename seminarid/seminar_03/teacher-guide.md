@@ -32,7 +32,7 @@ Seminar ei ole Scrumi kiirkursus ega detailse tehnilise arhitektuuri harjutus. T
 
 ## Release `v0.1.0` ülevaade
 
-Lingid on slaidil. Palu igal tiimil nimetada üks muutunud arusaam. Näidis on [demorepos](https://github.com/TLUHK-RIF26/tiim-demo-tunniplaan/releases/tag/v0.1.0).
+Lingid on slaidil. Küsi igalt tiimilt: „Mis muutus teie arusaamas kasutaja probleemist, kui sellega kodutöös tegelesite? Nimetage üks asi.” Näidis on [demorepos](https://github.com/TLUHK-RIF26/tiim-demo-tunniplaan/releases/tag/v0.1.0).
 
 Seis 5. novembril 2026: tiimi 08 repos `v0.1.0` release'i ei olnud, seega viib selle tiimi link release'ide lehele. Kontrolli enne seminari, kas see on lisandunud.
 

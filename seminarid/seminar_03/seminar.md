@@ -151,7 +151,7 @@ Seni töötas igaüks oma failis. Nüüd kirjutate ühiseid otsusefaile, nii et 
 
 ## Seminari praktiline töö
 
-1. Vaadake üle oma tiimi release `v0.1.0` (`https://github.com/TLUHK-RIF26/tiim-XX-tunniplaan/releases/tag/v0.1.0`, `XX` asemel tiimi number) ja nimetage üks muutunud arusaam.
+1. Vaadake üle oma tiimi release `v0.1.0` (`https://github.com/TLUHK-RIF26/tiim-XX-tunniplaan/releases/tag/v0.1.0`, `XX` asemel tiimi number). Mis muutus teie arusaamas kasutaja probleemist, kui sellega kodutöös tegelesite? Nimetage üks asi.
 2. Jagage selleks etapiks rollid. Iga õppija võtab uue vaatenurga.
 3. Võrrelge vähemalt kolme tööviisi projekti ebakindluse, mahu ja meeskonna järgi.
 4. Looge `decisions/002-tooviisi-valik.md`.
