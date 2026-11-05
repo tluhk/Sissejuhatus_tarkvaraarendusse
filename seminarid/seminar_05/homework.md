@@ -50,7 +50,7 @@ Demo on vabatahtlik. Kui teete demo, piirake selleks kuluv meeskonna aeg enne al
 
 ## GitHubi töövoog
 
-Iga õppija teeb sisulise panuse enda haru ja PR-i kaudu, vaatab üle teise õppija töö ning lisab refleksiooni. Ajajoon peab sündima meeskonna valikutest, mitte ühe inimese tagantjärele kirjutatud loost.
+Iga õppija teeb sisulise panuse enda haru ja PR-i kaudu, vaatab üle teise õppija töö ning lisab refleksiooni. Ajajoon peab sündima meeskonna valikutest, mitte ühe inimese tagantjärele kirjutatud loost. Kasutage selle koostamisel käske `git tag` ja `git log --oneline`.
 
 ## Release manager
 
@@ -81,7 +81,7 @@ Hindan tiimi ühist tulemust repositooriumis ning iga õppija panust tema Issue'
 | Hooldus, muutmine ja lõpetamine | 15 | Kirjas on hoolduse omanik, olulised sõltuvused ja tehnilise võla käsitlus ning vähemalt üks olukord, kus süsteem tuleks ümber mõelda või lõpetada. |
 | Release'ide ajajoon | 10 | Ajajoon seob olulised otsused release'idega ja näitab arusaamise muutumist. |
 | Töö planeerimine | 10 | Backlog on uuendatud. Release notes võrdleb ajahinnangut tegeliku ajakuluga ja nimetab järgmise etapi paranduse. |
-| Tiimitöö ja iga õppija panus | 10 | Iga õppija panus on jälgitav Issue'i, commit'i ja PR-i kaudu ning igaüks on üle vaadanud teise õppija töö. Ajajoon on sündinud meeskonna valikutest. |
+| Tiimitöö ja iga õppija panus | 10 | Iga õppija panus on jälgitav Issue'i, commit'i ja PR-i kaudu ning igaüks on üle vaadanud teise õppija töö. Commit'i sõnumid kirjeldavad tehtud muudatust. Ajajoon on sündinud meeskonna valikutest. |
 | Refleksioon ja AI kasutamise läbipaistvus | 10 | Iga õppija refleksioon kirjeldab tema panust ja õpitut. Vähemalt ühe olulise otsuse juures on AI sisend, väljundi kasutamine või tagasilükkamine, kontroll, kasu ja tekkinud müra kirjas. |
 | Repositooriumi korrastatus ja release | 10 | Nõutud failid on leitavad, muudatused on jõudnud `main`-i PR-ide kaudu ning `v0.4.0` release on avaldatud. |
 

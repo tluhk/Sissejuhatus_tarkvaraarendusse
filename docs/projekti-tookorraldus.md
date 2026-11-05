@@ -56,6 +56,43 @@ Seminarides 2–5 töötab iga tiim ühes GitHubi repositooriumis. Issue on GitH
 | Seminar 5 | `v0.4.0` |
 | Eksam | `v1.0.0` |
 
+## Kui tekib merge-konflikt
+
+Merge-konflikt tekib, kui kaks haru muudavad sama rida ja Git ei tea, kumb muudatus jätta. See ei ole viga, vaid koht, kus inimene peab otsustama. Too `main`-i uus seis enda harusse:
+
+```bash
+git switch main
+git pull --ff-only
+git switch issue-12-describe-user-groups
+git merge main
+```
+
+Kui Git teatab `CONFLICT`, ava nimetatud fail. Konfliktne koht näeb välja nii:
+
+```text
+<<<<<<< HEAD
+Sinu haru tekst.
+=======
+Main-i tekst.
+>>>>>>> main
+```
+
+Otsusta koos tiimikaaslasega, milline tekst jääb. Kustuta märgid `<<<<<<<`, `=======` ja `>>>>>>>`. VS Code pakub sama valikut nuppudega faili kohal. Seejärel salvesta tulemus:
+
+```bash
+git add <fail>
+git commit -m "Resolve conflict in <fail>"
+git push
+```
+
+## Ajalugu ja muudatuse tagasivõtmine
+
+- `git log --oneline` näitab commit'e ühel real.
+- `git diff` näitab veel commit'imata muudatusi.
+- `git restore <fail>` kustutab selle faili commit'imata muudatused. Neid ei saa hiljem tagasi, seega vaata enne `git diff` väljund üle.
+- `git tag` näitab versioone.
+- `git log --oneline v0.1.0..v0.2.0` näitab kahe versiooni vahel tehtud commit'e.
+
 ## Kolm kokkulepet
 
 - Ära muuda `main`-i otse.

@@ -8,7 +8,7 @@ Seminar laiendab arenduse piiri tootmisest kasutuselevõtu, käituse, õppimise,
 
 | Tegevus | Aeg |
 |---|---:|
-| `v0.3.0` ülevaade, rollivahetus ja backlog'i uuendamine | 15 min |
+| `v0.3.0` ülevaade, Projectsi tahvli läbivaatus, rollivahetus ja backlog'i uuendamine | 15 min |
 | Kasutuselevõtt ja muutuse juhtimine | 20 min |
 | Seire, tagasiside ja mõju | 20 min |
 | MOJ elava teenuse juhtum | 15 min |
@@ -23,7 +23,7 @@ Seminar laiendab arenduse piiri tootmisest kasutuselevõtu, käituse, õppimise,
 | Mõõdikute ning tagasiside valik | 15 min |
 | Hooldus- ja lõpetamisotsus | 15 min |
 | Vabatahtliku AI-demo otsus | 10 min |
-| Release'ide ajajoon | 15 min |
+| Release'ide ajajoon: `git tag`, `git log` ja olulised otsused | 15 min |
 | Kodutöö ja eksamiks valmistumine | 15 min |
 
 ## Ohukohad

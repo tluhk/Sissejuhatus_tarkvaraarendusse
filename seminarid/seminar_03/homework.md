@@ -57,7 +57,7 @@ Iga õppija dokumenteerib vähemalt ühe tähelepaneku enda selle etapi rollist.
 
 ## GitHubi töövoog
 
-Iga õppija seob enda Issue, haru, sisulise commit'i ja pull request'i. Igaüks vaatab üle vähemalt ühe teise liikme PR-i. Ülevaatus peab kommenteerima põhjendust või riski, mitte ainult õigekirja.
+Iga õppija seob enda Issue, haru, sisulise commit'i ja pull request'i. Igaüks vaatab üle vähemalt ühe teise liikme PR-i. Ülevaatus peab kommenteerima põhjendust või riski, mitte ainult õigekirja. Kui ühises failis tekib merge-konflikt, lahendage see [töökorralduse juhendi](../../docs/projekti-tookorraldus.md#kui-tekib-merge-konflikt) järgi.
 
 ## AI kasutamine
 

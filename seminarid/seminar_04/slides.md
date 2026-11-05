@@ -223,11 +223,28 @@ Teek, pilveteenus, andmestik, font või AI-mudel toob lisaks kasule:
 
 ## Tänane meeskonnatöö
 
-1. Vahetage rollid ja uuendage backlog'i.
-2. Valige 4–6 kvaliteediomadust.
-3. Tehke need kontrollitavaks.
-4. Kaardistage riskid ja vastutus.
-5. Vaadake varasemad otsused üle.
+1. Vaadake Projectsi tahvlit: mis jäi pooleli ja kuidas hinnangud pidasid?
+2. Vahetage rollid ja uuendage backlog'i.
+3. Valige 4–6 kvaliteediomadust.
+4. Tehke need kontrollitavaks.
+5. Kaardistage riskid ja vastutus.
+6. Vaadake varasemad otsused üle.
+
+---
+
+## Giti ajalugu ja tagasivõtmine
+
+```bash
+git log --oneline
+git diff
+git restore proov.md
+```
+
+- `log`: kas sõnumitest saab aru, mida tehti?
+- `diff`: mis on veel commit'imata?
+- `restore`: kustutab faili commit'imata muudatused. Neid ei saa tagasi.
+
+<!-- Õppija muudab mõnda proovifaili, vaatab git diff väljundi ja võtab muudatuse tagasi. Näita sama ka VS Code'is. -->
 
 ---
 

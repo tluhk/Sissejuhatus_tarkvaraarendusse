@@ -85,7 +85,7 @@ Valmis kasutajaprobleeme, funktsioone ega kujunduslahendusi ette ei anta. Meesko
 
 > Kuidas meeskond töötab ja millist süsteemi põhimõtteliselt kavandab?
 
-Õppijad vaatavad projekti päris ametialaste rollide kaudu, võrdlevad Waterfalli, iteratiivset ja agiilset tööviisi, tuletavad valideeritud vajadusest kasutajalood ning kontrollitavad funktsionaalsed nõuded, koostavad järgmise etapi backlog'i ja kirjeldavad süsteemi üldist kontseptsiooni ning kõrgtaseme arhitektuuri: kasutaja teekond, peamised osad, piirid, seosed ja välised sõltuvused. Rolle vahetatakse.
+Õppijad vaatavad projekti päris ametialaste rollide kaudu, võrdlevad Waterfalli, iteratiivset ja agiilset tööviisi, tuletavad valideeritud vajadusest kasutajalood ning kontrollitavad funktsionaalsed nõuded, koostavad järgmise etapi backlog'i ja kirjeldavad süsteemi üldist kontseptsiooni ning kõrgtaseme arhitektuuri: kasutaja teekond, peamised osad, piirid, seosed ja välised sõltuvused. Rolle vahetatakse. Giti poolel harjutatakse merge-konflikti lahendamist terminalis.
 
 ### Materjalid
 
@@ -101,7 +101,7 @@ Valmis kasutajaprobleeme, funktsioone ega kujunduslahendusi ette ei anta. Meesko
 
 > Kas kavand on piisavalt hea ja vastutustundlik?
 
-Õppijad valivad projekti olulised kvaliteediomadused ja teevad need kontrollitavaks. Lühidalt selgitatakse arendamise etappi ja harjutatakse testjuhtumi koostamist, vea kordamist, põhjuse kitsendamist, paranduse järelkontrolli ning koodi ülevaatust. Lisaks analüüsitakse turvalisuse, privaatsuse, ligipääsetavuse, töökindluse, litsentside ja kolmandate osapoolte riske.
+Õppijad valivad projekti olulised kvaliteediomadused ja teevad need kontrollitavaks. Lühidalt selgitatakse arendamise etappi ja harjutatakse testjuhtumi koostamist, vea kordamist, põhjuse kitsendamist, paranduse järelkontrolli ning koodi ülevaatust. Lisaks analüüsitakse turvalisuse, privaatsuse, ligipääsetavuse, töökindluse, litsentside ja kolmandate osapoolte riske. Giti poolel harjutatakse ajaloo lugemist ja commit'imata muudatuse tagasivõtmist.
 
 ### Materjalid
 
@@ -117,7 +117,7 @@ Valmis kasutajaprobleeme, funktsioone ega kujunduslahendusi ette ei anta. Meesko
 
 > Mis juhtub süsteemiga pärast selle loomist?
 
-Õppijad kavandavad kasutuselevõtu, toe, seire, tagasiside, hoolduse ja süsteemi lõpetamise põhimõtted. Nad koostavad lõpuesitluse jaoks release'ide ajajoone. Üliminimaalne AI-demo on vabatahtlik ja peab kontrollima konkreetset oletust.
+Õppijad kavandavad kasutuselevõtu, toe, seire, tagasiside, hoolduse ja süsteemi lõpetamise põhimõtted. Nad koostavad lõpuesitluse jaoks release'ide ajajoone Giti ajaloo põhjal. Üliminimaalne AI-demo on vabatahtlik ja peab kontrollima konkreetset oletust.
 
 ### Materjalid
 

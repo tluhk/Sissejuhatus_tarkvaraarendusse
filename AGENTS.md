@@ -106,6 +106,8 @@ Slaidide, kodutöö, õpetaja juhendi, failinimede, tähtaegade ja hindamiskrite
 - Esimene kodutöö tehakse Issue'st loodud harus ja esitatakse pull request'iga. Enne õppejõudu vaatab töö üle kaasõppija; paarid on failis `student_pairs.md` (rida `A -> B`: A vaatab üle B töö). Sama Issue → haru → PR → ülevaatus töövoog on kolledži ühine, vt `tluhk/Abimaterjalid/docs/koduse_too_esitamine.md`.
 - Seminar 2 algab probleemide leidmisega. Esimesest seminarist kinnistamist vajavad oskused lisatakse projektitöö sisse: Markdown, muudatuste kontroll, commit ja push; seejärel pull ning tag ja release.
 - Töö planeerimine on läbiv: seminaris 2 tutvutakse Kanbani ja ajahinnanguga, seminarides 3–5 hoitakse backlog'i ajakohasena ning release notes võrdleb ajahinnangut tegeliku ajakuluga.
+- Kursuse prioriteet on Git, terminal, GitHub, GitHub Projects ja koostöö. Koodi, disaini, UX-i ja kasutajatööd käsitletakse järgmistel kursustel põhjalikult, siin ainult sissejuhatavalt.
+- Giti oskused kasvavad seminariti: seminaris 3 merge-konflikt, seminaris 4 `git log`, `git diff` ja `git restore`, seminaris 5 `git tag` ja ajajoon Giti ajaloo põhjal. Seminarid 4 ja 5 algavad Projectsi tahvli läbivaatusega.
 - Rakendust kursusel ei ehitata. Seminar 4 selgitab arendamise etappi ja harjutab koodi ülevaatust väikese näitega.
 - Seminaris 3 tuletatakse valideeritud vajadusest kasutajalood ja kontrollitavad funktsionaalsed nõuded enne süsteemi kontseptsiooni täpsustamist. Waterfalli ja agiilse arenduse võrdlus on oluline ning peab olema nähtav nii seminaris 1 kui ka seminaris 3.
 

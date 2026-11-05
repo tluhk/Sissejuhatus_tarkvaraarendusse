@@ -257,6 +257,42 @@ Issue → haru → commit → PR → ülevaatus → merge
 
 ---
 
+## Merge-konflikt
+
+Tekib, kui kaks haru muudavad sama rida. Git ei tea, kumb muudatus jätta, ja otsuse teeb inimene.
+
+```text
+<<<<<<< HEAD
+Meie tiim teeb tunniplaani mobiilis loetavaks.
+=======
+Meie tiim parandab tunniplaani otsingut.
+>>>>>>> main
+```
+
+Kustuta märgid ja jäta alles tekst, milles kokku leppisite.
+
+---
+
+## Harjutus: lahendage konflikt
+
+Kaks õppijat muudavad README-s sama rida eri harudes. Esimese PR ühendatakse. Teine teeb:
+
+```bash
+git switch main
+git pull --ff-only
+git switch issue-20-conflict-b
+git merge main
+git add README.md
+git commit -m "Resolve conflict in README"
+git push
+```
+
+`git add` tuleb pärast faili parandamist.
+
+<!-- Näita sama lahendust paralleelselt ka VS Code'is. -->
+
+---
+
 # Kas tööviisi võib hiljem muuta?
 
 ---

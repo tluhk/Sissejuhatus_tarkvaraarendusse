@@ -130,9 +130,13 @@ Küsige enne andmete kogumist:
 
 Teek, pilveteenus, andmestik, font või AI-mudel võib kiirendada tööd, kuid toob kaasa sõltuvuse. Kontrollige vähemalt kasutustingimusi, litsentsi, andmete liikumist, hinda, jätkusuutlikkust ja asendatavust.
 
+## Giti ajalugu ja tagasivõtmine
+
+`git log --oneline` näitab tiimi commit'e ühel real. Sealt näete, kas sõnumitest saab aru, mida tehti. `git diff` näitab veel commit'imata muudatusi. `git restore <fail>` kustutab selle faili commit'imata muudatused. Neid ei saa hiljem tagasi, seega vaadake enne `git diff` väljund üle.
+
 ## Seminari praktiline töö
 
-1. Vaadake üle `v0.2.0`, vahetage rollid ja uuendage backlog'i.
+1. Alustage GitHub Projectsi tahvlist: mis jäi pooleli ja kuidas ajahinnangud pidasid? Vaadake üle `v0.2.0`, vahetage rollid ja uuendage backlog'i.
 2. Valige projekti jaoks 4–6 tähtsaimat kvaliteediomadust.
 3. Sõnastage iga omaduse juurde vähemalt üks kontrollitav kriteerium.
 4. Valige üks funktsionaalne nõue ja koostage selle põhjal lihtne testjuhtum.
@@ -140,6 +144,7 @@ Teek, pilveteenus, andmestik, font või AI-mudel võib kiirendada tööd, kuid t
 6. Koostage riskikaart: mõju, tõenäosus, ennetus, märkamine, vastutaja.
 7. Vaadake üle varasemad otsused. Muutke vähemalt üht, kui riskianalüüs seda nõuab.
 8. Looge `decisions/004-kvaliteet-ja-riskid.md`.
+9. Vaadake terminalis tiimi ajalugu käsuga `git log --oneline` ja proovige `git diff` ning `git restore` väikese proovimuudatusega.
 
 ## Kontrollpunkt
 

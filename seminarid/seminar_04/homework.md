@@ -81,7 +81,7 @@ Hindan tiimi ühist tulemust repositooriumis ning iga õppija panust tema Issue'
 | Riskid ja vastutus | 25 | Kirjas on vähemalt kuus eri tüüpi riski. Olulistel riskidel on mõju, maandus, märkamine ja vastutaja. Käsitletud on turvalisust, privaatsust, ligipääsetavust ning vähemalt üht kolmanda osapoole või litsentsi mõju. |
 | Seos varasemate otsustega ja kompromissid | 10 | Vähemalt üks varasem otsus on uue analüüsi põhjal kinnitatud, täpsustatud või muudetud. Kompromissid on nähtavad. |
 | Töö planeerimine | 10 | Backlog on uuendatud. Release notes võrdleb ajahinnangut tegeliku ajakuluga ja nimetab järgmise etapi paranduse. |
-| Tiimitöö ja iga õppija panus | 10 | Iga õppija panus on jälgitav Issue'i, commit'i ja PR-i kaudu. Ülevaataja on küsinud vähemalt ühe kontrolli, mõju või vastutuse kohta käiva küsimuse. |
+| Tiimitöö ja iga õppija panus | 10 | Iga õppija panus on jälgitav Issue'i, commit'i ja PR-i kaudu. Commit'i sõnumid kirjeldavad tehtud muudatust. Ülevaataja on küsinud vähemalt ühe kontrolli, mõju või vastutuse kohta käiva küsimuse. |
 | Refleksioon ja AI kasutamise läbipaistvus | 10 | Iga õppija refleksioon kirjeldab tema panust ja õpitut. Kui AI-d kasutati, on väited kontrollitud ja ebaoluline materjal eemaldatud. |
 | Repositooriumi korrastatus ja release | 10 | Nõutud failid on leitavad, muudatused on jõudnud `main`-i PR-ide kaudu ning `v0.3.0` release on avaldatud. |
 

@@ -8,7 +8,7 @@ Seminar annab kvaliteedist ja vastutusest suure pildi. See ei asenda testimise, 
 
 | Tegevus | Aeg |
 |---|---:|
-| `v0.2.0` ülevaade, rollivahetus ja backlog'i uuendamine | 15 min |
+| `v0.2.0` ülevaade, Projectsi tahvli läbivaatus, rollivahetus ja backlog'i uuendamine | 15 min |
 | Arendamise etapp: mis seal toimub ja miks me kursusel rakendust ei ehita | 5 min |
 | Kvaliteet eri vaatenurkadest | 15 min |
 | Funktsionaalsed ja mittefunktsionaalsed vajadused | 15 min |
@@ -26,7 +26,7 @@ Seminar annab kvaliteedist ja vastutusest suure pildi. See ei asenda testimise, 
 | Koodi ülevaatus sama näitega | 5 min |
 | Kontrollimise põhimõte | 10 min |
 | Litsentsid ja kolmandad osapooled | 10 min |
-| Otsuse ning PR-i ülevaatus | 10 min |
+| Otsuse ja PR-i ülevaatus; `git log`, `git diff` ja `git restore` | 10 min |
 | Kodutöö ja release | 10 min |
 
 ## Arutelu võti

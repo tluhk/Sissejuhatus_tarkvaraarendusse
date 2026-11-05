@@ -143,7 +143,11 @@ Skeem on kasulik ainult siis, kui see selgitab mõtet. Ilus, kuid põhjendamata 
 
 ## Hea commit'i sõnum
 
-Commit'i häid tavasid harjutasime seminaris 2. Kasutage neid nüüd otsuste töös: üks commit teeb ühe loogilise muudatuse ja sõnum ütleb, mida muudeti, näiteks `Describe system boundary`. Sõnumist `update` või `fix stuff` ei saa hiljem aru, miks otsus muutus. Commit'ide arv ei ole eesmärk.
+Commit'i häid tavasid harjutasime seminaris 2. Kasutage neid nüüd otsuste töös: üks commit teeb ühe loogilise muudatuse ja sõnum ütleb, mida muudeti, näiteks `Describe system boundary`. Sõnumist `update` või `fix stuff` ei saa hiljem aru, miks otsus muutus. Commit'ide arv ei ole eesmärk. Täpsemad tavad ja näited on [commit'i sõnumite juhendis](../../concepts/commit/README.md).
+
+## Merge-konflikt
+
+Seni töötas igaüks oma failis. Nüüd kirjutate ühiseid otsusefaile, nii et kaks haru võivad muuta sama rida. Siis tekib merge-konflikt: Git ei tea, kumb muudatus jätta, ja otsuse teeb inimene. Täpsed käsud on [projekti töökorralduse juhendis](../../docs/projekti-tookorraldus.md#kui-tekib-merge-konflikt).
 
 ## Seminari praktiline töö
 
@@ -155,6 +159,7 @@ Commit'i häid tavasid harjutasime seminaris 2. Kasutage neid nüüd otsuste tö
 6. Sõnastage tunniplaani kohta kogutud tõendite põhjal vähemalt kaks kasutajalugu ja lisage kummalegi kontrolltingimus.
 7. Kirjeldage, kuidas kasutaja oma eesmärgini jõuab ja kuidas lood vastavad süsteemi eesmärgile, piirile ja suurematele osadele.
 8. Looge `decisions/003-susteemi-kontseptsioon.md` ning näidake süsteemi peamisi osi, nende vastutust ja vähemalt üht olulist seost või info liikumist.
+9. Tekitage ja lahendage üks merge-konflikt terminalis.
 
 ## Kontrollpunkt
 
@@ -167,6 +172,7 @@ Seminari lõpuks on:
 - järgmise etapi backlog koos järjekorra, vastutajate ja ajahinnangutega;
 - kõrgtaseme arhitektuuri visand või selge tekstiline kirjeldus;
 - vähemalt üks lahkarvamus või kompromiss otsusena talletatud;
+- üks merge-konflikt lahendatud;
 - igal õppijal Issue, haru ja ülevaatamise ülesanne.
 
 ## Kodutöö ja release

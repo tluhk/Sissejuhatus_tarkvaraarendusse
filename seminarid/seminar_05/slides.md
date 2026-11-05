@@ -171,6 +171,19 @@ v0.1.0 probleem
 
 ---
 
+## Ajajoon Gitist
+
+```bash
+git switch main
+git pull --ff-only
+git tag
+git log --oneline v0.1.0..v0.2.0
+```
+
+`git tag` näitab versioone. `git log` näitab kahe versiooni vahel tehtud commit'e.
+
+---
+
 # Kas ajajoon peab näitama kõiki commit'e?
 
 ---
@@ -183,11 +196,12 @@ Valige sündmused, mis näitavad arusaamise, otsuse või põhjenduse muutumist.
 
 ## Tänane meeskonnatöö
 
-1. Vahetage rollid ja uuendage backlog'i.
-2. Kavandage kasutuselevõtt ja tugi.
-3. Valige otsustamiseks vajalikud märgid.
-4. Kirjeldage hooldus ja lõpetamine.
-5. Alustage release'ide ajajoont.
+1. Vaadake Projectsi tahvlit: mis jäi pooleli ja kuidas hinnangud pidasid?
+2. Vahetage rollid ja uuendage backlog'i.
+3. Kavandage kasutuselevõtt ja tugi.
+4. Valige otsustamiseks vajalikud märgid.
+5. Kirjeldage hooldus ja lõpetamine.
+6. Alustage ajajoont Giti ajaloo põhjal.
 
 ---
 

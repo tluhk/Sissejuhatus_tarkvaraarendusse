@@ -22,10 +22,11 @@ Seminar ei ole Scrumi kiirkursus ega detailse tehnilise arhitektuuri harjutus. T
 
 | Tegevus | Aeg |
 |---|---:|
-| Valik ja põhjendus | 15 min |
+| Valik ja põhjendus | 10 min |
 | Töö planeerimine: backlog, järjestus, vastutajad ja ajahinnangud | 20 min |
-| Kasutajalugude seos kasutaja teekonna, süsteemi eesmärgi, piiri ja kõrgtaseme arhitektuuriga | 25 min |
+| Kasutajalugude seos kasutaja teekonna, süsteemi eesmärgi, piiri ja kõrgtaseme arhitektuuriga | 15 min |
 | Rollikonflikt ja kompromiss | 10 min |
+| Merge-konflikti harjutus terminalis | 15 min |
 | Otsuste logi, commit'i sõnum ja PR-i ülevaatus | 10 min |
 | Kodutöö ja release | 10 min |
 
@@ -46,6 +47,12 @@ Seminar ei ole Scrumi kiirkursus ega detailse tehnilise arhitektuuri harjutus. T
 - Kasutaja teekonnast saab ekraanide kujundus. Too arutelu tagasi sammude juurde, mida kasutaja oma eesmärgi saavutamiseks teeb.
 - Rollid muutuvad tiitliteks. Nõua igalt rollilt vähemalt üht sisulist küsimust või vastuväidet.
 - Üks õppija kirjutab kõik. Kontrolli PR-ide ja ülevaatuste ajalugu.
+
+## Merge-konflikti harjutus
+
+Iga tiim teeb harjutuse ühe paariga, teised loevad käske ette ja jälgivad. Tiim loob ühe Issue'i (näites `#20`). Mõlemad õppijad loovad sellest haru, näiteks `issue-20-conflict-a` ja `issue-20-conflict-b`, ning muudavad README-s sama rida. Kui esimene PR on ühendatud, teeb teine slaidil olevad sammud ja tiim otsustab, milline tekst jääb. Seejärel vaatab esimene õppija teise PR-i üle ja see ühendatakse.
+
+Kui aega jääb üle, vahetab järgmine paar. Täpne juhend õppijale on [projekti töökorralduses](../../docs/projekti-tookorraldus.md#kui-tekib-merge-konflikt).
 
 ## Tulevikumärkused
 

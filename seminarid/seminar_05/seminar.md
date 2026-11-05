@@ -134,16 +134,25 @@ v0.4.0 kasutuselevõtu ja arengu plaan
 v1.0.0 dokumenteeritud protsess
 ```
 
+Alustage Giti ajaloost. Käsk `git tag` näitab versioone ja `git log --oneline` kahe versiooni vahel tehtud commit'e:
+
+```bash
+git switch main
+git pull --ff-only
+git tag
+git log --oneline v0.1.0..v0.2.0
+```
+
 Ajajoon ei pea kordama iga commit'i. Valige otsused, mis näitavad arusaama muutumist.
 
 ## Seminari praktiline töö
 
-1. Vaadake üle `v0.3.0`, vahetage rollid ja uuendage backlog'i.
+1. Alustage GitHub Projectsi tahvlist: mis jäi pooleli ja kuidas ajahinnangud pidasid? Vaadake üle `v0.3.0`, vahetage rollid ja uuendage backlog'i.
 2. Koostage kasutuselevõtu, toe ja tagasipööramise plaan.
 3. Valige 3–5 märki, mis näitavad kasutaja tulemust, süsteemi seisundit ja mõju.
 4. Kirjeldage hoolduse omanik ning üks võimalik lõpetamise olukord.
 5. Otsustage põhjendatult, kas minimaalne demo annaks vajalikku tõendit.
-6. Alustage release'ide ajajoont.
+6. Alustage release'ide ajajoont Giti ajaloo põhjal.
 7. Looge `decisions/005-kasutuselevott-ja-areng.md`.
 
 ## Kodutöö ja release
