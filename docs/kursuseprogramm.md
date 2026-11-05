@@ -85,7 +85,7 @@ Valmis kasutajaprobleeme, funktsioone ega kujunduslahendusi ette ei anta. Meesko
 
 > Kuidas meeskond töötab ja millist süsteemi põhimõtteliselt kavandab?
 
-Õppijad vaatavad projekti päris ametialaste rollide kaudu, võrdlevad Waterfalli, iteratiivset ja agiilset tööviisi, tuletavad valideeritud vajadusest kasutajalood ning kontrollitavad funktsionaalsed nõuded ja kirjeldavad nende põhjal süsteemi üldist kontseptsiooni ning kõrgtaseme arhitektuuri: peamised osad, piirid, seosed ja välised sõltuvused. Rolle vahetatakse.
+Õppijad vaatavad projekti päris ametialaste rollide kaudu, võrdlevad Waterfalli, iteratiivset ja agiilset tööviisi, tuletavad valideeritud vajadusest kasutajalood ning kontrollitavad funktsionaalsed nõuded, koostavad järgmise etapi backlog'i ja kirjeldavad süsteemi üldist kontseptsiooni ning kõrgtaseme arhitektuuri: kasutaja teekond, peamised osad, piirid, seosed ja välised sõltuvused. Rolle vahetatakse.
 
 ### Materjalid
 
@@ -101,7 +101,7 @@ Valmis kasutajaprobleeme, funktsioone ega kujunduslahendusi ette ei anta. Meesko
 
 > Kas kavand on piisavalt hea ja vastutustundlik?
 
-Õppijad valivad projekti olulised kvaliteediomadused ja teevad need kontrollitavaks. Lühidalt harjutatakse testjuhtumi koostamist ning vea kordamist, põhjuse kitsendamist ja paranduse järelkontrolli. Lisaks analüüsitakse turvalisuse, privaatsuse, ligipääsetavuse, töökindluse, litsentside ja kolmandate osapoolte riske.
+Õppijad valivad projekti olulised kvaliteediomadused ja teevad need kontrollitavaks. Lühidalt selgitatakse arendamise etappi ja harjutatakse testjuhtumi koostamist, vea kordamist, põhjuse kitsendamist, paranduse järelkontrolli ning koodi ülevaatust. Lisaks analüüsitakse turvalisuse, privaatsuse, ligipääsetavuse, töökindluse, litsentside ja kolmandate osapoolte riske.
 
 ### Materjalid
 
@@ -141,6 +141,7 @@ Meeskond esitleb projekti release'ide ajajoonena. Iga õppija selgitab vähemalt
 - iga õppija töötab enda harus, teeb sisulise commit'i ja avab pull request'i;
 - iga õppija vaatab igas projektietapis üle vähemalt ühe teise õppija pull request'i;
 - release manager vahetub;
+- meeskond hoiab backlog'i ajakohasena ning võrdleb igas release'is ajahinnangut tegeliku ajakuluga;
 - iga õppija kirjutab pärast iga projektiseminari refleksiooni;
 - AI-d kasutatakse vähemalt ühe olulise otsuse juures ning selle kasu ja kontroll dokumenteeritakse;
 - hinnatakse arusaamist ja põhjendamist, mitte materjali hulka.

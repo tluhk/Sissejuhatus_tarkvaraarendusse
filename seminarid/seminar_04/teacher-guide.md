@@ -8,8 +8,9 @@ Seminar annab kvaliteedist ja vastutusest suure pildi. See ei asenda testimise, 
 
 | Tegevus | Aeg |
 |---|---:|
-| `v0.2.0` ülevaade ja rollivahetus | 15 min |
-| Kvaliteet eri vaatenurkadest | 20 min |
+| `v0.2.0` ülevaade, rollivahetus ja backlog'i uuendamine | 15 min |
+| Arendamise etapp: mis seal toimub ja miks me kursusel rakendust ei ehita | 5 min |
+| Kvaliteet eri vaatenurkadest | 15 min |
 | Funktsionaalsed ja mittefunktsionaalsed vajadused | 15 min |
 | Turvalisus, privaatsus, ligipääsetavus, töökindlus | 20 min |
 | Cloudflare'i juhtum | 15 min |
@@ -22,7 +23,8 @@ Seminar annab kvaliteedist ja vastutusest suure pildi. See ei asenda testimise, 
 | Kvaliteedikriteeriumide valik | 15 min |
 | Riskide ja vastutuse kaardistus | 15 min |
 | Testjuhtum ja vea silumise lühiharjutus | 15 min |
-| Kontrollimise põhimõte | 15 min |
+| Koodi ülevaatus sama näitega | 5 min |
+| Kontrollimise põhimõte | 10 min |
 | Litsentsid ja kolmandad osapooled | 10 min |
 | Otsuse ning PR-i ülevaatus | 10 min |
 | Kodutöö ja release | 10 min |
@@ -32,6 +34,8 @@ Seminar annab kvaliteedist ja vastutusest suure pildi. See ei asenda testimise, 
 Cloudflare'i juhtumit ei kasutata regex'i õpetamiseks. Eesmärk on näha, et rike tekib koodi, testide, levitusviisi, seire ja otsustusprotsessi koosmõjus.
 
 Silumise näites palu õppijatel esmalt ennustada funktsiooni tulemus sisendiga `[2, 4, 6]`. Oodatud keskmine on `4`, kood tagastab `6`; vea põhjus on nimetaja `values.length - 1`. Arutage, milline test paljastab vea ja miks tuleb pärast parandust sama test uuesti käivitada.
+
+Koodi ülevaatuses näita parandatud funktsiooni. Sisend `[2, 4, 6]` annab nüüd `4`, kuid tühi loend annab `NaN`. Ülevaataja ei pea ise parandust kirjutama: piisab konkreetsest küsimusest, milline tulemus tühja loendi korral peaks olema.
 
 ## Ohukohad
 

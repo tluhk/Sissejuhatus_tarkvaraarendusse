@@ -8,7 +8,7 @@ Seminar laiendab arenduse piiri tootmisest kasutuselevõtu, käituse, õppimise,
 
 | Tegevus | Aeg |
 |---|---:|
-| `v0.3.0` ülevaade ja rollivahetus | 15 min |
+| `v0.3.0` ülevaade, rollivahetus ja backlog'i uuendamine | 15 min |
 | Kasutuselevõtt ja muutuse juhtimine | 20 min |
 | Seire, tagasiside ja mõju | 20 min |
 | MOJ elava teenuse juhtum | 15 min |

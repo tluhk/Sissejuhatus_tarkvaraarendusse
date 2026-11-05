@@ -11,6 +11,7 @@ Seminari lõpuks õppija:
 - nimetab projekti olulised riskid ja vastutajad;
 - seob kvaliteedivajaduse kontrollimise viisiga;
 - koostab lihtsa testjuhtumi ning selgitab vea kordamise ja põhjuse kitsendamise samme;
+- selgitab, mis toimub arendamise etapis, ja esitab koodi ülevaatuses sisulise küsimuse;
 - arvestab turvalisuse, privaatsuse, ligipääsetavuse, töökindluse ja litsentsidega;
 - dokumenteerib, kuidas risk muudab varasemat otsust.
 
@@ -29,9 +30,11 @@ Kasutajate ja vajaduste uurimine
   ↓
 Nõuete kirjeldamine
   ↓
-Töö planeerimine ja lahenduse disain
+Töö planeerimine
   ↓
-Arendamine
+Lahenduse disainimine
+  ↓
+Arendamine  ← kursusel vaatame seda väikese näite kaudu
   ↓
 Testimine ja tagasiside  ← seminar 4: vaatame kvaliteeti ja riske
   ↓
@@ -48,6 +51,10 @@ Seminar 4 vaatab, kuidas kvaliteet ja riskid mõjutavad kavandatud lahendust.
 - eksam: dokumenteeritud protsessi esitlus release'ide ajajoonena.
 
 Projekti tulemus on dokumenteeritud arendusprotsess ja otsuste logi; töötavat rakendust ega klikitavat prototüüpi ei nõuta.
+
+## Arendamise etapp
+
+Arendamise etapis muudavad arendajad nõuded ja kavandi töötavaks tarkvaraks. Nad kirjutavad koodi, teevad tehnilisi valikuid, vaatavad üksteise koodi üle ja parandavad vigu. Sellel kursusel me rakendust ei ehita, sest eesmärk on näha kogu protsessi. Pikemalt saad lugeda [tervikprotsessi kirjeldusest](../../docs/tarkvaraarenduse-tervikprotsess.md).
 
 ## Töötamine ei võrdu kvaliteediga
 
@@ -69,6 +76,10 @@ Kõike pole võimalik maksimeerida. Suurem turvalisus võib lisada samme, suurem
 Testimine võrdleb oodatud tulemust tegeliku tulemusega kindlates tingimustes. Lihtne testjuhtum ütleb, mida kontrollitakse, milliste eeldustega, milliste sammudega ja milline tulemus peaks tekkima. Testimine võib leida vea, kuid ei selgita veel selle põhjust.
 
 Vea silumisel (*debugging*) korda viga võimalikult väikese näitega, pane kirja oodatud ja tegelik tulemus, kitsenda võimalikku põhjust ning kontrolli hüpoteesi. Pärast parandust korda algset testi ja lisa võimaluse korral kontroll, et sama viga tagasi ei tuleks. Kursusel harjutame neid samme lühikese näite kaudu; testide programmeerimist ega täielikku silumisprotsessi ei õpita.
+
+## Koodi ülevaatus
+
+Koodi ülevaatuses (*code review*) loeb kaaslane muudatuse enne ühendamist läbi. Ta kontrollib, kas kood teeb seda, mida pull request lubab, kas seda on võimalik mõista ja mis juhtub erijuhtudel. Hea ülevaatus esitab konkreetse küsimuse ja kommenteerib koodi, mitte inimest. Sama põhimõtet kasutate oma projektis dokumentide ülevaatusel.
 
 ## Kvaliteedi vaatenurgad
 
@@ -121,11 +132,11 @@ Teek, pilveteenus, andmestik, font või AI-mudel võib kiirendada tööd, kuid t
 
 ## Seminari praktiline töö
 
-1. Vaadake üle `v0.2.0` ja vahetage rollid.
+1. Vaadake üle `v0.2.0`, vahetage rollid ja uuendage backlog'i.
 2. Valige projekti jaoks 4–6 tähtsaimat kvaliteediomadust.
 3. Sõnastage iga omaduse juurde vähemalt üks kontrollitav kriteerium.
 4. Valige üks funktsionaalne nõue ja koostage selle põhjal lihtne testjuhtum.
-5. Uurige lühinäites ilmnevat viga: kirjeldage kordamise samme, oodatud ja tegelikku tulemust ning võimalikku põhjust.
+5. Uurige lühinäites ilmnevat viga: kirjeldage kordamise samme, oodatud ja tegelikku tulemust ning võimalikku põhjust. Vaadake seejärel parandus koodi ülevaataja pilguga üle.
 6. Koostage riskikaart: mõju, tõenäosus, ennetus, märkamine, vastutaja.
 7. Vaadake üle varasemad otsused. Muutke vähemalt üht, kui riskianalüüs seda nõuab.
 8. Looge `decisions/004-kvaliteet-ja-riskid.md`.

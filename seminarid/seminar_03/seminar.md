@@ -11,6 +11,7 @@ Seminari lõpuks õppija:
 - sõnastab valideeritud vajadusest kasutajaloo ja selle kontrolltingimuse;
 - võrdleb järjestikust, iteratiivset ja voopõhist tööviisi;
 - valib meeskonnale sobiva tööviisi ning põhjendab valikut;
+- koostab järgmise etapi backlog'i ning kasutab ajahinnangu võrdlusest saadud õppetundi;
 - kirjeldab süsteemi eesmärki, piiri, osalisi, suuremaid osi ja nendevahelisi seoseid kõrgtaseme arhitektuurina;
 - osaleb GitHubis otsuse ülevaatamises.
 
@@ -29,9 +30,9 @@ Kasutajate ja vajaduste uurimine
   ↓
 Nõuete kirjeldamine  ← seminar 3: täpsustame vajadused kasutajalugudeks
   ↓
-Töö planeerimine
+Töö planeerimine  ← seminar 3: koostame backlog'i
   ↓
-Lahenduse disainimine
+Lahenduse disainimine  ← seminar 3: kirjeldame süsteemi kontseptsiooni
   ↓
 Arendamine
   ↓
@@ -53,7 +54,7 @@ Projekti tulemus on dokumenteeritud arendusprotsess ja otsuste logi; töötavat 
 
 ## Päris töö rollid
 
-Roll kirjeldab vastutust ja vaatenurka. Ühel inimesel võib väikeses meeskonnas olla mitu rolli ning sama ametinimetus võib eri organisatsioonides tähendada erinevat tööd.
+Seminaris 2 nägime rolle tunniplaani näitel. Nüüd kasutame neid otsuste hindamisel. Roll kirjeldab vastutust ja vaatenurka. Ühel inimesel võib väikeses meeskonnas olla mitu rolli ning sama ametinimetus võib eri organisatsioonides tähendada erinevat tööd.
 
 | Roll | Põhiküsimus |
 |---|---|
@@ -70,6 +71,8 @@ Roll kirjeldab vastutust ja vaatenurka. Ühel inimesel võib väikeses meeskonna
 Kursuse meeskonnas rolle vahetatakse. Roll ei anna ainuotsustusõigust: see sunnib meeskonda vaatama sama otsust eri külgedest.
 
 ## Tööviisid ei ole usutunnistused
+
+Mõisteid tutvustasime seminaris 1. Nüüd võrdleme, milline tööviis sobib just teie projektile.
 
 - **Waterfall ehk kosemudel:** etapid järgnevad valdavalt üksteisele. Sobib paremini, kui tulemus ja piirangud on ette teada ning hiline muutus on kallis.
 - **Agiilne lähenemine:** koostöö, sagedane tagasiside ja plaani kohandamine väikeste sammude kaupa. See ei tähenda planeerimise või dokumenteerimise puudumist.
@@ -107,6 +110,17 @@ Näiteks võib kontrolltingimus olla: „Tähtajad kuvatakse kuupäeva järjekor
 
 Kasutajalugu peab lähtuma seminari 2 tõendist ja kirjeldama vajadust, mitte eeldama ette konkreetset tehnilist lahendust. Kasutajalood ei kata kõiki nõudeid; kvaliteediomadusi, nagu turvalisus ja töökindlus, käsitleme seminaris 4.
 
+## Töö planeerimine
+
+**Backlog** on järjestatud nimekiri töödest, mida meeskond peab tegema. Teie GitHub Projectsi tahvlil on see olek `Backlog`. Hea backlog aitab otsustada, mida teha järgmisena ja mis võib oodata.
+
+1. Jagage järgmise etapi töö väikesteks Issue'deks.
+2. Järjestage need väärtuse, riski ja sõltuvuste järgi.
+3. Määrake igale Issue'le vastutaja ja ajahinnang.
+4. Vaadake seminari 2 kodutöös märgitud parandust: mida eelmisel korral hinnates arvestamata jätsite?
+
+Ajahinnang on esialgne. Etapi lõpus võrdlete seda tegeliku ajakuluga ja märgite ühe paranduse järgmiseks etapiks.
+
 ## Süsteemi kontseptsioon ja kõrgtaseme arhitektuur
 
 Arhitektuur kirjeldab süsteemi suuremaid osi, nende vastutust ja omavahelisi seoseid. Selles kursuses teeme sellest lihtsa kõrgtaseme visandi, mitte detailset tehnilist arhitektuuri ega tehnoloogiapinu valikut. Kirjeldage piisavalt, et teine inimene mõistaks:
@@ -114,6 +128,7 @@ Arhitektuur kirjeldab süsteemi suuremaid osi, nende vastutust ja omavahelisi se
 - süsteemi eesmärki;
 - peamisi osalisi;
 - mis jääb süsteemi sisse ja mis välja;
+- kuidas kasutaja oma eesmärgini jõuab, kirjeldatuna lühidalt tekstina;
 - suuremaid osi või võimekusi;
 - olulist info liikumist;
 - väliseid teenuseid või sõltuvusi;
@@ -124,17 +139,7 @@ Skeem on kasulik ainult siis, kui see selgitab mõtet. Ilus, kuid põhjendamata 
 
 ## Hea commit'i sõnum
 
-Commit on üks tähenduslik muudatuste komplekt, mitte kogu päeva juhuslik
-salvestus. Hea commit:
-
-- teeb ühe loogilise asja;
-- kasutab tegusõnalist ja arusaadavat sõnumit, näiteks `Describe system boundary`;
-- ei sega kokku vorminduse, ümbernimetamise ja sisulise muudatuse eri eesmärke;
-- lubab hiljem ajaloost aru saada ja vajaduse korral muudatuse üle vaadata.
-
-Seminaris 2 harjutasime commit'i tegemist. Selles seminaris seome hea sõnumi
-otsuse põhjendusega ning võrdleme halba sõnumit (`update`, `fix stuff`) sisulise
-sõnumiga. Commit'i hea tava ei tähenda võimalikult suurt commit'ide arvu.
+Commit'i häid tavasid harjutasime seminaris 2. Kasutage neid nüüd otsuste töös: üks commit teeb ühe loogilise muudatuse ja sõnum ütleb, mida muudeti, näiteks `Describe system boundary`. Sõnumist `update` või `fix stuff` ei saa hiljem aru, miks otsus muutus. Commit'ide arv ei ole eesmärk.
 
 ## Seminari praktiline töö
 
@@ -142,10 +147,10 @@ sõnumiga. Commit'i hea tava ei tähenda võimalikult suurt commit'ide arvu.
 2. Jagage selleks etapiks rollid. Iga õppija võtab uue vaatenurga.
 3. Võrrelge vähemalt kolme tööviisi projekti ebakindluse, mahu ja meeskonna järgi.
 4. Looge `decisions/002-tooviisi-valik.md`.
-5. Sõnastage vähemalt kaks valideeritud vajadusest lähtuvat kasutajalugu ja lisage kummalegi kontrolltingimus.
-6. Kirjeldage, kuidas lood vastavad süsteemi eesmärgile, piirile ja suurematele osadele.
-7. Looge `decisions/003-susteemi-kontseptsioon.md` ning näidake süsteemi peamisi osi, nende vastutust ja vähemalt üht olulist seost või info liikumist.
-8. Avage töö GitHub Issues'ena ja leppige kokku ülevaatajad.
+5. Koostage GitHub Projectsi tahvlile järgmise etapi backlog: Issue'd, järjekord, vastutajad ja ajahinnangud. Leppige kokku ka ülevaatajad.
+6. Sõnastage tunniplaani kohta kogutud tõendite põhjal vähemalt kaks kasutajalugu ja lisage kummalegi kontrolltingimus.
+7. Kirjeldage, kuidas kasutaja oma eesmärgini jõuab ja kuidas lood vastavad süsteemi eesmärgile, piirile ja suurematele osadele.
+8. Looge `decisions/003-susteemi-kontseptsioon.md` ning näidake süsteemi peamisi osi, nende vastutust ja vähemalt üht olulist seost või info liikumist.
 
 ## Kontrollpunkt
 
@@ -154,7 +159,8 @@ Seminari lõpuks on:
 - rollid ja nende vastutus nähtavad;
 - tööviisi valiku mustand koos alternatiividega;
 - vähemalt kaks tõendiga seotud kasutajalugu ja nende kontrolltingimused;
-- süsteemi kontseptsiooni esimene versioon;
+- süsteemi kontseptsiooni esimene versioon, mis kirjeldab ka kasutaja teekonda;
+- järgmise etapi backlog koos järjekorra, vastutajate ja ajahinnangutega;
 - kõrgtaseme arhitektuuri visand või selge tekstiline kirjeldus;
 - vähemalt üks lahkarvamus või kompromiss otsusena talletatud;
 - igal õppijal Issue, haru ja ülevaatamise ülesanne.

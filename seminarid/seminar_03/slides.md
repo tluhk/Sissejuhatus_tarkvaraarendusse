@@ -15,7 +15,7 @@ footer: Seminar 3 – meeskond, tööviis ja süsteemi põhimõte
 ## Kogu kursuse teekond: kus oleme?
 
 Probleem → kasutajate ja vajaduste uurimine → **nõuete kirjeldamine, töö
-planeerimine ja lahenduse disainimine — seminar 3** → arendamine → testimine ja
+planeerimine ja lahenduse disainimine – seminar 3** → arendamine → testimine ja
 tagasiside → avaldamine ja hooldus
 
 - seminar 1: suur pilt ja töövahendite seadistamine
@@ -41,11 +41,11 @@ Hea otsus sünnib vaatenurkade ja tõendite võrdlemisest.
 
 ---
 
-# Milliseid rolle te tarkvaraarenduses teate?
+# Milliseid rolle mäletate seminarist 2?
 
 ---
 
-## Levinud rollid
+## Täna kasutame rolle vaatenurkadena
 
 - tootejuht või product owner
 - projektijuht
@@ -90,6 +90,8 @@ See kirjeldab funktsionaalset nõuet: mida süsteem peab võimaldama.
 
 Näiteks kontrollime, et tähtajad kuvatakse kuupäeva järjekorras ja iga tähtaja juures on kursuse nimi.
 
+Teie enda lood tulevad tunniplaani kohta kogutud tõenditest.
+
 ---
 
 ## Kontrolli iga kasutajaloo alust
@@ -114,7 +116,7 @@ Meetodi nimi ei asenda põhjendust.
 
 ---
 
-## Waterfall ja agiilne lähenemine
+## Meenutus: Waterfall ja agiilne lähenemine
 
 **Waterfall ehk kosemudel:** valdavalt järjestikused etapid; sobib paremini stabiilsete nõuete ja piirangute korral.
 
@@ -124,15 +126,16 @@ Agiilne ei tähenda, et plaani ega dokumentatsiooni pole.
 
 ---
 
-## Kosemudel
+## Mida teie projekti kohta küsida?
 
-Etapid järgnevad valdavalt üksteisele.
-
-Sobib paremini, kui tulemus ja piirangud on ette teada ning hiline muutus on kallis.
+- Kui kindlad on vajadused ja nõuded?
+- Kui kallis oleks hiline muutus?
+- Kui kiiresti saame kasutajatelt tagasisidet?
+- Milline meeskond ja aeg meil on?
 
 ---
 
-## Iteratiivne ja inkrementaalne
+## Meenutus: iteratiivne ja inkrementaalne
 
 **Iteratsioon:** õpime korduva tsükliga.
 
@@ -169,20 +172,30 @@ GOV.UK alpha:
 
 ---
 
+## Töö planeerimine: järgmise etapi backlog
+
+**Backlog** on järjestatud tööde nimekiri.
+
+- Jagage töö väikesteks Issue'deks.
+- Järjestage väärtuse, riski ja sõltuvuste järgi.
+- Määrake igale tööle vastutaja ja ajahinnang.
+- Kasutage seminari 2 ajahinnangute võrdlusest saadud parandust.
+
+<!-- Lühike selgitus, seejärel töötavad tiimid GitHub Projectsi tahvlil. Backlog'i olek on tahvlilt tuttav. -->
+
+---
+
 ## Süsteemi kontseptsioon ja kõrgtaseme arhitektuur
 
-Seostage süsteemi eesmärk ja piir vähemalt kahe kasutajalooga.
+Arhitektuur näitab suuremaid osi, nende vastutust ja seoseid. Tehnoloogiapinu valimine pole eesmärk.
 
-Kirjeldage:
+Seostage kontseptsioon vähemalt kahe kasutajalooga ja kirjeldage:
 
-- eesmärk ja osalised
-- süsteemi piir
+- eesmärk, osalised ja süsteemi piir
+- kuidas kasutaja oma eesmärgini jõuab
 - suuremad osad või võimekused
 - oluline info liikumine
-- välised sõltuvused
-- teadmatused
-
-Arhitektuur näitab suuremaid osi, nende vastutust ja seoseid. Tehnoloogiapinu valimine pole eesmärk.
+- välised sõltuvused ja teadmatused
 
 ---
 
@@ -198,28 +211,15 @@ Ilus kastide kogum ilma põhjendatud piiride ja seosteta ei ole arhitektuuriline
 
 ---
 
-# Milline on hea commit'i sõnum?
-
----
-
-## Üks commit, üks loogiline muudatus
-
-- `Describe system boundary` ütleb, mida muudeti.
-- `update` või `fix stuff` ei aita hiljem ajaloost aru saada.
-- Commit ei pea olema suur ega neid pea olema võimalikult palju.
-
-Hea commit toetab otsuste ülevaatamist ja vajaduse korral muudatuse leidmist.
-
----
-
 ## Tänane meeskonnatöö
 
 1. Vaadake üle `v0.1.0`.
 2. Vahetage rollid.
 3. Võrrelge vähemalt kolme tööviisi.
 4. Põhjendage valik otsuste logis.
-5. Sõnastage vähemalt kaks tõendiga seotud kasutajalugu ja lisage kummalegi kontrolltingimus.
-6. Kirjeldage süsteemi kontseptsioon ning seostage see kasutajalugudega.
+5. Koostage Projectsi tahvlile järgmise etapi backlog.
+6. Sõnastage vähemalt kaks tõendiga seotud kasutajalugu ja lisage kummalegi kontrolltingimus.
+7. Kirjeldage süsteemi kontseptsioon ning seostage see kasutajalugudega.
 
 ---
 
@@ -228,6 +228,8 @@ Hea commit toetab otsuste ülevaatamist ja vajaduse korral muudatuse leidmist.
 ```text
 Issue → haru → commit → PR → ülevaatus → merge
 ```
+
+Üks commit on üks loogiline muudatus. Sõnum ütleb, mida muudeti, näiteks `Describe system boundary`.
 
 Ülevaatus küsib põhjenduse, riski või alternatiivi kohta.
 
@@ -258,6 +260,7 @@ Iga õppija: sisuline panus, PR, ülevaatus ja refleksioon.
 - Kas alternatiivid on nähtavad?
 - Kas valik sobib meie olukorraga?
 - Kas süsteemi piir on arusaadav?
+- Kas backlog ja ajahinnangud näitavad tegelikku tööd?
 - Kas kasutajalood lähtuvad tõendist ja väljendavad kasutaja väärtust?
 - Kas rollide vaated mõjutasid otsust?
 - Mis võib veel muutuda?

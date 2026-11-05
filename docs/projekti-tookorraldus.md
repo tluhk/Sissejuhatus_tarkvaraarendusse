@@ -27,7 +27,7 @@ Seminarides 2–5 töötab iga tiim ühes GitHubi repositooriumis. Issue on GitH
 
    Need käsud muudavad ainult selle repo seadeid. Kasuta GitHubi kontol kinnitatud e-posti või GitHubi seadetes näidatud privaatset `noreply` aadressi.
 
-3. **Tee töö nähtavaks GitHub Projectsis.** Igal ülesandel on Issue, selge kirjeldus, valmisoleku tingimus ja vastutaja. Liiguta kaart tahvlil vastavalt töö seisule: `Backlog` → `In progress` → `Review` → `Done`.
+3. **Tee töö nähtavaks GitHub Projectsis.** Igal ülesandel on Issue, selge kirjeldus, valmisoleku tingimus, vastutaja ja ajahinnang. Liiguta kaart tahvlil vastavalt töö seisule: `Backlog` → `In progress` → `Review` → `Done`.
 4. **Loo igale Issue'le eraldi haru.** Alusta ajakohasest `main`-ist:
 
    ```bash

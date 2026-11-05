@@ -21,18 +21,19 @@ releases/v0.2.0.md
 reflections/oppija-nimi-v0.2.0.md
 ```
 
-Täiendage ka README-s rollide ja töövoo osa. Skeem on vabatahtlik, kui selge tekst annab sama info edasi.
+Täiendage ka README-s rollide ja töövoo osa. Skeem on vabatahtlik, kui selge tekst annab sama info edasi. GitHub Projectsi tahvlil on etapi backlog: igal Issue'l on vastutaja ja ajahinnang.
 
-Lisage süsteemi kontseptsiooni juurde vähemalt kaks kasutajalugu, mis lähtuvad seminaris 2 kogutud tõendist. Lisage kummalegi üks kontrolltingimus. Kirjeldage kontseptsioonis ka kõrgtaseme arhitektuuri: süsteemi peamised osad, nende vastutus, süsteemi piir, info liikumine ning olulised välised sõltuvused. Skeem pole kohustuslik, kui samad seosed selgitab tekst. See ei nõua tehnoloogiapinu valimist. Kõiki nõudeid ei pea selles etapis ammendavalt loetlema.
+Lisage süsteemi kontseptsiooni juurde vähemalt kaks kasutajalugu, mis lähtuvad seminaris 2 kogutud tõendist. Lisage kummalegi üks kontrolltingimus. Kirjeldage lühidalt tekstina, kuidas kasutaja oma eesmärgini jõuab; prototüüpi ega kujundust ei nõuta. Kirjeldage kontseptsioonis ka kõrgtaseme arhitektuuri: süsteemi peamised osad, nende vastutus, süsteemi piir, info liikumine ning olulised välised sõltuvused. Skeem pole kohustuslik, kui samad seosed selgitab tekst. See ei nõua tehnoloogiapinu valimist. Kõiki nõudeid ei pea selles etapis ammendavalt loetlema.
 
 ## Tööjaotus, umbes 8 tundi õppija kohta
 
 1. Release `v0.1.0` ja tagasiside analüüs – 1 h.
-2. Rolli vaatenurgast vajaduste ja konfliktide sõnastamine – 1,5 h.
-3. Tööviiside võrdlemine ja otsuse põhjendamine – 1,5 h.
-4. Kasutajalugude ja süsteemi kontseptsiooni koostamine – 2 h.
-5. Pull request, teise töö sisuline ülevaatus ja parandused – 1 h.
-6. Individuaalne refleksioon ja release – 1 h.
+2. Rolli vaatenurgast vajaduste ja konfliktide sõnastamine – 1 h.
+3. Tööviiside võrdlemine ja otsuse põhjendamine – 1 h.
+4. Backlog'i täpsustamine, töö järjestamine ja ajahinnangud – 1 h.
+5. Kasutajalugude ja süsteemi kontseptsiooni koostamine – 2 h.
+6. Pull request, teise töö sisuline ülevaatus ja parandused – 1 h.
+7. Individuaalne refleksioon ja release – 1 h.
 
 Vähemalt üks sinu commit peab järgima seminari head tava: see teeb ühe
 loogilise muudatuse ja sõnum kirjeldab tulemust (näiteks `Describe system
@@ -45,6 +46,10 @@ Tööviisi otsus sisaldab vähemalt kolme võrreldud varianti. Selgitage, kuidas
 Süsteemi kontseptsiooni otsus sisaldab vähemalt kaht kaalutud lahendussuunda ning põhjendab süsteemi piiri. Ärge valige tehnoloogiapinu lihtsalt sellepärast, et see on tuttav või AI pakkus seda.
 
 Kasutajalugu seob kasutaja, vajaduse ja väärtuse. Kontrolltingimus peab olema piisavalt konkreetne, et meeskond saaks hiljem arutada, kuidas nõude täitmist kontrollida. Ärge tuletage kasutajalugu AI vastusest või lahendusideest ilma tõendita.
+
+## Töö planeerimine
+
+Hoidke backlog tahvlil ajakohasena. Etapi lõpus võrrelge ajahinnanguid tegeliku ajakuluga ja kirjutage `releases/v0.2.0.md` faili osasse „Planeerimine”, mida õppisite ja mida järgmises etapis teisiti hindate.
 
 ## Rollide vahetamine
 
@@ -72,7 +77,8 @@ Release manageri roll läheb õppijale, kes ei teinud eelmist release'i. Ta kont
 
 - [ ] Tööviisi valik võrdleb vähemalt kolme varianti.
 - [ ] Valik lähtub projekti olukorrast, mitte meetodi populaarsusest.
-- [ ] Süsteemi eesmärk, piir, osalised, suuremad osad, nende vastutus, seosed ja sõltuvused on arusaadavad.
+- [ ] Backlog on järjestatud ning hinnangu ja tegeliku ajakulu võrdlus on release notes'is.
+- [ ] Süsteemi eesmärk, kasutaja teekond, piir, osalised, suuremad osad, nende vastutus, seosed ja sõltuvused on arusaadavad.
 - [ ] Vähemalt kaks kasutajalugu lähtuvad probleemi kohta kogutud tõendist ning neil on kontrolltingimus.
 - [ ] Alternatiivid, kompromissid ja teadmatused on nähtavad.
 - [ ] Rollide vaatenurgad mõjutasid vähemalt üht otsust.

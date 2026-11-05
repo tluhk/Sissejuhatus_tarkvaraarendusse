@@ -15,7 +15,7 @@ footer: Seminar 4 – kvaliteet, riskid ja vastutus
 ## Kogu kursuse teekond: kus oleme?
 
 Probleem → kasutajate ja vajaduste uurimine → nõuete kirjeldamine → töö
-planeerimine → lahenduse disainimine → arendamine → **testimine ja tagasiside —
+planeerimine → lahenduse disainimine → arendamine → **testimine ja tagasiside –
 seminar 4** → avaldamine ja hooldus
 
 - seminar 1: suur pilt ja töövahendite seadistamine
@@ -26,6 +26,14 @@ seminar 4** → avaldamine ja hooldus
 - eksam: dokumenteeritud protsessi esitlus release'ide ajajoonena
 
 **Projekti tulemus:** dokumenteeritud arendusprotsess ja otsuste logi; töötavat rakendust ega klikitavat prototüüpi ei nõuta.
+
+---
+
+## Arendamise etapp
+
+Arendajad muudavad nõuded ja kavandi töötavaks tarkvaraks: kirjutavad koodi, teevad tehnilisi valikuid, vaatavad üksteise koodi üle ja parandavad vigu.
+
+Sellel kursusel me rakendust ei ehita, sest eesmärk on näha kogu protsessi. Täna vaatame arendustööd väikese koodinäite kaudu.
 
 ---
 
@@ -142,7 +150,11 @@ Kood, testimine, levitamine, seire ja otsustusprotsess mõjutasid koos nii rikke
 
 Näide: keskmise arvutamise funktsioon jagab summa kirjete arvuga. Mis juhtub tühja loendiga? Kuidas seda viga korrata ja millist tulemust peaksime ootama?
 
-Koodi lugemise näide: oodatud keskmine on `4`, tegelik vastus `6`. Katseta sisendiga `[2, 4, 6]`, jälgi arvutust ja leia vea põhjus.
+---
+
+## Koodi lugemise näide
+
+Oodatud keskmine on `4`, tegelik vastus `6`. Katseta sisendiga `[2, 4, 6]`, jälgi arvutust ja leia vea põhjus.
 
 ```js
 function average(values) {
@@ -150,6 +162,25 @@ function average(values) {
   return total / (values.length - 1);
 }
 ```
+
+---
+
+## Koodi ülevaatus sama näitega
+
+Kaaslane pakub pull request'is sellist parandust:
+
+```js
+function average(values) {
+  const total = values.reduce((sum, value) => sum + value, 0);
+  return total / values.length;
+}
+```
+
+- Kas kood teeb seda, mida PR lubab?
+- Mis juhtub tühja loendiga?
+- Millise küsimuse sa ülevaatuses esitaksid?
+
+<!-- 5 minutit. Sisend [2, 4, 6] annab nüüd 4, tühi loend annab NaN. Kommenteerime koodi, mitte inimest. -->
 
 ---
 
@@ -184,7 +215,7 @@ Teek, pilveteenus, andmestik, font või AI-mudel toob lisaks kasule:
 
 ## Tänane meeskonnatöö
 
-1. Vahetage rollid.
+1. Vahetage rollid ja uuendage backlog'i.
 2. Valige 4–6 kvaliteediomadust.
 3. Tehke need kontrollitavaks.
 4. Kaardistage riskid ja vastutus.

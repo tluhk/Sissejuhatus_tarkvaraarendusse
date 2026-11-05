@@ -24,7 +24,7 @@ Riskitabel võib olla otsuse osa või eraldi fail, millele otsus viitab.
 
 ## Tööjaotus
 
-1. Seniste otsuste ja rollivaate ülevaatus – 1 h.
+1. Seniste otsuste ja rollivaate ülevaatus ning backlog'i uuendamine – 1 h.
 2. Kvaliteediomaduste valik ja põhjendus – 1,5 h.
 3. Kontrollitavate kriteeriumide koostamine – 1,5 h.
 4. Riskide, mõju, maanduse ja vastutuse analüüs – 2 h.
@@ -40,7 +40,8 @@ Riskitabel võib olla otsuse osa või eraldi fail, millele otsus viitab.
 - iga olulise riski juures mõju, maandus, märkamine ja vastutaja;
 - eraldi tähelepanu turvalisusele, privaatsusele ja ligipääsetavusele;
 - vähemalt ühe kolmanda osapoole või litsentsi mõju;
-- vähemalt üks varasema otsuse kinnitus, täpsustus või muutmine uue analüüsi põhjal.
+- vähemalt üks varasema otsuse kinnitus, täpsustus või muutmine uue analüüsi põhjal;
+- `releases/v0.3.0.md` faili osas „Planeerimine” ajahinnangu ja tegeliku ajakulu võrdlus ning üks parandus järgmiseks etapiks.
 
 ## AI kasutamine
 
@@ -62,6 +63,7 @@ Uus release manager kontrollib tervikut, loob tag'i `v0.3.0` ja avaldab release'
 - [ ] Kompromissid on nähtavad.
 - [ ] Riskidel on omanik ja reageerimisviis.
 - [ ] AI-ga loodud üldsõnaline materjal on eemaldatud.
+- [ ] Hinnangu ja tegeliku ajakulu võrdlus on release notes'is.
 - [ ] Igal õppijal on Issue, commit, PR, ülevaatus ja refleksioon.
 - [ ] Release `v0.3.0` on avaldatud.
 

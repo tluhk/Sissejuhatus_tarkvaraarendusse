@@ -2,29 +2,30 @@
 
 ## Fookus
 
-Seminar ei ole Scrumi kiirkursus ega detailse tehnilise arhitektuuri harjutus. Õppijad teevad süsteemist kõrgtaseme arhitektuurikirjelduse. Fookus on sellel, kuidas rollid ja tööviis aitavad ebakindluse tingimustes põhjendatud otsuseid teha.
+Seminar ei ole Scrumi kiirkursus ega detailse tehnilise arhitektuuri harjutus. Tööviise ja rolle on seminarides 1–2 juba tutvustatud: ära õpeta neid uuesti, vaid lase õppijatel neid oma projektis rakendada. Õppijad teevad süsteemist kõrgtaseme arhitektuurikirjelduse. Fookus on sellel, kuidas rollid ja tööviis aitavad ebakindluse tingimustes põhjendatud otsuseid teha.
 
 ## I osa, 90 minutit
 
 | Tegevus | Aeg |
 |---|---:|
 | Release `v0.1.0` ülevaade | 10 min |
-| Päris ametialased rollid | 15 min |
+| Ametialased rollid: meenutus ja vaatenurkade kasutamine | 10 min |
 | Kasutajalood ja kontrollitavad funktsionaalsed nõuded | 15 min |
-| Waterfalli ja agiilse lähenemise võrdlus; Scrum, Kanban, iteratiivsus ja Lean | 25 min |
+| Waterfalli ja agiilse lähenemise meenutus; Scrum, Kanban, iteratiivsus ja Lean | 15 min |
 | GOV.UK alpha juhtum | 15 min |
 | Rollide jagamine ja vaatenurgad | 5 min |
+| Tööviisi variantide võrdlus | 15 min |
 | Puhver | 5 min |
 
 ## II osa, 90 minutit
 
 | Tegevus | Aeg |
 |---|---:|
-| Tööviisi variantide võrdlus | 20 min |
 | Valik ja põhjendus | 15 min |
-| Kasutajalugude seos süsteemi eesmärgi, piiri ja kõrgtaseme arhitektuuriga | 25 min |
+| Töö planeerimine: backlog, järjestus, vastutajad ja ajahinnangud | 20 min |
+| Kasutajalugude seos kasutaja teekonna, süsteemi eesmärgi, piiri ja kõrgtaseme arhitektuuriga | 25 min |
 | Rollikonflikt ja kompromiss | 10 min |
-| Otsuste logi ning PR-i ülevaatus | 10 min |
+| Otsuste logi, commit'i sõnum ja PR-i ülevaatus | 10 min |
 | Kodutöö ja release | 10 min |
 
 ## Küsimused, millega meeskonda tagasi suunata
@@ -40,6 +41,8 @@ Seminar ei ole Scrumi kiirkursus ega detailse tehnilise arhitektuuri harjutus. �
 - Õppijad valivad Scrumi, sest nimi on tuttav. Küsi, millist konkreetset probleemi iga võte lahendab.
 - Arhitektuur muutub tehnoloogiate loeteluks. Too arutelu tagasi eesmärgi, osaliste, piiri ja info liikumise juurde.
 - Kasutajalugu muutub lahenduse reklaamiks või AI pakutud funktsiooniks. Küsi, milline seminaris 2 kogutud tõend seda vajadust toetab.
+- Backlog jääb soovide nimekirjaks. Küsi, mis on järgmine töö, kes selle teeb ja kui kaua see võtab.
+- Kasutaja teekonnast saab ekraanide kujundus. Too arutelu tagasi sammude juurde, mida kasutaja oma eesmärgi saavutamiseks teeb.
 - Rollid muutuvad tiitliteks. Nõua igalt rollilt vähemalt üht sisulist küsimust või vastuväidet.
 - Üks õppija kirjutab kõik. Kontrolli PR-ide ja ülevaatuste ajalugu.
 

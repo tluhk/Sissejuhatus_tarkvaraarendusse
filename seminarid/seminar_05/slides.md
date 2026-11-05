@@ -16,7 +16,7 @@ footer: Seminar 5 – kasutuselevõtt, käitus ja areng
 
 Probleem → kasutajate ja vajaduste uurimine → nõuete kirjeldamine → töö
 planeerimine → lahenduse disainimine → arendamine → testimine ja tagasiside →
-**avaldamine ja hooldus — seminar 5**
+**avaldamine ja hooldus – seminar 5**
 
 - seminar 1: suur pilt ja töövahendite seadistamine
 - seminar 2: kliendisoovist arendusülesandeni
@@ -177,7 +177,7 @@ Valige sündmused, mis näitavad arusaamise, otsuse või põhjenduse muutumist.
 
 ## Tänane meeskonnatöö
 
-1. Vahetage rollid.
+1. Vahetage rollid ja uuendage backlog'i.
 2. Kavandage kasutuselevõtt ja tugi.
 3. Valige otsustamiseks vajalikud märgid.
 4. Kirjeldage hooldus ja lõpetamine.

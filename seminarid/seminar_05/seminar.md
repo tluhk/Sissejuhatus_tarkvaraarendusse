@@ -138,7 +138,7 @@ Ajajoon ei pea kordama iga commit'i. Valige otsused, mis näitavad arusaama muut
 
 ## Seminari praktiline töö
 
-1. Vaadake üle `v0.3.0` ja vahetage rollid.
+1. Vaadake üle `v0.3.0`, vahetage rollid ja uuendage backlog'i.
 2. Koostage kasutuselevõtu, toe ja tagasipööramise plaan.
 3. Valige 3–5 märki, mis näitavad kasutaja tulemust, süsteemi seisundit ja mõju.
 4. Kirjeldage hoolduse omanik ning üks võimalik lõpetamise olukord.

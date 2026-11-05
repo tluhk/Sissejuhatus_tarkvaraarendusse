@@ -23,7 +23,7 @@ reflections/oppija-nimi-v0.4.0.md
 
 ## Tööjaotus
 
-1. Senise kvaliteedi- ja riskiplaani ülevaatus – 1 h.
+1. Senise kvaliteedi- ja riskiplaani ülevaatus ning backlog'i uuendamine – 1 h.
 2. Kasutuselevõtu, toe ja tagasipööramise plaan – 1,5 h.
 3. Seire, tagasiside ning mõju hindamine – 1,5 h.
 4. Hooldus, muutmine ja lõpetamine – 1 h.
@@ -39,7 +39,8 @@ reflections/oppija-nimi-v0.4.0.md
 - tagasiside kogumise ning otsustesse jõudmise viis;
 - hoolduse omanik, olulised sõltuvused ja tehnilise võla käsitlus;
 - vähemalt üks olukord, kus süsteem tuleks oluliselt ümber mõelda või lõpetada;
-- ajajoon, mis ühendab olulised otsused release'idega.
+- ajajoon, mis ühendab olulised otsused release'idega;
+- `releases/v0.4.0.md` faili osas „Planeerimine” ajahinnangu ja tegeliku ajakulu võrdlus ning üks parandus järgmiseks etapiks.
 
 ## AI kasutamise nõue
 
@@ -61,6 +62,7 @@ Uus release manager loob tag'i `v0.4.0` ja avaldab release'i pealkirjaga `Kasutu
 - [ ] Mõõdikud aitavad otsustada, mitte ainult tegevust kokku lugeda.
 - [ ] Ajajoon näitab arusaamise ja otsuste muutumist.
 - [ ] Vähemalt ühe olulise otsuse juures on AI kasutus läbipaistvalt hinnatud.
+- [ ] Hinnangu ja tegeliku ajakulu võrdlus on release notes'is.
 - [ ] Igal õppijal on Issue, commit, PR, ülevaatus ja refleksioon.
 - [ ] Release `v0.4.0` on avaldatud.
 

@@ -103,6 +103,8 @@ Slaidide, kodutöö, õpetaja juhendi, failinimede, tähtaegade ja hindamiskrite
 - Esimese seminari tegelik praktiline Giti töövoog oli terminalipõhine. Esimene kodutöö kinnistab seda; graafiline töövoog jääb alternatiiviks. Node.js-i ja npm-i paigaldamine ei ole esimese kodutöö ega seminari 2 eeldus.
 - Esimene kodutöö tehakse Issue'st loodud harus ja esitatakse pull request'iga. Enne õppejõudu vaatab töö üle kaasõppija; paarid on failis `student_pairs.md` (rida `A -> B`: A vaatab üle B töö). Sama Issue → haru → PR → ülevaatus töövoog on kolledži ühine, vt `tluhk/Abimaterjalid/docs/koduse_too_esitamine.md`.
 - Seminar 2 algab probleemide leidmisega. Esimesest seminarist kinnistamist vajavad oskused lisatakse projektitöö sisse: Markdown, muudatuste kontroll, commit ja push; seejärel pull ning tag ja release.
+- Töö planeerimine on läbiv: seminaris 2 tutvutakse Kanbani ja ajahinnanguga, seminarides 3–5 hoitakse backlog'i ajakohasena ning release notes võrdleb ajahinnangut tegeliku ajakuluga.
+- Rakendust kursusel ei ehitata. Seminar 4 selgitab arendamise etappi ja harjutab koodi ülevaatust väikese näitega.
 - Seminaris 3 tuletatakse valideeritud vajadusest kasutajalood ja kontrollitavad funktsionaalsed nõuded enne süsteemi kontseptsiooni täpsustamist. Waterfalli ja agiilse arenduse võrdlus on oluline ning peab olema nähtav nii seminaris 1 kui ka seminaris 3.
 
 ## Failide ja mõistete vormistus
