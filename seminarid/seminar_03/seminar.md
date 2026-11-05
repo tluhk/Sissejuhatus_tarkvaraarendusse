@@ -88,6 +88,8 @@ Mõisteid tutvustasime seminaris 1. Nüüd võrdleme, milline tööviis sobib ju
 
 Päris meeskond võib võtteid kombineerida. Oluline pole meetodi silt, vaid see, miks valitud töökorraldus aitab riske vähendada ja õppida.
 
+Kursus paneb paika release'id, töövoo ja rollivahetuse. Tiim valib, kuidas töö etapi sees käib: kuidas ja kui tihti planeerite, kuidas tööd jagate, kui palju on korraga pooleli ja kuidas muudate plaani.
+
 ## Pärisprojekti peegel: GOV.UK alpha
 
 GOV.UK teenusekäsiraamatu alpha-etapis katsetatakse kõige riskantsemaid oletusi, võrreldakse variante ja välditakse ühe lahenduse liiga varast lukustamist. Alpha ei pea andma valmis teenust; see peab andma meeskonnale tõendeid järgmise otsuse jaoks.

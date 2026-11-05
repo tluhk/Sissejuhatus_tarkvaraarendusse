@@ -41,6 +41,8 @@ boundary`), mitte ainult tegevust (`update` või `fix`).
 
 ## Nõuded otsustele
 
+Kursus paneb paika release'id, töövoo ja rollivahetuse. Tiim valib, kuidas töö etapi sees käib: kuidas ja kui tihti planeerite, kuidas tööd jagate, kui palju on korraga pooleli ja kuidas muudate plaani. Valiku aluseks võrrelge [tööviise](seminar.md#tööviisid-ei-ole-usutunnistused): Waterfall, iteratiivne ja inkrementaalne arendus, agiilne lähenemine, Scrum, Kanban ja Lean. Pikem selgitus on [arendusmeetodite juhendis](../../concepts/arendusmeetodid/README.md).
+
 Tööviisi otsus sisaldab vähemalt kolme võrreldud varianti. Selgitage, kuidas valik sobib just teie probleemi, ebakindluse ja meeskonnaga. Kui ühendate eri meetodite võtteid, nimetage iga võtte eesmärk.
 
 Süsteemi kontseptsiooni otsus sisaldab vähemalt kaht kaalutud lahendussuunda ning põhjendab süsteemi piiri. Ärge valige tehnoloogiapinu lihtsalt sellepärast, et see on tuttav või AI pakkus seda.
