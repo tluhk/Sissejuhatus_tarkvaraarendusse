@@ -68,5 +68,23 @@ Uus release manager loob tag'i `v0.4.0` ja avaldab release'i pealkirjaga `Kasutu
 
 ## Esitamine
 
-Lisage kodutöö Issue kommentaari release'i, ajajoone, enda refleksiooni, enda PR-i ja tehtud ülevaatuse lingid.
+Lisage kodutöö Issue kommentaari release'i, ajajoone, enda refleksiooni, enda PR-i ja tehtud ülevaatuse lingid. Eraldi esitamise PR-i pole vaja; PR-id teete töö käigus tiimi repos.
 
+## Hindamiskriteeriumid
+
+Hindan tiimi ühist tulemust repositooriumis ning iga õppija panust tema Issue'i, PR-i, ülevaatuse ja refleksiooni põhjal. Kokku on võimalik saada 100 punkti.
+
+| Kriteerium | Punktid | Mida repositooriumist vaatan |
+|---|---:|---|
+| Kasutuselevõtt ja tugi | 15 | Kirjas on sihtrühm, viis, tugi ja vastutaja ning vähemalt üks peatamise või tagasipööramise tingimus. |
+| Seire, tagasiside ja mõju | 20 | 3–5 põhjendatud märki kirjeldavad süsteemi seisundit, kasutaja tulemust ja mõju ning aitavad otsustada. Tagasiside kogumise ja otsustesse jõudmise viis on selge. |
+| Hooldus, muutmine ja lõpetamine | 15 | Kirjas on hoolduse omanik, olulised sõltuvused ja tehnilise võla käsitlus ning vähemalt üks olukord, kus süsteem tuleks ümber mõelda või lõpetada. |
+| Release'ide ajajoon | 10 | Ajajoon seob olulised otsused release'idega ja näitab arusaamise muutumist. |
+| Töö planeerimine | 10 | Backlog on uuendatud. Release notes võrdleb ajahinnangut tegeliku ajakuluga ja nimetab järgmise etapi paranduse. |
+| Tiimitöö ja iga õppija panus | 10 | Iga õppija panus on jälgitav Issue'i, commit'i ja PR-i kaudu ning igaüks on üle vaadanud teise õppija töö. Ajajoon on sündinud meeskonna valikutest. |
+| Refleksioon ja AI kasutamise läbipaistvus | 10 | Iga õppija refleksioon kirjeldab tema panust ja õpitut. Vähemalt ühe olulise otsuse juures on AI sisend, väljundi kasutamine või tagasilükkamine, kontroll, kasu ja tekkinud müra kirjas. |
+| Repositooriumi korrastatus ja release | 10 | Nõutud failid on leitavad, muudatused on jõudnud `main`-i PR-ide kaudu ning `v0.4.0` release on avaldatud. |
+
+**Tulemuse tõlgendamine:** 90–100 punkti tähendab põhjendatud ja jälgitavat tööd; 75–89 punkti puhul on tulemus olemas, kuid mõni osa vajab täiendamist; 60–74 punkti puhul takistab oluline lünk järgmises seminaris jätkamist; alla 60 punkti korral ei ole kasutuselevõttu ja arengut piisavalt põhjendatud või panust ja otsuseid ei saa repo põhjal hinnata.
+
+Kasutuselevõtu ning seire, tagasiside ja mõju eest peab saama kokku vähemalt poole nende kahe kriteeriumi punktidest. Korras ajajoon või release ei korva põhjendamata plaani. Demo eest lisapunkte ei anta. Töötava rakenduse, prototüübi ega dokumentide hulga eest eraldi punkte ei anta. AI puhul hinnatakse kasutamise eesmärki ja väljundi kontrollimist, mitte genereeritud teksti mahtu.

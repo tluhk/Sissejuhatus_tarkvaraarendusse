@@ -11,7 +11,7 @@ See fail kirjeldab selle repositooriumiga töötamise kokkuleppeid. Täiendame s
 - Kursuse keskne mõte on näidata terviklikku teekonda probleemist tarkvarani.
 - Tarkvaraarendus ei võrdu ainult programmeerimisega. Kursuse fookuses on ka uurimine, nõuded, disain, planeerimine, meeskonnatöö, dokumenteerimine, testimine ja versioonihaldus.
 - Git ja GitHub on kursuse läbivad töövahendid.
-- Esimesel semestril tuleb eelistada algajasõbralikku graafilist töövoogu. Terminali kasutamine ei ole Giti õppimise eeldus.
+- Kursuse Giti põhivoog on terminalis. Paralleelselt näidatakse VS Code'i Source Control vaadet ja selle kasutamine on lubatud. GitHub Desktopi ei kasutata.
 
 Kehtiva aineinfo esmane masinloetav allikas on `metadata/data.json`. Kui see läheb vastuollu vanemate õppematerjalidega, ei tohi vastuolu vaikimisi lahendada: see tuleb välja tuua ja küsida vajaduse korral õppejõult kinnitust.
 
@@ -75,11 +75,11 @@ Slaidide, kodutöö, õpetaja juhendi, failinimede, tähtaegade ja hindamiskrite
 - AI käsitluses tuleb nimetada vähemalt privaatsuse, autoriõiguse, turvalisuse, kallutatuse, vigaste vastuste ja konfidentsiaalse info sisestamise riske.
 - Seminari põhisisu on tarkvaraarenduse tööriistade tutvustamine ning õppija töövahendite ja arenduskeskkonna seadistamine.
 - Tööriistade käsitluse keskmes on Git ja GitHub ning nende omavaheline erinevus.
-- GitHub CLI-d (`gh`) tutvustatakse valikulise käsureatööriistana GitHubi repositooriumide ja Issue'de vaatamiseks. See ei asenda esimese seminari VS Code'i graafilist Giti põhivoogu.
+- GitHub CLI-d (`gh`) tutvustatakse valikulise käsureatööriistana GitHubi repositooriumide ja Issue'de vaatamiseks. See ei asenda Giti põhivoogu terminalis.
 - GitHubi ühendusviisidest nimetatakse HTTPS-i ja SSH-d, kuid esimeses seminaris kasutatakse HTTPS-i. SSH-võtmeid selles etapis ei seadistata.
 - Põhiline koodiredaktor on VS Code. Alternatiive võib lühidalt tutvustada ja paluda neid tundvatel õppijatel oma kogemust jagada.
 - Selgitada tuleb mõistet IDE, selle ingliskeelset nimetust `Integrated Development Environment` ja erinevust lihtsa tekstiredaktoriga.
-- Tutvustada tuleb terminali, käsukesta ja graafiliste tööriistade suhet. Kursuse peamine graafiline Giti töövoog toimub VS Code'is; esimeses kodutöös harjutatakse terminali põhikäskude ringi.
+- Tutvustada tuleb terminali, käsukesta ja graafiliste tööriistade suhet. Giti põhivoog on terminalis ja sama töövoogu näidatakse paralleelselt VS Code'is; esimeses kodutöös harjutatakse terminali põhikäskude ringi.
 - Windowsis kasutatakse kursuse käsureanäidetes PowerShelli asemel Git Bashi.
 - Markdowni puhul tuleb lisaks süntaksile selgitada, miks see sobib dokumentatsiooni ja GitHubi töövoogu.
 - Node.js-i, Dockerit ja arenduskeskkondi tutvustatakse esmalt tervikpildi tasandil. Enne paigaldamist või praktilist kasutamist peab olema selge, milleks tööriista kursusel vaja läheb.
@@ -91,7 +91,9 @@ Slaidide, kodutöö, õpetaja juhendi, failinimede, tähtaegade ja hindamiskrite
 - Esimene seminar jääb sissejuhatuseks ja töövahendite seadistamiseks. Meeskonnad ning läbiv projekt algavad seminaris 2.
 - Kursuse keskne tulemus on tarkvaraarenduse suure pildi mõistmine, mitte teiste erialaainete detailse sisu kordamine.
 - Seminarid 2–5 kasutavad üht läbivat meeskonnaprojekti, mille keskne artefakt on põhjendatud otsuste logi.
-- Meeskonnaprojektide repositooriumid asuvad ühises `TLUHK-RIF26` organisatsioonis. Igal meeskonnal on üks repo ning iga õppija panustab haru, commit'ide, pull request'i ja ülevaatuse kaudu.
+- Meeskonnaprojektide repositooriumid asuvad ühises `TLUHK-RIF26` organisatsioonis. Igal meeskonnal on üks repo nimega `tiim-XX-tunniplaan` või sellest tuletatud nimega ning iga õppija panustab haru, commit'ide, pull request'i ja ülevaatuse kaudu.
+- Eraldi esitamise pull request'i ei nõuta, kui töö iseloom seda ei vaja. Tiimitöös tehakse PR-id olemasoleva projekti sees ja kodutöö esitatakse Issue kommentaariga.
+- Seminaride 2–5 kodutöödel on 100-punktine hindamistabel.
 - Release manageri vastutus vahetub projektiseminaride vahel.
 - Rollid kasutavad päris ametinimetusi ja vahetuvad, et õppija kogeks erinevaid professionaalseid vaatenurki.
 - Seminarid 2–5 lõppevad kodutööna GitHub Release'iga. Release võib sisaldada lahtisi küsimusi, kui hetkeseis ja järgmised sammud on selgelt dokumenteeritud.
@@ -100,7 +102,7 @@ Slaidide, kodutöö, õpetaja juhendi, failinimede, tähtaegade ja hindamiskrite
 - Eksam on release'ide ajajoont järgiv dokumenteeritud protsessi esitlus. Iga õppija esitleb vähemalt ühte olulist release'i või otsust.
 - Hindamise keskmes on arusaamine ja põhjendamine. Dokumentide arv, tehniline keerukus ega visuaalne viimistlus ei asenda sisulist mõistmist.
 - Figma ja klikitav prototüüp ei ole aktiivse kursuse nõuded. Figma mainimine vanemates üldmaterjalides võib alles jääda.
-- Esimese seminari tegelik praktiline Giti töövoog oli terminalipõhine. Esimene kodutöö kinnistab seda; graafiline töövoog jääb alternatiiviks. Node.js-i ja npm-i paigaldamine ei ole esimese kodutöö ega seminari 2 eeldus.
+- Esimese seminari praktiline Giti töövoog oli terminalipõhine ja esimene kodutöö kinnistab seda. Node.js-i ja npm-i paigaldamine ei ole esimese kodutöö ega seminari 2 eeldus.
 - Esimene kodutöö tehakse Issue'st loodud harus ja esitatakse pull request'iga. Enne õppejõudu vaatab töö üle kaasõppija; paarid on failis `student_pairs.md` (rida `A -> B`: A vaatab üle B töö). Sama Issue → haru → PR → ülevaatus töövoog on kolledži ühine, vt `tluhk/Abimaterjalid/docs/koduse_too_esitamine.md`.
 - Seminar 2 algab probleemide leidmisega. Esimesest seminarist kinnistamist vajavad oskused lisatakse projektitöö sisse: Markdown, muudatuste kontroll, commit ja push; seejärel pull ning tag ja release.
 - Töö planeerimine on läbiv: seminaris 2 tutvutakse Kanbani ja ajahinnanguga, seminarides 3–5 hoitakse backlog'i ajakohasena ning release notes võrdleb ajahinnangut tegeliku ajakuluga.
@@ -129,6 +131,6 @@ Slaidide, kodutöö, õpetaja juhendi, failinimede, tähtaegade ja hindamiskrite
 ## Praegu teadaolevad lahtised küsimused
 
 - Esimese seminari 2026. aasta täpne ajakava ja praktilised kontrollpunktid tuleb veel kokku leppida.
-- Projektirühmad ja ühine meeskonnarepositoorium luuakse teises seminaris organisatsioonis `TLUHK-RIF26`. Repositooriumide lõplik nimetamise reegel tuleb veel otsustada.
+- Kodutööde 100-punktiste tabelite seos eksami osakaaludega 40/25/15/20 ja lõpphindega tuleb veel otsustada.
 - Vanemates failides leiduvad 4 EAP, aine kood `HKI5086.HK`, `RIF25` ja märge „juba toimunud” ei ole vaikimisi kehtiv info.
 - `docs/archive/course-draft-v2.md` on arhiivimärkega varasem kavand; aktiivne kursuseprogramm on `docs/kursuseprogramm.md`.

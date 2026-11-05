@@ -9,19 +9,15 @@
 
 ## Õppeaine eesmärgid
 
-Luua eeldused teadmiste kujunemiseks tarkvaraarenduse protsessist ja arendusmeetoditest; anda üliõpilastele baasteadmised heade tavade järgimiseks tarkvaraarenduses ning tutvustada erinevaid töövõtteid ja vahendeid.
+Luua alused teadmiste ja oskuste kujunemiseks tarkvaraarenduse protsessidest, arendusmeetoditest ning kaasaegsetest töövahenditest. Anda baasteadmised tarkvaraarenduse headest tavadest, tarkvara jätkusuutlikkuse tagamisest (koodi kvaliteet, testimine, versioonihaldus) ja meeskonnatöös osalemisest, kasutades professionaalseid tööriistu nagu Git ja GitHub. Tutvustada tarkvaralitsentse, nende tüüpe ja rakendamist, arvestades õiguslikke ja eetilisi aspekte tarkvaraarenduses.
+
+Õppeaine lõppeesmärk on anda õppijatele kindel baas tarkvaraarenduse metoodikate ja tööriistade mõistmiseks ning rakendamiseks, valmistades neid ette nii teoreetilisteks kui ka praktilisteks väljakutseteks tarkvaraarenduse valdkonnas.
 
 ## Õppeaine sisu lühikirjeldus
 
-- Tarkvara
-- Infosüsteemi mõiste, liigid.
-- Info ja selle kvaliteet.
-- Infosüsteemi elutsükkel, arendusprotsess.
-- Rollid tarkvaraarenduses.
-- Professionaalse arenduse head tavad.
-- Koodi kvaliteedi tagamine, koodi silumine, testimine, vea põhjuste tuvastamine.
-- Lähtekoodi ja versioonide haldamine. 
-- Arendusmeetodite võrdlus ja agiilsete meetodite lühiülevaade.
+Õppeaine annab tervikliku ülevaate tarkvaraarenduse alustest, hõlmates tarkvara olemust, erinevaid tarkvaratüüpe ning tarkvara arendusprotsesside ja metoodikate põhimõtteid. Kursus tutvustab funktsionaalsete ja mittefunktsionaalsete nõuete defineerimist, tarkvara litsentsimise tüüpe ning nende praktilist rakendamist tarkvaraprojektides. Õppijad omandavad teadmised tarkvara arendusprotsessidest ja nende etappidest, sealhulgas SDLC (Software Development Life Cycle) ning agiilsete meetodite eelistest ja kasutusvõimalustest.
+
+Erilist rõhku pannakse tarkvara arhitektuuri põhimõtete mõistmisele ning arendusmeeskonna rollide ja ülesannete analüüsimisele. Kursus arendab praktilisi oskusi versioonihalduse tööriistade, nagu Git ja GitHub, kasutamisel meeskonnatöös (nt pull request'id, koodi ülevaatused, harude haldamine ja projektihaldus). Lisaks käsitletakse heade arendustavade järgimist, sealhulgas koodi dokumenteerimist, kvaliteedi tagamise meetodeid ja tööriistu. Kursuse käigus tutvutakse ajahalduse põhimõtetega, et arendada tõhusust tarkvaraarenduse protsessides.
 
 ## Õppeaine õpiväljundid
 

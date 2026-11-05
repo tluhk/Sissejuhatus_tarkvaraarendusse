@@ -87,4 +87,22 @@ Release manageri roll läheb õppijale, kes ei teinud eelmist release'i. Ta kont
 
 ## Esitamine
 
-Lisage kodutöö Issue kommentaari release'i, enda refleksiooni, enda PR-i ja tehtud ülevaatuse lingid.
+Lisage kodutöö Issue kommentaari release'i, enda refleksiooni, enda PR-i ja tehtud ülevaatuse lingid. Eraldi esitamise PR-i pole vaja; PR-id teete töö käigus tiimi repos.
+
+## Hindamiskriteeriumid
+
+Hindan tiimi ühist tulemust repositooriumis ning iga õppija panust tema Issue'i, PR-i, ülevaatuse ja refleksiooni põhjal. Kokku on võimalik saada 100 punkti.
+
+| Kriteerium | Punktid | Mida repositooriumist vaatan |
+|---|---:|---|
+| Tööviisi valik | 15 | Vähemalt kolm varianti on võrreldud. Valik lähtub teie probleemist, ebakindlusest ja meeskonnast, mitte meetodi populaarsusest. |
+| Kasutajalood ja kontrolltingimused | 15 | Vähemalt kaks kasutajalugu lähtuvad seminaris 2 kogutud tõendist. Igal lool on piisavalt konkreetne kontrolltingimus. |
+| Süsteemi kontseptsioon | 25 | Kasutaja teekond, süsteemi piir, peamised osad ja nende vastutus, info liikumine ning välised sõltuvused on arusaadavad. Vähemalt kaks lahendussuunda on kaalutud. |
+| Töö planeerimine | 10 | Backlog on järjestatud ning igal Issue'l on vastutaja ja ajahinnang. Release notes võrdleb ajahinnangut tegeliku ajakuluga ja nimetab järgmise etapi paranduse. |
+| Tiimitöö ja iga õppija panus | 15 | Iga õppija panus on jälgitav Issue'i, commit'i ja PR-i kaudu. Ülevaatus kommenteerib põhjendust või riski. Rollide vaatenurgad mõjutasid vähemalt üht otsust. |
+| Refleksioon ja AI kasutamise läbipaistvus | 10 | Iga õppija refleksioon kirjeldab tema panust, rolli ja õpitut. Kui AI-d selles etapis kasutati, on näha sisend, väljundi kasutamine, kontroll ja tegelik kasu. |
+| Repositooriumi korrastatus ja release | 10 | README kirjeldab rolle ja töövoogu, nõutud failid on leitavad, muudatused on jõudnud `main`-i PR-ide kaudu ning `v0.2.0` release on avaldatud. |
+
+**Tulemuse tõlgendamine:** 90–100 punkti tähendab põhjendatud ja jälgitavat tööd; 75–89 punkti puhul on tulemus olemas, kuid mõni osa vajab täiendamist; 60–74 punkti puhul takistab oluline lünk järgmises seminaris jätkamist; alla 60 punkti korral ei ole tööviisi ja kontseptsiooni piisavalt põhjendatud või panust ja otsuseid ei saa repo põhjal hinnata.
+
+Tööviisi valiku ja süsteemi kontseptsiooni eest peab saama kokku vähemalt poole nende kahe kriteeriumi punktidest. Korras README või release ei korva põhjendamata otsuseid. Töötava rakenduse, prototüübi ega dokumentide hulga eest eraldi punkte ei anta. AI puhul hinnatakse kasutamise eesmärki ja väljundi kontrollimist, mitte genereeritud teksti mahtu.

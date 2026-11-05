@@ -17,7 +17,7 @@
 
 Seminarides 2–5 töötab iga meeskond ühe projekti kallal. Töötav rakendus ei ole kursuse keskne nõue: projekti tulemus on põhjendatud ja järk-järgult täienev arendusprotsessi kirjeldus. Iga etapi töö talletatakse otsuste logis ning GitHub Release'ina (`v0.1.0` kuni `v0.4.0`; eksamil `v1.0.0`).
 
-Meeskond kasutab üht GitHubi repositooriumi ja GitHub Projectsi. Töö jagatakse Issue'deks. Iga õppija teeb muudatused oma harus, kirjutab sisulised commit-sõnumid, esitab pull request'i ja vaatab kaaslase töö üle. Giti kasutatakse terminalis või VS Code'i Source Control vaates; GitHub Desktop ei ole kursuse töövoo osa. Release manageri roll vahetub. Pärast projektiseminare esitab iga õppija ka individuaalse refleksiooni.
+Meeskond kasutab üht GitHubi repositooriumi ja GitHub Projectsi. Töö jagatakse Issue'deks. Iga õppija teeb muudatused oma harus, kirjutab sisulised commit-sõnumid, esitab pull request'i ja vaatab kaaslase töö üle. Giti põhivoog on terminalis ja paralleelselt näidatakse VS Code'i Source Control vaadet, mida võib samuti kasutada; GitHub Desktop ei ole kursuse töövoo osa. Release manageri roll vahetub. Pärast projektiseminare esitab iga õppija ka individuaalse refleksiooni.
 
 ## AI kasutamine
 

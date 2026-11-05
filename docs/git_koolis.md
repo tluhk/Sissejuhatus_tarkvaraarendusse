@@ -219,8 +219,8 @@ Organisatsioonid on GitHubi kontod, mis võimaldavad mitme kasutaja koostööd p
 HK organisatsioonide struktuur:
 
 - https://github.com/tluhk/
-- https://github.com/TLUHK-RIF25/
-- https://github.com/TLUHK-RIF25-Eesnimi-Perekonnanimi
+- https://github.com/TLUHK-RIF26/
+- https://github.com/TLUHK-RIF26-Eesnimi-Perekonnanimi
 
 ---
 

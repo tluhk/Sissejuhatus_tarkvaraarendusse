@@ -1,12 +1,12 @@
 # Projekti töökorraldus
 
-Seminarides 2–5 töötab iga tiim ühes GitHubi repositooriumis. Issue on GitHubi tööülesanne; pull request (PR) on muudatuse ülevaatamise ja ühendamise taotlus. Kasuta Giti terminalis või VS Code'i Source Control vaates.
+Seminarides 2–5 töötab iga tiim ühes GitHubi repositooriumis. Issue on GitHubi tööülesanne; pull request (PR) on muudatuse ülevaatamise ja ühendamise taotlus. Giti põhivoog on terminalis; kasutada võib ka VS Code'i Source Control vaadet. GitHub Desktopi kursusel ei kasuta.
 
 ## Töö käik lühidalt
 
 **Issue → haru → muudatused ja commit'id → push → pull request → ülevaatus → merge → release**
 
-1. **Tiim kasutab üht repositooriumi.** See asub organisatsioonis `TLUHK-RIF26` (näiteks `TLUHK-RIF26/tiim-01-tunniplaan`). Kõik tiimiliikmed töötavad samas repos; fork'i ei tehta. `main`-i muudatused käivad pull request'i kaudu.
+1. **Tiim kasutab üht repositooriumi.** See asub organisatsioonis `TLUHK-RIF26` ja selle nimi on kujul `tiim-XX-tunniplaan`, kus `XX` on meeskonna number (näiteks `TLUHK-RIF26/tiim-01-tunniplaan`). Kõik tiimiliikmed töötavad samas repos; fork'i ei tehta. `main`-i muudatused käivad pull request'i kaudu.
 2. **Klooni repo üks kord ja kontrolli Giti autoriandmeid.** GitHubi konto olemasolu ei tähenda, et Git sinu arvutis oleks seadistatud. Git lisab iga commit'i juurde autori nime ja e-posti; GitHub seostab commit'i sinu kontoga, kui e-post vastab sinu konto kinnitatud aadressile. Kui oled Giti varem kasutanud, võivad need seaded juba olemas olla.
 
    Klooni repo GitHubi lehelt kopeeritud URL-iga, ava kaust VS Code'is ja kontrolli terminalis väärtusi:
