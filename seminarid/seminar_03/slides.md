@@ -115,9 +115,31 @@ See kirjeldab funktsionaalset nõuet: mida süsteem peab võimaldama.
 
 Näiteks kontrollime, et tähtajad kuvatakse kuupäeva järjekorras ja iga tähtaja juures on kursuse nimi.
 
-Teie enda lood tulevad tunniplaani kohta kogutud tõenditest.
+Teie enda lood tulevad tunniplaani kohta kogutud tõenditest. [Näide](seminar.md#näide-tõendist-kasutajalooni)
 
 <!-- Tulevikus: AI võib koostada soovi põhjal nõuete mustandi. Samaks jääb: tooteomanik kontrollib, kas kirjeldus lahendab algse probleemi. -->
+
+---
+
+## Näide: tõendist kasutajalooni
+
+Väljamõeldud näide tunniplaani kohta.
+
+**Tõend:** vestlustes ei saanud kasutajad aru, millal plaani viimati uuendati.
+
+**Kasutajalugu:** Tudengina soovin näha, millal mu rühma tunniplaani viimati uuendati, et teaksin, kas saan selle põhjal oma päeva planeerida.
+
+**Kontrolltingimus:** iga rühma plaani juures on näha viimase uuenduse kuupäev ja kellaaeg.
+
+---
+
+## Halb näide
+
+„Tudengina soovin mobiilirakendust, et tunniplaan oleks moodsam.”
+
+- eeldab lahenduse ette
+- ei ütle, millist vajadust see täidab
+- selle kohta ei saa kontrolltingimust kirjutada
 
 ---
 
@@ -127,7 +149,7 @@ Teie enda lood tulevad tunniplaani kohta kogutud tõenditest.
 - Kes seda vajab ja mis muutub tema jaoks?
 - Millise tingimuse järgi saame hiljem aru, et nõue on täidetud?
 
-Kasutajalugu ei ole valmis lahenduse kirjeldus ega kata kvaliteediomadusi, nagu turvalisus ja töökindlus.
+Kasutajalugu ei ole valmis lahenduse kirjeldus ega kata kvaliteediomadusi, nagu turvalisus ja töökindlus. [Näide](seminar.md#näide-tõendist-kasutajalooni)
 
 ---
 
@@ -207,7 +229,7 @@ GOV.UK alpha:
 2. Võrrelge vähemalt kolme tööviisi.
 3. Põhjendage valik otsuste logis.
 4. Koostage Projectsi tahvlile järgmise etapi backlog.
-5. Sõnastage vähemalt kaks tõendiga seotud kasutajalugu ja lisage kummalegi kontrolltingimus.
+5. Sõnastage vähemalt kaks tõendiga seotud kasutajalugu ja lisage kummalegi kontrolltingimus ([näide](seminar.md#näide-tõendist-kasutajalooni)).
 6. Kirjeldage, kuidas kasutaja oma eesmärgini jõuab.
 7. Lahendage üks merge-konflikt.
 
@@ -244,7 +266,7 @@ See ütleb, mida süsteem teeb, kuid mitte seda, millega see ehitatakse või kui
 
 Arhitektuur näitab suuremaid osi, nende vastutust ja seoseid. Tehnoloogiapinu valimine pole eesmärk.
 
-Seostage kontseptsioon vähemalt kahe kasutajalooga ja kirjeldage:
+Seostage kontseptsioon vähemalt kahe kasutajalooga ([näide](seminar.md#näide-tõendist-kasutajalooni)) ja kirjeldage:
 
 - eesmärk, osalised ja süsteemi piir
 - kuidas kasutaja oma eesmärgini jõuab
@@ -352,6 +374,6 @@ Iga õppija: sisuline panus, PR, ülevaatus ja refleksioon.
 - Kas valik sobib meie olukorraga?
 - Kas süsteemi piir on arusaadav?
 - Kas backlog ja ajahinnangud näitavad tegelikku tööd?
-- Kas kasutajalood lähtuvad tõendist ja väljendavad kasutaja väärtust?
+- Kas kasutajalood lähtuvad tõendist ja väljendavad kasutaja väärtust? ([näide](seminar.md#näide-tõendist-kasutajalooni))
 - Kas rollide vaated mõjutasid otsust?
 - Mis võib veel muutuda?

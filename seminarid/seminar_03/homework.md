@@ -4,7 +4,7 @@ Meeskonna ühine GitHubi töövoog on kirjas [projekti töökorralduse juhendis]
 
 ## Ülesanne lühidalt
 
-Põhjendage meeskonna tööviis ja süsteemi üldine kontseptsioon. Süsteemi kontseptsioon on lühike kirjeldus sellest, mis süsteem see on, kellele see on mõeldud ja kuidas see põhimõtteliselt töötab. Sõnastage vähemalt kaks kasutajalugu valideeritud vajaduse põhjal ning lisage kummalegi kontrolltingimus. Näidake rollide erinevaid vaatenurki, vaadake üksteise muudatused üle ning avaldage release `v0.2.0 – Tööviis ja süsteemi kontseptsioon`.
+Põhjendage meeskonna tööviis ja süsteemi üldine kontseptsioon. Süsteemi kontseptsioon on lühike kirjeldus sellest, mis süsteem see on, kellele see on mõeldud ja kuidas see põhimõtteliselt töötab. Sõnastage vähemalt kaks kasutajalugu valideeritud vajaduse põhjal ning lisage kummalegi kontrolltingimus ([näide](seminar.md#näide-tõendist-kasutajalooni)). Näidake rollide erinevaid vaatenurki, vaadake üksteise muudatused üle ning avaldage release `v0.2.0 – Tööviis ja süsteemi kontseptsioon`.
 
 ## Maht
 
@@ -23,7 +23,7 @@ reflections/oppija-nimi-v0.2.0.md
 
 Täiendage ka README-s rollide ja töövoo osa. Skeem on vabatahtlik, kui selge tekst annab sama info edasi. GitHub Projectsi tahvlil on etapi backlog: igal Issue'l on vastutaja ja ajahinnang.
 
-Lisage süsteemi kontseptsiooni juurde vähemalt kaks kasutajalugu, mis lähtuvad seminaris 2 kogutud tõendist. Lisage kummalegi üks kontrolltingimus. Kirjeldage lühidalt tekstina, kuidas kasutaja oma eesmärgini jõuab; prototüüpi ega kujundust ei nõuta. Kirjeldage kontseptsioonis ka kõrgtaseme arhitektuuri: süsteemi peamised osad, nende vastutus, süsteemi piir, info liikumine ning olulised välised sõltuvused. Skeem pole kohustuslik, kui samad seosed selgitab tekst. See ei nõua tehnoloogiapinu valimist. Kõiki nõudeid ei pea selles etapis ammendavalt loetlema.
+Lisage süsteemi kontseptsiooni juurde vähemalt kaks kasutajalugu ([näide](seminar.md#näide-tõendist-kasutajalooni)), mis lähtuvad seminaris 2 kogutud tõendist. Lisage kummalegi üks kontrolltingimus. Kirjeldage lühidalt tekstina, kuidas kasutaja oma eesmärgini jõuab; prototüüpi ega kujundust ei nõuta. Kirjeldage kontseptsioonis ka kõrgtaseme arhitektuuri: süsteemi peamised osad, nende vastutus, süsteemi piir, info liikumine ning olulised välised sõltuvused. Skeem pole kohustuslik, kui samad seosed selgitab tekst. See ei nõua tehnoloogiapinu valimist. Kõiki nõudeid ei pea selles etapis ammendavalt loetlema.
 
 ## Tööjaotus, umbes 8 tundi õppija kohta
 
@@ -31,7 +31,7 @@ Lisage süsteemi kontseptsiooni juurde vähemalt kaks kasutajalugu, mis lähtuva
 2. Rolli vaatenurgast vajaduste ja konfliktide sõnastamine – 1 h.
 3. Tööviiside võrdlemine ja otsuse põhjendamine – 1 h.
 4. Backlog'i täpsustamine, töö järjestamine ja ajahinnangud – 1 h.
-5. Kasutajalugude ja süsteemi kontseptsiooni koostamine – 2 h.
+5. Kasutajalugude ([näide](seminar.md#näide-tõendist-kasutajalooni)) ja süsteemi kontseptsiooni koostamine – 2 h.
 6. Pull request, teise töö sisuline ülevaatus ja parandused – 1 h.
 7. Individuaalne refleksioon ja release – 1 h.
 
@@ -71,7 +71,7 @@ Nii ei tasu kirjutada: „Teeme Reacti ja PostgreSQL-iga moodsa veebirakenduse, 
 
 ### Kasutajalood
 
-Kasutajalugu seob kasutaja, vajaduse ja väärtuse. Kontrolltingimus peab olema piisavalt konkreetne, et meeskond saaks hiljem arutada, kuidas nõude täitmist kontrollida. Ärge tuletage kasutajalugu AI vastusest või lahendusideest ilma tõendita.
+Kasutajalugu seob kasutaja, vajaduse ja väärtuse ([näide](seminar.md#näide-tõendist-kasutajalooni)). Kontrolltingimus peab olema piisavalt konkreetne, et meeskond saaks hiljem arutada, kuidas nõude täitmist kontrollida. Ärge tuletage kasutajalugu AI vastusest või lahendusideest ilma tõendita.
 
 ## Töö planeerimine
 
@@ -105,7 +105,7 @@ Release manageri roll läheb õppijale, kes ei teinud eelmist release'i. Ta kont
 - [ ] Valik lähtub projekti olukorrast, mitte meetodi populaarsusest.
 - [ ] Backlog on järjestatud ning hinnangu ja tegeliku ajakulu võrdlus on release notes'is.
 - [ ] Süsteemi eesmärk, kasutaja teekond, piir, osalised, suuremad osad, nende vastutus, seosed ja sõltuvused on arusaadavad.
-- [ ] Vähemalt kaks kasutajalugu lähtuvad probleemi kohta kogutud tõendist ning neil on kontrolltingimus.
+- [ ] Vähemalt kaks kasutajalugu lähtuvad probleemi kohta kogutud tõendist ning neil on kontrolltingimus ([näide](seminar.md#näide-tõendist-kasutajalooni)).
 - [ ] Alternatiivid, kompromissid ja teadmatused on nähtavad.
 - [ ] Rollide vaatenurgad mõjutasid vähemalt üht otsust.
 - [ ] Igal õppijal on Issue, commit, PR, ülevaatus ja refleksioon.
@@ -122,7 +122,7 @@ Hindan tiimi ühist tulemust repositooriumis ning iga õppija panust tema Issue'
 | Kriteerium | Punktid | Mida repositooriumist vaatan |
 |---|---:|---|
 | Tööviisi valik | 15 | Vähemalt kolm varianti on võrreldud. Valik lähtub teie probleemist, ebakindlusest ja meeskonnast, mitte meetodi populaarsusest. |
-| Kasutajalood ja kontrolltingimused | 15 | Vähemalt kaks kasutajalugu lähtuvad seminaris 2 kogutud tõendist. Igal lool on piisavalt konkreetne kontrolltingimus. |
+| Kasutajalood ja kontrolltingimused | 15 | Vähemalt kaks kasutajalugu ([näide](seminar.md#näide-tõendist-kasutajalooni)) lähtuvad seminaris 2 kogutud tõendist. Igal lool on piisavalt konkreetne kontrolltingimus. |
 | Süsteemi kontseptsioon | 25 | Kasutaja teekond, süsteemi piir, peamised osad ja nende vastutus, info liikumine ning välised sõltuvused on arusaadavad. Vähemalt kaks lahendussuunda on kaalutud. |
 | Töö planeerimine | 10 | Backlog on järjestatud ning igal Issue'l on vastutaja ja ajahinnang. Release notes võrdleb ajahinnangut tegeliku ajakuluga ja nimetab järgmise etapi paranduse. |
 | Tiimitöö ja iga õppija panus | 15 | Iga õppija panus on jälgitav Issue'i, commit'i ja PR-i kaudu. Ülevaatus kommenteerib põhjendust või riski. Rollide vaatenurgad mõjutasid vähemalt üht otsust. |

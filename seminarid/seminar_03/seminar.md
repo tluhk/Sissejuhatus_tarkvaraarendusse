@@ -8,7 +8,7 @@ Seminari lõpuks õppija:
 
 - tunneb tarkvaraarenduse levinud ametialaseid rolle;
 - eristab rolli ametinimetusest ja konkreetsest inimesest;
-- sõnastab valideeritud vajadusest kasutajaloo ja selle kontrolltingimuse;
+- sõnastab valideeritud vajadusest kasutajaloo ja selle kontrolltingimuse ([näide](#näide-tõendist-kasutajalooni));
 - võrdleb järjestikust, iteratiivset ja voopõhist tööviisi;
 - valib meeskonnale sobiva tööviisi ning põhjendab valikut;
 - koostab järgmise etapi backlog'i ning kasutab ajahinnangu võrdlusest saadud õppetundi;
@@ -104,13 +104,25 @@ Allikas: [How the alpha phase works](https://www.gov.uk/service-manual/agile-del
 
 Probleem ja tõend kirjeldavad, miks muutust vaja on. **Kasutajalugu** aitab sõnastada, mida kindel kasutaja tahab teha ja miks:
 
-Vaata vajadusel ka [kasutajaloo pikemat selgitust](../../concepts/kasutajalugu/README.md).
+Vaata vajadusel ka [kasutajaloo pikemat selgitust](../../concepts/kasutajalugu/README.md) ja [tunniplaani näidet](#näide-tõendist-kasutajalooni).
 
 > Kasutajana soovin [tegevust või võimalust], et [saavutatav väärtus].
 
 Näide: „Õppijana soovin näha lähenevaid tähtaegu ühes vaates, et saaksin oma tööd paremini järjestada.” See on funktsionaalne nõue: kirjeldab, mida süsteem peab võimaldama. Lisa iga loo juurde vähemalt üks lihtne kontrolltingimus, mille järgi saab hiljem hinnata, kas vajadus on täidetud.
 
 Näiteks võib kontrolltingimus olla: „Tähtajad kuvatakse kuupäeva järjekorras ja iga tähtaja juures on näha kursuse nimi.”
+
+### Näide: tõendist kasutajalooni
+
+See näide on väljamõeldud. Teie lood peavad lähtuma teie tiimi kogutud tõenditest.
+
+> **Tõend:** vestlustes ei saanud kasutajad aru, millal plaani viimati uuendati.
+>
+> **Kasutajalugu:** Tudengina soovin näha, millal mu rühma tunniplaani viimati uuendati, et teaksin, kas saan selle põhjal oma päeva planeerida.
+>
+> **Kontrolltingimus:** iga rühma plaani juures on näha viimase uuenduse kuupäev ja kellaaeg.
+
+Halb näide: „Tudengina soovin mobiilirakendust, et tunniplaan oleks moodsam.” See eeldab lahenduse ette ega ütle, millist vajadust see täidab. Selle kohta ei saa ka kontrolltingimust kirjutada.
 
 Kasutajalugu peab lähtuma seminari 2 tõendist ja kirjeldama vajadust, mitte eeldama ette konkreetset tehnilist lahendust. Kasutajalood ei kata kõiki nõudeid; kvaliteediomadusi, nagu turvalisus ja töökindlus, käsitleme seminaris 4.
 
@@ -158,7 +170,7 @@ Seni töötas igaüks oma failis. Nüüd kirjutate ühiseid otsusefaile, nii et 
 3. Võrrelge vähemalt kolme tööviisi projekti ebakindluse, mahu ja meeskonna järgi.
 4. Looge `decisions/002-tooviisi-valik.md`.
 5. Koostage GitHub Projectsi tahvlile järgmise etapi backlog: Issue'd, järjekord, vastutajad ja ajahinnangud. Leppige kokku ka ülevaatajad.
-6. Sõnastage tunniplaani kohta kogutud tõendite põhjal vähemalt kaks kasutajalugu ja lisage kummalegi kontrolltingimus.
+6. Sõnastage tunniplaani kohta kogutud tõendite põhjal vähemalt kaks kasutajalugu ja lisage kummalegi kontrolltingimus ([näide](#näide-tõendist-kasutajalooni)).
 7. Kirjeldage, kuidas kasutaja oma eesmärgini jõuab.
 8. Tekitage ja lahendage üks merge-konflikt terminalis.
 
@@ -170,7 +182,7 @@ Seminari lõpuks on:
 
 - rollid ja nende vastutus nähtavad;
 - tööviisi valiku mustand koos alternatiividega;
-- vähemalt kaks tõendiga seotud kasutajalugu ja nende kontrolltingimused;
+- vähemalt kaks tõendiga seotud kasutajalugu ja nende kontrolltingimused ([näide](#näide-tõendist-kasutajalooni));
 - kasutaja teekond tekstina;
 - järgmise etapi backlog koos järjekorra, vastutajate ja ajahinnangutega;
 - vähemalt üks lahkarvamus või kompromiss otsusena talletatud;

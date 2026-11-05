@@ -11,7 +11,7 @@ Seminar ei ole Scrumi kiirkursus ega detailse tehnilise arhitektuuri harjutus. T
 | Release `v0.1.0` ülevaade | 10 min |
 | Lühijutt: kuidas AI arendust muudab | 5 min |
 | Ametialased rollid: meenutus ja vaatenurkade kasutamine | 10 min |
-| Kasutajalood ja kontrollitavad funktsionaalsed nõuded | 15 min |
+| Kasutajalood ([näide](seminar.md#näide-tõendist-kasutajalooni)) ja kontrollitavad funktsionaalsed nõuded | 15 min |
 | Waterfalli ja agiilse lähenemise meenutus; Scrum, Kanban, iteratiivsus ja Lean | 11 min |
 | GOV.UK alpha juhtum | 14 min |
 | Rollide jagamine ja vaatenurgad | 5 min |
@@ -24,7 +24,7 @@ Seminar ei ole Scrumi kiirkursus ega detailse tehnilise arhitektuuri harjutus. T
 |---|---:|
 | Valik ja põhjendus | 10 min |
 | Töö planeerimine: backlog, järjestus, vastutajad ja ajahinnangud | 20 min |
-| Kasutajalood ja kasutaja teekond; kontseptsiooni ja arhitektuuri lühitutvustus kodutöö jaoks | 15 min |
+| Kasutajalood ([näide](seminar.md#näide-tõendist-kasutajalooni)) ja kasutaja teekond; kontseptsiooni ja arhitektuuri lühitutvustus kodutöö jaoks | 15 min |
 | Rollikonflikt ja kompromiss | 10 min |
 | Merge-konflikti harjutus terminalis | 15 min |
 | Otsuste logi, commit'i sõnum ja PR-i ülevaatus | 10 min |
@@ -48,7 +48,7 @@ Seis 5. novembril 2026: tiimi 08 repos `v0.1.0` release'i ei olnud, seega viib s
 
 - Õppijad valivad Scrumi, sest nimi on tuttav. Küsi, millist konkreetset probleemi iga võte lahendab.
 - Arhitektuur muutub tehnoloogiate loeteluks. Too arutelu tagasi eesmärgi, osaliste, piiri ja info liikumise juurde.
-- Kasutajalugu muutub lahenduse reklaamiks või AI pakutud funktsiooniks. Küsi, milline seminaris 2 kogutud tõend seda vajadust toetab.
+- Kasutajalugu muutub lahenduse reklaamiks või AI pakutud funktsiooniks ([näide](seminar.md#näide-tõendist-kasutajalooni)). Küsi, milline seminaris 2 kogutud tõend seda vajadust toetab.
 - Backlog jääb soovide nimekirjaks. Küsi, mis on järgmine töö, kes selle teeb ja kui kaua see võtab.
 - Kasutaja teekonnast saab ekraanide kujundus. Too arutelu tagasi sammude juurde, mida kasutaja oma eesmärgi saavutamiseks teeb.
 - Rollid muutuvad tiitliteks. Nõua igalt rollilt vähemalt üht sisulist küsimust või vastuväidet.
@@ -56,7 +56,7 @@ Seis 5. novembril 2026: tiimi 08 repos `v0.1.0` release'i ei olnud, seega viib s
 
 ## Mis jääb kodutöösse
 
-Seminaris valmivad kasutajalood ja kasutaja teekond. Süsteemi kontseptsiooni ja arhitektuuri ainult tutvusta: `decisions/003-susteemi-kontseptsioon.md` valmib kodutöös.
+Seminaris valmivad kasutajalood ([näide](seminar.md#näide-tõendist-kasutajalooni)) ja kasutaja teekond. Süsteemi kontseptsiooni ja arhitektuuri ainult tutvusta: `decisions/003-susteemi-kontseptsioon.md` valmib kodutöös.
 
 ## Merge-konflikti harjutus
 
@@ -71,5 +71,5 @@ Slaidide õpetaja märkustes on rida „Tulevikus” ja „Samaks jääb”. Nee
 ## Kodutöö selgitamisel
 
 Rõhuta, et meeskond võib tööviisi hiljem muuta. Muutmine ei ole viga, kui põhjus ja mõju dokumenteeritakse.
-Kontrolli, et Waterfalli ja agiilset lähenemist võrreldaks projekti olukorra järgi ning et kasutajalood lähtuksid valideeritud probleemist.
+Kontrolli, et Waterfalli ja agiilset lähenemist võrreldaks projekti olukorra järgi ning et kasutajalood ([näide](seminar.md#näide-tõendist-kasutajalooni)) lähtuksid valideeritud probleemist.
 
