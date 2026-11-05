@@ -126,6 +126,8 @@ See näide on väljamõeldud. Teie lood peavad lähtuma teie tiimi kogutud tõen
 
 Halb näide: „Tudengina soovin mobiilirakendust, et tunniplaan oleks moodsam.” See eeldab lahenduse ette ega ütle, millist vajadust see täidab. Selle kohta ei saa ka kontrolltingimust kirjutada.
 
+Terviklik näide probleemist kasutaja teekonna, mitme loo ja kattuvate lugude ühendamiseni on failis [Näidis: probleemist kasutajalugudeni](user-stories-example.md).
+
 Kasutajalugu peab lähtuma seminari 2 tõendist ja kirjeldama vajadust, mitte eeldama ette konkreetset tehnilist lahendust. Kasutajalood ei kata kõiki nõudeid; kvaliteediomadusi, nagu turvalisus ja töökindlus, käsitleme seminaris 4.
 
 ## Töö planeerimine

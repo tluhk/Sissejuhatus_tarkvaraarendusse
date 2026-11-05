@@ -73,7 +73,7 @@ Nii ei tasu kirjutada: „Teeme Reacti ja PostgreSQL-iga moodsa veebirakenduse, 
 
 ### Kasutajalood
 
-Kasutajalugu seob kasutaja, vajaduse ja väärtuse ([näide](seminar.md#näide-tõendist-kasutajalooni)). Kontrolltingimus peab olema piisavalt konkreetne, et meeskond saaks hiljem arutada, kuidas nõude täitmist kontrollida. Ärge tuletage kasutajalugu AI vastusest või lahendusideest ilma tõendita.
+Kasutajalugu seob kasutaja, vajaduse ja väärtuse ([näide](seminar.md#näide-tõendist-kasutajalooni)). Kontrolltingimus peab olema piisavalt konkreetne, et meeskond saaks hiljem arutada, kuidas nõude täitmist kontrollida. Ärge tuletage kasutajalugu AI vastusest või lahendusideest ilma tõendita. Terviklik näide koos autori, ülevaataja ja lugude ühendamisega on [näidisfailis](user-stories-example.md).
 
 ## Töö planeerimine
 
