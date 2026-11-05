@@ -230,6 +230,16 @@ Süsteemi kontseptsioon valmib kodutöös.
 
 ---
 
+## Mis on süsteemi kontseptsioon?
+
+Süsteemi kontseptsioon on lühike kirjeldus sellest, mis süsteem see on, kellele see on mõeldud ja kuidas see põhimõtteliselt töötab.
+
+See ütleb, mida süsteem teeb, kuid mitte seda, millega see ehitatakse või kuidas see välja näeb.
+
+[Näide on kodutöös](homework.md#näide-süsteemi-kontseptsioonist)
+
+---
+
 ## Süsteemi kontseptsioon ja kõrgtaseme arhitektuur
 
 Arhitektuur näitab suuremaid osi, nende vastutust ja seoseid. Tehnoloogiapinu valimine pole eesmärk.

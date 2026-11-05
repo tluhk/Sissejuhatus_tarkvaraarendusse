@@ -4,7 +4,7 @@ Meeskonna ühine GitHubi töövoog on kirjas [projekti töökorralduse juhendis]
 
 ## Ülesanne lühidalt
 
-Põhjendage meeskonna tööviis ja süsteemi üldine kontseptsioon. Sõnastage vähemalt kaks kasutajalugu valideeritud vajaduse põhjal ning lisage kummalegi kontrolltingimus. Näidake rollide erinevaid vaatenurki, vaadake üksteise muudatused üle ning avaldage release `v0.2.0 – Tööviis ja süsteemi kontseptsioon`.
+Põhjendage meeskonna tööviis ja süsteemi üldine kontseptsioon. Süsteemi kontseptsioon on lühike kirjeldus sellest, mis süsteem see on, kellele see on mõeldud ja kuidas see põhimõtteliselt töötab. Sõnastage vähemalt kaks kasutajalugu valideeritud vajaduse põhjal ning lisage kummalegi kontrolltingimus. Näidake rollide erinevaid vaatenurki, vaadake üksteise muudatused üle ning avaldage release `v0.2.0 – Tööviis ja süsteemi kontseptsioon`.
 
 ## Maht
 
@@ -44,6 +44,32 @@ boundary`), mitte ainult tegevust (`update` või `fix`).
 Tööviisi otsus sisaldab vähemalt kolme võrreldud varianti. Selgitage, kuidas valik sobib just teie probleemi, ebakindluse ja meeskonnaga. Kui ühendate eri meetodite võtteid, nimetage iga võtte eesmärk.
 
 Süsteemi kontseptsiooni otsus sisaldab vähemalt kaht kaalutud lahendussuunda ning põhjendab süsteemi piiri. Ärge valige tehnoloogiapinu lihtsalt sellepärast, et see on tuttav või AI pakkus seda.
+
+### Näide süsteemi kontseptsioonist
+
+**See näide on väljamõeldud.** See lähtub demorepo probleemist, et kasutaja ei saa aru, kas tunniplaani info on värske. Teie kontseptsioon peab lähtuma teie tiimi kontrollitud probleemist, ärge kopeerige seda.
+
+> **Eesmärk:** tudeng näeb, kas tema tunniplaan on ajakohane ja mis on viimati muutunud.
+>
+> **Osalised:** tudeng vaatab, õppekorraldaja sisestab muudatusi.
+>
+> **Piir:** süsteem näitab tunniplaani ja muudatusi. Süsteem ei koosta tunniplaani ega broneeri ruume.
+>
+> **Teekond:** tudeng avab oma rühma plaani, näeb viimase uuenduse aega, märkab muutunud tundi ja saab sellest kohe aru.
+>
+> **Osad:** tunniplaani vaade, muudatuste kuvamine ja andmete uuendamine.
+>
+> **Info liikumine:** õppekorraldaja muudab plaani olemasolevas süsteemis, sealt jõuab info tunniplaani vaatesse koos ajatempliga.
+>
+> **Sõltuvus:** olemasolev tunniplaani andmeallikas.
+>
+> **Teadmatus:** kui kiiresti muudatus andmeallikast kohale jõuab?
+
+Kaks kaalutud lahendussuunda võiksid selles näites olla: **A)** lisada ajatempel ja muudatuste märge olemasolevale lehele; **B)** luua eraldi rakendus, mis saadab teavitusi. Otsuses selgitage, kumb lahendab kontrollitud probleemi paremini, mis on selle hind ja mida valik välja jätab.
+
+Nii ei tasu kirjutada: „Teeme Reacti ja PostgreSQL-iga moodsa veebirakenduse, kus on sinine menüü.” See nimetab tehnoloogia ja kujunduse, aga ei ütle, millist probleemi süsteem lahendab ega kus on selle piirid.
+
+### Kasutajalood
 
 Kasutajalugu seob kasutaja, vajaduse ja väärtuse. Kontrolltingimus peab olema piisavalt konkreetne, et meeskond saaks hiljem arutada, kuidas nõude täitmist kontrollida. Ärge tuletage kasutajalugu AI vastusest või lahendusideest ilma tõendita.
 

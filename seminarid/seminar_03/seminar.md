@@ -127,6 +127,8 @@ Ajahinnang on esialgne. Etapi lõpus võrdlete seda tegeliku ajakuluga ja märgi
 
 ## Süsteemi kontseptsioon ja kõrgtaseme arhitektuur
 
+Süsteemi kontseptsioon on lühike kirjeldus sellest, mis süsteem see on, kellele see on mõeldud ja kuidas see põhimõtteliselt töötab. See ütleb, mida süsteem teeb, kuid mitte seda, millega see ehitatakse või kuidas see välja näeb.
+
 Arhitektuur kirjeldab süsteemi suuremaid osi, nende vastutust ja omavahelisi seoseid. Selles kursuses teeme sellest lihtsa kõrgtaseme visandi, mitte detailset tehnilist arhitektuuri ega tehnoloogiapinu valikut. Kirjeldage piisavalt, et teine inimene mõistaks:
 
 - süsteemi eesmärki;
