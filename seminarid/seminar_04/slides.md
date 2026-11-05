@@ -35,7 +35,7 @@ Arendajad muudavad nõuded ja kavandi töötavaks tarkvaraks: kirjutavad koodi, 
 
 Sellel kursusel me rakendust ei ehita, sest eesmärk on näha kogu protsessi. Täna vaatame arendustööd väikese koodinäite kaudu.
 
-<!-- Tulevikus: arendaja töö võib nihkuda kirjutamiselt suunamisele ja kontrollile. Samaks jääb: arendaja peab tulemusest aru saama. -->
+<!-- Tulevikus: arendaja töö võib nihkuda kirjutamiselt suunamisele ja kontrollile. Samaks jääb: arendaja vaatab töö üle ja töövoogude arvu piirab see, kui palju ta suudab korralikult üle vaadata. -->
 
 ---
 
@@ -115,7 +115,7 @@ Kiire tarne võib kasvatada hooldusvõlga.
 - kuidas märkame?
 - kes reageerib?
 
-<!-- Tulevikus: reeglid võivad olla töövoogu sisse ehitatud, näiteks saladuste kaitse. Pelk juhis ei taga nende täitmist. Samaks jääb: vastutus jääb inimesele ja organisatsioonile. -->
+<!-- Tulevikus: reeglid võivad olla töövoogu sisse ehitatud, näiteks saladuste kaitse. Pelk juhis ei taga nende täitmist. Samaks jääb: reeglil on nimeline omanik. -->
 
 ---
 
@@ -167,7 +167,7 @@ function average(values) {
 }
 ```
 
-<!-- Tulevikus: kontrollid võivad käia pidevalt ja viga kinnitatakse enne parandust ebaõnnestuva testiga. Samaks jääb: keegi peab otsustama, mida õige tulemus tähendab. -->
+<!-- Tulevikus: kontrollid võivad käia pidevalt ja viga kinnitatakse enne parandust ebaõnnestuva testiga. Samaks jääb: parandav agent ei tohi kontrolli nõrgendada ja PR-i vaatab üle koodi omanik. -->
 
 ---
 
@@ -188,7 +188,7 @@ function average(values) {
 
 <!-- 5 minutit. Sisend [2, 4, 6] annab nüüd 4, tühi loend annab NaN. Kommenteerime koodi, mitte inimest. -->
 
-<!-- Tulevikus: AI võib teha esimese ülevaatuse ja järjestada leiud tõsiduse järgi. Samaks jääb: kriitilise muudatuse kinnitab inimene. -->
+<!-- Tulevikus: AI võib teha esimese ülevaatuse ja järjestada leiud tõsiduse järgi. Samaks jääb: koodi kirjutanud agent ei saa seda heaks kiita, kinnituse annab inimene. -->
 
 ---
 
@@ -218,8 +218,6 @@ Teek, pilveteenus, andmestik, font või AI-mudel toob lisaks kasule:
 - andmete liikumise
 - hinna ja jätkusuutlikkuse
 - sõltuvuse ja asendatavuse küsimuse
-
-<!-- Tulevikus: AI-väljundi puhul tuleb kontrollida ka tööriista tingimusi ja päritolu. Samaks jääb: kasutusluba tuleb enne kasutamist kontrollida. -->
 
 ---
 

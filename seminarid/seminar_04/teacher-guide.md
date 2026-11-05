@@ -39,7 +39,7 @@ Koodi ülevaatuses näita parandatud funktsiooni. Sisend `[2, 4, 6]` annab nüü
 
 ## Tulevikumärkused
 
-Slaidide õpetaja märkustes on rida „Tulevikus” ja „Samaks jääb”. Need tuginevad [lühijutule](../seminar_03/ai-native-sdlc-talk.md); iga märkuse jaoks on aega 20–30 sekundit ja ajapuuduse korral võib osa vahele jätta. Tööviisi, testimise ega kasutuselevõtu põhisõnumit need ei asenda. Seminari lõpu tuleviku küsimusele piisab ühest-kahest vastusest.
+Slaidide õpetaja märkustes on rida „Tulevikus” ja „Samaks jääb”. Need tuginevad artiklile, mida [lühijutt](../seminar_03/ai-native-sdlc-talk.md) tutvustab; iga märkuse jaoks on aega 20–30 sekundit ja ajapuuduse korral võib osa vahele jätta. Tööviisi, testimise ega kasutuselevõtu põhisõnumit need ei asenda. Seminari lõpu tuleviku küsimusele piisab ühest-kahest vastusest.
 
 ## Ohukohad
 

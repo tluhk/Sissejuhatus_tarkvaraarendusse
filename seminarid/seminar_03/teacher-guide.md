@@ -11,9 +11,9 @@ Seminar ei ole Scrumi kiirkursus ega detailse tehnilise arhitektuuri harjutus. T
 | Release `v0.1.0` ülevaade | 10 min |
 | Ametialased rollid: meenutus ja vaatenurkade kasutamine | 10 min |
 | Kasutajalood ja kontrollitavad funktsionaalsed nõuded | 15 min |
-| Lühijutt: kuidas AI arendust muudab | 2 min |
-| Waterfalli ja agiilse lähenemise meenutus; Scrum, Kanban, iteratiivsus ja Lean | 13 min |
-| GOV.UK alpha juhtum | 15 min |
+| Lühijutt: kuidas AI arendust muudab | 5 min |
+| Waterfalli ja agiilse lähenemise meenutus; Scrum, Kanban, iteratiivsus ja Lean | 11 min |
+| GOV.UK alpha juhtum | 14 min |
 | Rollide jagamine ja vaatenurgad | 5 min |
 | Tööviisi variantide võrdlus | 15 min |
 | Puhver | 5 min |
@@ -49,7 +49,7 @@ Seminar ei ole Scrumi kiirkursus ega detailse tehnilise arhitektuuri harjutus. T
 
 ## Tulevikumärkused
 
-Slaidide õpetaja märkustes on rida „Tulevikus” ja „Samaks jääb”. Need tuginevad [lühijutule](ai-native-sdlc-talk.md); iga märkuse jaoks on aega 20–30 sekundit ja ajapuuduse korral võib osa vahele jätta. Tööviisi, testimise ega kasutuselevõtu põhisõnumit need ei asenda. Seminari lõpu tuleviku küsimusele piisab ühest-kahest vastusest.
+Slaidide õpetaja märkustes on rida „Tulevikus” ja „Samaks jääb”. Need tuginevad artiklile, mida [lühijutt](ai-native-sdlc-talk.md) tutvustab; iga märkuse jaoks on aega 20–30 sekundit ja ajapuuduse korral võib osa vahele jätta. Tööviisi, testimise ega kasutuselevõtu põhisõnumit need ei asenda. Seminari lõpu tuleviku küsimusele piisab ühest-kahest vastusest. Artikkel ei käsitle Waterfalli, agiilset arendust, litsentse, tehnilist võlga ega süsteemi lõpetamist.
 
 ## Kodutöö selgitamisel
 

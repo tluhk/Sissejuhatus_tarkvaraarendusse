@@ -39,6 +39,8 @@ Päris kasutuses ilmnevad uued vajadused, vead ja kõrvalmõjud.
 
 Süsteemi tuleb jälgida, toetada, muuta ja lõpuks ka lõpetada.
 
+<!-- Tulevikus: seire leid võib muutuda automaatselt uueks tööks. Samaks jääb: teenuse omanik hindab leide. -->
+
 ---
 
 ## Väljund, tulemus ja mõju
@@ -70,7 +72,7 @@ Mõju kontrollimiseks on vaja lähtetaset, sobivat märki ja päris tagasisidet.
 - millal peatame või pöördume tagasi?
 - kes otsustab järgmise versiooni?
 
-<!-- Tulevikus: AI vabadus võib sõltuda keskkonnast: arenduses suurem, tootmises piiratud. Samaks jääb: tagasipööramine peab olema läbi mõeldud ja harjutatud. -->
+<!-- Tulevikus: AI vabadus võib sõltuda keskkonnast: arenduses suurem, tootmises piiratud. Samaks jääb: tootmisse viimise lubab release manager ja tagasipööramist harjutatakse ette. -->
 
 ---
 
@@ -82,7 +84,7 @@ Mõju kontrollimiseks on vaja lähtetaset, sobivat märki ja päris tagasisidet.
 - turbe- ja privaatsusjuhtumid
 - mõju algsele probleemile
 
-<!-- Tulevikus: agent võib uurida kõrvalekaldeid ja pakkuda parandust. Samaks jääb: mõõdik peab aitama otsustada. -->
+<!-- Tulevikus: agent võib uurida kõrvalekaldeid ja pakkuda parandust. Samaks jääb: leiu üle otsustab inimene: parandada kohe, planeerida hiljem või jätta kõrvale. -->
 
 ---
 
@@ -120,8 +122,6 @@ Tulevikku lükatud töö võib muuta järgmised muudatused raskemaks või riskan
 
 Otsetee hind ja tagasimaksmise vajadus peavad olema nähtavad.
 
-<!-- Tulevikus: kiire koodi loomine võib võlga kiiremini kasvatada, AI võib aidata seda ka vähendada. Samaks jääb: võlg ja selle hind peavad olema nähtavad. -->
-
 ---
 
 # Millal tuleks süsteem lõpetada?
@@ -131,8 +131,6 @@ Otsetee hind ja tagasimaksmise vajadus peavad olema nähtavad.
 ## Ka lõpetamine on arendusotsus
 
 Arvestada tuleb kasutajate, andmete, asendusteenuse, lepingute ja sõltuvustega.
-
-<!-- Tulevikus: seire leid võib muutuda automaatselt uueks tööks. Samaks jääb: keegi peab olema süsteemi omanik. -->
 
 ---
 
