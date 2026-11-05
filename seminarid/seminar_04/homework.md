@@ -51,6 +51,8 @@ AI võib aidata leida puuduvaid riskikategooriaid, kuid pikk üldine riskiloend 
 
 Iga õppija töötab enda Issue ja haruga, avab PR-i, vaatab üle teise õppija sisulise panuse ning kirjutab refleksiooni. Ülevaataja küsib vähemalt ühe kontrolli, mõju või vastutuse kohta käiva küsimuse.
 
+Kui seminaris jäi aega väheks, proovige terminalis väikese proovimuudatusega käske `git log --oneline`, `git diff` ja `git restore`. Selgitus on [töökorralduse juhendis](../../docs/projekti-tookorraldus.md#ajalugu-ja-muudatuse-tagasivõtmine).
+
 ## Release manager
 
 Uus release manager kontrollib tervikut, loob tag'i `v0.3.0` ja avaldab release'i pealkirjaga `Kvaliteedi- ja riskiplaan`.
