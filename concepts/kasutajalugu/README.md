@@ -31,4 +31,4 @@ Selles näites seatakse kasutajate lood järjekorda, lähtudes nende tähtsusest
 
 ## Kasutajaloo mall
 
-[Kasutajaloo mall](files/kasutajalood.pdf)
+[Kasutajaloo mall](../../seminarid/mallid/kasutajalugu.md)

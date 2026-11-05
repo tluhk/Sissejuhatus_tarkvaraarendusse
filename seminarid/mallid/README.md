@@ -3,6 +3,7 @@
 Need mallid toetavad seminaride 2–5 läbivat projekti.
 
 - [Otsuse mall](otsus.md)
+- [Kasutajaloo mall](kasutajalugu.md)
 - [Release notes'i mall](release-notes.md)
 - [Individuaalse refleksiooni mall](individuaalne-refleksioon.md)
 - [Pull request'i kontrollnimekiri](pull-request.md)

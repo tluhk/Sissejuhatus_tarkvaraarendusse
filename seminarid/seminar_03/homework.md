@@ -4,7 +4,7 @@ Meeskonna ühine GitHubi töövoog on kirjas [projekti töökorralduse juhendis]
 
 ## Ülesanne lühidalt
 
-Põhjendage meeskonna tööviis ja süsteemi üldine kontseptsioon. Süsteemi kontseptsioon on lühike kirjeldus sellest, mis süsteem see on, kellele see on mõeldud ja kuidas see põhimõtteliselt töötab. Iga tiimiliige sõnastab valideeritud vajaduse põhjal vähemalt ühe kasutajaloo koos kontrolltingimusega ([näide](seminar.md#näide-tõendist-kasutajalooni)) ja vaatab läbi ühe kaaslase loo. Kokku on tiimil vähemalt kaks lugu. Näidake rollide erinevaid vaatenurki, vaadake üksteise muudatused üle ning avaldage release `v0.2.0 – Tööviis ja süsteemi kontseptsioon`.
+Põhjendage meeskonna tööviis ja süsteemi üldine kontseptsioon. Süsteemi kontseptsioon on lühike kirjeldus sellest, mis süsteem see on, kellele see on mõeldud ja kuidas see põhimõtteliselt töötab. Iga tiimiliige sõnastab valideeritud vajaduse põhjal vähemalt ühe kasutajaloo koos kontrolltingimusega ([näide](seminar.md#näide-tõendist-kasutajalooni)) ja vaatab läbi ühe kaaslase loo. Kokku on tiimil vähemalt kaks lugu (juhul kui lood langevad kokku). Näidake rollide erinevaid vaatenurki, vaadake üksteise muudatused üle ning avaldage release `v0.2.0 – Tööviis ja süsteemi kontseptsioon`.
 
 ## Maht
 
@@ -26,12 +26,15 @@ Täiendage ka README-s rollide ja töövoo osa. Skeem on vabatahtlik, kui selge 
 Kontseptsiooni koostage skeemi „probleem → kasutaja teekond → kasutajalood → kontseptsioon” järjekorras ([selgitus](seminar.md#probleemist-kontseptsioonini)):
 
 **1. Kasutaja teekond.** Kirjeldage lühidalt tekstina, kuidas kasutaja praegu oma eesmärgini jõuab ja millistel sammudel ta takerdub. Prototüüpi ega kujundust ei nõuta.
+Vastutaja: pr-juht
 
-**2. Kasutajalood.** Lood teevad probleemist konkreetsed vajadused, mille täitmist saab kontrollida. Neist saavad backlog'i Issue'd ja seminaris 4 testjuhtumid. Iga tiimiliige kirjutab vähemalt ühe loo sammu kohta, kus probleem esineb ([näide](user-stories-example.md)). Lugu lähtub seminari 2 tõendist ja sellel on kontrolltingimus. Kokku on vähemalt kaks lugu. Kogu süsteemi ei pea lugudega katma.
+**2. Kasutajalood.** Lood teevad probleemist konkreetsed vajadused, mille täitmist saab kontrollida. Neist saavad backlog'i Issue'd ja seminaris 4 testjuhtumid. Iga tiimiliige kirjutab vähemalt ühe loo sammu kohta, kus probleem esineb ([mall](../mallid/kasutajalugu.md), [näide](user-stories-example.md)). Lugu lähtub seminari 2 tõendist ja sellel on kontrolltingimus. Kokku on vähemalt kaks lugu. Kogu süsteemi ei pea lugudega katma.
+Vastutajad: pr-juht, disainer
 
 **3. Ülevaatus.** Iga tiimiliige vaatab kaaslase PR-is läbi ühe loo: kas see lähtub tõendist ja kas kontrolltingimust saab kontrollida? Märkige iga loo juurde autor, tõend ja ülevaataja. Kattuvad või vastuolulised lood ühendage või täpsustage.
 
-**4. Kontseptsioon ja arhitektuur.** Kirjeldage süsteemi peamised osad ja nende vastutus, süsteemi piir, info liikumine ning välised sõltuvused. Iga osa peab olema vajalik mõne loo või sõltuvuse jaoks. Skeem pole kohustuslik, kui seosed selgitab tekst. Tehnoloogiapinu valida pole vaja.
+**4. Kontseptsioon ja arhitektuur.** Kirjeldage süsteemi peamised osad ja nende vastutus(mille jaoks nad on), osavamad ka info liikumine ning välised sõltuvused. Iga osa peab olema vajalik mõne loo või sõltuvuse jaoks. Kas skeem või teks, kui see seosed selgitab. Võib valida ka tehnoloogiapinu(stack).
+Vastutajad: disainer, arhitekt.
 
 ## Tööjaotus, umbes 8 tundi õppija kohta
 

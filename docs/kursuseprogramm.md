@@ -151,6 +151,7 @@ Meeskond esitleb projekti release'ide ajajoonena. Iga õppija selgitab vähemalt
 ## Mallid
 
 - [Otsus](../seminarid/mallid/otsus.md)
+- [Kasutajalugu](../seminarid/mallid/kasutajalugu.md)
 - [Release notes](../seminarid/mallid/release-notes.md)
 - [Individuaalne refleksioon](../seminarid/mallid/individuaalne-refleksioon.md)
 - [Pull request'i kontrollnimekiri](../seminarid/mallid/pull-request.md)
