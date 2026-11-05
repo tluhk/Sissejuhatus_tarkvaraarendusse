@@ -52,6 +52,10 @@ Seminar 3 seob valideeritud probleemi nõuete, töökorralduse ja süsteemi kont
 
 Projekti tulemus on dokumenteeritud arendusprotsess ja otsuste logi; töötavat rakendust ega klikitavat prototüüpi ei nõuta.
 
+## Kuidas AI arendust muudab?
+
+Elutsükli etapid jäävad samaks, kuid muutub see, kes mida teeb ja kus töö kinni jääb. Loe [lühijuttu ja selle allikat](ai-native-sdlc-talk.md). Seminarides 3–5 küsime iga teema juures: millist tööd võiks teha AI, kuidas tulemust kontrollime ja kes vastutab?
+
 ## Päris töö rollid
 
 Seminaris 2 nägime rolle tunniplaani näitel. Nüüd kasutame neid otsuste hindamisel. Roll kirjeldab vastutust ja vaatenurka. Ühel inimesel võib väikeses meeskonnas olla mitu rolli ning sama ametinimetus võib eri organisatsioonides tähendada erinevat tööd.

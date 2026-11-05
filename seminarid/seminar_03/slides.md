@@ -29,6 +29,16 @@ tagasiside → avaldamine ja hooldus
 
 ---
 
+## Kuidas AI arendust muudab?
+
+Etapid jäävad samaks. Muutub see, kes mida teeb ja kus töö kinni jääb.
+
+[Lühijutt ja allikas](ai-native-sdlc-talk.md)
+
+<!-- Räägi lühijutt, umbes 2 minutit. Ajakavas on selle jaoks eraldi rida. -->
+
+---
+
 # Kes otsustab, kuidas tarkvara tehakse?
 
 ---
@@ -55,6 +65,8 @@ Hea otsus sünnib vaatenurkade ja tõendite võrdlemisest.
 - testija või kvaliteedispetsialist
 - DevOps- ja käitusspetsialist
 - turbe- või andmekaitsespetsialist
+
+<!-- Tulevikus: tooteomanik võib AI koostatud kirjeldust üle vaadata, mitte seda ise kirjutada. Samaks jääb: keegi peab otsustama ja vastutama. -->
 
 ---
 
@@ -91,6 +103,8 @@ See kirjeldab funktsionaalset nõuet: mida süsteem peab võimaldama.
 Näiteks kontrollime, et tähtajad kuvatakse kuupäeva järjekorras ja iga tähtaja juures on kursuse nimi.
 
 Teie enda lood tulevad tunniplaani kohta kogutud tõenditest.
+
+<!-- Tulevikus: AI võib koostada soovi põhjal nõuete mustandi. Samaks jääb: nõue peab lähtuma kontrollitud vajadusest. -->
 
 ---
 
@@ -153,6 +167,8 @@ Agiilne ei tähenda, et plaani ega dokumentatsiooni pole.
 
 Võtteid võib põhjendatult kombineerida.
 
+<!-- Tulevikus: etapid võivad liikuda kiiremini ja üleandmised automatiseeruda. Samaks jääb: tööviis peab sobima projekti riskidega. -->
+
 ---
 
 ## Pärisprojekti peegel
@@ -183,6 +199,8 @@ GOV.UK alpha:
 
 <!-- Lühike selgitus, seejärel töötavad tiimid GitHub Projectsi tahvlil. Backlog'i olek on tahvlilt tuttav. -->
 
+<!-- Tulevikus: AI võib enne muudatusi pakkuda kirjaliku plaani: failid, järjekord ja testid. Samaks jääb: inimene kinnitab plaani ja seab tähtsuse järjekorra. -->
+
 ---
 
 ## Süsteemi kontseptsioon ja kõrgtaseme arhitektuur
@@ -196,6 +214,8 @@ Seostage kontseptsioon vähemalt kahe kasutajalooga ja kirjeldage:
 - suuremad osad või võimekused
 - oluline info liikumine
 - välised sõltuvused ja teadmatused
+
+<!-- Tulevikus: analüüs ja disain võivad toimuda ühes töösessioonis. Samaks jääb: süsteemi piiri ja kompromisse tuleb põhjendada. -->
 
 ---
 
@@ -233,6 +253,8 @@ Issue → haru → commit → PR → ülevaatus → merge
 
 Ülevaatus küsib põhjenduse, riski või alternatiivi kohta.
 
+<!-- Tulevikus: suure osa muudatustest võib kirjutada agent. Samaks jääb: ajalugu peab näitama, mis muutus ja miks. -->
+
 ---
 
 # Kas tööviisi võib hiljem muuta?
@@ -244,6 +266,12 @@ Issue → haru → commit → PR → ülevaatus → merge
 Ka algne valik peab olema põhjendatud.
 
 Muutus dokumenteeritakse uue info, mõju ja kompromissiga.
+
+---
+
+## Tuleviku küsimus
+
+Millist tänase teema tööd võiks teha AI, kuidas tulemust kontrolliksime ja kes vastutaks?
 
 ---
 

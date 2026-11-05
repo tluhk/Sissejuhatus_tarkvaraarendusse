@@ -35,6 +35,8 @@ Arendajad muudavad nõuded ja kavandi töötavaks tarkvaraks: kirjutavad koodi, 
 
 Sellel kursusel me rakendust ei ehita, sest eesmärk on näha kogu protsessi. Täna vaatame arendustööd väikese koodinäite kaudu.
 
+<!-- Tulevikus: arendaja töö võib nihkuda kirjutamiselt suunamisele ja kontrollile. Samaks jääb: arendaja peab tulemusest aru saama. -->
+
 ---
 
 # Kui tarkvara töötab, kas see on kvaliteetne?
@@ -113,6 +115,8 @@ Kiire tarne võib kasvatada hooldusvõlga.
 - kuidas märkame?
 - kes reageerib?
 
+<!-- Tulevikus: reeglid võivad olla töövoogu sisse ehitatud, näiteks saladuste kaitse. Pelk juhis ei taga nende täitmist. Samaks jääb: vastutus jääb inimesele ja organisatsioonile. -->
+
 ---
 
 ## Pärisprojekti peegel
@@ -163,6 +167,8 @@ function average(values) {
 }
 ```
 
+<!-- Tulevikus: kontrollid võivad käia pidevalt ja viga kinnitatakse enne parandust ebaõnnestuva testiga. Samaks jääb: keegi peab otsustama, mida õige tulemus tähendab. -->
+
 ---
 
 ## Koodi ülevaatus sama näitega
@@ -181,6 +187,8 @@ function average(values) {
 - Millise küsimuse sa ülevaatuses esitaksid?
 
 <!-- 5 minutit. Sisend [2, 4, 6] annab nüüd 4, tühi loend annab NaN. Kommenteerime koodi, mitte inimest. -->
+
+<!-- Tulevikus: AI võib teha esimese ülevaatuse ja järjestada leiud tõsiduse järgi. Samaks jääb: kriitilise muudatuse kinnitab inimene. -->
 
 ---
 
@@ -211,6 +219,8 @@ Teek, pilveteenus, andmestik, font või AI-mudel toob lisaks kasule:
 - hinna ja jätkusuutlikkuse
 - sõltuvuse ja asendatavuse küsimuse
 
+<!-- Tulevikus: AI-väljundi puhul tuleb kontrollida ka tööriista tingimusi ja päritolu. Samaks jääb: kasutusluba tuleb enne kasutamist kontrollida. -->
+
 ---
 
 ## Tänane meeskonnatöö
@@ -232,6 +242,12 @@ Teek, pilveteenus, andmestik, font või AI-mudel toob lisaks kasule:
 Kui uus info muudab otsust, on arendusprotsess oma eesmärki täitnud.
 
 Dokumenteerige põhjus, mõju ja kompromiss.
+
+---
+
+## Tuleviku küsimus
+
+Millist tänase teema tööd võiks teha AI, kuidas tulemust kontrolliksime ja kes vastutaks?
 
 ---
 

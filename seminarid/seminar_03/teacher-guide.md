@@ -11,7 +11,8 @@ Seminar ei ole Scrumi kiirkursus ega detailse tehnilise arhitektuuri harjutus. T
 | Release `v0.1.0` ülevaade | 10 min |
 | Ametialased rollid: meenutus ja vaatenurkade kasutamine | 10 min |
 | Kasutajalood ja kontrollitavad funktsionaalsed nõuded | 15 min |
-| Waterfalli ja agiilse lähenemise meenutus; Scrum, Kanban, iteratiivsus ja Lean | 15 min |
+| Lühijutt: kuidas AI arendust muudab | 2 min |
+| Waterfalli ja agiilse lähenemise meenutus; Scrum, Kanban, iteratiivsus ja Lean | 13 min |
 | GOV.UK alpha juhtum | 15 min |
 | Rollide jagamine ja vaatenurgad | 5 min |
 | Tööviisi variantide võrdlus | 15 min |
@@ -45,6 +46,10 @@ Seminar ei ole Scrumi kiirkursus ega detailse tehnilise arhitektuuri harjutus. T
 - Kasutaja teekonnast saab ekraanide kujundus. Too arutelu tagasi sammude juurde, mida kasutaja oma eesmärgi saavutamiseks teeb.
 - Rollid muutuvad tiitliteks. Nõua igalt rollilt vähemalt üht sisulist küsimust või vastuväidet.
 - Üks õppija kirjutab kõik. Kontrolli PR-ide ja ülevaatuste ajalugu.
+
+## Tulevikumärkused
+
+Slaidide õpetaja märkustes on rida „Tulevikus” ja „Samaks jääb”. Need tuginevad [lühijutule](ai-native-sdlc-talk.md); iga märkuse jaoks on aega 20–30 sekundit ja ajapuuduse korral võib osa vahele jätta. Tööviisi, testimise ega kasutuselevõtu põhisõnumit need ei asenda. Seminari lõpu tuleviku küsimusele piisab ühest-kahest vastusest.
 
 ## Kodutöö selgitamisel
 

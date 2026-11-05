@@ -33,7 +33,11 @@ Seminar laiendab arenduse piiri tootmisest kasutuselevõtu, käituse, õppimise,
 - Demo neelab kogu aja. Nõua enne alustamist oletust, tagasisideallikat ja ajalimiiti.
 - Ajajoon loetleb iga faili. Palu jätta alles ainult arusaamise muutust näitavad sündmused.
 
+## Tulevikumärkused
+
+Slaidide õpetaja märkustes on rida „Tulevikus” ja „Samaks jääb”. Need tuginevad [lühijutule](../seminar_03/ai-native-sdlc-talk.md); iga märkuse jaoks on aega 20–30 sekundit ja ajapuuduse korral võib osa vahele jätta. Tööviisi, testimise ega kasutuselevõtu põhisõnumit need ei asenda. Seminari lõpu tuleviku küsimusele piisab ühest-kahest vastusest.
+
 ## Eksamile üleminek
 
-Viimased 15 minutit kasuta `v1.0.0` ning esitluse vastutuste jagamiseks. Iga õppija peab esitlusel selgitama vähemalt üht otsust või release'i.
+Viimased 15 minutit kasuta `v1.0.0` ning esitluse vastutuste jagamiseks. Iga õppija peab esitlusel selgitama vähemalt üht otsust või release'i. Eksami tulevikumärkus: otsuste ahelast võib saada ka auditi jälg, kuid õppija peab oskama oma tööd ise selgitada.
 

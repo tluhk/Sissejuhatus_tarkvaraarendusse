@@ -70,6 +70,8 @@ Mõju kontrollimiseks on vaja lähtetaset, sobivat märki ja päris tagasisidet.
 - millal peatame või pöördume tagasi?
 - kes otsustab järgmise versiooni?
 
+<!-- Tulevikus: AI vabadus võib sõltuda keskkonnast: arenduses suurem, tootmises piiratud. Samaks jääb: tagasipööramine peab olema läbi mõeldud ja harjutatud. -->
+
 ---
 
 ## Seire ühendab vaatenurgad
@@ -79,6 +81,8 @@ Mõju kontrollimiseks on vaja lähtetaset, sobivat märki ja päris tagasisidet.
 - toe pöördumised
 - turbe- ja privaatsusjuhtumid
 - mõju algsele probleemile
+
+<!-- Tulevikus: agent võib uurida kõrvalekaldeid ja pakkuda parandust. Samaks jääb: mõõdik peab aitama otsustada. -->
 
 ---
 
@@ -116,6 +120,8 @@ Tulevikku lükatud töö võib muuta järgmised muudatused raskemaks või riskan
 
 Otsetee hind ja tagasimaksmise vajadus peavad olema nähtavad.
 
+<!-- Tulevikus: kiire koodi loomine võib võlga kiiremini kasvatada, AI võib aidata seda ka vähendada. Samaks jääb: võlg ja selle hind peavad olema nähtavad. -->
+
 ---
 
 # Millal tuleks süsteem lõpetada?
@@ -125,6 +131,8 @@ Otsetee hind ja tagasimaksmise vajadus peavad olema nähtavad.
 ## Ka lõpetamine on arendusotsus
 
 Arvestada tuleb kasutajate, andmete, asendusteenuse, lepingute ja sõltuvustega.
+
+<!-- Tulevikus: seire leid võib muutuda automaatselt uueks tööks. Samaks jääb: keegi peab olema süsteemi omanik. -->
 
 ---
 
@@ -182,6 +190,12 @@ Valige sündmused, mis näitavad arusaamise, otsuse või põhjenduse muutumist.
 3. Valige otsustamiseks vajalikud märgid.
 4. Kirjeldage hooldus ja lõpetamine.
 5. Alustage release'ide ajajoont.
+
+---
+
+## Tuleviku küsimus
+
+Millist tänase teema tööd võiks teha AI, kuidas tulemust kontrolliksime ja kes vastutaks?
 
 ---
 
