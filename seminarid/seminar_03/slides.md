@@ -292,20 +292,6 @@ Ilus kastide kogum ilma põhjendatud piiride ja seosteta ei ole arhitektuuriline
 
 ---
 
-## GitHubis
-
-```text
-Issue → haru → commit → PR → ülevaatus → merge
-```
-
-Üks commit on üks loogiline muudatus. Sõnum ütleb, mida muudeti, näiteks `Describe system boundary`.
-
-Ülevaatus küsib põhjenduse, riski või alternatiivi kohta.
-
-<!-- Tulevikus: suure osa muudatustest võib kirjutada agent. Samaks jääb: ajalugu näitab, kes mida küsis, mida tehti ja kes kinnitas. -->
-
----
-
 ## Merge-konflikt
 
 Tekib, kui kaks haru muudavad sama rida. Git ei tea, kumb muudatus jätta, ja otsuse teeb inimene.
@@ -339,6 +325,20 @@ git push
 `git add` tuleb pärast faili parandamist. [Juhend](../../concepts/mergeConflict/README.md)
 
 <!-- Näita sama lahendust paralleelselt ka VS Code'is. -->
+
+---
+
+## GitHubis
+
+```text
+Issue → haru → commit → PR → ülevaatus → merge
+```
+
+Üks commit on üks loogiline muudatus. Sõnum ütleb, mida muudeti, näiteks `Describe system boundary`.
+
+Ülevaatus küsib põhjenduse, riski või alternatiivi kohta.
+
+<!-- Tulevikus: suure osa muudatustest võib kirjutada agent. Samaks jääb: ajalugu näitab, kes mida küsis, mida tehti ja kes kinnitas. -->
 
 ---
 

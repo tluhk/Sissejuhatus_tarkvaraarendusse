@@ -2,7 +2,7 @@
 
 ## Fookus
 
-Seminar ei ole Scrumi kiirkursus ega detailse tehnilise arhitektuuri harjutus. Tööviise ja rolle on seminarides 1–2 juba tutvustatud: ära õpeta neid uuesti, vaid lase õppijatel neid oma projektis rakendada. Õppijad teevad süsteemist kõrgtaseme arhitektuurikirjelduse. Fookus on sellel, kuidas rollid ja tööviis aitavad ebakindluse tingimustes põhjendatud otsuseid teha.
+Seminar ei ole Scrumi kiirkursus ega detailse tehnilise arhitektuuri harjutus. Tööviise ja rolle on seminarides 1–2 juba tutvustatud: ära õpeta neid uuesti, vaid lase õppijatel neid oma projektis rakendada. Õppijad tutvuvad kõrgtaseme arhitektuuri kirjeldusega ja teevad selle kodutöös. Fookus on sellel, kuidas rollid ja tööviis aitavad ebakindluse tingimustes põhjendatud otsuseid teha.
 
 ## I osa, 90 minutit
 

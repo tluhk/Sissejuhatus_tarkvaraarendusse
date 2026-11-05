@@ -9,7 +9,7 @@ Seminari lõpuks õppija:
 - tunneb tarkvaraarenduse levinud ametialaseid rolle;
 - eristab rolli ametinimetusest ja konkreetsest inimesest;
 - sõnastab valideeritud vajadusest kasutajaloo ja selle kontrolltingimuse ([näide](#näide-tõendist-kasutajalooni));
-- võrdleb järjestikust, iteratiivset ja voopõhist tööviisi;
+- võrdleb Waterfalli, iteratiivset ja agiilset tööviisi;
 - valib meeskonnale sobiva tööviisi ning põhjendab valikut;
 - koostab järgmise etapi backlog'i ning kasutab ajahinnangu võrdlusest saadud õppetundi;
 - teab, kuidas kirjeldada süsteemi eesmärki, piiri, osalisi, suuremaid osi ja nendevahelisi seoseid kõrgtaseme arhitektuurina, ning teeb selle kodutöös;
