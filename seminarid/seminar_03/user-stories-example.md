@@ -1,6 +1,16 @@
 # Näidis: probleemist kasutajalugudeni
 
-See näide on väljamõeldud. See näitab, kuidas valideeritud probleemist saavad kasutaja teekond, mitu kasutajalugu ja backlog. Teie lood peavad lähtuma teie tiimi kogutud tõenditest, ärge kopeerige neid.
+See näide on väljamõeldud. See näitab, kuidas valideeritud probleemist saavad kasutaja teekond, mitu kasutajalugu, süsteemi kontseptsioon ja backlog. Teie lood peavad lähtuma teie tiimi kogutud tõenditest, ärge kopeerige neid.
+
+```text
+v0.1.0 probleem + tõendid                    → osa 1
+   ↓
+kasutaja teekond                             → osa 2
+   ↓
+kasutajalood                                 → osad 3–5
+   ↓
+kontseptsioon                                → osa 6
+```
 
 ## 1. Probleem (`v0.1.0` lähteülesanne)
 
@@ -37,7 +47,7 @@ See näide on väljamõeldud. See näitab, kuidas valideeritud probleemist saava
 4. Leian järgmise loengu aja ja ruumi.
 5. Kontrollin, et vaatan oma rühma tunniplaani.
 
-Lood kirjutatakse teekonna etappide kaupa, mitte süsteemi osade kaupa.
+Lood kirjutatakse teekonna sammude kaupa, mitte süsteemi osade kaupa. Probleem esineb sammudes 2–5, seega on lood ainult nende kohta. Sammu 1 kohta lugu pole, sest seal probleemi ei tõendatud.
 
 ## 3. Kasutajalood
 
@@ -127,14 +137,49 @@ Kui lood on vastuolus, näiteks üks tudeng tahab rohkem infot ja teine vähem, 
 
 Need teemad lähevad lahtiste küsimuste alla, mitte backlog'i.
 
-## 6. Mis edasi
+## 6. Süsteemi kontseptsioon
+
+Kontseptsioon koondab lood süsteemiks. Iga osa juures on näha, millise loo või sõltuvuse jaoks see on vajalik.
+
+> **Eesmärk:** tudeng leiab telefonis ja arvutis kiiresti oma rühma järgmise loengu aja ja ruumi ning on kindel, et see on tema rühma info.
+>
+> **Osalised:** tudeng vaatab tunniplaani; tunniplaani koostaja sisestab selle olemasolevas tunniplaanisüsteemis.
+>
+> **Piir:** süsteem näitab tudengi tunniplaani ja aitab tal oma rühmani jõuda. Süsteem ei koosta tunniplaani, ei muuda õpingukava ega võta vastu puudumisteateid.
+>
+> **Teekond:** vt osa 2.
+>
+> **Osad:**
+>
+> - rühma valik ja valitud rühma näitamine – lood 1 ja 3;
+> - järgmise loengu vaade – lugu 2;
+> - tunniplaani andmete lugemine – kõik lood;
+> - õpingukava andmete lugemine – lugu 4, hilisem etapp.
+>
+> **Info liikumine:** koostaja sisestab tunniplaani tunniplaanisüsteemi. Sealt loeb süsteem valitud rühma loengud ja näitab tudengile järgmist. Valikainete jaoks oleks vaja ka ÕIS-i õpingukava andmeid.
+>
+> **Välised sõltuvused:** tunniplaanisüsteem (kõik lood) ja ÕIS (lugu 4).
+>
+> **Teadmatused:** kui palju samme ja aega kulub praegu? Kas kolledži leht kasutab sama töövoogu, mida kirjeldab juhend? Kas ÕIS-i andmeid saab üldse kasutada?
+
+### Kaks lahendussuunda
+
+- **A) Parandada olemasolevat tunniplaanilehte:** valitud rühm on alati nähtav ja järgmine loeng kohe ees. Katab lood 1–3 ja sõltub ainult tunniplaanisüsteemist.
+- **B) Luua isiklik tunniplaan, mis ühendab tunniplaanisüsteemi ja ÕIS-i andmed.** Katab ka loo 4, kuid sõltub ÕIS-ist, mille andmete kasutamine on teadmata.
+
+Näidistiim valis A, sest see lahendab tõendatud probleemi väiksema riskiga. B jääb lahtiseks küsimuseks, kuni on selge, kas ÕIS-i andmeid saab kasutada.
+
+### Kontroll
+
+| Küsimus | Vastus näites |
+|---|---|
+| Kas igal sammul, kus probleem esineb, on vähemalt üks lugu? | Jah: samm 2 – lugu 3, samm 3 – lugu 3, samm 4 – lood 2 ja 4, samm 5 – lugu 1. |
+| Kas iga lugu on seotud teekonna sammuga? | Jah. Halvad näited osas 5 ei olnud ja jäid välja. |
+| Kas iga kontseptsiooni osa on vajalik mõne loo või sõltuvuse jaoks? | Jah, iga osa juures on lugu märgitud. |
+
+## 7. Mis edasi
 
 1. **Lähtetase:** 2–3 tudengit leiavad telefonis ja arvutis oma järgmise loengu. Loetakse kokku sammud ja aeg. Ilma selleta ei saa lugude 2 ja 3 kontrolltingimusi hinnata.
 2. **Jaotus:** iga tiimiliige kirjutab ühe loo ja vaatab PR-is üle kaaslase loo.
 3. **Backlog:** lood 1–3 lähevad Projectsi Issue'dena koos ajahinnanguga. Lugu 4 jääb sõltuvuse taha.
-4. **Süsteemi kontseptsioon:**
-   - teekond tuleb punktist 2;
-   - osalised on tudeng ja tunniplaani koostaja;
-   - välised sõltuvused on tunniplaanisüsteem ja ÕIS;
-   - piir: puudumisest teatamine jääb süsteemist välja.
-5. **Seminar 4:** kontrolltingimustest saavad testjuhtumid ja lugu 4 läheb riskide alla.
+4. **Seminar 4:** kontrolltingimustest saavad testjuhtumid ja lugu 4 läheb riskide alla.

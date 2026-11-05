@@ -105,6 +105,23 @@ Rollivahetus aitab mõista, miks arhitekt, disainer, arendaja ja kvaliteedispets
 
 ---
 
+## Probleemist kontseptsioonini
+
+```text
+v0.1.0 probleem + tõendid
+   ↓
+kasutaja teekond: kuidas kasutaja praegu eesmärgini jõuab, kus takerdub
+   ↓
+kasutajalood: üks või mitu lugu igale sammule, kus probleem esineb
+   ↓
+kontseptsioon: osad, piir, info liikumine ja sõltuvused, mis on vajalikud,
+et need lood saaksid täidetud
+```
+
+Lood katavad ainult teekonna samme, kus probleem esineb, mitte kogu rakendust. [Näide](user-stories-example.md)
+
+---
+
 ## Kasutajalugu seob kasutaja, tegevuse ja väärtuse
 
 > Kasutajana soovin [tegevust või võimalust], et [saavutatav väärtus].

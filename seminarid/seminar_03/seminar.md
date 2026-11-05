@@ -102,6 +102,33 @@ Arutage:
 
 Allikas: [How the alpha phase works](https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works)
 
+## Probleemist kontseptsioonini
+
+Kasutajalood ja süsteemi kontseptsioon ei sünni eraldi. Mõlemad tulevad valideeritud probleemist:
+
+```text
+v0.1.0 probleem + tõendid
+   ↓
+kasutaja teekond: kuidas kasutaja praegu eesmärgini jõuab, kus takerdub
+   ↓
+kasutajalood: üks või mitu lugu igale sammule, kus probleem esineb
+   ↓
+kontseptsioon: osad, piir, info liikumine ja sõltuvused, mis on vajalikud,
+et need lood saaksid täidetud
+```
+
+Teekond on sild probleemi ja lugude vahel. Kontseptsioon koondab lood süsteemiks. Töö käib edasi-tagasi: kui kontseptsiooni kirjutades selgub uus sõltuvus, võib sellest tekkida uus lugu või lahtine küsimus.
+
+**Kui palju lugusid on vaja?** Kontseptsioon kirjeldab kogu süsteemi üldiselt. Kasutajalood katavad ainult neid teekonna samme, kus probleem esineb. Kogu rakendust ei pea lugudega katma.
+
+Kontrollige:
+
+1. Kas igal teekonna sammul, kus probleem esineb, on vähemalt üks lugu?
+2. Kas iga lugu on seotud mõne teekonna sammuga? Kui ei ole, on see tõenäoliselt lahendusidee või hoopis teise probleemi lugu.
+3. Kas iga kontseptsiooni osa on vajalik mõne loo või sõltuvuse jaoks? Kui ei ole, on see üleliigne või jääb süsteemi piirist välja.
+
+Terviklik näide on failis [Näidis: probleemist kasutajalugudeni](user-stories-example.md).
+
 ## Valideeritud vajadusest kasutajaloona nõudeni
 
 Probleem ja tõend kirjeldavad, miks muutust vaja on. **Kasutajalugu** aitab sõnastada, mida kindel kasutaja tahab teha ja miks:
@@ -157,6 +184,8 @@ Arhitektuur kirjeldab süsteemi suuremaid osi, nende vastutust ja omavahelisi se
 - osade vastutust ja seda, kus vajalik info paikneb;
 - kõige suuremaid teadmatusi.
 
+Kontseptsiooni osad tulenevad kasutajalugudest ja sõltuvustest, vt [Probleemist kontseptsioonini](#probleemist-kontseptsioonini).
+
 Skeem on kasulik ainult siis, kui see selgitab mõtet. Ilus, kuid põhjendamata kastide kogum ei ole eesmärk.
 
 ## Hea commit'i sõnum
@@ -171,7 +200,7 @@ Seni töötas igaüks oma failis. Nüüd kirjutate ühiseid otsusefaile, nii et 
 
 1. Vaadake üle oma tiimi release `v0.1.0` (`https://github.com/TLUHK-RIF26/tiim-XX-tunniplaan/releases/tag/v0.1.0`, `XX` asemel tiimi number). Mis muutus teie arusaamas kasutaja probleemist, kui sellega kodutöös tegelesite? Nimetage üks asi.
 2. Jagage selleks etapiks rollid. Iga õppija võtab uue vaatenurga.
-3. Võrrelge vähemalt kolme tööviisi projekti ebakindluse, mahu ja meeskonna järgi.
+3. Võrrelge vähemalt kolme tööviisi projekti ebakindluse, mahu ja meeskonna järgi. Meil on vaja vähemalt: 1) Projekti juht 2) Release manager 3) Disainer vastutab üldise kontseptsiooni eest 4) arhitekt – uurib, milline tehnoloogiline lahendus võiks olla 5) tooteomanik
 4. Looge `decisions/002-tooviisi-valik.md`.
 5. Koostage GitHub Projectsi tahvlile järgmise etapi backlog: Issue'd, järjekord, vastutajad ja ajahinnangud. Leppige kokku ka ülevaatajad.
 6. Iga tiimiliige sõnastab tunniplaani kohta kogutud tõendite põhjal vähemalt ühe kasutajaloo koos kontrolltingimusega ja vaatab läbi ühe kaaslase loo ([näide](#näide-tõendist-kasutajalooni)). Kokku on tiimil vähemalt kaks lugu.

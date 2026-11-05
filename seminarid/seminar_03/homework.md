@@ -23,7 +23,15 @@ reflections/oppija-nimi-v0.2.0.md
 
 Täiendage ka README-s rollide ja töövoo osa. Skeem on vabatahtlik, kui selge tekst annab sama info edasi. GitHub Projectsi tahvlil on etapi backlog: igal Issue'l on vastutaja ja ajahinnang.
 
-Iga tiimiliige kirjutab vähemalt ühe kasutajaloo koos kontrolltingimusega ([näide](seminar.md#näide-tõendist-kasutajalooni)). Lugu peab lähtuma seminaris 2 kogutud tõendist. Iga tiimiliige vaatab läbi ka ühe kaaslase loo: kas see lähtub tõendist ja kas kontrolltingimust saab kontrollida? Ülevaatus käib kaaslase PR-is. Märkige iga loo juurde autor, tõend ja ülevaataja. Kokku peab kontseptsioonis olema vähemalt kaks kasutajalugu. Kui lood kattuvad või on vastuolus, ühendage või täpsustage need. Kirjeldage lühidalt tekstina, kuidas kasutaja oma eesmärgini jõuab; prototüüpi ega kujundust ei nõuta. Kirjeldage kontseptsioonis ka kõrgtaseme arhitektuuri: süsteemi peamised osad, nende vastutus, süsteemi piir, info liikumine ning olulised välised sõltuvused. Skeem pole kohustuslik, kui samad seosed selgitab tekst. See ei nõua tehnoloogiapinu valimist. Kõiki nõudeid ei pea selles etapis ammendavalt loetlema.
+Kontseptsiooni koostage skeemi „probleem → kasutaja teekond → kasutajalood → kontseptsioon” järjekorras ([selgitus](seminar.md#probleemist-kontseptsioonini)):
+
+**1. Kasutaja teekond.** Kirjeldage lühidalt tekstina, kuidas kasutaja praegu oma eesmärgini jõuab ja millistel sammudel ta takerdub. Prototüüpi ega kujundust ei nõuta.
+
+**2. Kasutajalood.** Lood teevad probleemist konkreetsed vajadused, mille täitmist saab kontrollida. Neist saavad backlog'i Issue'd ja seminaris 4 testjuhtumid. Iga tiimiliige kirjutab vähemalt ühe loo sammu kohta, kus probleem esineb ([näide](user-stories-example.md)). Lugu lähtub seminari 2 tõendist ja sellel on kontrolltingimus. Kokku on vähemalt kaks lugu. Kogu süsteemi ei pea lugudega katma.
+
+**3. Ülevaatus.** Iga tiimiliige vaatab kaaslase PR-is läbi ühe loo: kas see lähtub tõendist ja kas kontrolltingimust saab kontrollida? Märkige iga loo juurde autor, tõend ja ülevaataja. Kattuvad või vastuolulised lood ühendage või täpsustage.
+
+**4. Kontseptsioon ja arhitektuur.** Kirjeldage süsteemi peamised osad ja nende vastutus, süsteemi piir, info liikumine ning välised sõltuvused. Iga osa peab olema vajalik mõne loo või sõltuvuse jaoks. Skeem pole kohustuslik, kui seosed selgitab tekst. Tehnoloogiapinu valida pole vaja.
 
 ## Tööjaotus, umbes 8 tundi õppija kohta
 
@@ -73,6 +81,8 @@ Nii ei tasu kirjutada: „Teeme Reacti ja PostgreSQL-iga moodsa veebirakenduse, 
 
 ### Kasutajalood
 
+Lood ja kontseptsioon tulevad samast probleemist: probleem → kasutaja teekond → kasutajalood → kontseptsioon ([selgitus](seminar.md#probleemist-kontseptsioonini)).
+
 Kasutajalugu seob kasutaja, vajaduse ja väärtuse ([näide](seminar.md#näide-tõendist-kasutajalooni)). Kontrolltingimus peab olema piisavalt konkreetne, et meeskond saaks hiljem arutada, kuidas nõude täitmist kontrollida. Ärge tuletage kasutajalugu AI vastusest või lahendusideest ilma tõendita. Terviklik näide koos autori, ülevaataja ja lugude ühendamisega on [näidisfailis](user-stories-example.md).
 
 ## Töö planeerimine
@@ -109,6 +119,7 @@ Release manageri roll läheb õppijale, kes ei teinud eelmist release'i. Ta kont
 - [ ] Süsteemi eesmärk, kasutaja teekond, piir, osalised, suuremad osad, nende vastutus, seosed ja sõltuvused on arusaadavad.
 - [ ] Iga tiimiliige on kirjutanud vähemalt ühe kasutajaloo ja vaadanud läbi ühe kaaslase loo; kokku on vähemalt kaks lugu ([näide](seminar.md#näide-tõendist-kasutajalooni)).
 - [ ] Iga lugu lähtub tõendist ning selle juures on kontrolltingimus, autor, tõend ja ülevaataja.
+- [ ] Iga lugu on seotud teekonna sammuga ja iga kontseptsiooni osa on vajalik mõne loo või sõltuvuse jaoks.
 - [ ] Alternatiivid, kompromissid ja teadmatused on nähtavad.
 - [ ] Rollide vaatenurgad mõjutasid vähemalt üht otsust.
 - [ ] Igal õppijal on Issue, commit, PR, ülevaatus ja refleksioon.
