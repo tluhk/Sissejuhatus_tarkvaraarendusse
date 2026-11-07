@@ -69,7 +69,7 @@ Suuremas tiimis võib lisada tootejuhi. Kontrolli, et rollid ja vastutajad on RE
 
 Seminaris alustavad tiimid faili `decisions/003-susteemi-kontseptsioon.md` kasutaja teekonna ja kasutajalugudega ([näide](seminar.md#näide-tõendist-kasutajalooni)). Iga õppija lisab oma loo enda PR-iga, mis annab ka merge-konflikti harjutuse. Süsteemi kontseptsiooni ja arhitektuuri ainult tutvusta: need lisatakse samasse faili kodutöös.
 
-Seminaris lahendab konflikti üks paar tiimi kohta. Kodutöös lahendab konflikti iga õppija, kes seminaris seda ise ei teinud. Olukord tekib, kui kaks liiget lisavad loo samal ajal osa „Kasutajalood” lõppu. Kontrolli konflikti lahendaja PR-i kommentaari: fail ja osa, kokku puutunud PR-id, mis jäi alles ja miks ning lahendava commit'i link.
+Kodutöös lahendab konflikti iga tiimiliige [merge-konflikti harjutuse](merge-conflict-exercise.md) järgi: lood lisatakse ahelana ja disainer lahendab viimase konflikti lugude kokkuvõttega. Kontrolli konflikti lahendaja PR-i kommentaari: fail ja osa, kelle muudatustega see kokku puutus ning mis jäi alles ja miks. Hindamine on failis [homework-grading.md](homework-grading.md).
 
 Seminari 2 failid jäävad alles. Kui tiimi arusaam probleemist muutus, kirjutatakse muutus faili `003` ja `releases/v0.2.0.md` osasse „Mis muutus pärast eelmist release'i?”, mitte üle faili `001`.
 

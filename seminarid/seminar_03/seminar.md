@@ -194,7 +194,7 @@ Commit'i häid tavasid harjutasime seminaris 2. Kasutage neid nüüd otsuste tö
 
 ## Merge-konflikt
 
-Seni töötas igaüks oma failis. Nüüd kirjutate ühiseid otsusefaile, nii et kaks haru võivad muuta sama rida. Siis tekib merge-konflikt: Git ei tea, kumb muudatus jätta, ja otsuse teeb inimene. Täpsed käsud on [konfliktide lahendamise juhendis](../../concepts/mergeConflict/README.md).
+Seni töötas igaüks oma failis. Nüüd kirjutate ühiseid otsusefaile, nii et kaks haru võivad muuta sama rida. Siis tekib merge-konflikt: Git ei tea, kumb muudatus jätta, ja otsuse teeb inimene. Täpsed käsud on [konfliktide lahendamise juhendis](../../concepts/mergeConflict/README.md). Kodutöös harjutate seda [merge-konflikti harjutuse](merge-conflict-exercise.md) järgi.
 
 ## Seminari praktiline töö
 
@@ -230,4 +230,20 @@ Seminari lõpuks on:
 
 ## Kodutöö ja release
 
-[Kodutöö 3: release `v0.2.0`](homework.md)
+[Kodutöö 3: süsteemi kontseptsioon, tööviis ja release `v0.2.0`](homework.md)
+
+## Kodutöö 3 abimaterjal
+
+Failiteed on kursuse materjalide repos [`tluhk/Sissejuhatus_tarkvaraarendusse`](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse). Teie tiimi repo failid on tähistatud ilma selle eesliiteta, näiteks `decisions/001-probleemi-valik.md`.
+
+| Samm | Kust leiad abi |
+|---|---|
+| Töövoog | [projekti töökorraldus](../../docs/projekti-tookorraldus.md) (`docs/projekti-tookorraldus.md`) |
+| 1. Rollid | [Päris töö rollid](#päris-töö-rollid) (selles failis), [rollide selgitus](../../concepts/rollid/README.md) (`concepts/rollid/README.md`) |
+| 2. Kasutaja teekond | [Probleemist kontseptsioonini](#probleemist-kontseptsioonini) (selles failis), [näide](user-stories-example.md#2-kasutaja-teekond) (`seminarid/seminar_03/user-stories-example.md`), [kasutajateekonna selgitus](../../concepts/kasutajateekond/README.md) (`concepts/kasutajateekond/README.md`) |
+| 3. Kasutajalood | [Valideeritud vajadusest kasutajaloona](#valideeritud-vajadusest-kasutajaloona-nõudeni) (selles failis), [mall](../mallid/kasutajalugu.md) (`seminarid/mallid/kasutajalugu.md`), [näide](user-stories-example.md#3-kasutajalood) (`seminarid/seminar_03/user-stories-example.md`). Tõendid on teie failis `decisions/001-probleemi-valik.md`. |
+| 4. Merge-konflikt | [harjutus](merge-conflict-exercise.md) (`seminarid/seminar_03/merge-conflict-exercise.md`), [konfliktide lahendamise juhend](../../concepts/mergeConflict/README.md) (`concepts/mergeConflict/README.md`) |
+| 5. Disain ja arhitektuur | [Süsteemi kontseptsioon ja kõrgtaseme arhitektuur](#süsteemi-kontseptsioon-ja-kõrgtaseme-arhitektuur) (selles failis), [näide](user-stories-example.md#6-süsteemi-kontseptsioon) (`seminarid/seminar_03/user-stories-example.md`) |
+| 6. Tööviis ja planeerimine | [Tööviisid](#tööviisid-ei-ole-usutunnistused) (selles failis), [arendusmeetodite juhend](../../concepts/arendusmeetodid/README.md) (`concepts/arendusmeetodid/README.md`), [otsuse mall](../mallid/otsus.md) (`seminarid/mallid/otsus.md`), [töö planeerimine](#töö-planeerimine) (selles failis) |
+| 7. Release | [release notes'i mall](../mallid/release-notes.md) (`seminarid/mallid/release-notes.md`), [release'i loomine](../seminar_02/peatukid/07-kodutoo-ja-release.md#release-v010) (`seminarid/seminar_02/peatukid/07-kodutoo-ja-release.md`). Tag on `v0.2.0`, pealkiri „Tööviis ja süsteemi kontseptsioon”. |
+| 8. Refleksioon | [refleksiooni mall](../mallid/individuaalne-refleksioon.md) (`seminarid/mallid/individuaalne-refleksioon.md`) |

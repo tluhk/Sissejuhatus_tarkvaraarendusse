@@ -275,7 +275,7 @@ Süsteemi kontseptsioon on lühike kirjeldus sellest, mis süsteem see on, kelle
 
 See ütleb, mida süsteem teeb, kuid mitte seda, millega see ehitatakse või kuidas see välja näeb.
 
-[Näide on kodutöös](homework.md#näide-süsteemi-kontseptsioonist)
+[Näide: süsteemi kontseptsioon](user-stories-example.md#6-süsteemi-kontseptsioon)
 
 ---
 
