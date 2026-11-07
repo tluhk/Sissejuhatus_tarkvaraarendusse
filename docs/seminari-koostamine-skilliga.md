@@ -13,7 +13,8 @@ Kasuta $sujuv-seminar skilli. Toimeta seminar 3 selle olemasolevas kaustas
 seminarid/seminar_03, lähtudes kursuseprogrammist
 ja olemasolevatest kolmanda seminari materjalidest.
 Kasuta seminar_02 ülesehitust ja lihtsusastet.
-Tee töö lõpuni ning kontrolli peatükke, linke ja slaide.
+Ehita materjal samm-sammult ja oota pärast iga sammu minu kinnitust.
+Alusta eesmärgi ja sammude loeteluga.
 ```
 
 Järgmiste seminaride puhul muuda numbrit ja kausta. Lisa ülesandesse ka uued sisulised kokkulepped, mida materjalides veel pole.

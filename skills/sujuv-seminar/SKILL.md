@@ -22,9 +22,20 @@ Eeskuju määrab esitamise viisi ja lihtsusastme. Uue seminari teemad ja nõuded
 
 Kui kasutaja sihtkausta ei määra, tööta seminari olemasolevas kaustas `seminarid/seminar_0N/`. Ära loo paralleelset versioonikausta: varasem seis jääb Giti ajalukku. Ära kirjuta üle kasutaja commit'imata muudatusi. Kui failid saavad uue nime või ülesehituse, eemalda asendatud failid ja uuenda viited failides `README.md`, `docs/kursuseprogramm.md` ning `AGENTS.md`. Küsi täpsustust ainult siis, kui puuduv eesmärk või vastuolulised nõuded takistavad sisulist koostamist.
 
-## Koosta üks läbiv järjekord
+## Ehita samm-sammult
 
-Anna alguses lühike hinnang ja kirjelda töö kavandit. Seejärel lõpeta töö sama ülesande raames.
+Seminari materjali ja kodutööd ei kirjutata korraga valmis. Ehita need väikeste sammudena ja oota pärast iga sammu kasutaja kinnitust. Nii on õpetajal lõpptulemuse üle kontroll ja ta saab jälgida, et maht ei läheks liiga suureks.
+
+1. **Eesmärk ja sammud.** Kirjuta üldine eesmärk ja sammude loetelu ilma selgitusteta.
+2. **Tulemus ja asukoht.** Tee vestluses ettepanek iga sammu tulemuse ja faili kohta. Kirjuta faili alles pärast kinnitust.
+3. **Vastutus.** Igal sammul on üks vastutav roll, kes võtab tulemuse kokku. Kõik osalevad.
+4. **Täiendused ükshaaval.** Lisa korraga üks täiendus, näiteks abimaterjal, esitamine või AI kasutamine. Pikem juhend, harjutus või hindamine läheb eraldi faili, millele kodutöö viitab. Abimaterjali viited kuuluvad seminari materjali.
+5. **Läbilugemine õppijana.** Loe tulemus läbi õppija pilguga ja nimeta puuduvad kohad. Ära lisa neid ise ilma kinnituseta.
+6. **Asendamine.** Kui olemasolev fail kirjutatakse ümber, koosta uus versioon kõrvale, näiteks `homework-draft.md`. Vana fail jääb alles, kuni kasutaja asendamise kinnitab. Seejärel kustuta vana fail ja uuenda viited.
+
+Iga sammu järel ütle lühidalt, mis lisandus, ja küsi, kas jätkata. Kui lisand teeks põhifaili pikaks, paku eraldi faili.
+
+## Koosta üks läbiv järjekord
 
 Pane enda jaoks paika seminari põhiküsimus, seminaris valmiv tulemus ja kodutöö lõpptulemus. Järjesta mõisted, näited ja tegevused nii, et õppija mõistab uut mõistet enne selle kasutamist. Seo iga tegevus projekti järgmise tegeliku sammuga.
 

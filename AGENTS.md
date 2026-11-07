@@ -32,6 +32,7 @@ Kehtiva aineinfo esmane masinloetav allikas on `metadata/data.json`. Kui see lä
 - Enne sisulist muutmist tuleb lugeda läbi aktiivne seminarimaterjal, sellega seotud kodutöö ja õpetaja juhend.
 - Kui kasutaja küsib hinnangut, auditit või arutelu, ei muudeta faile ilma eraldi muutmispalveta.
 - Suurema muudatuse korral esitatakse kõigepealt lühike hinnang ja kavand ning seejärel tehakse kokkulepitud muudatused.
+- Seminari materjal ja kodutöö ehitatakse alati samm-sammult: kõigepealt eesmärk ja sammude loetelu, seejärel iga sammu tulemus ja fail ning siis täiendused ükshaaval. Pärast iga sammu oodatakse kasutaja kinnitust. Täpsem kord on failis `skills/sujuv-seminar/SKILL.md`.
 - Olemasolevaid kasutaja muudatusi ei kirjutata üle ega pöörata tagasi.
 - Muudatused peavad jääma kasutaja nimetatud seminari või materjalide piiresse, kui laiem muudatus pole vältimatult vajalik.
 - Õppija materjal ja õpetaja juhend tuleb hinnata ning muuta eraldi.
