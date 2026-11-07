@@ -36,6 +36,17 @@ Lingid on slaidil. Küsi igalt tiimilt: „Mis muutus teie arusaamas kasutaja pr
 
 Seis 5. novembril 2026: tiimi 08 repos `v0.1.0` release'i ei olnud, seega viib selle tiimi link release'ide lehele. Kontrolli enne seminari, kas see on lisandunud.
 
+## Rollide jagamine
+
+Igas tiimis peavad olema vähemalt need neli rolli:
+
+- **projektijuht**, sest keegi peab vastutama kogu protsessi eest;
+- **release manager**, sest keegi peab release'i tegema; roll läheb õppijale, kes `v0.1.0` release'i ei teinud;
+- **disainer**, sest seminar ja kodutöö keskenduvad süsteemi kontseptsioonile ja disaini põhimõtetele;
+- **arhitekt**, et mängida läbi, millistest osadest lahendus koosneb.
+
+Suuremas tiimis võib lisada tootejuhi. Kontrolli, et rollid ja vastutajad on README-s.
+
 ## Küsimused, millega meeskonda tagasi suunata
 
 - Millist riski see valik vähendab?
@@ -56,7 +67,11 @@ Seis 5. novembril 2026: tiimi 08 repos `v0.1.0` release'i ei olnud, seega viib s
 
 ## Mis jääb kodutöösse
 
-Seminaris valmivad kasutajalood ([näide](seminar.md#näide-tõendist-kasutajalooni)) ja kasutaja teekond. Süsteemi kontseptsiooni ja arhitektuuri ainult tutvusta: `decisions/003-susteemi-kontseptsioon.md` valmib kodutöös.
+Seminaris alustavad tiimid faili `decisions/003-susteemi-kontseptsioon.md` kasutaja teekonna ja kasutajalugudega ([näide](seminar.md#näide-tõendist-kasutajalooni)). Iga õppija lisab oma loo enda PR-iga, mis annab ka merge-konflikti harjutuse. Süsteemi kontseptsiooni ja arhitektuuri ainult tutvusta: need lisatakse samasse faili kodutöös.
+
+Seminaris lahendab konflikti üks paar tiimi kohta. Kodutöös lahendab konflikti iga õppija, kes seminaris seda ise ei teinud. Olukord tekib, kui kaks liiget lisavad loo samal ajal osa „Kasutajalood” lõppu. Kontrolli konflikti lahendaja PR-i kommentaari: fail ja osa, kokku puutunud PR-id, mis jäi alles ja miks ning lahendava commit'i link.
+
+Seminari 2 failid jäävad alles. Kui tiimi arusaam probleemist muutus, kirjutatakse muutus faili `003` ja `releases/v0.2.0.md` osasse „Mis muutus pärast eelmist release'i?”, mitte üle faili `001`.
 
 ## Merge-konflikti harjutus
 

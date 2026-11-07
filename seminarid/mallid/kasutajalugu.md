@@ -1,6 +1,6 @@
 # Kasutajaloo mall
 
-Kopeeri see plokk iga loo jaoks faili `decisions/003-susteemi-kontseptsioon.md`. Lood kirjutatakse pärast kasutaja teekonda ja ainult nende sammude kohta, kus probleem esineb ([selgitus](../seminar_03/seminar.md#probleemist-kontseptsioonini), [näide](../seminar_03/user-stories-example.md)).
+Kopeeri see plokk iga loo jaoks faili `decisions/003-susteemi-kontseptsioon.md` osasse „Kasutajalood”. Iga õppija lisab oma loo enda haru ja PR-iga. Lood kirjutatakse pärast kasutaja teekonda ja ainult nende sammude kohta, kus probleem esineb ([selgitus](../seminar_03/seminar.md#probleemist-kontseptsioonini), [näide](../seminar_03/user-stories-example.md)).
 
 ```markdown
 ### Lugu N: lühike pealkiri

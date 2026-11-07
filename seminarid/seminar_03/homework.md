@@ -10,40 +10,49 @@ Põhjendage meeskonna tööviis ja süsteemi üldine kontseptsioon. Süsteemi ko
 
 Arvestuslik maht on ligikaudu 8 tundi õppija kohta. Teksti pikkus ei ole eesmärk; hinnatav on arusaamine ja põhjendamine.
 
-## Meeskonna tulemus
+## Failid repos etapi lõpus
 
-Vähemalt:
+Selles etapis lisandub või muutub tiimi repos:
 
 ```text
-decisions/002-tooviisi-valik.md
-decisions/003-susteemi-kontseptsioon.md
-releases/v0.2.0.md
-reflections/oppija-nimi-v0.2.0.md
+README.md                                 täiendatud: selle etapi rollid, töövoog ja lingid uutele failidele
+decisions/002-tooviisi-valik.md           ühine, alustate seminaris
+decisions/003-susteemi-kontseptsioon.md   ühine: kasutaja teekond, kasutajalood ja kontseptsioon
+releases/v0.2.0.md                        ühine
+reflections/oppija-nimi-v0.2.0.md         igal õppijal oma fail
 ```
 
-Täiendage ka README-s rollide ja töövoo osa. Skeem on vabatahtlik, kui selge tekst annab sama info edasi. GitHub Projectsi tahvlil on etapi backlog: igal Issue'l on vastutaja ja ajahinnang.
+Seminari 2 failid (`research/`, `decisions/001-probleemi-valik.md`, `reflections/…-v0.1.0.md`, `releases/v0.1.0.md`) jäävad alles ja neid üle ei kirjutata. Kui arusaam probleemist muutus, põhjendage muutust failis `003` ja release notes'i osas „Mis muutus pärast eelmist release'i?”.
+
+Seminaris 2 töötas igaüks esmalt oma failis. Nüüd kirjutate ühiseid faile. Iga õppija panus on näha loo autori ja ülevaataja väljadest, PR-ide ajaloost ja refleksioonist.
+
+Skeem on vabatahtlik, kui selge tekst annab sama info edasi. GitHub Projectsi tahvlil on etapi backlog: igal Issue'l on vastutaja ja ajahinnang.
+
+## Faili `003` koostamine
+
+Faili `decisions/003-susteemi-kontseptsioon.md` alustate seminaris kasutaja teekonna ja kasutajalugudega. Kodutöös lisate kontseptsiooni ja kaalutud lahendussuunad.
 
 Kontseptsiooni koostage skeemi „probleem → kasutaja teekond → kasutajalood → kontseptsioon” järjekorras ([selgitus](seminar.md#probleemist-kontseptsioonini)):
 
 **1. Kasutaja teekond.** Kirjeldage lühidalt tekstina, kuidas kasutaja praegu oma eesmärgini jõuab ja millistel sammudel ta takerdub. Prototüüpi ega kujundust ei nõuta.
-Vastutaja: pr-juht
+Vastutaja: projektijuht
 
 **2. Kasutajalood.** Lood teevad probleemist konkreetsed vajadused, mille täitmist saab kontrollida. Neist saavad backlog'i Issue'd ja seminaris 4 testjuhtumid. Iga tiimiliige kirjutab vähemalt ühe loo sammu kohta, kus probleem esineb ([mall](../mallid/kasutajalugu.md), [näide](user-stories-example.md)). Lugu lähtub seminari 2 tõendist ja sellel on kontrolltingimus. Kokku on vähemalt kaks lugu. Kogu süsteemi ei pea lugudega katma.
-Vastutajad: pr-juht, disainer
+Vastutajad: projektijuht, disainer
 
 **3. Ülevaatus.** Iga tiimiliige vaatab kaaslase PR-is läbi ühe loo: kas see lähtub tõendist ja kas kontrolltingimust saab kontrollida? Märkige iga loo juurde autor, tõend ja ülevaataja. Kattuvad või vastuolulised lood ühendage või täpsustage.
 
-**4. Kontseptsioon ja arhitektuur.** Kirjeldage süsteemi peamised osad ja nende vastutus(mille jaoks nad on), osavamad ka info liikumine ning välised sõltuvused. Iga osa peab olema vajalik mõne loo või sõltuvuse jaoks. Kas skeem või teks, kui see seosed selgitab. Võib valida ka tehnoloogiapinu(stack).
+**4. Kontseptsioon ja arhitektuur.** Kirjeldage süsteemi peamised osad ja nende vastutus (milleks iga osa on vajalik) ning välised sõltuvused. Iga osa peab olema vajalik mõne loo või sõltuvuse jaoks. Info liikumise kirjeldus (kust info tuleb ja millise osani see jõuab) on valikuline, kuid annab punkte. Sobib skeem või tekst, kui see seoseid selgitab. Võite valida ka tehnoloogiapinu (stack).
 Vastutajad: disainer, arhitekt.
 
 ## Tööjaotus, umbes 8 tundi õppija kohta
 
-1. Release `v0.1.0` ja tagasiside analüüs – 1 h.
-2. Rolli vaatenurgast vajaduste ja konfliktide sõnastamine – 1 h.
+1. Release `v0.1.0` ja tagasiside analüüs – 1 h. Tulemus läheb `releases/v0.2.0.md` osasse „Mis muutus pärast eelmist release'i?”.
+2. Rolli vaatenurgast vajaduste ja konfliktide sõnastamine – 1 h. Vähemalt üks lahkarvamus ja selle lahendus on kirjas failis `002` või `003`.
 3. Tööviiside võrdlemine ja otsuse põhjendamine – 1 h.
 4. Backlog'i täpsustamine, töö järjestamine ja ajahinnangud – 1 h.
 5. Kasutajalugude ([näide](seminar.md#näide-tõendist-kasutajalooni)) ja süsteemi kontseptsiooni koostamine – 2 h.
-6. Pull request, teise töö sisuline ülevaatus ja parandused – 1 h.
+6. Pull request, teise töö sisuline ülevaatus, merge-konflikti lahendamine ja parandused – 1 h.
 7. Individuaalne refleksioon ja release – 1 h.
 
 Vähemalt üks sinu commit peab järgima seminari head tava: see teeb ühe
@@ -94,11 +103,42 @@ Hoidke backlog tahvlil ajakohasena. Etapi lõpus võrrelge ajahinnanguid tegelik
 
 ## Rollide vahetamine
 
-Iga õppija dokumenteerib vähemalt ühe tähelepaneku enda selle etapi rollist. Järgmises seminaris rollid vahetuvad. Väikeses meeskonnas võib ühel õppijal olla kaks rolli, kuid vastutused peavad olema selgelt nimetatud.
+Selle etapi rollid on:
+
+- **projektijuht** vastutab kogu protsessi eest: töö, aja ja sõltuvuste juhitavuse eest;
+- **release manager** koordineerib release'i ja avaldab selle;
+- **disainer** vastutab süsteemi kontseptsiooni ja disaini põhimõtete eest;
+- **arhitekt** mängib läbi, millistest osadest lahendus koosneb ja milline tehnoloogiline lahendus võiks sobida.
+
+Rollid ja nende vastutajad on kirjas README-s. Iga õppija dokumenteerib vähemalt ühe tähelepaneku enda selle etapi rollist. Järgmises seminaris rollid vahetuvad. Väikeses meeskonnas võib ühel õppijal olla kaks rolli, kuid vastutused peavad olema selgelt nimetatud.
 
 ## GitHubi töövoog
 
-Iga õppija seob enda Issue, haru, sisulise commit'i ja pull request'i. Igaüks vaatab üle vähemalt ühe teise liikme PR-i. Ülevaatus peab kommenteerima põhjendust või riski, mitte ainult õigekirja. Kui ühises failis tekib merge-konflikt, lahendage see [konfliktide lahendamise juhendi](../../concepts/mergeConflict/README.md) järgi.
+Iga õppija seob enda Issue, haru, sisulise commit'i ja pull request'i. Igaüks vaatab üle vähemalt ühe teise liikme PR-i. Ülevaatus peab kommenteerima põhjendust või riski, mitte ainult õigekirja. Ühises failis tekkivad merge-konfliktid lahendage [konfliktide lahendamise juhendi](../../concepts/mergeConflict/README.md) järgi. Üks konflikt tuleb kodutöös teadlikult läbi teha, vt järgmist osa.
+
+## Merge-konflikt ühises failis
+
+Seminaris lahendas iga tiim ühe konflikti. Kodutöös lahendab konflikti iga õppija, kes seminaris seda ise ei teinud.
+
+**Olukord.** Kaks tiimiliiget lisavad oma kasutajaloo faili `decisions/003-susteemi-kontseptsioon.md` samal ajal ja samasse kohta: osa „Kasutajalood” lõppu.
+
+1. Mõlemad loovad oma haru samast `main`-i seisust, enne kui kumbki PR on ühendatud.
+2. Mõlemad lisavad oma loo osa „Kasutajalood” viimase loo järele, teevad commit'i, push'ivad ja avavad PR-i.
+3. Esimene PR vaadatakse üle ja ühendatakse `main`-i.
+4. Teise PR-i juures näitab GitHub teadet **This branch has conflicts that must be resolved**.
+5. Teise PR-i autor lahendab konflikti terminalis [konfliktide lahendamise juhendi](../../concepts/mergeConflict/README.md) järgi: toob `main`-i uue seisu oma harusse, parandab faili, märgib konflikti lahendatuks, teeb commit'i ja push'ib. Lühiversioon on [projekti töökorralduse juhendis](../../docs/projekti-tookorraldus.md).
+6. Tavaliselt jäävad alles mõlemad lood. Parandage loo numbrid. Kui lood kattuvad, ühendage need koos teise autoriga.
+
+**Kontrollpunkt:** failis pole märke `<<<<<<<`, `=======` ega `>>>>>>>`, mõlemad lood on alles ja PR on ühendatud.
+
+**Kajastamine.** Konflikti lahendaja lisab oma PR-i kommentaari:
+
+- millises failis ja osas konflikt tekkis;
+- kelle muudatused kokku puutusid (PR-ide numbrid);
+- mis jäi alles ja miks;
+- konflikti lahendava commit'i link.
+
+Lisage selle kommentaari link ka oma kodutöö Issue kommentaari.
 
 ## AI kasutamine
 
@@ -126,11 +166,12 @@ Release manageri roll läheb õppijale, kes ei teinud eelmist release'i. Ta kont
 - [ ] Alternatiivid, kompromissid ja teadmatused on nähtavad.
 - [ ] Rollide vaatenurgad mõjutasid vähemalt üht otsust.
 - [ ] Igal õppijal on Issue, commit, PR, ülevaatus ja refleksioon.
+- [ ] Iga õppija, kes seminaris konflikti ise ei lahendanud, on kodutöös lahendanud ühe merge-konflikti ja kirjeldanud seda oma PR-i kommentaaris.
 - [ ] Release `v0.2.0` on avaldatud.
 
 ## Esitamine
 
-Lisage kodutöö Issue kommentaari release'i, enda refleksiooni, enda PR-i ja tehtud ülevaatuse lingid. Eraldi esitamise PR-i pole vaja; PR-id teete töö käigus tiimi repos.
+Lisage kodutöö Issue kommentaari release'i, enda refleksiooni, enda PR-i ja tehtud ülevaatuse lingid. Kui lahendasite kodutöös merge-konflikti, lisage ka konflikti kirjeldava PR-i kommentaari link. Eraldi esitamise PR-i pole vaja; PR-id teete töö käigus tiimi repos.
 
 ## Hindamiskriteeriumid
 
@@ -140,9 +181,9 @@ Hindan tiimi ühist tulemust repositooriumis ning iga õppija panust tema Issue'
 |---|---:|---|
 | Tööviisi valik | 15 | Vähemalt kolm varianti on võrreldud. Valik lähtub teie probleemist, ebakindlusest ja meeskonnast, mitte meetodi populaarsusest. |
 | Kasutajalood ja kontrolltingimused | 15 | Igal tiimiliikmel on vähemalt üks kasutajalugu ja ühe kaaslase loo ülevaatus, kokku vähemalt kaks lugu ([näide](seminar.md#näide-tõendist-kasutajalooni)). Lood lähtuvad seminaris 2 kogutud tõendist ning igal lool on piisavalt konkreetne kontrolltingimus, autor, tõend ja ülevaataja. Kattuvad või vastuolulised lood on ühendatud või täpsustatud. |
-| Süsteemi kontseptsioon | 25 | Kasutaja teekond, süsteemi piir, peamised osad ja nende vastutus, info liikumine ning välised sõltuvused on arusaadavad. Vähemalt kaks lahendussuunda on kaalutud. |
+| Süsteemi kontseptsioon | 25 | Kasutaja teekond, süsteemi piir, peamised osad ja nende vastutus ning välised sõltuvused on arusaadavad. Vähemalt kaks lahendussuunda on kaalutud (kokku kuni 20 p). Valikuline: info liikumine osade vahel on kirjeldatud (kuni 5 p). |
 | Töö planeerimine | 10 | Backlog on järjestatud ning igal Issue'l on vastutaja ja ajahinnang. Release notes võrdleb ajahinnangut tegeliku ajakuluga ja nimetab järgmise etapi paranduse. |
-| Tiimitöö ja iga õppija panus | 15 | Iga õppija panus on jälgitav Issue'i, commit'i ja PR-i kaudu. Ülevaatus kommenteerib põhjendust või riski. Rollide vaatenurgad mõjutasid vähemalt üht otsust. |
+| Tiimitöö ja iga õppija panus | 15 | Iga õppija panus on jälgitav Issue'i, commit'i ja PR-i kaudu. Ülevaatus kommenteerib põhjendust või riski. Rollide vaatenurgad mõjutasid vähemalt üht otsust. Merge-konflikt on lahendatud ja PR-i kommentaaris kirjeldatud. |
 | Refleksioon ja AI kasutamise läbipaistvus | 10 | Iga õppija refleksioon kirjeldab tema panust, rolli ja õpitut. Kui AI-d selles etapis kasutati, on näha sisend, väljundi kasutamine, kontroll ja tegelik kasu. |
 | Repositooriumi korrastatus ja release | 10 | README kirjeldab rolle ja töövoogu, nõutud failid on leitavad, muudatused on jõudnud `main`-i PR-ide kaudu ning `v0.2.0` release on avaldatud. |
 

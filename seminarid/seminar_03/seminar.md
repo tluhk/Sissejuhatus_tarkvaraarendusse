@@ -179,7 +179,7 @@ Arhitektuur kirjeldab süsteemi suuremaid osi, nende vastutust ja omavahelisi se
 - mis jääb süsteemi sisse ja mis välja;
 - kuidas kasutaja oma eesmärgini jõuab, kirjeldatuna lühidalt tekstina;
 - suuremaid osi või võimekusi;
-- olulist info liikumist;
+- olulist info liikumist (kodutöös valikuline, annab punkte);
 - väliseid teenuseid või sõltuvusi;
 - osade vastutust ja seda, kus vajalik info paikneb;
 - kõige suuremaid teadmatusi.
@@ -199,15 +199,21 @@ Seni töötas igaüks oma failis. Nüüd kirjutate ühiseid otsusefaile, nii et 
 ## Seminari praktiline töö
 
 1. Vaadake üle oma tiimi release `v0.1.0` (`https://github.com/TLUHK-RIF26/tiim-XX-tunniplaan/releases/tag/v0.1.0`, `XX` asemel tiimi number). Mis muutus teie arusaamas kasutaja probleemist, kui sellega kodutöös tegelesite? Nimetage üks asi.
-2. Jagage selleks etapiks rollid. Iga õppija võtab uue vaatenurga.
-3. Võrrelge vähemalt kolme tööviisi projekti ebakindluse, mahu ja meeskonna järgi. Meil on vaja vähemalt: 1) Projekti juht 2) Release manager 3) Disainer vastutab üldise kontseptsiooni eest 4) arhitekt – uurib, milline tehnoloogiline lahendus võiks olla 5) tooteomanik
+2. Jagage selleks etapiks rollid. Iga õppija võtab uue vaatenurga. Vaja on vähemalt nelja rolli:
+   - **projektijuht** – keegi peab vastutama kogu protsessi eest;
+   - **release manager** – keegi peab release'i tegema;
+   - **disainer** – vastutab süsteemi kontseptsiooni ja disaini põhimõtete eest;
+   - **arhitekt** – mängib läbi, millistest osadest lahendus koosneb ja milline tehnoloogiline lahendus võiks sobida.
+
+   Suuremas meeskonnas võib lisada tootejuhi (product owner) rolli. Väikeses meeskonnas võib ühel õppijal olla kaks rolli. Kirjutage rollid ja vastutajad README-sse.
+3. Võrrelge vähemalt kolme tööviisi projekti ebakindluse, mahu ja meeskonna järgi.
 4. Looge `decisions/002-tooviisi-valik.md`.
 5. Koostage GitHub Projectsi tahvlile järgmise etapi backlog: Issue'd, järjekord, vastutajad ja ajahinnangud. Leppige kokku ka ülevaatajad.
-6. Iga tiimiliige sõnastab tunniplaani kohta kogutud tõendite põhjal vähemalt ühe kasutajaloo koos kontrolltingimusega ja vaatab läbi ühe kaaslase loo ([näide](#näide-tõendist-kasutajalooni)). Kokku on tiimil vähemalt kaks lugu.
-7. Kirjeldage, kuidas kasutaja oma eesmärgini jõuab.
+6. Kirjeldage, kuidas kasutaja oma eesmärgini jõuab.
+7. Iga tiimiliige sõnastab tunniplaani kohta kogutud tõendite põhjal vähemalt ühe kasutajaloo koos kontrolltingimusega ja vaatab läbi ühe kaaslase loo ([näide](#näide-tõendist-kasutajalooni)). Kokku on tiimil vähemalt kaks lugu.
 8. Tekitage ja lahendage üks merge-konflikt terminalis.
 
-Faili `decisions/003-susteemi-kontseptsioon.md` koostate kodutöös.
+Kasutaja teekond ja kasutajalood lähevad faili `decisions/003-susteemi-kontseptsioon.md`. Iga õppija lisab oma loo enda PR-iga; nii tekib ühises failis ka merge-konflikt. Kontseptsiooni ja lahendussuunad lisate samasse faili kodutöös.
 
 ## Kontrollpunkt
 

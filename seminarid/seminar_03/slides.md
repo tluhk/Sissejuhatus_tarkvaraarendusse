@@ -242,15 +242,15 @@ GOV.UK alpha:
 
 ## Tänane meeskonnatöö
 
-1. Vahetage rollid.
+1. Jagage rollid: projektijuht, release manager, disainer, arhitekt.
 2. Võrrelge vähemalt kolme tööviisi.
 3. Põhjendage valik otsuste logis.
 4. Koostage Projectsi tahvlile järgmise etapi backlog.
-5. Igaüks: üks tõendiga seotud kasutajalugu ja kontrolltingimus ([näide](seminar.md#näide-tõendist-kasutajalooni)). Vaadake läbi kaaslase lugu.
-6. Kirjeldage, kuidas kasutaja oma eesmärgini jõuab.
+5. Kirjeldage, kuidas kasutaja oma eesmärgini jõuab.
+6. Igaüks: üks tõendiga seotud kasutajalugu ja kontrolltingimus ([näide](seminar.md#näide-tõendist-kasutajalooni)). Vaadake läbi kaaslase lugu.
 7. Lahendage üks merge-konflikt.
 
-Süsteemi kontseptsioon valmib kodutöös.
+Teekond ja lood lähevad faili `decisions/003-susteemi-kontseptsioon.md`, kontseptsioon valmib kodutöös.
 
 ---
 
