@@ -12,12 +12,17 @@ Arvestuslik maht on ligikaudu 8 tundi õppija kohta.
 
 ## Tulemus
 
-Vähemalt:
+Tiimi repos on vähemalt:
 
 ```text
 decisions/005-kasutuselevott-ja-areng.md
 releases/ajajoon.md
 releases/v0.4.0.md
+```
+
+Iga õppija enda `SJTA` repos:
+
+```text
 reflections/oppija-nimi-v0.4.0.md
 ```
 
@@ -68,7 +73,7 @@ Uus release manager loob tag'i `v0.4.0` ja avaldab release'i pealkirjaga `Kasutu
 
 ## Esitamine
 
-Lisage kodutöö Issue kommentaari release'i, ajajoone, enda refleksiooni, enda PR-i ja tehtud ülevaatuse lingid. Eraldi esitamise PR-i pole vaja; PR-id teete töö käigus tiimi repos.
+Lisage kodutöö Issue kommentaari release'i, ajajoone, enda `SJTA` repos oleva refleksiooni, enda PR-i ja tehtud ülevaatuse lingid. Eraldi esitamise PR-i pole vaja; PR-id teete töö käigus tiimi repos.
 
 ## Hindamiskriteeriumid
 

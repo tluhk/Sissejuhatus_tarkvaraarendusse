@@ -35,7 +35,7 @@ Kursus koosneb viiest seminarist ja lõpuesitlusest:
 5. seminar 5: kasutuselevõtt, tagasiside ja hooldus;
 6. eksam: dokumenteeritud protsessi esitlus release'ide ajajoonena.
 
-Kursuse läbiv praktiline töö toimub GitHubis. Seminarist 2 kasutab iga meeskond üht ühist repositooriumi. Iga õppija teeb muudatusi enda harus ja vaatab üle kaaslase töö. Ametialased rollid vahetuvad ning iga projektiseminari järel kirjutab iga õppija refleksiooni.
+Kursuse läbiv praktiline töö toimub GitHubis. Seminarist 2 kasutab iga meeskond üht ühist repositooriumi. Iga õppija teeb muudatusi enda harus ja vaatab üle kaaslase töö. Ametialased rollid vahetuvad ning iga projektiseminari järel kirjutab iga õppija refleksiooni oma `SJTA` repositooriumi, et oma arengut jälgida.
 
 Projektiseminaride kodutöö lõpeb GitHub Release'iga ehk avaldatud versiooniga, mis fikseerib dokumentatsiooni hetkeseisu ja olulised muutused. Kodutöö arvestuslik maht on umbes 8 tundi õppija kohta. Esimese seminari kodutöö on individuaalne; release'ide tegemist alustame meeskonnaprojektiga.
 

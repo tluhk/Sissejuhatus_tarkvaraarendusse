@@ -12,11 +12,16 @@ Arvestuslik maht on ligikaudu 8 tundi õppija kohta.
 
 ## Tulemus
 
-Repositooriumis on vähemalt:
+Tiimi repos on vähemalt:
 
 ```text
 decisions/004-kvaliteet-ja-riskid.md
 releases/v0.3.0.md
+```
+
+Iga õppija enda `SJTA` repos:
+
+```text
 reflections/oppija-nimi-v0.3.0.md
 ```
 
@@ -71,7 +76,7 @@ Uus release manager kontrollib tervikut, loob tag'i `v0.3.0` ja avaldab release'
 
 ## Esitamine
 
-Lisage kodutöö Issue kommentaari release'i, enda refleksiooni, enda PR-i ja tehtud ülevaatuse lingid. Eraldi esitamise PR-i pole vaja; PR-id teete töö käigus tiimi repos.
+Lisage kodutöö Issue kommentaari release'i, enda `SJTA` repos oleva refleksiooni, enda PR-i ja tehtud ülevaatuse lingid. Eraldi esitamise PR-i pole vaja; PR-id teete töö käigus tiimi repos.
 
 ## Hindamiskriteeriumid
 

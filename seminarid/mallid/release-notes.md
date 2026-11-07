@@ -41,7 +41,9 @@ Milliste tõendite, allikate, vestluste või ülevaatustega otsuseid kontrollisi
 
 ## Individuaalsed refleksioonid
 
-- Õppija refleksioon, näiteks `../reflections/mari-maasikas-v0.2.0.md`.
+Refleksioonid on õppijate enda `SJTA` repodes. Lisa iga liikme refleksiooni link.
+
+- Õppija nimi: link tema `SJTA` repo faili `reflections/oppija-nimi-v0.x.0.md`.
 
 ## Järgmine etapp
 

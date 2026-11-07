@@ -19,10 +19,17 @@ README.md                                 täiendatud: selle etapi rollid, töö
 decisions/002-tooviisi-valik.md           ühine, alustate seminaris
 decisions/003-susteemi-kontseptsioon.md   ühine: kasutaja teekond, kasutajalood ja kontseptsioon
 releases/v0.2.0.md                        ühine
-reflections/oppija-nimi-v0.2.0.md         igal õppijal oma fail
 ```
 
-Seminari 2 failid (`research/`, `decisions/001-probleemi-valik.md`, `reflections/…-v0.1.0.md`, `releases/v0.1.0.md`) jäävad alles ja neid üle ei kirjutata. Kui arusaam probleemist muutus, põhjendage muutust failis `003` ja release notes'i osas „Mis muutus pärast eelmist release'i?”.
+Iga õppija enda `SJTA` repos lisandub:
+
+```text
+reflections/oppija-nimi-v0.2.0.md         sinu refleksioon selle etapi kohta
+```
+
+Refleksioon on sinu oma repos, et saaksid kursuse jooksul oma arengut ühest kohast jälgida. Tee selle kohta commit ja push'i see GitHubi.
+
+Seminari 2 failid tiimi repos (`research/`, `decisions/001-probleemi-valik.md`, `releases/v0.1.0.md`) jäävad alles ja neid üle ei kirjutata. Kui arusaam probleemist muutus, põhjendage muutust failis `003` ja release notes'i osas „Mis muutus pärast eelmist release'i?”.
 
 Seminaris 2 töötas igaüks esmalt oma failis. Nüüd kirjutate ühiseid faile. Iga õppija panus on näha loo autori ja ülevaataja väljadest, PR-ide ajaloost ja refleksioonist.
 
@@ -171,7 +178,7 @@ Release manageri roll läheb õppijale, kes ei teinud eelmist release'i. Ta kont
 
 ## Esitamine
 
-Lisage kodutöö Issue kommentaari release'i, enda refleksiooni, enda PR-i ja tehtud ülevaatuse lingid. Kui lahendasite kodutöös merge-konflikti, lisage ka konflikti kirjeldava PR-i kommentaari link. Eraldi esitamise PR-i pole vaja; PR-id teete töö käigus tiimi repos.
+Lisage kodutöö Issue kommentaari release'i, enda `SJTA` repos oleva refleksiooni, enda PR-i ja tehtud ülevaatuse lingid. Kui lahendasite kodutöös merge-konflikti, lisage ka konflikti kirjeldava PR-i kommentaari link. Eraldi esitamise PR-i pole vaja; PR-id teete töö käigus tiimi repos.
 
 ## Hindamiskriteeriumid
 
