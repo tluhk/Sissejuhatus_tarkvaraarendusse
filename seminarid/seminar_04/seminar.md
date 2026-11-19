@@ -1,6 +1,7 @@
 # Seminar 4: kvaliteet, riskid ja vastutus
 
 <!-- loengud:videod (automaatne, ära muuda käsitsi) -->
+> 📘 **[Konspekt: mida seminaris räägiti](salvestus/konspekt.md)**  
 > 🎥 **Salvestus:** [1. osa](https://youtu.be/vHoLU588c7g) · [2. osa](https://youtu.be/mxerCtuT7-c)  
 > 📝 **Tekst:** [1. osa](salvestus/transkriptsioon.md) · [2. osa](salvestus/transkriptsioon-2.md)
 <!-- /loengud:videod -->
