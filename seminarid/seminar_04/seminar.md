@@ -71,9 +71,11 @@ Kontrollitavam: „Kasutaja saab tavapärase koormuse ajal otsingutulemuse kahe 
 
 Kõike pole võimalik maksimeerida. Suurem turvalisus võib lisada samme, suurem töökindlus võib tõsta hinda ja kiirem tarne võib kasvatada hooldusvõlga. Kompromiss peab olema teadlik.
 
+Juhend ja omaduste loend näidetega: [Mõõdetav kvaliteet](../../handbook/04-quality-and-risk/01-measurable-quality.md).
+
 ## Testimine ja vea silumine
 
-Testimine võrdleb oodatud tulemust tegeliku tulemusega kindlates tingimustes. Lihtne testjuhtum ütleb, mida kontrollitakse, milliste eeldustega, milliste sammudega ja milline tulemus peaks tekkima. Testimine võib leida vea, kuid ei selgita veel selle põhjust.
+Testimine võrdleb oodatud tulemust tegeliku tulemusega kindlates tingimustes. Lihtne testjuhtum ütleb, mida kontrollitakse, milliste eeldustega, milliste sammudega ja milline tulemus peaks tekkima. Testimine võib leida vea, kuid ei selgita veel selle põhjust. Testjuhtumi väljad ja näide: [Testjuhtum](../../handbook/04-quality-and-risk/02-test-cases.md).
 
 Vea silumisel (*debugging*) korda viga võimalikult väikese näitega, pane kirja oodatud ja tegelik tulemus, kitsenda võimalikku põhjust ning kontrolli hüpoteesi. Pärast parandust korda algset testi ja lisa võimaluse korral kontroll, et sama viga tagasi ei tuleks. Kursusel harjutame neid samme lühikese näite kaudu; testide programmeerimist ega täielikku silumisprotsessi ei õpita.
 
@@ -99,6 +101,8 @@ Risk ei ole pelgalt halbade asjade nimekiri. Kirjeldage:
 4. kuidas riski ennetame või vähendame;
 5. kuidas saame teada, et risk realiseerub;
 6. kes vastutab reageerimise eest.
+
+Kasutage [riskikaardi malli](../mallid/riskikaart.md). Risk ja eeldus, näidisread ja mida riskiga teha: [Riskid](../../handbook/04-quality-and-risk/04-risks.md).
 
 ## Pärisprojekti peegel: Cloudflare'i 2019. aasta katkestus
 
@@ -136,15 +140,14 @@ Teek, pilveteenus, andmestik, font või AI-mudel võib kiirendada tööd, kuid t
 
 ## Seminari praktiline töö
 
-1. Alustage GitHub Projectsi tahvlist: mis jäi pooleli ja kuidas ajahinnangud pidasid? Vaadake üle `v0.2.0`, vahetage rollid ja uuendage backlog'i.
-2. Valige projekti jaoks 4–6 tähtsaimat kvaliteediomadust.
-3. Sõnastage iga omaduse juurde vähemalt üks kontrollitav kriteerium.
-4. Valige üks funktsionaalne nõue ja koostage selle põhjal lihtne testjuhtum.
-5. Uurige lühinäites ilmnevat viga: kirjeldage kordamise samme, oodatud ja tegelikku tulemust ning võimalikku põhjust. Vaadake seejärel parandus koodi ülevaataja pilguga üle.
-6. Koostage riskikaart: mõju, tõenäosus, ennetus, märkamine, vastutaja.
-7. Vaadake üle varasemad otsused. Muutke vähemalt üht, kui riskianalüüs seda nõuab.
-8. Looge `decisions/004-kvaliteet-ja-riskid.md`.
-9. Vaadake terminalis tiimi ajalugu käsuga `git log --oneline` ja proovige `git diff` ning `git restore` väikese proovimuudatusega.
+Seminaris 19.11.2026 tehti tiimiga läbi üks ülesanne, ülejäänu oli loeng ja demo.
+
+1. Kodutöö 3 tagasiside: tahvel peab töö ajal liikuma, Issue'd tulevad tootest, ülevaatus on sisuline, teise repo failile viidatakse täislingiga.
+2. „Selgita oma otsust”: 10 minutit ettevalmistust ja iga tiim esitas vastused kolmele küsimusele failist [kodutoo-esitlus.md](kodutoo-esitlus.md). Kõigil tiimidel tuli välja sama kontrollimata eeldus: andmeallikas ja see, et tellijaga pole räägitud.
+3. Loeng: funktsioon ja kvaliteediomadus, ebamäärasest mõõdetavaks, kvaliteedi vaatenurgad ja kompromiss, testjuhtum, arendamise etapp ja koodi ülevaatus, risk ja eeldus, riskikaart, kolmandad osapooled, WIP-piirang ja blokeerija.
+4. Demo terminalis ja VS Code'is: `git log --oneline`, `git diff`, `git restore`.
+
+Kvaliteedinõuete, testjuhtumi ja riskikaardi harjutused jäid seminaris tegemata ja teeb tiim [kodutöös 4](homework.md).
 
 ## Kontrollpunkt
 

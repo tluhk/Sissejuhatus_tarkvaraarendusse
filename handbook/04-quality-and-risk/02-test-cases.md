@@ -20,6 +20,7 @@ Kasutajaloo **kontrolltingimus** ütleb, *mis* peab olema tõsi. **Testjuhtum** 
 | **Tegelik tulemus** | mida päriselt nähti; täidetakse testi tegemisel |
 
 Testjuhtumi saab kirjutada enne, kui süsteemi on olemas. Nii tehakse ka päris projektides: test on valmis enne, kui arendaja tööd alustab, ja arendaja teab, mille järgi tema tööd kontrollitakse.
+Kui süsteemi veel pole, saab testi teha kahel viisil. Praeguse lahenduse peal näitab test, kas probleem päriselt esineb. Kavandi kirjelduse peal näitab test, kas kavand probleemi lahendab: käige sammud läbi kasutaja teekonna ja arhitektuuri järgi ning kirjutage tegelikuks tulemuseks see, mida kavandi järgi juhtuks. Kui kavand vastust ei anna, on test läbi kukkunud ja kavandis on auk.
 
 ## Näide (väljamõeldud)
 

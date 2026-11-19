@@ -52,3 +52,13 @@ Slaidide õpetaja märkustes on rida „Tulevikus” ja „Samaks jääb”. Nee
 - Vastutajaks märgitakse „meeskond”. Palu nimetada roll ja esimene tegevus.
 - Kontroll tähendab ainult lõpus testimist. Too sisse ennetus, varajane kontroll ja seire.
 
+## Kuidas seminar 19.11.2026 tegelikult läks
+
+Transkriptsioonid on kaustas `transcript/`. Lühidalt:
+
+- I osa: kodutöö 3 tagasiside umbes 30 min, „Selgita oma otsust” umbes 35 min (töötas hästi, iga tiim leidis sama eelduse: andmeallikas), kvaliteedinõude teooria umbes 25 min.
+- II osa: ainult loeng ja Giti demo. Kvaliteedinõuete, testjuhtumi ja riskikaardi harjutusi ei tehtud; need viidi kodutöösse.
+- Blokeerija demos loodi silt `blocker` blokeeriva Issue peale; slaidid ja kodutöö kasutavad `blocked` ootava Issue peal. Mõlemad on sama seose kaks otsa, täpsustus on slaidil ja kodutöös.
+- Rollivahetust ei tehtud; kodutöö nõuab seda kodutöö jooksul. Testija rolli lisamine on tiimile vabatahtlik.
+
+Järgmise aasta kava, kus teooria läheb konspekti ja seminar jääb harjutustele, on kaustas `../2027/seminar_04/`.

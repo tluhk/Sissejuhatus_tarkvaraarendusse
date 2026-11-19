@@ -132,6 +132,7 @@ Slaidide, kodutöö, õpetaja juhendi, failinimede, tähtaegade ja hindamiskrite
 - GitHub kirjutatakse suure `H`-ga.
 - Git tähendab versioonihaldustarkvara; GitHub tähendab seda kasutavat veebiplatvormi. Neid ei käsitleta sünonüümidena.
 - `commit`, `push`, `pull request`, `branch` ja `merge` tuleb esmakordsel kasutamisel õppijale lahti seletada.
+- Kodutöö juhend (`homework.md`) kopeeritakse tiimi või õppija repo Issue'sse, kus suhtelised lingid ei tööta. Kodutöö failides viidatakse teistele failidele täislingiga kursuse reposse (`https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/blob/master/...`) ja juhendi alguses on selle kohta märkus. See kehtib kõigi seminaride kodutööde kohta.
 - Eelistada tuleb lühikesi, tähendusrikkaid ja järjepidevaid failinimesid.
 - Uute failide nimetamisel kasutatakse võimaluse korral väiketähti ja sidekriipse, kui olemasoleva kausta stiil ei nõua teisiti.
 
