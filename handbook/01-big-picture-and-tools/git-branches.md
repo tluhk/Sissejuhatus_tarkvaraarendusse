@@ -13,9 +13,9 @@ Issue → haru → commit → push → pull request → ülevaatus → merge
 **Haru** (*branch*) on repo eraldi tööliin. Harus tehtud muudatused ei mõjuta **peaharu** (`main` või `master`) enne, kui need on üle vaadatud ja ühendatud.
 
 ```text
-main                  ●───●───────────────● ← ühendatud töö
+main                  ●───●───────────────●   ← ühendatud töö
                            \             /
-8-add-contact-section ●───●───●───● ← sinu töö harus
+8-add-contact-section       ●───●───●───●     ← sinu töö harus
 ```
 
 Harud võimaldavad mitmel inimesel korraga töötada nii, et keegi ei sega teist ja peaharu jääb kogu aeg töökorda.
@@ -29,6 +29,20 @@ git switch -c 8-add-contact-section  # loo uus haru ja mine sinna
 ```
 
 VS Code näitab aktiivset haru akna allservas.
+
+### Vahepala: `master` või `main`?
+
+Peaharu nimi on repos kas `master` või `main`. Tähendus on sama, erineb ainult nimi.
+
+- Git nimetas esimese haru algusest peale `master`. Arvatakse, et nimi pärineb varasemast versioonihaldustööriistast BitKeeper, kus kasutati sõnapaari *master/slave* (peremees ja ori).
+- 2020. aastal hakkasid platvormid nime muutma, sest see sõnapaar seostub orjandusega. GitHub kasutab alates oktoobrist 2020 uute repode peaharu nimena `main`. GitLab ja Bitbucket tegid sama.
+- Git ise nimetab käsuga `git init` loodud repo esimese haru endiselt `master`, kui sa pole seda muutnud. Alates Giti versioonist 2.28 saab vaikimisi nime ise valida:
+
+```bash
+git config --global init.defaultBranch main
+```
+
+Vanemates projektides on sageli `master`, uutes `main`. Kontrolli oma repo peaharu nime käsuga `git branch` ja kasuta käskudes seda nime.
 
 ## Issue
 
