@@ -52,18 +52,18 @@ Põhiküsimus: kas tegeleme päris ja olulise probleemiga?
 | [Kanban ja ajahinnang](02-from-request-to-task/kanban-and-estimates.md) | Kanban, GitHub Projects, prioriseerimine, ajahinnang | Seminaris |
 | [Giti oskus: pull ja release](02-from-request-to-task/git-pull-and-release.md) | Ühine repo, commit'i head tavad, `pull`, tag, release, semantiline versioonimine | Seminaris |
 
-### 3. Meeskond, tööviis ja süsteemi põhimõte
+### [3. Meeskond, tööviis ja süsteemi põhimõte](03-team-and-system/README.md)
 
 Põhiküsimus: kuidas meeskond töötab ja millist süsteemi põhimõtteliselt kavandab?
 
 | Leht | Sisu | Märge |
 |---|---|---|
-| Tööviisid | Waterfall, iteratiivne ja agiilne arendus, Scrumi põhimõisted, rollide vahetamine | Seminaris |
-| Kasutajalood ja nõuded | Kasutajalugu, funktsionaalsed ja mittefunktsionaalsed nõuded | Seminaris |
-| Backlog | Backlog'i koostamine ja hoidmine | Seminaris |
-| Süsteemi kontseptsioon | Kasutaja teekond, süsteemi osad, piirid ja sõltuvused | Seminaris |
-| Arhitektuuri põhimõisted | Klient-server, frontend ja backend, API, andmebaas, pilv | Iseseisev |
-| Giti oskus: merge-konflikt | Konflikti tekkimine ja lahendamine terminalis | Seminaris |
+| [Tööviisid](03-team-and-system/ways-of-working.md) | Waterfall, iteratiivne ja agiilne arendus, Scrumi põhimõisted, rollide vahetamine | Seminaris |
+| [Kasutajalood ja nõuded](03-team-and-system/user-stories-and-requirements.md) | Kasutaja teekond, kasutajalugu, funktsionaalsed ja mittefunktsionaalsed nõuded | Seminaris |
+| [Backlog](03-team-and-system/backlog.md) | Backlog'i koostamine ja hoidmine | Seminaris |
+| [Süsteemi kontseptsioon](03-team-and-system/system-concept.md) | Eesmärk, osalised, piir, süsteemi osad ja sõltuvused, lahendussuunad | Seminaris |
+| [Arhitektuuri põhimõisted](03-team-and-system/architecture-basics.md) | Klient-server, frontend ja backend, API, andmebaas, pilv | Iseseisev |
+| [Giti oskus: merge-konflikt](03-team-and-system/git-merge-conflict.md) | Konflikti tekkimine ja lahendamine terminalis | Seminaris |
 
 ### 4. Kvaliteet, riskid ja vastutus
 

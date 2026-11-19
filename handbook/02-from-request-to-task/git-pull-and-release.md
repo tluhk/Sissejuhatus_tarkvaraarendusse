@@ -101,4 +101,4 @@ Avaldatud tag'i ei muudeta ega tõsteta. Uus töö saab järgmise versiooninumbr
 
 ---
 
-[← Kanban ja ajahinnang](kanban-and-estimates.md) | [Sisukord](../README.md) | [Järgmine osa: Meeskond, tööviis ja süsteemi põhimõte →](../README.md#3-meeskond-tööviis-ja-süsteemi-põhimõte)
+[← Kanban ja ajahinnang](kanban-and-estimates.md) | [Sisukord](../README.md) | [Järgmine osa: Meeskond, tööviis ja süsteemi põhimõte →](../03-team-and-system/README.md)
