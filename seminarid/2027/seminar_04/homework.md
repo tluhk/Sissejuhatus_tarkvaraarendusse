@@ -43,7 +43,7 @@ Tiimi repos:
 
 Iga õppija:
 
-- enda Issue, haru ja PR tiimi repos ning ühe kaaslase PR-i ülevaatus vähemalt ühe sisulise küsimusega kontrolli, mõju või vastutuse kohta. „Korras” ei ole ülevaatus. Kui kaaslasel on midagi valesti, näidake, kuidas parandada, ärge tehke tema eest ära;
+- enda Issue, haru ja PR tiimi repos ning ühe kaaslase PR-i ülevaatus vähemalt ühe sisulise küsimusega kontrolli, mõju või vastutuse kohta. „Korras” ei ole ülevaatus. Kui kaaslasel on midagi valesti, näidake, kuidas parandada, ärge tehke tema eest ära. Kelle PR-i üle vaatate, on kirjas failis [student_pairs.md](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/blob/master/student_pairs.md) (rida `A -> B`: A vaatab üle B töö);
 - iseseisev harjutus: [vea kirjeldus ja ülevaatuse kommentaar](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/blob/master/handbook/04-quality-and-risk/03-debugging-and-code-review.md) enda Issue'sse, koodi kirjutama ei pea;
 - refleksioon `reflections/eesnimi-perenimi-v0.3.0.md` enda `SJTA` repos. Lisaks malli küsimustele üks lõik: millist selle etapi tööd võiks teha AI, kuidas tulemust kontrolliksime ja kes vastutaks;
 - vabatahtlik: konspekti lehe [Giti ajalugu ja tagasivõtmine](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/blob/master/handbook/04-quality-and-risk/06-git-history.md) harjutus tiimi repos. Seda ei hinnata, aga `git restore` on parem proovida koolitöös kui päris projektis.

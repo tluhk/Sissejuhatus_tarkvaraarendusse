@@ -1,0 +1,9 @@
+# loengud-tööriista seadistus (github.com/jubejuss/loengud)
+course: "Sissejuhatus tarkvaraarendusse"
+# Ainekood tuleb metadata/data.json failist (HKI5113.HK); tunniplaan → seminari number.
+match_titles: ["SJTA", "Sissejuhatus tarkvara"]
+seminar_dir_pattern: "seminarid/seminar_{n:02d}"
+recording_subdir: salvestus
+youtube:
+  playlist_id: "PL2lxpfi7Jl2tM77rwR4afo9u97yZpWr8L"   # SJTA (+ Haapsalu kolledž config.yaml-ist)
+  title_template: "{course} – {seminar_title} ({date_et})"
