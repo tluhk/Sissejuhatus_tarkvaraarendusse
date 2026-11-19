@@ -21,6 +21,7 @@ Kehtiva aineinfo esmane masinloetav allikas on `metadata/data.json`. Kui see lä
 - `metadata/data.json` sisaldab kehtiva kursuse põhiandmeid ja õpiväljundeid.
 - `docs/` sisaldab aine ülddokumente, juhendeid, sõnastikku ja juhendeid. Vananenud materjalid asuvad kaustas `docs/archive/`; need ei ole kehtivad nõuded ega tööjuhised.
 - `concepts/` sisaldab mõistete ja teemade õppematerjale.
+- `handbook/` on koostamisel olev õppijale suunatud konspekt, mis hakkab kehtima 2027/2028. õppeaastal. Selle osad järgivad seminaride järjekorda. Kuni selleni kehtivad seminaride materjalid ja `concepts/`. Uut teooriat lisatakse edaspidi `handbook/` alla; `concepts/` kausta ei täiendata.
 - `seminarid/` sisaldab seminaride slaide, ülesandeid ning õpetaja juhendeid.
 - `slides.md` on slaidide muudetav lähtefail. `slides.html` on sellest genereeritud väljund.
 - Seminari 1 peatükkide slaidide lähtefailid asuvad `seminarid/seminar_01/slaidid/` kaustas. HTML-esitlus genereeritakse käsuga `seminarid/seminar_01/export-slides.sh`; genereeritud `slides.html` faili ei muudeta käsitsi.
@@ -61,7 +62,8 @@ Seminari muutmisel kontrolli vähemalt järgmisi faile:
 4. õpetaja juhend;
 5. `docs/kursuseprogramm.md`;
 6. `README.md` viited;
-7. järgmise seminari eeldused ja tagasivaade.
+7. järgmise seminari eeldused ja tagasivaade;
+8. `handbook/` vastava osa sisu ja lehtede märked (Seminaris, Enne seminari, Iseseisev).
 
 Slaidide, kodutöö, õpetaja juhendi, failinimede, tähtaegade ja hindamiskriteeriumide vahel ei tohi olla varjatud vastuolusid.
 
@@ -111,6 +113,17 @@ Slaidide, kodutöö, õpetaja juhendi, failinimede, tähtaegade ja hindamiskrite
 - Giti oskused kasvavad seminariti: seminaris 3 merge-konflikt, seminaris 4 `git log`, `git diff` ja `git restore`, seminaris 5 `git tag` ja ajajoon Giti ajaloo põhjal. Seminarid 4 ja 5 algavad Projectsi tahvli läbivaatusega.
 - Rakendust kursusel ei ehitata. Seminar 4 selgitab arendamise etappi ja harjutab koodi ülevaatust väikese näitega.
 - Seminaris 3 tuletatakse valideeritud vajadusest kasutajalood ja kontrollitavad funktsionaalsed nõuded enne süsteemi kontseptsiooni täpsustamist. Waterfalli ja agiilse arenduse võrdlus on oluline ning peab olema nähtav nii seminaris 1 kui ka seminaris 3.
+
+## Konspekt (`handbook/`)
+
+- Olemasolevast materjalist (`concepts/`, seminarid) üle võetud tekst loetakse kriitiliselt läbi ja viiakse kooskõlla kehtivate kokkulepetega: see fail, `skills/sujuv-seminar/SKILL.md` ja õpetaja kursuse jooksul antud juhised. Vana teksti ei kopeerita muutmata.
+- Tekst on lühike ja selge: üks mõte lõigus, lühikesed laused, sama mõtet ei korrata ning sissejuhatavaid ja kokkuvõtvaid täitelauseid ei lisata. Väldi AI-tekstidele omast paisutatud, üldsõnalist ja segast stiili. Lehe pikkuse määrab see, mida algaja vajab, mitte teema kõikide külgede katmine.
+- Konspekt on ajatu: aastaspetsiifilisi nimesid (organisatsioon, kliendisoov, kuupäevad, release'ide nimed) kasutatakse ainult selgelt märgitud näidetena. Konkreetsed ülesanded ja kodutööd jäävad seminaride kaustadesse.
+- Iga lehe juures on märge Seminaris, Enne seminari või Iseseisev. Kodutöö ei tohi eeldada Iseseisev-lehe sisu, kui seda pole seminaris käsitletud.
+- Kausta- ja failinimed on ingliskeelsed, väiketähtedega ja sidekriipsuga; osade kaustadel on järjekorranumber (`01-big-picture-and-tools/`). Pealkirjad ja sisu on eesti keeles.
+- Iga lehe lõpus on navigatsioonirida `← Eelmine | Sisukord | Järgmine →`.
+- Pildid on osa `images/` kaustas, igal pildil on eestikeelne alt-tekst. Kuvatõmmistel ei tohi olla õppijate isikuandmeid; lehe lõpus on märge „Kuvatõmmised seisuga: kuu ja aasta”.
+- Arhitektuur, kood, disain ja testimine on mõiste tasemel; nende põhjalik käsitlus kuulub järgmistele kursustele.
 
 ## Failide ja mõistete vormistus
 

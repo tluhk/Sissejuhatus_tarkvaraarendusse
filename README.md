@@ -30,6 +30,8 @@ Enne esimest loengut võiks olla tehtud mõned tegevused, et klassiruumis ei kul
 
 [Tarkvaraarendus algusest kasutamiseni](docs/tarkvaraarenduse-tervikprotsess.md)
 
+[Konspekt (koostamisel, kehtib alates 2027/2028. õppeaastast)](handbook/README.md)
+
 ## Õpetajale
 
 [Järgmise seminari koostamine skilliga](docs/seminari-koostamine-skilliga.md)
