@@ -102,7 +102,7 @@ Slaidide, kodutöö, õpetaja juhendi, failinimede, tähtaegade ja hindamiskrite
 - Seminarid 2–5 lõppevad kodutööna GitHub Release'iga. Release võib sisaldada lahtisi küsimusi, kui hetkeseis ja järgmised sammud on selgelt dokumenteeritud.
 - Iga õppija kirjutab pärast iga projektiseminari individuaalse refleksiooni.
 - AI kasutamine on lubatud ja vähemalt ühe olulise otsuse juures kohustuslik. Hinnatakse eesmärki, kontrollimist ja tegelikku kasu, mitte genereeritud materjali hulka.
-- Eksam on release'ide ajajoont järgiv dokumenteeritud protsessi esitlus. Iga õppija esitleb vähemalt ühte olulist release'i või otsust.
+- Eksam koosneb kahest osast: release'ide ajajoont järgiv dokumenteeritud protsessi esitlus ja lühike test kursusel läbitud mõistete kohta. Iga õppija esitleb vähemalt ühte olulist release'i või otsust. Testi mõiste peab olema seminaris või kodutöös tegelikult läbitud.
 - Hindamise keskmes on arusaamine ja põhjendamine. Dokumentide arv, tehniline keerukus ega visuaalne viimistlus ei asenda sisulist mõistmist.
 - Figma ja klikitav prototüüp ei ole aktiivse kursuse nõuded. Figma mainimine vanemates üldmaterjalides võib alles jääda.
 - Esimese seminari praktiline Giti töövoog oli terminalipõhine ja esimene kodutöö kinnistab seda. Node.js-i ja npm-i paigaldamine ei ole esimese kodutöö ega seminari 2 eeldus.
@@ -120,8 +120,8 @@ Slaidide, kodutöö, õpetaja juhendi, failinimede, tähtaegade ja hindamiskrite
 - Tekst on lühike ja selge: üks mõte lõigus, lühikesed laused, sama mõtet ei korrata ning sissejuhatavaid ja kokkuvõtvaid täitelauseid ei lisata. Väldi AI-tekstidele omast paisutatud, üldsõnalist ja segast stiili. Lehe pikkuse määrab see, mida algaja vajab, mitte teema kõikide külgede katmine.
 - Konspekt on ajatu: aastaspetsiifilisi nimesid (organisatsioon, kliendisoov, kuupäevad, release'ide nimed) kasutatakse ainult selgelt märgitud näidetena. Konkreetsed ülesanded ja kodutööd jäävad seminaride kaustadesse.
 - Iga lehe juures on märge Seminaris, Enne seminari või Iseseisev. Kodutöö ei tohi eeldada Iseseisev-lehe sisu, kui seda pole seminaris käsitletud.
-- Kausta- ja failinimed on ingliskeelsed, väiketähtedega ja sidekriipsuga; osade kaustadel on järjekorranumber (`01-big-picture-and-tools/`). Pealkirjad ja sisu on eesti keeles.
-- Iga lehe lõpus on navigatsioonirida `← Eelmine | Sisukord | Järgmine →`.
+- Kausta- ja failinimed on ingliskeelsed, väiketähtedega ja sidekriipsuga; osade kaustadel ja nende lehtedel on järjekorranumber (`01-big-picture-and-tools/01-software.md`), et failid oleksid kausta avades lugemise järjekorras. Osa `README.md` jääb numbrita. Lehe lisamisel või järjekorra muutmisel nummerdatakse failid ümber ja uuendatakse kõik lingid. Pealkirjad ja sisu on eesti keeles.
+- Iga lehe alguses (enne pealkirja) ja lõpus on sama navigatsioonirida `← Eelmine | Sisukord | Järgmine →`. Lehe lisamisel või ümbernimetamisel uuendatakse mõlemad read.
 - Pildid on osa `images/` kaustas, igal pildil on eestikeelne alt-tekst. Kuvatõmmistel ei tohi olla õppijate isikuandmeid; lehe lõpus on märge „Kuvatõmmised seisuga: kuu ja aasta”.
 - Arhitektuur, kood, disain ja testimine on mõiste tasemel; nende põhjalik käsitlus kuulub järgmistele kursustele.
 
