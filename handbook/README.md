@@ -78,15 +78,15 @@ Põhiküsimus: kuidas me teame, et kavand on piisavalt hea, ja mis võib meid al
 | [Koodi kvaliteet](04-quality-and-risk/code-quality.md) | Loetavus, kokkulepped, linter, tehniline võlg | Iseseisev |
 | [Giti oskus: ajalugu ja tagasivõtmine](04-quality-and-risk/git-history.md) | `git log`, `git diff`, `git restore` | Seminaris |
 
-### 5. Kasutuselevõtt, käitus ja areng
+### [5. Kasutuselevõtt, käitus ja areng](05-deployment-and-evolution/README.md)
 
-Põhiküsimus: mis juhtub süsteemiga pärast selle loomist?
+Põhiküsimus: mis juhtub süsteemiga pärast selle loomist? *Mustand: võib pärast seminari 5 esimest läbiviimist muutuda.*
 
 | Leht | Sisu | Märge |
 |---|---|---|
-| Kasutuselevõtt ja käitus | Keskkonnad, CI/CD, tugi, seire, hooldus, süsteemi lõpetamine | Seminaris |
-| Tagasiside ja areng | Tagasiside kogumine ja süsteemi edasiarendamine | Seminaris |
-| Giti oskus: tag ja ajajoon | `git tag`, release'ide ajajoon Giti ajaloo põhjal | Seminaris |
+| [Kasutuselevõtt ja käitus](05-deployment-and-evolution/deployment-and-operations.md) | Keskkonnad, CI/CD, kasutuselevõtu otsused, seire, hooldus, süsteemi lõpetamine | Seminaris |
+| [Tagasiside ja areng](05-deployment-and-evolution/feedback-and-evolution.md) | Väljund, tulemus ja mõju; mõõdikud; tagasiside; uuesti uurimine; demo | Seminaris |
+| [Giti oskus: tag ja ajajoon](05-deployment-and-evolution/git-tag-and-timeline.md) | `git tag`, `git log` kahe versiooni vahel, release'ide ajajoon | Seminaris |
 
 ### Sõnastik
 
