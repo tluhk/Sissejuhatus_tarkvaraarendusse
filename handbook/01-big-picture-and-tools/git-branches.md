@@ -156,4 +156,4 @@ Meeskonnaprojektis kloonime ühise repo ja töötame harudes. Forki puhul piisab
 
 ---
 
-[← Giti oskus: esimene commit](git-first-commit.md) | [Sisukord](../README.md) | [Järgmine osa: Kliendisoovist arendusülesandeni →](../README.md#2-kliendisoovist-arendusülesandeni)
+[← Giti oskus: esimene commit](git-first-commit.md) | [Sisukord](../README.md) | [Järgmine osa: Kliendisoovist arendusülesandeni →](../02-from-request-to-task/README.md)

@@ -38,17 +38,19 @@ Põhiküsimus: mis on tarkvaraarendus ja milliste tööriistadega seda tehakse?
 | [Giti oskus: esimene commit](01-big-picture-and-tools/git-first-commit.md) | `add`, `commit`, `push` | Seminaris |
 | [Giti oskus: harud](01-big-picture-and-tools/git-branches.md) | Haru (branch), Issue → haru → pull request → ülevaatus, `.gitignore`, clone ja fork | Seminaris |
 
-### 2. Kliendisoovist arendusülesandeni
+### [2. Kliendisoovist arendusülesandeni](02-from-request-to-task/README.md)
 
 Põhiküsimus: kas tegeleme päris ja olulise probleemiga?
 
 | Leht | Sisu | Märge |
 |---|---|---|
-| Probleemi uurimine | Probleemi leidmine, valideerimine, tõendid ja piiritlemine | Seminaris |
-| Lähteülesanne | Huvipooled, lähteülesande osad | Seminaris |
-| Dokumenteerimine | README, otsuste logi, dokumentatsioon repos | Seminaris |
-| Kanban ja ajahinnang | Kanban, GitHub Projects, prioriseerimine, ajahinnang | Seminaris |
-| Giti oskus: pull ja release | Commit'i head tavad, `pull`, tag, release, semantiline versioonimine | Seminaris |
+| [Probleemi uurimine](02-from-request-to-task/problem-discovery.md) | Soov, probleem ja lahendusidee; probleemiväide; tõend, tõlgendus ja oletus; discovery; AI uurimises | Seminaris |
+| [Rollid](02-from-request-to-task/roles.md) | Tarkvaraarenduse rollid ja vastutus, release manager | Seminaris |
+| [Litsentsid](02-from-request-to-task/licences.md) | Litsents kui kasutusluba, MIT, GPL, Creative Commons, võõra materjali kontroll | Seminaris |
+| [Lähteülesanne](02-from-request-to-task/project-brief.md) | Kandidaatide võrdlus, kontroll, huvipooled, lähteülesande osad | Seminaris |
+| [Dokumenteerimine](02-from-request-to-task/documentation.md) | README, otsuste logi, dokumentatsioon repos | Seminaris |
+| [Kanban ja ajahinnang](02-from-request-to-task/kanban-and-estimates.md) | Kanban, GitHub Projects, prioriseerimine, ajahinnang | Seminaris |
+| [Giti oskus: pull ja release](02-from-request-to-task/git-pull-and-release.md) | Ühine repo, commit'i head tavad, `pull`, tag, release, semantiline versioonimine | Seminaris |
 
 ### 3. Meeskond, tööviis ja süsteemi põhimõte
 
@@ -56,8 +58,7 @@ Põhiküsimus: kuidas meeskond töötab ja millist süsteemi põhimõtteliselt k
 
 | Leht | Sisu | Märge |
 |---|---|---|
-| Rollid | Tarkvaraarenduse ametirollid ja vastutus | Seminaris |
-| Tööviisid | Waterfall, iteratiivne ja agiilne arendus, Scrumi põhimõisted | Seminaris |
+| Tööviisid | Waterfall, iteratiivne ja agiilne arendus, Scrumi põhimõisted, rollide vahetamine | Seminaris |
 | Kasutajalood ja nõuded | Kasutajalugu, funktsionaalsed ja mittefunktsionaalsed nõuded | Seminaris |
 | Backlog | Backlog'i koostamine ja hoidmine | Seminaris |
 | Süsteemi kontseptsioon | Kasutaja teekond, süsteemi osad, piirid ja sõltuvused | Seminaris |
@@ -74,8 +75,7 @@ Põhiküsimus: kas kavand on piisavalt hea ja vastutustundlik?
 | Testimise alused | Testjuhtum, vea kordamine, järelkontroll, testimise tasemed | Seminaris |
 | Koodi ülevaatus | Ülevaatuse eesmärk ja hea tagasiside | Seminaris |
 | Koodi kvaliteet | Loetavus, kokkulepped, linter, tehniline võlg | Iseseisev |
-| Riskid | Turvalisus, privaatsus, ligipääsetavus, töökindlus, kolmandad osapooled | Seminaris |
-| Litsentsid | Avatud lähtekood, omanduslik tarkvara, Creative Commons, litsentsi valimine | Seminaris |
+| Riskid | Turvalisus, privaatsus, ligipääsetavus, töökindlus, kolmandad osapooled ja nende litsentsid | Seminaris |
 | Giti oskus: ajalugu | `git log`, `git diff`, `git restore` | Seminaris |
 
 ### 5. Kasutuselevõtt, käitus ja areng
@@ -100,8 +100,9 @@ Kui otsid kindlat teemat, leiad selle siit.
 |---|---|
 | Git ja GitHub | 1, 2, 3, 4 ja 5: iga osa viimane leht |
 | Arendusprotsess ja tööviisid | 1. Tarkvaraarenduse elutsükkel ja AI; 3. Tööviisid |
+| Rollid ja meeskond | 2. Rollid; 3. Tööviisid |
 | Nõuded | 2. Probleemi uurimine; 2. Lähteülesanne; 3. Kasutajalood ja nõuded |
 | Töö planeerimine | 2. Kanban ja ajahinnang; 3. Backlog |
 | Dokumenteerimine | 1. Markdown; 2. Dokumenteerimine |
 | Kvaliteet ja testimine | 4. Kvaliteediomadused; 4. Testimise alused; 4. Koodi ülevaatus; 4. Koodi kvaliteet |
-| Õigus ja eetika | 1. Tarkvaraarenduse elutsükkel ja AI; 4. Riskid; 4. Litsentsid |
+| Õigus ja eetika | 1. Tarkvaraarenduse elutsükkel ja AI; 2. Litsentsid; 4. Riskid |
