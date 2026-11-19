@@ -65,6 +65,8 @@ git checkout 8-add-contact-section
 
 `git fetch origin` toob uue haru info arvutisse ja `git checkout` võtab haru kasutusele. Nii jääb Issue ja haru seos GitHubis nähtavaks.
 
+Kui lood haru terminalis käsuga `git switch -c`, kasuta sama kuju: kõigepealt Issue number, siis lühike ingliskeelne kirjeldus väiketähtede ja sidekriipsudega, näiteks `8-add-contact-section`.
+
 ![Issue leht GitHubis, paremas veerus on raamitud osa Development ja link Create a branch](images/github-issue-create-branch.png)
 
 ![Aken Create a branch for this issue: raamitud on haru nimi, valik Checkout locally ja nupp Create branch](images/github-create-branch-dialog.png)

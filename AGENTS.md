@@ -149,4 +149,5 @@ Slaidide, kodutöö, õpetaja juhendi, failinimede, tähtaegade ja hindamiskrite
 - Esimese seminari 2026. aasta täpne ajakava ja praktilised kontrollpunktid tuleb veel kokku leppida.
 - Kodutööde 100-punktiste tabelite seos eksami osakaaludega 40/25/15/20 ja lõpphindega vaadatakse üle ja otsustatakse enne eksamit.
 - Vanemates failides leiduvad 4 EAP, aine kood `HKI5086.HK`, `RIF25` ja märge „juba toimunud” ei ole vaikimisi kehtiv info.
+- Harude nimekuju on 2026/2027 materjalides kahesugune: kodutöö 1 kasutab GitHubi pakutud kuju `<number>-<short-english-description>`, seminarid 2–3, `docs/` ja `skills/sujuv-seminar/SKILL.md` kuju `issue-<number>-<short-english-description>`. Tänavusi materjale ei muudeta. `handbook/` kasutab GitHubi kuju; 2027/2028 seminarid ja skill ühtlustatakse selle järgi.
 - `docs/archive/course-draft-v2.md` on arhiivimärkega varasem kavand; aktiivne kursuseprogramm on `docs/kursuseprogramm.md`.
