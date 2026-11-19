@@ -33,7 +33,7 @@ Kursus koosneb viiest seminarist ja lõpuesitlusest:
 3. seminar 3: rollid, tööviisi valik ja süsteemi kontseptsioon;
 4. seminar 4: kvaliteet, riskid ja vastutus;
 5. seminar 5: kasutuselevõtt, tagasiside ja hooldus;
-6. eksam: dokumenteeritud protsessi esitlus release'ide ajajoonena.
+6. eksam: dokumenteeritud protsessi esitlus release'ide ajajoonena ja lühike mõistete test.
 
 Kursuse läbiv praktiline töö toimub GitHubis. Seminarist 2 kasutab iga meeskond üht ühist repositooriumi. Iga õppija teeb muudatusi enda harus ja vaatab üle kaaslase töö. Ametialased rollid vahetuvad ning iga projektiseminari järel kirjutab iga õppija refleksiooni oma `SJTA` repositooriumi, et oma arengut jälgida.
 
@@ -127,9 +127,11 @@ Valmis kasutajaprobleeme, funktsioone ega kujunduslahendusi ette ei anta. Meesko
 
 **Release:** `v0.4.0 – Kasutuselevõtu ja arengu plaan`
 
-## Eksam: dokumenteeritud protsessi esitlus
+## Eksam: protsessi esitlus ja mõistete test
 
 Meeskond esitleb projekti release'ide ajajoonena. Iga õppija selgitab vähemalt üht olulist otsust või release'i ja vastab enda panust puudutavatele küsimustele.
+
+Lisaks teeb iga õppija lühikese testi mõistete kohta, mida oleme seminarides ja kodutöödes läbinud. Test ei eelda pähe õppimist: kes on seminarides ja kodutöödes kaasa töötanud, oskab mõisteid oma sõnadega selgitada.
 
 - [Eksami juhend](../seminarid/eksam-esitlus.md)
 

@@ -1,0 +1,539 @@
+SPEAKER_03
+Siin küsin liikuma mõeldes, et see, see, see on nüüd. Seal oli see.
+
+SPEAKER_01
+See on nüüd.
+
+SPEAKER_03
+Nüüd on nüüd. Nüüd on nüüd. Lähme edasi. Ma. Lähme edasi.
+
+SPEAKER_01
+Lähme edasi.
+
+SPEAKER_03
+Lähme edasi.
+
+SPEAKER_02
+Lähme edasi.
+
+SPEAKER_03
+Lähme edasi. Lähme edasi. Ma, ma arvan, okei. Kas nüüd nii on?
+
+SPEAKER_05
+Et jah, see, et proovige seda nagu siis, seda võib mõelda, et tarkvara arendus on vähemalt siiani olnud liimitöö. Ja mis on õige, mis on vale, need on tiimi kokkulepped. Et on olemas teatud nagu noh, et, et ei peaks iga kord nullist alustama mingisugused noh tavad. Sealt tulevad ka need rollid ja ja need tarkvara arendamisviisid või meetodid, et, et selles mõttes sellepärast veits neid teada. Aga, aga just see küsimus, et mis on vale või õige, see, see on kokkuleppe küsimus, et, et nii. Ma tean, õpilased või üliõpilased tahavad õppida lihtsal moel, selles suhtes, et meil on kerge tee ette antud, mida mööda me käime, õpib need asjad selleks unustatud, eks ole. Aga, aga päriselus ei olegi, ehk et tehases võib-olla on, tähendab enam ei ole, robotid teevad seal tööd. Aga, et selles mõttes proovige sellest aru saada, et, et ma ei ütle teile, mis on noh, selles mõttes muidugi, et lõpuks ma nagu kindel teie tülitus, siis kirjutan mingi õela kommentaari. Et sealt võib see tulla, aga, aga noh, siis kirjutage kommentaar vastu, et siis ma vaatan selle uuesti üle ja siis paranen. Aga jah, point on selles, et teie tiim, teil on praegu tiimid, te seal otsustate, dokumentatsioonid, te otsustate.
+
+SPEAKER_05
+Et see peab olema selline, et te saaksite seda lugeda, et teil sellest kasu on, dokumentatsiooni ei ole vaja uurida, vaid teile. Et see on nagu üks oluline asi, aga lihtsalt siis koos või noh, ma püüan seal vaadata aeg-ajalt, et kas see on nagu aru saanud. Aga põhimõtteliselt, kui teil on kord majas, et kui näiteks praegu te kirjutasite või noh, nüüd selles viimases koduteos te kirjutasite dokumentatsiooni, kirjutasite oma otsused. Ja kui nüüd, ma ei tea, kuuendas seminaris mingil põhjusel on teil vaja otsida välja seda, et miks te mingi asja tegite, siis te leiate selle kiiresti üles, see on selle mõte. Kui see asi on kiiresti üles leitav teie enda poole, siis on teie hästi tehtud dokumentatsioon. Kui seda üles ei leia, siis on ta halb dokumentatsioon ja see on hindadest ideed, mitte mina. On see arusaadav? Et umbes nagu sedapidi peaks seda liikuma. Vot nii. Ja, vaatame, mis meil siis siin pooleli jäi. Me täna see, mis me, millega me edasi lähme, eks ole, ma kirjeldasin, me hakkame sellega kohe suht-koht pihta ka. Põgusalt siis veel need rollid rääkisime ära, eks ole. Nüüd neid vist nii laialt eelmine kord veel kord ei ole teinud.
+
+SPEAKER_05
+Põgusalt võime vaadata veel ka üle need tööviise, mis on siiamaani olnud sellised, eks ole, et see Kose mudel ehk ühesõnaga arendatakse üks tükk valmis. Alguses lepitakse kliendiga kokku, mis tehakse, ehitatakse valmis ja tarnitakse kliendile. See on niisugune olnud levinud viis, ta on teatud olukordades hea, teatud olukordades kehvem, et ükski nendest viisidest ei ole see, et see on nüüd vananenud ja see ei sobi. Et kõik sõltub täpselt selle tiimist. Noh, põhiasi on muidugi kliendiga kokkulepe, eks ole. Ja sealt see tuleneb, et, et Teie saate pakkuda kliendile välja neid lahendusi, et kui te kliendile tavaliselt, kui, kui ei ole nagu kliendil seda IT-projekti juhtimistaustaga seda kontakti, eks ole, siis talle ilmselt see waterfall või, ja kui nad ei ole varem väga palju teinud, ehk siis talle see waterfall või agiilne ei, võib-olla ei ütle midagi, on ju, et ei pea kasutama selliseid väljendeid. Aga nii, aga nii, aga nii see arendusmanifesti võiksite ikkagi läbi lugeda. Noh jah, et seal on kindlad need tagasiside meetodid, iteratiivsus on ju, et korduvad, korduvad tsüklitega, teete mingi asja ära, parandate, teete uuesti need etapid läbi, lihtsalt uurite, võtate testite.
+
+SPEAKER_05
+Koostate nagu uue plaani, selle, mis on vaja parandada, eks ole, panete piletitesse, teete paremaks, jälle toode muutus paremaks ja niimoodi ta areneb kogu aeg.
+
+SPEAKER_03
+Scrum esimesel korral või oli kodutöös, pidite vaatama need videod ja vist isegi veel kõik kokkuvõtted tegema, on ju. Et seega me ei hakka üle kordama, minul ei ole ka need niimoodi peas, et kui ma tahan vaadata, mis need täpselt on, me lihtsalt vaatame üle, mis need täpselt on.
+
+SPEAKER_05
+Gramm eeldab Scrum master'ite ehk mingit inimest, kellel on lausa paber selle kohta, et niisama suvaline inimene tavaliselt nagu suuremas ettevõttes, suvalist inimest ei lasta olla Scrum master'it, et ta veeb mingisuguseid nüansse, kuidas seda kõike läbi peab seal viima. Kanban niisugune, ma ei tea, kuidas kuskil meil on ta hästi läbinud kasutusel ja minu arust ta on hästi mõnus süsteem, seesama, mis te oma projektis teete. Aa hea, see projekt on teil kõige ilusti kasutusel, vaatasin, et väga tubli. Et ja loodan, et saite selle esimese nii-öelda siis selle kogemuse ka sellega, et kuidas selle Kanban täna tööd teha on, et lihtne, eks ole. Või on keegi, kes ei tea üldse, millest ma räägin nagu, et kuidagi seal selle kogemusega niimoodi tehtaks, et keegi ei teinudki seda väga, tegidki kõik on. Lihtne, eks ole, mul on nüüd ülesanded ja muudkui aksin neid sinna või noh, seal peaks veel niimoodi, et projekt või projekti koosolekul määratakse ära, tähtajad, millal on see tehtud olnud, peaks olema need asjad ka kõik seal kirjal ja on valmis, eks ole, et sul visuaalselt käib see asi läbi, et.
+
+SPEAKER_05
+Et et kuidas teha ja noh, meie jätkame sellega, muid asju võite siin, seda Kanbani saab kombineerida igasuguste kude siin viisidega, aga jah, praegu ma ei anna teile isegi võimalust seda mitte kasutada, aga kui te tulete, tulevikus siis oma teisi variante teete, siis eks siis te vaatate, kuidas te jaotate, aga seda on nagu mul kõige lihtsam jälgida, et mis asjad veel töös on ja, ja mis veel teha tuleb. Ja saate ka omavahel jaotada, kui kellelgi läheb tööd kuskil liiga paljuks, siis saate pileteid ümber tõsta, et keegi aitab. Nii, siis ma tahaksin praegu, et loeksite läbi ühe asja ja kus kohta ma panin, ma kohe push'in selle meie praeguse seisu ülesse ka. Nii, nüüd võite vaadata, et kas tekkis sinna Gitaabiga materjal ja siis on siin selline asi nagu see KOV hook alpa. Lugege see läbi ja selle baasil arutage oma tiimiga selle eeskujul läbi. Mis teil on, paistavad need punktid, mis siin tahvli peal on näha. Ja see tuleb dokumenteerida muidugi ära, kõik otsused tuleks dokumenteerida tiimiprojekti, saite ligi või? Gitaabis. Aga ma võin muidugi panna Discordi ka ju, mitte teha ka, et keegi üks loeb läbi ja teeb kokkuvõtte teistele.
+
+SPEAKER_05
+Võime ka teha nii, et loete läbi ja siis arvutame üldiselt, kuidas keegi asjast aru sai, seal on ka võib-olla point sees, et siis. Mis iganes põhjusi, raskusi.
+
+SPEAKER_03
+Nii, kus te olete? No igaks juhuks panete jah.
+
+SPEAKER_05
+Kes tahab, võib lasta selle läbi mingi tõlkija, et selles mõttes ükskõik. Ja võite kasutada ka kokkuvõtte tegemiseks mõnda AI lahendust, et lihtsalt oluline, et te saate aru, et põhipunktidest.
+
+SPEAKER_03
+Ja mõte on siis see, et tegelikult seal on nagu üks osa sellest, mida me kasutame, on need riskantsed oletused.
+
+SPEAKER_05
+Ehk et oma, et praegu ka, ma ei tea, kui palju teil on tekkinud, eks ole, mingeid erinevaid oletusi. Oletused on siis antud juhul need, et teil on tekkinud mingid mõtted, mida te oletatakse, eks ole, kuidas see lahendus nüüd luua. Ja see harjutuse mõte oleks nagu natuke korra kambaga vaadata otsa neile, millised need olla võiks, võib-olla, võib-olla praegu seda ei teki, aga, aga võib-olla tekib siis see korra nagu omavahel läbi käia. Ja võib-olla siis vaadata ka üle, eks ole, et mingid kontrollivajadused, kas ikka noh, kas ikka on mingi asi nii nagu te arvate ja kuidas seda kontrollida või äkki noh, mitme peale on tulnud mingid ideed nende asjade kohta. Nii, vaataks korra, et oma nagu nende, mis te olete siia kirjutanud, eks ole, tulemuste järeldus. Vaatame, mis teil reliisides veel oli. A la seda tüüpi detailid, eks ole, et erinevatel tiimidel on need erinevad siin muidugi, et noh variandid, et kas, kas nendes on mingeid riske või kas nende tegemine, kas midagi muudab, kui see ei ole võib-olla. Ühesõnaga, kui, kui riskantsed siuksed oletused on ja mis meil veel on, et noh, kõik, mis te leiate sellele teemale, et vaataks, võtaks korra üle.
+
+SPEAKER_05
+See on siuke hetk nagu enne pihta hakkamist. Käige, käige omavahel korra need asjad üle.
+
+SPEAKER_03
+Mingi viis kuni kümme minutit. Eks nad ikka tule vahel sisse sealt ka. I Agreed tap ikka. I'm glad to 08 nat Leslie. thank you I'll be thanked.
+
+SPEAKER_02
+Tere, kuidas ma küsin.
+
+SPEAKER_03
+Tere, kuidas ma küsin.
+
+SPEAKER_02
+Aitäh, aitäh, aitäh, aitäh, aitäh, aitäh, aitäh, aitäh.
+
+SPEAKER_05
+Kui ma selle, lugesite selle artikli läbi, on ju, siis vaadake oma harjutamise mõttes oma selle probleemide või oma selle otsustajalt. Et kas teil on või teil pole selliseid mingeid riskantseid oletusi, kas seda peaks kuidagi kontrollima? Ja kui noh, kui ei leia või kui ei ole, et kui kõik on okei, et siis, siis on okei. Aga kui noh, see on nagu selles mõttes, et kui te lähete mingi liiga riskantse asjaga lendate peale, nagu noh, see on korraks nagu niisugune mahaistumine või mõtlemine järgi, et mis me tegime, kas need asjad on ikka õiged, kas, kas siin on mingit, mingit probleeme ei ole. Kui on okei, et siis te võite lihtsalt dokumenteerida ära, et esialgu ei tundu mingit sellist probleemi nende asjadega olevat, mingit riske ei näe. Sinna oma projekti. Vaatame, kuidas teil need projektid siin on, võtame. Te võite panna ka selle probleemi. Samma, kus te selle probleemi kirjeldasite, võite sinna lõppu panna näiteks. Mingi kinnitus selle kohta, et te ei leidnud nagu või leidsite mingid riskid.
+
+SPEAKER_02
+Aitäh.
+
+SPEAKER_03
+Aitäh, aitäh. Aitäh. Aitäh. Ja palun, kas sinule vastused võivad meelde? Aitäh, palun. Kuidas? Esimene ekstra jah, okei. Jah.
+
+SPEAKER_02
+Palun, ma ei kooli. Palun. Palun. Palun. Palun. Palun. Palun.
+
+SPEAKER_01
+Palun.
+
+SPEAKER_02
+Palun.
+
+SPEAKER_01
+Palun. Palun. Palun. Palun. Palun. Palun. Palun. Palun.
+
+SPEAKER_02
+Palun. Palun. Palun. Mhm, mhm, mhm.
+
+SPEAKER_03
+Et torn oleks juba
+
+SPEAKER_01
+Mism mask on külmakad� Kui teha kadunud generaatorid, siis läheb taval mitä Kas ma siin tean?
+
+SPEAKER_05
+Ma ei tee seal midagi, praegu.
+
+SPEAKER_02
+Aga kas, kas siis.
+
+SPEAKER_05
+Ei. Selle teeb üks inimene, Anneli teeb. Ja, selles suhtes ja väga hea, et tema nagunii määrab selle asja. Aga jah, te, noh selles mõttes, et ma ei tahaks ausalt öeldes kuskile midagi sisestada. Ma loodan, et selle töö teab endiselt keegi ei teene minu arust ära. Aga iseküsimus on, et kui, kui sinna jõuaks mingi, äkki mingi aeg-ajalt Discordist mingi oluline info või, või vastupidi, et kui sinna, noh, et kui on vaja midagi üliõpilastele. No vaata, meil on see suhtluskanal on Discord, eks ole, siis nagu vist, vist pole nagu pointi sinna midagi panna või. Võib-olla on ka, võib-olla pigem oleks see üks variant, et näiteks Discordis oleks selle tunniplaani mingisugune. Jah, midagi sellist, see oleks võib-olla täitsa point, et nagu ja, jah, jah, jah. Jah, jah, see oleks point täitsa. Jah, jah, no vot need oleks siuksed juba lähedad asjad, mis tundub, noh, et meil, noh iseenesest mina seda tunniplaani kasutan nii vähe kui võimalik ja iga kord on mul see täpne aadress meelest ära läinud, et selles mõttes. Jah, ma ei, kuna, kuna seda on nii vähe vaja, siis nagu isegi seda ei tee, aga jah, et see oleks.
+
+SPEAKER_03
+No väga hea, jah.
+
+SPEAKER_02
+Kas nüüd oleks rääkinud? Kas nüüd oleks rääkinud? Palun.
+
+SPEAKER_03
+Kas nüüd on siis veel võimalik? Ma vajalikud inimesed. Tervist. Ei, sa oled lihtsalt probleemi. Aitäh.
+
+SPEAKER_01
+Kes sinu peale on saanud? Sorry, I'm not here.
+
+SPEAKER_04
+Jaa, mul ei oleks sellist tööt üks mõminud. ja me teeme kaotus.
+
+SPEAKER_01
+Hi, ma tegin. Hi, ma tegin on that. Hi, ma ei tea, ma ei tea. Hi, ma ütlesin, et oh, mhm.
+
+SPEAKER_02
+foreign How do you think that's eights a meet? Palun. We don't make that. Palun.
+
+SPEAKER_01
+It's a only time. Ma ei tea.
+
+SPEAKER_02
+Tere, igatahes meil siin maailmas kolmkümmend aastat võiks olla.
+
+SPEAKER_01
+Jah, see on osa küsimus, et on nagu nüüd. Lähme. Lähme. Lähme. Või ei ole. Nii, neli. Neli. Neli. Neli. Neli. Ei ma. Jah.
+
+SPEAKER_02
+Neli. Neli.
+
+SPEAKER_03
+Neli.
+
+SPEAKER_02
+Some of the table is probably probably not even done, I think I'll go to the chat. Aitäh.
+
+SPEAKER_01
+I don't want to hear it. What about you? Aitäh.
+
+SPEAKER_03
+Igal juhul. Yes.
+
+SPEAKER_01
+Aitäh. I don't want to hear it.
+
+SPEAKER_02
+I'm not sure. What about that, sir? Yes.
+
+SPEAKER_01
+I'm not sure. See on ainult sport.
+
+SPEAKER_02
+Ja nüüd on.
+
+SPEAKER_01
+Aga kui meil oli siin, siis kui meil on ka see, siis meil on kõik teine liiga, et see on nagu nii vähem, et see on nagu nii vähemalt, et see on nagu nii vähemalt, et ta oli kallis, see on vaja. See vaja on. Sul on tunnid, tegelikult olemas on ju kõik aeg aga need juhtedest olidki siis. Ainus peab teha ja jah, et nii on. Aga lähmeid hiljuti vaatame, mis on. Ei.
+
+SPEAKER_02
+See on väga keeruline.
+
+SPEAKER_01
+Seal on mingi. Kui sa arvad, siis. Ei jõua suurde. See tuli ka nii, okei.
+
+SPEAKER_02
+Nii, et meid on ikka tulnud, et meid on funktsioonid, hästi, see on täis. Sellega, aitäh.
+
+SPEAKER_01
+Kas sa võtad seda korda? A, et see on. A, et sa võtad seda vaatama. Sa võtad seda korda. Sa võtad seda korda, mitte midagi. No tahad ju mulle teha, et maha veel.
+
+SPEAKER_05
+Nii, kui te tahate enam-vähem midagi kirglaks, et kui tekkis midagi, see on väga hea, siis järgmiseks võtame ja uudime, et seda pidi teeme. Et korra veel sellel samal lainel olete, et ma arvan, et see asi üle, ühesõnaga, et kas teil selle kasutaja probleemi kohta, millega kodutundides tegelete, kas teil mingi arusaam muutus selle kohta või jaa, siis pange kirja. Siis nüüd see keeruline asi, et jagame rolli. Meil on selles etapis me hakkame looma lahendust, et meil on kindlasti vaja projekti, mis on kõige olulisemad, kes, kes on vahetud, et oma koondused saaksid ilusti tehtud. Meil on riiki, reliisi mänedžeri vaja lihtsalt tehnilistel põhjustel. See võib-olla jääb siuke mulje, et see reliisi mänedžer on mingi ju väga tähtis asi, et see palju nii ei ole, lihtsalt, aga meil ei ole niimoodi vaja, keegi ei ole nii hääld, eks ole. Siis meil on vaja. meil on vaja arhitekti, et mõtleb välja, kus see asi olla võiks või noh, millest, mis otsimisest puutub ja noh, arendajat seal tegelikult vaja ei ole. Umbes selliseid asju on vaja, et mõelda seda seda pidi, et selles etapis me hakkame nagu välja mõtlema, mis see on, seega meil on vaja, eks ole, meil on vaja, kes seda asja disainib.
+
+SPEAKER_05
+Disaini ajal siis ei räägi siin kuulutuse üleüldse, tegelikult ei peaks ka rääkima, et kes saab aru kasutaja vajadusteks ja ostab disainile talle sobiva lahendustest juba selle disaini ajal. Et ja ja siis kes mõtleb välja, mis tehnilisi lahendusi on kaal. Ja kuna meil ühe nüüd selle praktilise poolega me ei tegele nendega on ju, siis te ei saa ka nagu tegelikult disainida otseselt, no tegelikult välismõtlemise mõttes saab tegelikult disainiga, siis te saab nagu tegeleda. Aga noh, me ilmselt ei saa palju teist, ei oska nagu, võiks olla, arhitektina nagu leida arvamise, mis on vastutegumik või milline see. Aga see, et me saame A-e-e-e-e-e-e-e jaoks kasutada, et, et me püüaks ikkagi mängida seda, eks ole, et leida ka otside ja lahendus, et kuidas siuke, et siukest lahendust, et see lahendab. Nii et keegi, see, kes teeb selle arhitekti rolli, võiks nagu tegeleda sellega, et keegi teab kindlasti IT-osaga tegeleda juba, et on kogemuslik, aga tegelikult võib-olla on isegi kehvem, aga tema kehvemas seisis, sellepärast peab pakkuma mingeid neid lahendeid, mida sa tead, mitte seda, mida vaja.
+
+SPEAKER_05
+Et võib-olla kellel on vähem kogemus, et me saame tegelikult kõikide asjadega teha, sai praegu selle rolliteaduse eest sõita ära vaja. Et siis teie võiksite vastu laaduse pakkumised teha, nii. Siis vaadata, mõtelge põgusalt seda, meil on tegelikult see suht olemas, aga te võiksite mõtelda, kuidas seda nende tööviiside, kuidas seda on see kose meeldib, et kas teha kohe valmis või mõelda selle peale ka, kuidas see asi valmis võiks teha, olgugi et me ei tee seda on ju. Ja siis pange see kirja, need asjad, need konkreetsed nimed ei ole enam täheldatud. Oluliselt selles mõttes, et te ei pea kasutama null kaks, kui teil on null kahe, kahe jaoks juba omal mingisugune asi, mille te tegite eelmine kord eks, et, et vaadake lihtsalt, et oluline on, et see dokumenti traditsioon oleks siis mingis normaalses järjekorras, eks ole, meil on see siis, miks te järele panete, et, et siin te ei pea jälgima mingit pöördud all, et peaks selline olema, et te ei pea, et teile teete need ise, faili pealkiri peab kajastama seda, mis seal selgib, lihtsalt see on tähtis. Ja noh, seda veel hästi natuke on raske teha, sest ma tegelen nüüd nende asjadega.
+
+SPEAKER_05
+Siis ja ma nüüd räägin korraks, see on nagu natuke siuke segane osa, on see kallutelu ja ja ja et kuidas nad üldse tekivad ja miks nad on, et mina teeksin selle asja nüüd nõnda, et kõigepealt see on nagu siuke paralleelselt peab see toimima, et kõigepealt te mõtlete selle süsteemi üldise kontseptsiooni.
+
+SPEAKER_03
+Et kuidas see süsteem töötab, kellest see on mõeldud ja ja ja nii edasi. Selle jaoks võite kasutada kirjeldusi nagu näiteks.
+
+SPEAKER_05
+Okei, ma võtan siit ette. Või paneks isegi, et nagu, et kuidas noh, te saate kasutada noh, kasutada teekonda, kirjeldate ära, et kasuta tuleb, eks ole, te saate nagu ülesande põhiliselt, põhiselt seda teha. Tal on vaja sõita mingi neljapäeval, eks ole, siis Haapsalusse tundi, et selle jaoks ta peab teadma, millal see hakkab, eks ole, tuleb keskkonda, näiteks logib sisse, kui ei ole logimist, ei ole seda vaja panna, eks ole. Ühesõnaga tuleb keskkonda, valib kuskilt mingi enda selle vaate, kuidas sa välja näed, selle peale ei pea praegu mõtlema, mõtlema, eks ole. Seda te hakkate alles lahendama ja siis noh, näiteks filtreerib välja mingi oma grupi, oma päeva, vaatab ja ongi korras, on ju.
+
+SPEAKER_01
+Nüüd kasutaja lood omakorda, et siin ta on nagu sedapidi järjekorras, aga ma ei tea, kuidagi minu jaoks on see sedapidi raskem.
+
+SPEAKER_05
+Et teil on praegu, kuidas kasutaja jõuab sama eesmärgini, mida, millel te püstitasite, mis ta teeb, siis seal tekivad mingid takistused, eks ole. Ja selle kasutaja lood teete nagu siis igale sellele samule, kus probleem esineb ja siis võiks minna, kui see, et need osad on valmis. Võiks nagu siis, see on juba osaliselt jääb koju. Et siis on nagu tegevusi praegu omajagu. Ja paneks siis selle juurde, et see tekkis tänases selles seminaris, et mängiks siis seda arhitekti ja disaineri osa ka läbi ja no muidugi need kattuvad, on ju, sest selle disaini osa teete te koos ju. Aga see võiks olla niimoodi. Suure tõenäosusega on, keegi võtab enda peale mingit noh, tegevusi rohkem, siis nii-öelda. See, kellele jääb nagu vähem, see saaks siis nagu kuskilt juurde midagi võtta või. Noh, et näiteks projektijuht on ju, tema tõenäoliselt teeb selle, sisustab selle Kanbani ära. Temal on niigi nagu tegemist, tegevust, siis võib-olla disainer võiks võtta enda peale rohkem seda, kes mõtleb selle peale, kuidas see asi välja võiks näha, need stsenaariumid ehk et kuidas keegi tuleb ja liigub seal, teised muidugi aitavad teda, aga tema nagu vastutab selle eest.
+
+SPEAKER_05
+Ja arhitekt siis antud etapis on, võib-olla talle jääb nagu muid asju kõige vähem, et ta võiks siis huvi pärast vaadata, et kuidas üldse siukseid asju lahendatakse, otsida mingit materjali selle kohta, et mis tehnoloogiat peaks kasutama või, või, või kus, kus see avaldatakse, et noh, et võib-olla ta ei pea veebileht olema, et siin ennem just rääkisime, et võib-olla. Päris seda me ei rääkinud, aga võib-olla see lahendus võib hoopis kuskil mujal asuda, ma ei tea Discordis või, või, või mis iganes, et panen selle siia kirja. No seda, see mõte on selles, et ta natuke prooviks kujutada ette endale, eks ole, seda rolli. Ja kes oli eelmine kord projektijuht, et see ärgu enam olgu.
+
+SPEAKER_03
+Villem, Tanel?
+
+SPEAKER_02
+Hopp, see oli küll.
+
+SPEAKER_03
+Palun, palun, palun. Seda me ei rääkinud. Seda me ei rääkinud. Riigikogu on midagi veel aru ja seda rääkida selle.
+
+SPEAKER_02
+Oled, mis? Kusutseme nüüd ükski?
+
+SPEAKER_01
+Te teate. On eelmine kord? Okei, on lihtsalt. See on minu suur tänapäev. Päev päev on. Päev on. Ei, mis on. Spanssi. Isik. Spanssi. Ma ei ole. On see ilmselt üks. Maksimaalselt üks. Kumbki.
+
+SPEAKER_03
+Ei.
+
+SPEAKER_01
+Tahame küll, lihtsalt.
+
+SPEAKER_05
+Hea kokku, kuidas ta sõltub, palju teil grupis on, et ma mõtlesin just, et mis veel paneks, paneks kellegi arhitektiks või mitte arhitektiks, vaid selleks tooteomanikuks. Ja nii, üks, kolm, viis. Et muidu teil on vähem liikmeid, on ju, aga kui on kellelgi rohkem, kohe räägin. Ma panin siia kirja need ka, mis rollid, aga rollide nimekiri on, see on mõttekus olemas, et te võite ise ka nagu vaadata ja äkki tahate, tahate natuke teisiti teha. Aga ma panin, osades gruppides on vist viis liiget, et kui keegi ei tea, mis siin olla, siis panin selle toote omaniku, kes võiks proovida sellisel juhul mängida. Seda, et tema on tiimis see, kes vaatab seda asja minu silmadega ehk tellija silmadega. Et selles suhtes, et kas nagu üldse on nagu koolimapp või otsust võtta või või või see eeldab ka seda, et te peate mulle teistmoodi aeg-ajalt kirjutanud või küsima. Või et kas on nii palju või et üldse, mis mõttes, et te ehitate mulle siin mingisugust super lahendust, aga seda kõike pole vaja, et palju tagasihoidlikum olla. Jah, võite proovida ja siis dokumenteerida ja oma leide nagu jagada, et see oleks tore, kui päriselt ka midagi siukest mõtlete.
+
+SPEAKER_05
+Nii, mis mul endal veel siin näitas, seega see, see oli kodutöö. Ja mis jääb koduteeks, on selle konfliktide lahendamine, kui samas, kui teil tekib selle Gitis konflikt, et kaks inimest lahendavad ühte, seda või faili, failiga tegelikult saad, ma panen juhendid juurde, aga lihtsalt, et te läbi mängiksite selle. Et kuidas, kui sama inimene või kaks erinevat inimest ühte faili muudavad, siis tekib konflikt, et kuidas seda lahendada, et lihtsalt läbi mängida, see ei ole väga keeruline ja seal võite omavahel ka jagada infot, et kuidas te toime tulite ja nii edasi. Nii, ja, ja põhiosa, eks ole, need, siin me proovime neid asju kuidagi konarlikult paika panna või aga on endiselt see. Kõige olulisem on lahendada probleem. Selleks, et probleemi lahendada, peab olema probleem teha, seda te tegite eelmine kord, te võite kogu aeg probleemi täiendada, et see ei ole siuke asi, et kui esimene kord valisite kivisse, siis no ei, meil on kirjas juba, rohkem ei saa olla midagi. Et nüüd alles avastate mingid uued asjad, et see on väga hea, et see on okei. Et see on nagu kõige olulisem ja nüüd põhimõtteliselt, kui te saate mingi suvalise raha peale selle probleemi lahendamiseks.
+
+SPEAKER_05
+Ongi õige lahendus, siis tegelikult on probleem lahendusega, aga see kipub nagu päriselt olema nõnda, et siis tekib küsimus, kas mitte arvata, et see lahendab või, või miks sa arvad, et just see lahendab, et selle jaoks on need lahendused etapid. Et eriti nüüd A ja A ja A oleks veel kõige lihtsam, eks ole, ja tegelikult sinna suunalt me liigumegi, et me ütleme A ja A lihtsalt teeb see asi korda. Vastavalt sellele, et ma annan talle sisse, sõidan talle sisse kliendiga kohtumise, selle kokkuvõtte või siis, kui ma salvestasin jutu, siis transkriptsiooni on ju ja siis A ja D teeb mulle lahenduse. Aga ma pean oskama seda hinnata siis veel ja siis seal on need täp-tapid just need täpid, täpid, täpid, kõik, et ütleme, planeerimine just selles suhtes, et noh, aeg, aeg teeb kiiresti, aga järjest äkki on vaja mingit, seal on mingi inimtöö, eks ole, mis võtab aega, siis nimelt disain, et AI teeb selle valmis, aga miks ta sellise asja teeb, et seda peaks teadma on ju. Ehitamine, et valib mingisugused, mingi tehnoloogia, aga miks hea on, et noh, seda peab siis teadma või siis ise talle ütlema, et, et noh, see käiks nagu kiiresti, aga, aga lõpuks on ikkagi need etapid seal sees.
+
+SPEAKER_05
+Ja kuidagi te peate nendega hakkama saama.
+
+SPEAKER_03
+Palun, palun.
+
+SPEAKER_01
+Palun, küsin selle eest, kas siin on võimalik? Incherti keeles, kolmkümmend, kolmkümmend, kolmkümmend, kolmkümmend. Ma kardan, et me võtame, et me teame, et me ei tea.
+
+SPEAKER_03
+Ja. Ja, jah. Aitäh. Ilm, ilmselt, ilmselt, ilmselt. Aitäh. Ei. Aitäh. Aitäh. Jah, nii, jah, me võime nüüd selle.
+
+SPEAKER_02
+Kas ma arvan, et see on võimalik? Kas ma arvan, et see on võimalik? Kas ma arvan, et see on võimalik? No nii.
+
+SPEAKER_01
+Kas te võite valida? Hallo, jaa. Jah. Ja mhm, ma arvan, et see asi on kõigepealt siis läinud.
+
+SPEAKER_02
+No, okei.
+
+SPEAKER_01
+No, et see on. Ma ei tea, kui sa mingid ei räägi, siis on mingid, kas see on või on või on? Kas selles mõttes, kui sa oled andnud, et oleks võimalik kodus, kus siis on võimalik kodus?
+
+SPEAKER_02
+Ma arvan, et sa oled andnud.
+
+SPEAKER_03
+Aitäh.
+
+SPEAKER_02
+Kas see on nüüd pakkusid märgitud?
+
+SPEAKER_03
+Linn, linn, linn, linn, linn, linn. It's all we're just need. Come on.
+
+SPEAKER_01
+Don't sit down. Nojah.
+
+SPEAKER_02
+Aitäh. You can't sit down. Nojah. I can't sit down.
+
+SPEAKER_01
+I can't sit down. Are you okay, let's go? I can't sleep. I don't know. I don't know. I can't know. I can't eat it. Thank you. I don't know. It's all my listed.
+
+SPEAKER_02
+I can't buy some food. Please. No, don't you tell me niimoodi
+
+SPEAKER_01
+I can't say that I'm going for you, I can't speak.
+
+SPEAKER_03
+I can't say that I Pentagon's küsim Möglichkeiten.
+
+SPEAKER_02
+So, let's esquer
+
+SPEAKER_01
+It's a good question. It's a good question. Gällegi ei ole mitte midagi. I'll see how I'm going to be able to go from and go from it. I'm going to be able to come to come from. I'm going to be able to come from. I can see you. Look, look. Look, look, look. Look. No. Look, look, look. Look, look, look. I can't see.
+
+SPEAKER_04
+That's right. I don't know what I'm going to be able to go.
+
+SPEAKER_01
+Tervist, palun. Sorry. Do I need you? I need you are. You can't see, exactly? You can't see, I need you. Omet us. Tähendab. You can't see, I need you. You can't see. I need you. I need you. It's like the redel, it's not like the redel.
+
+SPEAKER_03
+It's like that. So we just don't need aastad.
+
+SPEAKER_02
+Thank you.
+
+SPEAKER_01
+Thank you. Thank you. Palun. Thank you. Thank you.
+
+SPEAKER_02
+Yeah. Thank you.
+
+SPEAKER_01
+Aitäh, aitäh. Thank you.
+
+SPEAKER_02
+That's important.
+
+SPEAKER_01
+Aga palun. Thank you. Thank you. Thank you. It's right here. It's so important.
+
+SPEAKER_02
+Minu nimi on järgmiseks. It's really important. We're just going to make it. Например. You're welcome.
+
+SPEAKER_01
+You're welcome. You're welcome. Tõenäolisemad sõidavad ministrit, et vaadata, mis siin ülesse pani. You're going to go to the public. You're going ado. That's the climate. You're going to be ausalt.
+
+SPEAKER_03
+You're not. You're going to be told me.
+
+SPEAKER_02
+I'm myself making now.
+
+SPEAKER_03
+You're going to be able to know.
+
+SPEAKER_01
+I'm going to be a day. I'm going to be a child. I'm going to be a child. I'm going to be a child.
+
+SPEAKER_02
+Ma panin kodutöösse natuke võib-olla selgitavamalt, et selle, et teil on vaja seda kontseptsiooni ja arhitektuuri, eks ole.
+
+SPEAKER_05
+Aga ma panin siia selle kasutajalugude nagu sellise, võib-olla ma loodan, et see on natuke selgem, et see on teil probleemis, tuleb see välja, eks ole, kasutajateekond praegu ja nende baasil siis nagu ma ennem ütlesin, eks ole, tuleks need kasutajalood. Et see nagu selgitab, kirjutab selle probleemi lahenduse põhimõtteliselt lahti. Loodetavasti on see natuke arusaadavam, see on vist natuke jabur siin. Viisteist lõpeb või? Võib-olla küll, ma ei mäleta, keegi teab või?
+
+SPEAKER_03
+Opiits. See on väga hea, okei. Tuleb kõik. Hello, et mis meil igasugust on meil?
+
+SPEAKER_01
+Mina olen inimesed, aga teie andmed, aga teie andmed. Vot, palju. Palju, palju, palju.
+
+SPEAKER_03
+Aitäh. Aitäh.
+
+SPEAKER_01
+I, I, I, I, I, I, I, I, I, I.
+
+SPEAKER_02
+Teie küsimus on teie küsimus vä? Teie küsimus on teie küsimus.
+
+SPEAKER_01
+Tõepoolest.
+
+SPEAKER_03
+Palun.
+
+SPEAKER_01
+Vaadake kõigepealt küsimust. See ongi nii, see ongi nii. See ongi nii, see ongi nii. Et jQuery peaks endiselt vist kasutus olema päris meeletult, mingid vanad Wordpressi lehed ja.
+
+SPEAKER_05
+Et seda legacy't staff'i on nagu kõvasti ilmselt.
+
+SPEAKER_03
+Selge. Aitäh. Nii, aga ma ei oska öelda.
+
+SPEAKER_04
+Sinna kirjelduse ka panema, et see on nagu lingi, nagu ma grupeerin sinna, kuidas ma saan talle nagu elusti või mis ta sinna description peaks panema.
+
+SPEAKER_05
+Paneme selle, sul on nüüd natuke pooleli veel ka, et ma vahetasin natukene.
+
+SPEAKER_00
+Panin ka sama projekti alla, mitte ei tea uut projekti või?
+
+SPEAKER_05
+Mina, see, see, ma copy'sin natuke lollakalt, et ma tegelikult teeks lihtsalt, võtaks selle skeemi, see on see, kui ma vaatan üle, kus ma tulin. Et ma teeks lihtsalt selle kasutajana soovin ma ja selle, selle. Ma arvan, see on loll asi, ma teen teistmoodi, ma teen ümber.
+
+SPEAKER_04
+Teen pärast need issue'd või mis see.
+
+SPEAKER_05
+Ei issue, et sa teed issue'd, jagad lihtsalt oma need ülesanded, kes mida ei tee.
+
+SPEAKER_04
+Ja mis ma description'is siis praegu praegu.
+
+SPEAKER_03
+Et see ei pea midagi panema. Description ei ole nagu nii oluline asi, jah.
+
+SPEAKER_05
+Selle praegu tekkis küsimus Giti, Giti commit'imise puhul, et commit'itud kommid, sõnumid, et see kirjeldus, see on nagu pigem lisa, et tavaliselt piisab sellest pealkirjast ja kogu lugu. Et see, aga kui on mingi noh, kui on vaja mingi pikem asi, et siis on, tuleb see mängu.
+
+SPEAKER_03
+Või noh, on vaja, lihtsalt on vaja selgitust rohkem, eks ole.
+
+SPEAKER_02
+Tänan, aitäh. Kes teie tänaseks?
+
+SPEAKER_03
+Tänan.
+
+SPEAKER_02
+Tänan. Tänan. Tänan.
+
+SPEAKER_03
+Olen lahti vastu.
+
+SPEAKER_01
+Tänan. Tänan.
+
+SPEAKER_02
+Tänan. Tänan. Tänan. Et sellega.
+
+SPEAKER_01
+Tänan. Tänan. Tänan. Tänan. Tänan. Tänan. Tänan. Siin on siis kõik otsa või. Ma panen mingi otsa või. Täpselt nii, nii, nii, nii, nii, nii, nii, nii, nii, nii, nii, nii, nii, nii, nii. I will differentiate with you. Let's go. You don't want to talk to the question for a little bit. What's it? A little question for zero.
+
+SPEAKER_02
+A little question.
+
+SPEAKER_01
+Täpselt. A Dr. The family wants to have Werk this.
+
+SPEAKER_02
+Thank you very much.
+
+SPEAKER_01
+This is a little question. Kasutaja lugu.
+
+SPEAKER_02
+Kasutaja lugu.
+
+SPEAKER_01
+I didn't understand.
+
+SPEAKER_05
+See on okei, aga ta võib, võib-olla ei ole. Aga hiljem.
+
+SPEAKER_01
+Aitäh, aitäh, aitäh, aitäh, aitäh.
+
+SPEAKER_02
+I don't know what's these it?
+
+SPEAKER_01
+Hea, hea, hea, hea, hea. Või siis teie küsimuseks? No see on nüüd palju. See on nüüd palju.
+
+SPEAKER_03
+Kogu aeg, kui aeg, kui aeg, kui aeg, kui aeg.
+
+SPEAKER_02
+Nüüd on see organisatsioon täpsemalt nii. Kas ta on? Nii palju? Nii palju. Nii palju. Nii, kaks päeva.
+
+SPEAKER_01
+Aitäh, aitäh, aitäh, aitäh. It's fine, yeah. Please exhibitions and impactful. It's okay. Does arthritis add quickly
+
+SPEAKER_03
+No i'm not going to go.
+
+SPEAKER_01
+I'm even afraid, can't't you see. Aitäh.
+
+SPEAKER_02
+Aitäh.
+
+SPEAKER_03
+It's there. Aitäh. It's okay.
+
+SPEAKER_01
+It's okay. Thank you, thank you, thank you. It's okay. Thank you. Thank you.
+
+SPEAKER_02
+My name is... My name is...
+
+SPEAKER_01
+Oh, you need. She goes, it's also...
+
+SPEAKER_02
+Aitäh. Kas ma olen sulle siin? Ma vaatasin, et korraks.
+
+SPEAKER_01
+Okei. Ei. Täitsa hea probleem. Väheks. Ja, jah. Aitäh. Palun.
+
+SPEAKER_03
+Palun. Pange sinna GitHubi siia kommentaari, et ma vastan sinnasamma, sest mul ei ole nad niimoodi peas. Palun.
+
+SPEAKER_02
+Thank you. Thank you.
+
+SPEAKER_01
+I'll send you a little bit. I don't want to ask you. Let's see what I'm going to say. We hit on the microplane.
+
+SPEAKER_02
+I don't want to see. I'm going to see what I'm going to say. It is, it's an animal.
+
+SPEAKER_01
+It's about a good microplane. It's about a new video.
+
+SPEAKER_02
+It's a new time.
+
+SPEAKER_01
+It's a new time.
+
+SPEAKER_02
+Yeah.
+
+SPEAKER_01
+Yeah. Where are you? It's a new reason to be. Okay. I need toodud. Thank you very much.
+
+SPEAKER_03
+Thank you.
+
+SPEAKER_01
+mol Jama, horisakaat. puesto technology. You want to see.
+
+SPEAKER_03
+Aga siis on, tänaseks hakkab vist läbi ka saama, et koduülesanne korra veel, kus meil on, ma täiendan natuke repot, et siis ja koduülesannet ka korra veel vaatan.
+
+SPEAKER_05
+Aga, aga et lihtsalt, et, et ei kaoks ära sinna detailidesse ja mingi etappidesse, siis hoidke meeles seda põhiasja, mida me teeme, eks ole, meil on sellel korral vaja teha lihtsalt selle loodava rakenduse niisugune kontseptsioon või noh, ühesõnaga tegelikult disaini kirjeldus või selle olemuse kirjeldus, see on põhiline, eks. Ja seal on vaja mõned asjad siis täiendada, et seesama, mõned kasutajalood, et see probleemiks välja tulla, tuua ja natuke rollidega möllata. Ja see on nagu kõik, et see, et ärge nii punktuaalselt noh, võtke eesmärgiks neid mingeid punkte seal täita täpsemalt, vaid need on nagu, peavad aitama seda. Põhiasja lahendada, et kui, et mis see, mis see rakendus on, milline rakendus, mis küsimusele vastab see rakendus, mis lahendab need probleemid, et, et. Et jah, mul kipub olema niimoodi, et tulevad need juhendid, siis te hakkate hästi neid juhendeid punktuaalselt täitma, et mis on nagu mõnes mõttes võib-olla okei, aga teisest küljest jälle see ei ole nagu iseenesest eesmärk. Ja, aga selles mõttes nad, nad tuginevad sellele probleemile ja probleemis tekkinud.
+
+SPEAKER_05
+Noh, et kuidas see probleem väljendab, et teil on probleem, eks ole, te kirjeldate ära, et kuidas see toimub täpsemalt ja selle probleem, nendes kohtades, kus see probleem ilmneb, sealt tulebki see kasutajalugu. Ma panen selle, seda, ma praegu täiustan seda materjali siin ka, et ja te võite Discordis lisa küsida või takerdute kuskile ja siis ongi.

@@ -1,8 +1,10 @@
-# Eksam: dokumenteeritud tarkvaraarenduse protsessi esitlus
+# Eksam: protsessi esitlus ja mõistete test
 
 ## Ülesanne lühidalt
 
 Meeskond vormistab release'i `v1.0.0 – Tarkvaraarenduse protsessi tervik` ja esitleb oma projekti release'ide ajajoonena. Esitlus peab näitama, kuidas probleemist, tõenditest, rollide vaadetest ja riskidest kujunesid põhjendatud otsused.
+
+Lisaks esitlusele teeb iga õppija lühikese testi kursusel läbitud mõistete kohta.
 
 Valmis rakendus ei ole nõutav. Hinnatakse arusaamist ja põhjendamist, mitte tehnilist keerukust, teksti hulka ega visuaalset efekti.
 
@@ -43,7 +45,15 @@ Ebaolulistest commit'idest ja väikestest muudatustest võib üle hüpata. Vähe
 - Esitlus viitab repositooriumis olevatele otsustele ja release'idele.
 - Demo on vabatahtlik ja peab jääma lühikeseks. See ei asenda protsessi selgitust.
 
+## Mõistete test
+
+Test on individuaalne ja lühike. See kontrollib, kas õppija oskab kursusel läbitud mõisteid oma sõnadega selgitada ja oma projekti näitega siduda. Näiteks: mis vahe on Gitil ja GitHubil, mis on kasutajalugu ja kontrolltingimus, mis on blokeerija.
+
+Testis on ainult mõisted, mida on seminarides või kodutöödes käsitletud. Pähe õppimist test ei eelda: kes on seminarides ja kodutöödes kaasa töötanud, saab sellega hakkama.
+
 ## Hindamine
+
+Tabel kirjeldab projekti ja esitluse hindamist. Mõistete testi osakaal lõpphindes lepitakse kokku enne eksamit.
 
 | Hinnatav osa | Osakaal |
 |---|---:|
