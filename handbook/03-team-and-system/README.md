@@ -1,3 +1,5 @@
+[← Eelmine osa: Kliendisoovist arendusülesandeni](../02-from-request-to-task/README.md) | [Sisukord](../README.md) | [Järgmine: Tööviisid →](01-ways-of-working.md)
+
 # 3. Meeskond, tööviis ja süsteemi põhimõte
 
 > **Põhiküsimus:** kuidas meeskond töötab ja millist süsteemi põhimõtteliselt kavandab?

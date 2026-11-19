@@ -1,3 +1,5 @@
+[← Arhitektuuri põhimõisted](05-architecture-basics.md) | [Sisukord](../README.md) | [Järgmine osa: Kvaliteet, riskid ja vastutus →](../04-quality-and-risk/README.md)
+
 # Giti oskus: merge-konflikt
 
 **Märge:** Seminaris

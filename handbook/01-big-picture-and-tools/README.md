@@ -1,3 +1,5 @@
+[Sisukord](../README.md) | [Järgmine: Tarkvara ja tarkvaraarendus →](01-software.md)
+
 # 1. Suur pilt ja töövahendid
 
 > **Põhiküsimus:** mis on tarkvaraarendus ja milliste tööriistadega seda tehakse?

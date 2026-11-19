@@ -1,3 +1,5 @@
+[← Eelmine osa: Meeskond, tööviis ja süsteemi põhimõte](../03-team-and-system/README.md) | [Sisukord](../README.md) | [Järgmine: Mõõdetav kvaliteet →](01-measurable-quality.md)
+
 # 4. Kvaliteet, riskid ja vastutus
 
 > **Põhiküsimus:** kuidas me teame, et kavand on piisavalt hea, ja mis võib meid alt vedada?

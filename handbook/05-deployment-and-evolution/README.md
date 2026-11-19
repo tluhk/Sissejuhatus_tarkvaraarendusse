@@ -1,3 +1,5 @@
+[← Eelmine osa: Kvaliteet, riskid ja vastutus](../04-quality-and-risk/README.md) | [Sisukord](../README.md) | [Järgmine: Kasutuselevõtt ja käitus →](01-deployment-and-operations.md)
+
 # 5. Kasutuselevõtt, käitus ja areng
 
 > [!NOTE]

@@ -1,3 +1,5 @@
+[← Litsentsid](03-licences.md) | [Sisukord](../README.md) | [Järgmine: Dokumenteerimine →](05-documentation.md)
+
 # Lähteülesanne
 
 **Märge:** Seminaris

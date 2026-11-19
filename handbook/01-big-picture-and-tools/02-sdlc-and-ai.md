@@ -1,3 +1,5 @@
+[← Tarkvara ja tarkvaraarendus](01-software.md) | [Sisukord](../README.md) | [Järgmine: IDE ja terminal →](03-ide-and-terminal.md)
+
 # Tarkvaraarenduse elutsükkel ja AI
 
 **Märge:** Seminaris

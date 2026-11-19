@@ -1,3 +1,5 @@
+[← Osa ülevaade](README.md) | [Sisukord](../README.md) | [Järgmine: Rollid →](02-roles.md)
+
 # Probleemi uurimine
 
 **Märge:** Seminaris

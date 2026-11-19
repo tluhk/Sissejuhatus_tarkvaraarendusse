@@ -1,3 +1,5 @@
+[← Osa ülevaade](README.md) | [Sisukord](../README.md) | [Järgmine: Tarkvaraarenduse elutsükkel ja AI →](02-sdlc-and-ai.md)
+
 # Tarkvara ja tarkvaraarendus
 
 **Märge:** Seminaris

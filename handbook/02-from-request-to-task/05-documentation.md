@@ -1,3 +1,5 @@
+[← Lähteülesanne](04-project-brief.md) | [Sisukord](../README.md) | [Järgmine: Kanban ja ajahinnang →](06-kanban-and-estimates.md)
+
 # Dokumenteerimine
 
 **Märge:** Seminaris

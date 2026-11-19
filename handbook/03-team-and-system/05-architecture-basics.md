@@ -1,3 +1,5 @@
+[← Süsteemi kontseptsioon](04-system-concept.md) | [Sisukord](../README.md) | [Järgmine: Giti oskus: merge-konflikt →](06-git-merge-conflict.md)
+
 # Arhitektuuri põhimõisted
 
 **Märge:** Iseseisev

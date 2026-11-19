@@ -1,3 +1,5 @@
+[← Tarkvaraarenduse elutsükkel ja AI](02-sdlc-and-ai.md) | [Sisukord](../README.md) | [Järgmine: Git ja GitHub →](04-git-and-github.md)
+
 # IDE ja terminal
 
 **Märge:** Seminaris

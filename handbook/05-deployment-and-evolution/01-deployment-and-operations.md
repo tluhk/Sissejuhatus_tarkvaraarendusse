@@ -1,3 +1,5 @@
+[← Osa ülevaade](README.md) | [Sisukord](../README.md) | [Järgmine: Tagasiside ja areng →](02-feedback-and-evolution.md)
+
 # Kasutuselevõtt ja käitus
 
 **Märge:** Seminaris

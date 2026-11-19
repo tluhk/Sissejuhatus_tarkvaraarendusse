@@ -1,3 +1,5 @@
+[← Tagasiside ja areng](02-feedback-and-evolution.md) | [Sisukord](../README.md) | [Järgmine: Sõnastik →](../glossary.md)
+
 # Giti oskus: tag ja ajajoon
 
 **Märge:** Seminaris

@@ -1,3 +1,5 @@
+[← Kanban ja ajahinnang](06-kanban-and-estimates.md) | [Sisukord](../README.md) | [Järgmine osa: Meeskond, tööviis ja süsteemi põhimõte →](../03-team-and-system/README.md)
+
 # Giti oskus: pull ja release
 
 **Märge:** Seminaris

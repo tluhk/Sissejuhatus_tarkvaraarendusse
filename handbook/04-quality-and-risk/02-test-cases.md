@@ -1,3 +1,5 @@
+[← Mõõdetav kvaliteet](01-measurable-quality.md) | [Sisukord](../README.md) | [Järgmine: Vea silumine ja koodi ülevaatus →](03-debugging-and-code-review.md)
+
 # Testjuhtum
 
 **Märge:** Seminaris

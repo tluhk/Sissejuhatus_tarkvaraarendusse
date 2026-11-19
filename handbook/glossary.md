@@ -1,3 +1,5 @@
+[Sisukord](README.md)
+
 # Sõnastik
 
 Kursuse põhimõisted tähestiku järjekorras. Iga mõiste juures on link lehele, kus seda põhjalikumalt käsitletakse.

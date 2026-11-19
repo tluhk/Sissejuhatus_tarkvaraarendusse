@@ -1,3 +1,5 @@
+[← Probleemi uurimine](01-problem-discovery.md) | [Sisukord](../README.md) | [Järgmine: Litsentsid →](03-licences.md)
+
 # Rollid
 
 **Märge:** Seminaris

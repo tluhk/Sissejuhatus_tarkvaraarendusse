@@ -1,3 +1,5 @@
+[← Git ja GitHub](04-git-and-github.md) | [Sisukord](../README.md) | [Järgmine: Arenduskeskkond →](06-dev-environment.md)
+
 # Markdown
 
 **Märge:** Seminaris

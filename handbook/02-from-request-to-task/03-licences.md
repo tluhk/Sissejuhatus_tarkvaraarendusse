@@ -1,3 +1,5 @@
+[← Rollid](02-roles.md) | [Sisukord](../README.md) | [Järgmine: Lähteülesanne →](04-project-brief.md)
+
 # Litsentsid
 
 **Märge:** Seminaris

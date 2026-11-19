@@ -1,3 +1,5 @@
+[← Vea silumine ja koodi ülevaatus](03-debugging-and-code-review.md) | [Sisukord](../README.md) | [Järgmine: Koodi kvaliteet →](05-code-quality.md)
+
 # Riskid
 
 **Märge:** Seminaris

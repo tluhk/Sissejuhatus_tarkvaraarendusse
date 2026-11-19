@@ -1,3 +1,5 @@
+[← Riskid](04-risks.md) | [Sisukord](../README.md) | [Järgmine: Giti oskus: ajalugu ja tagasivõtmine →](06-git-history.md)
+
 # Koodi kvaliteet
 
 **Märge:** Iseseisev

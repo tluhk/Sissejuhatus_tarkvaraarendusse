@@ -1,3 +1,5 @@
+[← Backlog](03-backlog.md) | [Sisukord](../README.md) | [Järgmine: Arhitektuuri põhimõisted →](05-architecture-basics.md)
+
 # Süsteemi kontseptsioon
 
 **Märge:** Seminaris

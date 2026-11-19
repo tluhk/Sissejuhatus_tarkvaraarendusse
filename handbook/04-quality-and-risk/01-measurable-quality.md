@@ -1,3 +1,5 @@
+[← Osa ülevaade](README.md) | [Sisukord](../README.md) | [Järgmine: Testjuhtum →](02-test-cases.md)
+
 # Mõõdetav kvaliteet
 
 **Märge:** Seminaris

@@ -1,3 +1,5 @@
+[← Osa ülevaade](README.md) | [Sisukord](../README.md) | [Järgmine: Kasutajalood ja nõuded →](02-user-stories-and-requirements.md)
+
 # Tööviisid
 
 **Märge:** Seminaris

@@ -1,3 +1,5 @@
+[← Kasutajalood ja nõuded](02-user-stories-and-requirements.md) | [Sisukord](../README.md) | [Järgmine: Süsteemi kontseptsioon →](04-system-concept.md)
+
 # Backlog
 
 **Märge:** Seminaris

@@ -1,3 +1,5 @@
+[← IDE ja terminal](03-ide-and-terminal.md) | [Sisukord](../README.md) | [Järgmine: Markdown →](05-markdown.md)
+
 # Git ja GitHub
 
 **Märge:** Seminaris

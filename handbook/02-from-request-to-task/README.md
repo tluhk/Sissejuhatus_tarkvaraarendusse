@@ -1,3 +1,5 @@
+[← Eelmine osa: Suur pilt ja töövahendid](../01-big-picture-and-tools/README.md) | [Sisukord](../README.md) | [Järgmine: Probleemi uurimine →](01-problem-discovery.md)
+
 # 2. Kliendisoovist arendusülesandeni
 
 > **Põhiküsimus:** kas tegeleme päris ja olulise probleemiga?

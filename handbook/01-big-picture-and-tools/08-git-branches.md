@@ -1,3 +1,5 @@
+[← Giti oskus: esimene commit](07-git-first-commit.md) | [Sisukord](../README.md) | [Järgmine osa: Kliendisoovist arendusülesandeni →](../02-from-request-to-task/README.md)
+
 # Giti oskus: harud
 
 **Märge:** Seminaris

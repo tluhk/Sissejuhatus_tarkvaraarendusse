@@ -1,3 +1,5 @@
+[← Tööviisid](01-ways-of-working.md) | [Sisukord](../README.md) | [Järgmine: Backlog →](03-backlog.md)
+
 # Kasutajalood ja nõuded
 
 **Märge:** Seminaris

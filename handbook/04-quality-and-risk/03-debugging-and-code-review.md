@@ -1,3 +1,5 @@
+[← Testjuhtum](02-test-cases.md) | [Sisukord](../README.md) | [Järgmine: Riskid →](04-risks.md)
+
 # Vea silumine ja koodi ülevaatus
 
 **Märge:** Iseseisev

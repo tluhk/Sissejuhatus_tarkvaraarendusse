@@ -1,3 +1,5 @@
+[← Arenduskeskkond](06-dev-environment.md) | [Sisukord](../README.md) | [Järgmine: Giti oskus: harud →](08-git-branches.md)
+
 # Giti oskus: esimene commit
 
 **Märge:** Seminaris

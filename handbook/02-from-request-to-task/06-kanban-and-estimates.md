@@ -1,3 +1,5 @@
+[← Dokumenteerimine](05-documentation.md) | [Sisukord](../README.md) | [Järgmine: Giti oskus: pull ja release →](07-git-pull-and-release.md)
+
 # Kanban ja ajahinnang
 
 **Märge:** Seminaris
