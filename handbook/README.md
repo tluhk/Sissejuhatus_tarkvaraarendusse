@@ -65,18 +65,18 @@ Põhiküsimus: kuidas meeskond töötab ja millist süsteemi põhimõtteliselt k
 | [Arhitektuuri põhimõisted](03-team-and-system/architecture-basics.md) | Klient-server, frontend ja backend, API, andmebaas, pilv | Iseseisev |
 | [Giti oskus: merge-konflikt](03-team-and-system/git-merge-conflict.md) | Konflikti tekkimine ja lahendamine terminalis | Seminaris |
 
-### 4. Kvaliteet, riskid ja vastutus
+### [4. Kvaliteet, riskid ja vastutus](04-quality-and-risk/README.md)
 
-Põhiküsimus: kas kavand on piisavalt hea ja vastutustundlik?
+Põhiküsimus: kuidas me teame, et kavand on piisavalt hea, ja mis võib meid alt vedada?
 
 | Leht | Sisu | Märge |
 |---|---|---|
-| Kvaliteediomadused | Kvaliteediomaduste valimine ja kontrollitavaks tegemine | Seminaris |
-| Testimise alused | Testjuhtum, vea kordamine, järelkontroll, testimise tasemed | Seminaris |
-| Koodi ülevaatus | Ülevaatuse eesmärk ja hea tagasiside | Seminaris |
-| Koodi kvaliteet | Loetavus, kokkulepped, linter, tehniline võlg | Iseseisev |
-| Riskid | Turvalisus, privaatsus, ligipääsetavus, töökindlus, kolmandad osapooled ja nende litsentsid | Seminaris |
-| Giti oskus: ajalugu | `git log`, `git diff`, `git restore` | Seminaris |
+| [Mõõdetav kvaliteet](04-quality-and-risk/measurable-quality.md) | Funktsioon ja kvaliteediomadus, ebamäärasest mõõdetavaks, kompromissid, turvalisus, privaatsus ja ligipääsetavus | Seminaris |
+| [Testjuhtum](04-quality-and-risk/test-cases.md) | Testjuhtum kontrolltingimusest, erijuhtumid, testimise tasemed | Seminaris |
+| [Vea silumine ja koodi ülevaatus](04-quality-and-risk/debugging-and-code-review.md) | Viga, silumine, vea kirjeldus, hea ülevaatuse kommentaar | Iseseisev |
+| [Riskid](04-quality-and-risk/risks.md) | Risk ja eeldus, riskikaart, kolmandad osapooled ja sõltuvused | Seminaris |
+| [Koodi kvaliteet](04-quality-and-risk/code-quality.md) | Loetavus, kokkulepped, linter, tehniline võlg | Iseseisev |
+| [Giti oskus: ajalugu ja tagasivõtmine](04-quality-and-risk/git-history.md) | `git log`, `git diff`, `git restore` | Seminaris |
 
 ### 5. Kasutuselevõtt, käitus ja areng
 
@@ -104,5 +104,5 @@ Kui otsid kindlat teemat, leiad selle siit.
 | Nõuded | 2. Probleemi uurimine; 2. Lähteülesanne; 3. Kasutajalood ja nõuded |
 | Töö planeerimine | 2. Kanban ja ajahinnang; 3. Backlog |
 | Dokumenteerimine | 1. Markdown; 2. Dokumenteerimine |
-| Kvaliteet ja testimine | 4. Kvaliteediomadused; 4. Testimise alused; 4. Koodi ülevaatus; 4. Koodi kvaliteet |
+| Kvaliteet ja testimine | 3. Kasutajalood ja nõuded; 4. Mõõdetav kvaliteet; 4. Testjuhtum; 4. Vea silumine ja koodi ülevaatus; 4. Koodi kvaliteet |
 | Õigus ja eetika | 1. Tarkvaraarenduse elutsükkel ja AI; 2. Litsentsid; 4. Riskid |
