@@ -1,5 +1,10 @@
 # Seminar 4: kvaliteet, riskid ja vastutus
 
+<!-- loengud:videod (automaatne, ära muuda käsitsi) -->
+> 🎥 **Salvestus:** [1. osa](https://youtu.be/vHoLU588c7g) · [2. osa](https://youtu.be/mxerCtuT7-c)  
+> 📝 **Tekst:** [1. osa](salvestus/transkriptsioon.md) · [2. osa](salvestus/transkriptsioon-2.md)
+<!-- /loengud:videod -->
+
 Meeskonna ühine GitHubi töövoog on kirjas [projekti töökorralduse juhendis](../../docs/projekti-tookorraldus.md).
 
 ## Eesmärk
