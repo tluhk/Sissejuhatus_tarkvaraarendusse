@@ -47,7 +47,7 @@ Kasutajalugu on **funktsionaalne nõue**: see kirjeldab, mida süsteem peab või
 - lähtub tõendist, mitte arvamusest, AI vastusest või lahendusideest;
 - kirjeldab vajadust, mitte valmis lahendust;
 - on seotud teekonna sammuga, kus probleem esineb;
-- on kontrollitav: kontrolltingimust saab päriselt kontrollida;
+- on kontrollitav: kontrolltingimust saab päriselt kontrollida. Sõnad nagu „kiiresti”, „mugavalt” või „ilma liigse ajakuluta” ei ole kontrollitavad, „kuni 10 sekundiga” on;
 - on piisavalt väike, et mahtuda ühte Issue'sse.
 
 ### Halvad näited

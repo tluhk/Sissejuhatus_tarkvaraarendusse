@@ -90,6 +90,18 @@ Release'i loob meeskonna **release manager**, kui kõik etapi PR-id on ühendatu
 
 Avaldatud tag'i ei muudeta ega tõsteta. Uus töö saab järgmise versiooninumbri.
 
+### Release manageri kontrollnimekiri
+
+Enne avaldamist loeb release manager tervikut nagu võõras lugeja:
+
+- [ ] Iga release'i kirjelduse väide on failides tõesti olemas.
+- [ ] Topeltfaile ja kohatäiteid („[kirjuta siia …]”) pole.
+- [ ] AI juhised ja mustandimärked on eemaldatud.
+- [ ] README viitab uutele otsustele ja failidele.
+- [ ] Kõik etapi PR-id on üle vaadatud ja ühendatud.
+
+Kui midagi on puudu, parandatakse see enne avaldamist. Lahtine küsimus võib release'i jääda, kui see on ausalt kirjas.
+
 ## Kontrolli ennast
 
 1. Miks loob järgmise töö haru alati äsja uuendatud `main`-ist?

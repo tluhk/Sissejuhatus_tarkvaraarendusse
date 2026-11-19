@@ -56,6 +56,10 @@ Kontseptsioon võib viia mitme lahendussuunani. Kirjelda vähemalt kaks ja võrd
 
 Näidismeeskond valib A, sest see lahendab tõendatud probleemi väiksema riskiga. B jääb lahtiseks küsimuseks. Valik läheb otsuste logisse.
 
+Suunad peavad päriselt erinema. Kui B on „A pluss midagi”, ei ole see eraldi suund, vaid A laiendus, ja valik kaldub alati suurema poole. Võrdle suundi, mis lahendavad probleemi eri viisil.
+
+Igal valikul on hind. Kirjuta **kompromiss** välja: millest loobume ja mida selle eest saame. „Valime A, sest see on parem” ei ole põhjendus. „Valime A ja loobume valikainetest, sest õppeinfosüsteemi andmete kasutamine on teadmata” on põhjendus.
+
 ## Kontrolli kontseptsiooni
 
 1. Kas igal teekonna sammul, kus probleem esineb, on vähemalt üks lugu?

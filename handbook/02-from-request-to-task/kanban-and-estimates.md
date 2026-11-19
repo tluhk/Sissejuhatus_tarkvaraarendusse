@@ -25,6 +25,10 @@ Kanbani põhireeglid:
 - **Igal kaardil on valmisoleku tingimus.** Kõik teavad, millal töö on tehtud.
 - **Pooleliolevate tööde hulk on piiratud.** Parem lõpetada üks töö kui alustada kolme. Kui miski takerdub, aidake see enne uue alustamist lõpuni.
 
+Seda piirangut nimetatakse **WIP-piiranguks** (*work in progress*). See peab päriselt piirama. Kolmeliikmelises meeskonnas ei muuda piirang „3 tööd korraga” midagi, sest igaüks teeb niikuinii ühte. Piirang „2 korraga” aga tähendab, et kolmas inimene aitab kedagi lõpetada või vaatab tööd üle, selle asemel et uut alustada.
+
+Kanban ei tähenda „kõik teevad paralleelselt oma asja”. Eesmärk on, et töö jõuaks **lõpuni**, mitte et kõik oleksid hõivatud.
+
 Kanban pärineb Toyota tehastest, kus kaardid näitasid tootmise seisu. Tarkvaraarenduses kasutatakse sama mõtet digitaalsel tahvlil.
 
 ## GitHub Projects
@@ -75,6 +79,9 @@ Järjesta Backlogi kaardid nii, et kõige olulisem on üleval.
 - Hinda väikseid töid. „2 tundi” on usaldusväärsem kui „2 nädalat”.
 - Arvesta ka ülevaatuse ja paranduste ajaga.
 - Pane hinnang Issue'sse kirja enne töö alustamist.
+- Pane tegelik aeg kirja kohe, kui Issue suletakse, mitte etapi lõpus mälu järgi.
+
+Kõige lihtsam on lisada Projectsi tahvlile kaks numbrivälja: **Hinnang (h)** ja **Tegelik (h)**. Hinnang täidetakse Issue'i loomisel, tegelik aeg sulgemisel. Etapi lõpus on võrdlus siis valmis tabelina. Hinnangut ei kirjutata hiljem üle: kadunud hinnangust ei saa midagi õppida.
 
 Etapi lõpus **võrdle hinnangut tegeliku ajakuluga**. Erinevus pole viga, vaid õppetund: järgmine plaan tuleb realistlikum. Algajad alahindavad aega peaaegu alati.
 

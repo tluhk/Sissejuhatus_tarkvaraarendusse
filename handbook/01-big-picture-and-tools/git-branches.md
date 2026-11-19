@@ -102,6 +102,13 @@ git push -u origin 8-add-contact-section
 - **Request changes:** midagi olulist tuleb parandada;
 - **Comment:** ainult küsimus, ülevaatus ei ole lõpetatud.
 
+Hea ülevaatus on rohkem kui „Korras”:
+
+- ülevaataja esitab vähemalt ühe sisulise küsimuse või ettepaneku;
+- autor vastab igale kommentaarile enne ühendamist: mida muutis või miks jättis muutmata.
+
+Ülevaatus, mis koosneb ainult sõnast „OK”, ei näita, et keegi töö läbi luges.
+
 Autor parandab samas harus, teeb uue commit'i ja `git push`. PR uueneb ise, uut PR-i pole vaja.
 
 ![Pull request'i Files changed vahekaart, avatud Submit review aken valikutega Comment, Approve ja Request changes](images/github-review-changes.png)
@@ -110,7 +117,7 @@ Koodi ülevaatusest räägime täpsemalt osas 4.
 
 ### 5. Merge
 
-Pärast heakskiitu ühendab vastutav inimene PR-i peaharusse: **Merge pull request**. Muudatus on nüüd peaharus ja Issue suletakse.
+Pärast heakskiitu ühendab PR-i peaharusse **keegi teine kui autor**: **Merge pull request**. Nii on kindel, et vähemalt kaks inimest on muudatust näinud. Muudatus on nüüd peaharus ja Issue suletakse.
 
 ## `.gitignore`
 

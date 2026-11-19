@@ -15,6 +15,8 @@ Iga kasutajalugu või muu töö saab backlog'is oma Issue. Issue'l on:
 
 Kui Issue on liiga suur, et seda paari päevaga teha, jaga see väiksemateks.
 
+Backlog kirjeldab **toote** tööd, mitte õppeülesande samme. „HW3-02 kirjuta kontseptsioon” on kodutöö samm. „Kontrolli, milliseid välju tunniplaani andmeallikas sisaldab” on toote töö: see tuleneb loost või riskist ja jääb tähtsaks ka pärast kodutööd.
+
 ## Järjestamine
 
 Backlog'i ülemine töö tehakse esimesena. Järjesta kolme küsimusega:
