@@ -53,4 +53,4 @@ Allikad on käepärast: release'i kirjeldused, otsuste logi ja `git log` kahe ve
 
 ---
 
-[← Tagasiside ja areng](feedback-and-evolution.md) | [Sisukord](../README.md) | [Järgmine: Sõnastik →](../README.md#sõnastik)
+[← Tagasiside ja areng](feedback-and-evolution.md) | [Sisukord](../README.md) | [Järgmine: Sõnastik →](../glossary.md)

@@ -21,8 +21,6 @@ Ingliskeelsed erialaterminid on toodud eestikeelse termini kõrval, sest tööri
 
 ## Sisukord
 
-Lehtede lingid lisanduvad siis, kui leht valmib.
-
 ### [1. Suur pilt ja töövahendid](01-big-picture-and-tools/README.md)
 
 Põhiküsimus: mis on tarkvaraarendus ja milliste tööriistadega seda tehakse?
@@ -88,9 +86,9 @@ Põhiküsimus: mis juhtub süsteemiga pärast selle loomist? *Mustand: võib pä
 | [Tagasiside ja areng](05-deployment-and-evolution/feedback-and-evolution.md) | Väljund, tulemus ja mõju; mõõdikud; tagasiside; uuesti uurimine; demo | Seminaris |
 | [Giti oskus: tag ja ajajoon](05-deployment-and-evolution/git-tag-and-timeline.md) | `git tag`, `git log` kahe versiooni vahel, release'ide ajajoon | Seminaris |
 
-### Sõnastik
+### [Sõnastik](glossary.md)
 
-Kursuse mõistete lühikesed selgitused.
+Kursuse põhimõisted tähestiku järjekorras koos linkidega lehtedele.
 
 ## Teemade kaupa
 
