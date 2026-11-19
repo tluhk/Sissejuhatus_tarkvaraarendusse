@@ -1,0 +1,4388 @@
+1
+00:00:02,210 --> 00:00:08,510
+No nii, on mind
+
+2
+00:00:08,510 --> 00:00:14,820
+kuulda? Lähme
+
+3
+00:00:14,820 --> 00:00:20,250
+edasi. Jah, vist jäime
+siin pooleli, eks ole,
+
+4
+00:00:20,250 --> 00:00:26,250
+käime siis selle asja siin lõpuni
+
+5
+00:00:26,250 --> 00:00:31,870
+ja siis vaatame, kuidas meil ajaga on,
+kas hakkame kohe kodutööd tegema või
+
+6
+00:00:31,870 --> 00:00:33,970
+võib-olla ei jõua, ega ma ei oska öelda.
+
+7
+00:00:33,990 --> 00:00:40,190
+Paneme, siis on teil jääb kodu,
+aga jah, sellega see siis läbi,
+
+8
+00:00:40,190 --> 00:00:44,910
+et see või noh, kokkuvõttes veel,
+et põhiasi siis, et asi,
+
+9
+00:00:44,910 --> 00:00:51,330
+mida ei ole võimalik kontrollida,
+seda ei saa nagu nõudeks
+
+10
+00:00:51,330 --> 00:00:56,160
+seada, sest et sa ei saa
+seda hinnata kuidagi.
+
+11
+00:00:56,160 --> 00:01:00,650
+Kõik asjad peavad olema mingit
+pidi joonlaud peale ja saab,
+
+12
+00:01:00,650 --> 00:01:07,450
+peab tulema sealt vastus, jah, see on nii,
+ja ta saab ainult seda asja nõuda,
+
+13
+00:01:07,450 --> 00:01:13,070
+et sellised muud asjad on pigem
+niisugused kliendiga sellised noh,
+
+14
+00:01:13,070 --> 00:01:17,880
+tema meeleolu või, või vajaduste
+rahuldamine, aga, aga jah,
+
+15
+00:01:17,880 --> 00:01:22,410
+üldised on sellised
+tehnilised osad on kõik.
+
+16
+00:01:22,430 --> 00:01:27,210
+Lihtsamini kontrollitavad,
+eks ole, ongi mingid parameetrid,
+
+17
+00:01:27,210 --> 00:01:32,530
+kiirus, mingid asjad kuskile mahuvad,
+mingisugused peab olema mingi see teine
+
+18
+00:01:32,530 --> 00:01:36,800
+tehniline lahendus, vastab
+turvanõuetele, turvanõuded on,
+
+19
+00:01:36,800 --> 00:01:42,080
+ei ole, ei ole lihtsalt, et vastab turvanõuetele, vaid selle jaoks on omad kindlad
+
+20
+00:01:42,080 --> 00:01:46,000
+sertifikaadid ja parameetrid,
+mis seda asja ära näitavad,
+
+21
+00:01:46,000 --> 00:01:50,880
+et selles mõttes ta nagu igal
+pool on, on võimalik kontrollida.
+
+22
+00:01:50,880 --> 00:01:55,010
+Suur osa testidest tehakse
+automaatselt loomulikult,
+
+23
+00:01:55,010 --> 00:01:59,460
+et tehnilised testid, et ei ole vaja,
+noh, tehti juba enne AI-d ja tehakse ka
+
+24
+00:01:59,460 --> 00:02:04,230
+praegu. Samuti on suur osa
+disainitestidest automaatsed,
+
+25
+00:02:04,230 --> 00:02:09,240
+et see, et kas mingid asjad
+mahuvad kuskile mobiilivaatesse,
+
+26
+00:02:09,240 --> 00:02:12,730
+see on võimalik teha
+automaatselt ära kõik.
+
+27
+00:02:12,730 --> 00:02:19,220
+Nii ja selle me jätame
+pärastiseks, aga selle
+
+28
+00:02:19,220 --> 00:02:24,270
+peaksid või tegelikult oota, ma vaatan.
+
+29
+00:02:24,270 --> 00:02:31,230
+Ei, jätame pärastiseks,
+et võib-olla muidu meil, et
+
+30
+00:02:31,230 --> 00:02:38,050
+ei tea, kuidas meil
+ajaga läheb, et, et jah.
+
+31
+00:02:38,070 --> 00:02:44,530
+Nii, selle kohta on juhendid ka, ma neid
+
+32
+00:02:44,530 --> 00:02:46,300
+tutvustan ka pärast.
+
+33
+00:02:46,300 --> 00:02:52,900
+Ja kvaliteedil on siis erinevad
+parameetrid, et sõltub sellest,
+
+34
+00:02:52,900 --> 00:02:59,330
+et kes küsib. Kasutaja küsib,
+eks ole, et kas ta saab oma eesmärgi
+
+35
+00:02:59,330 --> 00:03:04,390
+täidetud turvaliselt ja arusaadavalt, eks
+ole, kas ma leian oma loengu ja kas keegi
+
+36
+00:03:04,390 --> 00:03:07,820
+ei näe minu andmeid, on ju,
+et sõltuvalt asjast, eks.
+
+37
+00:03:07,930 --> 00:03:13,630
+Et mõned asjad, mõnedel tingimustel
+tahab kasutaja teised teda ei näeks,
+
+38
+00:03:13,630 --> 00:03:16,160
+eks ole, teistes kohtades
+pole see oluline.
+
+39
+00:03:16,160 --> 00:03:23,100
+Kool tahab teada, et kas
+tulemus loob väärtust, on ju,
+
+40
+00:03:23,100 --> 00:03:28,070
+vastab kohustusele, et kas
+õppijad jõuavad loengusse,
+
+41
+00:03:28,070 --> 00:03:33,550
+et kooli jaoks on oluline mitte
+lihtsalt, et tudengid tahavad seda,
+
+42
+00:03:33,550 --> 00:03:38,180
+aga just see, et. Tudengid oleks
+võimalikult õpp, õpivalmis,
+
+43
+00:03:38,180 --> 00:03:41,570
+et nad lõpetaks selle kooli,
+et see on nagu meile üks oluline osa,
+
+44
+00:03:41,570 --> 00:03:45,920
+mida küll sellest tunniplaanist välja
+ei loe, et see meile väga oluline oleks,
+
+45
+00:03:45,920 --> 00:03:48,960
+aga me iga aasta püüame
+seda uut versiooni teha.
+
+46
+00:03:48,960 --> 00:03:55,380
+Võib-olla kunagi jõuame sinnamaani ka,
+aga samas, et võib-olla ta peabki olema
+
+47
+00:03:55,380 --> 00:04:01,030
+niisugune vana ja kole, et siis on igal
+esimesel kursusel on uus tahe see paika
+
+48
+00:04:01,030 --> 00:04:07,310
+panna kõik senised otsustajad ja näidata,
+milline üks hea see tunniplaan olema
+
+49
+00:04:07,310 --> 00:04:13,220
+peab. Siis arendaja tahab, eks ole,
+
+50
+00:04:13,220 --> 00:04:20,110
+teada, et kuidas see asi lahendatakse,
+on ju, et kui jätkusuutlik
+
+51
+00:04:20,110 --> 00:04:24,480
+see asi on, et kui lihtsalt
+on teda võimalik muuta.
+
+52
+00:04:24,800 --> 00:04:31,410
+Et kas kui pannakse mingi teine
+back-and sinna taha või vastupidi
+
+53
+00:04:31,410 --> 00:04:35,850
+viiakse front-end üle,
+et kuidas asjad on muudetavad,
+
+54
+00:04:35,850 --> 00:04:41,920
+et kas süsteem kukub kokku, kui midagi,
+mingi, mõni muutuja seal muuta,
+
+55
+00:04:41,920 --> 00:04:45,850
+et see oleks nagu oluline, eks ole.
+
+56
+00:04:45,870 --> 00:04:51,980
+See, kes süsteemi töös hoiab, tahab
+teada, et kas mingite rikete puhul,
+
+57
+00:04:51,980 --> 00:04:56,350
+et kas tema saab mingeid teavitusi
+ja kas kuskilt tuleb mingi info,
+
+58
+00:04:56,350 --> 00:05:02,040
+eks ole, see on kõik selle süsteemi osa,
+mida teie kui selle asja loojad peate siis
+
+59
+00:05:02,040 --> 00:05:07,690
+hakkama, millega te peate
+nagu arvestama hakkama.
+
+60
+00:05:07,710 --> 00:05:11,630
+Kas noh, käitleja jaoks on need, kas ta
+saab mingit tagasisidet süsteemi errorite
+
+61
+00:05:11,630 --> 00:05:14,940
+kohta või kui midagi, midagi
+tagant ära kukub, et mis siis saab.
+
+62
+00:05:14,940 --> 00:05:21,794
+Ja noh, ühiskonna jaoks on ka,
+eks ole, oluline, et kas see süsteem on
+
+63
+00:05:21,794 --> 00:05:26,690
+kellelegi kahjulik või kasulik,
+kelle ligipääs sulgeb või ei sulge,
+
+64
+00:05:26,690 --> 00:05:33,544
+on ju, kas, kas noh, riigi jaoks,
+eks ole, et kas selle kooli koduleht
+
+65
+00:05:33,544 --> 00:05:37,950
+on ligipääsetav nende jaoks,
+kes ei saa seda kasut--.
+
+66
+00:05:37,950 --> 00:05:42,470
+Noh, ütleme vaegnägijad või mis, kes
+iganes, et kes erivajadustega inimesed,
+
+67
+00:05:42,470 --> 00:05:45,770
+kas nemad pääsevad õppima,
+et see on riigi jaoks oluline,
+
+68
+00:05:45,770 --> 00:05:50,160
+eks ole, et tema kodanikud ripakile
+jääksid, need on kõik osapooled,
+
+69
+00:05:50,160 --> 00:05:53,470
+millega teie arendajatena
+siis peate arvestama.
+
+70
+00:05:53,470 --> 00:05:57,610
+Ja muidugi on nagu noh,
+kuskilt jooksevad piirid ja,
+
+71
+00:05:57,610 --> 00:06:03,300
+ja et te ei saa noh, lampi kõikide maailmade, kõiki maailma probleeme ära selle
+
+72
+00:06:03,300 --> 00:06:07,380
+asjaga lahendada, aga need on
+need asjad, mis tuleb läbi käia,
+
+73
+00:06:07,380 --> 00:06:10,300
+eks ole, ja kliendiga kokku leppida.
+
+74
+00:06:10,300 --> 00:06:16,060
+Ja noh, peab arvestama, et,
+et seda mitmekülgsust just,
+
+75
+00:06:16,060 --> 00:06:20,940
+et lõppkasutaja jaoks võite te
+teha, teha suurepärase süsteemi,
+
+76
+00:06:20,940 --> 00:06:26,930
+mis aga paraku arendaja jaoks võib-olla
+nagu või, käitaja jaoks võib-olla nagu
+
+77
+00:06:26,930 --> 00:06:32,880
+õudusunenägu. Ehk et, et tagada
+süsteem, et te teete mingi jube
+
+78
+00:06:32,880 --> 00:06:37,800
+pääsilahenduse, eks ole,
+mingi näeb välja nagu GTA kuus,
+
+79
+00:06:37,800 --> 00:06:43,520
+aga selles mõttes keegi
+mängib ka parasjagu seda või?
+
+80
+00:06:43,540 --> 00:06:50,090
+Okei, et aga see vist, seda vist ongi ainult Playsta jaoks praegu või kuidas ta oli,
+
+81
+00:06:50,090 --> 00:06:53,570
+saab üldse arvutis või vahet ei ole.
+
+82
+00:06:53,570 --> 00:07:00,440
+Et aga et jah, et teie teete mingi superfansi lahenduse ja siis see hoold-- või
+
+83
+00:07:00,440 --> 00:07:05,410
+noh, käitaja, see hoiab pead kinni,
+noh, tal ei ole ressurssi,
+
+84
+00:07:05,410 --> 00:07:09,660
+et seda käigus hoida, mis iganes,
+kõik sellised asjad on ju.
+
+85
+00:07:09,680 --> 00:07:12,830
+Et see tuleb kõik läbi käia,
+need on ka kõik riskid,
+
+86
+00:07:12,830 --> 00:07:19,150
+eks ole, sellel tegevusel, et kui te arendate, pidades silmas ainult ühte osapoolt,
+
+87
+00:07:19,150 --> 00:07:25,460
+siis on see ja eeldate midagi, et mina
+ei tea, tänapäeval on ju kõik lahendused
+
+88
+00:07:25,460 --> 00:07:30,120
+olemas, see pole mingi probleem,
+mingi kiire netiühendus,
+
+89
+00:07:30,120 --> 00:07:33,730
+siis võib juhtuda, et on
+siin risk, mis realiseerub,
+
+90
+00:07:33,730 --> 00:07:36,350
+te ei ole sellega arvestanud.
+
+91
+00:07:36,450 --> 00:07:40,320
+Ka see, et keegi üliõpilastest
+elabki kuskil metsas,
+
+92
+00:07:40,320 --> 00:07:45,440
+kus on väga kehv internetiühendus ja te
+ei ole võimalikuks teinud mingit sellist
+
+93
+00:07:45,440 --> 00:07:50,420
+lihtsamat lahendust, mis ei pea
+üldse nagu see veebileht olema,
+
+94
+00:07:50,420 --> 00:07:53,370
+eks ole, mis võibki olla lihtsalt mingi.
+
+95
+00:07:54,340 --> 00:07:57,480
+API, kustkaudu saab need asjad kätte,
+on ju, noh, see muidugi võib-olla ei ole
+
+96
+00:07:57,480 --> 00:08:01,150
+otseselt hetkel teie ülesanne, et see oleks nagu tegelikult seal juba teise süsteemi
+
+97
+00:08:01,150 --> 00:08:05,210
+osa ülesanne. Aga vot niimoodi ja et
+
+98
+00:08:05,180 --> 00:08:12,120
+selge, et kõiki neid asju, nagu
+
+99
+00:08:12,120 --> 00:08:18,530
+juba ennem ütlesin, eks ole,
+korraga ei tarvitse saada ära teha,
+
+100
+00:08:18,530 --> 00:08:23,050
+et kõiki nüüd eelmises etapis
+rahuldada nende noh, siin on viis,
+
+101
+00:08:23,050 --> 00:08:29,440
+eks neid ole rohkemgi, kõigi selle viie
+osapoole maksimumsoove ilmselt ei ole
+
+102
+00:08:29,440 --> 00:08:32,570
+võimalik rahuldada korraga.
+
+103
+00:08:32,590 --> 00:08:37,290
+Et tuleb leida kompromiss, noh,
+käita ja võib-olla tema tahaks,
+
+104
+00:08:37,290 --> 00:08:42,000
+et lihtsalt oleks mingi siuke
+surnud süsteem, et ta ei saa üldse,
+
+105
+00:08:42,000 --> 00:08:47,310
+ta teab, et ta mingit error'it ei saa,
+sellepärast et see asi on lihtsalt kinni,
+
+106
+00:08:47,310 --> 00:08:53,090
+eks ole, ja siis on kohe sellega on see
+esimene osapoole tema nagu asjad täitmata.
+
+107
+00:08:53,330 --> 00:08:58,190
+Turvalisus, eks ole, muudab
+kindlasti asja aeglasemaks,
+
+108
+00:08:58,190 --> 00:09:03,550
+ebamugavamaks, aga noh,
+teisest küljest turvalisemaks,
+
+109
+00:09:03,550 --> 00:09:10,150
+et hinda võib see kõik tõsta, eks ole,
+see on niisugused elementaarsed
+
+110
+00:09:10,150 --> 00:09:16,920
+asjad. Ja kuskilt tuleb siis see
+leida, eks ole, see kompromiss
+
+111
+00:09:16,920 --> 00:09:23,570
+ja see, see tuleb, ega noh,
+ega ilmselt ega ei oska öelda ja ei
+
+112
+00:09:23,570 --> 00:09:29,930
+peagi oskama öelda, et mis,
+kuskohast see kompromiss tulla saab või
+
+113
+00:09:29,930 --> 00:09:35,270
+võib. Kelle arvelt võib rohkem
+lõigata, kelle arvelt vähem,
+
+114
+00:09:35,270 --> 00:09:40,100
+et see on nagu üks osa sellest
+tööst, mida te arend-- või noh,
+
+115
+00:09:40,100 --> 00:09:45,810
+mida te kogu selle arendajana, tarkvara arendajana nii-öelda selle peamise vaatajana
+
+116
+00:09:45,810 --> 00:09:51,020
+arvestama peate.
+Ehk siis jah, et kompromiss
+
+117
+00:09:51,020 --> 00:09:55,410
+ei ole halb,
+
+118
+00:09:55,410 --> 00:10:02,400
+aga jah, et ta ei või
+teisest küljest olla ka
+
+119
+00:10:02,400 --> 00:10:08,860
+kogemata välja kukkunud asi,
+ta peab olema kokkulepe.
+
+120
+00:10:08,940 --> 00:10:12,450
+Et see, kui juhtub nõnda,
+et aga nüüd ei jää enam midagi üle,
+
+121
+00:10:12,450 --> 00:10:16,750
+see ei tarviks see hea olla.
+
+122
+00:10:16,750 --> 00:10:22,750
+Tiim, kes otsustab, et vaade
+ei nõua sisselogimist näiteks,
+
+123
+00:10:22,750 --> 00:10:26,910
+loobub isiklikest valikutest,
+aga võidab lihtsuse ja privaatsuse,
+
+124
+00:10:26,910 --> 00:10:33,180
+on ju. Juhul, kui see on
+logis kirjas põhjendustega,
+
+125
+00:10:33,180 --> 00:10:38,970
+siis, siis on see okei,
+on ju, ja see on nagu
+
+126
+00:10:38,970 --> 00:10:45,880
+kompromiss on loomulikult see,
+et kõik on nagu asjaga
+
+127
+00:10:45,880 --> 00:10:51,020
+nõus. Kodutöös peaks teil ka üks
+nagu selline asi siis tulema.
+
+128
+00:10:51,020 --> 00:10:56,960
+Kavandite juures,
+
+129
+00:10:56,960 --> 00:11:01,380
+eks ole, või noh, disaini
+juures siis selles mõttes,
+
+130
+00:11:01,380 --> 00:11:06,880
+et süsteemi disaini juures, on ju, et
+peate ta siis ka oskama küsimusi esitada,
+
+131
+00:11:06,880 --> 00:11:12,030
+on ju, et, et lihtsalt, noh,
+näiteks turvalisus, eks ole,
+
+132
+00:11:12,030 --> 00:11:14,780
+lampi, kõik asjad turvaliseks teha.
+
+133
+00:11:14,780 --> 00:11:21,450
+Võib-olla, või siis
+mitteturvaliseks teha, et mõlemat
+
+134
+00:11:21,450 --> 00:11:26,450
+pidi, et te peate vaatama, eks ole,
+et mis andmeid kellelgi on vaja,
+
+135
+00:11:26,450 --> 00:11:31,060
+on ju, päriselt ja kui kaua teil
+mingit ligipääsu andmeid on vaja,
+
+136
+00:11:31,060 --> 00:11:34,780
+et mis juhtub siis, kui on lekke, eks ole.
+
+137
+00:11:34,780 --> 00:11:40,770
+Nendest asjadest tuleneb siis see,
+eks ole, et kui keeruliselt te seda asja
+
+138
+00:11:40,770 --> 00:11:47,680
+lahendate, kui teil on nagu kellelgi
+pole neid andmeid vaja ja kui lekke
+
+139
+00:11:47,680 --> 00:11:52,020
+korral lekivad andmed, mida
+mitte kellelgi vaja ei ole,
+
+140
+00:11:52,020 --> 00:11:58,370
+siis on ilmselt üks juhtum,
+kui lekivad niisugused andmed,
+
+141
+00:11:58,370 --> 00:12:02,240
+millega on midagi võimalik
+kelleltki välja pressida,
+
+142
+00:12:02,240 --> 00:12:06,170
+on hoopis teine asi, eks ole.
+
+143
+00:12:06,260 --> 00:12:13,010
+Noh, ligipääsetavus, et kas,
+kas süsteemi, kas süsteem töötab ka
+
+144
+00:12:13,010 --> 00:12:16,960
+ekraanilugejaga, eks ole,
+kas te saate tabu tabulaad või noh,
+
+145
+00:12:16,960 --> 00:12:20,600
+selle tabulaad või noh,
+selle tag klahviga saate liikuda,
+
+146
+00:12:20,600 --> 00:12:24,510
+kõik sellised asjad, et see on,
+kas, kas aeglase võrgu puhul,
+
+147
+00:12:24,510 --> 00:12:27,990
+mis siis juhtub, on ju,
+kas väikse ekraaniga juhtub,
+
+148
+00:12:27,990 --> 00:12:30,400
+kuidas sellisel juhul on.
+
+149
+00:12:30,400 --> 00:12:34,820
+Ja noh, rohkem ei ole, noh,
+seda ei ole pikalt vaja,
+
+150
+00:12:34,820 --> 00:12:39,440
+neid mingeid kirjandeid ei ole vaja
+kirjutada, see on jälle see AI koht,
+
+151
+00:12:39,440 --> 00:12:43,530
+et vaadake selle ka ette, on ju,
+asi peab olema konkreetne,
+
+152
+00:12:43,530 --> 00:12:50,270
+asja peab olema lihtne,
+hallata, vaadata ja
+
+153
+00:12:50,270 --> 00:12:55,890
+jah, meil on koolilehe puhul eriti
+oluline on olla kursis ka seadusandlusega,
+
+154
+00:12:55,890 --> 00:13:01,730
+et eraettevõtte või eraõigusliku isiku
+või kuidas see nüüd peenelt nimetatakse,
+
+155
+00:13:01,730 --> 00:13:05,630
+tema veebilehe puhul on asjad lahtised.
+
+156
+00:13:06,360 --> 00:13:09,860
+Riigiasutuste puhul avalik-õigusliku,
+selle, mis see on,
+
+157
+00:13:09,860 --> 00:13:13,980
+subjekt või? No vahet pole,
+ütleme meie kooli puhul,
+
+158
+00:13:13,980 --> 00:13:18,650
+eks ole, sellel on omad tingimused,
+millele need asjad vastama jäävad,
+
+159
+00:13:18,650 --> 00:13:22,270
+need on kõik asjad, mida,
+mis tuleb järgi kontrollida,
+
+160
+00:13:22,270 --> 00:13:24,950
+kirja või noh, arvestada.
+
+161
+00:13:24,970 --> 00:13:28,400
+Et jah. Ja testimine
+
+162
+00:13:28,400 --> 00:13:35,590
+võrdleb
+
+163
+00:13:35,590 --> 00:13:39,730
+oodatud tulemust tegeliku
+tulemusega või tegeliku jah,
+
+164
+00:13:39,730 --> 00:13:43,040
+tulemusega siis kindlates tingimustes.
+
+165
+00:13:43,040 --> 00:13:49,460
+Luuakse nagu testi nagu kirjeldus või
+
+166
+00:13:49,460 --> 00:13:56,360
+sammud näiteks, et kasutaja noh, et
+
+167
+00:13:56,360 --> 00:14:03,320
+mine sinna, ava see ja
+vajuta okei ja jälgitakse,
+
+168
+00:14:03,320 --> 00:14:06,610
+et kas see on võimalik.
+
+169
+00:14:06,630 --> 00:14:13,630
+Ja erinevatel siis tingimustel
+tehakse see ära, et ütleme veebi
+
+170
+00:14:13,630 --> 00:14:19,650
+puhul on see nii desktopi kui,
+mobiili puhul, eks ole.
+
+171
+00:14:19,650 --> 00:14:24,480
+Kõikidel juhtudel peab siis
+olema näha, mitte niimoodi,
+
+172
+00:14:24,480 --> 00:14:29,610
+et kõik peab näha olema, ei pea on ju,
+aga peab olema ära kirjeldatud,
+
+173
+00:14:29,610 --> 00:14:31,200
+mis peab näha olema.
+
+174
+00:14:31,200 --> 00:14:35,860
+Ülesanne tuleb saada sooritatud, aga võib-olla kõik elemendid ei ole kitsal vahetel
+
+175
+00:14:35,860 --> 00:14:40,190
+vajalikud. Ja see peab teada olema,
+eks ole, siis sellisel juhul on võimalik
+
+176
+00:14:40,190 --> 00:14:44,900
+kinnitada, et jah, test läbis,
+kõik on korras ja siin on nagu näide,
+
+177
+00:14:44,900 --> 00:14:48,720
+eks ole, avatunniplaan, valmis
+kakskümmend kuus, sulge menüü,
+
+178
+00:14:48,720 --> 00:14:55,010
+keri alla. Kui see on võimalik tingimustel, et rühma nimi on kogu aeg nähtav,
+
+179
+00:14:55,010 --> 00:14:58,200
+ilma menüüd avamata, siis
+on test roheline või noh,
+
+180
+00:14:58,200 --> 00:15:04,780
+läbitud. Meie puhul me
+ju ei loe, on ju seda või
+
+181
+00:15:04,780 --> 00:15:10,750
+noh, ei loo praegu seda konkreetset
+rakendust, et kui päris rakendus
+
+182
+00:15:10,750 --> 00:15:17,280
+oleks, siis testida saab prototüübi
+peal, testida saab selle wire
+
+183
+00:15:17,280 --> 00:15:22,080
+frame'ide peal, ehk siis
+selline võrgutraadistikud.
+
+184
+00:15:22,140 --> 00:15:26,830
+Mis iganes sõltub, mis teste te teete,
+et kui te teete UX-teste ehk et
+
+185
+00:15:26,830 --> 00:15:31,810
+kasutajakogemuse teste, siis on nagu
+niisugused lihtsad valikud tehakse,
+
+186
+00:15:31,810 --> 00:15:37,440
+noh siiamaani on tehtud ennem ära, et
+mitte hakata raha arenduse peale kulutama.
+
+187
+00:15:37,440 --> 00:15:42,110
+Aga ajastul on nüüd arendus
+või noh, koodi kirjutamine on,
+
+188
+00:15:42,110 --> 00:15:47,580
+tähendab arendus ise siin võib vaielda, aga koodi kirjutamise osa on odavaks läinud,
+
+189
+00:15:47,580 --> 00:15:51,470
+et siis võib nüüd ka selle juba
+prototüübi teha suhtkoht sama,
+
+190
+00:15:51,470 --> 00:15:53,430
+mis on lõpparendus.
+
+191
+00:15:53,430 --> 00:15:59,490
+Ja seda nagu testida siis
+juba jah, ja siis nüüd
+
+192
+00:15:59,490 --> 00:16:06,250
+tarkvara testimine siis juba,
+et kas ka mingisugused asjad toimivad
+
+193
+00:16:06,250 --> 00:16:11,180
+täpselt, kas protsessid käivad,
+käivituvad nii nagu vaja oli,
+
+194
+00:16:11,180 --> 00:16:16,300
+eks ole. Et seda kõike saab testida.
+
+195
+00:16:16,300 --> 00:16:21,330
+Meil nüüd, me saame testida ja te saate
+selle ülesande testida oma kirjeldusi
+
+196
+00:16:21,330 --> 00:16:27,220
+nii-öelda, sest et meil midagi muud pole,
+eks ole, et te saate läbi mängida selle,
+
+197
+00:16:27,220 --> 00:16:32,850
+et te kirjeldasite mingisugused
+kasutajalood ära ja nüüd te mängite läbi,
+
+198
+00:16:32,850 --> 00:16:38,855
+et loote testi esi, et lähen sinna, liigun
+sinna, et ta on küll suhtkoht mäng ja
+
+199
+00:16:38,855 --> 00:16:43,320
+teda ei saa päris hästi teha, aga,
+aga selle nagu läbimängimise mõttes,
+
+200
+00:16:43,320 --> 00:16:45,950
+et tekiks nagu arusaamine.
+
+201
+00:16:46,050 --> 00:16:52,960
+Mis, mis Eesti meil on või noh,
+kuidas Eesti töötavad ja kas seal tuleb
+
+202
+00:16:52,960 --> 00:16:54,980
+mingeid
+
+203
+00:16:54,980 --> 00:17:00,940
+vastuseid.
+
+204
+00:17:00,940 --> 00:17:07,000
+Testida saate ka praegu
+olemasoleva selle lahenduse peal,
+
+205
+00:17:07,000 --> 00:17:11,910
+aga seda te ilmselt ka
+osaliselt juba tegite, eks ole,
+
+206
+00:17:11,910 --> 00:17:16,730
+sest te leidsite oma
+probleemi selle baasil.
+
+207
+00:17:16,730 --> 00:17:30,690
+Ja
+
+208
+00:17:30,690 --> 00:17:37,010
+esitatakse ka siis juhte,
+kus süsteemid vigu teevad,
+
+209
+00:17:37,010 --> 00:17:41,890
+katkenud võrk või tühi sisend või
+
+210
+00:17:41,890 --> 00:17:48,570
+nädal näiteks, andmeid ei lae, et kõik
+
+211
+00:17:48,570 --> 00:17:54,590
+seda tüüpi asjad. Need testjuhtumid siis
+
+212
+00:17:54,590 --> 00:17:59,840
+kirjutatakse ja suur osa,
+eks ole, neist on
+
+213
+00:17:59,840 --> 00:18:06,190
+nii-öelda nagu teada mingisuguse
+
+214
+00:18:06,190 --> 00:18:12,800
+kogemuse baasil. Sealt
+ta tuleb, sellepärast ka
+
+215
+00:18:12,800 --> 00:18:17,510
+testijad tihtilugu kipuvad olema
+sellised spetsialiseerunud tüübid,
+
+216
+00:18:17,510 --> 00:18:21,070
+nad teavad juba kust, mida peab töötama.
+
+217
+00:18:21,070 --> 00:18:25,480
+Et mitte noh, igaüks võib-olla päris
+ei ole kõige parem test ja kui on
+
+218
+00:18:25,480 --> 00:18:29,860
+testimisülesanded muidugi koostatud
+juba noh, siis võib igaüks testida,
+
+219
+00:18:29,860 --> 00:18:34,970
+eks ole, et ongi läbi mängida, aga jah,
+suur osa testidest tehakse automaatselt.
+
+220
+00:18:34,970 --> 00:18:41,170
+inimtööjõud on kallis,
+aga on siiski nagu neid olukordi,
+
+221
+00:18:41,170 --> 00:18:46,380
+kus ei AI ega ka masin, muud
+masintestid ei saa lihtsalt hakkama,
+
+222
+00:18:46,380 --> 00:18:52,500
+et siis peab inimene lõpuks ikkagi
+te-- tegema, sest et inimene on see,
+
+223
+00:18:52,500 --> 00:18:54,810
+kes vastutuse võtab.
+
+224
+00:18:54,810 --> 00:19:00,740
+kliendile te ei saa öelda,
+et klient või, tegi midagi,
+
+225
+00:19:00,740 --> 00:19:04,660
+eks ole. Sellepärast, et vastutajate
+
+226
+00:19:04,660 --> 00:19:11,500
+teie arendamise etapp,
+
+227
+00:19:11,500 --> 00:19:18,300
+enamus inimesi ilmselt mõtleb arenduse all
+
+228
+00:19:18,300 --> 00:19:20,800
+koodi kirjutamist.
+
+229
+00:19:20,800 --> 00:19:27,420
+Aga me oleme sellest, eks ole,
+rääkinud, et see koodi osa on
+
+230
+00:19:27,420 --> 00:19:31,010
+tegelikult vaid üks osa sellest.
+
+231
+00:19:34,390 --> 00:19:40,780
+Kokku, eks on see disain, arhitektuur,
+
+232
+00:19:40,780 --> 00:19:45,820
+koodimine sealhulgas, valikud,
+
+233
+00:19:45,820 --> 00:19:52,570
+kuidas, kuhu midagi salvestada.
+
+234
+00:19:52,570 --> 00:19:57,050
+arendaja lisaks sellele,
+et ta lihtsalt koodi või noh,
+
+235
+00:19:57,050 --> 00:20:02,900
+ütleme koodija või arendaja lisaks
+sellele, et ta lihtsalt midagi koodi
+
+236
+00:20:02,900 --> 00:20:07,580
+kirjutab, ta vaatab ka üle,
+eks ole, kaasarendaja töö.
+
+237
+00:20:07,600 --> 00:20:14,230
+Et selles mõttes need nüüd ja edaspidi
+või selle selle siinse kursuse mõte on ka
+
+238
+00:20:14,230 --> 00:20:20,400
+see, et see PR review'dele, PR review'd
+jah, PR-idele tagasiside andmine,
+
+239
+00:20:20,400 --> 00:20:25,930
+see ei ole lihtsalt nagu siuke tüütu kohustus, vaid see on nagu osa sellest asjast,
+
+240
+00:20:25,930 --> 00:20:31,930
+mis on teie töö. Et selles
+mõttes suhtuge nendesse PR
+
+241
+00:20:31,930 --> 00:20:38,310
+kommentaaridesse sama siis
+tõsiselt, kui te oma tööd
+
+242
+00:20:38,310 --> 00:20:43,110
+teete, et püüdke anda tagasisidet,
+kui on midagi anda.
+
+243
+00:20:43,200 --> 00:20:47,400
+Noh, et see, mis ma ennemgi rääkisin, et
+see korras lihtsalt või hästi või need ei
+
+244
+00:20:47,400 --> 00:20:51,540
+ole nagu head tagasisidet, aga tõepoolest,
+kui on lihtsalt mingi siuke asi ja meil
+
+245
+00:20:51,540 --> 00:20:53,980
+siin suur osa sellest,
+mis me praegu teeme, on see,
+
+246
+00:20:53,980 --> 00:20:57,490
+et, et lihtsalt tuleb
+ära kinnitada, eks ole.
+
+247
+00:20:57,500 --> 00:21:00,900
+Aga proovige siiski leida
+igast tööst mingid asjad,
+
+248
+00:21:00,900 --> 00:21:05,180
+mis tegelikult tagasitõttu on anda,
+sest et siin on seda palju.
+
+249
+00:21:05,180 --> 00:21:11,110
+Tegelikkuses ei ole ainult see, et asi
+on üleval, et tegelikult lugeda läbi,
+
+250
+00:21:11,110 --> 00:21:15,840
+läbi see, mis teised, teine kirjutas,
+ma üksinda kõike ei jõua.
+
+251
+00:21:15,840 --> 00:21:21,170
+Aga, aga jah, juba see, et kui te
+vaatate teise töö üle ja näete sealt,
+
+252
+00:21:21,170 --> 00:21:25,310
+et oo, et tema on siit teinud
+natuke teistmoodi kui mina tegin,
+
+253
+00:21:25,310 --> 00:21:32,160
+et see on juba nagu niisugune asi, mis teid edasi aitab ja seda ka talle kinnitada,
+
+254
+00:21:32,160 --> 00:21:38,350
+see aitab ka. Nii, meie siin,
+eks ole, ei tee seda
+
+255
+00:21:38,350 --> 00:21:42,600
+koodimise osa, et seda me
+teeme teistes ainetes, aga,
+
+256
+00:21:42,600 --> 00:21:47,510
+aga nende harjutuse osad,
+need on nagu olulised ja noh,
+
+257
+00:21:47,510 --> 00:21:53,210
+kogu meie, meie selle aine või selle kursuse suurem osa on tegelikult GitHubiga ja
+
+258
+00:21:53,210 --> 00:21:56,060
+GIT-iga sõbraks saamine.
+
+259
+00:21:56,060 --> 00:22:00,980
+Et, et ka tühjad siuksed esmapilgud,
+need imelikud harjutused,
+
+260
+00:22:00,980 --> 00:22:05,510
+mis me teeme, et siis suur osa
+sellest ongi see koostöö harjutamine,
+
+261
+00:22:05,510 --> 00:22:07,420
+kasutades Giti ja GitHubi.
+
+262
+00:22:07,420 --> 00:22:14,420
+Ja jah, et vigade kirjeldamine
+tagasisides, nii et
+
+263
+00:22:14,420 --> 00:22:20,890
+teine saab seda, seda korrata
+ja sellest aru, see on nagu hea.
+
+264
+00:22:21,210 --> 00:22:27,580
+Ja ajastul, kus me elame,
+eks ole, et siis suure
+
+265
+00:22:27,580 --> 00:22:33,390
+tõenäosusega muutubki arendaja
+või noh, arendaja töö ise,
+
+266
+00:22:33,390 --> 00:22:37,840
+eks ole, niisugune
+spetsiifilist arendajat.
+
+267
+00:22:37,840 --> 00:22:44,240
+Vajadust jääb vähemaks, et kogu tarkvaraprotsessi suunaja ongi nagu laiem oskus,
+
+268
+00:22:44,240 --> 00:22:47,800
+ehk et sa saad aru koodist,
+sa saad aru tarkvarast,
+
+269
+00:22:47,800 --> 00:22:52,060
+sa saad aru arhitektuurist,
+sa saad aru disainist.
+
+270
+00:22:52,060 --> 00:22:58,460
+Ja sa mõistad projektijuhtimist,
+ehk et tegelikult üks inimene haldab kogu
+
+271
+00:22:58,460 --> 00:23:04,040
+protsessi ära, võib-olla mitte päris,
+sest et midagi pole parata,
+
+272
+00:23:04,040 --> 00:23:10,450
+mõned inimesed on suhtlejamad, mõned vähem, et meil läheb vaja ilmselt veel mingi
+
+273
+00:23:10,450 --> 00:23:12,960
+aeg kõrvale tiimikaaslast.
+
+274
+00:23:12,960 --> 00:23:19,740
+Et noh, välja arvatud juhul, kui olete,
+kui teil on mingid muud omadused,
+
+275
+00:23:19,740 --> 00:23:24,570
+et suhelda ei oska, aga millegipärast keegi teine ikkagi tahab teiega õudselt midagi
+
+276
+00:23:24,570 --> 00:23:27,680
+teilt tellida on ju,
+et siis on erijuhud on ju.
+
+277
+00:23:27,720 --> 00:23:30,130
+Noh, päris täpselt, kuidas
+see asi nüüd edasi läheb,
+
+278
+00:23:30,130 --> 00:23:35,720
+ei tea me üldse. Aga hetkel on ta nii,
+et natuke veel ikkagi on vaja tiimi.
+
+279
+00:23:37,810 --> 00:23:42,350
+See on üks kodutööpunktidest ka, et
+võib-olla et te natuke kirjeldate seda oma
+
+280
+00:23:42,350 --> 00:23:46,620
+arvamust, et huvitav,
+kuhu asjad võiksid liikuda.
+
+281
+00:23:49,430 --> 00:23:56,030
+Jah, aga jah, hetkel säilib see asi,
+et arendaja vaatab ikkagi töövoogudele
+
+282
+00:23:56,030 --> 00:24:01,800
+peale ja oma kogemusest võin
+öelda praegu just ühte AI projekti
+
+283
+00:24:01,800 --> 00:24:08,770
+teeme, et seal jälle liigub
+korraks tagasi inimese vajadusele.
+
+284
+00:24:08,790 --> 00:24:14,900
+Probleem on ühesõnaga selles, et AI suudab
+toota sekunditega jõhkras koguses pahna,
+
+285
+00:24:14,900 --> 00:24:21,140
+töö on läinud selles suhtes kiiremaks,
+kohutavalt palju kiiremaks,
+
+286
+00:24:21,140 --> 00:24:26,480
+et mingid etapid saavad valmis,
+aga keegi ei jaksa seda enam üle lugeda,
+
+287
+00:24:26,480 --> 00:24:33,210
+noh, ja, aga vastutus on inimese
+peal, eks ole, kliendi ees.
+
+288
+00:24:33,210 --> 00:24:38,330
+Nii et nagu päris niisugune triki
+olukord, et mingi teha mingi pisike
+
+289
+00:24:38,330 --> 00:24:43,360
+rakendus, eks ole, üksi ja
+AI-ga, see ei ole probleem,
+
+290
+00:24:43,360 --> 00:24:47,520
+aga mingi suurem tarkvara lahendus
+müügiks ja sa ei tea enam,
+
+291
+00:24:47,520 --> 00:24:53,220
+mille eest sa vastutad, sest et see,
+mis sulle valmis on kirjutatud,
+
+292
+00:24:53,220 --> 00:24:59,400
+ta praegu töötab, aga kuidas või miks ta
+töötab, mis augud seal sees olla võivad,
+
+293
+00:24:59,400 --> 00:25:04,990
+seda sa ei tea, sest sul ei ole seda
+aega olnud, et see kõik üle kontrollida.
+
+294
+00:25:04,990 --> 00:25:08,930
+Ja omakorda, kui see nüüd kõik üle
+kontrollida, siis jälle tekib küsimus,
+
+295
+00:25:08,930 --> 00:25:13,280
+et aga miks ma seda ise ei teinud,
+nii et see on nagu päris põnev olukord,
+
+296
+00:25:13,280 --> 00:25:17,850
+seda saame lähiaastal veel, aastatel veel
+näha, aga ma võin teid selle asjaga kursis
+
+297
+00:25:17,850 --> 00:25:22,810
+hoida. Võin ka, kui meil jääb aega,
+nojah, see muidugi muutub,
+
+298
+00:25:22,810 --> 00:25:27,330
+ma teisele kursusele näitasin
+just oma tööprotsessi üks päev,
+
+299
+00:25:27,330 --> 00:25:34,080
+et ühe selle AI projektiga, et ma jah,
+võib-olla põgusalt järgmine kord võin
+
+300
+00:25:34,080 --> 00:25:40,260
+näidata ka. Kas keegi ütles midagi?
+
+301
+00:25:40,260 --> 00:25:42,580
+Ei ole vahepeal küsimusi tekkinud.
+
+302
+00:25:42,580 --> 00:25:47,580
+Tagareas kõik magavad või
+on mõni veel üleval ka või?
+
+303
+00:25:47,580 --> 00:25:52,220
+Mõni on. Nägin kätt
+
+304
+00:25:52,220 --> 00:25:58,590
+selle. Okei. Nüüd koodist
+
+305
+00:25:58,590 --> 00:26:01,680
+rääkides, eks ole.
+
+306
+00:26:01,680 --> 00:26:06,120
+Jah, meil on siin mõned asjad,
+millest ka sa ei loe.
+
+307
+00:26:06,120 --> 00:26:07,980
+Jah, hetkel on pigem loeng.
+
+308
+00:26:07,980 --> 00:26:11,700
+Loengu alguses räägitud,
+on ju, asjade nimetamine ja,
+
+309
+00:26:11,700 --> 00:26:16,720
+ja kus neid kasutada ja kuidas
+piletites või issue'des või,
+
+310
+00:26:16,720 --> 00:26:20,410
+kuidas keegi nimetab neid kasutada, on ju.
+
+311
+00:26:20,550 --> 00:26:27,040
+Et mis tekivad, on ju, et
+
+312
+00:26:27,040 --> 00:26:33,780
+vead, süsteem tekib,
+käitub teisiti kui noh, oli
+
+313
+00:26:33,780 --> 00:26:40,180
+oodata, ootus noh,
+kui ootus oli vale, et siis on
+
+314
+00:26:40,180 --> 00:26:46,590
+nõudes viga, et aga kui,
+kui ootus on õige, siis on viga
+
+315
+00:26:46,590 --> 00:26:53,350
+ilmselt koodis. Siin mitmed on nagu
+asjad, et siin seda peab siis vaata,
+
+316
+00:26:53,350 --> 00:26:58,190
+vaatama, on ju, et kus viga on, et
+tunniplaani puhul võib viga olla näiteks
+
+317
+00:26:58,190 --> 00:27:02,080
+andmetes, mingi vale ruum tuleb,
+on ju, mitte sellepärast,
+
+318
+00:27:02,080 --> 00:27:07,010
+et kood on valesti tehtud, vaid lihtsalt
+see Anneli on valesti sisestanud.
+
+319
+00:27:07,010 --> 00:27:12,620
+Sellisel juhul testitakse seda,
+on ju, korratakse viga,
+
+320
+00:27:12,620 --> 00:27:17,970
+üritatakse olukorda taastada
+ja dokumenteeritakse see ära,
+
+321
+00:27:17,970 --> 00:27:24,440
+on ju, ja seejärel on võimalik põhjust
+kitsendada, kuni leitakse see viga üles,
+
+322
+00:27:24,440 --> 00:27:28,700
+noh, tavaliselt see ei ole
+väga pikk protsess, on ju.
+
+323
+00:27:28,700 --> 00:27:32,810
+No sõltub ka, mõni asi on keeruline,
+siis võib pikem ka olla,
+
+324
+00:27:32,810 --> 00:27:36,610
+aga oletused kontrollitakse,
+pimesi siin midagi ei tehta ja,
+
+325
+00:27:36,610 --> 00:27:40,290
+ja noh, kui ta just laivis
+ei ole, et on testkeskkonnas,
+
+326
+00:27:40,290 --> 00:27:44,260
+et siis saab ka sedamoodi testida,
+et jäetakse mingi aja,
+
+327
+00:27:44,260 --> 00:27:47,680
+aeg vahele ja proovitakse
+mingi aja pärast või.
+
+328
+00:27:47,680 --> 00:27:54,340
+Ja lisatakse kontroll
+
+329
+00:27:54,340 --> 00:27:57,180
+tulevikuks, et sama viga ei korduks.
+
+330
+00:27:57,180 --> 00:28:04,180
+Koodi ülevaatus on üks asi, mis
+
+331
+00:28:04,180 --> 00:28:10,340
+aitab seda, eks ole, selle vähendada,
+kaaslane loeb selle koodi üle,
+
+332
+00:28:10,340 --> 00:28:17,140
+saab, saab anda sellele tagasiside,
+eks ole, saab ka panna
+
+333
+00:28:17,140 --> 00:28:23,780
+lisaküsimused, eks ole, et mis juhtub,
+kui näiteks mingi osa on seal täitmata,
+
+334
+00:28:23,780 --> 00:28:27,810
+mis juhtub, kui mingid asjad veel, on ju.
+
+335
+00:28:27,810 --> 00:28:34,620
+Või siis konkreetsed, konkreetne kommentaar, et see on sul vastavalt nendele,
+
+336
+00:28:34,620 --> 00:28:40,360
+nendele tingimustele, kas täitmata
+või vale, just põhjusel on ju,
+
+337
+00:28:40,360 --> 00:28:45,890
+aga lihtsalt nagu see on vale,
+see ei ütle nagu midagi,
+
+338
+00:28:45,890 --> 00:28:50,270
+et seda, seda peate meeles pidama.
+
+339
+00:28:50,290 --> 00:28:54,690
+Sellepärast on ka noh, ma ütlen,
+et siin kursusele tulles nii palju välja,
+
+340
+00:28:54,690 --> 00:28:58,600
+aga et ma olen proovinud selle koodi
+ülevaatuse sellel põhjusel teha,
+
+341
+00:28:58,600 --> 00:29:03,140
+et ei oleks nii, et sõber vaatab sõbra koodi üle, vaid et te saate kogu aeg endale
+
+342
+00:29:03,140 --> 00:29:06,640
+uue paarilise, kes teie koodi üle vaatab.
+
+343
+00:29:06,730 --> 00:29:11,460
+Sellel põhjusel just, et osad
+inimesed oskavad paremini asju teha.
+
+344
+00:29:11,460 --> 00:29:18,300
+Ja kui te näete, kuidas keegi teeb hästi,
+eks ole, siis õpetaja annab teile ka
+
+345
+00:29:18,300 --> 00:29:22,010
+õpetuse, et jah, et proovin
+ise ka niimoodi anda.
+
+346
+00:29:22,010 --> 00:29:25,830
+Siis kodutöös
+
+347
+00:29:25,830 --> 00:29:32,010
+tuleb teil nagunii
+
+348
+00:29:32,010 --> 00:29:38,680
+need, annate neid tagasisidesid, et
+
+349
+00:29:38,680 --> 00:29:43,300
+siis seda peate silmas
+pidama ja aa ja muidugi see,
+
+350
+00:29:43,300 --> 00:29:49,400
+kes teeb ülevaatust, võiks teha
+
+351
+00:29:49,400 --> 00:29:54,910
+niisuguse esmase ülevaatuse
+ja noh, sellega on ka
+
+352
+00:29:54,910 --> 00:30:00,160
+muidugi omad probleemid,
+
+353
+00:30:00,160 --> 00:30:06,980
+on ju, aa ja on hästi
+niisugune sõnarahke ja võib,
+
+354
+00:30:06,980 --> 00:30:10,270
+ühesõnaga te peate teadma.
+
+355
+00:30:11,660 --> 00:30:14,840
+Te nagu peate teadma ise seda tööd,
+mida te teete, et kui AI annab teile mingi
+
+356
+00:30:14,840 --> 00:30:18,370
+soovituse, aga te ei saa aru,
+mis sellest, et siis võib olla,
+
+357
+00:30:18,370 --> 00:30:22,020
+et noh, et teil tegelikult ei ole
+vaja seda asja, mis ta soovitab,
+
+358
+00:30:22,020 --> 00:30:24,670
+et selles mõttes, et näiteks pakub üle.
+
+359
+00:30:24,670 --> 00:30:29,190
+Et teie vajate mingit pisikest
+funktsionaalsust, eks ole,
+
+360
+00:30:29,190 --> 00:30:34,480
+AI laseb teil valmis, keevitab
+mingisuguse hirmsa juba noh,
+
+361
+00:30:34,480 --> 00:30:39,210
+rakenduse, aga noh, sisuliselt
+nagu poleks justkui vaja,
+
+362
+00:30:39,210 --> 00:30:43,510
+on ju. Noh, et sellised asjad,
+selliseid asju peaks vaatama,
+
+363
+00:30:43,510 --> 00:30:49,960
+aga üksi tehes muidugi noh,
+kui teil ei ole teist paarilist,
+
+364
+00:30:49,960 --> 00:30:51,360
+siis on ju väga hea.
+
+365
+00:30:51,360 --> 00:31:09,810
+Ja
+
+366
+00:31:09,810 --> 00:31:16,190
+nüüd tuleme jälle tagasi selle esimese
+
+367
+00:31:16,190 --> 00:31:22,530
+poole teema juurde, ehk et
+asjad, riskid, ühesõnaga,
+
+368
+00:31:22,530 --> 00:31:28,480
+mis meid võib alt vedada, üksi tehes me
+
+369
+00:31:28,480 --> 00:31:34,460
+võib-olla ei tulegi asjade peale, on ju.
+
+370
+00:31:34,460 --> 00:31:39,040
+Vähese kogemuse puhul samuti,
+et me ei tea lihtsalt,
+
+371
+00:31:39,040 --> 00:31:40,800
+meil ei ole kogemust.
+
+372
+00:31:40,800 --> 00:31:46,680
+Me lendame hurraaga peale,
+eks ole, ja tegelikult me ei tea,
+
+373
+00:31:46,680 --> 00:31:51,380
+mis meid alt vedada, et tiimi
+eelis on see, et me teame seda,
+
+374
+00:31:51,380 --> 00:31:55,360
+mitte me ei tea seda,
+aga ühesõnaga meil on rohkem liikmeid,
+
+375
+00:31:55,360 --> 00:32:01,960
+kellel on mingid, kes saavad asja
+või kes näevad asju eri nurga alt,
+
+376
+00:32:01,960 --> 00:32:08,890
+eks ole, siis tuleb mängu rohkem neid
+asju, mis võivad meid alt vedada.
+
+377
+00:32:08,890 --> 00:32:14,960
+AI aitab meid, aga võib ka liiga ühe
+külje pealt, et kui teil juba on siuke
+
+378
+00:32:14,960 --> 00:32:21,680
+seadistatud AI töövoog, mis alati
+testib või läbi või või küsib läbi
+
+379
+00:32:21,680 --> 00:32:27,550
+küsimused, et kas selle,
+ja selle kolmanda asja vastu
+
+380
+00:32:27,550 --> 00:32:32,870
+kontrollisid. Aga lõpuks võib
+meid ka AI ise alt vedada,
+
+381
+00:32:32,870 --> 00:32:39,720
+et selles suhtes, et ja üha rohkem, eks ole, võib-olla see üheks selliseks riskiks,
+
+382
+00:32:39,720 --> 00:32:44,700
+et me laseme kogu otsustuse oma
+AI-le ja, ja siis tuleb välja,
+
+383
+00:32:44,700 --> 00:32:49,620
+et mingil, mingil põhjusel või
+mingid asjad tegi ta valesti,
+
+384
+00:32:49,620 --> 00:32:55,040
+ühesõnaga, või meil ei olnud seda vaja
+või tema nägemus oli meie oludes liiga
+
+385
+00:32:55,040 --> 00:33:00,160
+kitsas, tegi Ameerika jaoks,
+Eestisse ei sobi, mis iganes.
+
+386
+00:33:00,160 --> 00:33:06,500
+Ja riski või halbade asjade
+
+387
+00:33:06,500 --> 00:33:12,180
+nimekiri, mis võiks meid
+nagu alt vedada, see on
+
+388
+00:33:12,180 --> 00:33:18,550
+töövahend, mida, mida me
+
+389
+00:33:18,520 --> 00:33:24,730
+saame kasutada lihtsalt, et selles
+
+390
+00:33:24,730 --> 00:33:28,880
+suhtes, et need, see tuleks nagu leida.
+
+391
+00:33:28,900 --> 00:33:35,500
+Meil on teada juba üks
+suurimaid riske, mis
+
+392
+00:33:35,500 --> 00:33:41,760
+teil kodutöödes oli,
+eks ole, et tegelikult ei, ei
+
+393
+00:33:41,760 --> 00:33:46,640
+tea, kus ta on, et üks niisugune
+
+394
+00:33:46,640 --> 00:33:53,340
+põhiasi. Ja noh, me peaksime
+lihtsalt tegema oma riskide
+
+395
+00:33:53,340 --> 00:33:59,840
+tabeli, mis võivad juhtuda nii hästi
+või halvasti, kui me neid oskame,
+
+396
+00:33:59,840 --> 00:34:05,560
+agiilses arenduses saate
+ju seda täiendada kogu aeg,
+
+397
+00:34:05,560 --> 00:34:11,830
+eks ole. oluline mingid väga
+jõhkrad asjad kuidagi kirja saada ja
+
+398
+00:34:11,830 --> 00:34:17,630
+üldjuhul, kui nagu tõsiselt teha,
+et ega, ega nende asjad tulevad ka
+
+399
+00:34:17,630 --> 00:34:23,910
+välja, need tulevad välja kliendiga
+või jah, tellijaga rääkides,
+
+400
+00:34:23,910 --> 00:34:29,030
+nad tulevad välja sihtgrupiga
+rääkides ja nad tulevad välja ka oma,
+
+401
+00:34:29,030 --> 00:34:32,960
+oma siis mingi kogemuste baasilt.
+
+402
+00:34:32,960 --> 00:34:38,490
+Ja noh, siin on see hea näide,
+eks ole, et meil on eeldus,
+
+403
+00:34:38,490 --> 00:34:42,500
+et tunniplaani andmed on tõenäoliselt
+olemas, see on nagu jube inimlik,
+
+404
+00:34:42,500 --> 00:34:46,920
+sellepärast et me ju noh, näeme ju,
+need andmed on olemas on ju.
+
+405
+00:34:46,920 --> 00:34:49,860
+Aga kuidas need tegelikult
+toimuvad, äkki on mingi süsteem,
+
+406
+00:34:49,860 --> 00:34:53,360
+mingeid viimaseid kuid alles töös,
+et seda me ju, seda me ei uurinud,
+
+407
+00:34:53,360 --> 00:34:59,790
+eks ole. Ja risk on tegelikult
+jah see, et tulevast ei
+
+408
+00:34:59,740 --> 00:35:04,130
+näidata või ei tohi kasutada mis
+iganes, et äkki kuskilt praegu,
+
+409
+00:35:04,130 --> 00:35:08,330
+äkki see on osa tellimusest,
+et praegu keegi teine pakub neid,
+
+410
+00:35:08,330 --> 00:35:13,660
+seda andmete teenust,
+mis iganes moodi on ju.
+
+411
+00:35:13,660 --> 00:35:17,570
+Siis see kukub ära on ju ja
+kui me sellega ei tegele,
+
+412
+00:35:17,570 --> 00:35:21,320
+siis on meil probleem,
+aga majandus on see väga lihtne ju,
+
+413
+00:35:21,320 --> 00:35:25,880
+et meil enne jätkamist kontrollime
+üle, et kas tohib kasutada,
+
+414
+00:35:25,880 --> 00:35:28,380
+kas me saame neid, mis iganes.
+
+415
+00:35:28,380 --> 00:35:31,970
+Põhiasi on see, et meil on see riskide
+
+416
+00:35:31,970 --> 00:35:37,680
+tabel tehtud
+
+417
+00:35:37,680 --> 00:35:43,200
+lihtsalt, meil on eeldused ja
+
+418
+00:35:43,200 --> 00:35:49,660
+riskid vaja eraldi
+panna ja näiteks on meil
+
+419
+00:35:49,660 --> 00:35:56,340
+riskikaart, et kus me
+kirjeldame ära, et mis
+
+420
+00:35:56,340 --> 00:36:00,220
+võib juhtuda, eks, ja.
+
+421
+00:36:00,220 --> 00:36:06,250
+Et kus meil on see risk ja siis
+küsimus on ju, et vastavalt siis nagu
+
+422
+00:36:06,250 --> 00:36:09,370
+kirjas siin on, jah.
+
+423
+00:36:09,370 --> 00:36:14,900
+Mis võib juhtuda? Mõju tõenäosus,
+kuidas märkame, maandus,
+
+424
+00:36:14,900 --> 00:36:21,410
+vastutaja, ilmselt neid riskikaarte on erinevaid, aga see on selline üks niisugune
+
+425
+00:36:21,410 --> 00:36:25,890
+lihtne, loogika lihtsalt on see,
+et te saaksite kirja noh,
+
+426
+00:36:25,890 --> 00:36:30,830
+selle muidugi, et mis, mis võib juhtuda.
+
+427
+00:36:30,850 --> 00:36:34,060
+Näiteks seda andmete voog lõppeb
+ära, me ei saa andmeid kätte,
+
+428
+00:36:34,060 --> 00:36:40,090
+on ju, kui tõsine see on, selles mõttes, et siis me saame tööd prioritiseerida töid.
+
+429
+00:36:40,090 --> 00:36:46,560
+Igaüks võib mõtelda siin või noh, selles mõttes iga tiim või iga organisatsioon võib
+
+430
+00:36:46,560 --> 00:36:50,970
+siis ise selle, täita selle,
+noh, selle skaala, on ju,
+
+431
+00:36:50,970 --> 00:36:55,010
+aga ma arvan, et see madal
+keskmine kõrge on täitsa okei.
+
+432
+00:36:55,130 --> 00:37:01,500
+Selles mõttes, et see paneb paika, eks
+ole, et kui julgelt me võime selle asjaga
+
+433
+00:37:01,500 --> 00:37:06,000
+edasi minna ilma teadmisteta või
+siis vastupidi, et kas me seda ei,
+
+434
+00:37:06,000 --> 00:37:11,190
+ühesõnaga, et me ei saa ilma
+seda lahendamata edasi minna.
+
+435
+00:37:11,190 --> 00:37:15,420
+Tõenäosus samamoodi, on ju,
+et võivad olla mingid asjad,
+
+436
+00:37:15,420 --> 00:37:20,700
+mida me eeldame ja noh,
+kui tõenäosused need on, on ju,
+
+437
+00:37:20,700 --> 00:37:26,370
+ja noh, kuidas me märkame,
+et see risk realiseerub ja mida
+
+438
+00:37:26,370 --> 00:37:30,010
+teha, et riski mõju oleks väiksem.
+
+439
+00:37:30,030 --> 00:37:34,640
+Ehk et esmalt see, et kui see
+juhtub, on ju, mis siis saab,
+
+440
+00:37:34,640 --> 00:37:41,180
+on ju, ja hästi oluline on see,
+et projektitöös peab alati olema,
+
+441
+00:37:41,180 --> 00:37:47,840
+keegi peab vastutama, et kui ei ole
+vastutajat, siis lähevad asjad lappesse.
+
+442
+00:37:47,860 --> 00:37:50,710
+See on nagu igatpidi selge.
+
+443
+00:37:50,710 --> 00:37:51,340
+Nii, ja
+
+444
+00:37:51,340 --> 00:37:58,960
+siinjuures
+
+445
+00:37:58,960 --> 00:38:05,850
+nagu siis on just see
+oluline, see roll, eks,
+
+446
+00:38:05,850 --> 00:38:10,660
+et mitte, mitte niivõrd
+Jaan, kuivõrd arhitekt
+
+447
+00:38:10,660 --> 00:38:17,370
+või, siis noh, disainer või
+mis iganes, et ühesõnaga
+
+448
+00:38:17,370 --> 00:38:21,690
+keegi võtab seda kanda,
+aga inimene võib ju vahetada,
+
+449
+00:38:21,690 --> 00:38:27,710
+aga roll jääb. Ja meie siin oleme
+selle AI teemas käsitlenud seda ka,
+
+450
+00:38:27,710 --> 00:38:33,340
+et sama rolli võib, või vastupidi,
+sama inimene võib mitut rolli kasutada,
+
+451
+00:38:33,340 --> 00:38:37,860
+aga kindlasti on see, et kui keegi
+mille, mingi rolli vedaja on,
+
+452
+00:38:37,860 --> 00:38:42,010
+et siis tema seda vastutab, on ju.
+
+453
+00:38:42,010 --> 00:38:47,760
+Kui kõik vastutavad, siis
+tegelikult ei vastuta keegi,
+
+454
+00:38:47,760 --> 00:38:50,580
+kõik arvavad, et noh, keegi
+ikka tegeleb ja noh, ma ei tea,
+
+455
+00:38:50,580 --> 00:38:53,630
+see Kaido ju teadis minust
+rohkem ju ta teeb selle asja.
+
+456
+00:38:53,630 --> 00:38:55,230
+Aga nii see ei toimi.
+
+457
+00:38:55,230 --> 00:38:56,980
+See on ka üks hea näide.
+
+458
+00:38:56,980 --> 00:39:02,890
+Meil on praegu üks AI projekt,
+kus projektijuhti ei ole ja see osa on,
+
+459
+00:39:02,890 --> 00:39:09,090
+mis kannatab ja praegu me mõtleme just,
+et teeme, me proovisime ühtemoodi.
+
+460
+00:39:09,090 --> 00:39:15,150
+Tegime kõigepealt ühe
+AI projektijuhti, kes
+
+461
+00:39:15,150 --> 00:39:20,390
+postitas siis iga pileti Slacki.
+
+462
+00:39:20,390 --> 00:39:24,190
+Te teate, mis on Slack või?
+
+463
+00:39:24,190 --> 00:39:29,220
+Jah, me oleme nagu Discordki,
+eks ole, lihtsalt näiteks täis,
+
+464
+00:39:29,220 --> 00:39:33,130
+noh, ühesõnaga tasuline
+peamiselt, et selles mõttes,
+
+465
+00:39:33,130 --> 00:39:37,160
+Discordi, eks ole, Discordi,
+aga kuna see piletimajandus,
+
+466
+00:39:37,160 --> 00:39:41,400
+et AI toodab lihtsalt nii kiiresti
+kõike, siis see jooksis umbe meil,
+
+467
+00:39:41,400 --> 00:39:45,920
+mitte siis tehniliselt mõttes,
+vaid lihtsalt, et kõik lülitasid,
+
+468
+00:39:45,920 --> 00:39:49,700
+kõik tiimiliikmed lülitasid,
+vaigistasid selle kanali ära,
+
+469
+00:39:49,700 --> 00:39:54,640
+sest see oli niivõrd umbe sellest sodist
+ja lihtsalt sa ei jaksanud seda lugeda.
+
+470
+00:39:54,650 --> 00:39:59,910
+Nüüd ma vaatan, et see olingi
+loll idee on ju, selline,
+
+471
+00:39:59,910 --> 00:40:05,510
+selline automaatika tekitada,
+et teha teistmoodi, et ta,
+
+472
+00:40:05,510 --> 00:40:11,710
+et see AI projektijuht analüüsib tehtud
+ja tehtavat tööd ja selle baasilt hakkab
+
+473
+00:40:11,710 --> 00:40:17,750
+postitama juhul, kui on midagi
+postitada, selles mõttes kaks asja.
+
+474
+00:40:17,770 --> 00:40:22,400
+Nädalas korra, et ütleme mingi selle
+agiilse arenduse põhimõtetele vastavalt,
+
+475
+00:40:22,400 --> 00:40:26,020
+et mingi Scrumi loogika järgi,
+et teeb nädalas korra sellise noh,
+
+476
+00:40:26,010 --> 00:40:31,350
+näiteks mingi sprindi kokkuvõtte või
+midagi noh, temapoolse küll siis ja juhul,
+
+477
+00:40:31,350 --> 00:40:36,090
+kui nädala jooksul on mingid sellised
+errorid, et kuskil lihtsalt mingid piletid
+
+478
+00:40:36,090 --> 00:40:39,390
+seisavad või kellelgi pole
+vastutajat või midagi sellist,
+
+479
+00:40:39,390 --> 00:40:42,110
+et siis, siis võib-olla tegutseb.
+
+480
+00:40:42,110 --> 00:40:45,750
+Et see võib-olla oleks
+natuke niisugune mõistlikum,
+
+481
+00:40:45,750 --> 00:40:49,550
+aga paistab, üldiselt hakkab
+tunduma, et see AI osa projektis,
+
+482
+00:40:49,550 --> 00:40:54,180
+see on natuke väsitav ka,
+teiseks see, et sa ei tea enam,
+
+483
+00:40:54,180 --> 00:40:57,380
+kas sa suhtled inimesega või
+mitte, et need asjad natuke,
+
+484
+00:40:57,380 --> 00:41:00,560
+natuke häirivad nagu, et noh,
+mis lõpuks tähendab seda,
+
+485
+00:41:00,560 --> 00:41:05,450
+et võib-olla mingi reede õhtused nagu
+tiimi kohtumised on nagu selle võrra nagu
+
+486
+00:41:05,450 --> 00:41:10,200
+jälle niisugused inimlikumad ja huvitavamad ja nagu tahad nagu jälle rohkem minna,
+
+487
+00:41:10,200 --> 00:41:11,680
+et eks paistab.
+
+488
+00:41:12,970 --> 00:41:19,970
+Vot, see tuleb teil
+
+489
+00:41:19,970 --> 00:41:26,420
+ka kodutööks, kodutöö osaks, riski,
+
+490
+00:41:26,420 --> 00:41:30,270
+riski, riskikaardi tegemine
+
+491
+00:41:30,270 --> 00:41:36,770
+praegu kohe me ei tee.
+
+492
+00:41:36,770 --> 00:41:41,890
+Vaatan korra lihtsalt üle,
+et jah, kuidas nii võib
+
+493
+00:41:41,890 --> 00:41:45,320
+olla, need, kui on
+
+494
+00:41:45,280 --> 00:41:50,530
+mõni noh, viis muud
+
+495
+00:41:50,530 --> 00:41:57,420
+riski, on see võib-olla niisugune
+jube resoluutne, et kui mõni
+
+496
+00:41:57,420 --> 00:42:01,060
+vähem on, et siis on ka okei,
+aga no kaks on võib-olla liiga vähe,
+
+497
+00:42:01,060 --> 00:42:04,990
+et ikkagi mingi enam-vähem
+korralik asi võiks olla.
+
+498
+00:42:05,630 --> 00:42:11,700
+Siis
+
+499
+00:42:11,700 --> 00:42:18,660
+kolmandad osapooled ja
+mõte on siis selles,
+
+500
+00:42:18,660 --> 00:42:25,460
+et te, kui te midagi arendate, eks ole,
+siis ei istu teie süsteem ainult
+
+501
+00:42:25,460 --> 00:42:30,780
+teie ressursside otsas,
+kliendil samamoodi siis.
+
+502
+00:42:30,780 --> 00:42:36,720
+Mis on, mis on kolmandad
+
+503
+00:42:36,720 --> 00:42:42,980
+osapooled võimalikud,
+kui me kasutame või kui
+
+504
+00:42:42,980 --> 00:42:49,810
+selle kooli sellel tunniplaanil,
+mis võivad olla
+
+505
+00:42:49,810 --> 00:42:55,380
+kõva ja selge häälega,
+võite arutada näiteks ka, noh,
+
+506
+00:42:55,380 --> 00:42:59,570
+võib keegi teine ka ütelda, ei pea
+
+507
+00:42:59,570 --> 00:43:11,920
+ainult
+
+508
+00:43:11,920 --> 00:43:18,260
+tagumised, kui ära
+
+509
+00:43:18,260 --> 00:43:24,830
+ehmatasid. Pilveteenuse
+
+510
+00:43:24,830 --> 00:43:31,360
+pakkujad. No täpselt jah,
+kes ühesõnaga kuskil istub teie,
+
+511
+00:43:31,360 --> 00:43:36,160
+tõenäoliselt istub on ju,
+kuskil istub teie server,
+
+512
+00:43:36,160 --> 00:43:42,200
+kus teil need andmebaas on
+või API või, ka front-end,
+
+513
+00:43:42,200 --> 00:43:46,450
+eks ole, kust te leiate, et suure
+tõenäosusega on see kellegi teise oma,
+
+514
+00:43:46,450 --> 00:43:51,070
+et suure tõenäosusega kool seda ei pea,
+kuigi meil on seal teie selja taga on
+
+515
+00:43:51,070 --> 00:43:55,200
+serveriruum ja meil mingid
+asjad on küll koolis.
+
+516
+00:43:55,200 --> 00:43:57,220
+Mis veel,
+
+517
+00:43:57,220 --> 00:44:07,780
+kuidas
+
+518
+00:44:07,780 --> 00:44:10,480
+see, kuidas need andmed
+
+519
+00:44:10,480 --> 00:44:18,350
+liiguvad
+
+520
+00:44:18,350 --> 00:44:25,240
+üldse? Kuskilt mööda juhet, eks ole, üldiselt see infra kuulub kellelegi teisele,
+
+521
+00:44:25,240 --> 00:44:29,130
+on ju. Litsentsid, ka
+
+522
+00:44:29,130 --> 00:44:35,260
+litsentsindus, kas
+
+523
+00:44:35,260 --> 00:44:41,100
+te jõudsite lugeda ka, vist oli
+teise, teise seminari kodutöös oli
+
+524
+00:44:41,100 --> 00:44:47,510
+litsentsidest, oli ülesanne,
+ei olnud või, keegi mäletab?
+
+525
+00:44:47,510 --> 00:44:49,880
+Siis see on ka mingi õrk.
+
+526
+00:44:49,880 --> 00:44:53,340
+Ja siis? See suur print välja jätsime.
+
+527
+00:44:53,340 --> 00:45:00,160
+Litsentsid üldse tarkvara litsentsid,
+ma ühte jätsin teile iseseisvaks tööks.
+
+528
+00:45:00,280 --> 00:45:05,210
+Äkki peab siis uuesti panema,
+see on nagu oluline, et selles mõttes,
+
+529
+00:45:05,210 --> 00:45:10,530
+et teil peab tarkvara alati olema
+litsentseeritud, isegi juhul,
+
+530
+00:45:10,530 --> 00:45:13,190
+kui te olete ise autor, noh, et selles
+
+531
+00:45:13,190 --> 00:45:20,030
+mõttes see tuleb nagu ära
+
+532
+00:45:20,030 --> 00:45:25,970
+lahendada, on ju, aga juhul,
+kui te ei ole autor, eks ole,
+
+533
+00:45:25,970 --> 00:45:29,020
+siis on veel keerulisem.
+
+534
+00:45:29,020 --> 00:45:31,770
+Siis jah,
+
+535
+00:45:31,770 --> 00:45:38,260
+andmeallikad nii edasi ja nii
+
+536
+00:45:38,260 --> 00:45:44,810
+edasi, et noh jah, et see
+Closleri näide oli see, kaks
+
+537
+00:45:44,810 --> 00:45:49,860
+tuhat üheksateist aasta lisas
+Closler tulemüürile ühe reegli,
+
+538
+00:45:49,860 --> 00:45:53,410
+milles oli vigane regulaaravaldis.
+
+539
+00:45:53,410 --> 00:46:00,150
+Ja Closler on jõhkras koguses,
+on tema teenuseid, kasutajaid on
+
+540
+00:46:00,150 --> 00:46:06,760
+ju, selle sekundiga levis see
+üle, üle maailma ja ma mäletan
+
+541
+00:46:06,760 --> 00:46:13,720
+seda korda, pool maailma oli
+lihtsalt oli ühel päeval oli see
+
+542
+00:46:13,720 --> 00:46:17,910
+veeb maas. Algul oli niisugune
+mingi üldine pimendus,
+
+543
+00:46:17,910 --> 00:46:22,240
+niisugune paras nagu väljakas asi oli.
+
+544
+00:46:22,240 --> 00:46:26,350
+Ja ma ei tea, te juba kasutate
+AI-d päris palju, eks ole,
+
+545
+00:46:26,350 --> 00:46:30,460
+kes eelmine reede oli see vee,
+millal see Microsofti kooma oli,
+
+546
+00:46:30,460 --> 00:46:32,450
+oli vist reedel või?
+
+547
+00:46:32,450 --> 00:46:36,830
+Neljapäevast reedeni.
+
+548
+00:46:36,850 --> 00:46:41,580
+Võib-olla see oli nagu suur uudis,
+aga see, et samal ajal oli klood,
+
+549
+00:46:41,580 --> 00:46:46,690
+oli umbes, seda võib-olla pani tähe,
+väiksema tähele ja mulle oli,
+
+550
+00:46:46,690 --> 00:46:50,610
+mina vaatasin küll seda,
+et noh, et kas nüüd on see aeg,
+
+551
+00:46:50,610 --> 00:46:54,670
+kus on jälle aeg noorendajaid
+uuesti tööle palkama hakata,
+
+552
+00:46:54,670 --> 00:47:00,520
+et korraks oli noh, et kuna sa oled
+oma mitu asja, et sa oled oma töövood
+
+553
+00:47:00,520 --> 00:47:04,120
+seadistanud niivõrd
+jõhkralt juba AI peale.
+
+554
+00:47:04,180 --> 00:47:07,660
+Et esimene mõte on see, et ohoo,
+korraks löön nagu pildi eest ära,
+
+555
+00:47:07,660 --> 00:47:10,070
+et oota, aga kuidas kuidas
+ma varem tegin või midagi,
+
+556
+00:47:10,070 --> 00:47:12,330
+et sul on nagu täiesti
+nagu sassid need asjad.
+
+557
+00:47:12,690 --> 00:47:17,000
+See oli mingi ikkagi üle poole
+päeva oli selline selline,
+
+558
+00:47:17,000 --> 00:47:22,690
+et mine jaluta nüüd natukene.
+
+559
+00:47:22,730 --> 00:47:26,090
+Sest hakata ümber sättima, noh sa eeldadki
+seda, et ju ta varsti tagasi tuleb,
+
+560
+00:47:26,090 --> 00:47:28,710
+aga ta ei tulnud midagi nii
+kiiresti, et see oli päris karm.
+
+561
+00:47:31,130 --> 00:47:33,780
+Aga need on millega ühesõnaga asjad,
+sa pead arvestama arenduses,
+
+562
+00:47:33,780 --> 00:47:37,330
+et noh praegu on olnud viimane
+aasta või noh natuke vähem,
+
+563
+00:47:37,330 --> 00:47:42,800
+pool aastat, kolmveerand aastat oli jõhker
+allapakkumine toimunud tarkvaraarenduses,
+
+564
+00:47:42,800 --> 00:47:46,560
+et nagu hinnapakkumised,
+mis tehakse, on noh kohati mingi
+
+565
+00:47:46,560 --> 00:47:52,670
+kaheksakümmend-üheksakümmend protsenti
+väiksemad, kui nad olid veel aasta tagasi.
+
+566
+00:47:52,670 --> 00:47:58,770
+Ja pakkujate hulk on, kui ennem olid niisugused IT-majad või üldse IT-ga tegelejad
+
+567
+00:47:58,770 --> 00:48:03,400
+või konkreetselt spetsialiseerunud, ütleme
+veebirakenduste või tarkvaraarendaja
+
+568
+00:48:03,400 --> 00:48:07,350
+firmad, siis praegu on igasugused kinnisvarafirmad ja mees- ja koerfirmad ka,
+
+569
+00:48:07,350 --> 00:48:11,520
+mis on okei, on ju, selles mõttes,
+et teile on siit võimalusi palju.
+
+570
+00:48:11,520 --> 00:48:17,930
+Küll, aga see on üks risk, mis võib
+realiseeruda, et kui sina ehitad oma selle
+
+571
+00:48:17,930 --> 00:48:22,930
+pakkumise ja oma tarkvaraarenduse
+mingi tellimuse üles selle peale,
+
+572
+00:48:22,930 --> 00:48:24,410
+et AI teeb kõik ära.
+
+573
+00:48:24,410 --> 00:48:31,090
+Ja siis mingil müstilisel põhjusel
+on sul päev enne tähtaega,
+
+574
+00:48:31,090 --> 00:48:37,590
+on su lood maas või maas ja
+sa ei saa oma tellimust täita.
+
+575
+00:48:37,590 --> 00:48:41,190
+See on väga, nigel olukord
+ja see on täpselt see koht,
+
+576
+00:48:41,190 --> 00:48:43,390
+kus tuleks siis oma riskid maandada.
+
+577
+00:48:43,390 --> 00:48:50,220
+Mis teie teeksite, kui selle sellise
+asja jaoks või kuidas maandada
+
+578
+00:48:50,220 --> 00:48:57,010
+riski, et, et sinu AI arendustöövoog,
+et sul see kukub tagant ära,
+
+579
+00:48:57,010 --> 00:49:01,150
+see mudel, mida sa kasutad.
+
+580
+00:49:01,150 --> 00:49:04,320
+No ütleme, et kõik mudelid kukuvad
+tagant ära, mida sa kasutad.
+
+581
+00:49:04,740 --> 00:49:11,460
+Aga joomine on päris
+hea vastus, eriti sõltub
+
+582
+00:49:11,460 --> 00:49:15,820
+päevast, noh jah, et ja see on nagu,
+see on täiesti reaalne variant,
+
+583
+00:49:15,820 --> 00:49:19,790
+kui sa oled ainult selle peale
+ümber, ülesande, siis ei ole.
+
+584
+00:49:19,790 --> 00:49:22,440
+Teine variant on ka püstol
+ja endal kuul pähe lasta,
+
+585
+00:49:22,440 --> 00:49:25,590
+on ju, see on ka variant,
+aga mina valiksin selle esimese,
+
+586
+00:49:25,590 --> 00:49:32,550
+aga mis veel, hakkad veel kord
+
+587
+00:49:32,550 --> 00:49:34,960
+jooma. Paneb valesti panna.
+
+588
+00:49:34,960 --> 00:49:38,880
+Mis asja? Tuleb enda jaoks
+kuhu veel varasemalt panna.
+
+589
+00:49:38,880 --> 00:49:44,300
+Ja, aga mingid teie õppimisega
+seotud mingeid asju?
+
+590
+00:49:44,300 --> 00:49:47,260
+Paneb appi. Magada või?
+
+591
+00:49:47,690 --> 00:49:54,150
+materjali, et õpid kas ise ikkagi
+
+592
+00:49:54,150 --> 00:49:57,710
+korralikult ära või siis
+lenda selle LLLN-ina.
+
+593
+00:49:57,710 --> 00:50:04,340
+Google on olemas. Ei tarvitse olla,
+kui sul see Google võib ka maas
+
+594
+00:50:04,340 --> 00:50:09,370
+olla, ma seda mõtlengi, et kui sul need,
+noh, aga see põhimõtteliselt jah,
+
+595
+00:50:09,370 --> 00:50:11,740
+üks variant on see, et sa ikkagi.
+
+596
+00:50:11,740 --> 00:50:15,420
+Mis asja? Ma ei kuulnud.
+
+597
+00:50:15,420 --> 00:50:22,330
+Ei ole midagi. Aga variant on jah see, et
+
+598
+00:50:22,330 --> 00:50:28,590
+ühesõnaga sa oled kindlustanud oma
+töö, et sa suudad seda ka teha ise
+
+599
+00:50:28,590 --> 00:50:34,680
+võib-olla või, et see on nagu see üks,
+et kui sa oled tarkvara arendaja,
+
+600
+00:50:34,680 --> 00:50:40,030
+siis, siis on nagu mõistlik mõelda
+selle peale, et sa oskad seda teha.
+
+601
+00:50:40,030 --> 00:50:44,470
+Et see on ka üks nagu variant,
+kuidas seda asja arendada,
+
+602
+00:50:44,470 --> 00:50:48,890
+et sa võtad, jah, aga jah, et see,
+see aja, kuupäeva nihutamine,
+
+603
+00:50:48,890 --> 00:50:53,400
+vot sellega on see pekkis, et te
+olete juba kõik piisavalt palju,
+
+604
+00:50:53,400 --> 00:50:56,750
+eks ole, erinevates kohtades
+töötanud, et te teate,
+
+605
+00:50:56,750 --> 00:51:00,970
+et alati jääb see üks või kaks
+päeva puudu, kui tähtaeg on käes,
+
+606
+00:51:00,970 --> 00:51:06,050
+on ju. Et sellega on, isegi
+kui sa liigutad seda täht,
+
+607
+00:51:06,050 --> 00:51:09,190
+tähtaega, see jõuab ikkagi
+täpselt valel ajal kätte,
+
+608
+00:51:09,190 --> 00:51:14,010
+et see on selline, aga seda
+tuleb teha, see on nagu selge.
+
+609
+00:51:14,010 --> 00:51:14,690
+Vot nii ja
+
+610
+00:51:14,690 --> 00:51:22,880
+see
+
+611
+00:51:22,880 --> 00:51:27,330
+on nagu teie kodutöö üks osa siis,
+eks ole, et mõelge sellele,
+
+612
+00:51:27,330 --> 00:51:33,950
+kui te seda riskikaarti
+tegema hakkate, et kui see
+
+613
+00:51:33,950 --> 00:51:39,970
+riskikaart on valmis ja
+ükski varasem otsus ei muutu,
+
+614
+00:51:39,970 --> 00:51:46,610
+siis suure tõenäosusega olete te
+selle riskikaardi teinud sellepärast,
+
+615
+00:51:46,610 --> 00:51:53,030
+et kodutöö nõuab seda, mitte sellepärast,
+et riskikaardis riskid ette
+
+616
+00:51:53,030 --> 00:51:59,730
+näha. Et ilma projekti ei
+ole olemas või tegi selle
+
+617
+00:51:59,730 --> 00:52:04,650
+keegi juba ära ja see on ka
+üks risk, et on võimalus,
+
+618
+00:52:04,650 --> 00:52:09,520
+et keegi tuleb ja teeb mingi
+asja ära, et juba see iseenesest,
+
+619
+00:52:09,520 --> 00:52:15,270
+et olete te jätnud nagu asja,
+et konkurent lihtsalt pakub ise paremini.
+
+620
+00:52:15,290 --> 00:52:20,660
+Et ühesõnaga vaadake seda,
+riskianalüüsi mõte on, eks ole,
+
+621
+00:52:20,660 --> 00:52:25,320
+leida kohad, kus kavand ei pea ja need
+on olemas, sest et üks osa protsessist,
+
+622
+00:52:25,320 --> 00:52:30,480
+et noh, see on nagu niisugune kahe otsa
+või niisugune kahest osast koosneb,
+
+623
+00:52:30,480 --> 00:52:35,480
+tuhat on nendest osast, aga, aga niimoodi
+öeldes, et te kõigepealt kavandate midagi,
+
+624
+00:52:35,480 --> 00:52:38,730
+eks ole, seal juba te
+kaardistate mingid olukorrad ära,
+
+625
+00:52:38,730 --> 00:52:43,430
+mis te leiate. Aga see teine
+ots see riskianalüüs, eks ole,
+
+626
+00:52:43,430 --> 00:52:46,130
+tuleb, toob veel puuduvad
+osad sinna juurde ja noh,
+
+627
+00:52:46,130 --> 00:52:49,000
+midagi jääb katvat, katmata
+alati, see on ka üks risk,
+
+628
+00:52:49,000 --> 00:52:53,080
+et ettenägematus riskid, mis siis,
+mille jaoks te peate mõtlema siis,
+
+629
+00:52:53,080 --> 00:52:56,140
+et aga mingid asjad, mis siis
+saab, ettenägematud asjad,
+
+630
+00:52:56,140 --> 00:52:59,040
+mis juhtub, on ju,
+ja selleks peate valmis olema.
+
+631
+00:52:59,040 --> 00:53:03,260
+Ja noh, selge see, et mingit päris
+pommikindlat asja polegi võimalik teha,
+
+632
+00:53:03,260 --> 00:53:06,440
+aga, aga need on asjad,
+et kui te nendega ei tegele,
+
+633
+00:53:06,440 --> 00:53:11,650
+siis hakkavad need, tema, nemad teiega
+tegelema ja see on nagu kuidagi valusam.
+
+634
+00:53:17,500 --> 00:53:24,230
+Ja on veel see eriti nagu oluline,
+see on tegelikult selline õppija,
+
+635
+00:53:24,230 --> 00:53:31,210
+õppija selline dilemma,
+et kas sa õpid siis,
+
+636
+00:53:31,210 --> 00:53:37,780
+kui sa saad viie või sa
+õpid siis, kui sa saad
+
+637
+00:53:37,780 --> 00:53:41,950
+kahe, kuidas kellelegi tundub.
+
+638
+00:53:41,950 --> 00:53:48,750
+Kui sa, kui sa, kas sa õpid siis,
+kui sa teed asjad õigesti või õpid
+
+639
+00:53:48,750 --> 00:53:50,880
+siis, kui sa teed asjad valesti?
+
+640
+00:53:51,910 --> 00:53:58,800
+Nipiga küsimus, millel on vastus kohe
+
+641
+00:53:58,800 --> 00:54:03,360
+olemas. Ei noh, see ei ole ka
+päris nagu niimoodi üks-ühele,
+
+642
+00:54:03,360 --> 00:54:09,560
+aga selles mõttes noh, teada fakt on see,
+et vigadest tehes üldiselt õpib inimene
+
+643
+00:54:09,560 --> 00:54:13,720
+paremini, on ju. Aga see ei
+ole nagu, ja tähendab, on küll,
+
+644
+00:54:13,720 --> 00:54:17,470
+ka pedagoogikas soovitatakse vigu
+teha, eks ole, mis on probleem,
+
+645
+00:54:17,470 --> 00:54:20,490
+et meil on siia, me,
+me nagu tuleme koolisüsteemist,
+
+646
+00:54:20,490 --> 00:54:24,540
+kus noh, ikkagi hindamine
+on nagu justkui karistus,
+
+647
+00:54:24,540 --> 00:54:29,340
+eks ole, ja siis sa ei karda, siis noh,
+õpid ikkagi niimoodi kartma vigu teha,
+
+648
+00:54:29,340 --> 00:54:33,150
+eks ole, mis on halb selles mõttes,
+et, et siis sa ei õpi ka,
+
+649
+00:54:33,150 --> 00:54:37,080
+eks ole, noh, siin ei ole kedagi
+süüdistada, ma ei räägi sellest,
+
+650
+00:54:37,080 --> 00:54:41,060
+et süsteem, süsteem on halb, aga see
+nagu paratamatult tuleb niimoodi,
+
+651
+00:54:41,060 --> 00:54:47,290
+on ju. Ja see kehtib siin ka, eks ole,
+et kui sa, et kui te peate midagi muutma,
+
+652
+00:54:47,290 --> 00:54:52,410
+siis see ei ole nagu läbikukkumine,
+vaid teil on, see näitab seda,
+
+653
+00:54:52,410 --> 00:54:56,370
+et teil on uus info, te saate
+otsustada paremini kui ennem oli,
+
+654
+00:54:56,370 --> 00:55:03,020
+on ju. Lihtsalt on paratamatus ka
+see, et noh, on mingid kokkulepped
+
+655
+00:55:03,020 --> 00:55:07,590
+tehtud ja nii edasi, aga noh,
+see on ka teema, see on ka üks risk,
+
+656
+00:55:07,590 --> 00:55:12,610
+eks ole, et kuidas lahendada ootamatult
+või siis enne mitte teatud noh,
+
+657
+00:55:12,610 --> 00:55:16,550
+probleemideks, reeglina
+tuleb see kogemusest ja õpid,
+
+658
+00:55:16,550 --> 00:55:20,550
+tuleb see kogemus omakorda
+nagu läbi valusate löökide,
+
+659
+00:55:20,550 --> 00:55:26,850
+eks ole, et aga, aga need on nagu need asjad, et nendeks peate valmis olema ja siis,
+
+660
+00:55:26,850 --> 00:55:33,770
+siis ongi nii. Ja
+
+661
+00:55:33,770 --> 00:55:40,410
+muude muutuste logi peab, on see,
+mis eks ole, peab näitama,
+
+662
+00:55:40,410 --> 00:55:46,550
+et miks muutus tekkis, ilmnes uus
+risk, uus, uus mingi probleem,
+
+663
+00:55:46,550 --> 00:55:53,210
+tõendid muutsid probleemi, tõendid muutsid
+
+664
+00:55:53,210 --> 00:56:00,120
+arusaama ja vanu otsuseid ei
+tohi üle kirjutada, vaid uus
+
+665
+00:56:00,120 --> 00:56:06,580
+viitab vanale. Siis on näha
+ka see otsustuskõver või
+
+666
+00:56:06,580 --> 00:56:11,990
+loogika, miks mingid asjad tekkisid, et
+ei tulda, et kui tehakse kõigepealt viga,
+
+667
+00:56:11,990 --> 00:56:18,490
+üks viga, parandatakse see ära ja siis
+kunagi viga pandakse see üks viga tagasi,
+
+668
+00:56:18,490 --> 00:56:22,410
+selles mõttes, et kuna ei
+ole mingit otsustuspuud.
+
+669
+00:56:22,430 --> 00:56:26,650
+Mis on, mis, mis nagu jah, ei
+
+670
+00:56:26,650 --> 00:56:33,170
+teagi, mis öelda, aga jah, eksami
+
+671
+00:56:33,170 --> 00:56:39,500
+tahaks ühte niisugust asja kuulda,
+et muutunud otsuse kohta,
+
+672
+00:56:39,500 --> 00:56:46,490
+aga vaatame seda, kuidas te, kuidas see
+
+673
+00:56:46,490 --> 00:56:52,640
+teil õnnestub, et meil on nagu
+selles mõttes natuke tore või natuke
+
+674
+00:56:52,640 --> 00:56:57,900
+naljakas kursus selles mõttes,
+et me nagu selline noh,
+
+675
+00:56:57,900 --> 00:57:02,720
+et me päris asja ei
+lahenda hetkel, eks ole.
+
+676
+00:57:02,720 --> 00:57:07,070
+Aga, aga ma ütlen, et meil
+on nagu suur, suurem osa on,
+
+677
+00:57:07,070 --> 00:57:12,360
+ikkagi arusaadav sellest, et tarkvaraarendus on, ei ole koodi kirjutamine,
+
+678
+00:57:12,360 --> 00:57:18,530
+tähendab, ei ole ainult koodi kirjutamine,
+vaid suures plaanis on ta tegelikult
+
+679
+00:57:18,530 --> 00:57:24,690
+hoopis midagi muud, mitte midagi
+muud, vaid hoopis nagu suurem asi.
+
+680
+00:57:25,090 --> 00:57:30,900
+Ja, ja siis üks asi oli veel,
+aga selle ma unustasin ära juba.
+
+681
+00:57:30,900 --> 00:57:37,160
+Ilmselt oli nõme asi, mõttetu asi.
+
+682
+00:57:37,160 --> 00:57:44,090
+Nii, siis jah, sellest oli juttu, on ju,
+
+683
+00:57:44,090 --> 00:57:50,650
+et backlog tuleb toote vajadustest,
+mitte kodutöö ülesannetest ja see on nagu
+
+684
+00:57:50,650 --> 00:57:57,340
+niisugune mõttemaailma erinevus,
+eks ole, et, et harjutada endale sisse,
+
+685
+00:57:57,340 --> 00:58:03,770
+tegelikult sa ei täida projektijuhi
+tellimust või, ei tee kodutööd,
+
+686
+00:58:03,770 --> 00:58:09,670
+vaid sa lood seda toodet, eks ole,
+millel on omad tingimused ja nõuded,
+
+687
+00:58:09,670 --> 00:58:15,580
+mis tuleb ära täita ja kui need kõik
+on valmis ja täidetud ja testitud,
+
+688
+00:58:15,580 --> 00:58:18,210
+siis ongi tarkvara valmis ka.
+
+689
+00:58:18,210 --> 00:58:22,150
+Nii ja
+
+690
+00:58:22,150 --> 00:58:31,060
+selgitused.
+
+691
+00:58:31,060 --> 00:58:38,000
+Siis mõned sellised asjad,
+
+692
+00:58:38,000 --> 00:58:44,920
+mis on head, mis hetkel meil
+ei tule võib-olla välja.
+
+693
+00:58:44,920 --> 00:58:51,160
+Nojah, mõlemad ei ole, meil
+on nii vähe pileteid, eks ole,
+
+694
+00:58:51,160 --> 00:58:57,870
+või neid issue'eid,
+probleeme, et need asjad nagu
+
+695
+00:58:57,870 --> 00:59:04,010
+ei selgu. Et see WIP piirang on see,
+et kui te kujutate ette päris tööd,
+
+696
+00:59:04,010 --> 00:59:10,160
+seal on palju-palju pileteid,
+mis tuleb ära täita ja see ei
+
+697
+00:59:10,140 --> 00:59:16,550
+ole lihtsalt realistlik umbes
+kõik asjad sinna surada,
+
+698
+00:59:16,550 --> 00:59:22,180
+et tiim on võimeline teatud aja
+jooksul lahendama mingi koguse
+
+699
+00:59:22,180 --> 00:59:26,810
+ülesandeid, et see on nüüd
+see osa, mis te panite.
+
+700
+00:59:26,810 --> 00:59:33,360
+Üks tiim pani need ajad, on ju,
+väga tubli ja kui nende aegade summa
+
+701
+00:59:33,360 --> 00:59:38,910
+ületab selle aja, mis teil
+kasutada kodutööks on, siis
+
+702
+00:59:38,910 --> 00:59:45,720
+järelikult ei ole võimalik seda teha,
+et see võib-olla isegi võiks
+
+703
+00:59:45,720 --> 00:59:48,830
+nagu välja tulla teie töös.
+
+704
+00:59:48,830 --> 00:59:53,600
+Aga noh, teisest küljest, kuna
+me teeme neid asju esimest korda,
+
+705
+00:59:53,600 --> 00:59:58,400
+eks ole, siis ei tea ju, palju
+need asjad tegelikult aega võtavad,
+
+706
+00:59:58,400 --> 01:00:02,620
+et siis, siis on seda natuke keeruline
+hinnata, aga ma kujutan ette,
+
+707
+01:00:02,620 --> 01:00:08,220
+et te saate nagu sellele point'ile pihta
+just, et miks on see aja logimine oluline.
+
+708
+01:00:08,350 --> 01:00:12,820
+Et te näete ära, mis see töömaht
+on, on ju, et nüüd üks asi,
+
+709
+01:00:12,820 --> 01:00:16,360
+et kui õige või vale see on,
+aga põhimõtteliselt seal,
+
+710
+01:00:16,360 --> 01:00:22,860
+kui teil on kodutööks ette nähtud näiteks
+mingi kaheksa kuni kümme tundi ja teie
+
+711
+01:00:22,860 --> 01:00:27,490
+igaühe isiklik arvestus, noh,
+see pakkumine seal tuleb suurem,
+
+712
+01:00:27,490 --> 01:00:29,630
+siis seda ei saa teha lihtsalt.
+
+713
+01:00:29,650 --> 01:00:32,930
+Siis on järelikult, kas te ise
+olete valesti midagi teinud,
+
+714
+01:00:32,930 --> 01:00:36,840
+kas mina olen kodutöö andnud liiga
+suure või jah, ega ma ei teagi rohkem,
+
+715
+01:00:36,840 --> 01:00:40,490
+mis olla võib, aga see on nagu
+oluline selle arenduse juures,
+
+716
+01:00:40,490 --> 01:00:44,300
+et mitte üle koormata seda,
+läheb lihtsalt lõhki, ebareaalne,
+
+717
+01:00:44,300 --> 01:00:48,440
+ebareaalsed ootused tekivad, et lubatakse
+välja mingisugune projekt varem,
+
+718
+01:00:48,440 --> 01:00:51,830
+on ju, aga tegelikult ilmselgelt
+sellest Kanbanist on näha,
+
+719
+01:00:51,830 --> 01:00:54,080
+et see ei ole võimalik.
+
+720
+01:00:54,080 --> 01:00:58,790
+Ehk et ma igaks juhuks siis
+veel võtan lahti, lahti,
+
+721
+01:00:58,790 --> 01:01:03,840
+kus mul see on, ah, mul siin jamas
+
+722
+01:01:03,840 --> 01:01:10,790
+jah, et kui siin need,
+mis mul on, see null koma
+
+723
+01:01:10,760 --> 01:01:14,090
+kakskümmend viis ja null
+koma kakskümmend viis ja üks,
+
+724
+01:01:14,090 --> 01:01:19,000
+kui need nüüd kamba peale toetame,
+et on meil kümme tundi kodutöö peale,
+
+725
+01:01:19,000 --> 01:01:22,790
+kui meil on neljane tiim ja
+see summa siin tuleb nelja,
+
+726
+01:01:22,790 --> 01:01:26,750
+viiskümmend tundi,
+noh siis on midagi valesti.
+
+727
+01:01:26,750 --> 01:01:31,790
+Aga ma ütlen, et see võib olla näiteks
+minu antud kodutöö võib olla liiga mahukas
+
+728
+01:01:31,790 --> 01:01:36,690
+või noh, et see ei pea ainult teist
+johtuma, aga põhiasi oleks see,
+
+729
+01:01:36,690 --> 01:01:39,590
+et kui hindate ära, siis ja
+lihtsalt panete siia, et ei,
+
+730
+01:01:39,590 --> 01:01:42,490
+ma ei pane rohkem, sellepärast
+et me ei ole võimelised.
+
+731
+01:01:42,490 --> 01:01:47,390
+Siis ma hea meelega annaksin sellisele
+kodutööle selle asja eest lisapunktid,
+
+732
+01:01:47,390 --> 01:01:54,370
+sest et on aru saadud, kuidas see asi
+käib ja see on meil üks olulisemaid
+
+733
+01:01:54,370 --> 01:01:58,710
+asju. Selle pileti täitmine
+selle kõrval on isegi väiksem.
+
+734
+01:01:58,710 --> 01:02:04,570
+Nii et kuskil, kui keegi tahab kaval olla,
+siis võib seda trikki kasutada ja,
+
+735
+01:02:04,570 --> 01:02:09,970
+ja kui ma seda tähele ei pane,
+siis pärast mulle ütelda.
+
+736
+01:02:09,970 --> 01:02:12,060
+Blokeerijad on päris hea asi.
+
+737
+01:02:12,060 --> 01:02:18,220
+Kasutatakse meil, siin oli
+vist ka olemas isegi äkki
+
+738
+01:02:18,220 --> 01:02:24,270
+label'itena. Jiras on
+ta natuke teistmoodi,
+
+739
+01:02:24,270 --> 01:02:30,260
+vaatame. Võib-olla siin ei
+ole, see ei saa olla, jah,
+
+740
+01:02:30,260 --> 01:02:36,640
+siin vist isegi pole,
+peal ma ei leia siit kuskilt
+
+741
+01:02:36,640 --> 01:02:43,600
+ka. Et siin said neid lisavälja teha,
+et start date ja end date ja mis iganes
+
+742
+01:02:43,600 --> 01:02:48,350
+asjad, et meil saab selle
+estimate'i saab panna selleks,
+
+743
+01:02:48,350 --> 01:02:52,570
+aga siin vist ei ole, noh,
+siin saaks panna, eks ole,
+
+744
+01:02:52,570 --> 01:02:57,910
+label'i, et teha uus label,
+edit labels ja new label ja
+
+745
+01:02:57,910 --> 01:03:04,660
+blocker. Siia võiks
+
+746
+01:03:04,660 --> 01:03:06,530
+inglise keeles panna, eks ole.
+
+747
+01:03:06,530 --> 01:03:12,310
+No võib-olla ei ole vaja
+isegi, aga noh, võib panna,
+
+748
+01:03:12,310 --> 01:03:15,170
+et kui äkki mõni uus tuleb, et ei tea.
+
+749
+01:03:21,050 --> 01:03:23,110
+Ja roheline nüüd peaks selle peale mõtlema, selleks et kindlasti ei sobi on ju,
+
+750
+01:03:23,110 --> 01:03:29,720
+et pigem mingi värviline, aga siis
+siin see läheks siis ma muudaks
+
+751
+01:03:29,720 --> 01:03:36,310
+mingi muu asja vastu, aga punane
+võiks eeldada, et on alati see
+
+752
+01:03:36,310 --> 01:03:43,010
+mingi asi, mis on ohtlik, mis iganes, eks
+
+753
+01:03:43,010 --> 01:03:46,650
+ole, ja antud juhul see nagu oleks.
+
+754
+01:03:47,930 --> 01:03:54,830
+Kui ma seda nüüd vaatan, on ju,
+ja ütleme ja oli, ma panen,
+
+755
+01:03:54,830 --> 01:04:01,550
+ma panen sellele, et label
+ja blocker ja üldiselt võiks
+
+756
+01:04:01,550 --> 01:04:07,390
+siia juurde kirjutada ka,
+mida ta block'ib, on ju.
+
+757
+01:04:07,390 --> 01:04:11,170
+Et hetkel meil ei ole,
+aga siia võiks kirjutada, mis noh,
+
+758
+01:04:11,170 --> 01:04:15,400
+block'i, siin on mitu asja, et block'i,
+blocker võib tähendada seda,
+
+759
+01:04:15,400 --> 01:04:18,660
+et näiteks, et see on see pilet,
+et vähenda hosting ära,
+
+760
+01:04:18,660 --> 01:04:22,010
+et meil on vaja minna sinna
+laivi ja siis see pilet on,
+
+761
+01:04:22,010 --> 01:04:26,890
+tegelebki sellega laiviminekuga, ma ei
+tea, mis see siis iganes kujutab ette,
+
+762
+01:04:26,890 --> 01:04:31,090
+et pean looma kuskil serv--, noh,
+selle virtuaalse serveri ja mis iganes,
+
+763
+01:04:31,090 --> 01:04:35,850
+panema asjad üles või noh, ilmselt seal
+on natuke rohkem samme ja siis see nagu on
+
+764
+01:04:35,850 --> 01:04:42,110
+suht arusaadav. Aga see võib
+olla ka see, et selle pileti,
+
+765
+01:04:42,110 --> 01:04:48,500
+et järel, õigemini, et ma saan mingeid
+teisi pileteid tegema hakata alles juhul,
+
+766
+01:04:48,500 --> 01:04:52,570
+kui mul on see pilet tehtud,
+et siis võiks see olla siin kirjas,
+
+767
+01:04:52,570 --> 01:04:55,040
+et mis pileteid see blokib.
+
+768
+01:04:55,060 --> 01:05:01,790
+mingit siit vali mingisuguse pileti
+onju, blokib sada kaheksandat
+
+769
+01:05:01,790 --> 01:05:07,830
+piletit ja siis on teada, et kui siin
+on mingi mitu piletit nüüd küljes
+
+770
+01:05:07,830 --> 01:05:14,550
+onju, et siis ma tean, siis ma
+
+771
+01:05:14,550 --> 01:05:19,820
+tean, et see ma pean selle
+ära lahendama, sest mingi siin
+
+772
+01:05:19,820 --> 01:05:26,740
+taga on mingi mitu-mitu piletit, mis
+
+773
+01:05:26,740 --> 01:05:33,110
+kõik ootavad selle järjekorras,
+et siis see nagu olulisus tõuseb.
+
+774
+01:05:35,590 --> 01:05:37,790
+Vot nii, mis ma jäin.
+
+775
+01:05:37,790 --> 01:05:38,700
+Siin on vist,
+
+776
+01:05:38,700 --> 01:05:50,000
+äkki
+
+777
+01:05:50,000 --> 01:05:53,410
+ma ajasin näiteks pada,
+ma vaatan, et siin mul on.
+
+778
+01:05:53,410 --> 01:05:58,740
+Ma vahetasin selle uuesti, meil töö
+juures on igatahes natuke teistmoodi.
+
+779
+01:05:58,740 --> 01:06:01,050
+Okei, ma kontrollin selle üle.
+
+780
+01:06:01,050 --> 01:06:07,390
+Meil on ta kasutusel nõnda,
+et ikkagi ei saa plokki midagi.
+
+781
+01:06:07,390 --> 01:06:11,450
+Vaatame üle, võib-olla on siin ka
+
+782
+01:06:11,450 --> 01:06:18,120
+õigesti, aga, aga kohe.
+
+783
+01:06:18,120 --> 01:06:26,220
+Nii.
+
+784
+01:06:26,240 --> 01:06:27,930
+K, teine, sama ikka jah.
+
+785
+01:06:27,930 --> 01:06:32,060
+Nii, vaatan korra
+
+786
+01:06:32,060 --> 01:06:39,040
+ära. Siin ma pean natuke
+täpsustama ikkagi.
+
+787
+01:06:39,040 --> 01:06:45,990
+Okei. Ja hakkab meil piletid
+
+788
+01:06:45,990 --> 01:06:51,120
+või need slaidid läbi saama.
+
+789
+01:06:51,120 --> 01:06:58,090
+On mõned Giti käsud, on ju.
+
+790
+01:06:58,360 --> 01:07:05,230
+Et GitLog, et näitab mitte
+logi, tähendab seda Giti
+
+791
+01:07:05,230 --> 01:07:11,700
+logi, mis meil on nagu
+siis tehtud, kus me oleme.
+
+792
+01:07:11,700 --> 01:07:17,980
+Ma võtan korra lahti ka kohe.
+
+793
+01:07:17,980 --> 01:07:21,900
+CD, eksole, change direktori,
+
+794
+01:07:21,900 --> 01:07:28,760
+suuremaks ka. Ja siis
+
+795
+01:07:28,760 --> 01:07:33,600
+kuhu folderisse ma minna
+
+796
+01:07:33,600 --> 01:07:39,990
+tahan, ma tahan praegu siia samasse
+
+797
+01:07:39,990 --> 01:07:45,980
+sissejuhatustarkvaraarendusse,
+võtame siit.
+
+798
+01:07:58,530 --> 01:08:04,680
+. Nii, nüüd ma olen siinsamas selles meie
+
+799
+01:08:04,680 --> 01:08:07,900
+tarkvaraarenduse repos.
+
+800
+01:08:07,900 --> 01:08:14,560
+Vaatame, mis meil siis
+on GitLog ja noh, mul on
+
+801
+01:08:14,560 --> 01:08:18,490
+siin hunnik asju, eks ole.
+
+802
+01:08:19,650 --> 01:08:26,430
+commit'ite ajalugu, on ju, see on
+
+803
+01:08:26,430 --> 01:08:31,580
+siin kõik näha. Ja
+
+804
+01:08:31,580 --> 01:08:37,730
+siin on
+
+805
+01:08:37,730 --> 01:08:42,780
+ka näha, see on mingi
+
+806
+01:08:42,780 --> 01:08:49,590
+miljon
+
+807
+01:08:49,590 --> 01:08:56,400
+aastat vana siin on ju,
+et commit'ite kvaliteet,
+
+808
+01:08:56,400 --> 01:09:03,180
+eks ole. Noh, mingid
+sellised pommid sõnumid olen
+
+809
+01:09:03,180 --> 01:09:07,290
+pannud, mis kuna peale minu
+seda siin keegi ei majanda,
+
+810
+01:09:07,290 --> 01:09:11,580
+siis ma natuke teen siukest
+seda asja, mida ma teil ei,
+
+811
+01:09:11,580 --> 01:09:18,000
+ei luba teha. Noh modifitseeri või
+uuenda või seda või muuda kolmanda
+
+812
+01:09:18,000 --> 01:09:22,710
+seminari see sisuliselt ei ütle midagi,
+aga no see ongi natuke teine asi,
+
+813
+01:09:22,710 --> 01:09:28,840
+see seminari teemad, et kui kood oleksid,
+siis oleks natuke natuke teistmoodi,
+
+814
+01:09:28,840 --> 01:09:32,450
+on ju. Online paneb ta lihtsalt
+
+815
+01:09:32,450 --> 01:09:37,920
+ühele reale, kinni saab
+
+816
+01:09:37,920 --> 01:09:43,920
+niimoodi, et panete siia vee
+kuu järgi, kaksis vee ja kuu.
+
+817
+01:09:43,920 --> 01:09:50,000
+Noh, Gitiif'iga saate vaadata,
+mis on vahepeal muutunud,
+
+818
+01:09:50,000 --> 01:09:56,620
+mis on selles mõttes, mida te teinud
+
+819
+01:09:56,620 --> 01:10:02,410
+oleks, olete, eks ole, aga on commit'imata, no siin mul väga hullu vist polegi
+
+820
+01:10:02,410 --> 01:10:08,520
+midagi. Siin ta nagu toob
+teile välja ka selle sisu,
+
+821
+01:10:08,520 --> 01:10:14,030
+mis te olete pannud ja,
+mis siis veel, seda tahtsin
+
+822
+01:10:14,030 --> 01:10:20,750
+öelda jah, et see on ka üks
+asi, mis siit on näha, eks
+
+823
+01:10:20,750 --> 01:10:27,210
+ole, et kui siin on, miks on nagu
+väikeste commit'ide kaupa töö on parem,
+
+824
+01:10:27,210 --> 01:10:33,930
+et kui siin nüüd oleks mingi hirmus
+rida, siis see oleks maru ebamugav.
+
+825
+01:10:34,330 --> 01:10:41,200
+siis jah, ja nüüd üks ohtlik
+asi ka, mida, kui, kui te
+
+826
+01:10:41,200 --> 01:10:47,890
+seda harjutate, siis selle,
+teete sellise asja nagu Kit
+
+827
+01:10:47,890 --> 01:10:54,150
+Restore, siis kustutatakse
+teil commit'imata
+
+828
+01:10:54,150 --> 01:11:00,870
+muudatused, eks ole, sest see algne seis
+
+829
+01:11:00,870 --> 01:11:05,980
+taastatakse, et sellega
+on ka siis ettevaatlikud.
+
+830
+01:11:05,980 --> 01:11:08,680
+Aga arvestades, et see on koolitöö,
+et siis kui mitu korda teete,
+
+831
+01:11:08,680 --> 01:11:11,260
+see on teile endale kasulik,
+nii et selles mõttes pole hullu.
+
+832
+01:11:11,340 --> 01:11:17,630
+Ja mis siis veel?
+Nüüd teie, ma otseselt on
+
+833
+01:11:17,630 --> 01:11:24,510
+ju, ma küll püüan ja te teete
+ka, et terminalis tööd teha,
+
+834
+01:11:24,510 --> 01:11:31,260
+aga te võite kasutada ka muidugi
+ju ja on kiirem ja mugavam
+
+835
+01:11:31,260 --> 01:11:35,260
+tõenäoliselt siis seda.
+
+836
+01:11:35,260 --> 01:11:39,180
+Mul on küll see Devin,
+aga see shows control siin selle,
+
+837
+01:11:39,180 --> 01:11:46,050
+kas teil ekraan läheb suuremaks, kui
+ma praegu teen midagi suuremaks ka või?
+
+838
+01:11:46,050 --> 01:11:52,580
+Jaa. No vot see source control on ju,
+et siin te saate kasutada ka graafilist
+
+839
+01:11:52,580 --> 01:11:57,940
+seda kasutajaliidest, siin on
+commit'ite ajalugu, eks ole,
+
+840
+01:11:57,940 --> 01:12:02,680
+see on küll siin. Mul siin
+vist ühtegi haru ei ole,
+
+841
+01:12:02,680 --> 01:12:07,570
+teil oma selles asjas peaks kindlasti, aa
+näe, siin ikka vanasti mul harusid ka nad
+
+842
+01:12:07,570 --> 01:12:13,280
+on, et seda te vist kasutate ka
+või ei kasuta, kellegi jaoks on
+
+843
+01:12:13,280 --> 01:12:19,630
+see uus ka või? Ma
+
+844
+01:12:19,630 --> 01:12:26,170
+loodan, et enam keegi ei kasuta
+veebis GitHubi otsakirjutamist.
+
+845
+01:12:26,170 --> 01:12:31,390
+Selles mõttes, et mõnikord
+on muidugi vaja, eks ole,
+
+846
+01:12:31,390 --> 01:12:37,550
+mingid, aga põhimõtteliselt,
+et te siiski kasutate kas terminali
+
+847
+01:12:37,550 --> 01:12:43,070
+või, siit seda Visual Studio
+Code'i see, seda graafilist
+
+848
+01:12:43,070 --> 01:12:49,500
+kasutajaliidest. Mida ma ei soovita,
+on see või mingi taoline asi oli,
+
+849
+01:12:49,500 --> 01:12:55,270
+kui ma ei eksi, see on siis GitHubi
+enda selline graafiline kasutajaliides,
+
+850
+01:12:55,270 --> 01:13:00,850
+aga see ajab ainult segadusse
+kõik asjad, see pärast on peavalu.
+
+851
+01:13:00,870 --> 01:13:05,970
+Aga kõige parem oleks harjutada terminali,
+et te neid käsklusi tunneksite,
+
+852
+01:13:05,970 --> 01:13:09,970
+aga siit on ka okei, noh, ma ütlen,
+siit saab kiiremini kindlasti,
+
+853
+01:13:09,970 --> 01:13:15,250
+aga noh, siin on nagu, et kui te tahate,
+näiteks siit on mul siin mingisugune see
+
+854
+01:13:15,250 --> 01:13:22,110
+eelmise aasta mingi eksamikommit,
+on ju, siis ma võiksin
+
+855
+01:13:22,110 --> 01:13:26,360
+siia check out'ida, see tähendab,
+et ma võiksin kogu seisu taastada siia,
+
+856
+01:13:26,360 --> 01:13:29,340
+vaadata, mis siin toimus, on ju.
+
+857
+01:13:29,500 --> 01:13:35,190
+Võin sellest uue haru teha,
+tag'i võin lisada, mis iganes,
+
+858
+01:13:35,190 --> 01:13:41,200
+ma seda Jerry Pick'i ei tea, mis see on, on ju, ma saan võrrelda ja see on nagu siis
+
+859
+01:13:41,200 --> 01:13:45,410
+see osa, et mis see tänasesse meil
+puutub, on ju, et kus me oleme,
+
+860
+01:13:45,410 --> 01:13:51,430
+siin. Et kui te
+
+861
+01:13:51,430 --> 01:13:58,100
+tarkvara arendate, eks ole, et see on
+
+862
+01:13:58,100 --> 01:14:02,680
+nüüd see valesti tehtud asjade siis
+
+863
+01:14:02,680 --> 01:14:09,980
+parandamisvõimalused.
+
+864
+01:14:09,980 --> 01:14:17,860
+Ja
+
+865
+01:14:17,860 --> 01:14:24,760
+kui ma nüüd vahepeal kogemata
+midagi valesti ei teinud,
+
+866
+01:14:24,760 --> 01:14:30,010
+siis peaks siis teile olema kodutööks
+
+867
+01:14:30,010 --> 01:14:36,900
+tänase seminari baasil, see oli küll
+
+868
+01:14:36,900 --> 01:14:42,750
+loeng tegelikult jah,
+teha oma, oma sellele
+
+869
+01:14:42,750 --> 01:14:47,930
+tööle siis kvaliteedinõuded.
+
+870
+01:14:48,540 --> 01:14:53,700
+Oluline on siin just see,
+see osa, et muidu teil olid,
+
+871
+01:14:53,700 --> 01:14:58,350
+eks ole, seal nõuded olemas,
+aga nüüd see osa peavad olema mõõdetavad,
+
+872
+01:14:58,350 --> 01:15:03,330
+et mugav ei ole mõõdetav, ilus ei ole mõõdetav, aga no see nõuab ühesõnaga natuke
+
+873
+01:15:03,330 --> 01:15:09,330
+tööd, et kui teil näiteks
+oli mugav, see mugav on okei,
+
+874
+01:15:09,330 --> 01:15:13,800
+aga te peate ta ära kirjeldama,
+kuidas seda mõõta, on ju.
+
+875
+01:15:13,820 --> 01:15:18,290
+Ja see ei ole sihuke, et te mõtlete
+välja, kuidas, vaid see peab olema,
+
+876
+01:15:18,290 --> 01:15:21,900
+kas mingite teadustööde põhjal
+näiteks hinnatakse seda,
+
+877
+01:15:21,900 --> 01:15:25,920
+et inimene, keskmine inimene,
+ma ei tea, on selles,
+
+878
+01:15:25,920 --> 01:15:31,700
+selles asjas tahab sihukest, sihukest asja
+või teil on selle kasutajatestide või,
+
+879
+01:15:31,700 --> 01:15:37,730
+uuringute tagajärjel on tulnud välja,
+et sihtgrupp tahab sellist,
+
+880
+01:15:37,730 --> 01:15:43,490
+asja, sellistel, sellistel
+tingimustel on ju, need peavad olema.
+
+881
+01:15:43,780 --> 01:15:47,070
+Testimisjuhtumid,
+
+882
+01:15:47,070 --> 01:15:57,050
+riskikaart
+
+883
+01:15:57,050 --> 01:16:00,650
+oli juttu,
+
+884
+01:16:00,650 --> 01:16:04,490
+eks
+
+885
+01:16:04,490 --> 01:16:09,490
+ole, siis
+
+886
+01:16:09,490 --> 01:16:19,850
+otsused
+
+887
+01:16:19,850 --> 01:16:25,990
+ja jah, kodutöö
+
+888
+01:16:25,990 --> 01:16:31,650
+selle juhend on olemas.
+
+889
+01:16:31,650 --> 01:16:37,940
+Ja lisaks veel siis selline asi,
+natukene korrastasin repot,
+
+890
+01:16:37,940 --> 01:16:44,220
+mille tagajärjel siin on selline asi nagu
+
+891
+01:16:44,220 --> 01:16:50,950
+handbook. Võtan selle lahti
+kohe, et seal need läbitud
+
+892
+01:16:50,950 --> 01:16:57,010
+materjalid, varem oli siin
+meil see kontsepts, aga mulle
+
+893
+01:16:57,010 --> 01:17:01,440
+tundus, et see kontsepts
+võib-olla ei ole kõige parem,
+
+894
+01:17:01,440 --> 01:17:04,670
+siis tegin siia uue osakonna, aga
+
+895
+01:17:04,670 --> 01:17:15,390
+kohe.
+
+896
+01:17:15,390 --> 01:17:18,640
+Ja et ma olen sisse
+
+897
+01:17:18,640 --> 01:17:28,320
+loginud,
+
+898
+01:17:28,320 --> 01:17:34,750
+lihtsalt veebis vaatan, et mugavam
+siin see handbook ja siin on nagu
+
+899
+01:17:34,750 --> 01:17:40,920
+meie seminaride baasil valmiv selline
+
+900
+01:17:40,920 --> 01:17:47,920
+konspekt, mis on natuke parem kui
+see konspekt, mida ma siin teile ette
+
+901
+01:17:47,920 --> 01:17:54,230
+laen. Ja üks, kaks, kolm, neli on
+juba tundub, et täitsa okei ja viies,
+
+902
+01:17:54,230 --> 01:17:57,300
+kuues alles tekivad, sest
+et kuna ma ei ole neid ise,
+
+903
+01:17:57,300 --> 01:18:02,090
+need on sihuke noh, mis ta olla võiks,
+aga kuna me pole neid läbi teinud,
+
+904
+01:18:02,090 --> 01:18:05,800
+et siis nad, siin võib mingit
+jama olla palju, aga see neljas,
+
+905
+01:18:05,800 --> 01:18:08,060
+ma arvan, juba täitsa okei.
+
+906
+01:18:08,060 --> 01:18:12,360
+Ja see siis koosneb, eks ole,
+kõikidest nendest asjadest.
+
+907
+01:18:12,360 --> 01:18:17,350
+Mida me täna rääkisime, on siin
+ta nüüd konspekti kujul paremini,
+
+908
+01:18:17,350 --> 01:18:21,580
+eks ole, et algul read me,
+on ju, siis on, eks ole,
+
+909
+01:18:21,580 --> 01:18:25,640
+meil olid ristid, siis on,
+kui tahate sisu korda tagasi minna,
+
+910
+01:18:25,640 --> 01:18:28,890
+siis on see siin, on ju, ei.
+
+911
+01:18:29,160 --> 01:18:35,690
+No jah, et oleks siis põhisisu korda,
+okei, siin ma võin natukene
+
+912
+01:18:35,690 --> 01:18:39,890
+paremaks teha, ma tahtsin,
+et ta ikka sellele sisu korda läheb,
+
+913
+01:18:39,890 --> 01:18:46,560
+aga kogemata põhimõtteliselt nii,
+noh, et on jah, mõõdetav kvaliteet,
+
+914
+01:18:46,560 --> 01:18:51,410
+on ju, tõesti juhtum,
+peaasilumine, koodi ülevaatus,
+
+915
+01:18:51,410 --> 01:18:54,050
+riskid, koodi kvaliteet.
+
+916
+01:18:54,050 --> 01:18:57,690
+No seda me ei puutu, seda
+me teeme teistes asjades,
+
+917
+01:18:57,690 --> 01:19:04,600
+teistes kursustel, teistel
+kursustel, mis puudutas,
+
+918
+01:19:04,600 --> 01:19:08,050
+eks ole, ja no nii palju kui
+võimalik, siis näidistega koos,
+
+919
+01:19:08,050 --> 01:19:14,230
+on ju. Ja siis on üldiselt, tundub, et
+
+920
+01:19:14,230 --> 01:19:20,050
+tänaseks kõik, ma panen teile selle
+
+921
+01:19:20,050 --> 01:19:25,220
+kodutöö sinna, kus ta meil
+
+922
+01:19:25,220 --> 01:19:30,170
+käib, selle, te peate
+
+923
+01:19:30,170 --> 01:19:36,820
+natuke, et selle testjuhtumi
+koos välja mõtlema ja
+
+924
+01:19:36,820 --> 01:19:41,790
+mõned asjad siis iseseisvalt tegema.
+
+925
+01:19:41,790 --> 01:19:47,550
+Kuidas tundub? Sina, ma olen selline.
+
+926
+01:19:47,550 --> 01:19:49,480
+Ma õnneks ei kuule midagi.
+
+927
+01:19:49,480 --> 01:19:54,910
+Kõigega nõus, peaasi, et minema
+
+928
+01:19:54,910 --> 01:19:59,950
+saaks. Ja on ka okei.
+
+929
+01:19:59,950 --> 01:20:05,850
+No vot, kui te lähete välja,
+ma saan ise Martile ka
+
+930
+01:20:05,850 --> 01:20:12,670
+ütelda. Aga siis on kõik,
+et ülejärgmine nädal ma olen juba
+
+931
+01:20:12,670 --> 01:20:15,340
+terve, siis näeme.
+
+932
+01:20:15,360 --> 01:20:20,930
+Ja kui me oleme
+
+933
+01:20:20,930 --> 01:20:24,770
+siiski.
