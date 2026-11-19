@@ -95,4 +95,4 @@ Etapi lõpus **võrdle hinnangut tegeliku ajakuluga**. Erinevus pole viga, vaid 
 
 ---
 
-[← Dokumenteerimine](documentation.md) | [Sisukord](../README.md) | [Järgmine: Giti oskus: pull ja release →](git-pull-and-release.md)
+[← Dokumenteerimine](05-documentation.md) | [Sisukord](../README.md) | [Järgmine: Giti oskus: pull ja release →](07-git-pull-and-release.md)

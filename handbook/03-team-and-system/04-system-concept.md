@@ -74,4 +74,4 @@ Igal valikul on hind. Kirjuta **kompromiss** välja: millest loobume ja mida sel
 
 ---
 
-[← Backlog](backlog.md) | [Sisukord](../README.md) | [Järgmine: Arhitektuuri põhimõisted →](architecture-basics.md)
+[← Backlog](03-backlog.md) | [Sisukord](../README.md) | [Järgmine: Arhitektuuri põhimõisted →](05-architecture-basics.md)

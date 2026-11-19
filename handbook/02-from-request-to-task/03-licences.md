@@ -57,4 +57,4 @@ Litsentsi valik on meeskonna otsus. Ära vali MIT-i ainult sellepärast, et see 
 
 ---
 
-[← Rollid](roles.md) | [Sisukord](../README.md) | [Järgmine: Lähteülesanne →](project-brief.md)
+[← Rollid](02-roles.md) | [Sisukord](../README.md) | [Järgmine: Lähteülesanne →](04-project-brief.md)

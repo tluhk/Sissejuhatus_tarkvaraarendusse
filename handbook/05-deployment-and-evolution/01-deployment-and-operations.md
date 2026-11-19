@@ -93,4 +93,4 @@ Ka süsteemi sulgemine on arendusotsus. Läbi tuleb mõelda:
 
 ---
 
-[← Osa ülevaade](README.md) | [Sisukord](../README.md) | [Järgmine: Tagasiside ja areng →](feedback-and-evolution.md)
+[← Osa ülevaade](README.md) | [Sisukord](../README.md) | [Järgmine: Tagasiside ja areng →](02-feedback-and-evolution.md)

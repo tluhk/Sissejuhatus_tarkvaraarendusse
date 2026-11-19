@@ -65,4 +65,4 @@ docker --version
 
 ---
 
-[← Markdown](markdown.md) | [Sisukord](../README.md) | [Järgmine: Giti oskus: esimene commit →](git-first-commit.md)
+[← Markdown](05-markdown.md) | [Sisukord](../README.md) | [Järgmine: Giti oskus: esimene commit →](07-git-first-commit.md)

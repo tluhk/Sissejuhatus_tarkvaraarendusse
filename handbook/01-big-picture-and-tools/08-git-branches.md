@@ -73,7 +73,7 @@ Kui lood haru terminalis käsuga `git switch -c`, kasuta sama kuju: kõigepealt 
 
 ### 2. Tee muudatus, commit ja push
 
-Tee muudatus ja commit nagu lehel [esimene commit](git-first-commit.md). Uue haru esimesel push'il ütle Gitile, kuhu haru GitHubis saata:
+Tee muudatus ja commit nagu lehel [esimene commit](07-git-first-commit.md). Uue haru esimesel push'il ütle Gitile, kuhu haru GitHubis saata:
 
 ```bash
 git push -u origin 8-add-contact-section
@@ -163,4 +163,4 @@ Meeskonnaprojektis kloonime ühise repo ja töötame harudes. Forki puhul piisab
 
 ---
 
-[← Giti oskus: esimene commit](git-first-commit.md) | [Sisukord](../README.md) | [Järgmine osa: Kliendisoovist arendusülesandeni →](../02-from-request-to-task/README.md)
+[← Giti oskus: esimene commit](07-git-first-commit.md) | [Sisukord](../README.md) | [Järgmine osa: Kliendisoovist arendusülesandeni →](../02-from-request-to-task/README.md)

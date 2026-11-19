@@ -111,4 +111,4 @@ Kaks nippi säästavad palju aega:
 
 ---
 
-[← Tarkvaraarenduse elutsükkel ja AI](sdlc-and-ai.md) | [Sisukord](../README.md) | [Järgmine: Git ja GitHub →](git-and-github.md)
+[← Tarkvaraarenduse elutsükkel ja AI](02-sdlc-and-ai.md) | [Sisukord](../README.md) | [Järgmine: Git ja GitHub →](04-git-and-github.md)

@@ -34,12 +34,12 @@ Osa 2: kontrollitud probleem, lähteülesanne, otsuste logi, Kanbani tahvel ja t
 
 | Leht | Märge |
 |---|---|
-| [Tööviisid](ways-of-working.md) | Seminaris |
-| [Kasutajalood ja nõuded](user-stories-and-requirements.md) | Seminaris |
-| [Backlog](backlog.md) | Seminaris |
-| [Süsteemi kontseptsioon](system-concept.md) | Seminaris |
-| [Arhitektuuri põhimõisted](architecture-basics.md) | Iseseisev |
-| [Giti oskus: merge-konflikt](git-merge-conflict.md) | Seminaris |
+| [Tööviisid](01-ways-of-working.md) | Seminaris |
+| [Kasutajalood ja nõuded](02-user-stories-and-requirements.md) | Seminaris |
+| [Backlog](03-backlog.md) | Seminaris |
+| [Süsteemi kontseptsioon](04-system-concept.md) | Seminaris |
+| [Arhitektuuri põhimõisted](05-architecture-basics.md) | Iseseisev |
+| [Giti oskus: merge-konflikt](06-git-merge-conflict.md) | Seminaris |
 
 ## Seotud seminar
 
@@ -47,4 +47,4 @@ Osa 2: kontrollitud probleem, lähteülesanne, otsuste logi, Kanbani tahvel ja t
 
 ---
 
-[← Eelmine osa: Kliendisoovist arendusülesandeni](../02-from-request-to-task/README.md) | [Sisukord](../README.md) | [Järgmine: Tööviisid →](ways-of-working.md)
+[← Eelmine osa: Kliendisoovist arendusülesandeni](../02-from-request-to-task/README.md) | [Sisukord](../README.md) | [Järgmine: Tööviisid →](01-ways-of-working.md)

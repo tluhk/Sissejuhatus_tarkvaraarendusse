@@ -27,14 +27,14 @@ Varasemaid teadmisi pole vaja. Vaja on arvutit, millele saad tarkvara paigaldada
 
 | Leht | Märge |
 |---|---|
-| [Tarkvara ja tarkvaraarendus](software.md) | Seminaris |
-| [Tarkvaraarenduse elutsükkel ja AI](sdlc-and-ai.md) | Seminaris |
-| [IDE ja terminal](ide-and-terminal.md) | Seminaris |
-| [Git ja GitHub](git-and-github.md) | Seminaris |
-| [Markdown](markdown.md) | Seminaris |
-| [Arenduskeskkond](dev-environment.md) | Seminaris |
-| [Giti oskus: esimene commit](git-first-commit.md) | Seminaris |
-| [Giti oskus: harud](git-branches.md) | Seminaris |
+| [Tarkvara ja tarkvaraarendus](01-software.md) | Seminaris |
+| [Tarkvaraarenduse elutsükkel ja AI](02-sdlc-and-ai.md) | Seminaris |
+| [IDE ja terminal](03-ide-and-terminal.md) | Seminaris |
+| [Git ja GitHub](04-git-and-github.md) | Seminaris |
+| [Markdown](05-markdown.md) | Seminaris |
+| [Arenduskeskkond](06-dev-environment.md) | Seminaris |
+| [Giti oskus: esimene commit](07-git-first-commit.md) | Seminaris |
+| [Giti oskus: harud](08-git-branches.md) | Seminaris |
 
 ## Seotud seminar
 
@@ -42,4 +42,4 @@ Varasemaid teadmisi pole vaja. Vaja on arvutit, millele saad tarkvara paigaldada
 
 ---
 
-[Sisukord](../README.md) | [Järgmine: Tarkvara ja tarkvaraarendus →](software.md)
+[Sisukord](../README.md) | [Järgmine: Tarkvara ja tarkvaraarendus →](01-software.md)

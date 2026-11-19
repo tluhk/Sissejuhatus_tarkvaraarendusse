@@ -68,4 +68,4 @@ Kui demo tekitab palju parandamist ega vasta küsimusele, on ka see tulemus, mid
 
 ---
 
-[← Kasutuselevõtt ja käitus](deployment-and-operations.md) | [Sisukord](../README.md) | [Järgmine: Giti oskus: tag ja ajajoon →](git-tag-and-timeline.md)
+[← Kasutuselevõtt ja käitus](01-deployment-and-operations.md) | [Sisukord](../README.md) | [Järgmine: Giti oskus: tag ja ajajoon →](03-git-tag-and-timeline.md)

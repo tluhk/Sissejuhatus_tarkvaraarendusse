@@ -55,4 +55,4 @@ Kasuta seda õppetundi uutes hinnangutes ja pane kirja üks konkreetne parandus.
 
 ---
 
-[← Kasutajalood ja nõuded](user-stories-and-requirements.md) | [Sisukord](../README.md) | [Järgmine: Süsteemi kontseptsioon →](system-concept.md)
+[← Kasutajalood ja nõuded](02-user-stories-and-requirements.md) | [Sisukord](../README.md) | [Järgmine: Süsteemi kontseptsioon →](04-system-concept.md)

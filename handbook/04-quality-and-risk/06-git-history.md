@@ -83,4 +83,4 @@ git restore --staged README.md   # võta fail git add'ist tagasi, muudatus jää
 
 ---
 
-[← Koodi kvaliteet](code-quality.md) | [Sisukord](../README.md) | [Järgmine osa: Kasutuselevõtt, käitus ja areng →](../05-deployment-and-evolution/README.md)
+[← Koodi kvaliteet](05-code-quality.md) | [Sisukord](../README.md) | [Järgmine osa: Kasutuselevõtt, käitus ja areng →](../05-deployment-and-evolution/README.md)

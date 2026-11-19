@@ -55,7 +55,7 @@ Alusta riskidest, mille mõju **ja** tõenäosus on kõrged.
 
 Teek, pilveteenus, andmestik, font või AI-mudel kiirendab tööd, kuid toob kaasa **sõltuvuse**. Iga sõltuvuse kohta kontrolli:
 
-- kasutustingimused ja litsents (vt [Litsentsid](../02-from-request-to-task/licences.md));
+- kasutustingimused ja litsents (vt [Litsentsid](../02-from-request-to-task/03-licences.md));
 - kuhu andmed liiguvad;
 - hind praegu ja tulevikus;
 - kas teenust arendatakse edasi;
@@ -76,4 +76,4 @@ Uus risk võib tähendada, et varasem otsus tuleb üle vaadata. See ei ole läbi
 
 ---
 
-[← Vea silumine ja koodi ülevaatus](debugging-and-code-review.md) | [Sisukord](../README.md) | [Järgmine: Koodi kvaliteet →](code-quality.md)
+[← Vea silumine ja koodi ülevaatus](03-debugging-and-code-review.md) | [Sisukord](../README.md) | [Järgmine: Koodi kvaliteet →](05-code-quality.md)

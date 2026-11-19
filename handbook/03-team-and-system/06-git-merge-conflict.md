@@ -113,4 +113,4 @@ Kui lahendad konflikti, mis puudutab kaaslase teksti, räägi temaga. Kirjuta PR
 
 ---
 
-[← Arhitektuuri põhimõisted](architecture-basics.md) | [Sisukord](../README.md) | [Järgmine osa: Kvaliteet, riskid ja vastutus →](../04-quality-and-risk/README.md)
+[← Arhitektuuri põhimõisted](05-architecture-basics.md) | [Sisukord](../README.md) | [Järgmine osa: Kvaliteet, riskid ja vastutus →](../04-quality-and-risk/README.md)

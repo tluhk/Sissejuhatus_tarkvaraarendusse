@@ -45,7 +45,7 @@ Scrumis on kolm vastutust: **tooteomanik** järjestab tööd, **Scrum master** a
 
 ## Kanban ja Lean
 
-- **Kanban** keskendub töövoole: töö on tahvlil nähtav ja pooleliolevate tööde hulk on piiratud. Sprinte pole, töö liigub pidevalt. Vaata ka [Kanban ja ajahinnang](../02-from-request-to-task/kanban-and-estimates.md).
+- **Kanban** keskendub töövoole: töö on tahvlil nähtav ja pooleliolevate tööde hulk on piiratud. Sprinte pole, töö liigub pidevalt. Vaata ka [Kanban ja ajahinnang](../02-from-request-to-task/06-kanban-and-estimates.md).
 - **Lean** keskendub väärtusele ja raiskamise vähendamisele: ära tee seda, mis kasutajale väärtust ei loo.
 
 ## Kuidas tööviisi valida
@@ -63,7 +63,7 @@ Pane tööviisi valik otsuste logisse koos kaalutud alternatiividega.
 
 ## Rollid kui vaatenurgad
 
-Rollide põhitabel on osas 2 lehel [Rollid](../02-from-request-to-task/roles.md). Otsuse juures esitab iga roll oma küsimuse:
+Rollide põhitabel on osas 2 lehel [Rollid](../02-from-request-to-task/02-roles.md). Otsuse juures esitab iga roll oma küsimuse:
 
 | Roll | Küsimus |
 |---|---|
@@ -99,4 +99,4 @@ Iga teema juures küsi: millist tööd võiks teha AI, kuidas tulemust kontrolli
 
 ---
 
-[← Osa ülevaade](README.md) | [Sisukord](../README.md) | [Järgmine: Kasutajalood ja nõuded →](user-stories-and-requirements.md)
+[← Osa ülevaade](README.md) | [Sisukord](../README.md) | [Järgmine: Kasutajalood ja nõuded →](02-user-stories-and-requirements.md)

@@ -81,4 +81,4 @@ Vali üks tarkvara, mida kasutad iga päev, ja vasta:
 
 ---
 
-[← Osa ülevaade](README.md) | [Sisukord](../README.md) | [Järgmine: Tarkvaraarenduse elutsükkel ja AI →](sdlc-and-ai.md)
+[← Osa ülevaade](README.md) | [Sisukord](../README.md) | [Järgmine: Tarkvaraarenduse elutsükkel ja AI →](02-sdlc-and-ai.md)

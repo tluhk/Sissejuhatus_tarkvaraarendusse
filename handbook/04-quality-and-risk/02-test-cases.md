@@ -68,4 +68,4 @@ Kasutajaloo testjuhtum, mida kursusel kirjutame, on vastuvõtutest.
 
 ---
 
-[← Mõõdetav kvaliteet](measurable-quality.md) | [Sisukord](../README.md) | [Järgmine: Vea silumine ja koodi ülevaatus →](debugging-and-code-review.md)
+[← Mõõdetav kvaliteet](01-measurable-quality.md) | [Sisukord](../README.md) | [Järgmine: Vea silumine ja koodi ülevaatus →](03-debugging-and-code-review.md)

@@ -94,4 +94,4 @@ Kvaliteediomadusi käsitleme põhjalikumalt osas 4.
 
 ---
 
-[← Tööviisid](ways-of-working.md) | [Sisukord](../README.md) | [Järgmine: Backlog →](backlog.md)
+[← Tööviisid](01-ways-of-working.md) | [Sisukord](../README.md) | [Järgmine: Backlog →](03-backlog.md)

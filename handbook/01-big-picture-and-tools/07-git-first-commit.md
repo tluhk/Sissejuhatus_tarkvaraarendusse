@@ -86,7 +86,7 @@ Ava repo brauseris. Faili uus sisu peab olema näha ja failide loetelu kohal on 
 
 | Olukord | Mida teha |
 |---|---|
-| Git küsib nime ja e-posti | Seadista need: vaata lehte [Git ja GitHub](git-and-github.md#giti-paigaldamine) |
+| Git küsib nime ja e-posti | Seadista need: vaata lehte [Git ja GitHub](04-git-and-github.md#giti-paigaldamine) |
 | `git push` annab vea | Loe veateade läbi ja peatu. Ära kasuta käsku `git push --force`. |
 | `git diff` avas keritava vaate | Välju klahviga `q` |
 
@@ -100,4 +100,4 @@ Ava repo brauseris. Faili uus sisu peab olema näha ja failide loetelu kohal on 
 
 ---
 
-[← Arenduskeskkond](dev-environment.md) | [Sisukord](../README.md) | [Järgmine: Giti oskus: harud →](git-branches.md)
+[← Arenduskeskkond](06-dev-environment.md) | [Sisukord](../README.md) | [Järgmine: Giti oskus: harud →](08-git-branches.md)

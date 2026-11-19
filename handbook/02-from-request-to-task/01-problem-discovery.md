@@ -77,4 +77,4 @@ AI ei tõenda, et probleem on olemas. Kasutajate kogemusi tuleb kontrollida inim
 
 ---
 
-[← Osa ülevaade](README.md) | [Sisukord](../README.md) | [Järgmine: Rollid →](roles.md)
+[← Osa ülevaade](README.md) | [Sisukord](../README.md) | [Järgmine: Rollid →](02-roles.md)

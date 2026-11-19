@@ -23,12 +23,12 @@ Osa 3: kasutajalood koos kontrolltingimustega ja süsteemi kontseptsioon.
 
 | Leht | Märge |
 |---|---|
-| [Mõõdetav kvaliteet](measurable-quality.md) | Seminaris |
-| [Testjuhtum](test-cases.md) | Seminaris |
-| [Vea silumine ja koodi ülevaatus](debugging-and-code-review.md) | Iseseisev |
-| [Riskid](risks.md) | Seminaris |
-| [Koodi kvaliteet](code-quality.md) | Iseseisev |
-| [Giti oskus: ajalugu ja tagasivõtmine](git-history.md) | Seminaris |
+| [Mõõdetav kvaliteet](01-measurable-quality.md) | Seminaris |
+| [Testjuhtum](02-test-cases.md) | Seminaris |
+| [Vea silumine ja koodi ülevaatus](03-debugging-and-code-review.md) | Iseseisev |
+| [Riskid](04-risks.md) | Seminaris |
+| [Koodi kvaliteet](05-code-quality.md) | Iseseisev |
+| [Giti oskus: ajalugu ja tagasivõtmine](06-git-history.md) | Seminaris |
 
 ## Seotud seminar
 
@@ -36,4 +36,4 @@ Osa 3: kasutajalood koos kontrolltingimustega ja süsteemi kontseptsioon.
 
 ---
 
-[← Eelmine osa: Meeskond, tööviis ja süsteemi põhimõte](../03-team-and-system/README.md) | [Sisukord](../README.md) | [Järgmine: Mõõdetav kvaliteet →](measurable-quality.md)
+[← Eelmine osa: Meeskond, tööviis ja süsteemi põhimõte](../03-team-and-system/README.md) | [Sisukord](../README.md) | [Järgmine: Mõõdetav kvaliteet →](01-measurable-quality.md)

@@ -137,4 +137,4 @@ Täielik süntaks on [GitHubi juhendis](https://docs.github.com/en/get-started/w
 
 ---
 
-[← Git ja GitHub](git-and-github.md) | [Sisukord](../README.md) | [Järgmine: Arenduskeskkond →](dev-environment.md)
+[← Git ja GitHub](04-git-and-github.md) | [Sisukord](../README.md) | [Järgmine: Arenduskeskkond →](06-dev-environment.md)

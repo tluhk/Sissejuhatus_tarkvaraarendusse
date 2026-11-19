@@ -25,9 +25,9 @@ Osa 4: kvaliteedinõuded, testjuhtumid ja riskikaart.
 
 | Leht | Märge |
 |---|---|
-| [Kasutuselevõtt ja käitus](deployment-and-operations.md) | Seminaris |
-| [Tagasiside ja areng](feedback-and-evolution.md) | Seminaris |
-| [Giti oskus: tag ja ajajoon](git-tag-and-timeline.md) | Seminaris |
+| [Kasutuselevõtt ja käitus](01-deployment-and-operations.md) | Seminaris |
+| [Tagasiside ja areng](02-feedback-and-evolution.md) | Seminaris |
+| [Giti oskus: tag ja ajajoon](03-git-tag-and-timeline.md) | Seminaris |
 
 ## Seotud seminar
 
@@ -35,4 +35,4 @@ Osa 4: kvaliteedinõuded, testjuhtumid ja riskikaart.
 
 ---
 
-[← Eelmine osa: Kvaliteet, riskid ja vastutus](../04-quality-and-risk/README.md) | [Sisukord](../README.md) | [Järgmine: Kasutuselevõtt ja käitus →](deployment-and-operations.md)
+[← Eelmine osa: Kvaliteet, riskid ja vastutus](../04-quality-and-risk/README.md) | [Sisukord](../README.md) | [Järgmine: Kasutuselevõtt ja käitus →](01-deployment-and-operations.md)

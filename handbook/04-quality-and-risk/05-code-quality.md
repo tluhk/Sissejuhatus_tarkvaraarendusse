@@ -56,4 +56,4 @@ AI kirjutab kiiresti koodi, mis töötab. See ei tähenda, et kood on loetav, tu
 
 ---
 
-[← Riskid](risks.md) | [Sisukord](../README.md) | [Järgmine: Giti oskus: ajalugu ja tagasivõtmine →](git-history.md)
+[← Riskid](04-risks.md) | [Sisukord](../README.md) | [Järgmine: Giti oskus: ajalugu ja tagasivõtmine →](06-git-history.md)

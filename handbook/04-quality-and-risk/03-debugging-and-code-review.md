@@ -89,4 +89,4 @@ Sama kehtib dokumentide kohta. Kasutajaloo või otsuse ülevaatus on samuti kood
 
 ---
 
-[← Testjuhtum](test-cases.md) | [Sisukord](../README.md) | [Järgmine: Riskid →](risks.md)
+[← Testjuhtum](02-test-cases.md) | [Sisukord](../README.md) | [Järgmine: Riskid →](04-risks.md)

@@ -86,4 +86,4 @@ Ligipääsetavus kavandatakse algusest, mitte ei lisata lõpus. Euroopa Liidus o
 
 ---
 
-[← Osa ülevaade](README.md) | [Sisukord](../README.md) | [Järgmine: Testjuhtum →](test-cases.md)
+[← Osa ülevaade](README.md) | [Sisukord](../README.md) | [Järgmine: Testjuhtum →](02-test-cases.md)

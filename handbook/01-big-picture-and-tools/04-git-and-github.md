@@ -142,4 +142,4 @@ Käivita need kloonitud repo kaustas.
 
 ---
 
-[← IDE ja terminal](ide-and-terminal.md) | [Sisukord](../README.md) | [Järgmine: Markdown →](markdown.md)
+[← IDE ja terminal](03-ide-and-terminal.md) | [Sisukord](../README.md) | [Järgmine: Markdown →](05-markdown.md)

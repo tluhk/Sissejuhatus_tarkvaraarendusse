@@ -26,13 +26,13 @@ Osa 1 Giti töövoog: Issue → haru → commit → push → pull request → ü
 
 | Leht | Märge |
 |---|---|
-| [Probleemi uurimine](problem-discovery.md) | Seminaris |
-| [Rollid](roles.md) | Seminaris |
-| [Litsentsid](licences.md) | Seminaris |
-| [Lähteülesanne](project-brief.md) | Seminaris |
-| [Dokumenteerimine](documentation.md) | Seminaris |
-| [Kanban ja ajahinnang](kanban-and-estimates.md) | Seminaris |
-| [Giti oskus: pull ja release](git-pull-and-release.md) | Seminaris |
+| [Probleemi uurimine](01-problem-discovery.md) | Seminaris |
+| [Rollid](02-roles.md) | Seminaris |
+| [Litsentsid](03-licences.md) | Seminaris |
+| [Lähteülesanne](04-project-brief.md) | Seminaris |
+| [Dokumenteerimine](05-documentation.md) | Seminaris |
+| [Kanban ja ajahinnang](06-kanban-and-estimates.md) | Seminaris |
+| [Giti oskus: pull ja release](07-git-pull-and-release.md) | Seminaris |
 
 ## Seotud seminar
 
@@ -40,4 +40,4 @@ Osa 1 Giti töövoog: Issue → haru → commit → push → pull request → ü
 
 ---
 
-[← Eelmine osa: Suur pilt ja töövahendid](../01-big-picture-and-tools/README.md) | [Sisukord](../README.md) | [Järgmine: Probleemi uurimine →](problem-discovery.md)
+[← Eelmine osa: Suur pilt ja töövahendid](../01-big-picture-and-tools/README.md) | [Sisukord](../README.md) | [Järgmine: Probleemi uurimine →](01-problem-discovery.md)

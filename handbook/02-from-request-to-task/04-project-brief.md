@@ -70,4 +70,4 @@ Huvipoolte loetelu aitab märgata, kelle vaatenurk on uurimisest puudu. Kasutaja
 
 ---
 
-[← Litsentsid](licences.md) | [Sisukord](../README.md) | [Järgmine: Dokumenteerimine →](documentation.md)
+[← Litsentsid](03-licences.md) | [Sisukord](../README.md) | [Järgmine: Dokumenteerimine →](05-documentation.md)

@@ -55,4 +55,4 @@ Süsteemi kontseptsioonis ei pea neid mõisteid kasutama. Kontseptsioon kirjelda
 
 ---
 
-[← Süsteemi kontseptsioon](system-concept.md) | [Sisukord](../README.md) | [Järgmine: Giti oskus: merge-konflikt →](git-merge-conflict.md)
+[← Süsteemi kontseptsioon](04-system-concept.md) | [Sisukord](../README.md) | [Järgmine: Giti oskus: merge-konflikt →](06-git-merge-conflict.md)

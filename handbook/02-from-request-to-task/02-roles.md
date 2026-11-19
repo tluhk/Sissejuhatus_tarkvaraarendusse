@@ -38,4 +38,4 @@ Meeskond lepib igas etapis kokku, kes hoiab millist vaatenurka, näiteks uurija,
 
 ---
 
-[← Probleemi uurimine](problem-discovery.md) | [Sisukord](../README.md) | [Järgmine: Litsentsid →](licences.md)
+[← Probleemi uurimine](01-problem-discovery.md) | [Sisukord](../README.md) | [Järgmine: Litsentsid →](03-licences.md)

@@ -14,7 +14,7 @@ Osas 1 töötasid oma repos. Meeskonnas on üks ühine repo, kuhu kõik oma tö�
 5. järgmine Issue algab uuendatud main-ist
 ```
 
-Sammud 2–3 on samad mis osas 1, vaata [Giti oskus: harud](../01-big-picture-and-tools/git-branches.md). Igaüks töötab oma harus ja oma failides, nii et tööd ei sega üksteist.
+Sammud 2–3 on samad mis osas 1, vaata [Giti oskus: harud](../01-big-picture-and-tools/08-git-branches.md). Igaüks töötab oma harus ja oma failides, nii et tööd ei sega üksteist.
 
 ## Head commit'id
 
@@ -113,4 +113,4 @@ Kui midagi on puudu, parandatakse see enne avaldamist. Lahtine küsimus võib re
 
 ---
 
-[← Kanban ja ajahinnang](kanban-and-estimates.md) | [Sisukord](../README.md) | [Järgmine osa: Meeskond, tööviis ja süsteemi põhimõte →](../03-team-and-system/README.md)
+[← Kanban ja ajahinnang](06-kanban-and-estimates.md) | [Sisukord](../README.md) | [Järgmine osa: Meeskond, tööviis ja süsteemi põhimõte →](../03-team-and-system/README.md)

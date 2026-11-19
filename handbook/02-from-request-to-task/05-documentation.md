@@ -72,4 +72,4 @@ Kui failid on loogiliselt paigas, leiab uus liige vajaliku ise üles.
 
 ---
 
-[← Lähteülesanne](project-brief.md) | [Sisukord](../README.md) | [Järgmine: Kanban ja ajahinnang →](kanban-and-estimates.md)
+[← Lähteülesanne](04-project-brief.md) | [Sisukord](../README.md) | [Järgmine: Kanban ja ajahinnang →](06-kanban-and-estimates.md)

@@ -90,4 +90,4 @@ Kontrolli AI loodud koodi, viiteid ja väiteid. Uuri enne kasutamist projekti v�
 
 ---
 
-[← Tarkvara ja tarkvaraarendus](software.md) | [Sisukord](../README.md) | [Järgmine: IDE ja terminal →](ide-and-terminal.md)
+[← Tarkvara ja tarkvaraarendus](01-software.md) | [Sisukord](../README.md) | [Järgmine: IDE ja terminal →](03-ide-and-terminal.md)

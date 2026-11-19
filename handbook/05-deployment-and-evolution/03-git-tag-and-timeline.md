@@ -9,7 +9,7 @@ Igal projektietapil on avaldatud versioon. Kokku moodustavad need **ajajoone**: 
 
 ## git tag
 
-**Tag** on nimi, mis on kinnitatud ühele commit'ile (vt osa 2 [Giti oskus: pull ja release](../02-from-request-to-task/git-pull-and-release.md)). Tag'id tulevad GitHubist kaasa `pull`-iga.
+**Tag** on nimi, mis on kinnitatud ühele commit'ile (vt osa 2 [Giti oskus: pull ja release](../02-from-request-to-task/07-git-pull-and-release.md)). Tag'id tulevad GitHubist kaasa `pull`-iga.
 
 ```bash
 git switch main
@@ -53,4 +53,4 @@ Allikad on käepärast: release'i kirjeldused, otsuste logi ja `git log` kahe ve
 
 ---
 
-[← Tagasiside ja areng](feedback-and-evolution.md) | [Sisukord](../README.md) | [Järgmine: Sõnastik →](../glossary.md)
+[← Tagasiside ja areng](02-feedback-and-evolution.md) | [Sisukord](../README.md) | [Järgmine: Sõnastik →](../glossary.md)
