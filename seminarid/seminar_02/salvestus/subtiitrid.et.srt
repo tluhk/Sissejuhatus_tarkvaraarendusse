@@ -1,0 +1,5208 @@
+1
+00:00:04,560 --> 00:00:11,520
+Võime vist pihta hakata,
+kuidas kodutöö läks,
+
+2
+00:00:11,520 --> 00:00:17,890
+üldiselt vahetused
+
+3
+00:00:17,890 --> 00:00:24,190
+kõik olid selle pull request'i suutnud
+ära teha, mis on esimese korra kohta päris
+
+4
+00:00:24,190 --> 00:00:29,610
+hea. Tavaliselt on see nagu keerulisem
+natukene, tähendab võib-olla,
+
+5
+00:00:29,610 --> 00:00:35,510
+aga põhimõtteliselt, kui kas juhend on
+ees või et siis väga keeruline või noh,
+
+6
+00:00:35,510 --> 00:00:38,480
+siis midagi hullu ei saa olla
+või ei peaks olema, aga jah,
+
+7
+00:00:38,480 --> 00:00:41,120
+et seal võib-olla, võib-olla.
+
+8
+00:00:41,160 --> 00:00:46,740
+See Giti ja GitHubi hub'iga toimetamine
+või ükskõik millise eemal asuva Giti
+
+9
+00:00:46,740 --> 00:00:53,410
+halduriga toimetamine võib tekitada küsimus, kuna ta on võib-olla natuke selline
+
+10
+00:00:53,410 --> 00:00:57,530
+harjumuspärasest
+arvutikeskkonnast erinev asi.
+
+11
+00:00:57,530 --> 00:01:02,430
+Natuke kiiruga võib-olla tegin need
+tagasisidet seal osadele võib-olla,
+
+12
+00:01:02,430 --> 00:01:06,080
+kui näete seal midagi, et teie
+arust peaks see teistmoodi olema,
+
+13
+00:01:06,080 --> 00:01:09,520
+et ma midagi seal kommenteerisin,
+aga tegelikult oli olemas,
+
+14
+00:01:09,520 --> 00:01:13,850
+siin osad juba kirjutasid ka,
+et siis see on okei, andke julgelt teada.
+
+15
+00:01:13,850 --> 00:01:20,490
+Nii, siis meil on täna
+oluline veel ikkagi üle korra
+
+16
+00:01:20,490 --> 00:01:26,540
+käia need asjad, et me oleks
+Giti üha samal joonel kõik,
+
+17
+00:01:26,540 --> 00:01:31,550
+et seega võib-olla mõned, mõned olulised
+
+18
+00:01:31,550 --> 00:01:38,460
+kohad käime üle. Et jälgige niisugust
+
+19
+00:01:38,460 --> 00:01:44,450
+asja, et seal GitHubis või üldse
+nagu te, kui te toimetate koodi
+
+20
+00:01:44,450 --> 00:01:51,300
+kirjutamisel ja oma töö organiseerimisel,
+et te kasutate nimetusi täpselt
+
+21
+00:01:51,300 --> 00:01:54,110
+nii nagu on kokku lepitud.
+
+22
+00:01:54,110 --> 00:01:59,830
+Ehk et kui mina annan teile tööülesande,
+siis täpselt niimoodi tehkegi pange faili
+
+23
+00:01:59,830 --> 00:02:05,950
+nimi või folder nimi sellise,
+selliselt nagu, nagu ma ütlen.
+
+24
+00:02:05,970 --> 00:02:11,260
+hetkel ei oma see sisuliselt suurt tähtsust, aga mingil hetkel võib see hakata
+
+25
+00:02:11,260 --> 00:02:17,150
+määravamaks saama, kui on valesti nimetatud asjad, et selles mõttes nimetamine on
+
+26
+00:02:17,150 --> 00:02:22,260
+hästi oluline. Sealjuures endiselt
+ma soovitaks mitte kasutada,
+
+27
+00:02:22,260 --> 00:02:26,190
+praegu seda ei tulnud küll,
+aga igaks juhuks tuletan meelde,
+
+28
+00:02:26,190 --> 00:02:30,210
+et mitte kasutada täpitähti
+ja mitte kasutada tühikuid.
+
+29
+00:02:30,230 --> 00:02:35,890
+Tühik on tegelikult sisuliselt üks tähimärk, mis teatud keskkonnas tuleb välja.
+
+30
+00:02:35,890 --> 00:02:40,040
+Reeglina näiteks veebis,
+kui te jätate tühiku faili nimeks,
+
+31
+00:02:40,040 --> 00:02:43,870
+siis see kirjutatakse täis
+mingi kakskümmend protsenti,
+
+32
+00:02:43,870 --> 00:02:46,560
+mingi sihuke rida tuleb, on ju.
+
+33
+00:02:46,580 --> 00:02:52,590
+Et selles suhtes, et ja kui teil on mitu
+tühikut, siis muutub see nimi loetamatuks,
+
+34
+00:02:52,590 --> 00:02:59,360
+et sihukesed pisiasjad ja omakorda, kui
+me järgmine aasta hakkame veebiraamistikke
+
+35
+00:02:59,360 --> 00:03:05,190
+õppima, siis me vaatame tõenäoliselt ka
+järgmine aasta endiselt veel sellist,
+
+36
+00:03:05,190 --> 00:03:10,370
+küll mitte raamistikku, kui teeki nagu
+React ja seal on kohustuslikud nimetamise
+
+37
+00:03:10,370 --> 00:03:14,960
+konventsioonid. Mis võib
+juhtuda, et teil rakendus ei,
+
+38
+00:03:14,960 --> 00:03:18,300
+rakendust ei ehitata,
+kui te valesti nimetate.
+
+39
+00:03:18,300 --> 00:03:22,540
+Noh, sellised pisiasjad,
+et ühesõnaga, et see ei ole suvaline,
+
+40
+00:03:22,540 --> 00:03:27,040
+et kui meil praegu oli kodutöö
+null üks, siis ei ole suvaline,
+
+41
+00:03:27,040 --> 00:03:30,110
+kas kirjutada see kodutöö null üks kokku.
+
+42
+00:03:30,130 --> 00:03:35,330
+Kodutöö null üks või kodutöö alakriips null üks või kodutöö sidekriips null või noh,
+
+43
+00:03:35,330 --> 00:03:39,090
+see, mis see on mõtte, sidekriips
+jah, või see lühike kriips,
+
+44
+00:03:39,090 --> 00:03:43,320
+et, et need kõik on olulised asjad,
+et proovige seda jälgida,
+
+45
+00:03:43,320 --> 00:03:46,400
+aga see on tähtis, et suur
+või väike täht, eks ole,
+
+46
+00:03:46,400 --> 00:03:51,650
+et, jälgige seda, et kui on ülesandes kirjas, aga ma ise ka vahel unustan ära või
+
+47
+00:03:51,650 --> 00:03:56,670
+eksin või et selles suhtes see kõik on
+okei, aga lihtsalt pidage seda meeles.
+
+48
+00:03:56,840 --> 00:04:03,800
+Siis osa, võib-olla paar, jah, et
+
+49
+00:04:03,800 --> 00:04:10,720
+kuidas seda siis öelda,
+see võib olla see, et äkki sa
+
+50
+00:04:10,720 --> 00:04:16,190
+arvad, näiteks meil oli selline.
+
+51
+00:04:16,190 --> 00:04:22,900
+failid talle, oli kodutöö,
+õige jah, seda me ei
+
+52
+00:04:22,900 --> 00:04:29,360
+kasutanud, vist oli kodutöö, see oli, on
+
+53
+00:04:29,360 --> 00:04:35,100
+ju. Nii, et siis see nagu tähistab
+juba seda repo nime antud juhul,
+
+54
+00:04:35,100 --> 00:04:39,160
+et seda ärge uuesti kirjutage, et see
+siis, kellel oli see jälle natuke pärast,
+
+55
+00:04:39,160 --> 00:04:40,800
+et siis parandage ära.
+
+56
+00:04:40,820 --> 00:04:47,480
+See võib olla, ei olnud nõnda
+
+57
+00:04:47,480 --> 00:04:53,440
+kirjutatud, aga need
+
+58
+00:04:53,440 --> 00:04:59,570
+asjad ei ole
+
+59
+00:04:59,570 --> 00:05:04,190
+nagu faili
+
+60
+00:05:04,190 --> 00:05:10,920
+nime osad, vaid
+
+61
+00:05:10,920 --> 00:05:17,090
+on siis näitab, et see asi
+
+62
+00:05:17,090 --> 00:05:23,720
+asub selle sees.
+Aga see võis ka tulla nagu
+
+63
+00:05:23,720 --> 00:05:30,370
+eraldi, et, et võib-olla panitegi
+selle asja või siis sinna sisse selle,
+
+64
+00:05:30,370 --> 00:05:36,320
+et aga ühesõnaga jah, seda asja võtta,
+see on see sissejuhatus tarkvara
+
+65
+00:05:36,320 --> 00:05:40,130
+arendus, et see on meil see repo.
+
+66
+00:05:40,130 --> 00:05:46,470
+Et seda omakorda sinna sisse veel omakorda
+sama nimelist folder'it pole vaja teha.
+
+67
+00:05:46,810 --> 00:05:53,310
+Visual Studio Code'is kui te toimetate,
+siis kui te kirjutate sellise rea,
+
+68
+00:05:53,310 --> 00:05:58,300
+siis on muidugi mugav, et ta
+automaatselt loob selle fordri,
+
+69
+00:05:58,300 --> 00:06:04,910
+selle fordri ja selle faili sinna sisse,
+selles mõttes seda kirjaviisi võite
+
+70
+00:06:04,910 --> 00:06:11,840
+kasutada. Nii, aga jah, et ühesõnaga
+
+71
+00:06:11,840 --> 00:06:17,610
+jälgige seda kokkulepet,
+see üldjuhul on kokkulepped ja mingites
+
+72
+00:06:17,610 --> 00:06:22,560
+arenduskeeltes on need
+kokkulepped siis juba selle.
+
+73
+00:06:22,560 --> 00:06:29,460
+Keele keele enda loojate poolt loodud,
+et siis ka mõnikord ei hakka need
+
+74
+00:06:29,460 --> 00:06:35,740
+asjad tööle, aga, aga jah, igatepidi,
+et hoiab selle lugemise ja kõik asjad
+
+75
+00:06:35,740 --> 00:06:42,620
+selgema ka. Nii, siis võib-olla üks väide,
+
+76
+00:06:42,620 --> 00:06:48,410
+mida tuli paaristöös ette,
+teeme seda siin, kui
+
+77
+00:06:48,410 --> 00:06:54,140
+te markdown'is kirjutate, siis
+
+78
+00:06:54,140 --> 00:07:00,590
+jälgige, et mingid osad korrektselt
+
+79
+00:07:00,590 --> 00:07:07,520
+lõpetate ära. Et selline asi
+tuli paaris vöös, et, et ütleme,
+
+80
+00:07:07,520 --> 00:07:13,790
+et meil on siin markdown ja no nagu
+markdown'is loodetavasti nüüd juba teate,
+
+81
+00:07:13,790 --> 00:07:16,770
+eks ole, see on suur pealkiri.
+
+82
+00:07:16,770 --> 00:07:22,370
+See on teise taseme pealkiri, see on bold,
+
+83
+00:07:22,370 --> 00:07:29,040
+nii, siis koodi plokki saab
+
+84
+00:07:29,040 --> 00:07:35,510
+kirjutada nii, et te panete
+
+85
+00:07:35,510 --> 00:07:42,400
+seda, need backstick'id või
+kuidas neid nimetatakse.
+
+86
+00:07:42,400 --> 00:07:48,090
+Et sellega alustate koodi plokki,
+nii, kes seda suurendada ei saa.
+
+87
+00:07:48,090 --> 00:07:54,570
+kus back on see või ma
+
+88
+00:07:54,570 --> 00:08:01,300
+panen siit või, mul on natuke teistsugused
+need shortcut'id kui sellel või
+
+89
+00:08:01,300 --> 00:08:04,990
+see klaviatuuri paigutus näiteks
+teine, kui see programm teab,
+
+90
+00:08:04,990 --> 00:08:09,170
+aga vist on näha enam-vähem, eks ole.
+
+91
+00:08:09,170 --> 00:08:15,640
+Backstick'id on siis need
+tagurpidi ülakomad, kui te
+
+92
+00:08:15,640 --> 00:08:21,180
+sellega alustate, siia saab
+kirjutada koodinäidise.
+
+93
+00:08:21,180 --> 00:08:26,070
+Nii ja nüüd on oluline, et te
+paneksite see, ka sulgeksite selle,
+
+94
+00:08:26,070 --> 00:08:31,940
+et kui te nüüd kolm korda kirjutate edasi,
+siis see koodi vormi jääb siia nelja kahe
+
+95
+00:08:31,940 --> 00:08:36,700
+vahel. Kui te seda ei pane, siis
+kogu see lõpp tuleb koodi vormi.
+
+96
+00:08:36,700 --> 00:08:40,370
+Et plaanis töös oli see,
+et pidage seda meelt, et vaadake,
+
+97
+00:08:40,370 --> 00:08:44,000
+et siin oli, teil oli see,
+siia pannakse tavaliselt veel see,
+
+98
+00:08:44,000 --> 00:08:47,980
+et mis, mis tüüpi kood on
+või mis keel on ju näiteks,
+
+99
+00:08:47,980 --> 00:08:53,050
+et kui on lihtsalt tekst, mul on,
+siis see pannakse siia juurde.
+
+100
+00:08:53,050 --> 00:08:59,190
+või kui teil on CSS, siis
+pannakse niimoodi või HTML see,
+
+101
+00:08:59,190 --> 00:09:05,510
+seda meil siin väikses asjas ei
+tule see välja, aga kui teil on
+
+102
+00:09:05,510 --> 00:09:10,870
+oma koodiredaktoril küljes ka mingisugused
+
+103
+00:09:10,870 --> 00:09:17,120
+vormindajad, siis nad näitavad
+seda sellele keelele sobivat,
+
+104
+00:09:17,120 --> 00:09:23,170
+noh erivärviliselt näiteks,
+et koodi osad tulevad välja.
+
+105
+00:09:23,170 --> 00:09:29,740
+Aga võib ka lihtsalt niimoodi,
+et siis on jah, et vahe on siis
+
+106
+00:09:29,740 --> 00:09:36,080
+selles, et kui ma nüüd siia
+
+107
+00:09:36,080 --> 00:09:42,960
+midagi ots-- siia edasi kirjutan, siis see
+
+108
+00:09:42,960 --> 00:09:45,660
+osa täitub vastavalt.
+
+109
+00:09:45,660 --> 00:09:49,210
+Ehk et kui ma panen siia
+nüüd vaatame seda review'd,
+
+110
+00:09:49,210 --> 00:09:54,180
+on ju, et see on nii, nagu te näete,
+et näete, siin on koodi vormindus,
+
+111
+00:09:54,180 --> 00:10:00,080
+on ju, kohe hoopis teistsugune, aga
+kui ma need kolm täppi siit maha võtan,
+
+112
+00:10:00,080 --> 00:10:04,140
+siis on kogu järgnev on
+samas selles asjas, eks ole.
+
+113
+00:10:04,160 --> 00:10:08,690
+Et kui te kuskilt midagi,
+märgendid algavad ja lõppevad,
+
+114
+00:10:08,690 --> 00:10:15,640
+meil teil tegelikult juba seal Pythonis või Pythonis on ka vist osaliselt sees juba,
+
+115
+00:10:15,640 --> 00:10:22,210
+eks ole. Et siis, kui nad algavad,
+siis nad peavadki lõppema,
+
+116
+00:10:22,210 --> 00:10:28,650
+et mingi asi kestab kuskilt
+maalt kuskile maale ja siis see
+
+117
+00:10:28,650 --> 00:10:35,100
+näidatakse ära ja samamoodi
+kui lõppu ei pane, siis siin
+
+118
+00:10:35,100 --> 00:10:39,930
+näiteks see milline asi,
+et kui te näete omal hetkel,
+
+119
+00:10:39,930 --> 00:10:43,950
+kellel oli, et see on nagu
+teile võtnud sellist GitHubis,
+
+120
+00:10:43,950 --> 00:10:48,140
+te ei näe sellist ilusat
+pilti nii-öelda vormindatud,
+
+121
+00:10:48,140 --> 00:10:53,070
+vaid on kõik ühesugune, eks ole, siis
+suure tõenäosusega on teil kuskil see
+
+122
+00:10:53,070 --> 00:10:59,990
+backstick'id algavad, aga ei lõpe,
+selle võite üle vaadata ja mis
+
+123
+00:10:59,990 --> 00:11:02,210
+meil veel oli ja muidu
+
+124
+00:11:02,210 --> 00:11:13,580
+muidu
+
+125
+00:11:13,580 --> 00:11:19,680
+oli peaaegu hästi, oli selliseid
+hästi põhjalikelt kommenteeritud
+
+126
+00:11:19,680 --> 00:11:26,340
+töid, mis on hea, kus oli selgitatud see,
+see oma reflektsioon on nagu oluline,
+
+127
+00:11:26,340 --> 00:11:30,850
+et püüd--, et selle, meil
+on need kodutööd, eks ole,
+
+128
+00:11:30,850 --> 00:11:36,540
+et nende esimesed vähemalt on sellised lihtsad, et sel juhul see reflektsiooni osa
+
+129
+00:11:36,540 --> 00:11:42,590
+oleks nagu suht oluline, et kui
+te teete midagi, siis mõelge läbi,
+
+130
+00:11:42,590 --> 00:11:47,560
+mis te tegite, mis te teate saite, et see
+võiks seal refle-- reflektsioonis kirjas
+
+131
+00:11:47,560 --> 00:11:50,980
+olla, et osadel oli see väga
+hästi, sai kohe aru, et,
+
+132
+00:11:50,980 --> 00:11:54,750
+et te olite läbi töötanud materjali.
+
+133
+00:11:54,750 --> 00:12:01,410
+See puudutab näiteks praegu just seda,
+olid need videod tarkvaraarenduse
+
+134
+00:12:01,410 --> 00:12:06,490
+meetoditest, waterfall ja
+agiilne tarkvaraarendus, eks.
+
+135
+00:12:06,490 --> 00:12:13,190
+Et te teate ise, kellel lihtsalt
+seal lingid nendele videotele,
+
+136
+00:12:13,190 --> 00:12:17,110
+et mul pole neid vaja,
+aga kellel oli siis ära selgitatud,
+
+137
+00:12:17,110 --> 00:12:22,120
+et mida ta seal teada sai, see oleks nagu
+oluline olnud sinna kirja panna ja siis
+
+138
+00:12:22,120 --> 00:12:24,610
+osad panid, osad ei pannud.
+
+139
+00:12:24,610 --> 00:12:29,800
+Et meil edaspidi me nagu ei keskendu
+väga sellele, et mis see waterfall on,
+
+140
+00:12:29,800 --> 00:12:34,840
+aga kui te kolme aasta pärast lähete tööle
+ja kui sellel ajal see meetod veel olemas
+
+141
+00:12:34,840 --> 00:12:38,430
+on ja pigem ma arvan,
+et ta on, siis ei teaks mitte,
+
+142
+00:12:38,430 --> 00:12:40,050
+millest jutt käib.
+
+143
+00:12:40,050 --> 00:12:45,220
+Et need need märksõnad,
+mis seal kirjas olid waterfall,
+
+144
+00:12:45,220 --> 00:12:51,620
+agile või noh agiilne, Scrum,
+Kanban, need jätke endale meelde.
+
+145
+00:12:51,690 --> 00:12:56,240
+Ja kui te, kui teil praegu tulid
+need uue üllatusena või uuena,
+
+146
+00:12:56,240 --> 00:13:01,630
+siis minge koju ja vaadake järgi, need on
+põhi, sellised tarkvaraarendusmeetodid,
+
+147
+00:13:01,630 --> 00:13:08,480
+neid on veel, aga ei tahaks, et kui te
+tööle lähete ja keegi mõnda neist nimetab,
+
+148
+00:13:08,480 --> 00:13:10,780
+siis te ei teaks, mis nad on.
+
+149
+00:13:10,780 --> 00:13:17,510
+päriselus on see asi natuke
+teistmoodi võib-olla, et sellist,
+
+150
+00:13:17,510 --> 00:13:24,490
+ma arvan, et noh, väga suurtes ettevõtetes
+ja võib-olla ka start-up'ilikemas
+
+151
+00:13:24,490 --> 00:13:31,310
+ettevõtetes on need meetodid hästi
+paigas, käiaksegi nende järgi.
+
+152
+00:13:31,310 --> 00:13:34,950
+Et kui te sealt videost vaatasite,
+et seal ühes videos oli,
+
+153
+00:13:34,950 --> 00:13:38,870
+kui ma nüüd ei eksi, oli Scrum'i
+selgitus ja seal oli ka räägitud,
+
+154
+00:13:38,870 --> 00:13:44,510
+kes on Scrum master, ma loodan, et oli, et
+see on mingi kindla raamistikuga käib see
+
+155
+00:13:44,510 --> 00:13:49,960
+töö, eks. Aga no päris elu tihtilugu ei
+ole niisugune kindla raamistiku järgi ja
+
+156
+00:13:49,960 --> 00:13:54,840
+need asjad on segatud ja, noh, et me
+peame arvestama samal ajal sellega,
+
+157
+00:13:54,840 --> 00:14:00,280
+et olgugi, et need raamistikud on olemas
+või need tarkvaraarenduse meetodid,
+
+158
+00:14:00,280 --> 00:14:03,770
+siis eesmärk ei ole ju
+selle meetodi järgimine.
+
+159
+00:14:03,850 --> 00:14:09,150
+Vaid eesmärk on, see on
+tarkvaraarenduse eesmärk, kes teab,
+
+160
+00:14:09,150 --> 00:14:15,680
+lahendada kellegi probleemi, eks,
+ja siis tarkvara antud juhul,
+
+161
+00:14:15,680 --> 00:14:21,190
+kuna me seda õpime, on üks võimalik
+võimalus selle probleemi lahendamiseks,
+
+162
+00:14:21,190 --> 00:14:24,830
+aga vahel teie kui kliendi
+nii-öelda soovide täitjana,
+
+163
+00:14:24,830 --> 00:14:31,210
+võib-olla teenite paremini raha, kui te
+soovitate tal üldse seda tarkvara mitte
+
+164
+00:14:31,210 --> 00:14:35,800
+arendada, vaid teha selle
+asemel midagi muud kasulikku.
+
+165
+00:14:35,820 --> 00:14:38,970
+Noh, sõltub, on ju, et võib-olla
+siis te ei saa üldse raha,
+
+166
+00:14:38,970 --> 00:14:43,160
+eks ole, aga, aga võib-olla te lahendate
+kliendi probleemi ära ja ta tuleb teie
+
+167
+00:14:43,160 --> 00:14:47,300
+juurde teinekord tagasi juba selle asjaga,
+mida te saate talle rohkem müüa,
+
+168
+00:14:47,300 --> 00:14:52,360
+eks ole. Et seda peate vaatama, sest
+et peab lihtsalt meeles pidama või noh,
+
+169
+00:14:52,360 --> 00:14:55,380
+kahte asja peab meeles pidama
+ikkagi, eelkõige te tahate elada,
+
+170
+00:14:55,380 --> 00:14:58,770
+see tähendab seda,
+et teil on vaja raha, on ju.
+
+171
+00:14:58,790 --> 00:15:02,290
+Ja kust sa mujalt selle raha saad,
+ikka selle kliendi käest,
+
+172
+00:15:02,290 --> 00:15:06,510
+on ju, aga, aga just see, et talle
+meeldiks teile seda raha anda,
+
+173
+00:15:06,510 --> 00:15:11,770
+on ju, siis te peate nagu kuidagi mõnikord
+võib-olla siis mitte müüma talle elu eest
+
+174
+00:15:11,770 --> 00:15:14,330
+kõiki, eks ole, et seda peate vaatama.
+
+175
+00:15:14,330 --> 00:15:20,130
+Aga noh, selle, see on, läheb
+võib-olla mõne teise kursuse,
+
+176
+00:15:20,130 --> 00:15:24,470
+võib-olla psühholoogia või
+kuskile sinna valdkonda üldse,
+
+177
+00:15:24,470 --> 00:15:27,590
+et kuidas, kuidas seda osa nagu teha.
+
+178
+00:15:27,610 --> 00:15:34,260
+Aga noh, üha enam peate te nagu
+lai-- maailma laiemalt nägema,
+
+179
+00:15:34,260 --> 00:15:39,730
+kui veel seda kolm aastat
+tagasi tarkvara arendaja nägi,
+
+180
+00:15:39,730 --> 00:15:46,620
+sellepärast et, et koodi
+kirjutamine on üha vähem teie töö.
+
+181
+00:15:46,620 --> 00:15:53,070
+Nii, ma jäin nüüd
+
+182
+00:15:53,070 --> 00:15:58,410
+ennast kuulama ja kus mul selle
+
+183
+00:15:58,410 --> 00:16:05,270
+järgi jäi.
+
+184
+00:16:05,270 --> 00:16:05,600
+Ahah,
+
+185
+00:16:05,600 --> 00:16:12,510
+jah
+
+186
+00:16:12,510 --> 00:16:16,320
+need tarkvara arenduse meetodid,
+et ühesõnaga vaadake need veel üle.
+
+187
+00:16:18,090 --> 00:16:23,310
+Oli kodutöödes natuke, võib-olla pisteliselt tuli välja ja võib-olla see tuleb sealt
+
+188
+00:16:23,310 --> 00:16:27,200
+videotest ka välja, ma ei oska
+seda öelda, ei mäleta enam.
+
+189
+00:16:27,200 --> 00:16:32,120
+Et et jah, mõni aeg tagasi oli
+waterfall niisugune vanaaegne meetod,
+
+190
+00:16:32,120 --> 00:16:36,750
+et noh, alguses lepitakse kokku, mida
+tehakse, tehakse ta lõpuni valmis ja siis
+
+191
+00:16:36,750 --> 00:16:41,370
+alles näeb, eks ole, et mis sai, on ju, äkki selleks ajaks on juba kõik muutunud ja
+
+192
+00:16:41,370 --> 00:16:46,390
+siis on, on tema arendamine
+selles mõttes nagu kallis.
+
+193
+00:16:46,410 --> 00:16:51,010
+Nüüd selle vastukaaluks oli siis
+agiilsed tarkvaraarenduse meetodid,
+
+194
+00:16:51,010 --> 00:16:56,510
+võite lugeda ka sellist asja nagu
+agiilse tarkvaraarenduse manifest.
+
+195
+00:16:56,510 --> 00:17:00,520
+Ta nimi võib olla midagi teistsugust, aga
+kui te panete agile manifesto või midagi
+
+196
+00:17:00,520 --> 00:17:03,610
+sellist, siis te leiate selle
+üles, miks see üldse tekkis,
+
+197
+00:17:03,610 --> 00:17:07,410
+seda oleks mõistlik läbi
+lugeda tarkvaraarendajal.
+
+198
+00:17:07,410 --> 00:17:13,720
+Et kes mulle ütleb, et miks, miks see
+agiilne tarkvaraarendus parem on või noh,
+
+199
+00:17:13,720 --> 00:17:18,910
+tähendab agiilse tarkvaraarenduse
+seisukohast, miks ta parem on?
+
+200
+00:17:18,910 --> 00:17:25,230
+No kodutöö tegite, teada, mis see
+
+201
+00:17:25,230 --> 00:17:32,100
+on, mis asi ja suhtlus oli
+üks asi, et oli tõesti,
+
+202
+00:17:32,100 --> 00:17:38,750
+mis veel paindlikkus oli
+ja keegi leidis veel midagi
+
+203
+00:17:38,750 --> 00:17:45,470
+põnevat. Jah, just, et eks ole, et sa teed
+val--, mingi tüki valm-- minimaalse MVP,
+
+204
+00:17:45,470 --> 00:17:48,210
+eks ole, see miinimum vajab
+product, teed selle valmis,
+
+205
+00:17:48,210 --> 00:17:50,960
+töötab on ju ja siis hakkad
+sinna juurde ehitama, eks ole,
+
+206
+00:17:50,960 --> 00:17:52,450
+teda kogu aeg uhkemaks.
+
+207
+00:17:52,470 --> 00:17:55,000
+Aga sul on algusest peale
+juba jupp valmis, mis töötab,
+
+208
+00:17:55,000 --> 00:17:58,190
+eks ole, ja sa näed ka seda vigu kohe,
+aga sa pole selle jaoks kulutanud palju,
+
+209
+00:17:58,190 --> 00:17:59,230
+eks ole, jube hea.
+
+210
+00:17:59,230 --> 00:18:06,210
+Vot. Ja mingi ja nüüd, kui me mõtleme,
+eks ole, siis kuskil seda saab
+
+211
+00:18:06,140 --> 00:18:11,720
+teha, aga kuskil kindlasti ei saa teha,
+et kui me, no kuhu ta ei võiks või kuhu ta
+
+212
+00:18:11,720 --> 00:18:16,620
+ei tarvitse sobida, kui, kui nüüd
+mõtelda natuke, mis te arvate,
+
+213
+00:18:16,620 --> 00:18:22,040
+selles mõttes, et see on siuke lahtine
+ots, et ega siin ei ole õiget vastust,
+
+214
+00:18:22,040 --> 00:18:27,130
+aga te võite pakkuda lihtsalt,
+ega mina ka ei tea kõike.
+
+215
+00:18:28,360 --> 00:18:35,010
+Kui sa teed mingi, noh näiteks
+kui meil on mingi olulise riigi
+
+216
+00:18:35,010 --> 00:18:40,130
+poolt pakutava teenuse koduleht,
+ma ei tea, te tahate,
+
+217
+00:18:40,130 --> 00:18:44,260
+taotlete oma lapsele
+reisidokumenti või endale, eks ole,
+
+218
+00:18:44,260 --> 00:18:49,990
+ja see põhimõtteliselt töötab, aga te ei saa aru, kuidas seal midagi toimetama peab,
+
+219
+00:18:49,990 --> 00:18:56,700
+et siis võib-olla see agiilse tarkvara arenduse lähenemine nagu ei ole kõige parem.
+
+220
+00:18:56,800 --> 00:19:01,770
+Et teil on mingid, ilmselt mingid tooted on, mis peavad kohe arusaadavalt töötama on
+
+221
+00:19:01,770 --> 00:19:06,590
+ju, sest et muidu teil tekib, kas teil
+ei teki usaldust selle süsteemi vastu või
+
+222
+00:19:06,590 --> 00:19:10,070
+häkkerina te võib-olla mõtlete,
+et siin võib-olla muudki asjad,
+
+223
+00:19:10,070 --> 00:19:12,330
+eks ole, ei ole veel päris valmis.
+
+224
+00:19:12,350 --> 00:19:17,640
+Ja noh, kui te mingi riigi, riigi poolt
+pakutava teenuse siis veebileht või,
+
+225
+00:19:17,640 --> 00:19:22,070
+see teenusekeskkond jätab
+niisuguse ligadi-logadi mulje,
+
+226
+00:19:22,070 --> 00:19:26,090
+on ju, et siis, siis see võib
+meelitada mingeid pahalasi juurde,
+
+227
+00:19:26,090 --> 00:19:30,080
+eks ole, aga see võib ka selle,
+lihtsalt selle mainet rikkuda,
+
+228
+00:19:30,080 --> 00:19:32,160
+on ju, et kõik sellised asjad.
+
+229
+00:19:32,190 --> 00:19:38,700
+Nii et noh, siin võib-olla ei ole hea mõte
+seda agiilset tarkvaraarenduse meetodit
+
+230
+00:19:38,700 --> 00:19:44,260
+kasutada, aga kui te olete startup,
+startup'er ja te peate näitama oma sellele
+
+231
+00:19:44,260 --> 00:19:49,210
+rahastajale, et asi toimib,
+lihtsalt nüüd on vaja rohkem raha,
+
+232
+00:19:49,210 --> 00:19:54,610
+eks ole, et see ilusaks teha, no siis,
+et noh, teil ei ole raha lihtsalt seda,
+
+233
+00:19:54,610 --> 00:20:00,340
+et kõigepealt teha see suur mingi kolakas
+valmis ja siis saada investoril teada,
+
+234
+00:20:00,340 --> 00:20:05,740
+et, et noh, mis mõttetu asi,
+et ma ei taha küll selle eest maksta.
+
+235
+00:20:05,760 --> 00:20:11,190
+eks, et sellised asjad, nii et
+kumbki lähenemine ei ole vale,
+
+236
+00:20:11,190 --> 00:20:16,740
+vaid te peate mõtlema,
+mis kuhu soovib ja nüüd, eks ole,
+
+237
+00:20:16,740 --> 00:20:22,270
+tänapäeval AI tulekuga,
+jõudsa tulekuga on koodimine odav.
+
+238
+00:20:22,270 --> 00:20:26,920
+Et kui vanasti oli koodimine jube kallis
+ja kõige sellepärast tekkisid kõik need,
+
+239
+00:20:26,920 --> 00:20:31,270
+näiteks seesama agiilse
+tarkvara arendamise meetod,
+
+240
+00:20:31,270 --> 00:20:35,030
+et saaks algul kohe teada, et kas
+sellel asjal on üldse pointi on ju,
+
+241
+00:20:35,030 --> 00:20:38,400
+sest hetkel meil peaaegu noh,
+tegelikult veel on, on ju,
+
+242
+00:20:38,400 --> 00:20:44,540
+aga, aga põhimõtteliselt me oleme üsna sealmaal, et meil ei ole enam seda probleemi.
+
+243
+00:20:44,540 --> 00:20:49,030
+Tarkvara arendamine on nüüd odav või noh,
+mitte tarkvara arendamine ei ole odav,
+
+244
+00:20:49,030 --> 00:20:50,370
+vaid koodi kirjutamine on odav.
+
+245
+00:20:50,420 --> 00:20:55,010
+Et selles suhtes, et ma võin kohe müristada nagu ju ühe prompt'iga valmis mingi
+
+246
+00:20:55,010 --> 00:20:59,640
+waterfall meetodil tehtud lahenduse,
+töötama kõik ja puha ja klient vaatab,
+
+247
+00:20:59,640 --> 00:21:03,870
+ei, see ei sobi. Ma järgmise kolmekümne
+sekundi jooksul müristan uue lahenduse,
+
+248
+00:21:03,870 --> 00:21:06,210
+ta oli välja valmis ja noh,
+kõik on hästi, eks.
+
+249
+00:21:06,210 --> 00:21:12,820
+Et samuti, samuti, see sõna ei
+
+250
+00:21:12,820 --> 00:21:17,230
+soovitse. Selles mõttes,
+et ühesõnaga, et asjad muutuvad.
+
+251
+00:21:17,410 --> 00:21:24,210
+Ja ja nüüd jah, et ei saa ütelda jälle,
+et nüüd nüüd agiilne oleks moodsam,
+
+252
+00:21:24,210 --> 00:21:29,020
+et nüüd võib-olla on asjad
+muutunud, aga seda te peate,
+
+253
+00:21:29,020 --> 00:21:34,900
+see on nagu see kliendi suhtluse osa, et
+selle te peate siis leidma selle punkti,
+
+254
+00:21:34,900 --> 00:21:37,760
+et kuidas te asjale lähenete.
+
+255
+00:21:37,760 --> 00:21:41,980
+Ja te võite seda noh, tänapäeval saab
+nüüd juba ka poole pealt neid hobuseid
+
+256
+00:21:41,980 --> 00:21:46,830
+vahetada, et nüüd mingil hetkel olete
+mingise agiilse meetodiga mingi osa valmis
+
+257
+00:21:46,830 --> 00:21:50,690
+saanud ja siis vaatate, et ah, nüüd
+võib müristuda selle lõpuni ja et jah,
+
+258
+00:21:50,690 --> 00:21:54,230
+et ühesõnaga siin see on töö
+käigus, leiate selle vastuse,
+
+259
+00:21:54,230 --> 00:21:57,090
+eks ole, et mis on õige, mis on vale.
+
+260
+00:21:57,090 --> 00:22:00,930
+Ja õnneks te ei tööta üksinda,
+tähendab noh, võite ka töötada üksinda,
+
+261
+00:22:00,930 --> 00:22:05,620
+eks ole, siis on mõnes mõttes lihtsam,
+aga, aga vastutuse mõttes jälle halvem.
+
+262
+00:22:05,640 --> 00:22:10,210
+Selles mõttes, et teil ei ole
+kellelegi teisega seda asja ajada,
+
+263
+00:22:10,210 --> 00:22:14,770
+aga et, et tiimina, eks ole, te siis
+otsustate, klient on osa tiimist,
+
+264
+00:22:14,770 --> 00:22:17,920
+et siis, siis leiate selle vastuse.
+
+265
+00:22:17,920 --> 00:22:24,260
+Mõne sõnaga, keegi mainis ära,
+
+266
+00:22:24,260 --> 00:22:30,300
+et ta on varem kasutanud
+Jirat ja, ja nüüd Gitabi nende
+
+267
+00:22:30,300 --> 00:22:36,290
+issue'itega kokkupuude oli
+nagu uus, et see on nagu tore.
+
+268
+00:22:36,290 --> 00:22:42,760
+Kes tahab või noh, Jira on, ühesõnaga
+Atlassian on niisugune ettevõte,
+
+269
+00:22:42,760 --> 00:22:48,980
+mis toodab projekti haldav, haldustarkvara, sinna alla kuulub Jira Confluence,
+
+270
+00:22:48,980 --> 00:22:51,290
+Bitbucket, midagi veel.
+
+271
+00:22:51,290 --> 00:22:56,720
+Et me täna tegeleme projekti
+nii-öelda plaani loomisega ka,
+
+272
+00:22:56,720 --> 00:23:01,940
+et siis tekib parem ülevaade,
+mis see tähendab, aga needsamad issue'd,
+
+273
+00:23:01,940 --> 00:23:06,560
+mis teil tulevad. ed, piletid,
+inglise keeles siis ticket,
+
+274
+00:23:06,560 --> 00:23:12,190
+et sõltub nüüd, mis süsteemiga te tegutsete, et siis seal nimetatakse ühesõnaga ühte
+
+275
+00:23:12,190 --> 00:23:16,870
+tööülesannet, siis mingil
+kombel GitHubis on see issue'e,
+
+276
+00:23:16,870 --> 00:23:22,320
+kiira ehk see atlas-- süsteemis
+on ta, oli vist ticket vahe.
+
+277
+00:23:22,320 --> 00:23:27,010
+Jah, aga, aga ja siis on veel neid
+erinevaid samalähedaseid süsteeme,
+
+278
+00:23:27,010 --> 00:23:30,660
+et mõte on selles, et on ülesanne,
+mis on võimalikult kompaktne,
+
+279
+00:23:30,660 --> 00:23:32,890
+eks ole, ja see tuleb ära lahendada.
+
+280
+00:23:33,030 --> 00:23:37,340
+Ja me vaatame, kuidas seda asja
+tehakse, aga noh ühte te nägite,
+
+281
+00:23:37,340 --> 00:23:42,170
+et teil oli juba siuke üks ülesanne,
+neid pileteid võib jagada alamülesanneteks
+
+282
+00:23:42,170 --> 00:23:46,560
+omakorda ja väga oluline on
+lihtsalt, et on arusaadavus,
+
+283
+00:23:46,560 --> 00:23:50,810
+et see ühik keegi vastutab selle eest
+ja millalgi peab ta valmis saama,
+
+284
+00:23:50,810 --> 00:23:55,720
+ehk ole, et sinna saab, eks ole, sinna
+peab, saab panna siis tähtajad kõik asjad
+
+285
+00:23:55,720 --> 00:24:01,080
+külge. Nii nagu teie, teil oli see
+kodutöö, on teil siis issue'e või ticket,
+
+286
+00:24:01,080 --> 00:24:04,810
+kuidas seda nimetada, meie
+nimetame siis puhul issue'eks,
+
+287
+00:24:04,810 --> 00:24:09,520
+seal on tähtaeg, teie olete selle
+vastutaja, omakorda te annate sinna,
+
+288
+00:24:09,520 --> 00:24:13,300
+eks ole, andsite ülevaatleja
+ja nii edasi, kui ta on valmis,
+
+289
+00:24:13,300 --> 00:24:18,810
+siis ta lisatakse see või märgitakse ära,
+et on valmis ja siis see haru omakorda,
+
+290
+00:24:18,810 --> 00:24:22,490
+mis te tegite, et see
+liidutakse siis pea--.
+
+291
+00:24:22,780 --> 00:24:25,880
+Siis mis veel, et selle,
+selle, sellega me puutume,
+
+292
+00:24:25,880 --> 00:24:31,290
+oli ka paar probleemi, kus võis juhtuda,
+et keegi vist äkki hakkas muudatusi tegema
+
+293
+00:24:31,290 --> 00:24:35,960
+sealt peaharus ja oli paar kodutöös paar
+kohta, kus keegi oli neid pull request'e
+
+294
+00:24:35,960 --> 00:24:40,680
+ehk siis tõmmanud selle eraldi haru
+loonud ja siis tõmbetaotluse või selle,
+
+295
+00:24:40,680 --> 00:24:44,500
+teinud selle pull request'i siis
+oli teinud neid mitu tükki on ju,
+
+296
+00:24:44,500 --> 00:24:49,020
+et see ilmselt läks kogemata midagi sassi,
+aga et proovige ühega hakkama saada,
+
+297
+00:24:49,020 --> 00:24:51,070
+et siis on vähem sodi.
+
+298
+00:24:51,070 --> 00:24:58,070
+Siis mis veel, et selle, selle,
+sellega me puutume kokku nende
+
+299
+00:24:58,070 --> 00:25:03,680
+piletitega. Siis võib-olla
+põgusalt veel täiesti kähku,
+
+300
+00:25:03,680 --> 00:25:10,090
+et see tundub, et on enam-vähem juba
+selge, aga natuke võib-olla oli tunda,
+
+301
+00:25:10,090 --> 00:25:15,770
+et võib-olla väikest ebakindlust,
+et mis miski asi on.
+
+302
+00:25:15,770 --> 00:25:19,250
+Ja sellega ma panin ise ka puusse,
+et siis ma osade puhul vaatasin,
+
+303
+00:25:19,250 --> 00:25:22,370
+et, et äkki siin on midagi
+puudu, aga pärast tuli välja,
+
+304
+00:25:22,370 --> 00:25:29,140
+et kõik on hästi. Et kui te teete
+muudatuse, siis üks asi on faili
+
+305
+00:25:29,140 --> 00:25:35,300
+salvestamine, eks ole,
+aga sellega veel midagi nagu noh,
+
+306
+00:25:35,300 --> 00:25:42,190
+siis fail on salvestamine,
+oma asin alles hästi, aga versiooni
+
+307
+00:25:42,190 --> 00:25:46,140
+halduse mõttes siis veel midagi pole.
+
+308
+00:25:46,140 --> 00:25:50,170
+Siis te panete, eks ole,
+on see esimene käsutus on GIT.
+
+309
+00:25:50,170 --> 00:25:56,640
+Mis nüüd edasi saab, mis
+
+310
+00:25:56,640 --> 00:26:03,310
+siis juhtub, kui sa paned
+Giti hääd ja Giti hääd ja
+
+311
+00:26:03,310 --> 00:26:06,740
+siis vist ei juhtu veel midagi.
+
+312
+00:26:06,740 --> 00:26:13,210
+Sest et sa pead panema ka, ütlema,
+et mida lisada, kui sa paned punkti,
+
+313
+00:26:13,210 --> 00:26:17,230
+tähendab lisa kõik üldse, mis muudetud
+sai, on ju, aga kui sa ei taha,
+
+314
+00:26:17,230 --> 00:26:22,600
+sest võib olla asju, mida sa ei taha sinna
+Giti või noh versiooni haldusse panna,
+
+315
+00:26:22,600 --> 00:26:26,830
+siis paned konkreetselt punkti
+asemel, paned faili nimel,
+
+316
+00:26:26,830 --> 00:26:33,620
+eks. Aga muidu jah, õige,
+et lihtsalt kui meil on väike
+
+317
+00:26:33,620 --> 00:26:37,690
+ja see vahe tuleb vast sellega
+ka, et meil on väike arendus,
+
+318
+00:26:37,690 --> 00:26:40,850
+siis ka mina ei viitsi
+kirjutada mingit faili nime,
+
+319
+00:26:40,850 --> 00:26:44,840
+ma panen punkti lihtsalt, sellepärast
+et siis ta, mis muudatus tehti,
+
+320
+00:26:44,840 --> 00:26:47,550
+eks ole, selle ta paneb
+on ju ja kogu lugu.
+
+321
+00:26:47,550 --> 00:26:53,140
+Nagu see nimigi
+
+322
+00:26:53,140 --> 00:26:57,850
+ütleb, eks
+
+323
+00:26:57,850 --> 00:27:03,590
+ole, siis nagu
+
+324
+00:27:03,590 --> 00:27:10,540
+teostatakse
+
+325
+00:27:10,540 --> 00:27:14,390
+see asi ära või
+
+326
+00:27:14,390 --> 00:27:22,230
+salvestatakse
+
+327
+00:27:22,230 --> 00:27:29,000
+siis siin. Giti,
+
+328
+00:27:29,000 --> 00:27:35,640
+eks ole. Ja vajalik on siis, oli niimoodi
+
+329
+00:27:35,640 --> 00:27:40,540
+või, tahaks veel kirjutada, tuleb
+
+330
+00:27:40,540 --> 00:27:46,960
+meelde, pealkiri on ju
+või pealkiri ja võib ka
+
+331
+00:27:46,960 --> 00:27:53,200
+kirjelduse lisada.
+
+332
+00:27:53,200 --> 00:27:57,970
+Et see commit'i sõnum, kus te siis
+ütlete ära nii lühidalt kui võimalik,
+
+333
+00:27:57,970 --> 00:28:02,480
+mida tehti selles mõttes, et,
+et saaks aru, eks, et noh,
+
+334
+00:28:02,480 --> 00:28:05,920
+põhi, lihtne ja loogiline,
+et lihtsalt oleks teada,
+
+335
+00:28:05,920 --> 00:28:10,100
+et mida siin selle muudatusega tehti.
+
+336
+00:28:10,120 --> 00:28:15,740
+ja sealt tuleb ka see teema,
+et miks ta võiks olla üks,
+
+337
+00:28:15,740 --> 00:28:20,810
+üks kommit, et see tegevus,
+see muutmistegevus või arendustegevus,
+
+338
+00:28:20,810 --> 00:28:25,190
+mis te tegite, oleks
+võimalikult kompaktne, et noh,
+
+339
+00:28:25,190 --> 00:28:30,270
+kahel põhjusel. No tegelikult
+põhipõhjus on selles,
+
+340
+00:28:30,270 --> 00:28:33,080
+et lihtsalt, et kui nüüd midagi
+nässu läheb teil arenduses,
+
+341
+00:28:33,080 --> 00:28:35,980
+siis te saate tagasi tulla siia ja
+te murdate ainult seda konkreetselt
+
+342
+00:28:35,980 --> 00:28:38,600
+funktsionaalsust, mis te siin parandasite.
+
+343
+00:28:38,700 --> 00:28:43,410
+Mitte, et siin sellega seoses on veel
+kuskil mingid ligadi-logadi asjad,
+
+344
+00:28:43,410 --> 00:28:46,250
+mis siis ka kogemata võivad
+paigast ära minna, on ju,
+
+345
+00:28:46,250 --> 00:28:49,580
+vaid on konkreetselt üks
+niisugune loogiline muudatus.
+
+346
+00:28:49,580 --> 00:28:54,170
+Seda on väga, seda nagu noh,
+töö käigus neil tuleb endal see arusaam,
+
+347
+00:28:54,170 --> 00:29:00,290
+kui suur see suur on, aga põhimõtteliselt
+üks loogiline iseendasse puutuv asi,
+
+348
+00:29:00,290 --> 00:29:03,420
+mitte seda, et kuskil
+on veel mingid ained.
+
+349
+00:29:03,420 --> 00:29:09,770
+Et proovige seda harjutada, kogemata ikka,
+vahel paned selle hunniku muid asju ka,
+
+350
+00:29:09,770 --> 00:29:13,140
+aga ma hakkan mingil hetkel
+ja siin aines võib-olla vähem,
+
+351
+00:29:13,140 --> 00:29:17,870
+aga kui meil tulevad järgmised,
+järgmisel poolaastal ainetes,
+
+352
+00:29:17,870 --> 00:29:21,920
+et ma hindan commit'it või ma
+hindan tööd commit'ite arvu järgi.
+
+353
+00:29:21,920 --> 00:29:25,790
+Ja ma ei tahaks öelda, et mida
+rohkem commit'eid, seda parem,
+
+354
+00:29:25,790 --> 00:29:30,140
+aga ma ikkagi ütlen seda, sest see näitab
+seda, et te olete iga loogilise asja jaoks
+
+355
+00:29:30,140 --> 00:29:31,670
+teinud oma commit'i.
+
+356
+00:29:31,720 --> 00:29:34,440
+Ehk see tähendab, et need
+tükid on loogiliselt paigas,
+
+357
+00:29:34,440 --> 00:29:37,450
+on tehtud üks tegevus,
+mitte üks näpuliigutused, vaid,
+
+358
+00:29:37,450 --> 00:29:41,450
+vaid üks konkreetne pisifunktsionaalsus
+või alamfunktsionaalsus on lahendatud,
+
+359
+00:29:41,450 --> 00:29:45,090
+mis on üks tervik ja selle
+järgi ma panen hindeid.
+
+360
+00:29:45,090 --> 00:29:48,100
+Ja koolitöös on see selles
+mõttes eriti hea, et noh,
+
+361
+00:29:48,100 --> 00:29:53,420
+võib-olla arenduses ei peaks seda alati
+võib-olla nii punktuaalselt järgima,
+
+362
+00:29:53,420 --> 00:29:57,240
+aga koolitöös on see asi,
+et selle järgi ma näen ka seda ära,
+
+363
+00:29:57,240 --> 00:30:00,450
+et kui palju te pühendunud
+selle õppetöösse olete.
+
+364
+00:30:00,500 --> 00:30:05,820
+Selles mõttes, et selle läbitegemisega te
+iseenesest juba õpite ja mul on nagu süda
+
+365
+00:30:05,820 --> 00:30:09,850
+rahulikum, et te olete nii ja nii palju,
+te olete näiteks kakskümmend commit'it
+
+366
+00:30:09,850 --> 00:30:13,520
+teinud, millel, kus on kirjas igalühel,
+et tegin seda ja teist asja,
+
+367
+00:30:13,520 --> 00:30:17,150
+et noh, on suure tõenäosusega
+on midagi teile ka külge jäänud,
+
+368
+00:30:17,150 --> 00:30:22,040
+et selles mõttes on see väga tore asi ja
+tegelikult täpselt nii nagu välisarendus
+
+369
+00:30:22,040 --> 00:30:28,600
+peaks käima. Nii ja kohe räägime ka
+sellest, ka siin on oma nii-öelda
+
+370
+00:30:28,600 --> 00:30:32,420
+head tavad või konventsioonid,
+kuidas neid kirjutada,
+
+371
+00:30:32,420 --> 00:30:36,720
+ei ole lihtsalt suvaliselt,
+et mingi uuendasin või noh,
+
+372
+00:30:36,720 --> 00:30:43,060
+midagi sellist, et uuendasin seisu või
+või noh, mis võib olla siuke suvalik.
+
+373
+00:30:43,080 --> 00:30:46,720
+Need peavad ütlema, mis tegelikult
+toimus, kui on pikad asjad,
+
+374
+00:30:46,720 --> 00:30:50,650
+siis panete pealkirja ja panete
+veel sisu, sisuna eraldi,
+
+375
+00:30:50,650 --> 00:30:53,450
+aga üldiselt noh, kes see
+viitsib nii pikalt kirjutada,
+
+376
+00:30:53,450 --> 00:30:58,100
+ma arvan, et on võimalik kirjutada lühidalt ära, näiteks viisatada mingile sellele
+
+377
+00:30:58,100 --> 00:31:01,210
+issue'ele, et lahendasin või
+noh, ühesõnaga tegin selle,
+
+378
+00:31:01,210 --> 00:31:04,900
+selle asja ja sellega sulgesin issue
+number see ja see või et ühesõnaga,
+
+379
+00:31:04,900 --> 00:31:09,640
+et on võimalik viisata veel ka teistele asjadele, mis muudab selle asja lihtsamaks.
+
+380
+00:31:09,660 --> 00:31:14,040
+Aga mõte on selles, et kui kuskil
+midagi ebaõnnestub ja te teate,
+
+381
+00:31:14,040 --> 00:31:19,140
+et see on seotud mingi kindla funktsionaalsusega, siis selle kaudu on üks variant,
+
+382
+00:31:19,140 --> 00:31:24,180
+kuidas te leiate selle õige koha, kus tagasi tulla ja seda asja remontima võtta või
+
+383
+00:31:24,180 --> 00:31:30,430
+noh umbes, kus ta näss võib minna, et see
+on nagu see point ja kui see on valmis,
+
+384
+00:31:30,430 --> 00:31:36,920
+siis on. Ehk siis lükatakse
+
+385
+00:31:36,920 --> 00:31:42,030
+siiamaani on ta teil oma masinas,
+siit lähete teil eemal asuvasse reposse.
+
+386
+00:31:42,030 --> 00:31:45,600
+Kui teil eemal asuvat repot ei ole,
+siis pole seda kesklust vaja,
+
+387
+00:31:45,600 --> 00:31:51,210
+sest tihtilugu võib ka olla nii, et teil
+ei olegi eemal asuvat repot nagu seda
+
+388
+00:31:51,210 --> 00:31:57,060
+Githubi siis. Et Git on, keegi
+küsis ka, et, natuke jäin segaseks,
+
+389
+00:31:57,060 --> 00:32:01,820
+mis Giti ja Githubi vahe on,
+siis üks suur osa ongi selles,
+
+390
+00:32:01,820 --> 00:32:07,230
+et Git on see versiooni haldussüsteem,
+mis on siuke üldine,
+
+391
+00:32:07,230 --> 00:32:12,310
+mis võib asuda kus iganes,
+teie arvutis või Githubis.
+
+392
+00:32:12,330 --> 00:32:16,240
+Ja Git ongi lihtsalt üks versiooni
+halduskeskkond, mis asub eemale,
+
+393
+00:32:16,240 --> 00:32:19,420
+kuhu saab, kuhu te saate
+igalt poolt mujalt ligi.
+
+394
+00:32:19,420 --> 00:32:24,450
+Et tal on muid funktsionaalsusi ka,
+aga selle näite puhul on põhiline see,
+
+395
+00:32:24,450 --> 00:32:30,820
+ehk et Git on see, selle kõige alus,
+Git on üks teenuste pakkujatest,
+
+396
+00:32:30,820 --> 00:32:34,750
+keskkondadest, kus te
+saate seda Giti kasutada.
+
+397
+00:32:34,750 --> 00:32:41,400
+Kas see midagi segaseks
+ka selle aine osas, et kui
+
+398
+00:32:41,400 --> 00:32:46,360
+on midagi, siis küsige,
+kui ei julge küsida, kirjutage,
+
+399
+00:32:46,360 --> 00:32:50,140
+et või küsige teiste käest,
+et oluline, et, et see,
+
+400
+00:32:50,140 --> 00:32:55,120
+kuna see kolme aasta jooksul see Git
+ja Gitaab on veel õppimise selline
+
+401
+00:32:55,120 --> 00:33:01,630
+tugisammas, mida te
+kasutate õppetööks, siis see
+
+402
+00:33:01,630 --> 00:33:08,110
+tuleks võimalikult hästi selgeks
+saada, kuigi noh tänu sellele
+
+403
+00:33:08,110 --> 00:33:10,300
+õppetööle, eks ta saab ka.
+
+404
+00:33:10,300 --> 00:33:16,950
+Nii, et see on siis Giti
+ja Giti selline põhitöö
+
+405
+00:33:16,950 --> 00:33:21,720
+foog, siis olid veel seal,
+eks ole, igasugused Giti staatused,
+
+406
+00:33:21,720 --> 00:33:26,770
+et kus te saate vaadata, on ju, mis seisus
+teil on ja mis erinevused ja siuksed
+
+407
+00:33:26,770 --> 00:33:30,270
+asjad veel, mida, mida me
+jõuame siin töö käigus.
+
+408
+00:33:30,270 --> 00:33:36,050
+Siis oli vist kellelgi võib-olla
+probleem ligipääsu õigustega,
+
+409
+00:33:36,050 --> 00:33:40,460
+et ülevaataja ei saanud ligi, aga kuna
+enamus selle lahendasid ära ja see inimene
+
+410
+00:33:40,460 --> 00:33:43,130
+ise ka, et siis vist sellega sai ka korda.
+
+411
+00:33:43,130 --> 00:33:46,490
+Kuidas te seda tegite, ma mõtlen
+iga kord on selged probleemid,
+
+412
+00:33:46,490 --> 00:33:49,280
+et ma ma ise unustan alati
+ära, et kas teil oli kohe,
+
+413
+00:33:49,280 --> 00:33:53,180
+kas te pidite kõik andma ligipääsu
+õiguse sellele, kes üle vaatas või noh,
+
+414
+00:33:53,180 --> 00:33:57,050
+selge. Aga ühesõnaga leidsite
+üles ja see on leitav ilmselt,
+
+415
+00:33:57,050 --> 00:34:00,140
+eks ole, et ma ka praegu peast
+ei oskaks öelda, kus see asub,
+
+416
+00:34:00,140 --> 00:34:03,310
+aga ühesõnaga teil on võimalik,
+kas teha oma repo avalikuks,
+
+417
+00:34:03,310 --> 00:34:07,780
+mida te võite teha või siis anda
+konkreetselt sellele ühele inimesele,
+
+418
+00:34:07,780 --> 00:34:11,690
+kes on ülevaataja,
+lihtsalt ligipääsu õigus.
+
+419
+00:34:11,710 --> 00:34:16,480
+Ja kuna te selle ära lahendasite,
+siis see on hästi.
+
+420
+00:34:16,480 --> 00:34:22,890
+Siis
+
+421
+00:34:22,890 --> 00:34:28,130
+add'imise, push'imise ja commit'imise
+asjad said, et mida see ka sai.
+
+422
+00:34:28,130 --> 00:34:33,860
+Kuhu me vaatame veel,
+et jah, see, seda ma ütlesin,
+
+423
+00:34:33,860 --> 00:34:40,800
+et mõni töö
+
+424
+00:34:40,800 --> 00:34:45,040
+oli vale nimega, aga seal oli
+just see, et see pisivahe,
+
+425
+00:34:45,040 --> 00:34:51,690
+et kas see kodusöö alakriips null üks või
+kodutöö null üks või kodutöö kriips null
+
+426
+00:34:51,690 --> 00:34:56,400
+üks. Või siis SJA folder laadi,
+et vaadake need asjad üle,
+
+427
+00:34:56,400 --> 00:34:59,830
+et, et proovige neid hoida.
+
+428
+00:35:06,060 --> 00:35:08,910
+On muutke, oluline, et kellel oli see
+muutke viga, see see oma folder ära,
+
+429
+00:35:08,910 --> 00:35:14,650
+et ma lasin need, ühendasin
+muidu need peaharusse kõik,
+
+430
+00:35:14,650 --> 00:35:19,610
+aga see, selle võite nüüd
+seal peaharus ka muuta.
+
+431
+00:35:19,610 --> 00:35:26,570
+Nii, et, et sa näiteks kõigepealt
+nüüd, kui te uut tööd alustate
+
+432
+00:35:26,570 --> 00:35:33,370
+ja keegi teine on teie masinas
+midagi teine, no teeme selle ka korra
+
+433
+00:35:33,370 --> 00:35:38,430
+näitlikult läbi,
+et siis on parem natukene.
+
+434
+00:35:39,240 --> 00:35:40,790
+Vaatame, kus me asusime,
+
+435
+00:35:40,790 --> 00:35:48,790
+noh
+
+436
+00:35:48,790 --> 00:35:50,980
+ma lähen kogu aeg
+
+437
+00:35:50,980 --> 00:35:57,000
+valesti,
+
+438
+00:35:57,000 --> 00:36:03,940
+et selle Giti ja ka Gitabi, eks ole, põhi
+
+439
+00:36:03,940 --> 00:36:09,790
+see asi siis, eelis või headus ongi just
+
+440
+00:36:09,790 --> 00:36:16,570
+selles, et sa saad
+
+441
+00:36:16,570 --> 00:36:22,370
+muuta, saad tagasi minna,
+muuta, edasi minna, muuta.
+
+442
+00:36:22,370 --> 00:36:27,510
+Nii, ma mõtlen, mis asjaga ma näitan,
+ma näitan äkki seda enda omaga,
+
+443
+00:36:27,510 --> 00:36:27,650
+kus
+
+444
+00:36:27,650 --> 00:36:35,020
+me
+
+445
+00:36:35,020 --> 00:36:37,950
+oleme siin.
+
+446
+00:36:42,060 --> 00:36:56,530
+Ma
+
+447
+00:36:56,530 --> 00:36:57,380
+võtan selle
+
+448
+00:36:57,380 --> 00:37:04,210
+sama, noh, ma
+
+449
+00:37:04,210 --> 00:37:10,950
+räägin kõva häälega ka, et kui kellelgi
+veel midagi on natuke segaseks jäänud,
+
+450
+00:37:10,950 --> 00:37:15,800
+eks ole, et lihtsam on teha
+repo seal kauge kohas valmis.
+
+451
+00:37:15,800 --> 00:37:22,240
+Siin tuleb küll, kui te teete
+neid juhendeid, kuidas nagu teha
+
+452
+00:37:22,240 --> 00:37:26,840
+kõigepealt oma arvutis ja siis juba kuskile mujale kaugel asuvasse reposse teha,
+
+453
+00:37:26,840 --> 00:37:30,180
+et nad on kõik olemas, aga nad
+on natuke siuksed segasemad,
+
+454
+00:37:30,180 --> 00:37:34,560
+nii et noh, selles mõttes on
+mõistlik alati siin ära teha.
+
+455
+00:37:36,190 --> 00:37:39,910
+Oma masinasse kloonimine on siis
+see, et kopita siit selle URL-i,
+
+456
+00:37:39,910 --> 00:37:46,460
+kloonimine ja fork'imine, et fork'imine
+on see, et kui te teete nagu siis
+
+457
+00:37:46,460 --> 00:37:51,720
+paljundate nii-öelda sealsamas
+näiteks oma repo'l siis või noh,
+
+458
+00:37:51,720 --> 00:37:56,260
+kellegi teise repo või mis iganes
+ja hakkate seda töötama nagu eraldi,
+
+459
+00:37:56,260 --> 00:38:00,980
+siis see kloonimine on see, et te kloonite
+näiteks oma masinasse ja siis te saate
+
+460
+00:38:00,980 --> 00:38:06,250
+neid samu tõmbetaotlusi või siis liitmistaotlusi sellesse olemasolevasse reposse
+
+461
+00:38:06,250 --> 00:38:13,120
+teha. Et nagu on, nagu jääb alles üks
+ökosüsteem, et Forki puhul siis tekib uue,
+
+462
+00:38:13,120 --> 00:38:18,170
+uus. Seda Forki väheks vaja
+näiteks juhul, kui ütleme,
+
+463
+00:38:18,170 --> 00:38:24,260
+et mingi rakenduse teete ja te tahate
+sellest, keegi on teinud rakenduse ja te
+
+464
+00:38:24,260 --> 00:38:29,590
+tahate sellest mingi oma versiooni teha,
+lahti te siduda sellest algsest,
+
+465
+00:38:29,590 --> 00:38:34,370
+eks ole, siis te teete Forki
+ja hakkate seda ise oma,
+
+466
+00:38:34,370 --> 00:38:37,820
+mõtete jäägi edasi toimetama.
+
+467
+00:38:37,820 --> 00:38:40,960
+Kloonimine on see, et saate
+samamoodi muidugi teha ka,
+
+468
+00:38:40,960 --> 00:38:44,400
+et sellest lahti ennast siduda,
+aga, aga mõte oleks siis see,
+
+469
+00:38:44,400 --> 00:38:48,930
+et te kloonitate oma masinate ja masinasse
+ja täiendate seda olemasolevat eemal
+
+470
+00:38:48,930 --> 00:38:55,480
+asuvat repot. Nii mina
+copy'sin ta siit ära, lähen
+
+471
+00:38:55,480 --> 00:39:00,930
+kuskile editor'i ja ma selle võtsin,
+
+472
+00:39:00,930 --> 00:39:06,870
+see on
+
+473
+00:39:06,870 --> 00:39:13,340
+sama, sisuliselt sama kui
+Visual Studio Code, lihtsalt
+
+474
+00:39:13,340 --> 00:39:18,170
+natuke vähem ressurssi võtab arvutilt.
+
+475
+00:39:18,170 --> 00:39:23,450
+A, aga samamoodi, et siin
+on kuskil on mul see volder,
+
+476
+00:39:23,450 --> 00:39:28,550
+kus ma toimetan või tähendab nii-öelda
+explorer, ma teen siia praegu ühe suvalise
+
+477
+00:39:28,550 --> 00:39:34,870
+näidis volderi. Ma isegi praegu
+võtan lihtsalt desktop'i lahti,
+
+478
+00:39:34,870 --> 00:39:38,360
+see on mul suvaline koht, siis ma
+pean otsima üles selle terminali,
+
+479
+00:39:38,360 --> 00:39:43,730
+eks ole. kui ma tahan
+
+480
+00:39:43,730 --> 00:39:48,980
+teha
+
+481
+00:39:48,980 --> 00:39:55,870
+teistmoodi, et
+
+482
+00:39:55,870 --> 00:40:02,200
+ütleme, et ma teen
+
+483
+00:40:02,200 --> 00:40:08,650
+oma arvutis juba valmis
+
+484
+00:40:08,650 --> 00:40:15,480
+SjTA test näiteks ja avan
+
+485
+00:40:15,480 --> 00:40:22,190
+selle. Noh, et siis mul on siin nagu
+
+486
+00:40:22,150 --> 00:40:27,840
+puhtam, aga nüüd ma pean vaatama seda,
+see võiksite kuidagi endale meelde jätta,
+
+487
+00:40:27,840 --> 00:40:33,170
+et kui ma nüüd teen Git kloun, siin jälle
+vaatan, et ma oleksin õiges valdris,
+
+488
+00:40:33,170 --> 00:40:37,260
+see oli ka kodutöötlus tuli välja,
+et keegi sai seal selle hea õppetunni,
+
+489
+00:40:37,260 --> 00:40:40,210
+eks ole, et see terminal
+ja see, mis siin kõrval on,
+
+490
+00:40:40,210 --> 00:40:42,580
+need ei ole omavahel seotud.
+
+491
+00:40:42,680 --> 00:40:47,000
+Tähendab see, kui te siin liigute
+versus, kui te siin liigute,
+
+492
+00:40:47,000 --> 00:40:51,810
+need ei ole sünnitud, et see on lihtsalt,
+on toodud teil Visual Studio Code'is
+
+493
+00:40:51,810 --> 00:40:54,080
+terminali aken siia välja.
+
+494
+00:40:54,080 --> 00:40:59,000
+Et see tihtilugu läheb sassi ja kui teil
+ei ole mingit pluginat või vastavat seda
+
+495
+00:40:59,000 --> 00:41:03,450
+terminali, mis näitab seda rada,
+siis selle jaoks oli siis see PVD,
+
+496
+00:41:03,450 --> 00:41:08,040
+et nä-- näitab ära, et kus te asute,
+et seda tasub siis kontrollida,
+
+497
+00:41:08,040 --> 00:41:13,400
+on ju. LS oli siis see, et näitab ära,
+et mis teil siin folder'i sees on,
+
+498
+00:41:13,400 --> 00:41:16,830
+mul ei ole siin mitte midagi,
+eks ole, siis ta näitab seda.
+
+499
+00:41:16,830 --> 00:41:21,480
+Aga et, et jah, siis PVD ja LS
+oli, need on terminali käsud,
+
+500
+00:41:21,480 --> 00:41:23,230
+mitte, mitte Giti omad.
+
+501
+00:41:23,230 --> 00:41:27,620
+Ja kui, aga kui ma nüüd
+olen juba sellel folder'il,
+
+502
+00:41:27,620 --> 00:41:32,410
+folder'is, see võiski olla äkki see
+ka üks põhjus, miks tekkis see S,
+
+503
+00:41:32,410 --> 00:41:33,820
+J, C ja A kellelegi.
+
+504
+00:41:33,840 --> 00:41:40,250
+L: Kui ma nüüd panen,
+siis ta teeb mulle siia
+
+505
+00:41:40,250 --> 00:41:46,940
+uue folder'i, eks ole, aga seda ma
+
+506
+00:41:46,940 --> 00:41:48,560
+tegelt ei tahtnud.
+
+507
+00:41:48,560 --> 00:41:55,270
+Sellepärast, et ma juba tegin
+endale ühe pea folder'i,
+
+508
+00:41:55,270 --> 00:41:59,960
+kus ta asus, eks ole,
+et siis tekib nagu mitu tükki,
+
+509
+00:41:59,960 --> 00:42:02,690
+see on nagu tüütu võib-olla.
+
+510
+00:42:02,690 --> 00:42:06,620
+Aga kui ma panen siis
+teistmoodi ja nooltega liikudes,
+
+511
+00:42:06,620 --> 00:42:10,320
+kui mäletate, siis saab,
+põgusalt ütlesin võib-olla,
+
+512
+00:42:10,320 --> 00:42:14,980
+võib-olla ei ütelnud ka, et siis te
+saate liikuda eelmiste käskluste,
+
+513
+00:42:14,980 --> 00:42:18,770
+eelmiste ja järgmiste käskluste vahel.
+
+514
+00:42:18,770 --> 00:42:21,770
+Noolega üles on eelmine käsklus,
+eks ole, noolega alla on järgmine,
+
+515
+00:42:21,770 --> 00:42:24,130
+aga seda järgmist ei saa olla,
+sest ma pole teadnud.
+
+516
+00:42:24,130 --> 00:42:29,620
+Aga kui ma panen nüüd siit tühik ja punkt
+ja kui siin selles folderis midagi sees ei
+
+517
+00:42:29,600 --> 00:42:34,060
+ole, siis ta paneb siia samma folderisse
+selle, siis ta ei tee uut alamfoldrit,
+
+518
+00:42:34,060 --> 00:42:38,810
+vaid teeb siis need asjad,
+mis mul olid, paneb siia sisse.
+
+519
+00:42:38,810 --> 00:42:43,290
+Ja küsimus oli, et kuidas nüüd muuta seda
+
+520
+00:42:43,290 --> 00:42:49,890
+kõike, siis kui sul oli seal näiteks,
+oletame siin sees midagi,
+
+521
+00:42:49,890 --> 00:42:55,170
+siis sa nüüd võid siin sees teha,
+sa võid nimetada neid asju ümber.
+
+522
+00:42:55,170 --> 00:42:58,710
+oluline, et enne seda,
+kui te nüüd uuesti tööle hakkate,
+
+523
+00:42:58,710 --> 00:43:03,840
+eks ole, tehke kindlasti oma arvu, sest kuna mina kinnitasin teil mingid asjad ära,
+
+524
+00:43:03,840 --> 00:43:07,000
+siis need on ilmselt jõus viimasena,
+siis tehke kindlasti see asi,
+
+525
+00:43:07,000 --> 00:43:09,850
+et esimene asi, seda võib
+alati teha, et esimene asi,
+
+526
+00:43:09,850 --> 00:43:12,610
+kui oma masinas tööle
+hakata ja tehke it pull.
+
+527
+00:43:12,610 --> 00:43:19,240
+Siis ta vaatab üle need,
+et oleks kõige värskem
+
+528
+00:43:19,240 --> 00:43:24,720
+seis, on ju. Kui on, ei ole värske,
+siis ta tõmbab alla konflikt,
+
+529
+00:43:24,720 --> 00:43:28,480
+siis ta ütleb seda, konflikt lahendada.
+
+530
+00:43:28,480 --> 00:43:34,880
+Ja meil tuleb neid konflikte
+kindlasti ette, et siis lahendame
+
+531
+00:43:34,880 --> 00:43:41,380
+lahendamist ka. Teil nüüd said
+ühendatud peaharusse kõik need
+
+532
+00:43:41,380 --> 00:43:47,780
+koduülesande harud, et nüüd
+kustutage ise need lisaharud ära.
+
+533
+00:43:47,780 --> 00:43:52,610
+Iseküsimus, kui te just mingil
+põhjusel ei taha säilitada,
+
+534
+00:43:52,610 --> 00:43:56,590
+ma ei tea, mingi mälestuse
+või noh, ajaloo huvides,
+
+535
+00:43:56,590 --> 00:44:00,060
+et võib-olla võib isegi noh olla on ju.
+
+536
+00:44:00,130 --> 00:44:05,580
+Aga muidu neid ei ole enam vaja,
+seda võite siis sealt GitHubis
+
+537
+00:44:05,580 --> 00:44:12,210
+teha, nii, aga jah, et see
+vastus, et nüüd sa võid siin
+
+538
+00:44:12,210 --> 00:44:17,440
+kõike teha, et näiteks oletame,
+et kui sul oli siin ennem see,
+
+539
+00:44:17,440 --> 00:44:22,140
+see, ei tea jah. See teema
+oli seal ennem niimoodi,
+
+540
+00:44:22,140 --> 00:44:25,880
+et ütleme, et kõik asjad olid
+siin selle sees, eks ole,
+
+541
+00:44:25,880 --> 00:44:29,960
+ja nüüd küsimus oli, et seda enam ei
+oleks vaja, siis võtate need asjad,
+
+542
+00:44:29,960 --> 00:44:32,310
+tõstate nad siit seest välja.
+
+543
+00:44:32,490 --> 00:44:39,350
+Te võite seda teha ka, see on tavaline
+see Mac'i puhul nagu see finder'i aken või
+
+544
+00:44:39,350 --> 00:44:45,980
+siis Windowsis see Explorer aken,
+et kui siit minna finder'isse näiteks,
+
+545
+00:44:45,980 --> 00:44:51,930
+no kus ta siin on, nii.
+
+546
+00:44:51,930 --> 00:44:57,120
+Ma võin kõike seda ka siin teha,
+seda failide liigutamist ja
+
+547
+00:44:57,120 --> 00:45:02,590
+ümbernimetamist, et,
+et siis muutus siin ka, eks ole,
+
+548
+00:45:02,590 --> 00:45:08,930
+et see ja siis kustutan selle ära või
+mis iganes, nimetan selle teistmoodi või.
+
+549
+00:45:08,950 --> 00:45:15,700
+See on ongi nagu siis see tegevus, mis
+sa teed ja nüüd paned siia lihtsalt git
+
+550
+00:45:15,700 --> 00:45:22,370
+add punkt. Git commit M
+ja nüüd ma juba räägin
+
+551
+00:45:22,370 --> 00:45:29,240
+selle ära, me pärast korra
+kordame, et nüüd kuidas
+
+552
+00:45:29,240 --> 00:45:33,950
+komiteid kirjutada,
+kindlasti inglise keeles.
+
+553
+00:45:34,090 --> 00:45:40,090
+Noh, mida aeg edasi, seda vähem seda vaja
+läheb, aga üldiselt endiselt veel hea tava
+
+554
+00:45:40,030 --> 00:45:44,770
+on, tuleneb ta sellest, et, et teie
+või noh tarkvaraarendus ei oma rahvust,
+
+555
+00:45:44,770 --> 00:45:50,790
+eks ole, et järgmine inimene, kes sedasama
+rakendust arendab võib-olla Pakistanist,
+
+556
+00:45:50,790 --> 00:45:53,990
+mingil hetkel see oli tavapärane, eks ole.
+
+557
+00:45:54,010 --> 00:45:57,830
+Et kõik saaksid aru, millest jutt
+käib, et, et ei ole vaja tõlkida,
+
+558
+00:45:57,830 --> 00:46:01,890
+aga hetkel, eks ole, sisuliselt,
+kui neid asju teeb üldse AI,
+
+559
+00:46:01,890 --> 00:46:05,640
+ta saab kõik, ta saab
+kõikidest asjadest aru, et noh,
+
+560
+00:46:05,640 --> 00:46:09,300
+põhimõtteliselt justkui nagu
+vastust pole või noh, vahet pole,
+
+561
+00:46:09,300 --> 00:46:12,870
+aga siiski on nagu mõistlik
+hoida nagu korrektset keelt,
+
+562
+00:46:12,870 --> 00:46:16,220
+korre-- korrektset stiili, jah.
+
+563
+00:46:16,220 --> 00:46:23,120
+Ja tuleb teha nagu siis käskivas
+kõneviisis, see on selline kõige levinum
+
+564
+00:46:23,120 --> 00:46:28,740
+kokkulepe commit'ite puhul,
+et mina tahan kirjutada selle,
+
+565
+00:46:28,740 --> 00:46:31,520
+anda teada, mida ma tegin.
+
+566
+00:46:31,540 --> 00:46:36,980
+Ma nimetasin ümber folder'i nime,
+et tegelikult ma lõin selle,
+
+567
+00:46:36,980 --> 00:46:42,610
+aga ütleme, et põhimõtteliselt
+nimetasin, on ju, siis ma ei kirjuta,
+
+568
+00:46:42,610 --> 00:46:49,280
+et ma lõin sellise folder'i, vaid ma
+kirjutan, et loo selline folder ehk hääd.
+
+569
+00:46:49,280 --> 00:46:55,350
+Ja paneme selle S J TA folder,
+et selline peaks siis olema see,
+
+570
+00:46:55,350 --> 00:47:00,450
+on siit näha ka jah, et selline
+peaks olema see kommid sõnu.
+
+571
+00:47:00,450 --> 00:47:05,980
+Ehk et alati siis käskides
+kõnevili, loo, tee, kuuenda,
+
+572
+00:47:05,980 --> 00:47:12,860
+muuda ja nii edasi ja siis see asi, et
+mis te täpselt tegite ja see on siis teile
+
+573
+00:47:12,860 --> 00:47:16,700
+kohustuslik, et te peate seda järgima.
+
+574
+00:47:16,700 --> 00:47:21,350
+Sellest on kirjas ka
+
+575
+00:47:21,350 --> 00:47:25,510
+pikemalt siis
+
+576
+00:47:25,510 --> 00:47:31,880
+sellesama meie
+
+577
+00:47:31,880 --> 00:47:36,320
+aine kontseptide all.
+
+578
+00:47:36,320 --> 00:47:43,180
+Ehk siis see on teil töö kodu või
+seal ühesõnaga õppematerjalides kirjas
+
+579
+00:47:43,180 --> 00:47:48,850
+ka, hetkel vist ei ole
+veel üles laetud, aga nii.
+
+580
+00:47:48,850 --> 00:47:54,250
+Et siin on meil kontsepts ja
+siin on commit, ma loodan,
+
+581
+00:47:54,250 --> 00:47:58,220
+et siin äkki või kohtus,
+et siin on kõik see kirjas,
+
+582
+00:47:58,220 --> 00:48:04,980
+kuidas neid nimetada ja teha,
+et selles suhtes saate seal šnitti
+
+583
+00:48:04,980 --> 00:48:10,010
+võtta. Aga see on selline levinum viis,
+
+584
+00:48:10,010 --> 00:48:16,080
+et leiate selle sellega, kui te lihtsalt
+
+585
+00:48:16,080 --> 00:48:22,680
+küsite või guugeldate või
+mis iganes, et kasutate
+
+586
+00:48:22,680 --> 00:48:29,330
+abimaterjale. Ehk et siin on toodud,
+eks ole, et mida tee versus siis
+
+587
+00:48:29,330 --> 00:48:30,620
+mida tegid, on ju.
+
+588
+00:48:30,620 --> 00:48:37,070
+Kuskil on isegi vist siin kirjas,
+miks see niimoodi on või kus ta siin
+
+589
+00:48:37,070 --> 00:48:43,630
+niimoodi on, ma ise ei mäleta enam
+seda, et aga võite huvi pärast ka
+
+590
+00:48:43,630 --> 00:48:45,180
+vaadata.
+
+591
+00:48:46,460 --> 00:48:53,410
+Ja siin on ka kirja-- kirjeldatud pikemalt
+
+592
+00:48:53,410 --> 00:48:58,280
+ära, et kuidas nagu üldse commit,
+commit'eid nagu siis mitte kirjeldusi,
+
+593
+00:48:58,280 --> 00:49:01,760
+vaid commit'eid endid teha,
+et, et mis, mis on commit,
+
+594
+00:49:01,760 --> 00:49:07,450
+et seesama üks siuke kompaktne loogiline
+muudatus, et see siis võiks olla.
+
+595
+00:49:07,450 --> 00:49:13,040
+Ja noh, mingi ülesande alamosad nagu siis.
+
+596
+00:49:13,540 --> 00:49:18,080
+Nii, see jääb teile endal
+
+597
+00:49:18,080 --> 00:49:24,510
+putrumiseks.
+
+598
+00:49:24,510 --> 00:49:31,430
+Aga meie vaatame siis edasi,
+ehk et mis ma siis tegin,
+
+599
+00:49:31,430 --> 00:49:37,210
+et Gitcommit, M on ju, ääres,
+JTA folder, mida ma siis tegin ja.
+
+600
+00:49:37,210 --> 00:49:46,210
+Mis
+
+601
+00:49:46,210 --> 00:49:53,080
+ma valesti tegin, aga ma vist ennem
+
+602
+00:49:53,080 --> 00:49:58,210
+juba, ei kokku ei jooksnud, aga ma
+vist tegin selle ennem juba korra ära.
+
+603
+00:49:58,210 --> 00:50:07,010
+Ei
+
+604
+00:50:07,010 --> 00:50:07,650
+ole nii,
+
+605
+00:50:07,650 --> 00:50:17,740
+talle
+
+606
+00:50:17,740 --> 00:50:22,490
+ei meeldi see tühi folder või, vahet.
+
+607
+00:50:22,490 --> 00:50:42,580
+Mulle
+
+608
+00:50:42,580 --> 00:50:44,150
+väga ei meeldi, siis jah.
+
+609
+00:50:44,150 --> 00:50:50,740
+Nüüd kui midagi sees on, siis ta
+pani selle ära ja nüüd saatis üles,
+
+610
+00:50:50,740 --> 00:50:53,180
+eks ole, ja nüüd on siin.
+
+611
+00:50:53,180 --> 00:50:59,930
+Kas see muudatuste tegemine on selge,
+põhimõtteliselt sa lihtsalt muudad ja
+
+612
+00:50:59,930 --> 00:51:04,040
+kogu lugu, lihtsalt see,
+mis see Giti teema on see,
+
+613
+00:51:04,040 --> 00:51:08,750
+et sa salvestad nagu selle versiooni, et sa tead, et siis selles versioonis ma tegin
+
+614
+00:51:08,750 --> 00:51:11,260
+mingit sellise ja sellise asja.
+
+615
+00:51:11,260 --> 00:51:17,520
+Ja kui tundub tulevikus,
+et seda ei ole vaja, siis
+
+616
+00:51:17,520 --> 00:51:21,410
+kustutad selle siit ära.
+
+617
+00:51:21,410 --> 00:51:25,530
+Delete, eks, ja siit paned jälle Giti add.
+
+618
+00:51:25,530 --> 00:51:31,260
+Mina panen selle punkti siia,
+et siis ta kõik muudatused võtab arvesse.
+
+619
+00:51:31,260 --> 00:51:35,790
+Ja nüüd saab niimoodi teha,
+nagu ma ennem tegin, et Giti add,
+
+620
+00:51:35,790 --> 00:51:40,800
+siis nüüd paned add'id ära, eks ole,
+siis paned Giti comik M ja remove folder,
+
+621
+00:51:40,800 --> 00:51:44,780
+on ju, ja siis lõpuks Giti push,
+et ta sinna üles läheks.
+
+622
+00:51:45,000 --> 00:51:48,970
+Aga seda kõike saad ühes jorus
+ka teha, saad teha niimoodi,
+
+623
+00:51:48,970 --> 00:51:55,150
+et Giti add'id, punkt tühik, kaks
+and märki, siia paned järgmise käsu,
+
+624
+00:51:55,150 --> 00:51:59,720
+see on nüüd, see ei ole Giti teema,
+vaid see on selle terminali teema,
+
+625
+00:51:59,720 --> 00:52:04,770
+shell'i teema. Giti commit, eks ole,
+no mul on siin juba peaaegu olemas,
+
+626
+00:52:04,770 --> 00:52:09,900
+ma kustutan lihtsalt selle osa
+ära ja panen siia siis remove,
+
+627
+00:52:09,900 --> 00:52:13,670
+Sj ja folder. selle folder'i
+nimi on mul midagi muud,
+
+628
+00:52:13,670 --> 00:52:17,090
+aga ma kujutasin ta ära, et siin
+ma jälle tean, ehk et kõik see,
+
+629
+00:52:17,090 --> 00:52:20,800
+mis ma ennem nägin üksteise järgi,
+ma panen lihtsalt siia märgusse.
+
+630
+00:52:20,800 --> 00:52:24,030
+Oluline on ja on kaks andmärki,
+see on sellepärast,
+
+631
+00:52:24,030 --> 00:52:29,010
+et võib-olla mõnes la-- lauses on, no tegelikult Pythonis ka minu arust õpite seda
+
+632
+00:52:29,010 --> 00:52:34,430
+neid, on seal mingi võrdlus teema on,
+eks ole, kus on kaks võrdlusmärki kõrvuti.
+
+633
+00:52:34,430 --> 00:52:38,350
+See on peamiselt sellepärast, et võib-olla
+on teil kuskil lausel lihtsalt nagu,
+
+634
+00:52:38,350 --> 00:52:39,740
+tähendab seal ma ei mäleta.
+
+635
+00:52:39,760 --> 00:52:45,300
+Aga siis näiteks öelda, et see, et võib
+ju olla, et muidu lihtsalt on vaja seda ja
+
+636
+00:52:45,300 --> 00:52:49,560
+märki mingis muus kontekstis, aga siin on
+kindel, et see on ja siis järgmine käsu,
+
+637
+00:52:49,560 --> 00:52:53,210
+on ju, siis jälle see ja,
+aga siis kõik võite nii teha ka.
+
+638
+00:52:53,210 --> 00:52:59,090
+Selles mõttes, et kuna point on selles,
+et kuna teil on nagunii see mälus,
+
+639
+00:52:59,090 --> 00:53:02,720
+et kui te nüüd nooltega liigute,
+et siis võib-olla on lihtsam,
+
+640
+00:53:02,720 --> 00:53:08,510
+et ma liigun selle eelmise käsu juurde
+ja vahetan siin lihtsalt selle sisu ära.
+
+641
+00:53:08,510 --> 00:53:11,610
+No võib-olla ma saan kiiremini näiteks.
+
+642
+00:53:11,630 --> 00:53:13,710
+Ma ise olen harjunud liigit
+tegema vist sellepärast.
+
+643
+00:53:13,710 --> 00:53:18,940
+No vot, et sellega on siis muutmise teema,
+et kui teil on vaja midagi muuta,
+
+644
+00:53:18,940 --> 00:53:25,500
+tõmmake või uuendage oma repo, kohalik
+repo, tehke uuendus ja lükake üles tagasi.
+
+645
+00:53:25,500 --> 00:53:32,380
+Miks mitte teha seal siis siin
+niisuguseid asju, keegi teab või,
+
+646
+00:53:32,380 --> 00:53:39,330
+et miks siin ei võiks seda, ei, ei, see
+
+647
+00:53:39,330 --> 00:53:50,770
+muutus
+
+648
+00:53:50,770 --> 00:53:54,670
+küll, ma olen värskendamata,
+miks siin mitte neid muudatusi teha,
+
+649
+00:53:54,670 --> 00:53:58,510
+näiteks kui ma tahan seda muuta.
+
+650
+00:53:58,530 --> 00:54:04,640
+ah, no kui
+
+651
+00:54:04,640 --> 00:54:10,440
+pull'id, siis puudab jah,
+aga ma ei tea ausalt öeldes,
+
+652
+00:54:10,440 --> 00:54:15,590
+miks mitte, aga põhiasi on selle
+töö, selle, siin on kaks asja,
+
+653
+00:54:15,590 --> 00:54:21,120
+ma arvan, üks on pedagoogiline pool,
+et te õpiksite kasutama Giti nii nagu ta
+
+654
+00:54:21,120 --> 00:54:25,300
+mõeldud on. Ehk et te tegelikult
+töötate Giti ka enda arvutis,
+
+655
+00:54:25,300 --> 00:54:29,120
+eks ole, ja lükkate muudatused
+sinna kesksesse süsteemi.
+
+656
+00:54:30,740 --> 00:54:37,420
+Jah, see tegelikult
+vastab mõlemale asjale.
+
+657
+00:54:37,420 --> 00:54:43,890
+Et, et see töö käib ikka nagu oma masinas,
+et see on nagu su põhiline ja see on nagu
+
+658
+00:54:43,890 --> 00:54:48,860
+see ladu või hoidla, aga see
+pedagoogiline teema oli just selles,
+
+659
+00:54:48,860 --> 00:54:51,830
+et muidu kui sa ei ole Giti
+ka varem kokku puutunud,
+
+660
+00:54:51,830 --> 00:54:55,540
+siis sa nagu noh, et see nagu on
+ju siuke ilus ja selline kasutaja,
+
+661
+00:54:55,540 --> 00:54:59,990
+graafilise kasutaja liidese pool,
+et siis nagu võib-olla hakkad siit noh,
+
+662
+00:54:59,990 --> 00:55:04,860
+tundub noh, siis sa ei õpigi nagu seda
+asja selgeks või see vist ei ole ka päris
+
+663
+00:55:04,860 --> 00:55:10,960
+veenev jutt. Aga ärge kasutage seda,
+erandjuhul, põhiasi on just see,
+
+664
+00:55:10,960 --> 00:55:15,500
+et teil võib minna me-- noh, te töötate
+oma arvutis on ju peamiselt ja siis teil
+
+665
+00:55:15,500 --> 00:55:19,360
+võib-olla läheb meelest ära
+see pullimise teema ja et,
+
+666
+00:55:19,360 --> 00:55:22,960
+et te olete seal kuskil
+mingeid muudatusi teinud ja,
+
+667
+00:55:22,960 --> 00:55:26,600
+siis võib natuke nagu tülikaks asetada.
+
+668
+00:55:26,600 --> 00:55:31,840
+Aga üldiselt jäin vastuse võrgu,
+kui leiate, siis võite anda mulle ka.
+
+669
+00:55:31,840 --> 00:55:36,280
+Nii, mis siis veel meil
+
+670
+00:55:36,280 --> 00:55:46,650
+oli,
+
+671
+00:55:46,650 --> 00:55:53,510
+üldiselt enam-vähem saime siis
+
+672
+00:55:53,510 --> 00:55:57,930
+selle kodutöötoode ühele poole.
+
+673
+00:55:59,500 --> 00:56:00,960
+Jah, veel endal mingeid küsimusi ei
+
+674
+00:56:00,960 --> 00:56:08,340
+ole,
+
+675
+00:56:08,340 --> 00:56:11,710
+kui ei julge küsida, siis kirjutage.
+
+676
+00:56:11,710 --> 00:56:18,090
+Te võite kohe praegu
+
+677
+00:56:18,090 --> 00:56:24,860
+katsetada, te võite seda, no
+
+678
+00:56:24,860 --> 00:56:29,950
+põhimõtteliselt sisuliselt te
+võite kohe seda kõike teha,
+
+679
+00:56:29,950 --> 00:56:33,870
+aga oluline on see, et ja see,
+see versioonihalduse mõte ongi,
+
+680
+00:56:33,870 --> 00:56:38,880
+et te saate hiljem, kui te midagi valesti
+teete, siis te lähete ajaloos tagasi.
+
+681
+00:56:38,880 --> 00:56:43,900
+Et nüüd üks asi, eks ole,
+on see, kus mu hiir
+
+682
+00:56:43,900 --> 00:56:48,410
+on, terminalis toimetamine
+
+683
+00:56:48,410 --> 00:56:54,410
+ja teine asi on nüüd
+selle Giti ka nagu mingi
+
+684
+00:56:54,410 --> 00:57:00,700
+graafiliselt natuke toimetada,
+et teil on Visual Studio
+
+685
+00:57:00,700 --> 00:57:06,730
+Code'is on olemas ju ka selline
+asi nagu see source control.
+
+686
+00:57:07,090 --> 00:57:10,760
+Ma võtan ka lahti siis selle
+
+687
+00:57:10,760 --> 00:57:14,600
+asja.
+
+688
+00:57:14,600 --> 00:57:23,430
+Enamus
+
+689
+00:57:23,430 --> 00:57:30,290
+need nendest IDE-dest,
+mida me kirjutame, on kõik, kas
+
+690
+00:57:30,290 --> 00:57:36,070
+selle Visual Studio koodi
+baasil või siis samasugused.
+
+691
+00:57:36,070 --> 00:57:40,050
+Et kuskil külje peal on see,
+siia tekib see failide explorer,
+
+692
+00:57:40,050 --> 00:57:43,480
+siin on tööriistad, igasugused
+need extension'id ja asjad.
+
+693
+00:57:43,480 --> 00:57:48,700
+Siia alla saab terminali tõmmata, et
+laias laastus selles siin on ju samamoodi,
+
+694
+00:57:48,700 --> 00:57:51,170
+siin on lihtsalt vähem neid.
+
+695
+00:57:51,200 --> 00:57:57,780
+Aa, no siin on natuke teistmoodi jah,
+okei, see GIT paneel on olemas.
+
+696
+00:57:57,780 --> 00:58:03,370
+Siin on see history, eks ole, ja siin
+on ta, ma võtan mingi faili lahti ka,
+
+697
+00:58:03,370 --> 00:58:09,480
+et siis näeb seda
+
+698
+00:58:09,480 --> 00:58:16,930
+näiteks
+
+699
+00:58:16,930 --> 00:58:23,560
+sellesama ehk et see on ju, et siis
+siin te näete seda ajalugu ja teil on
+
+700
+00:58:23,560 --> 00:58:30,420
+võimalik liikuda ka siin selle ajaloo siis
+
+701
+00:58:30,420 --> 00:58:33,920
+sisse või kuidas seda öeldakse siis jah.
+
+702
+00:58:34,290 --> 00:58:40,870
+Või siis kuidas meil käis,
+me saame siit taastada, vist oli siin
+
+703
+00:58:40,870 --> 00:58:47,680
+või siis mitte, ma mäletagi
+seda, no jah, seda peab
+
+704
+00:58:47,680 --> 00:58:52,280
+vaatama. Aga ühesõnaga see ajalugu
+on siin, et see mõte on siis see,
+
+705
+00:58:52,280 --> 00:58:56,940
+et kui teil on vaja midagi taastada, siis
+liigute selle vastava commit'i juurde,
+
+706
+00:58:56,940 --> 00:59:00,670
+et siit te leiate selle ülesse, et sellepärast ongi see mõistlik see nimetamine või
+
+707
+00:59:00,670 --> 00:59:04,890
+noh, mitte mõistlik, vaid nagu suht kohustuslik, et panna commit'itele arusaadavalt
+
+708
+00:59:04,890 --> 00:59:09,600
+pealkirja. Et te leiaksite need ülesse,
+et seal tehti see muudatus ja järelikult
+
+709
+00:59:09,600 --> 00:59:13,050
+seal või noh, et näiteks seal on viga,
+et siis leiate sealtpoolt ülesse.
+
+710
+00:59:13,050 --> 00:59:18,640
+Ja teie võiksite seda kohe
+noh siis pidevalt proovida,
+
+711
+00:59:18,640 --> 00:59:25,610
+on ju, et noh siin ütleme, et kui ma
+lähen siia, ma võtaks seda terminali ka
+
+712
+00:59:25,610 --> 00:59:30,060
+lahti ja ma muutsin natuke seda,
+ma pean siit selle terminali võtma,
+
+713
+00:59:30,060 --> 00:59:37,030
+no terminal. Mul on mingi plugin,
+ma ei mäleta enam seda pluginit,
+
+714
+00:59:37,030 --> 00:59:40,080
+mis näitab ära, kus ma asun,
+et neid võite ise otsida,
+
+715
+00:59:40,080 --> 00:59:41,920
+neid terminali plugin'eid.
+
+716
+00:59:41,920 --> 00:59:46,680
+Aga kui, kui siis ei tea,
+et vaadake üle, kus te asute,
+
+717
+00:59:46,680 --> 00:59:51,290
+et kindlalt sama koht oleks
+siis Git pull, et oleks värske,
+
+718
+00:59:51,290 --> 00:59:55,670
+nüüd võite neid muudatusi teha,
+selle nime võite ära vaadata,
+
+719
+00:59:55,670 --> 00:59:58,720
+muuta, panete selle sobiva.
+
+720
+00:59:58,720 --> 01:00:04,390
+Või te panete see Git või noh see Gitead,
+eks ole, siis commit'i nimi sobib ja siis
+
+721
+01:00:04,390 --> 01:00:09,820
+push'ite ülesse, et siis siis teil
+ongi juba seal õiges kohas õige nimega.
+
+722
+01:00:09,820 --> 01:00:14,570
+Võite järjekorda muuta, ühesõnaga ta
+salvestab selle seisu ja mis te muudet--
+
+723
+01:00:14,570 --> 01:00:16,560
+muutsite ja saadab ta ülesse.
+
+724
+01:00:16,560 --> 01:00:19,870
+Kas veel midagi
+
+725
+01:00:19,870 --> 01:00:33,890
+harudega,
+
+726
+01:00:33,890 --> 01:00:37,730
+mis, et millal või kus või miks või?
+
+727
+01:00:37,730 --> 01:00:43,040
+No näiteks harude puhul ongi
+ehk siis branch'id on ju,
+
+728
+01:00:43,040 --> 01:00:48,240
+et üks põhiline näide oli teie
+kodutöö, teil oli pea harus,
+
+729
+01:00:48,240 --> 01:00:54,630
+oli siis esialgne seis ja nüüd te
+tegite kodutöö ja selle te tegite eraldi
+
+730
+01:00:54,630 --> 01:01:00,960
+harus, on ju. Ja selle mõte oli
+selles, et te teete kõigepealt
+
+731
+01:01:00,960 --> 01:01:07,960
+selle haru valmis, siis paariline vaatab
+üle, leiab sealt kas vead või leia
+
+732
+01:01:07,960 --> 01:01:11,740
+vead, kiidab takka, eks ole, kõik on õige.
+
+733
+01:01:11,740 --> 01:01:17,980
+Ja nüüd on see valmis nii-öelda funktsionaalsus kontrollitud ja nüüd liidate
+
+734
+01:01:17,980 --> 01:01:23,490
+peaharuga ja mõte on siis selles,
+et mitte liita, peaharu on see,
+
+735
+01:01:23,490 --> 01:01:29,570
+mis on alati töötav või valmis asi, et
+mitte poolikuid asju peaharusse ja mitte
+
+736
+01:01:29,570 --> 01:01:36,090
+heaks kiidetud asju peaharuga liita,
+siis selle jaoks toimetatakse alamharudes.
+
+737
+01:01:36,090 --> 01:01:41,300
+Ma ei tea, kui selgeks see sai,
+aga jah, et point on selles,
+
+738
+01:01:41,300 --> 01:01:44,870
+et peaharus ärge muudatusi tehke,
+sellepärast et peaharu on see,
+
+739
+01:01:44,870 --> 01:01:48,480
+mis peab toimima. Kui te seal
+hakkate proovima, siis võib juhtuda,
+
+740
+01:01:48,480 --> 01:01:51,400
+et te teete midagi katki ja
+see võib tähendada siis seda,
+
+741
+01:01:51,400 --> 01:01:54,170
+et ka sõltub, kuidas teil see
+ülejäänud töö korraldatud on,
+
+742
+01:01:54,170 --> 01:01:58,220
+et võib-olla läheb ka nagu siis
+kõigile nähtav olev rakendus katki.
+
+743
+01:01:58,240 --> 01:02:02,350
+Kui siin noh see tõmmatakse kohe
+need muudatused näiteks alla,
+
+744
+01:02:02,350 --> 01:02:06,190
+et kui on mingi korraldus selline
+tehtud, et kui peaarvus muudetakse,
+
+745
+01:02:06,190 --> 01:02:10,140
+siis see automaatselt tõmmatakse
+ka nähtaval olevale rakendusse,
+
+746
+01:02:10,140 --> 01:02:13,390
+nähtaval nähtavale rakendusele
+sisse, need muudatused,
+
+747
+01:02:13,390 --> 01:02:15,950
+siis see lihtsalt ei tööta.
+
+748
+01:02:15,970 --> 01:02:20,960
+Et, et tööd tehke vastavas harus,
+vastav tähendab siis seda,
+
+749
+01:02:20,960 --> 01:02:24,270
+et on mingi tööd, töödatakse midagi välja.
+
+750
+01:02:24,270 --> 01:02:28,110
+Kas see on siis mingi
+parandamine, et teil on teada,
+
+751
+01:02:28,110 --> 01:02:35,040
+et midagi on, vajab parandamist, see ei
+tööta, siis teete selle jaoks eraldi haru.
+
+752
+01:02:35,040 --> 01:02:40,730
+arunimeks panetegi aru nimetamiseks,
+nimetamiste teema tuleb meil ka selle.
+
+753
+01:02:40,730 --> 01:02:44,270
+Ma arvan, et samamoodi, see on
+siin kontseptide all kirjas,
+
+754
+01:02:44,270 --> 01:02:48,540
+samamoodi peaks olema,
+vaatame üle, et on konventsioonid,
+
+755
+01:02:48,540 --> 01:02:53,210
+kuidas aru nimetatakse, aga peamiselt
+on ta selle featuuri või paranduse nimi,
+
+756
+01:02:53,210 --> 01:02:59,580
+mida parasjagu tehakse, tehakse see ära, kontrollitakse ja siis liidetakse peaaruga.
+
+757
+01:02:59,580 --> 01:03:06,520
+Eelmine kord vist rääkisime
+sellest ka, ma kordan uuesti üle,
+
+758
+01:03:06,520 --> 01:03:08,920
+et kuidas see harude
+
+759
+01:03:08,920 --> 01:03:16,210
+loogika
+
+760
+01:03:16,210 --> 01:03:21,510
+käib, et meil on hea haru
+
+761
+01:03:21,510 --> 01:03:28,410
+kõik, töötab. Nüüd
+
+762
+01:03:28,410 --> 01:03:31,970
+tekib vajadus uue funktsionaalsuse
+järgi, mingi uue featuuri järgi.
+
+763
+01:03:31,970 --> 01:03:35,340
+Kui ma hakkan seda siis siin arendama,
+ma ei tea, ma veel ju ei tea,
+
+764
+01:03:35,340 --> 01:03:39,390
+eks ole, kuidas see asi mul lõppeb,
+kas ma saan sellega hakkama või,
+
+765
+01:03:39,390 --> 01:03:42,580
+kas see on üldse teostatav
+või venib või mis iganes.
+
+766
+01:03:42,600 --> 01:03:45,140
+Seega siin ei ole mõtet seda
+teha, see peab olema see,
+
+767
+01:03:45,140 --> 01:03:48,210
+mis on puhas ja valmis asi,
+eks no kui alguses teda muidugi pole,
+
+768
+01:03:48,210 --> 01:03:52,860
+eks ole, alguses te teete mingi asja ära,
+ta on suht tühi ja nüüd hakkan arendama.
+
+769
+01:03:52,860 --> 01:03:57,380
+Oletame, et mul on vaja mingi, mul on
+mingi rakendus ja sellel on vaja teha
+
+770
+01:03:57,380 --> 01:04:02,020
+kaardimakse. Nüüd ma teen siit
+kuskilt olemas, olevas kohas,
+
+771
+01:04:02,020 --> 01:04:06,490
+teen uue varu, mille nimi on siis
+kaardimakse inglise keeles ja siis hakkan
+
+772
+01:04:06,490 --> 01:04:13,240
+seda arendama. Komiteete
+kaupa, eks ole, kõigepealt
+
+773
+01:04:13,240 --> 01:04:16,240
+loon mingi ühe asja,
+mingi siis järgmise asja.
+
+774
+01:04:16,240 --> 01:04:19,740
+Võib-olla siitmaalt lisandub
+kolleeg, kes teeb mingit,
+
+775
+01:04:19,740 --> 01:04:24,970
+sellega mingit alam asja, eks ole, et
+seda võib, neid alusid võib teha rohkem.
+
+776
+01:04:24,970 --> 01:04:28,580
+Nii, siin toimub muu tööga
+asi edasi, need on komiteed,
+
+777
+01:04:28,580 --> 01:04:32,340
+et sain selle asja valmis,
+teen järgmise asja valmis,
+
+778
+01:04:32,340 --> 01:04:36,200
+tulevad veel seal piletitest
+näiteks, eks ole, et see,
+
+779
+01:04:36,130 --> 01:04:40,520
+ja nii edasi. Ja tema saab
+selle asjaga valmis, viidame,
+
+780
+01:04:40,520 --> 01:04:45,870
+siin viidetakse see haru,
+energia käsitlusega, testitakse,
+
+781
+01:04:45,870 --> 01:04:47,430
+kõik töötab, on ju.
+
+782
+01:04:47,430 --> 01:04:52,910
+Ja nüüd tundub, et see on valmis, selle jaoks on siis test serveris testitakse ära,
+
+783
+01:04:52,910 --> 01:04:57,340
+et ta kõik näeb välja nii nagu
+peab, noh alguses oma masinas.
+
+784
+01:04:57,370 --> 01:05:01,500
+Ma lülitan oma rakenduse selle
+haru peale ja siis, siis ta näitab,
+
+785
+01:05:01,500 --> 01:05:03,090
+et kuidas see haru töötab.
+
+786
+01:05:03,090 --> 01:05:07,540
+Nüüd järgmiseks ma lükkan selle
+haru sinna testserverisse,
+
+787
+01:05:07,540 --> 01:05:10,790
+toimetatakse seal ka ära,
+vaadatakse, et töötab, eks,
+
+788
+01:05:10,790 --> 01:05:14,960
+kõik on korras. Nüüd ma liidan
+selle siia, kontrollin oma masinas,
+
+789
+01:05:14,960 --> 01:05:19,450
+kõik töötab ja nüüd ma lükkan selle, kogu
+selle muudatuse live serverisse ja seal ka
+
+790
+01:05:19,450 --> 01:05:21,070
+kõik töötab ja kõik on hästi.
+
+791
+01:05:21,070 --> 01:05:23,680
+See on nagu harude point.
+
+792
+01:05:23,680 --> 01:05:30,670
+nüüd anda maini aru ja selle ma võin
+kustutada, nii nagu teie võite nüüd
+
+793
+01:05:30,670 --> 01:05:33,650
+teha oma selle eelmise kodude aru.
+
+794
+01:05:33,650 --> 01:05:37,440
+Vaadake, et te siis seda pea aru
+ei kustuta, aga kui kustutate,
+
+795
+01:05:37,440 --> 01:05:42,560
+saate tänu versiooni haldusele tagasi midagi, et ka midagi väga hirmsat ei juhtu.
+
+796
+01:05:42,560 --> 01:05:47,010
+See on ka selle versiooni halduse mõte.
+
+797
+01:05:47,010 --> 01:05:51,220
+Ja nüüd see ajalugu jääb kõik
+alles, et te saate ka vaadata,
+
+798
+01:05:51,220 --> 01:05:54,930
+et see ajalugu liidetakse nagu
+selles mõttes selle unustasin.
+
+799
+01:05:54,950 --> 01:05:57,580
+No seda saab erinevalt teha,
+tahab nii, et ei liideta,
+
+800
+01:05:57,580 --> 01:06:00,880
+aga, aga vaikimisi liidetakse see
+ajalugu, mis muudatused tehti,
+
+801
+01:06:00,880 --> 01:06:04,300
+liidetakse ka siia peaarusse,
+nii et ma näen, mis, kus meil on tehti,
+
+802
+01:06:04,300 --> 01:06:07,160
+eks ole, saab minna tagasi,
+kuskil siin tekkis mingi viga,
+
+803
+01:06:07,160 --> 01:06:10,490
+teen siit uue aru ja
+hakkan seda viga parandama.
+
+804
+01:06:10,490 --> 01:06:17,300
+Panen ka ära, liidan siia,
+läheb välja, eks ole, umbes
+
+805
+01:06:17,300 --> 01:06:23,270
+nii. Ja enne
+
+806
+01:06:23,270 --> 01:06:29,410
+viieteistminutilist pausi,
+meil on veel aega, natuke
+
+807
+01:06:29,410 --> 01:06:35,820
+rohkem. Ma korra veel avan
+selle eelmise seminari
+
+808
+01:06:35,820 --> 01:06:39,620
+jälle, kuhu me
+
+809
+01:06:39,620 --> 01:07:08,090
+jõudsime.
+
+810
+01:07:08,090 --> 01:07:14,490
+Eelmine kord me siis rääkisime,
+eks ole, tarkvaraarenduse
+
+811
+01:07:14,490 --> 01:07:20,660
+protsessist ja elutsüklist,
+kus meil on mõningi parem
+
+812
+01:07:20,660 --> 01:07:27,140
+ka seesama
+
+813
+01:07:27,140 --> 01:07:33,990
+pilt. Et me hüppame nendest, me läbi
+selle kursuse käime enam-vähem need
+
+814
+01:07:33,990 --> 01:07:37,410
+põhipunktid läbi, aga me ei
+tee kõike väga põhjalikult,
+
+815
+01:07:37,410 --> 01:07:41,030
+me ei jõua seda lihtsalt ja me
+ei tee osasid asju sellepärast,
+
+816
+01:07:41,030 --> 01:07:43,970
+et nende kohtadel tulevad eraldi kurbused.
+
+817
+01:07:43,970 --> 01:07:49,960
+Et me ei tee väga põhjalikult või noh,
+ühesõnaga praktiliselt üldse ei tegele
+
+818
+01:07:49,960 --> 01:07:53,760
+kasutaja uuringuga,
+persoonade loomisega ja nii edasi.
+
+819
+01:07:53,780 --> 01:07:58,020
+Et mis on nagu üks oluline,
+olulisem osa tarkvaraarendusest,
+
+820
+01:07:58,020 --> 01:08:04,210
+et, et iga tarkvaraarendus tehakse
+kellegi probleemi lahendamiseks,
+
+821
+01:08:04,210 --> 01:08:08,480
+eks ole, see on kõige olulisem,
+seega üks suurem töö on see,
+
+822
+01:08:08,480 --> 01:08:14,110
+et üldse teada saada, mis see probleem
+on ja mis on selle kasutaja vajadused,
+
+823
+01:08:14,110 --> 01:08:18,970
+eks. Et aga selle jaoks on
+teil eraldi aine, et lihtsalt,
+
+824
+01:08:18,970 --> 01:08:22,960
+et, et jätke see meelde, et me
+seda siin vähe põgusalt puudutame,
+
+825
+01:08:22,960 --> 01:08:26,300
+siis see osa on nagu üks
+olulisemaid tegelikult.
+
+826
+01:08:26,300 --> 01:08:31,370
+Et ehk siis mitte koodi kirjutamine niivõrd, kuivõrd just tark või selle kasutaja
+
+827
+01:08:31,370 --> 01:08:36,160
+mõistmine. See tihtilugu nagu
+kipub võib-olla osadel tarkvara
+
+828
+01:08:36,160 --> 01:08:42,180
+arendajatel kuidagi nagu meelest ära
+minema, et tarkvara ennast lihtsalt
+
+829
+01:08:42,180 --> 01:08:47,790
+niisama ei ole vaja, et ta peab ikkagi
+lahendama konkreetselt kellegi probleemi,
+
+830
+01:08:47,790 --> 01:08:51,970
+järelikult see keegi on meil
+seal kõigil kesk-- keskel.
+
+831
+01:08:51,970 --> 01:08:55,610
+Aga jah, et need disainid ja
+samamoodi disain, eks ole,
+
+832
+01:08:55,610 --> 01:08:58,960
+siis kuidas see asi ehitatud
+on või kuidas ta toimib,
+
+833
+01:08:58,960 --> 01:09:03,020
+et disain siis ei ole see mitte
+kunstinäitusel vaatamas käite,
+
+834
+01:09:03,020 --> 01:09:09,150
+vaid disain on siiski, ongi probleemide
+lahendamise distsipliin nii-öelda.
+
+835
+01:09:09,150 --> 01:09:14,650
+Sõltuvalt siis disaini valdkonnast,
+mis valikud seal mängu tulevad,
+
+836
+01:09:14,650 --> 01:09:18,040
+aga esteetika on nagu tegelikult
+inimestele väga oluline,
+
+837
+01:09:18,040 --> 01:09:22,620
+seetõttu on ka see osa talle külge jäänud
+justkui nagu selline praegult kõige
+
+838
+01:09:22,620 --> 01:09:26,670
+olulisem. Aga tavaliselt
+kõige olulisem ei ole.
+
+839
+01:09:26,670 --> 01:09:29,990
+Ja siis nii edasi,
+implementeerimised ja testimised ja,
+
+840
+01:09:29,990 --> 01:09:33,920
+ja töösse laskmised, et,
+et nendest räägime kõigest põgusalt.
+
+841
+01:09:33,920 --> 01:09:38,770
+Aga täna lähme edasi siis
+selle probleemi osaga.
+
+842
+01:09:38,770 --> 01:09:45,570
+Me oleme jõudnud siis
+sellises kohta, et me
+
+843
+01:09:45,570 --> 01:09:48,730
+hakkame seda probleemi uurima.
+
+844
+01:09:49,040 --> 01:09:55,890
+Ja te saate järgmiseks kodutööks
+siis või tähendab kogu selle kursuse
+
+845
+01:09:55,890 --> 01:10:01,290
+keskseks tööks. Algselt oli plaan,
+et igaüks mõtleb ise probleemi välja,
+
+846
+01:10:01,290 --> 01:10:07,850
+aga ma tegin natuke ümber, et, et
+Haapsalu kolledži soovib oma tunniplaani.
+
+847
+01:10:07,850 --> 01:10:12,300
+Näe, siin on kirjavega ka,
+ka peab olema väikse taga.
+
+848
+01:10:12,320 --> 01:10:15,970
+Veebileht muutub kaasaegsemaks,
+see on kliendi soov,
+
+849
+01:10:15,970 --> 01:10:22,050
+et te peate seda mõtlema nüüd,
+kuidas seda lahendada.
+
+850
+01:10:22,050 --> 01:10:28,540
+Te ise olete kasutajad,
+eks ole, aga siinjuures ei maksa
+
+851
+01:10:28,540 --> 01:10:34,810
+unustada seda, et te olete vaid,
+igaüks teist on vaid üks kasutaja,
+
+852
+01:10:34,810 --> 01:10:37,310
+eks ole, et tegelikkuses.
+
+853
+01:10:37,310 --> 01:10:42,010
+See, mis teile tundub, ei tarvitse nagu
+ainus ja õige ja kõige rohkem kinga
+
+854
+01:10:42,010 --> 01:10:47,430
+pigistada, aga üleüldse, eks ole, noh, see
+on selline mõnes mõttes selline tüüpiline
+
+855
+01:10:47,430 --> 01:10:53,780
+ülilühike kliendi briik, ehk see,
+et kuidas klient kirjeldab oma probleemi,
+
+856
+01:10:53,780 --> 01:10:58,090
+siis, siis tegelikult see nagu
+praktiliselt ei ütle midagi,
+
+857
+01:10:58,090 --> 01:11:02,570
+on ju, selles suhtes, et,
+et mis see tähendab kaasaegsemaks,
+
+858
+01:11:02,570 --> 01:11:05,940
+et kas te võtate mingisuguse
+moeajakirja ja vaadate vaatama,
+
+859
+01:11:05,940 --> 01:11:09,790
+mis on moes, eks. Või on siin,
+mis see probleem üldse on,
+
+860
+01:11:09,790 --> 01:11:12,610
+siin ei tule see tegelikult
+välja, eks ole, et seda,
+
+861
+01:11:12,610 --> 01:11:16,840
+see on nagu teie kui tarkvara arendaja
+ülesanne, et hakata kõigepealt selgitada
+
+862
+01:11:16,840 --> 01:11:19,510
+välja, et milles see
+tegelikult probleem on.
+
+863
+01:11:19,510 --> 01:11:23,460
+Et kas, mis see ka, mis,
+tal, mis ta tahab tegelikult,
+
+864
+01:11:23,460 --> 01:11:26,690
+eks ole, et, et see,
+see tuleb teil välja uurida.
+
+865
+01:11:26,690 --> 01:11:32,790
+Selles kursusel me teeme seda küll hästi põgusalt, aga me mängime mõneti selle läbi,
+
+866
+01:11:32,790 --> 01:11:37,980
+et, te näeksite, et kust üldse
+need asjad nagu pihta hakkavad.
+
+867
+01:11:38,140 --> 01:11:43,380
+Ja seminarid meil olid siis, esimene oli
+lihtsalt, vaatasime neid töövahendeid ja
+
+868
+01:11:43,380 --> 01:11:46,370
+suurt pilti üldse, et mis
+see tarkvara arendamine on,
+
+869
+01:11:46,370 --> 01:11:50,340
+et siis praegu me vaatame siis
+kliendi soovist arendusülesandeni,
+
+870
+01:11:50,340 --> 01:11:54,160
+ehk et klient soovib, aga me peame
+leidma, klient soovib midagi,
+
+871
+01:11:54,160 --> 01:11:58,590
+eks ole, aga me peame leidma, et mis see
+tema probleem on või mis on tema kasutaja
+
+872
+01:11:58,590 --> 01:12:05,310
+probleem. Siis laias laastus
+sellega me teeme selle asja ära.
+
+873
+01:12:05,310 --> 01:12:10,390
+Teie ülesanne on kogu aeg
+dokumenteerida ja, ja me noh,
+
+874
+01:12:10,390 --> 01:12:17,390
+me nagu mängime seda Giti projekti siin,
+Giti allatavat projekti siin kursusel siis
+
+875
+01:12:17,390 --> 01:12:22,460
+läbi. Ja siin veel ka see nagu
+
+876
+01:12:22,460 --> 01:12:29,310
+kõik kordab natuke üksteist, et aga ühesõnaga selles elutsüklis me praegu oleme
+
+877
+01:12:29,310 --> 01:12:33,660
+siis selle probleemi ja
+kasutajavajaduste kaardistamise juures.
+
+878
+01:12:33,660 --> 01:12:36,960
+Sealt kasvavad välja nõuded,
+kavandamised, teostus,
+
+879
+01:12:36,960 --> 01:12:39,770
+kontroll, kasutajad selle vett ja
+
+880
+01:12:39,770 --> 01:12:45,310
+hoonris. Et mis
+
+881
+01:12:45,310 --> 01:12:49,150
+asja, et agiilne,
+
+882
+01:12:49,150 --> 01:12:54,750
+mida? Oskad sa öelda, miks?
+
+883
+01:12:54,750 --> 01:12:56,610
+Hea küsimus.
+
+884
+01:12:56,610 --> 01:13:13,120
+Et
+
+885
+01:13:13,120 --> 01:13:16,820
+kas ta peaks kirjaviisi mõtled või?
+
+886
+01:13:16,820 --> 01:13:23,730
+Ei, eesti keeles on agiilne, selles mõttes
+
+887
+01:13:23,730 --> 01:13:30,490
+on kõik okei. Ja see on see, see on
+
+888
+01:13:30,490 --> 01:13:37,200
+hea, see tähelepanek ja muide,
+kes näeb viga, vead on konkreetsed
+
+889
+01:13:37,200 --> 01:13:43,710
+asjad, see nüüd on niisugune
+asi, aga ettepanek, kursuse
+
+890
+01:13:43,710 --> 01:13:50,090
+lõpus ehk et eksamil tuleb kasuks see,
+kui te olete teinud ettepanekuid
+
+891
+01:13:50,090 --> 01:13:54,050
+kursuse materjalide muutmiseks.
+
+892
+01:13:54,150 --> 01:13:59,780
+Ja see tähendabki, et kas kirjavead või
+või noh, näiteks parandamine või siis
+
+893
+01:13:59,780 --> 01:14:03,580
+üleüldse, et seesama,
+et kui on siin juba waterfall,
+
+894
+01:14:03,580 --> 01:14:08,320
+et kas me ei peaks kasutama siin Kose
+mudelit, mis nagu eesti keeles on ju,
+
+895
+01:14:08,320 --> 01:14:13,510
+et siis te saate pluss punkt eksamil, kui
+te siukseid asju panete tähele ja teete
+
+896
+01:14:13,510 --> 01:14:18,040
+kas tõmbetaotluse sinna kursuse
+repose või kommenteerite kuidagi,
+
+897
+01:14:18,040 --> 01:14:20,930
+et, et see on ainult hea.
+
+898
+01:14:20,990 --> 01:14:24,160
+Nii et aga selles suhtes,
+et suulist osa ma ei arvesta.
+
+899
+01:14:24,160 --> 01:14:27,650
+No tähendab arvestan küll, et kui te
+võtate selle loengu või seminaridest osa
+
+900
+01:14:27,610 --> 01:14:31,580
+aktiivselt, et loomulikult te jääte
+meelde, saate parema hinde tänu sellele,
+
+901
+01:14:31,580 --> 01:14:32,840
+see on paratamatu.
+
+902
+01:14:32,840 --> 01:14:38,160
+Aga kui teist jääb jälg maha, et te olete
+teinud selle kursuse reposse ettepaneku
+
+903
+01:14:38,160 --> 01:14:42,110
+muuta mingit asja,
+et see tuleb teile kasuks.
+
+904
+01:14:42,110 --> 01:14:47,450
+Nii et, et kui sa arvad, et siin
+peaks seda, see, mis sa praegu tegid,
+
+905
+01:14:47,450 --> 01:14:51,220
+et tee see kirjalikult sinna
+ära ja see, see on hea.
+
+906
+01:14:51,340 --> 01:14:57,480
+Aga jah, ma ei tea isegi, et jah, kuidagi
+on niimoodi see waterfall'i öeldakse
+
+907
+01:14:57,480 --> 01:14:58,680
+praktikas, eks ole.
+
+908
+01:14:58,680 --> 01:15:03,890
+Waterfall noh, kasutatakse ka osa mudelit
+ka, aga, aga õppematerjalides jah,
+
+909
+01:15:03,890 --> 01:15:08,410
+võib-olla tõesti oleks korrektne
+nagu panna siia see osa mudel.
+
+910
+01:15:08,410 --> 01:15:12,320
+Aga noh, see on kuidagi niimoodi,
+et öeldakse agiilne on ju,
+
+911
+01:15:12,320 --> 01:15:17,580
+mitte agile. Noh, ilmselt öeldakse
+seda ka, aga nagu see agiilse,
+
+912
+01:15:17,580 --> 01:15:20,510
+agiilne on nagu siuke
+Eestistunud juba siuke väljend,
+
+913
+01:15:20,510 --> 01:15:22,340
+aga waterfall mitte.
+
+914
+01:15:22,820 --> 01:15:29,570
+Nii, sellest me rääkisime
+eelmine tund, sellest me ei
+
+915
+01:15:29,530 --> 01:15:36,060
+peatu, et aga siin
+õppematerjalis, mis lähevad
+
+916
+01:15:36,060 --> 01:15:42,810
+ülesse, ma võin nad kohe praegu
+üles panna, on nad ka niimoodi sees.
+
+917
+01:15:42,870 --> 01:15:49,760
+Et siin ma nagu ise olen
+nagu suhteliselt vastu
+
+918
+01:15:49,760 --> 01:15:56,700
+olnud selle eelnõu jutuga,
+et seda kulu seda materjali
+
+919
+01:15:56,700 --> 01:16:03,570
+ma teen küll niimoodi, et ma teen mingi
+suure hunniku ära ja siis saadan alles
+
+920
+01:16:03,570 --> 01:16:07,650
+ülesse. Paneme siis,
+
+921
+01:16:07,650 --> 01:16:13,270
+paneme nii, see on
+
+922
+01:16:13,180 --> 01:16:20,030
+vähemalt natukenegi läheb
+selle jutuga, mis ma
+
+923
+01:16:20,030 --> 01:16:27,020
+räägin kokku. Nii ja nüüd on
+
+924
+01:16:27,020 --> 01:16:33,440
+teil siin ka
+
+925
+01:16:33,440 --> 01:16:40,410
+värskem materjal teise
+seminari all, ehk et
+
+926
+01:16:40,410 --> 01:16:46,330
+need põhiosa on siis
+siin slaid, slaid, eks.
+
+927
+01:16:46,330 --> 01:16:52,670
+Ja ja siit on siis lingid
+nendele peatükkidele, aga neid
+
+928
+01:16:52,670 --> 01:16:56,640
+peatükki võite muidugi ka
+eraldi lugeda, kui tahate.
+
+929
+01:16:56,640 --> 01:17:02,680
+Nii, andame siis edasi,
+et see on siis seesama
+
+930
+01:17:02,680 --> 01:17:09,650
+materjal ja võib-olla
+
+931
+01:17:09,650 --> 01:17:13,980
+siis nii palju, et veel jah
+kiirelt üle, et see noh,
+
+932
+01:17:13,980 --> 01:17:20,030
+sealt me rääkisime ka,
+et ühesõnaga see töömeetodi valik,
+
+933
+01:17:20,030 --> 01:17:24,200
+on ju, et see on see, seda ei
+maksa nagu üle tähtsustada,
+
+934
+01:17:24,200 --> 01:17:29,890
+et oluline on, et võimalikult väikse
+kuluga saada see rakendus valmis,
+
+935
+01:17:29,890 --> 01:17:35,420
+eks ole. Ja siis teie valik on lihtsalt
+ise, et milline see töömeetod sobib.
+
+936
+01:17:35,420 --> 01:17:38,410
+Lihtsalt kliendiga on ju mõistlik, eks.
+
+937
+01:17:38,410 --> 01:17:42,430
+Tema kliendile ei pea, kuigi täna
+noh kliendid on üsna teadlikud,
+
+938
+01:17:42,430 --> 01:17:46,650
+eks ole, et aga tema poole
+puhul ei pea nagu arutama seda,
+
+939
+01:17:46,650 --> 01:17:50,170
+et kas me teeme agiilselt
+või Kose meetodile, eks ole.
+
+940
+01:17:50,270 --> 01:17:53,460
+Oluline on lihtsalt küsida, et kas me
+teeme näiteks noh mingi jupi valmis,
+
+941
+01:17:53,460 --> 01:17:56,980
+siis hakkame seda täiendama või teeme
+kohe müraki nagu selle mingi asja valmis,
+
+942
+01:17:56,980 --> 01:17:58,940
+mis on siis Kose meetod.
+
+943
+01:17:58,940 --> 01:18:05,760
+Me hakkasime nüüd kasutama eestikeelset,
+aga see, et see oleks nagu oluline.
+
+944
+01:18:05,760 --> 01:18:12,360
+Nii, siis järgmine siuksem klots,
+mida lahkame, mis on nagu uus osa on,
+
+945
+01:18:12,360 --> 01:18:17,470
+võib, kas me natuke rolle eelmine
+kord puudutasime ka või vist mitte,
+
+946
+01:18:17,470 --> 01:18:20,620
+no siis on õige, et uus osa.
+
+947
+01:18:20,640 --> 01:18:27,230
+Et tarkvaraarenduses on rollid, mida,
+et meil on tiim ja tiimi kuuluvad erinevad
+
+948
+01:18:27,230 --> 01:18:31,690
+inimesed, kes täidavad
+erinevaid ülesandeid.
+
+949
+01:18:31,690 --> 01:18:36,930
+Jälle selline teema, mis tänu
+A-i tulekule on hägustunud,
+
+950
+01:18:36,930 --> 01:18:39,800
+päris tugevalt kohe.
+
+951
+01:18:39,800 --> 01:18:46,510
+Aga teisest küljest jälle on, meil on
+siin niisugune hea eriala või tähendab
+
+952
+01:18:46,510 --> 01:18:51,210
+see kursus või noh,
+ühesõnaga see ikka eriala jah.
+
+953
+01:18:51,250 --> 01:18:55,190
+Et te seate seda kõike, et selles suhtes
+on hea, et ei ole spetsialiseerunud
+
+954
+01:18:55,190 --> 01:18:59,440
+koheselt mingile ühele asjale ja sellest
+ma vist küll eelmine kord rääkisin,
+
+955
+01:18:59,440 --> 01:19:03,640
+et kes on teist rohkem disaini kaldudusega, tema peab hakkama rohkem koodiga
+
+956
+01:19:03,640 --> 01:19:08,410
+tegelema, aga täiesti mõistlikul määral,
+et sellepärast et AI aitab teid.
+
+957
+01:19:08,430 --> 01:19:12,900
+Ja vastupidi, kes on rohkem
+nagu selle rogeja huviga,
+
+958
+01:19:12,900 --> 01:19:18,330
+et tema peab hakkama disaini paremini mõistma, et need asjad selles mõttes piirid on
+
+959
+01:19:18,330 --> 01:19:23,310
+hägustunud ja samamoodi peab projektijuht
+rohkem aru saama asjadest kui võib-olla
+
+960
+01:19:23,310 --> 01:19:26,320
+varem ainult oma projektijuhtimisest.
+
+961
+01:19:26,340 --> 01:19:31,440
+Aga samamoodi disainer ja koodikirjutaja
+peavad rohkem nagu projektijuhtimisest aru
+
+962
+01:19:31,440 --> 01:19:36,850
+saama. Lihtsalt selles suhtes, et neid ei
+võeta enam puhtalt mingi väga kindla kitsa
+
+963
+01:19:36,850 --> 01:19:38,770
+piirilise ülesande jaoks tööle.
+
+964
+01:19:38,770 --> 01:19:43,410
+Selle jaoks ei ole kellelgi raha enam
+tänapäeval, vaid et te peate nagu rohkem
+
+965
+01:19:43,410 --> 01:19:45,590
+rohkem asjadest aru saama.
+
+966
+01:19:45,600 --> 01:19:48,420
+Aga see ei ole keeruline.
+
+967
+01:19:48,420 --> 01:19:54,350
+Aga me käime ikkagi siukse vana
+meetodi läbi, et millest koosneb,
+
+968
+01:19:54,350 --> 01:19:58,880
+millest, millest koosneb üks tiim.
+
+969
+01:19:58,880 --> 01:20:03,930
+Et neid kõiki asju ei ole
+alati igal pool ka praegu,
+
+970
+01:20:03,930 --> 01:20:09,250
+eks ole, aga, noh, jah, käime läbi.
+
+971
+01:20:09,250 --> 01:20:15,620
+Et siin on nimekiri, selline,
+neid asju on siin veel,
+
+972
+01:20:15,620 --> 01:20:22,110
+aga ühesõnaga rollid, mida on vaja
+täita, et üks tarkvararakendus teha.
+
+973
+01:20:22,110 --> 01:20:26,710
+Eriti kui on suurem asi, suurem projekt
+on ja need rollid jäävad nagunii,
+
+974
+01:20:26,710 --> 01:20:30,440
+isegi kui AI ära teeb, lihtsalt ongi,
+et sama rolli võib mitu inimene,
+
+975
+01:20:30,440 --> 01:20:35,010
+mitu inimest teha ja suure osa rollidest
+võib, võibki lasta AI-l ära täita.
+
+976
+01:20:35,010 --> 01:20:39,650
+Aga siin on nagu sellised asjad,
+et tellija või äriline omanik,
+
+977
+01:20:39,650 --> 01:20:43,000
+see on selle, see ei ole nagu,
+jah, see on tellija ikkagi jah,
+
+978
+01:20:43,000 --> 01:20:45,790
+et see on klient, on ju, see on arusaadav.
+
+979
+01:20:45,820 --> 01:20:49,780
+Et ühesõnaga keegi, keegi tahab midagi,
+kellelegi te selle asja müüte,
+
+980
+01:20:49,780 --> 01:20:53,320
+siis on tootejuht ja tooteomanik,
+mis ma ennem tahtsin sassi ajada,
+
+981
+01:20:53,320 --> 01:20:57,820
+on siis keegi on mitte tellija poolel,
+vaid siis nagu teostaja poolel see,
+
+982
+01:20:57,820 --> 01:21:00,640
+kes vastutab või noh, kes võtab
+nagu enda kanda selle osa,
+
+983
+01:21:00,640 --> 01:21:03,410
+et mida tellija tahab,
+kes kontrollib üle ja vaatab,
+
+984
+01:21:03,410 --> 01:21:05,600
+et mida üldse telliti, eks.
+
+985
+01:21:05,600 --> 01:21:09,930
+Siis on projektijuht, projektijuht,
+ma arvan, kõik teavad ise,
+
+986
+01:21:09,930 --> 01:21:15,050
+kes see on, kes jälgib tähtaegu ja räägib
+kliendiga ja mitte ta üksinda muidugi ei
+
+987
+01:21:15,050 --> 01:21:20,000
+räägi, aga põhiline, kes noh, kes nagu vastutab, aga kes kõige rohkem nagu seda pead
+
+988
+01:21:20,000 --> 01:21:21,980
+saab erinevate asjade järgi.
+
+989
+01:21:21,980 --> 01:21:26,570
+Siis on äri ja süsteemi
+analüütik, noh analüüsib seda,
+
+990
+01:21:26,570 --> 01:21:30,530
+et mis on üldse selle,
+selle noh süsteemi nagu noh,
+
+991
+01:21:30,530 --> 01:21:37,010
+kes paneb kokku selle süsteemi,
+kuidas see süsteem peab
+
+992
+01:21:37,010 --> 01:21:43,710
+toimima. disainer on nad üks ja
+
+993
+01:21:43,710 --> 01:21:49,530
+sama. Ja siit on puudu
+tegelikult veel UI disainer,
+
+994
+01:21:49,530 --> 01:21:54,440
+kes ka nagu tegelikult tihtilugu
+need asjad langevad kokku,
+
+995
+01:21:54,440 --> 01:22:00,060
+kes nii-öelda teab, kuidas, mida
+kasutajad tahavad või siis uurib välja,
+
+996
+01:22:00,060 --> 01:22:02,830
+mida kasutajad tahavad.
+
+997
+01:22:02,850 --> 01:22:06,040
+Ja lõpuks läbi UI disaini
+siis ka kujundab selle osa,
+
+998
+01:22:06,040 --> 01:22:12,290
+kuidas see, mida kasutajad tahavad,
+välja näeb või kuidas seda saab kasutada.
+
+999
+01:22:12,290 --> 01:22:16,800
+See koosneb siis
+kasutajateekondadest ehk ühesõnaga,
+
+1000
+01:22:16,800 --> 01:22:21,890
+et kuidas jõuab kasutaja asja ostu,
+ütleme, et kui on veebipood,
+
+1001
+01:22:21,890 --> 01:22:25,730
+eks ole, et kuidas kasutaja
+saab mingi asja osta.
+
+1002
+01:22:25,730 --> 01:22:29,500
+Kuidas ta läheb poodi, kuidas ta selle
+leiab, kuidas ta võtab riiulilt kauba,
+
+1003
+01:22:29,500 --> 01:22:33,530
+paneb korvi, kuidas ta maksab,
+et kõik selle teekonna lahendab tema ära.
+
+1004
+01:22:33,530 --> 01:22:39,610
+Tarkvara arhitekt, eks ole, kes kavandab
+suured osad süsteemist ja tarkvara
+
+1005
+01:22:39,610 --> 01:22:43,430
+arendaja, kes siis noh,
+kas hindab või ka teostab, eks ole,
+
+1006
+01:22:43,430 --> 01:22:47,740
+siis need tehniliselt selle
+tarkvara arhitekti poolt loodud.
+
+1007
+01:22:47,740 --> 01:22:53,600
+Testija, et ükski arendus,
+korralik arendus ei võiks minna töösse,
+
+1008
+01:22:53,600 --> 01:22:58,440
+enne kui seda ei ole testitud,
+ehk et ei tohiks juhtuda sellist asja,
+
+1009
+01:22:58,440 --> 01:23:00,770
+et kasutaja hakkab testima.
+
+1010
+01:23:00,770 --> 01:23:04,730
+Kasutaja test on teine asi kui see,
+kui kasutajad, kuidas seda öelda,
+
+1011
+01:23:04,730 --> 01:23:09,580
+kasutaja test on see, kui spetsiaalselt võetakse sihtgrupi esindaja ja lastakse tal
+
+1012
+01:23:09,580 --> 01:23:12,860
+siis enne laivi minekut,
+eks ole, proovida asja.
+
+1013
+01:23:12,860 --> 01:23:18,430
+Aga kui see juhtub niimoodi, et te
+lasete asja laivi ja siis päris kasutaja,
+
+1014
+01:23:18,430 --> 01:23:21,970
+eks ole, hakkab siis oma nahal
+kogema, kui halb see asi on,
+
+1015
+01:23:21,970 --> 01:23:24,930
+et siis, siis see ei ole
+ärile väga hea, on ju.
+
+1016
+01:23:24,930 --> 01:23:31,910
+Et selle jaoks testitakse ja kuidas noh,
+käita selle eest vastutaja või hoopis
+
+1017
+01:23:31,910 --> 01:23:34,390
+peaks olema lihtsalt.
+
+1018
+01:23:34,390 --> 01:23:38,620
+Kuidas see kogu see asi siis tööle
+jääb, kuidas see asi tööle läheb,
+
+1019
+01:23:38,620 --> 01:23:42,940
+kuidas seda asja hooldatakse,
+noh, et kuidas ta püsib.
+
+1020
+01:23:42,960 --> 01:23:47,110
+Et kõik sellised erinevad indiaanlaste
+nimedega tegelased on seotud tarbe
+
+1021
+01:23:47,110 --> 01:23:52,370
+arendajatega. Aga see on jube kallis,
+mõtle, siin on võib-olla siin noh,
+
+1022
+01:23:52,370 --> 01:23:57,850
+kümme, viisteist või noh, suuremate
+projektide puhul rohkemgi inimesi,
+
+1023
+01:23:57,850 --> 01:24:00,530
+see on ropp raha, mis läheb, eks ole.
+
+1024
+01:24:00,530 --> 01:24:06,140
+Et siis, mida väiksemaks seda
+asja ajada saaks, seda parem.
+
+1025
+01:24:06,140 --> 01:24:10,560
+Ja nüüd on siis nagu natuke
+teine suund, et ütleme,
+
+1026
+01:24:10,560 --> 01:24:14,890
+et AI teeb suure osa
+sellest osast ära AI-ga.
+
+1027
+01:24:14,890 --> 01:24:17,980
+No mis siin teha saab, eks?
+
+1028
+01:24:18,790 --> 01:24:25,580
+saab testida, AI saab mingi oma
+selle teadmiste baasil UX-i või noh,
+
+1029
+01:24:25,580 --> 01:24:30,150
+selle kasutuskogemuse luua, on ju.
+
+1030
+01:24:30,150 --> 01:24:36,530
+Ta saab, me nagunii disaini
+teeme suurelt jaolt sellist nagu
+
+1031
+01:24:36,530 --> 01:24:42,130
+üheksakümmend üheksa protsenti
+teised saidid välja näevad,
+
+1032
+01:24:42,130 --> 01:24:45,950
+isegi siin saab, eks ole,
+kõik asjad ära teha.
+
+1033
+01:24:45,950 --> 01:24:52,000
+Äri ja süsteemi analüütik samuti, eks ole,
+on tohutud andmebaasid ja teadmised selle
+
+1034
+01:24:52,000 --> 01:24:54,490
+kohta, kuidas mingid asjad toimivad.
+
+1035
+01:24:54,490 --> 01:24:59,910
+Tarkvara arhitekt täpselt, et noh,
+tarkvara on ju hästi standard,
+
+1036
+01:24:59,910 --> 01:25:03,710
+standardiseeritud asi, hästi piiratud,
+noh, ta on suhteliselt piiratud,
+
+1037
+01:25:03,710 --> 01:25:06,990
+see on võib-olla kõige
+lihtsam asendada üldse A-iga.
+
+1038
+01:25:07,010 --> 01:25:13,700
+Et ei ole, et kui ennem pidi tarkvara,
+tarkvara arhitekt pidi kirjutama pikad
+
+1039
+01:25:13,700 --> 01:25:20,160
+eeposed arendajate jaoks, et kuidas,
+mis detailidest asjad koosnevad,
+
+1040
+01:25:20,160 --> 01:25:23,240
+eks ole, mis tehnoloogiat me kasutame.
+
+1041
+01:25:23,240 --> 01:25:27,050
+Siis praegu AI teeb selle ära,
+selles mõttes ta ei pea kellelegi,
+
+1042
+01:25:27,050 --> 01:25:29,630
+ta ei pea iseendale kirjeldama,
+kuidas midagi teha,
+
+1043
+01:25:29,630 --> 01:25:32,810
+ta lihtsalt teeb kohe selle
+kõik valmis, teeb seda kiiresti,
+
+1044
+01:25:32,810 --> 01:25:37,240
+kui see ei sobi, siis, siis ta
+teeb uuesti, et see on odav.
+
+1045
+01:25:37,700 --> 01:25:44,320
+testi, testid teeb AI täpselt
+ära, et, et jah, siin on
+
+1046
+01:25:44,320 --> 01:25:51,280
+nüüd sellised, sellised teemad,
+et kes siis siin ja mismoodi
+
+1047
+01:25:51,280 --> 01:25:55,870
+püsima jääb. Aga sellelegi
+vaatamata, meil siin endiselt on,
+
+1048
+01:25:55,870 --> 01:25:59,870
+tööd peaks olema, et keegi
+siiski suudab siit või noh,
+
+1049
+01:25:59,870 --> 01:26:06,170
+peab, peab ikkagi mingisuguseid
+otsuseid vastu võtma ja hindama,
+
+1050
+01:26:06,170 --> 01:26:10,060
+kas AI teeb hästi või halvasti
+või kas see see, mis ta pakub,
+
+1051
+01:26:10,060 --> 01:26:13,280
+on see, mis meil siiski vaja on, eks ole.
+
+1052
+01:26:13,380 --> 01:26:16,980
+Et võib-olla te pakute
+sama ka kõikidele teistele.
+
+1053
+01:26:16,980 --> 01:26:23,200
+Et võib-olla siin ei toimu
+meile vajalikku eristumist.
+
+1054
+01:26:23,200 --> 01:26:27,050
+Vot, aga, aga teie siis kuigivõrd
+mängite neid läbi lihtsalt,
+
+1055
+01:26:27,050 --> 01:26:30,400
+et siis aru saada,
+et mis, mis miski asi on.
+
+1056
+01:26:30,400 --> 01:26:37,360
+Nii, teeme väikse pausi vist praegu on
+
+1057
+01:26:37,360 --> 01:26:43,930
+õige aeg on ju. Või on küsimusi
+
+1058
+01:26:43,930 --> 01:26:49,360
+enne? Ei ole. No vaatame siis
+kell neli, kohtume taas on
+
+1059
+01:26:49,360 --> 01:26:56,410
+ju.
+
+1060
+01:26:56,880 --> 01:27:02,010
+Ma
+
+1061
+01:27:02,010 --> 01:27:07,100
+lasin kõik
+
+1062
+01:27:07,100 --> 01:27:13,900
+kokku, seda ei
+
+1063
+01:27:13,900 --> 01:27:19,170
+ole maininud
+
+1064
+01:27:19,170 --> 01:27:25,970
+või? No aga sa saad
+
+1065
+01:27:25,970 --> 01:27:32,810
+ju korra. Jah, niisugune, et paneme
+sellel pull request on ju olemas,
+
+1066
+01:27:32,810 --> 01:27:39,530
+paned siit selle. Nii ja sa
+võid panna ka siit, võtame
+
+1067
+01:27:39,530 --> 01:27:46,290
+ta lahti. Nii, see on
+korras ja nüüd teised
+
+1068
+01:27:46,290 --> 01:27:50,000
+kõik ei ole, see on nagu meelde.
+
+1069
+01:27:50,000 --> 01:27:56,210
+Siin tal, siin. Aga võta see
+uuesti, sa võid teha siit.
+
+1070
+01:27:56,290 --> 01:28:01,080
+Võta siin jälle, sa võid näiteks
+uuesti teha selle lahti või noh,
+
+1071
+01:28:01,080 --> 01:28:06,950
+selle, kus see on see või sa
+võid ta uuesti teha, siis uue,
+
+1072
+01:28:06,950 --> 01:28:12,960
+uue selle tõmbetaotlusega
+saad aru või siis, aga noh,
+
+1073
+01:28:12,960 --> 01:28:15,810
+ma vaatan ikkagi siin.
+
+1074
+01:28:15,810 --> 01:28:18,170
+Kas sa teed üle, te vaatate?
+
+1075
+01:28:18,170 --> 01:28:24,130
+Ma selle esimesega ei ole vist väga
+hullu, ma nagu lasin kõigil kokku,
+
+1076
+01:28:24,130 --> 01:28:29,050
+et ja siis rääkisin siin nagu selle
+asjad ära, kui sa need tegid nüüd korda.
+
+1077
+01:28:29,210 --> 01:28:35,980
+Jah, kus ma näen seda,
+et ma saaks uuesti lahti
+
+1078
+01:28:35,980 --> 01:28:41,160
+teha. Ma saan vist tööd teha,
+vaatame, kuidas see nimi oli.
+
+1079
+01:28:41,160 --> 01:28:43,850
+Kui sa leiad selle, pane uuesti töö lahti.
+
+1080
+01:28:43,850 --> 01:28:46,770
+Kas sa tahad rääkida midagi nii?
+
+1081
+01:28:46,770 --> 01:28:48,570
+Oota, sul on vaja see lahti saada või?
+
+1082
+01:28:48,570 --> 01:28:51,440
+Ja on pand kinni, siis nad hakkavad võtma.
+
+1083
+01:28:51,440 --> 01:28:56,000
+Ma mäletan, on kuidagi Muidu
+on see, et kui sa ise paned,
+
+1084
+01:28:56,000 --> 01:28:59,020
+aga praegu on minu arust see, et mina
+panin, siis võib-olla on selles hoopis
+
+1085
+01:28:59,020 --> 01:29:00,600
+probleem, ma vaatan kohe üle.
+
+1086
+01:29:07,840 --> 01:29:12,090
+Jah, oota, ma võtan
+siit siis üldsegi kohe.
+
+1087
+01:29:12,090 --> 01:29:18,350
+Siit commit'i tahate, ei peaks saama sõna
+
+1088
+01:29:18,350 --> 01:29:25,230
+tagasi või? Muidu ma võin öelda,
+et see koht, kus on need
+
+1089
+01:29:25,230 --> 01:29:29,620
+kodutööd, seal tuleb see error ette,
+et ei saa neid palga lahti.
+
+1090
+01:29:29,620 --> 01:29:33,500
+Ja see on sellepärast, see on
+nüüd ja see tuleb sellepärast,
+
+1091
+01:29:33,500 --> 01:29:37,250
+et ta ei asu selles repos on ju, et ma
+pean selle, kui sa lähed nüüd kodutöösse
+
+1092
+01:29:37,250 --> 01:29:39,110
+repos, siis sealt tulevad lahti.
+
+1093
+01:29:39,130 --> 01:29:42,280
+Jah, jah, ma ei ole viitsinud,
+sest siis ma peaks igaühe,
+
+1094
+01:29:42,280 --> 01:29:47,510
+iga kord seal. Aa, oota,
+aga siis võib-olla on ikkagi teine.
+
+1095
+01:29:47,510 --> 01:29:48,830
+See oli sinna või?
+
+1096
+01:29:48,830 --> 01:30:10,490
+Aga
+
+1097
+01:30:10,490 --> 01:30:15,210
+üldse mul kuidagi ei jõudnud seda.
+
+1098
+01:30:15,210 --> 01:30:20,670
+Ja ja ei, siin on näha,
+aga äkki ei jõudnud.
+
+1099
+01:30:20,670 --> 01:30:24,640
+Okei, ma võtan teisest.
+
+1100
+01:30:25,970 --> 01:30:29,850
+Jah, küll. võib See on nüüd,
+see on nüüd natuke teistmoodi,
+
+1101
+01:30:29,850 --> 01:30:34,100
+et ühesõnaga, kui sa sinna ümber tõstad
+oma asjad, siis on kõik okei ja siis võib
+
+1102
+01:30:34,100 --> 01:30:37,210
+mind kohe panna selleks
+ülevaatajaks ja kogu lugu.
