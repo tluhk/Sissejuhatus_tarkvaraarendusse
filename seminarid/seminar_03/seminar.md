@@ -1,7 +1,9 @@
 # Seminar 3: meeskond, tööviis ja süsteemi põhimõte
 
 <!-- loengud:videod (automaatne, ära muuda käsitsi) -->
-> 🎥 **Salvestus:** [YouTube](https://youtu.be/Q9L00yUmicM) · [transkriptsioon](salvestus/transkriptsioon.md)
+> 📘 **[Konspekt: mida seminaris räägiti](salvestus/konspekt.md)**  
+> 🎥 **Salvestus:** [1. osa](https://youtu.be/Q9L00yUmicM) · [2. osa](https://youtu.be/4NkG0hIlTbU)  
+> 📝 **Tekst:** [1. osa](salvestus/transkriptsioon.md) · [2. osa](salvestus/transkriptsioon-2.md)
 <!-- /loengud:videod -->
 
 Meeskonna ühine GitHubi töövoog on kirjas [projekti töökorralduse juhendis](../../docs/projekti-tookorraldus.md).
