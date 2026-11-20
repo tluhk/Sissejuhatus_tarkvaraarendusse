@@ -7,7 +7,7 @@ duration: "1:35:31"
 recorded: "2026-11-05T14:16+02:00"
 source_file: "SJTA 3-20261105_141613-Koosoleku salvestamine.mp4"
 asr: "TalTech whisper-large-v3-turbo-et-verbatim (whisper.cpp)"
-generated: "2026-11-19T22:39+02:00"
+generated: "2026-11-20T09:04+02:00"
 ---
 # Sissejuhatus tarkvaraarendusse – Seminar 3: meeskond, tööviis ja süsteemi põhimõte (05.11.2026)
 
