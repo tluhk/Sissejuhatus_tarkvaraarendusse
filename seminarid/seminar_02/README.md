@@ -2,7 +2,8 @@
 
 <!-- loengud:videod (automaatne, ära muuda käsitsi) -->
 > 📘 **[Konspekt: mida seminaris räägiti](salvestus/konspekt.md)**  
-> 🎥 **Salvestus:** [YouTube](https://youtu.be/bVmUyLJuX6I) · [transkriptsioon](salvestus/transkriptsioon.md)
+> 🎥 **Salvestus:** [1. osa](https://youtu.be/bVmUyLJuX6I) · [2. osa](https://youtu.be/K8tL1OkOjDA)  
+> 📝 **Tekst:** [1. osa](salvestus/transkriptsioon.md) · [2. osa](salvestus/transkriptsioon-2.md)
 <!-- /loengud:videod -->
 
 Alusta [slaididest](slides.md) või ava [HTML-esitlus](slides.html). Slaidid annavad seminari järjekorra ja põhisõnumid. Iga teema juures olev link viib põhjalikuma selgituse või tööjuhendini.

@@ -1,293 +1,265 @@
-<!-- loengud:konspekt osad=1 (automaatne; kui muudad käsitsi, kustuta see rida – siis tööriist seda üle ei kirjuta) -->
+<!-- loengud:konspekt osad=1,2 (automaatne; kui muudad käsitsi, kustuta see rida – siis tööriist seda üle ei kirjuta) -->
 # Konspekt: Seminar 2: kliendisoovist arendusülesandeni
 
 > Automaatne kokkuvõte seminari salvestusest (kõnetuvastus + keelemudel). Võib sisaldada ebatäpsusi – täpse sõnastuse leiad transkriptsioonist.
 
-Seminari teema oli liikumine kliendi soovist konkreetse arendusülesandeni. Salvestatud osast suurem osa kulus aga esimese kodutöö tagasisidele ning Giti ja GitHubi töövoo kordamisele: nimetamine, commit'id, harud ja tõmbetaotlused. Seda tehti näidete ja otse ekraanil tehtud demoga. Seejärel jõudis õppejõud tarkvaraarenduse elutsüklini ja tutvustas kursuse keskset ülesannet, milleks on Haapsalu kolledži tunniplaani veebilehe uuendamine. Lõpuks käis ta läbi tarkvaratiimi rollid. Salvestus lõpeb pausiga. Plaanis olnud probleemikandidaatide harjutus ja tiimi töövoog jäid salvestusest välja.
+Seminari eesmärk oli jõuda ebamäärasest kliendisoovist konkreetsete, jälgitavate arendusülesanneteni ning panna tiimid tööle kursuse keskse projekti kallal. Plaanis olid slaidid, probleemikandidaatide harjutus ja tiimi töövoog. Tegelikult kulus seminari esimesest poolest suurem osa esimese kodutöö tagasisidele ja Giti töövoo kordamisele. Uue teemana jõuti tarkvaraarenduse meetodite, rollide ja kliendi probleemi mõistmiseni. Teises pooles moodustati tiimid, loodi repod ja Kanbani tahvlid ning alustati probleemikandidaatide ülesandega. Release'i ja epic'ute teema jäi põgusaks.
 
-## Esimese kodutöö tagasiside [▶ 0:04](https://youtu.be/bVmUyLJuX6I?t=4)
+## Kodutöö tagasiside ja nimetamise kokkulepped [▶ 1. osa 0:04](https://youtu.be/bVmUyLJuX6I?t=4)
 
-Kõik olid suutnud pull request'i ehk **tõmbetaotluse** ära teha. Õppejõu sõnul on see esimese korra kohta hea tulemus. Töö Giti ja GitHubiga (või mõne muu eemal asuva Giti halduriga) erineb tavapärasest arvutikasutusest, nii et küsimused on loomulikud. Tagasiside sai kirjutatud kiiruga. Kui keegi leiab, et kommentaar on vale ja asi oli tegelikult olemas, tasub sellest julgelt teada anda.
+Esimese kodutöö pull request'i suutsid ära teha kõik, mida õppejõud pidas esimese korra kohta heaks tulemuseks. Õppejõud möönis, et kirjutas tagasisidet kiirustades. Kui keegi leiab, et kommentaar oli asjatu ja nõutud asi oli tegelikult olemas, tasub sellest julgelt teada anda.
 
-## Nimetamine täpselt nii, nagu on kokku lepitud [▶ 1:13](https://youtu.be/bVmUyLJuX6I?t=73)
+Kõige olulisem tähelepanek puudutas **nimetamist**. Faili- ja kaustanimed peavad olema täpselt sellised, nagu ülesandes kokku lepitud. `kodutoo01`, `kodutoo_01` ja `kodutoo-01` on kolm eri nime, samuti on oluline suur- ja väiketäht. Praegu ei pruugi viga suuri tagajärgi tuua, kuid hiljem võib see saada määravaks. Näiteks Reactis on nimetamise konventsioonid kohustuslikud ja vale nimega komponendi korral võib rakenduse ehitamine ebaõnnestuda.
 
-Failide, kaustade ja muu nimed tuleb panna täpselt nii, nagu ülesandes kirjas. Praegu ei pruugi sellel suurt vahet olla, kuid hiljem võib vale nimi asja katki teha.
+Üldreeglid:
+- **ära kasuta täpitähti ega tühikuid**. Veebis asendatakse tühik kujul `%20` ja mitme tühikuga nimi muutub loetamatuks;
+- **ära korda repo nime kaustana**. Kui ülesandes on tee kujul `repo-nimi/kaust/fail`, tähistab esimene osa repot ennast ja repo sisse ei ole vaja teha samanimelist kausta. Mitmel üliõpilasel oli selline lisakaust tekkinud ja see tuleb ära parandada.
 
-- **Ära kasuta täpitähti ega tühikuid.** Tühik on samuti märk. Näiteks veebiaadressis kodeeritakse see kujule `%20`, ja kui tühikuid on mitu, muutub nimi loetamatuks.
-- **Kokkulepped on mõnes keskkonnas kohustuslikud.** Järgmisel aastal tuleb tõenäoliselt React, kus nimetamise konventsioonid on ette antud. Vale nime korral ei pruugi rakendus üldse kokku ehituda.
-- **Iga märk loeb.** `kodutoo01`, `kodutoo_01` ja `kodutoo-01` on kolm eri nime. Ka suur- ja väiketähel on vahe.
+Kokkulepped aitavad teha koodi loetavamaks ja selgemaks. Mõnes keeles on need paika pannud juba keele loojad.
 
-Üks levinud viga oli **repo nime kordamine kausta nimes**. Kui ülesandes on tee kujul `repo-nimi/kaust/fail`, tähistab esimene osa repot ennast. Repo sisse ei ole vaja teha veel üht samanimelist kausta. Kaldkriipsudega tee tähendab, et üks asi asub teise sees.
+## Markdowni koodiplokid peavad olema suletud [▶ 1. osa 7:02](https://youtu.be/bVmUyLJuX6I?t=422)
 
-Visual Studio Code'is on mugav kirjutada uue faili loomisel kogu tee, näiteks `kaust/alamkaust/fail.md`. Editor loob vajalikud kaustad siis ise.
+Paaristöödes tuli ette Markdowni viga. **Koodiplokk** algab kolme tagurpidi ülakomaga (*backtick*) ja peab samamoodi ka lõppema. Kui sulgevad märgid puuduvad, vormindatakse kogu ülejäänud dokument koodina. Avavate märkide järele võib kirjutada keele nime, näiteks `css` või `html`, ja siis oskab redaktor või GitHub koodi süntaksi järgi värvida.
 
-## Markdown: koodiplokk tuleb ka sulgeda [▶ 5:46](https://youtu.be/bVmUyLJuX6I?t=346)
+Kui GitHubis ei paista dokument korralikult vormindatuna, vaid kogu tekst näeb ühesugune välja, on tõenäoliselt kuskil koodiplokk alanud, aga lõppemata jäänud. Sama põhimõte kehtib üldiselt: mis algab, peab ka lõppema. Seda tuntakse juba Pythonist.
 
-Paaristöödes tuli välja üks Markdowni viga. **Koodiplokk** algab kolme tagurpidi ülakomaga (backtick'iga, `` ``` ``) ja peab samamoodi ka lõppema. Kui lõpumärk puudub, muutub kogu ülejäänud dokument koodiks.
+## Reflektsioon kodutöös [▶ 1. osa 9:23](https://youtu.be/bVmUyLJuX6I?t=563)
 
-Avamärgi järele kirjutatakse tavaliselt keel, näiteks `css`, `html` või `text`. Siis oskab redaktor või GitHub koodi süntaksi järgi värvida. Kui GitHubis kuvatakse kogu fail ühtlase, vormindamata tekstina, on suure tõenäosusega kuskil koodiplokk algamas, aga mitte lõppemas.
+Mitu tööd olid põhjalikult kommenteeritud ja neist oli näha, et materjal on läbi töötatud. Esimesed kodutööd on lihtsad, seega kaalub **reflektsioon** seal palju: mida sa tegid ja mida teada said. Näiteks tarkvaraarenduse meetodite videote puhul ei piisa linkidest. Kirja tuleb panna, mida videost teada saadi.
 
-Sama põhimõte kehtib igal pool programmeerimises: kõik, mis algab, peab ka lõppema.
+## Tarkvaraarenduse meetodid ja nende mõte [▶ 1. osa 11:54](https://youtu.be/bVmUyLJuX6I?t=714)
 
-## Reflektsioon kodutöös [▶ 9:23](https://youtu.be/bVmUyLJuX6I?t=563)
+Kursus ei keskendu edaspidi meetoditele, kuid märksõnad **kosemudel** (*waterfall*), **agiilne arendus**, **Scrum** ja **Kanban** peavad olema tuttavad. Kui need tundusid uued, tasub need kodus järele vaadata. Kolme aasta pärast tööle minnes ei tohiks juhtuda, et keegi nimetab mõnda neist ja sa ei tea, millest jutt käib.
 
-Mitu tööd olid põhjalikult kommenteeritud ja reflektsioonist oli näha, et materjal oli läbi töötatud. Esimesed kodutööd on lihtsad ja just seepärast on **reflektsioon** neis oluline: mõtle läbi, mida tegid ja mida teada said.
+Õppejõud rõhutas, et päriselus järgitakse meetodeid täpselt peamiselt väga suurtes ja start-up'ilikes ettevõtetes. Sageli on need segamini. Meetodi järgimine ei ole aga eesmärk omaette. **Tarkvaraarenduse eesmärk on lahendada kellegi probleem** ja tarkvara on üks võimalik lahendus. Mõnikord teenib arendaja kliendi huve kõige paremini sellega, et soovitab tal tarkvara üldse mitte teha. Lühiajaliselt võib see tähendada raha kaotust, kuid rahulolev klient tuleb tagasi. Arendajal on vaja raha ja see tuleb kliendilt, seega peab kliendil olema hea meel seda maksta. Õppejõu sõnul peavad arendajad nägema maailma üha laiemalt, sest koodi kirjutamine on üha väiksem osa nende tööst.
 
-Tarkvaraarenduse meetodite videote kohta lisasid osa üliõpilasi ainult lingid. Õppejõud ootas kirjeldust, mida videotest teada saadi.
+### Kosemudel ja agiilne arendus [▶ 1. osa 15:46](https://youtu.be/bVmUyLJuX6I?t=946)
 
-## Tarkvaraarenduse meetodid ja nende mõte [▶ 11:54](https://youtu.be/bVmUyLJuX6I?t=714)
+Kosemudelis lepitakse alguses kokku, mida tehakse, ning ehitatakse kõik valmis. Tulemus selgub alles lõpus, kui vajadused võivad olla juba muutunud. See muudab arenduse kalliks. Vastukaaluna tekkisid agiilsed meetodid. Tarkvaraarendajal tasub läbi lugeda **agiilse tarkvaraarenduse manifest** (*Agile Manifesto*).
 
-Need märksõnad peab tarkvaraarendaja teadma: **kosemudel** (waterfall), **agiilne arendus**, **Scrum** ja **Kanban**. Kui need tundusid uued, tasub kodus järele vaadata. Tööle minnes ei tohiks juhtuda, et keegi nimetab mõnda neist ja sa ei tea, millest jutt käib.
+Üliõpilased nimetasid agiilse lähenemise eelistena suhtlust ja paindlikkust. Õppejõud lisas **MVP** (*minimum viable product*) mõtte. Kõigepealt tehakse valmis minimaalne töötav tükk ja seejärel ehitatakse sellele juurde. Algusest peale on olemas midagi, mis töötab, vead tulevad kohe välja ja palju raha ei ole veel kulunud.
 
-Suurtes ettevõtetes ja idufirmades järgitakse meetodeid sageli täpselt, näiteks Scrum oma rollide ja kindla raamistikuga. Päriselus on meetodid aga tihti segamini. Oluline on meeles pidada, et **eesmärk ei ole meetodi järgimine**. Tarkvaraarenduse eesmärk on lahendada kellegi probleem, ja tarkvara on selleks ainult üks võimalik vahend.
+### Kus agiilne sobib ja kus mitte [▶ 1. osa 17:59](https://youtu.be/bVmUyLJuX6I?t=1079)
 
-Õppejõud lisas, et vahel teenid kliendi huve kõige paremini, kui soovitad tal tarkvara üldse mitte arendada ja teha hoopis midagi muud. Lühiajaliselt võid nii rahast ilma jääda. Kui aga lahendad kliendi probleemi ausalt, tuleb ta järgmise asjaga tõenäoliselt tagasi. Raha on vaja, aga see tuleb kliendilt ja klient peaks seda andma meelsasti. Õppejõu sõnul peab tänane arendaja nägema maailma laiemalt kui veel paar aastat tagasi, sest koodi kirjutamine on üha väiksem osa tema tööst.
+Õppejõud palus arutleda, kuhu agiilne lähenemine ei sobi, ja märkis, et ühte õiget vastust ei ole. Tema näide oli riigi e-teenus, kus taotletakse näiteks reisidokumenti. Selline teenus peab kohe arusaadavalt töötama. Poolik ja „ligadi-logadi“ mulje kahjustab usaldust ja mainet ning võib meelitada ligi pahatahtlikke, kes hakkavad otsima teisi pooleli jäänud kohti.
 
-### Kosemudel ja agiilne arendus [▶ 15:46](https://youtu.be/bVmUyLJuX6I?t=946)
+Start-up seevastu peab investorile kiiresti näitama, et idee toimib. Tal pole raha ehitada esmalt suurt valmislahendust ja siis avastada, et investor ei taha selle eest maksta. Kumbki lähenemine ei ole vale, tuleb mõelda, mis kuhu sobib.
 
-**Kosemudeli** puhul lepitakse alguses kokku, mida tehakse, ja tehakse kõik lõpuni valmis. Alles siis näeb, mis välja tuli. Selleks ajaks võib kõik juba muutunud olla, nii et see on kallis lähenemine.
+### AI muudab koodi kirjutamise odavaks [▶ 1. osa 20:22](https://youtu.be/bVmUyLJuX6I?t=1222)
 
-Vastukaaluks tekkis **agiilne tarkvaraarendus**. Õppejõud soovitas lugeda **agiilse tarkvaraarenduse manifesti** (otsingusõna „agile manifesto“). Sealt selgub, miks see suund tekkis.
+Agiilsed meetodid tekkisid suuresti seetõttu, et koodi kirjutamine oli kallis ja pidi kiiresti selguma, kas ideel on mõtet. Nüüd on **koodi kirjutamine odav**, kuigi tarkvaraarendus tervikuna ei ole. Ühe prompt'iga saab kiiresti teha kosemudeli moodi tervikliku lahenduse. Kui see kliendile ei sobi, saab kohe teha uue.
 
-Õppejõud küsis, miks on agiilne arendus parem. Üliõpilased pakkusid suhtlust ja paindlikkust, ühe vastusena tuli ka **MVP** (minimum viable product). Õppejõud selgitas seda lähemalt: kõigepealt tehakse minimaalne töötav jupp ja sinna ehitatakse järk-järgult juurde. Töötav osa on olemas algusest peale, vead tulevad kohe välja ja selleks pole palju kulutatud.
+Seepärast ei saa enam öelda, et agiilne on lihtsalt moodsam. Sobiv lähenemine tuleb leida koos kliendiga. Tänapäeval saab ka poole pealt hobuseid vahetada: osa tehakse agiilselt valmis ja ülejäänu genereeritakse ühe korraga. Otsus tehakse tiimina ja **klient on osa tiimist**.
 
-### Kus agiilne arendus ei sobi [▶ 17:59](https://youtu.be/bVmUyLJuX6I?t=1079)
+## Ülesanded, piletid ja issue'd [▶ 1. osa 21:37](https://youtu.be/bVmUyLJuX6I?t=1297)
 
-Õppejõud rõhutas, et sellele küsimusele pole üht õiget vastust. Näitena tõi ta riigi pakutava teenuse, näiteks reisidokumendi taotlemise. Selline keskkond peab kohe arusaadavalt töötama. Kui see jätab poolikuna mulje:
+Üks üliõpilane oli varem kasutanud Jirat. Õppejõud selgitas, et Jira on Atlassiani toode. Samasse perre kuuluvad ka Confluence ja Bitbucket. Eri süsteemides nimetatakse ühte tööülesannet erinevalt: GitHubis **issue**, Jiras **ticket** ehk **pilet**. Põhimõte on sama. Ülesanne peab olema võimalikult kompaktne, sellel on vastutaja ja tähtaeg ning seda saab jagada alamülesanneteks.
 
-- kaob kasutajate usaldus,
-- pahatahtlikud inimesed võivad oletada, et ka muu pole päris valmis, ja hakkavad turvaauke otsima,
-- kannatab asutuse maine.
+Kodutöö oli samamoodi üles ehitatud: issue tähtajaga, üliõpilane vastutajana, kaaslane ülevaatajana. Valmis töö haru liidetakse peaharuga. Mõnel oli tehtud mitu pull request'i. Õppejõud palus edaspidi ühega hakkama saada, siis on vähem sodi.
 
-Idufirma jaoks on agiilne lähenemine seevastu loomulik. Investorile tuleb näidata, et asi töötab. Raha ei jätku, et ehitada kõigepealt suur süsteem ja kuulda alles siis, et investor selle eest maksta ei taha. Kumbki lähenemine pole vale, vaid tuleb valida olukorra järgi.
+## Giti põhitöövoog ja commit'id [▶ 1. osa 24:59](https://youtu.be/bVmUyLJuX6I?t=1499)
 
-### Tehisintellekt muudab kaalutlusi [▶ 20:22](https://youtu.be/bVmUyLJuX6I?t=1222)
+Faili salvestamine ei tähenda veel midagi versioonihalduse mõttes. Töövoog on järgmine:
 
-Agiilsed meetodid tekkisid osaliselt seetõttu, et **koodi kirjutamine** oli kallis ja taheti varakult teada saada, kas asjal üldse mõtet on. Tehisintellekti tõttu on koodi kirjutamine nüüd odav. Tarkvaraarendus tervikuna odavaks ei muutunud, odavaks muutus koodi kirjutamine.
+1. `git add`. Punkt lisab kõik muudatused, failinimi ainult selle faili. Failinime tasub kasutada siis, kui kõike ei taha versioonihaldusse panna. Väikestes projektides kasutab ka õppejõud punkti.
+2. `git commit -m "..."` salvestab muudatuse koos **commit'i sõnumiga**, mis ütleb lühidalt ja arusaadavalt, mida tehti. Pikema muudatuse puhul võib pealkirjale lisada kirjelduse.
+3. `git push` lükkab muudatused kohalikust masinast kaugrepoks. Kui kaugrepot pole, pole ka push'i vaja.
 
-Ühe prompt'iga saab kosemudeli moodi terve töötava lahenduse. Kui see kliendile ei sobi, saab poole minuti pärast uue. Seega ei saa ka öelda, et agiilne arendus oleks automaatselt moodsam. Lähenemist saab ka poole pealt vahetada: teha osa agiilselt ja ülejäänu korraga valmis. Õige tee leitakse töö käigus koos tiimiga, ja klient on samuti tiimi osa.
+**Commit peaks olema üks kompaktne loogiline muudatus**, üks terviklik alamfunktsionaalsus, mitte üksik näpuliigutus ega hunnik sõltumatuid asju. Kui midagi läheb katki, saab sellise commit'i juurde tagasi minna ja mõjutatakse ainult seda funktsionaalsust. Õppejõud ütles, et järgmise semestri ainetes hindab ta tööd ka commit'ide arvu järgi. See näitab, et iga loogilise sammu jaoks on tehtud eraldi commit ja et tudeng on töösse süvenenud. Õppejõu sõnul peaks ka päris arendus täpselt nii käima.
 
-Hiljem lisas õppejõud, et meetodi valikut ei maksa üle tähtsustada. Kliendiga pole vaja arutada, kas tehakse agiilselt või kosemudeli järgi. Piisab küsimusest, kas teha kõigepealt üks jupp ja seda täiendada või teha kogu asi korraga valmis.
+Sõnum ei tohi olla suvaline, näiteks „uuendasin seisu“. Sõnumis võib viidata ka issue'le, näiteks märkida, et commit sulgeb konkreetse issue. Nii on hiljem lihtsam leida koht, kuhu vea parandamiseks tagasi minna.
 
-## Issue'd, piletid ja projektihaldus [▶ 21:37](https://youtu.be/bVmUyLJuX6I?t=1297)
+### Git ja GitHub ei ole sama asi [▶ 1. osa 31:52](https://youtu.be/bVmUyLJuX6I?t=1912)
 
-Üks üliõpilane mainis, et on varem kasutanud Jirat ja GitHubi issue'd olid talle uued. Õppejõud selgitas, et **Atlassian** teeb projektihaldustarkvara: Jira, Confluence, Bitbucket jm. GitHubis nimetatakse üht tööülesannet **issue'ks**, Jiras ja paljudes teistes süsteemides **piletiks** (ticket).
+Üliõpilased küsisid, mis vahe on Gitil ja GitHubil. **Git** on versioonihaldussüsteem, mis võib asuda kus tahes: sinu arvutis või serveris. **GitHub** on üks teenus, kus Giti repot hoitakse kaugelt ligipääsetavas kohas ja millel on lisafunktsioone. Git on alus ja GitHub üks keskkond selle kasutamiseks. Kuna Git ja GitHub on kolm aastat õppetöö tugisammas, tasub need hästi selgeks saada. Kui midagi jääb segaseks, küsi otse, kirjuta või küsi kaaslastelt.
 
-Põhimõte on igal pool sama:
+### Ligipääs ülevaatajale [▶ 1. osa 33:10](https://youtu.be/bVmUyLJuX6I?t=1990)
 
-- ülesanne on võimalikult kompaktne,
-- sellel on vastutaja ja tähtaeg,
-- suurema ülesande saab jagada alamülesanneteks.
+Ühel juhul ei pääsenud ülevaataja repole ligi. Võimalusi on kaks: teha repo avalikuks või anda ülevaatajale konkreetselt juurdepääs.
 
-Esimene kodutöö toimis just nii. Issue'l oli tähtaeg ja vastutaja, lisati ülevaataja, töö tehti eraldi harus ning valmis töö liideti peaharuga.
+## Demo: kloonimine, terminal ja muudatuste tegemine [▶ 1. osa 36:42](https://youtu.be/bVmUyLJuX6I?t=2202)
 
-Kodutöödes oli ka probleeme. Mõned tegid muudatusi otse peaharus ja mõned olid teinud sama töö kohta mitu tõmbetaotlust. Õppejõu palve: proovige ühega hakkama saada, siis on vähem segadust.
+Õppejõud näitas läbi, kuidas parandada vale nimega kausta pärast seda, kui ta oli kodutööd peaharuga liitnud.
 
-## Giti põhitöövoog [▶ 24:59](https://youtu.be/bVmUyLJuX6I?t=1499)
+**Kloonimine ja fork'imine.** Repo on lihtsam luua kõigepealt GitHubis ja seejärel kloonida. Arvutis loomise ja hiljem üleslaadimise juhendid on segasemad. **Kloonimisel** tehakse repost koopia oma masinasse, aga ökosüsteem jääb samaks ja muudatused saab pull request'iga algsesse reposse tagasi saata. **Fork** loob uue iseseisva koopia. Seda kasutatakse siis, kui tahetakse kellegi teise rakendusest teha oma versioon ja end algsest lahti siduda.
 
-Faili salvestamine ja versioonihaldus on kaks eri asja. Salvestatud fail on alles, kuid versioonihalduse jaoks pole veel midagi juhtunud. Töövoog on järgmine:
+**Terminal ja failipuu ei ole seotud** [▶ 1. osa 40:20](https://youtu.be/bVmUyLJuX6I?t=2420). Üks kodutöö-õppetund oli see, et VS Code'i failipuus liikumine ei muuda terminali asukohta. Asukohta näitab `pwd` ja kausta sisu `ls`. Need on terminali käsud, mitte Giti omad. Asukoha näitamiseks saab terminalile lisada ka plugina. Noolega üles ja alla saab liikuda eelmiste käskude vahel.
 
-1. **`git add`** märgib muudatused versiooni lisamiseks. `git add .` võtab kõik muudetud failid. Kui kõike ei taha lisada, kirjuta punkti asemel failinimi. Väikeses projektis kasutab ka õppejõud punkti.
-2. **`git commit -m "sõnum"`** salvestab versiooni ehk teeb **commit'i**. Sõnumis kirjelda võimalikult lühidalt, mida tehti. Vajadusel lisa pealkirjale pikem kirjeldus.
-3. **`git push`** saadab muudatused sinu masinast eemal asuvasse reposse, näiteks GitHubi. Kui eemal asuvat repot pole, pole seda sammu vaja. Giti saab kasutada ka ainult oma arvutis.
+**`git clone <url> .`** [▶ 1. osa 42:24](https://youtu.be/bVmUyLJuX6I?t=2544) Kui oled juba enda loodud kaustas, loob tavaline `git clone` sinna veel ühe alamkausta. Võimalik, et sealt tekkiski mõnel üleliigne kaust. Kui lõppu lisada tühik ja punkt, kloonitakse sisu otse praegusesse kausta, eeldusel et see on tühi.
 
-### Miks commit peab olema kompaktne [▶ 27:28](https://youtu.be/bVmUyLJuX6I?t=1648)
+**Enne töö alustamist tee `git pull`** [▶ 1. osa 43:28](https://youtu.be/bVmUyLJuX6I?t=2608). Õppejõud on muudatusi peaharuga liitnud, seega pole kohalik seis enam värske. Kui tekib konflikt, annab Git sellest teada. Konfliktide lahendamiseni jõutakse hiljem. Pärast liitmist võib kodutöö harud GitHubis kustutada, kui neid just mälestuseks alles hoida ei taha.
 
-Üks commit võiks sisaldada **ühte loogilist, iseseisvat muudatust**. Põhjus on praktiline. Kui arenduses midagi katki läheb, saad selle commit'i juurde tagasi minna ja mõjutad ainult seda üht funktsionaalsust. Kõrvale ei satu juhuslikke muudatusi, mis võiksid samuti paigast nihkuda. Kui suur on üks loogiline muudatus, selle tunnetuse saab töö käigus.
+Faile võib ümber nimetada ja liigutada ka Finderis või Exploreris. Seejärel tehakse tavaline `git add`, `commit` ja `push`. Õppejõu demos ei läinud tühi kaust commit'i ja tulemuse andis alles siis, kui kaustas oli sisu [▶ 1. osa 49:07](https://youtu.be/bVmUyLJuX6I?t=2947).
 
-Õppejõud ütles, et järgmise semestri ainetes hindab ta tööd ka **commit'ide arvu** järgi. Ta ei taha öelda, et mida rohkem, seda parem, kuid tegelikult see nii on. Paljud sisuka sõnumiga commit'id näitavad, et iga loogiline samm on eraldi tehtud. Koolitöös näitab see ka, kui palju oled õppimisse panustanud: kahekümne selgelt kirjeldatud commit'i järel on midagi kindlasti külge jäänud. Ka professionaalne arendus peaks käima täpselt nii.
+### Commit'i sõnumi vorm [▶ 1. osa 44:32](https://youtu.be/bVmUyLJuX6I?t=2672)
 
-### Hea commit'i sõnum [▶ 29:31](https://youtu.be/bVmUyLJuX6I?t=1771)
+Commit'i sõnumid kirjuta **inglise keeles**. Tarkvaraarendusel ei ole rahvust ja järgmine arendaja võib olla teisest riigist. AI saab küll igast keelest aru, kuid korrektne keel ja stiil on endiselt hea tava. Sõnum kirjutatakse **käskivas kõneviisis**: mitte „lõin kausta“, vaid „loo kaust“, ehk inglise keeles *Add folder*, *Remove folder*. See on kursusel kohustuslik. Täpsemad juhised ja põhjendused, miks see nii on, leiab kursuse materjalide mõistete (*concepts*) osast commit'ide alt.
 
-Sõnum peab ütlema, mis tegelikult muutus. „Uuendasin“ või „uuendasin seisu“ ei ütle midagi. Pikema muudatuse puhul kirjuta pealkiri ja eraldi sisu. Sageli piisab aga lühikesest sõnumist, mis viitab issue'le, näiteks „lahendasin selle ja sulgesin issue nr X“. Kui hiljem midagi ebaõnnestub, aitavad sellised sõnumid leida õige koha, kuhu tagasi minna.
+### Käskude aheldamine [▶ 1. osa 51:25](https://youtu.be/bVmUyLJuX6I?t=3085)
 
-Hiljem demo käigus (alates [▶ 44:32](https://youtu.be/bVmUyLJuX6I?t=2672)) täpsustas õppejõud kaht kohustuslikku reeglit:
+Käske saab kirjutada ühele reale: `git add . && git commit -m "Remove folder" && git push`. `&&` ei ole Giti, vaid shell'i süntaks ja tähendab „ja siis järgmine käsk“. Märke on kaks, et neid ei aetaks segi muus tähenduses kasutatava üksiku märgiga (sarnaselt Pythoni `==`-ga). Teine võimalus on noolega eelmise käsu juurde liikuda ja selle sisu muuta.
 
-- **Commit'i sõnum kirjutatakse inglise keeles.** Tarkvaraarendus ei oma rahvust. Järgmine sama rakenduse arendaja võib olla hoopis teisest riigist ja peab aru saama ilma tõlkimata. Tehisintellekt saab aru igast keelest, kuid korrektne keel ja stiil on endiselt hea tava.
-- **Kasutatakse käskivat kõneviisi.** Ei kirjutata „lõin kausta“, vaid „loo kaust“, inglise keeles näiteks `Add sja folder`. Samamoodi „Create“, „Update“, „Remove“ jne. See on kõige levinum kokkulepe.
+### Miks mitte muuta faile GitHubi veebis? [▶ 1. osa 52:34](https://youtu.be/bVmUyLJuX6I?t=3154)
 
-Pikemalt on see kirjas kursuse materjalide mõistete (concepts) all commit'ide peatükis. Seal on näited kujul „mida tee“ vs „mida tegid“ ja selgitus, mis on hea commit.
+Õppejõud küsis, miks ei tasu teha muudatusi otse GitHubi veebiliideses, ja tunnistas, et päris kindlat vastust tal pole. Põhjusi on kaks. Pedagoogiline põhjus: tuleb õppida Giti kasutama nii, nagu see on mõeldud. Töö käib oma masinas ja muudatused lükatakse kesksesse hoidlasse. Graafiline liides on mugav, kuid nii jääb Git selgeks õppimata. Praktiline põhjus: kui töötad peamiselt oma arvutis ja muudad vahepeal midagi veebis, ununeb kergesti `pull` ja seisud lähevad lahku. Veebis muutmine on lubatud erandjuhul.
 
-## Giti ja GitHubi erinevus [▶ 31:52](https://youtu.be/bVmUyLJuX6I?t=1912)
+### Graafiline source control [▶ 1. osa 56:11](https://youtu.be/bVmUyLJuX6I?t=3371)
 
-Üks üliõpilane küsis, mis vahe on Gitil ja GitHubil. **Git** on versioonihaldussüsteem, mis võib asuda ükskõik kus: sinu arvutis või serveris. **GitHub** on üks teenus, kus Giti repot hoitakse eemal nii, et sellele pääseb ligi igalt poolt. GitHubil on ka muid funktsioone, kuid põhiline on see: Git on alus ja GitHub üks keskkond, kus seda kasutada.
+VS Code'il ja enamikul sellel põhinevatel redaktoritel on **Source Control** paneel. Seal näeb commit'ide ajalugu ja saab liikuda varasemate seisude juurde. Seepärast on arusaadavad commit'i pealkirjad praktiliselt kohustuslikud, sest muidu ei leia õiget kohta üles.
 
-Git ja GitHub on järgmise kolme aasta õpingutes tugisammas, nii et need tasub korralikult selgeks saada. Kui midagi jääb segaseks, küsi kas otse, kirjalikult või kaaslastelt.
+## Harud: miks peaharus ei arendata [▶ 1. osa 59:41](https://youtu.be/bVmUyLJuX6I?t=3581)
 
-Lühidalt tuli juttu ka teistest Giti käskudest. Näiteks näitab **`git status`**, mis seisus repo on. Ülevaataja ligipääsu probleem oli lahendatud. Võimalusi on kaks: teha repo avalikuks või anda ülevaatajale konkreetne ligipääsuõigus.
+Kodutöös oli peaharus algne seis ja töö tehti eraldi harus. Valmis haru vaatas paariline üle ja kiitis heaks või leidis vigu. Alles seejärel liideti see peaharuga.
 
-## Demo: vea parandamine pärast liitmist [▶ 35:06](https://youtu.be/bVmUyLJuX6I?t=2106)
+**Peaharu (`main`) peab alati olema töötav ja valmis.** Sinna ei liideta poolikut ega heaks kiitmata tööd. Kui peaharus katsetada, võib midagi katki minna. Kui peaharu muudatused jõuavad automaatselt avalikku rakendusse, läheb katki kõigile nähtav rakendus.
 
-Kõik kodutöö harud olid peaharuga liidetud, ka need, kus kaust oli valesti nimetatud. Nüüd tuli nimi peaharus ära parandada. Õppejõud näitas seda ekraanil.
+Õppejõu näide [▶ 1. osa 1:02:59](https://youtu.be/bVmUyLJuX6I?t=3779): rakendusse on vaja kaardimakset. Arendaja teeb uue haru (nimi inglise keeles, nt kaardimakse kohta) ja arendab seal commit'ide kaupa. Vahepeal võib lisanduda kolleeg, kes teeb alamosa omas harus. Peaharus käib samal ajal muu töö edasi. Valmis haru kontrollitakse esmalt oma masinas (rakendus lülitatakse selle haru peale), siis testserveris, seejärel liidetakse peaharuga, kontrollitakse uuesti ja lükatakse live-serverisse. Pärast liitmist võib haru kustutada. Haru nimi on tavaliselt funktsionaalsuse või paranduse nimi ja harude nimetamise konventsioonid on samuti mõistete all kirjas.
 
-### Kloonimine ja fork'imine [▶ 36:42](https://youtu.be/bVmUyLJuX6I?t=2202)
+Vaikimisi liidetakse peaharusse ka haru ajalugu, seega on hiljem näha, kus mida muudeti. Kui kuskil tekib viga, tehakse parandamiseks uus haru. Kui peaharu kogemata kustub, saab selle versioonihalduse abil tagasi.
 
-Lihtsam on teha repo kõigepealt GitHubis ja siis oma masinasse kloonida. Teistpidi tee on olemas, kuid juhendid on segasemad.
+## Tarkvara elutsükkel ja probleemi keskne roll [▶ 1. osa 1:06:17](https://youtu.be/bVmUyLJuX6I?t=3977)
 
-- **Kloonimine** (`git clone`) teeb repost koopia sinu masinasse. Seotus jääb alles, nii et saad samasse ökosüsteemi teha tõmbetaotlusi.
-- **Fork'imine** teeb repost uue, eraldiseisva koopia. See on vajalik siis, kui tahad kellegi teise rakendusest oma versiooni teha ja sellega omasoodu edasi minna.
+Eelmisel korral vaadati **tarkvaraarenduse elutsüklit**. Kursus käib selle põhietapid läbi, aga mitte kõiki põhjalikult. **Kasutajauuringu** ja persoonade jaoks on eraldi aine. Õppejõud rõhutas siiski, et see on üks olulisemaid osi. Tarkvara ei ole vaja niisama, see peab lahendama kellegi konkreetse probleemi. Seega on suur osa tööst probleemi ja kasutaja vajaduste väljaselgitamine, mitte koodi kirjutamine. See ununeb arendajatel kergesti.
 
-Õppejõud kasutas VS Code'iga sarnast, kuid kergemat redaktorit. Nende ülesehitus on üldiselt sama: külgpaanil failide explorer ja laiendused, all terminal.
+**Disain** ei tähenda kunstinäitust, vaid probleemide lahendamise distsipliini. Esteetika on inimestele oluline ja seetõttu peetakse seda sageli disaini peamiseks osaks, kuid tavaliselt see seda ei ole. Implementeerimisest, testimisest ja töösse laskmisest räägitakse kursusel põgusalt.
 
-### Terminal ja failipuu ei ole seotud [▶ 40:20](https://youtu.be/bVmUyLJuX6I?t=2420)
+Praegu ollakse elutsüklis **probleemi ja kasutajavajaduste kaardistamise** etapis. Sellest kasvavad välja nõuded, kavandamine, teostus, kontroll ja kasutusse andmine.
 
-Ühel üliõpilasel tuli see õppetund kodutöös välja: **terminal ja redaktori failipuu ei ole omavahel seotud**. Kui liigud failipuus mõnda kausta, jääb terminal ikka sinna, kus ta oli. Kontrolliks on kaks terminali (mitte Giti) käsku:
+## Kursuse keskne töö: Haapsalu kolledži tunniplaan [▶ 1. osa 1:09:33](https://youtu.be/bVmUyLJuX6I?t=4173)
 
-- **`pwd`** näitab, mis kaustas sa oled,
-- **`ls`** näitab, mis selles kaustas on.
+Algne plaan oli, et igaüks mõtleb ise probleemi välja. Õppejõud muutis seda: kogu kursuse keskne töö on nüüd **Haapsalu kolledži tunniplaan**. Kliendi soov on, et tunniplaani veebileht muutuks kaasaegsemaks.
 
-Asukoha kuvamiseks on olemas ka terminali pluginaid, neid võib ise otsida.
+See on tüüpiline ülilühike **kliendi bríif**: see ei ütle praktiliselt midagi. Mida tähendab „kaasaegsem“? Kas vaadata moeajakirjast, mis on moes? Milles on tegelik probleem? Arendaja ülesanne on kõigepealt välja selgitada, mida klient tegelikult tahab. Üliõpilased on ise tunniplaani kasutajad, kuid igaüks neist on vaid üks kasutaja ja see, mis just teda häirib, ei pruugi olla kõige olulisem probleem. Kursusel mängitakse see protsess põgusalt läbi ja dokumenteeritakse kõik Giti projektis.
 
-### Kloonimine olemasolevasse kausta [▶ 41:23](https://youtu.be/bVmUyLJuX6I?t=2483)
+## Rollid tarkvaraarenduses [▶ 1. osa 1:17:31](https://youtu.be/bVmUyLJuX6I?t=4651)
 
-`git clone <url>` teeb praeguse kausta sisse uue alamkausta. Kui oled juba enda tehtud tühjas kaustas, tekib nii üks kaust liiga palju. Ilmselt oli see ka üks põhjus, miks mõnel tekkis topeltkaust. Lahendus: lisa käsu lõppu tühik ja punkt, `git clone <url> .`. Siis kloonitakse sisu otse praegusesse kausta.
+Rollide piirid on AI tõttu tugevalt hägustunud. Disainikaldega inimene peab rohkem koodiga tegelema, programmeerija peab disaini paremini mõistma, projektijuht peab tehnikast rohkem aru saama ning disainer ja arendaja projektijuhtimisest. Kedagi ei võeta enam tööle kitsa ülesande jaoks, sest selleks pole kellelgi raha. Õppejõu sõnul ei ole see keeruline ja AI aitab.
 
-Nool üles toob terminalis eelmise käsu tagasi ja nool alla järgmise. Nii saab varasemaid käske kiiresti uuesti kasutada.
+Klassikalise tiimi rollid:
+- **tellija** ehk äriline omanik – klient, kes midagi tahab;
+- **tootejuht / tooteomanik** – teostaja poolel, võtab enda kanda selle, mida tellija tahab, ja kontrollib, mida tegelikult telliti;
+- **projektijuht** – jälgib tähtaegu, suhtleb kliendiga, vastutab;
+- **äri- ja süsteemianalüütik** – analüüsib, kuidas süsteem peab toimima;
+- **UX- ja UI-disainer** – sageli üks inimene. Selgitab välja, mida kasutajad tahavad, kujundab **kasutajateekonnad** (nt veebipoes: kuidas kasutaja kauba leiab, korvi paneb ja maksab) ning nende välimuse;
+- **tarkvaraarhitekt** – kavandab süsteemi suured osad;
+- **tarkvaraarendaja** – hindab ja teostab;
+- **testija** – korralik arendus ei lähe töösse testimata. **Kasutajatest** (sihtgrupi esindaja proovib enne live'i minekut) on teine asi kui see, et päris kasutaja peab vigu „omal nahal“ kogema;
+- **käitaja** – vastutab, et süsteem töötab ja seda hooldatakse.
 
-### Alusta alati `git pull`'iga [▶ 42:24](https://youtu.be/bVmUyLJuX6I?t=2544)
+Selline tiim, kümme kuni viisteist inimest või rohkemgi, on väga kallis. Seetõttu võtab AI suure osa tööst üle: testimise, tüüpilise UX-i, disaini (enamik saite näeb nagunii sarnane välja), analüüsi ja eriti arhitektuuri, sest tarkvara on hästi standardiseeritud. Varem kirjutas arhitekt arendajatele pikki kirjeldusi. AI ei pea iseendale kirjeldama, ta teeb kohe valmis ja vajadusel uuesti. Rollid jäävad siiski alles. Keegi peab otsuseid langetama ja hindama, kas AI pakutu on see, mida on vaja. Muidu pakub AI kõigile sama ja eristumist ei teki.
 
-Esimene asi enne tööle hakkamist on **`git pull`**. See tõmbab alla värskeima seisu, sest teised (praegu õppejõud liitmisega) võivad olla repot muutnud. Kui tekib **konflikt**, annab Git sellest teada ja see tuleb lahendada. Konflikte tuleb kursusel kindlasti ette ja nende lahendamist harjutatakse eraldi.
+## Tiimide moodustamine ja repo loomine [▶ 2. osa 1:08](https://youtu.be/K8tL1OkOjDA?t=68)
 
-Liidetud kodutöö harud võib nüüd GitHubis ära kustutada, kui sa ei taha neid just ajaloo mõttes alles hoida.
+Üliõpilased jagunesid **3–4-liikmelisteks tiimideks** ja valisid tiimile numbri kujul `tiim01`, `tiim02` jne, nii et numbrid ei korduks. Kursuse GitHubi organisatsiooni alla loodi tiimi repo. Tekkis tehnilisi takistusi: osa linke oli vananenud ja üks repo tuli vale nime tõttu kustutada või ümber nimetada.
 
-Faile võib liigutada ja ümber nimetada ka Maci Finderis või Windowsi Exploreris. Git märkab muudatused, misjärel tuleb teha tavaline `add`, `commit` ja `push`.
+## Esimene tiimiülesanne: probleemikandidaadid [▶ 2. osa 11:11](https://youtu.be/K8tL1OkOjDA?t=671)
 
-### Tühja kausta Git ei jälgi [▶ 49:07](https://youtu.be/bVmUyLJuX6I?t=2947)
+Ülesanne:
+1. Sisusta repo: kirjuta **README**, mis selgitab, mis projektiga on tegu.
+2. Iga liige pakub välja **kolm probleemikandidaati**: mis on praeguses tunniplaanis halvasti.
+3. Töö käib nagu kodutöös: igaühel on oma issue, sellest tehtud haru, pull request ja kaaslase ülevaatus, seejärel liitmine peaharuga.
 
-Demo käigus tuli välja, et tühja kausta Git ei salvesta. Alles siis, kui kaustas oli fail, läks commit läbi ja jõudis GitHubi.
+Näidiseks on organisatsioonis **TeamDemo tunniplaani** repo [▶ 2. osa 14:47](https://youtu.be/K8tL1OkOjDA?t=887). See ei pea olema üks-ühele sama. README peab andma ülevaate projektist: kes on tiimis, mis toimub ja kuidas asju kasutatakse. Midagi ei ole vaja välja mõelda. Täna piisab, kui on kirjas **projektijuht** ja tiimiliikmed. Vaja on ka **release manager'it**, sest iga kodutöö lõpeb release'iga. Rolle võib kodutööde kaupa vahetada ja muutused jäävad ajalukku näha.
 
-Kustutamine käib samamoodi: kustuta, siis `git add .`, `git commit -m "Remove ... folder"` ja `git push`.
+## Kanbani tahvel GitHub Projectsis [▶ 2. osa 18:07](https://youtu.be/K8tL1OkOjDA?t=1087)
 
-### Käskude ühendamine `&&`-ga [▶ 51:25](https://youtu.be/bVmUyLJuX6I?t=3085)
+Issue'd loodi läbi **GitHub Projectsi** tahvli. **Kanban** pärineb Toyotast, kus see oli algselt seinal post-it lehtedega. Nüüd on see digitaalne. See on agiilse arenduse tehnika, mille juures on hästi näha, kes mida teeb ja kui kaugel töö on.
 
-Mitu käsku saab kirjutada ühele reale, kui ühendad need kahe ampersandiga:
+Tüüpilised veerud:
+- **Backlog** – tööd, mis tuleb millalgi teha;
+- **In progress** – keegi tegeleb sellega;
+- **In review** – tegija on lõpetanud ja määranud ülevaataja;
+- **Done** – ülevaatus on läbitud.
 
-```
-git add . && git commit -m "Remove sja folder" && git push
-```
+Projekt luuakse menüüst *New project* ja mallide hulgast sobib Kanban hästi. Jälgi, et projekt oleks seotud tiimi repoga. Vaadet saab vahetada (tabel, tahvel, roadmap) [▶ 2. osa 23:34](https://youtu.be/K8tL1OkOjDA?t=1414). Veerge võib lisada või eemaldada. Kas kasutada *Backlog* või *To do* veergu, on tiimi kokkuleppe asi. *To do* sobib näiteks järgmise etapi tööde jaoks. Ainult „teha“ ja „tehtud“ on liiga vähe, sest siis ei ole näha, kus keegi vahepeal on.
 
-See on terminali ehk shell'i, mitte Giti võimalus. Teine variant on liikuda nooltega eelmise käsu juurde ja muuta ainult selle sisu. Mõlemad sobivad, vali see, mis tundub kiirem.
+## Ülesannete jagamine ja piletite kirjeldamine [▶ 2. osa 26:08](https://youtu.be/K8tL1OkOjDA?t=1568)
 
-## Miks mitte muuta faile otse GitHubis [▶ 52:34](https://youtu.be/bVmUyLJuX6I?t=3154)
+Igaüks pakub oma kolm probleemikandidaati iseseisvalt, ilma omavahel arutamata. Päriselus muidugi arutataks. Pärast valitakse kõigi kandidaatide hulgast ühisosa, millest saab edasi liikuda.
 
-Õppejõud küsis, miks ei võiks muudatusi teha otse GitHubi veebiliideses. Tema vastus oli kahene:
+Piletite nimed peaksid tiimis olema ühtse kujuga ja sisaldama liikme nime ning ülesannet, näiteks „Koosta [nimi] probleemikandidaadid“, et igaüks leiaks oma pileti kiiresti. Pilet lisatakse tahvlil *Add item* kaudu, misjärel määratakse vastutaja (*Assignee*). Õppejõud märkis, et lisamise riba on kergesti märkamatu.
 
-- **Pedagoogiline põhjus.** Giti tuleb õppida kasutama nii, nagu see on mõeldud. Töö käib oma masinas ja muudatused lükatakse kesksesse hoidlasse. Ilus graafiline liides võib selle õppimise vahele jätta.
-- **Praktiline põhjus.** Põhiliselt töötad oma arvutis. Kui teed vahepeal muudatusi veebis ja unustad enne kohalikku tööd `pull`'i teha, tekib segadus.
+Õppejõud rõhutas **kirjelduse** tähtsust [▶ 2. osa 28:15](https://youtu.be/K8tL1OkOjDA?t=1695). Näitekirjeldus: leia kolm probleemi, mis praeguses tunniplaanis on halvasti; kasuta oma kogemust, küsi grupikaaslastelt ja küsitle tellijat. Pileti saaja peab kirjeldusest aru saama, mida temalt oodatakse. Mõistlik on kirjutada kõigile ühine põhi. Kui keegi läheb koju ja hakkab pool tundi enne tähtaega tegema tööd, mis peaks võtma kaheksa tundi, ei mäleta ta seminarist midagi. Seepärast tuleb arutelu tulemus kohe selgelt kirja panna. See on **dokumenteerimise** mõte. Silte (*labels*), prioriteete ja verstaposte (*milestones*) praegu ei kasutata.
 
-Õppejõud tunnistas ausalt, et vastus pole päris veenev, ja palus anda teada, kui keegi leiab parema põhjenduse. Erandjuhul võib veebiliidest kasutada.
+**Epic'utest** räägiti vaid põgusalt [▶ 2. osa 32:01](https://youtu.be/K8tL1OkOjDA?t=1921). Suurema tiimiülesande võib jagada alampiletiteks. Seekord seda keerukuse pärast ei tehtud.
 
-## Versioonihaldus VS Code'is [▶ 56:11](https://youtu.be/bVmUyLJuX6I?t=3371)
+### Kaustastruktuur [▶ 2. osa 33:07](https://youtu.be/K8tL1OkOjDA?t=1987)
 
-Versioonihalduse mõte on, et valesti tehtu korral saab ajaloos tagasi minna. Peale terminali saab Gitiga töötada ka graafiliselt. VS Code'is on selleks **Source Control** paneel, kus näeb muu hulgas faili ajalugu ja saab liikuda vanemate commit'ide juurde.
+Tiim peab läbi mõtlema kaustade struktuuri. Õppejõu soovitus oli teha ülesande põhine kaust, näiteks `01-probleemid`. Number näitab järjekorda, nii et kaustad ei sorteeru tähestiku järgi segamini. Sõna ütleb, mida kaustas tehti. Iga liige paneb sinna oma Markdowni faili. Failinimede kuju lepitakse tiimis kokku: ilma tühikute ja täpitähtedeta, sõnad kriipsudega eraldatud.
 
-Just seepärast on commit'i arusaadav pealkiri peaaegu kohustuslik. Ajaloost peab olema võimalik leida koht, kus mingi muudatus tehti, ja vajadusel sealt viga otsida.
+## Tiimi töövoog: issue'st haruni ja tagasi [▶ 2. osa 35:19](https://youtu.be/K8tL1OkOjDA?t=2119)
 
-## Harud ja nende mõte [▶ 59:41](https://youtu.be/bVmUyLJuX6I?t=3581)
+1. Klooni tiimi repo oma arvutisse.
+2. Ava oma pilet ja vali **Create branch for this issue**. Kontrolli, et lähteharu oleks `main`.
+3. Tee arvutis `git pull` ja lülitu uuele harule. GitHub pakub selleks valmis käsu, mille saab terminali kopeerida. Haru vahetamiseks sobib `git checkout <haru>` või uuem `git switch <haru>` [▶ 2. osa 39:10](https://youtu.be/K8tL1OkOjDA?t=2350).
+4. Tee töö oma harus nagu kodutöös.
+5. Kui kolm probleemikandidaati on valmis, vaatab kaaslane pull request'i üle ja pärast kinnitamist liidetakse see peaharuga.
 
-**Haru** (branch) näide oli kodutöö ise. Peaharus oli algne seis, kodutöö tehti eraldi harus, paariline vaatas selle üle ning alles heakskiidetud töö liideti peaharuga.
+**Konfliktid** tekivad siis, kui mitu inimest muudab samal ajal sama faili. Kui igaüks töötab oma failiga, konflikte ei teki. Konfliktide lahendamist vaadatakse hiljem. Kui iga liige loob ühise kausta ise oma harus, võib sellest tekkida segadus. Seepärast soovitas õppejõud, et üks inimene loob kausta kohe peaharusse ja teised saavad selle kloonimisel kätte.
 
-Põhireegel: **peaharu peab alati töötama.** Sinna ei lähe poolikud ega üle vaatamata asjad. Peaharus ei katsetata. Paljudes projektides jõuavad peaharu muudatused automaatselt avalikku rakendusse, nii et katki tehtud peaharu tähendab kõigile nähtavat katkist rakendust.
+Õppejõud julgustas: kes saab asjast juba paremini aru, aidaku teisi, sest kaaslane seletab sageli lihtsamini [▶ 2. osa 40:11](https://youtu.be/K8tL1OkOjDA?t=2411). Midagi ei saa valesti teha. Ollakse alguses ja kui midagi läheb nässu, võib uuesti alustada.
 
-Iga uue funktsiooni või paranduse jaoks tehakse eraldi haru. Haru nimi on tavaliselt selle funktsiooni või paranduse nimi. Harude nimetamise konventsioonid on samuti kursuse mõistete all kirjas.
+### Demo ja lisanipid [▶ 2. osa 42:15](https://youtu.be/K8tL1OkOjDA?t=2535)
 
-### Näide: kaardimakse lisamine [▶ 1:02:59](https://youtu.be/bVmUyLJuX6I?t=3779)
+- Ära tee repot teise repo sisse. Alamrepod on võimalikud, aga tülikad ja tekitavad segadust.
+- Töö allikas on organisatsiooni repo, mitte enda arvuti. Kohaliku koopia võib panna kuhu tahes, kuid mõistlik on hoida projekte ühes kohas.
+- Õppejõud näitas uuesti `git clone <url> .` käsku, mis kloonib tühja kausta sisse ilma alamkaustata.
+- **Giti repoga kausta võib vabalt liigutada**, sest Giti info asub peidetud failides kausta sees. Üksikuid faile kaustast välja tõstes see seos kaob.
 
-Õppejõud kirjeldas tüüpilist harude elutsüklit:
+## Ülesande kokkuvõte ja release [▶ 2. osa 1:01:14](https://youtu.be/K8tL1OkOjDA?t=3674)
 
-1. Peaharus on töötav rakendus. Vaja on lisada kaardimakse. Kuna pole teada, kas ja kuidas see õnnestub, tehakse uus haru ingliskeelse nimega.
-2. Arendus käib commit'ide kaupa. Kolleeg võib teha alamülesande jaoks oma haru, mis liidetakse kaardimakse haruga.
-3. Haru testitakse kõigepealt oma masinas (rakendus lülitatakse selle haru peale), siis testserveris.
-4. Kui kõik töötab, liidetakse haru peaharuga, kontrollitakse uuesti ja muudatus läheb live-serverisse.
-5. Haru võib kustutada. Ajalugu jääb vaikimisi peaharusse alles, nii et hiljem on näha, mis kus muutus.
-6. Kui hiljem leitakse viga, tehakse selle parandamiseks uus haru ja sama ring käiakse uuesti läbi.
+Õppejõud lisas, et README tegemiseks peab olema ka eraldi pilet ja vastutaja, isegi kui seda tehakse koos. Tervikuna tuleb:
+1. luua repo;
+2. luua projekt (Kanbani tahvel);
+3. luua ülesanded (piletid);
+4. luua ülesande kaust;
+5. kloonida repo oma arvutisse;
+6. lahendada määratud ülesanded;
+7. lasta ülesanded üle vaadata ja kinnitada;
+8. luua release.
 
-Peaharu ära kustutada ei tasu, kuid tänu versioonihaldusele saaks ka selle taastada.
+Töö käib Markdowni failides.
 
-## Tarkvaraarenduse elutsükkel ja kasutaja mõistmine [▶ 1:06:17](https://youtu.be/bVmUyLJuX6I?t=3977)
-
-Õppejõud meenutas eelmise seminari **tarkvaraarenduse elutsüklit**. Kursusel käiakse läbi selle põhipunktid, kuid mitte kõiki põhjalikult. **Kasutajauuringu** ja **persoonadega** siin peaaegu ei tegeleta, sest nende jaoks on eraldi aine.
-
-See osa on aga tegelikult üks olulisemaid. Iga tarkvara tehakse kellegi probleemi lahendamiseks. Suur osa tööst on välja selgitada, mis see probleem on ja mida kasutaja vajab. Tarkvara ei ole vaja niisama, kasutaja on keskmes. Seda kipuvad arendajad unustama.
-
-Ka **disain** ei tähenda õppejõu sõnul kunstinäitust. See on probleemide lahendamise distsipliin. Esteetika on inimestele oluline ja seetõttu peetakse seda sageli disaini kõige tähtsamaks osaks, kuid tavaliselt ei ole see kõige tähtsam.
-
-## Kursuse keskne ülesanne: Haapsalu kolledži tunniplaan [▶ 1:09:33](https://youtu.be/bVmUyLJuX6I?t=4173)
-
-Algselt pidi iga üliõpilane probleemi ise välja mõtlema. Õppejõud muutis plaani: kursuse keskne töö on **Haapsalu kolledži tunniplaani veebilehe** uuendamine. Kliendi soov on lühike: veebileht peab muutuma kaasaegsemaks.
-
-See on tüüpiline ülilühike **kliendi briif**, mis tegelikult ei ütle peaaegu midagi. Mida tähendab „kaasaegsem“? Moeajakirja sirvides seda välja ei selgita. Briifist ei tule välja, milles probleem on. Arendaja ülesanne on kõigepealt uurida, mida klient tegelikult tahab ja mis on tema kasutajate probleem.
-
-Õppejõud tuletas meelde ka seda, et üliõpilased on ise tunniplaani kasutajad, kuid igaüks on vaid **üks kasutaja**. See, mis sinu jaoks kõige rohkem häirib, ei pruugi olla kõige olulisem probleem.
-
-Seminarid järgivad elutsüklit. Esimesel vaadati tööriistu ja suurt pilti, teisel liigutakse kliendi soovist arendusülesandeni. Praegu ollakse **probleemi ja kasutajavajaduste kaardistamise** etapis. Sellest kasvavad välja nõuded, kavandamine, teostus, kontroll, kasutajateni jõudmine ja hooldus. Kogu protsessi kohta käib pidev dokumenteerimine ning kursusel mängitakse läbi Gitis hallatav projekt.
-
-## Tarkvaratiimi rollid [▶ 1:17:31](https://youtu.be/bVmUyLJuX6I?t=4651)
-
-Tarkvaratiimis täidavad eri inimesed eri rolle. Tehisintellekti tõttu on piirid tugevalt hägustunud. Disainikalduvusega inimene peab hakkama rohkem koodiga tegelema ja programmeerija disaini paremini mõistma. Mõlemad peavad aru saama projektijuhtimisest ja projektijuht omakorda rohkemast kui ainult projektijuhtimisest. Kitsa ülesande jaoks inimesi enam ei palgata, sest selleks pole kellelgi raha. Õppejõu sõnul pole see keeruline, kuna tehisintellekt aitab.
-
-Rollid jäävad alles ka siis, kui neid täidab vähem inimesi või osaliselt tehisintellekt:
-
-- **Tellija ehk äriline omanik.** Klient, kes midagi tahab ja kellele lahendus müüakse.
-- **Tootejuht ehk tooteomanik.** Teostaja poolel inimene, kes võtab vastutuse selle eest, et tehakse seda, mida telliti.
-- **Projektijuht.** Jälgib tähtaegu, suhtleb kliendiga ja peab erinevaid asju meeles.
-- **Äri- ja süsteemianalüütik.** Analüüsib, kuidas süsteem peab toimima.
-- **UX/UI disainer.** Uurib, mida kasutajad tahavad, ja kujundab selle kasutatavaks. Ta lahendab **kasutajateekonnad**. Näiteks veebipoes: kuidas kasutaja poodi jõuab, toote leiab, korvi paneb ja maksab.
-- **Tarkvaraarhitekt.** Kavandab süsteemi suured osad.
-- **Tarkvaraarendaja.** Hindab ja teostab arhitekti kavandatut.
-- **Testija.** Ükski korralik arendus ei tohiks minna töösse testimata. **Kasutajatest**, kus sihtrühma esindaja proovib lahendust enne avaldamist, on hea. Halb on, kui päris kasutajad avastavad vead pärast avaldamist oma nahal.
-- **Käituse eest vastutaja.** Hoolitseb selle eest, et süsteem töötab ja seda hooldatakse.
-
-### Mida tehisintellekt muudab [▶ 1:23:48](https://youtu.be/bVmUyLJuX6I?t=5028)
-
-Selline tiim on väga kallis: kümme, viisteist või rohkemgi inimest. Seetõttu antakse üha rohkem tööd tehisintellektile. See saab testida, luua oma teadmiste põhjal kasutuskogemust ja teha disaini, mis näeb välja nagu enamik teisi saite. Ka analüütiku töös on tal taga tohutud teadmised.
-
-Õppejõu sõnul võib tarkvaraarhitekti olla tehisintellektiga kõige lihtsam asendada, sest tarkvara on väga standardiseeritud. Varem kirjutas arhitekt arendajatele pikki kirjeldusi. Nüüd teeb tehisintellekt lahenduse kohe valmis ja sobimatuse korral uue, sest see on odav.
-
-Inimest on endiselt vaja. Keegi peab tegema otsuseid ja hindama, kas tehisintellekt töötab hästi ja kas pakutu on see, mida tegelikult vaja on. Õppejõud tõi välja ka ohu: tehisintellekt võib pakkuda kõigile sama lahendust, ja siis puudub eristumine. Kursusel mängitakse rollid läbi, et oleks aru saada, mis igaüks neist on.
-
-Seejärel algas paus. Salvestuse lõpus aitas õppejõud mõnda üliõpilast tõmbetaotluse uuesti avamisega. Takistus oli selles, et töö asus vales repos. Kui failid tõsta õigesse reposse, saab õppejõu uuesti ülevaatajaks määrata.
+**Release** [▶ 2. osa 1:05:10](https://youtu.be/K8tL1OkOjDA?t=3910) on tarkvara hetkeseisu ehk versiooni salvestus. Release võib olla valmis või **release candidate**. Kursusel tehakse kohe valmis release'id. Release'ile lisatakse **tag** ehk versiooninumber, näiteks 0.1.0. Release tehakse siis, kui tiim on enne tähtaega üle vaadanud, et kõik on korras. Sellele lisatakse kirjeldus, mida tehti, ja lingid ülesannetele. Õppejõud lubas lisada eraldi release'i juhendi ja ütles, et selle pärast ei pea praegu muretsema.
 
 ## Lisaks plaanile
 
-- **Arendaja kui kliendi nõuandja** [▶ 13:10](https://youtu.be/bVmUyLJuX6I?t=790). Mõnikord on kliendile kõige kasulikum soovitada tarkvara mitte teha. Lühiajaliselt võib see rahast ilma jätta, kuid ausalt lahendatud probleem toob kliendi tagasi. Õppejõu sõnul kuulub see oskus pigem psühholoogia valdkonda, kuid arendaja peab tänapäeval nägema maailma laiemalt kui varem.
-- **Tehisintellekt ja meetodite ümberhindamine** [▶ 20:22](https://youtu.be/bVmUyLJuX6I?t=1222). Agiilsus tekkis kalli koodikirjutamise vastu. Nüüd, kui kood on odav, saab ka kosemudeli moodi terviklahendusi kiiresti genereerida ja meetodit poole pealt vahetada.
-- **Lisapunktid eksamil kursuse materjalide parandamise eest** [▶ 1:12:45](https://youtu.be/bVmUyLJuX6I?t=4365). Üks üliõpilane märkas, et materjalides on agiilne arendus eesti keeles, kuid waterfall inglise keeles. Õppejõud nõustus, et õigem oleks kasutada sõna **kosemudel**: „agiilne“ on eesti keelde juba sisse elanud, „waterfall“ mitte. Sellest kasvas välja üldine reegel. Kirjalikud ettepanekud kursuse materjalide parandamiseks (kirjavead, terminid jne) tõmbetaotluse või kommentaarina kursuse repos annavad eksamil plusspunkte. Suulised märkused ei lähe arvesse, kuigi aktiivne osalemine aitab üldiselt parema hindeni.
-- **Mõtteline vastus küsimusele, miks mitte muuta faile GitHubis** [▶ 52:34](https://youtu.be/bVmUyLJuX6I?t=3154). Õppejõud tunnistas, et ei ole oma põhjenduses päris kindel, ja kutsus üliõpilasi paremat vastust pakkuma.
+**Kas „waterfall“ või „kosemudel“?** [▶ 1. osa 1:12:45](https://youtu.be/bVmUyLJuX6I?t=4365) Üks üliõpilane küsis, miks materjalides on eestikeelne „agiilne“, aga ingliskeelne „waterfall“. Õppejõud nõustus, et korrektne oleks kasutada eesti terminit **kosemudel**. „Agiilne“ on eesti keelde juurdunud, „waterfall“ mitte. Sellest kasvas välja oluline kokkulepe: **ettepanekud kursuse materjalide parandamiseks annavad eksamil plusspunkte.** Need võivad olla kirjavead või sisulised ettepanekud. Arvesse lähevad ainult kirjalikud ettepanekud: pull request kursuse reposse või kommentaar. Suuline märkus jälge maha ei jäta. Aktiivne osalemine aitab muidugi ka muul moel.
+
+**Töömeetodist kliendiga** [▶ 1. osa 1:16:04](https://youtu.be/bVmUyLJuX6I?t=4564). Kliendiga ei pea arutama, kas töö käib agiilselt või kosemudeli järgi, kuigi kliendid on tänapäeval üsna teadlikud. Piisab küsimusest, kas teha esmalt väike osa ja seda täiendada või teha kohe terviklik lahendus. Eesmärk on saada rakendus võimalikult väikese kuluga valmis.
+
+**Inimtiim ja AI-agendid töötavad samamoodi** [▶ 2. osa 1:08:44](https://youtu.be/K8tL1OkOjDA?t=4124). Konventsioonid ja harude kaupa töötamine on vajalikud ka siis, kui tööd teevad mitu AI-agenti eri harudes. Muudatused peavad olema väikesed ja selged, mitte üks keeruline hunnik ühes kohas.
+
+**Klient ei tea, mida „kaasaegne“ tähendab** [▶ 2. osa 1:10:10](https://youtu.be/K8tL1OkOjDA?t=4210). Õppejõud tegi selgeks, et ta on selles projektis klient: tal on soov, kuid ta ei ole spetsialist ega tea, mis on kõige parem. Tema arvates on praegune leht ilus, punane ja puhas. Tiimi ülesanne on aru saada, mis on tegelikult halvasti, ja jõuda kliendiga kokkuleppele enne, kui algab suur ja kallis töö. Tehniline lahendus on alles tagaplaanil. Teadmise allikad on oma kogemus, tiimikaaslased kui kasutajad ja klient, kellele võib kirjutada. Kõige lihtsam küsimus kliendile on: mida „kaasaegne“ tähendab?
+
+Klassikaline protsess on järgmine: kliendi briifimine (pikk kohtumine, kus selgitatakse probleem ja sihtgrupp), **kasutajaintervjuud**, probleemide tuletamine, lahenduste pakkumine, prototüüpimine ja testimine. Alles seejärel algab programmeerimine. Tehniline osa on AI-ga palju lihtsamaks muutunud. Palju dokumentatsiooni kirjutati varem selleks, et teine inimene aru saaks. Nüüd kirjutab AI suure osa dokumentatsioonist, kuid sageli liiga palju ja mõttetult. Õppejõu sõnul ei ole see mustvalge: inimestele mõeldud dokumentatsiooni on endiselt vaja ja poole aasta pärast võib AI-ga töötamine olla jälle teistsugune.
+
+**Tehnilised probleemid kodutöödega** [▶ 1. osa 1:27:23](https://youtu.be/bVmUyLJuX6I?t=5243). Pausi ajal selgus, et pull request'e ei saanud uuesti avada, kui töö asus valesti teises repos. Lahendus oli tõsta failid õigesse kohta ja teha uus pull request, määrates õppejõu ülevaatajaks.
 
 ## Kodutöö ja järgmised sammud
 
-- **Paranda eelmise kodutöö vead peaharus.** Tee kõigepealt `git pull`, siis paranda kaustade ja failide nimed (ilma topeltkaustata, kokkulepitud kujul) ning tee `add`, `commit` ja `push`.
-- **Kustuta GitHubis liidetud kodutöö harud**, kui sa ei taha neid alles hoida.
-- **Kirjuta commit'i sõnumid** inglise keeles ja käskivas kõneviisis, nagu kursuse mõistete all kirjas.
-- **Vaata üle tarkvaraarenduse meetodid** (kosemudel, agiilne arendus, Scrum, Kanban) ja loe agiilse tarkvaraarenduse manifest.
-- **Tutvu teise seminari materjalidega.** Õppejõud laadis üles uuendatud slaidid ja neist lingitud peatükid.
-- **Hakka mõtlema Haapsalu kolledži tunniplaani probleemile.** Kursuse keskne töö algab sellest, et selgitad välja, milles kliendi tegelik probleem seisneb.
-- Kirjalikud parandusettepanekud kursuse materjalidele annavad eksamil lisapunkte.
+- Paranda esimese kodutöö vale nimega failid või kaustad. Tee seda oma arvutis: `pull`, muudatus, commit inglise keeles käskivas kõneviisis, `push`.
+- Kustuta GitHubis kodutöö harud, mis on juba peaharuga liidetud.
+- Vaata järele kosemudel, agiilne arendus, Scrum ja Kanban ning loe agiilse tarkvaraarenduse manifest.
+- Tiimitöö: lõpeta README ja kirjuta igaüks oma kolm probleemikandidaati oma piletist tehtud harus. Seejärel kaaslase ülevaatus, liitmine peaharuga ja tiimi release koos kirjeldusega, mida tehti ja mis jäi segaseks. Keegi peab vastutama projektijuhtimise eest ja keegi release'i eest.
+- Kliendilt (õppejõult) võib küsida, mida „kaasaegne“ tähendab.
+- Kodutöö sammud on failis homework.md, taust kodutöö ja release'i peatükis. Õppejõud lubas lisada release'i juhendi.
+- Plusspunktide jaoks tee kursuse materjalidesse kirjalikke parandusettepanekuid.
 
 ## Plaan ja tegelikkus
 
-**Mis jõuti:** slaidide esimene osa, st tarkvaraarenduse elutsükli kordamine, meetodi valik, kursuse keskse ülesande (Haapsalu kolledži tunniplaan) tutvustus ja tarkvaratiimi rollid.
+**Mis jõuti:** slaidide põhisisu (kliendisoov kui ebamäärane bríif, probleem keskmes, rollid), tiimide moodustamine, repode ja Kanbani tahvlite loomine ning probleemikandidaatide ülesande käivitamine koos töövooga issue'st haruni.
 
-**Mis võttis plaanitust kauem:** esimese kodutöö tagasiside ja Giti töövoo kordamine võttis enne pausi umbes tunni ehk suurema osa salvestusest. Pikalt käsitleti nimetamist, Markdowni koodiplokke, commit'e, harusid ja kloonimist ning tehti terminali demo.
+**Mis võttis plaanitust kauem:** esimene pool (umbes tund) kulus kodutöö tagasisidele ja Giti kordamisele: nimetamine, commit'id, kloonimine, harud. See oli vajalik, sest Giti ebakindlus oli selgelt tunda. Tiimi seadistamisel tekkisid takistused (vananenud lingid, repo nimed, organisatsiooni ligipääs), mis võtsid rühmatöö ajast suure osa.
 
-**Mis jäi salvestusest välja:** salvestus lõpeb pausiga. Ei ole teada, kas pärast pausi tehti probleemikandidaatide harjutus ja tiimi töövoog ning kui põhjalikult. Kodutöö (homework.md) täpseid tingimusi salvestatud osas läbi ei käidud.
+**Mis jäi põgusaks või lükkus edasi:** release'i loomine (juhend lubati hiljem), epic'ud ja alampiletid, konfliktide lahendamine. Probleemikandidaatide ühisosa valimine jäi kodutööks. Tarkvaraarenduse meetoditest räägiti ainult kordamise ja arutelu korras.
 
-**Üliõpilaste küsimused ja arusaamatused:**
-
-- Giti ja GitHubi vahe.
-- Kuidas parandada viga pärast seda, kui töö on juba peaharuga liidetud.
-- Topeltkaustad, mis tekkisid repo nime kordamisest või `git clone` käsust ilma punktita.
-- Arusaamatus, et terminal ja failipuu ei ole seotud.
-- Muudatused otse peaharus ja mitu tõmbetaotlust sama töö kohta.
-- Ülevaataja ligipääsuõigused.
-- Tõmbetaotluse uuesti avamine, kui töö oli vales repos.
-- Terminoloogia ebajärjekindlus materjalides (waterfall vs kosemudel).
+**Üliõpilaste küsimused ja arusaamatused:** Giti ja GitHubi vahe; miks mitte muuta faile veebiliideses; mis on harude mõte; ülevaataja ligipääs; terminali asukoht vs failipuu; üleliigsed kaustad pärast kloonimist; mitu pull request'i ühe töö kohta; termin „waterfall“ vs „kosemudel“.
 
 **Õppetunnid järgmiseks korraks:**
-
-- Planeeri esimese kodutöö tagasisidele ja Giti kordamisele seminari algusesse selgelt eraldi aeg (vähemalt 45–60 minutit). Teise võimalusena käi Giti põhitõed läbi juba enne esimest kodutööd.
-- Lisa esimese kodutöö juhendisse näide õigest kaustastruktuurist ja `git clone <url> .` variant, et vältida topeltkaustu.
-- Ühtlusta materjalides terminid (kosemudel) ja lae seminari materjalid üles enne seminari.
-- Mõtle läbi veenev põhjendus, miks faile ei muudeta GitHubi veebiliideses. Sellele küsimusele polnud seekord head vastust.
-- Kui keskne ülesanne asendab individuaalse probleemi valiku, anna sellest teada enne seminari, et jääks aega probleemikandidaatide harjutuseks.
+- Arvesta Giti kordamiseks eraldi aega ja tee see ühe demona läbi (`pwd`, `clone .`, `pull`, haru, commit, push).
+- Kontrolli enne seminari organisatsiooni linke, ligipääse ja näidisrepot.
+- Kanbani tahvli lisamise riba ja issue'st haru loomine vajavad samm-sammulist näitamist.
+- Ühine ülesande kaust loo kohe peaharus, enne kui liikmed harusid teevad.
+- Release'i juhend peaks olemas olema juba seminari ajal.
+- Paranda materjalides termin „waterfall“ → „kosemudel“.
