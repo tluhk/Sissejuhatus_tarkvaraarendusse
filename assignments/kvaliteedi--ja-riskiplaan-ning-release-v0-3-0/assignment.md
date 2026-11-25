@@ -61,7 +61,7 @@ Tiimi repos:
 Iga õppija:
 
 - enda Issue, haru ja PR tiimi repos ning ühe tiimikaaslase PR-i ülevaatus vähemalt ühe sisulise küsimusega kontrolli, mõju või vastutuse kohta. „Korras” ei ole ülevaatus. Kui kaaslasel on midagi valesti, näidake, kuidas parandada, ärge tehke tema eest ära. Kes kelle PR-i üle vaatab, lepib tiim ise kokku;
-- iseseisev harjutus: tehke konspekti lehe [Vea silumine ja koodi ülevaatus](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/blob/master/handbook/04-quality-and-risk/03-debugging-and-code-review.md#harjutus) harjutus. Viga on lehel antud, ise välja mõtlema ei pea. Kirjutage vea kirjeldus ja üks ülevaatuse küsimus enda `SJTA` kodutöö Issue kommentaari. Soovitame võtta oma sisendi, mitte näidises oleva `[2, 4, 6]`. Koodi kirjutama ei pea;
+- iseseisev harjutus: kirjeldage enda `SJTA` kodutöö Issue kommentaaris üht viga oma tiimi tööst (kavand, nõue, dokument või repo): olukord, oodatud tulemus, tegelik tulemus, kuidas korrata, oletatav põhjus. Lisage link oma sisulisele küsimusele tiimikaaslase PR-is. Näidis: [Vea silumine ja koodi ülevaatus](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/blob/master/handbook/04-quality-and-risk/03-debugging-and-code-review.md#vea-kirjeldus). Koodi kirjutama ei pea;
 - refleksioon `reflections/eesnimi-perenimi-v0.3.0.md` enda `SJTA` repos. Lisaks malli küsimustele üks lõik seminari lõpuküsimusest: millist selle etapi tööd võiks teha AI, kuidas tulemust kontrolliksime ja kes vastutaks;
 - vabatahtlik: konspekti lehe [Giti ajalugu ja tagasivõtmine](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/blob/master/handbook/04-quality-and-risk/06-git-history.md) harjutus tiimi repos. Seda ei hinnata, aga `git restore` on parem proovida koolitöös kui päris projektis.
 
