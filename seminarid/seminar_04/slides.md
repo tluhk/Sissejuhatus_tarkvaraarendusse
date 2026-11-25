@@ -517,9 +517,9 @@ Iga õppija: Issue, PR, teise töö ülevaatus, iseseisev silumisharjutus ja ref
 - **Merge:** PR-i ühendab keegi teine kui autor. Ülevaataja küsimusele vastatakse enne ühendamist.
 - **Aeg:** hinnang Issue'i loomisel, tegelik aeg sulgemisel. Release notes võrdleb summasid.
 - **Release manager** läbib kontrollnimekirja enne `v0.3.0` avaldamist.
-- **Esitamine:** kodutöö Issue kommentaaris täislingid, mitte `#54`. Kuju `TLUHK-RIF26/tiim-XX-tunniplaan#54` toimib.
+- **Lingid:** teise repo Issue'le või PR-ile täislink, mitte `#54`. Kuju `TLUHK-RIF26/tiim-XX-tunniplaan#54` toimib.
 
-<!-- Merge-reegel teeb ülevaatuse päriseks. Kui autor ühendab oma PR-i ise, on ülevaatus formaalsus ja küsimusele ei pea vastama. Kui ühendab keegi teine, peab ta enne lugema ja küsimusele peab olema vastatud. Kodutöös 3 ühendas mõnes tiimis peaaegu kõik PR-id autor ise. Aja reegel on sama, mis sammus 1: hinnang loomisel, tegelik aeg sulgemisel, ühik tund. Release notes'i võrdlus tuleb siis Projectsi tabelivaatest kohe välja. Release manager vastutab, et avaldatud tervik peab; tema kontrollnimekiri on sama, mille tiim täna v0.2.0 peal läbi tegi. Esitamise reegel on tehniline, aga oluline: kui isiklikus SJTA repos kirjutada #54, seob GitHub selle sama repo Issue'ga number 54, mitte tiimi repo PR-iga. Toimib täis-URL või kuju organisatsioon/repo#number. -->
+<!-- Merge-reegel teeb ülevaatuse päriseks. Kui autor ühendab oma PR-i ise, on ülevaatus formaalsus ja küsimusele ei pea vastama. Kui ühendab keegi teine, peab ta enne lugema ja küsimusele peab olema vastatud. Kodutöös 3 ühendas mõnes tiimis peaaegu kõik PR-id autor ise. Aja reegel on sama, mis sammus 1: hinnang loomisel, tegelik aeg sulgemisel, ühik tund. Release notes'i võrdlus tuleb siis Projectsi tabelivaatest kohe välja. Release manager vastutab, et avaldatud tervik peab; tema kontrollnimekiri on sama, mille tiim täna v0.2.0 peal läbi tegi. Linkide reegel on tehniline, aga oluline: kui isiklikus SJTA repos kirjutada #54, seob GitHub selle sama repo Issue'ga number 54, mitte tiimi repo PR-iga. Toimib täis-URL või kuju organisatsioon/repo#number. -->
 
 ---
 

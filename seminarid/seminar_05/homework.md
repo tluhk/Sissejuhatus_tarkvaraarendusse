@@ -71,10 +71,6 @@ Uus release manager loob tag'i `v0.4.0` ja avaldab release'i pealkirjaga `Kasutu
 - [ ] Igal õppijal on Issue, commit, PR, ülevaatus ja refleksioon.
 - [ ] Release `v0.4.0` on avaldatud.
 
-## Esitamine
-
-Lisage kodutöö Issue kommentaari release'i, ajajoone, enda `SJTA` repos oleva refleksiooni, enda PR-i ja tehtud ülevaatuse lingid. Eraldi esitamise PR-i pole vaja; PR-id teete töö käigus tiimi repos.
-
 ## Hindamiskriteeriumid
 
 Hindan tiimi ühist tulemust repositooriumis ning iga õppija panust tema Issue'i, PR-i, ülevaatuse ja refleksiooni põhjal. Kokku on võimalik saada 100 punkti.

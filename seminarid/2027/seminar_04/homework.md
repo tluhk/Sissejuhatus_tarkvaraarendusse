@@ -53,13 +53,9 @@ Iga õppija:
 - **Aeg.** Hinnang pannakse välja Estimate Issue'i loomisel, tegelik aeg välja „Tegelik (h)” Issue'i sulgemisel. Ühik on tund, täpsus pool tundi.
 - **Merge.** PR-i ühendab keegi teine kui autor. Ülevaataja küsimusele vastatakse enne ühendamist.
 - **Blokeerija.** Kui Issue ootab infot väljastpoolt tiimi, saab see sildi `blocked` ja kommentaari: mida ootame, kellelt ja millal kontrollime uuesti. Kui takistus on teine Issue, märkige seos „Mark as blocked by”; blokeeriv Issue võib saada sildi `blocker`. Kumbki silt ei asenda teist.
-- **Lingid.** Teise repo failile või Issue'le viidates kasutage täislinki. Suhteline link ja pelk `#54` töötavad ainult sama repo sees.
+- **Lingid.** Teise repo failile või Issue'le viidates kasutage täislinki. Issue ja PR-i puhul sobib ka kuju `ORGANISATSIOON/tiim-XX-tunniplaan#54`. Suhteline link ja pelk `#54` töötavad ainult sama repo sees.
 - **AI.** Lubatud. Pange AI-le piirid: see kirjutab lühidalt ja asjast. Pikk üldine riskiloend ei ole väärtus: eemaldage ebaoluline ja kontrollige väited. Tiim peab oma otsuseid ise seletama, ka eksamil, kus mõistete test tehakse ilma AI-ta.
 - **Release manager** kontrollib enne avaldamist: iga väide release notes'is vastab failile; topelt- ja kohatäitefaile pole; AI juhiseid ega malliteksti pole; README viitab uutele otsustele. Seejärel loob ta tag'i `v0.3.0` ja GitHub Release'i pealkirjaga `Kvaliteedi- ja riskiplaan`.
-
-## Esitamine
-
-Lisage kodutöö Issue kommentaari lingid: release, enda PR, tehtud ülevaatus, harjutuse vastus ja refleksioon. Kasutage täislinke või kuju `ORGANISATSIOON/tiim-XX-tunniplaan#54`; pelk `#54` teises repos ei toimi. Eraldi esitamise PR-i pole vaja.
 
 ## Hindamine
 

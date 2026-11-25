@@ -29,7 +29,7 @@ Seminari materjali ja kodutööd ei kirjutata korraga valmis. Ehita need väikes
 1. **Eesmärk ja sammud.** Kirjuta üldine eesmärk ja sammude loetelu ilma selgitusteta.
 2. **Tulemus ja asukoht.** Tee vestluses ettepanek iga sammu tulemuse ja faili kohta. Kirjuta faili alles pärast kinnitust.
 3. **Vastutus.** Igal sammul on üks vastutav roll, kes võtab tulemuse kokku. Kõik osalevad.
-4. **Täiendused ükshaaval.** Lisa korraga üks täiendus, näiteks abimaterjal, esitamine või AI kasutamine. Pikem juhend, harjutus või hindamine läheb eraldi faili, millele kodutöö viitab. Abimaterjali viited kuuluvad seminari materjali.
+4. **Täiendused ükshaaval.** Lisa korraga üks täiendus, näiteks abimaterjal või AI kasutamine. Esitamistingimusi kodutöösse ei lisata: need tekivad ülesande genereerimisel Issue lõppu. Pikem juhend, harjutus või hindamine läheb eraldi faili, millele kodutöö viitab. Abimaterjali viited kuuluvad seminari materjali.
 5. **Läbilugemine õppijana.** Loe tulemus läbi õppija pilguga ja nimeta puuduvad kohad. Ära lisa neid ise ilma kinnituseta.
 6. **Asendamine.** Kui olemasolev fail kirjutatakse ümber, koosta uus versioon kõrvale, näiteks `homework-draft.md`. Vana fail jääb alles, kuni kasutaja asendamise kinnitab. Seejärel kustuta vana fail ja uuenda viited.
 
@@ -47,7 +47,7 @@ Määra igale selgitusele üks põhikoht. Näiteks:
 | Mõiste põhjendus ja sisuline näide | Vastav teemapeatükk |
 | Täpne harjutus, tööleht ja valmimise tingimus | Harjutuse peatükk |
 | Tööriista sammud ning käskude selgitused | Praktilise töö peatükk |
-| Nõutavad failid, release ja esitamine | Üks kodutööpeatükk |
+| Nõutavad failid ja release | Üks kodutööpeatükk |
 | Õpetaja ettevalmistus, ajakava ja puhver | Õpetaja juhis |
 
 Ühenda samasse tegevusse kuuluvad killud. Discovery-taoline näide kuulub selgitatava töövõtte juurde; kodutöö kokkuvõte ei vaja omaette paralleelset juhendit. Üks lõpu kontrollpunkt on piisav.

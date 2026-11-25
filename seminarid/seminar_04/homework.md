@@ -43,8 +43,7 @@ Tiimi repos:
 Iga õppija:
 
 - enda Issue, haru ja PR tiimi repos ning ühe tiimikaaslase PR-i ülevaatus vähemalt ühe sisulise küsimusega kontrolli, mõju või vastutuse kohta. „Korras” ei ole ülevaatus. Kui kaaslasel on midagi valesti, näidake, kuidas parandada, ärge tehke tema eest ära. Kes kelle PR-i üle vaatab, lepib tiim ise kokku;
-- kodutöö Issue PR enda `SJTA` repos: selle vaatab üle kaasõppija failist [student_pairs.md](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/blob/master/student_pairs.md) (rida `A -> B`: A vaatab üle B töö). Vaadata on vähe: refleksioon ja lingid tehtud tööle. Tiimi repo PR-ide kohta see fail ei kehti;
-- iseseisev harjutus: tehke konspekti lehe [Vea silumine ja koodi ülevaatus](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/blob/master/handbook/04-quality-and-risk/03-debugging-and-code-review.md#harjutus) harjutus. Viga on lehel antud, ise välja mõtlema ei pea. Kirjutage vea kirjeldus oma sisendiga ja üks ülevaatuse küsimus enda `SJTA` kodutöö Issue kommentaari. Koodi kirjutama ei pea;
+- iseseisev harjutus: tehke konspekti lehe [Vea silumine ja koodi ülevaatus](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/blob/master/handbook/04-quality-and-risk/03-debugging-and-code-review.md#harjutus) harjutus. Viga on lehel antud, ise välja mõtlema ei pea. Kirjutage vea kirjeldus ja üks ülevaatuse küsimus enda `SJTA` kodutöö Issue kommentaari. Soovitame võtta oma sisendi, mitte näidises oleva `[2, 4, 6]`. Koodi kirjutama ei pea;
 - refleksioon `reflections/eesnimi-perenimi-v0.3.0.md` enda `SJTA` repos. Lisaks malli küsimustele üks lõik seminari lõpuküsimusest: millist selle etapi tööd võiks teha AI, kuidas tulemust kontrolliksime ja kes vastutaks;
 - vabatahtlik: konspekti lehe [Giti ajalugu ja tagasivõtmine](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/blob/master/handbook/04-quality-and-risk/06-git-history.md) harjutus tiimi repos. Seda ei hinnata, aga `git restore` on parem proovida koolitöös kui päris projektis.
 
@@ -53,13 +52,9 @@ Iga õppija:
 - **Aeg.** Hinnang pannakse välja Estimate Issue'i loomisel, tegelik aeg välja „Tegelik (h)” Issue'i sulgemisel. Ühik on tund, täpsus pool tundi. Kui tiimil välja „Tegelik (h)” veel pole, lisab projektijuht selle Projectsi seadetest.
 - **Merge.** PR-i ühendab keegi teine kui autor. Ülevaataja küsimusele vastatakse enne ühendamist.
 - **Blokeerija.** Kui Issue ootab infot väljastpoolt tiimi, saab see sildi `blocked` ja kommentaari: mida ootame, kellelt ja millal kontrollime uuesti. Kui takistus on teine Issue, märkige seos „Mark as blocked by”. Seminaris nägite silti `blocker` blokeeriva Issue peal; see on sama seose teine ots ja näitab, mis tuleb enne ära teha.
-- **Lingid.** Teise repo failile või Issue'le viidates kasutage täislinki. Suhteline link ja pelk `#54` töötavad ainult sama repo sees.
+- **Lingid.** Teise repo failile või Issue'le viidates kasutage täislinki. Issue ja PR-i puhul sobib ka kuju `TLUHK-RIF26/tiim-XX-tunniplaan#54`. Suhteline link ja pelk `#54` töötavad ainult sama repo sees.
 - **AI.** Lubatud. Pange AI-le piirid: see kirjutab lühidalt ja asjast. Kui te ise ei saa aru, mis sinna kirja läks, on see halvem kui lühem oma tekst. Pikk üldine riskiloend ei ole väärtus: eemaldage ebaoluline ja kontrollige väited. Tiim peab oma otsuseid ise seletama, ka eksamil, kus mõistete test tehakse ilma AI-ta.
 - **Release manager** kontrollib enne avaldamist: iga väide release notes'is vastab failile; topelt- ja kohatäitefaile pole; AI juhiseid ega malliteksti pole; README viitab uutele otsustele. Seejärel loob ta tag'i `v0.3.0` ja GitHub Release'i pealkirjaga `Kvaliteedi- ja riskiplaan`.
-
-## Esitamine
-
-Kodutöö esitatakse PR-iga enda `SJTA` repos. Looge kodutöö Issue'st haru, lisage sinna refleksioon ja avage PR. PR-i kirjeldusse pange lingid: release, enda PR tiimi repos, seal tehtud ülevaatus ja harjutuse vastus. Kasutage täislinke või kuju `TLUHK-RIF26/tiim-XX-tunniplaan#54`; pelk `#54` teises repos ei toimi. Määrake ülevaatajaks kaasõppija, kes on paaride failis teie nimest vasakul. Kui kaasõppija on PR-i heaks kiitnud, lisage ülevaatajaks õppejõud. PR-i ühendab õppejõud.
 
 ## Hindamine
 

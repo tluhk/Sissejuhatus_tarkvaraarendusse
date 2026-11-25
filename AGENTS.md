@@ -49,7 +49,8 @@ Kehtiva aineinfo esmane masinloetav allikas on `metadata/data.json`. Kui see lä
 - Seminar peab jätma praktiliseks tööks ja ootamatuteks tehnilisteks probleemideks realistliku puhvri.
 - Kodutöö peab põhinema seminaris tegelikult käsitletud oskustel.
 - Iga seminari väljund peab toetama järgmise seminari alustamist.
-- Ülesande juures tuleb eristada individuaalne ja rühmatöö ning kirjeldada esitamise viis.
+- Ülesande juures tuleb eristada individuaalne ja rühmatöö.
+- Kodutöösse ei kirjutata esitamistingimusi (PR või kommentaar, haru, ülevaatajad). Need lisab ülesande genereerimine Issue lõppu, kasti „Important”, ja kehtib see kast.
 - Õpetajale mõeldud märkused ei tohi sattuda selgitamata kujul õppija juhendisse.
 
 ## Seminaride omavaheline kooskõla
@@ -95,7 +96,7 @@ Slaidide, kodutöö, õpetaja juhendi, failinimede, tähtaegade ja hindamiskrite
 - Kursuse keskne tulemus on tarkvaraarenduse suure pildi mõistmine, mitte teiste erialaainete detailse sisu kordamine.
 - Seminarid 2–5 kasutavad üht läbivat meeskonnaprojekti, mille keskne artefakt on põhjendatud otsuste logi.
 - Meeskonnaprojektide repositooriumid asuvad ühises `TLUHK-RIF26` organisatsioonis. Igal meeskonnal on üks repo nimega `tiim-XX-tunniplaan` või sellest tuletatud nimega ning iga õppija panustab haru, commit'ide, pull request'i ja ülevaatuse kaudu.
-- Eraldi esitamise pull request'i ei nõuta, kui töö iseloom seda ei vaja. Tiimitöös tehakse PR-id olemasoleva projekti sees ja kodutöö esitatakse Issue kommentaariga.
+- Tiimitöös tehakse PR-id olemasoleva projekti sees. Kodutöö esitamise viisi määrab genereeritud Issue.
 - Seminaride 2–5 kodutöödel on 100-punktine hindamistabel.
 - Release manageri vastutus vahetub projektiseminaride vahel.
 - Rollid kasutavad päris ametinimetusi ja vahetuvad, et õppija kogeks erinevaid professionaalseid vaatenurki.

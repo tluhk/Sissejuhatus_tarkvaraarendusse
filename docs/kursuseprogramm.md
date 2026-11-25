@@ -142,7 +142,7 @@ Lisaks teeb iga õppija lühikese testi mõistete kohta, mida oleme seminarides 
 - üks meeskonnarepo kogu projekti jaoks;
 - iga õppija töötab enda harus, teeb sisulise commit'i ja avab pull request'i;
 - iga õppija vaatab igas projektietapis üle vähemalt ühe teise õppija pull request'i;
-- pull request'id tehakse projekti töö käigus; kodutöö esitatakse Issue kommentaariga ja eraldi esitamise pull request'i pole vaja;
+- projekti pull request'id tehakse töö käigus;
 - projektiseminaride kodutöid hinnatakse kodutöö juhendis oleva 100-punktise tabeli järgi;
 - release manager vahetub;
 - meeskond hoiab backlog'i ajakohasena ning võrdleb igas release'is ajahinnangut tegeliku ajakuluga;
