@@ -60,7 +60,8 @@ Tiimi repos:
 
 Iga õppija:
 
-- enda Issue, haru ja PR tiimi repos ning ühe kaaslase PR-i ülevaatus vähemalt ühe sisulise küsimusega kontrolli, mõju või vastutuse kohta. „Korras” ei ole ülevaatus. Kui kaaslasel on midagi valesti, näidake, kuidas parandada, ärge tehke tema eest ära. Kelle PR-i üle vaatate, on kirjas failis [student_pairs.md](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/blob/master/student_pairs.md) (rida `A -> B`: A vaatab üle B töö);
+- enda Issue, haru ja PR tiimi repos ning ühe tiimikaaslase PR-i ülevaatus vähemalt ühe sisulise küsimusega kontrolli, mõju või vastutuse kohta. „Korras” ei ole ülevaatus. Kui kaaslasel on midagi valesti, näidake, kuidas parandada, ärge tehke tema eest ära. Kes kelle PR-i üle vaatab, lepib tiim ise kokku;
+- kodutöö Issue PR enda `SJTA` repos: selle vaatab üle kaasõppija failist [student_pairs.md](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/blob/master/student_pairs.md) (rida `A -> B`: A vaatab üle B töö). Vaadata on vähe: refleksioon ja lingid tehtud tööle. Tiimi repo PR-ide kohta see fail ei kehti;
 - iseseisev harjutus: tehke konspekti lehe [Vea silumine ja koodi ülevaatus](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/blob/master/handbook/04-quality-and-risk/03-debugging-and-code-review.md#harjutus) harjutus. Viga on lehel antud, ise välja mõtlema ei pea. Kirjutage vea kirjeldus oma sisendiga ja üks ülevaatuse küsimus enda `SJTA` kodutöö Issue kommentaari. Koodi kirjutama ei pea;
 - refleksioon `reflections/eesnimi-perenimi-v0.3.0.md` enda `SJTA` repos. Lisaks malli küsimustele üks lõik seminari lõpuküsimusest: millist selle etapi tööd võiks teha AI, kuidas tulemust kontrolliksime ja kes vastutaks;
 - vabatahtlik: konspekti lehe [Giti ajalugu ja tagasivõtmine](https://github.com/tluhk/Sissejuhatus_tarkvaraarendusse/blob/master/handbook/04-quality-and-risk/06-git-history.md) harjutus tiimi repos. Seda ei hinnata, aga `git restore` on parem proovida koolitöös kui päris projektis.
@@ -76,7 +77,7 @@ Iga õppija:
 
 ## Esitamine
 
-Lisage kodutöö Issue kommentaari lingid: release, enda PR, tehtud ülevaatus, harjutuse vastus ja refleksioon. Kasutage täislinke või kuju `TLUHK-RIF26/tiim-XX-tunniplaan#54`; pelk `#54` teises repos ei toimi. Eraldi esitamise PR-i pole vaja.
+Kodutöö esitatakse PR-iga enda `SJTA` repos. Looge kodutöö Issue'st haru, lisage sinna refleksioon ja avage PR. PR-i kirjeldusse pange lingid: release, enda PR tiimi repos, seal tehtud ülevaatus ja harjutuse vastus. Kasutage täislinke või kuju `TLUHK-RIF26/tiim-XX-tunniplaan#54`; pelk `#54` teises repos ei toimi. Määrake ülevaatajaks kaasõppija, kes on paaride failis teie nimest vasakul. Kui kaasõppija on PR-i heaks kiitnud, lisage ülevaatajaks õppejõud. PR-i ühendab õppejõud.
 
 ## Hindamine
 
